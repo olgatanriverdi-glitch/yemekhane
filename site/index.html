@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Yemekhane – bugün ne var?</title>
+<meta name="description" content="Üniversite yemekhane menüleri: öğle, akşam ve vejetaryen. Kalori ve öğrenci fiyatıyla, her gün otomatik güncel.">
+<meta property="og:title" content="Yemekhane – bugün ne var?">
+<meta property="og:description" content="Ankara Üniversitesi yemekhane menüsü: öğle, akşam, vejetaryen. Fotoğraf, kalori ve fiyat.">
+<meta name="theme-color" content="#16120d">
+<link rel="icon" href="app/favicon.png">
+<style>
+  :root { --bg:#16120d; --kart:#211a13; --kart2:#2a2118; --yazi:#f3ece1; --soluk:#b9ab98; --vurgu:#e8892b; --vurgu2:#ffb766; --cizgi:#3a2e21; }
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body { margin:0; background:var(--bg); color:var(--yazi); font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; line-height:1.55; }
+  a { color:var(--vurgu2); text-decoration:none; }
+  .kap { max-width:1060px; margin:0 auto; padding:0 20px; }
+  nav { display:flex; align-items:center; justify-content:space-between; padding:18px 0; }
+  .logo { display:flex; align-items:center; gap:10px; font-weight:800; font-size:20px; color:var(--yazi); }
+  .logo img { width:34px; height:34px; border-radius:9px; }
+  nav .linkler a { margin-left:22px; color:var(--soluk); font-size:15px; }
+  nav .linkler a:hover { color:var(--yazi); }
+  .hero { display:grid; grid-template-columns: 1.1fr .9fr; gap:40px; align-items:center; padding:36px 0 60px; }
+  h1 { font-size:clamp(34px,5.4vw,58px); line-height:1.06; margin:0 0 18px; letter-spacing:-.02em; }
+  h1 span { color:var(--vurgu); }
+  .alt { font-size:19px; color:var(--soluk); max-width:30em; margin:0 0 28px; }
+  .dugmeler { display:flex; flex-wrap:wrap; gap:12px; }
+  .btn { display:inline-flex; align-items:center; gap:8px; padding:14px 22px; border-radius:14px; font-weight:700; font-size:16px; border:1px solid var(--cizgi); color:var(--yazi); background:var(--kart); }
+  .btn.ana { background:linear-gradient(135deg,var(--vurgu),#d6701a); border-color:transparent; color:#1b1006; }
+  .btn:hover { filter:brightness(1.1); }
+  .telefon { justify-self:center; width:min(100%,372px); background:#0c0905; border-radius:46px; padding:12px; border:2px solid #3b2f22; box-shadow:0 40px 80px -30px rgba(232,137,43,.35), 0 0 0 6px #1d160f; }
+  .telefon iframe { display:block; width:100%; height:720px; border:0; border-radius:34px; background:#16120d; }
+  .ozellikler { display:grid; grid-template-columns:repeat(3,1fr); gap:16px; margin-bottom:60px; }
+  .oz { background:var(--kart); border:1px solid var(--cizgi); border-radius:20px; padding:22px; }
+  .oz .ik { font-size:30px; }
+  .oz h3 { margin:10px 0 6px; font-size:18px; }
+  .oz p { margin:0; color:var(--soluk); font-size:15px; }
+  section h2 { font-size:28px; margin:0 0 6px; letter-spacing:-.01em; }
+  section .not { color:var(--soluk); margin:0 0 20px; }
+  .uniler { display:grid; grid-template-columns:repeat(auto-fill,minmax(250px,1fr)); gap:12px; margin-bottom:64px; }
+  .uni { display:flex; align-items:center; gap:14px; background:var(--kart); border:1px solid var(--cizgi); border-radius:18px; padding:16px; }
+  .uni .rozet { width:46px; height:46px; border-radius:14px; display:grid; place-items:center; background:var(--vurgu); color:#1b1006; font-weight:800; }
+  .uni.yakinda { opacity:.55; border-style:dashed; }
+  .uni.yakinda .rozet { background:var(--kart2); color:var(--soluk); }
+  .uni b { display:block; } .uni small { color:var(--soluk); }
+  .yorumlar { background:var(--kart); border:1px solid var(--cizgi); border-radius:24px; padding:26px; margin-bottom:60px; }
+  .yorumlar h2 { margin-top:0; }
+  footer { border-top:1px solid var(--cizgi); padding:28px 0 44px; color:var(--soluk); font-size:14px; }
+  @media (max-width:860px) {
+    .hero { grid-template-columns:1fr; padding-top:12px; }
+    .ozellikler { grid-template-columns:1fr; }
+    nav .linkler a:not(.son) { display:none; }
+  }
+</style>
+</head>
+<body>
+<div class="kap">
+  <nav>
+    <a class="logo" href="#"><img src="app/icons/Icon-192.png" alt=""> Yemekhane</a>
+    <div class="linkler"><a href="#uygulama">Uygulama</a><a href="#universiteler">Üniversiteler</a><a href="#yorumlar" class="son">Yorumlar</a></div>
+  </nav>
+
+  <header class="hero" id="uygulama">
+    <div>
+      <h1>Bugün yemekhanede <span>ne var?</span></h1>
+      <p class="alt">Öğle, akşam ve vejetaryen menü. Günün tabldot fotoğrafı, kalori ve öğrenci fiyatıyla. Okulun sitesinden her gün otomatik güncellenir.</p>
+      <div class="dugmeler">
+        <a class="btn ana" href="app/">Uygulamayı aç →</a>
+        <a class="btn" href="#yorumlar">Yorum yap</a>
+        <a class="btn" href="https://github.com/olgatanriverdi-glitch/yemekhane" target="_blank" rel="noopener">GitHub</a>
+      </div>
+      <p style="margin-top:22px;color:var(--soluk);font-size:14px" id="guncel"></p>
+    </div>
+    <div class="telefon"><iframe src="app/" title="Yemekhane uygulaması" loading="lazy"></iframe></div>
+  </header>
+
+  <div class="ozellikler">
+    <div class="oz"><div class="ik">🍽️</div><h3>Öğle · Akşam · Vejetaryen</h3><p>Üç menü tek ekranda. Günler arasında kaydırarak geç, açılışta saate göre doğru öğün seçilir.</p></div>
+    <div class="oz"><div class="ik">📸</div><h3>Günün fotoğrafı</h3><p>Okulun yayınladığı günlük tabldot fotoğrafı, menünün üstünde. Kalori ve öğrenci fiyatı yanında.</p></div>
+    <div class="oz"><div class="ik">🔄</div><h3>Her gün otomatik</h3><p>Menüler günde üç kez okulun sitesinden çekilir. Elle güncelleme yok, internet yokken son menü açılır.</p></div>
+  </div>
+
+  <section id="universiteler">
+    <h2>Üniversiteler</h2>
+    <p class="not">Şimdilik Ankara Üniversitesi var. Okulunu aşağıdaki yorumlarda yaz, sıraya alalım.</p>
+    <div class="uniler" id="uniler"></div>
+  </section>
+
+  <section class="yorumlar" id="yorumlar">
+    <h2>Yorumlar</h2>
+    <p class="not">Öneri, hata ya da eklenmesini istediğin üniversite var mı? GitHub hesabınla yaz. Yorumlar herkese açıktır.</p>
+    <script src="https://utteranc.es/client.js" repo="olgatanriverdi-glitch/yemekhane" issue-term="title" label="yorum" theme="github-dark" crossorigin="anonymous" async></script>
+  </section>
+
+  <footer>
+    Resmî bir uygulama değildir. Menü bilgileri okulların kendi sitelerinden alınır; içerik ve fotoğraflar ilgili kuruma aittir.
+    Kaynak kod: <a href="https://github.com/olgatanriverdi-glitch/yemekhane" target="_blank" rel="noopener">GitHub</a>
+  </footer>
+</div>
+<script>
+  const VERI = "https://raw.githubusercontent.com/olgatanriverdi-glitch/yemekhane/main/data/index.json";
+  fetch(VERI).then(r => r.json()).then(d => {
+    const kutu = document.getElementById("uniler");
+    d.universities.forEach(u => {
+      const e = document.createElement("div"); e.className = "uni";
+      e.innerHTML = '<div class="rozet"></div><div><b></b><small></small></div>';
+      e.querySelector(".rozet").textContent = u.short || u.name[0];
+      e.querySelector("b").textContent = u.name;
+      e.querySelector("small").textContent = u.city + " · " + u.meals.length + " öğün türü";
+      kutu.appendChild(e);
+    });
+    const y = document.createElement("div"); y.className = "uni yakinda";
+    y.innerHTML = '<div class="rozet">+</div><div><b>Yakında</b><small>Yorumlarda iste</small></div>';
+    kutu.appendChild(y);
+    const t = new Date(d.updated);
+    document.getElementById("guncel").textContent = "Son güncelleme: " + t.toLocaleString("tr-TR", { day:"numeric", month:"long", hour:"2-digit", minute:"2-digit" });
+  }).catch(() => {});
+</script>
+</body>
+</html>
