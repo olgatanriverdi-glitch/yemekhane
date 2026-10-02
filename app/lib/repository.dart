@@ -13,7 +13,9 @@ class Depo {
     final prefs = await SharedPreferences.getInstance();
     if (veriTabanUrl.isNotEmpty) {
       try {
-        final r = await http.get(Uri.parse('$veriTabanUrl/$yol')).timeout(const Duration(seconds: 12));
+        final r = await http
+            .get(Uri.parse('$veriTabanUrl/$yol'))
+            .timeout(const Duration(seconds: 12));
         if (r.statusCode == 200) {
           final govde = utf8.decode(r.bodyBytes);
           jsonDecode(govde); // bozuk veriyi önbelleğe yazma
@@ -29,17 +31,25 @@ class Depo {
 
   Future<List<Universite>> universiteler() async {
     final j = jsonDecode(await _oku('index.json')) as Map<String, dynamic>;
-    return (j['universities'] as List).map((e) => Universite.fromJson(e as Map<String, dynamic>)).toList();
+    return (j['universities'] as List)
+        .map((e) => Universite.fromJson(e as Map<String, dynamic>))
+        .toList();
   }
 
   Future<Menu> menu(String universiteId) async {
-    final j = jsonDecode(await _oku('$universiteId/menu.json')) as Map<String, dynamic>;
+    final j = jsonDecode(await _oku('$universiteId/menu.json'))
+        as Map<String, dynamic>;
     return Menu.fromJson(j);
   }
 
   /// Günün fotoğrafının adresi (yalnızca internet adresi tanımlıysa).
-  String? fotoUrl(String universiteId, String? foto) => (foto == null || veriTabanUrl.isEmpty) ? null : '$veriTabanUrl/$universiteId/$foto';
+  String? fotoUrl(String universiteId, String? foto) =>
+      (foto == null || veriTabanUrl.isEmpty)
+          ? null
+          : '$veriTabanUrl/$universiteId/$foto';
 
-  Future<String?> seciliUniversite() async => (await SharedPreferences.getInstance()).getString('universite');
-  Future<void> universiteSec(String id) async => (await SharedPreferences.getInstance()).setString('universite', id);
+  Future<String?> seciliUniversite() async =>
+      (await SharedPreferences.getInstance()).getString('universite');
+  Future<void> universiteSec(String id) async =>
+      (await SharedPreferences.getInstance()).setString('universite', id);
 }

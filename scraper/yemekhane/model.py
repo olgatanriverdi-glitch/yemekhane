@@ -62,3 +62,9 @@ def tarih_duzelt(tarihler):
         cikti.append(d.isoformat())
         onceki = d
     return cikti, duzeltmeler
+
+
+def kucuk_tr_ad(ad: str) -> str:
+    """Eşleştirme için: Türkçe küçük harf + fazla boşluk/noktalama yok."""
+    import re
+    return re.sub(r"[^0-9a-zçğıöşü]+", " ", ad.replace("İ", "i").replace("I", "ı").lower()).strip()

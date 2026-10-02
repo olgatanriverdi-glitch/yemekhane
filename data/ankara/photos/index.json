@@ -1,3 +1,20 @@
 {
- "2026-10-02": "cbc1f630ff30a5f211844686af4dd9195aac2141"
+ "dates": {
+  "2026-10-02": "41a246d21c3d"
+ },
+ "main": {
+  "211964d15e": "41a246d21c3d"
+ },
+ "menus": {
+  "41a246d21c3d": {
+   "added": "2026-10-02",
+   "hash": "cbc1f630ff30a5f211844686af4dd9195aac2141",
+   "items": [
+    "Tarhana Çorba",
+    "Izgara Tavuk But/Patates Garnitür",
+    "Soslu Makarna",
+    "Meyve"
+   ]
+  }
+ }
 }
