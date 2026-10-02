@@ -46,10 +46,22 @@ class _AnaSayfaState extends State<AnaSayfa> {
         final t = _menu!.tarihler;
         _tarih = t.firstWhere((x) => x.compareTo(_tarih) >= 0, orElse: () => t.last);
       }
+      _uygunOgunSec();
     } catch (e) {
       _hata = 'Menü yüklenemedi. İnternet bağlantını kontrol et.';
     }
     if (mounted) setState(() => _yukleniyor = false);
+  }
+
+  // Gün değişince / ilk açılışta: seçili öğün o gün boşsa (okul yayınlamamış olabilir) dolu olan ilk öğüne geç.
+  // Kullanıcı sekmeye kendisi basarsa dokunulmaz.
+  void _uygunOgunSec() {
+    final gun = _menu?.gunler[_tarih];
+    if (gun == null) return;
+    if (gun[_ogun] != null && !gun[_ogun]!.bos) return;
+    for (final t in ['lunch', 'dinner', 'vegetarian']) {
+      if (gun[t] != null && !gun[t]!.bos) { _ogun = t; return; }
+    }
   }
 
   Future<void> _uniSec() async {
@@ -88,20 +100,14 @@ class _AnaSayfaState extends State<AnaSayfa> {
     final tarihler = menu.tarihler;
     final gun = menu.gunler[_tarih] ?? {};
     final turler = [for (final t in ['lunch', 'dinner', 'vegetarian']) if (_uni!.ogunler.contains(t)) t];
-    // seçili öğün o gün boşsa (okul henüz yayınlamamış olabilir) dolu olan ilk öğüne geç
-    var aktif = turler.contains(_ogun) ? _ogun : turler.first;
-    if (gun[aktif] == null || gun[aktif]!.bos) {
-      for (final t in turler) {
-        if (gun[t] != null && !gun[t]!.bos) { aktif = t; break; }
-      }
-    }
+    final aktif = turler.contains(_ogun) ? _ogun : turler.first;
     final ogun = gun[aktif];
     return Column(children: [
-      _GunSeridi(tarihler: tarihler, secili: _tarih, bugun: isoTarih(DateTime.now()), degisti: (t) => setState(() => _tarih = t)),
+      _GunSeridi(tarihler: tarihler, secili: _tarih, bugun: isoTarih(DateTime.now()), degisti: (t) => setState(() { _tarih = t; _uygunOgunSec(); })),
       Padding(
         padding: const EdgeInsets.fromLTRB(16, 8, 16, 4),
         child: SegmentedButton<String>(
-          segments: [for (final t in turler) ButtonSegment(value: t, label: Text(_ogunAdlari[t] ?? t, maxLines: 1, softWrap: false), icon: Icon(_ogunIkon[t], size: 18))],
+          segments: [for (final t in turler) ButtonSegment(value: t, label: FittedBox(fit: BoxFit.scaleDown, child: Text(_ogunAdlari[t] ?? t, maxLines: 1)), icon: Icon(_ogunIkon[t], size: 18))],
           selected: {aktif},
           showSelectedIcon: false,
           style: const ButtonStyle(visualDensity: VisualDensity.compact, padding: WidgetStatePropertyAll(EdgeInsets.symmetric(horizontal: 4))),
