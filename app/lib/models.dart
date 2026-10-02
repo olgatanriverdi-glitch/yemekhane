@@ -72,3 +72,21 @@ class Menu {
 }
 
 String isoTarih(DateTime d) => '${d.year.toString().padLeft(4, '0')}-${d.month.toString().padLeft(2, '0')}-${d.day.toString().padLeft(2, '0')}';
+
+/// Türkçe'ye uygun küçük harfe çevirme (İ -> i, I -> ı).
+String kucukTr(String s) => s.replaceAll('İ', 'i').replaceAll('I', 'ı').toLowerCase();
+
+const _etAnahtar = [
+  'et ', ' et', 'etli', 'tavuk', 'piliç', 'köfte', 'kıyma', 'kebap', 'döner', 'bifte', 'biftek', 'balık', 'sucuk', 'salam', 'sosis', 'dana', 'kuzu',
+  'hindi', 'ciğer', 'mantı', 'şnitzel', 'tantuni', 'iskender', 'kavurma', 'baget', 'but ', 'but/', 'incik', 'şiş', 'tavuk', 'bacak', 'kanat', 'taleks',
+  'topkapı', 'bonfile', 'pirzola', 'hamburger', 'nugget', 'karkas', 'tas kebabı', 'güveç',
+];
+
+/// Ad, bilinen et / tavuk / balık anahtar kelimelerinden birini içermiyorsa "etsiz" sayılır (tahmini).
+bool etsizMi(String ad) {
+  final k = ' ${kucukTr(ad)} ';
+  for (final a in _etAnahtar) {
+    if (k.contains(a)) return false;
+  }
+  return true;
+}

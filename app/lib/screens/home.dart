@@ -129,7 +129,7 @@ class _AnaSayfaState extends State<AnaSayfa> {
             if (v > 250 && i > 0) _gunSec(tarihler[i - 1]);
           },
           child: ogun == null || ogun.bos
-            ? Center(child: Text('Bu gün için ${_ogunAdlari[aktif]?.toLowerCase() ?? ''} menüsü henüz yayınlanmadı.', textAlign: TextAlign.center))
+            ? (aktif == 'vegetarian' ? _EtsizOneri(gun: gun) : Center(child: Text('Bu gün için ${_ogunAdlari[aktif]?.toLowerCase() ?? ''} menüsü henüz yayınlanmadı.', textAlign: TextAlign.center)))
             : _OgunKarti(ogun: ogun, fiyat: _uni!.ogrenciFiyati(aktif), fotoUrl: _depo.fotoUrl(_uni!.id, ogun.foto)),
         ),
       ),
@@ -290,6 +290,59 @@ class _OgunKarti extends StatelessWidget {
                 if (ogun.kcal != null) Chip(avatar: const Icon(Icons.local_fire_department_outlined, size: 18), label: Text('Toplam ${ogun.kcal} kkal')),
                 if (fiyat != null) Chip(avatar: const Icon(Icons.payments_outlined, size: 18), label: Text('Öğrenci $fiyat ₺')),
               ]),
+            ]),
+          ),
+        ),
+      ],
+    );
+  }
+}
+
+/// Okul o gün vejetaryen menü yayınlamadıysa: öğle ve akşam menüsündeki etsiz görünen yemekleri öneri olarak gösterir.
+class _EtsizOneri extends StatelessWidget {
+  final Map<String, Ogun> gun;
+  const _EtsizOneri({required this.gun});
+
+  @override
+  Widget build(BuildContext context) {
+    final tema = Theme.of(context);
+    final bolumler = <Widget>[];
+    for (final tur in ['lunch', 'dinner']) {
+      final o = gun[tur];
+      if (o == null || o.bos) continue;
+      final etsiz = o.ogeler.where((e) => etsizMi(e.ad)).toList();
+      if (etsiz.isEmpty) continue;
+      bolumler.add(Padding(
+        padding: const EdgeInsets.only(top: 14, bottom: 4),
+        child: Text('${_ogunAdlari[tur]} menüsünden etsiz görünenler', style: tema.textTheme.titleSmall?.copyWith(color: tema.colorScheme.primary)),
+      ));
+      for (final e in etsiz) {
+        bolumler.add(Padding(
+          padding: const EdgeInsets.symmetric(vertical: 5),
+          child: Row(children: [
+            Icon(Icons.eco_outlined, size: 18, color: tema.colorScheme.primary),
+            const SizedBox(width: 10),
+            Expanded(child: Text(e.ad, style: tema.textTheme.titleMedium)),
+            if (e.kcal != null) Text('${e.kcal} kkal', style: tema.textTheme.bodyMedium?.copyWith(color: tema.colorScheme.onSurfaceVariant)),
+          ]),
+        ));
+      }
+    }
+    return ListView(
+      padding: const EdgeInsets.all(16),
+      children: [
+        Card(
+          elevation: 0,
+          color: tema.colorScheme.surfaceContainerLow,
+          shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(24)),
+          child: Padding(
+            padding: const EdgeInsets.all(20),
+            child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
+              Text('Okul bu gün için ayrı bir vejetaryen menü yayınlamadı.', style: tema.textTheme.titleMedium),
+              if (bolumler.isNotEmpty) ...bolumler else const Padding(padding: EdgeInsets.only(top: 12), child: Text('Bu günün menüsünde etsiz görünen yemek bulunamadı.')),
+              const Divider(height: 28),
+              Text('Bu liste otomatik tahmindir (yemek adlarına göre). Çorba ve yemeklerin içeriği değişebilir; kesin bilgi için yemekhane görevlisine sor.',
+                  style: tema.textTheme.bodySmall?.copyWith(color: tema.colorScheme.onSurfaceVariant)),
             ]),
           ),
         ),
