@@ -54,6 +54,24 @@ class AnkaraTesti(unittest.TestCase):
         self.assertIn("dinner", m["2026-10-02"])
 
 
+class TarihDuzeltTesti(unittest.TestCase):
+    def test_okul_hatasi(self):
+        from yemekhane.model import tarih_duzelt
+        g, d = tarih_duzelt(["2026-10-11", "2026-04-12", "2026-04-13", "2026-04-18", "2026-10-19"])
+        self.assertEqual(g, ["2026-10-11", "2026-10-12", "2026-10-13", "2026-10-18", "2026-10-19"])
+        self.assertEqual(len(d), 3)
+        # ay geçişi bozulmamalı
+        self.assertEqual(tarih_duzelt(["2026-10-31", "2026-11-01"])[0], ["2026-10-31", "2026-11-01"])
+        # hafta içi atlamalı (öğle) listede normal gelen tarihlere dokunma
+        self.assertEqual(tarih_duzelt(["2026-10-02", "2026-10-05", "2026-10-06"])[1], [])
+
+    def test_aksam_dosyasi(self):
+        g = xlsx_menu(oku("ankara_aksam.xlsx"))
+        for gun in range(12, 19):
+            self.assertIn("2026-10-%02d" % gun, g)
+        self.assertFalse([t for t in g if t.startswith("2026-04")])
+
+
 class OcrTesti(unittest.TestCase):
     def test_liste(self):
         from yemekhane.ocr import liste_ayikla, tarih_ayikla

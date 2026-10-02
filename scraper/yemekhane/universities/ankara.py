@@ -2,7 +2,7 @@
 import html
 import re
 
-from ..model import excel_tarih, toplam_kalori, yemek_ogesi
+from ..model import excel_tarih, tarih_duzelt, toplam_kalori, yemek_ogesi
 from ..xlsx import satirlar
 from .base import Universite, indir
 
@@ -18,10 +18,11 @@ SKS_SAYFA = "https://sks.ankara.edu.tr/yemek-hizmetleri-2/"
 def xlsx_menu(veri: bytes) -> dict:
     """Bir XLSX dosyasını {tarih: {'items': [...], 'kcal': n}} sözlüğüne çevirir."""
     gunler = {}
-    for satir in satirlar(veri):
-        a = satir.get("A", "")
-        if not re.fullmatch(r"\d{5}(\.\d+)?", a):          # tarih satırı (Excel gün numarası)
-            continue
+    tarih_satirlari = [s for s in satirlar(veri) if re.fullmatch(r"\d{5}(\.\d+)?", s.get("A", ""))]    # Excel gün numarası olan satırlar
+    tarihler, duzeltmeler = tarih_duzelt([excel_tarih(s["A"]) for s in tarih_satirlari])
+    for eski, yeni in duzeltmeler:
+        print("DÜZELTME: okulun dosyasındaki tarih %s -> %s olarak yorumlandı" % (eski, yeni))
+    for satir, tarih in zip(tarih_satirlari, tarihler):
         ogeler = [yemek_ogesi(satir[s]) for s in "BCDE" if satir.get(s)]
         gun = {"items": ogeler}
         k = toplam_kalori(satir.get("F", ""))
@@ -29,7 +30,7 @@ def xlsx_menu(veri: bytes) -> dict:
             gun["kcal"] = k
         elif all("kcal" in o for o in ogeler) and ogeler:
             gun["kcal"] = sum(o["kcal"] for o in ogeler)
-        gunler[excel_tarih(a)] = gun
+        gunler[tarih] = gun
     return gunler
 
 

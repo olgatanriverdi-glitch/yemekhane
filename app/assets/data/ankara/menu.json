@@ -381,6 +381,22 @@
    }
   },
   "2026-10-12": {
+   "dinner": {
+    "items": [
+     {
+      "name": "Köylüm Çorba"
+     },
+     {
+      "name": "Et Tantuni/Lavaş/Turşu"
+     },
+     {
+      "name": "Soslu Karışık Kızartma"
+     },
+     {
+      "name": "Ayran"
+     }
+    ]
+   },
    "lunch": {
     "items": [
      {
@@ -404,6 +420,22 @@
    }
   },
   "2026-10-13": {
+   "dinner": {
+    "items": [
+     {
+      "name": "Alaca Çorba"
+     },
+     {
+      "name": "İçli Köfte"
+     },
+     {
+      "name": "Zeytinyağlı Taze Fasulye"
+     },
+     {
+      "name": "Red Velvet"
+     }
+    ]
+   },
    "lunch": {
     "items": [
      {
@@ -427,6 +459,22 @@
    }
   },
   "2026-10-14": {
+   "dinner": {
+    "items": [
+     {
+      "name": "Kırmızı Mercimek Çorba"
+     },
+     {
+      "name": "Tavuk Sote"
+     },
+     {
+      "name": "Soslu Makarna"
+     },
+     {
+      "name": "Meyve"
+     }
+    ]
+   },
    "lunch": {
     "items": [
      {
@@ -450,6 +498,22 @@
    }
   },
   "2026-10-15": {
+   "dinner": {
+    "items": [
+     {
+      "name": "Şehriye Çorba"
+     },
+     {
+      "name": "Etli Mevsim Türlü"
+     },
+     {
+      "name": "Sade Pirinç Pilavı"
+     },
+     {
+      "name": "Kadayıflı Muhallebi"
+     }
+    ]
+   },
    "lunch": {
     "items": [
      {
@@ -473,6 +537,22 @@
    }
   },
   "2026-10-16": {
+   "dinner": {
+    "items": [
+     {
+      "name": "Anadolu Çorba"
+     },
+     {
+      "name": "Izgara Tavuk Baget/Patates Garnitür"
+     },
+     {
+      "name": "Soslu Spagetti"
+     },
+     {
+      "name": "Mısırlı Aysberg Salata"
+     }
+    ]
+   },
    "lunch": {
     "items": [
      {
@@ -493,6 +573,42 @@
      }
     ],
     "kcal": 1837
+   }
+  },
+  "2026-10-17": {
+   "dinner": {
+    "items": [
+     {
+      "name": "Düğürcük Çorba"
+     },
+     {
+      "name": "Pideli Köfte"
+     },
+     {
+      "name": "Şakşuka"
+     },
+     {
+      "name": "Meyve"
+     }
+    ]
+   }
+  },
+  "2026-10-18": {
+   "dinner": {
+    "items": [
+     {
+      "name": "Sebze Çorba"
+     },
+     {
+      "name": "Etli Nohut"
+     },
+     {
+      "name": "Şehriyeli Pirinç Pilavı/Turşu"
+     },
+     {
+      "name": "Kakaolu Puding"
+     }
+    ]
    }
   },
   "2026-10-19": {
@@ -913,5 +1029,5 @@
   }
  },
  "university": "ankara",
- "updated": "2026-10-02T13:36:30+03:00"
+ "updated": "2026-10-02T16:51:47+03:00"
 }

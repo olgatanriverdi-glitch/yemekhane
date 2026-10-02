@@ -35,3 +35,30 @@ def yemek_ogesi(hucre: str):
 def toplam_kalori(hucre: str):
     m = re.search(r"(\d+)", hucre or "")
     return int(m.group(1)) if m else None
+
+
+def tarih_duzelt(tarihler):
+    """Okulun Excel dosyalarındaki ay/yıl yazım hatalarını komşu satırlara bakarak düzeltir.
+    Örn: ...10/11, 4/12, 4/13 ... 4/18, 10/19 -> 4/12..4/18 aslında 10/12..10/18'dir (gün sırası doğru, ay yanlış).
+    Kural: tarih bir önceki (güvenilir) satırdan 1-4 gün sonra değilse, günü aynı kalıp ay/yılı önceki satırdan (ya da bir sonraki aydan)
+    alan aday aynı aralığa düşüyorsa onu kullanır. Döndürür: (düzeltilmiş ISO liste, [(eski, yeni), ...])."""
+    from datetime import date
+    cikti, duzeltmeler, onceki = [], [], None
+    for t in tarihler:
+        d = date.fromisoformat(t)
+        if onceki is not None and not (1 <= (d - onceki).days <= 4):
+            for ay_ek in (0, 1):
+                ay = onceki.month + ay_ek
+                yil = onceki.year + (1 if ay > 12 else 0)
+                ay = ay - 12 if ay > 12 else ay
+                try:
+                    aday = date(yil, ay, d.day)
+                except ValueError:
+                    continue
+                if 1 <= (aday - onceki).days <= 4:
+                    duzeltmeler.append((t, aday.isoformat()))
+                    d = aday
+                    break
+        cikti.append(d.isoformat())
+        onceki = d
+    return cikti, duzeltmeler
