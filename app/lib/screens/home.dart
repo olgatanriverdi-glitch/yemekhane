@@ -88,21 +88,30 @@ class _AnaSayfaState extends State<AnaSayfa> {
     final tarihler = menu.tarihler;
     final gun = menu.gunler[_tarih] ?? {};
     final turler = [for (final t in ['lunch', 'dinner', 'vegetarian']) if (_uni!.ogunler.contains(t)) t];
-    final ogun = gun[_ogun];
+    // seçili öğün o gün boşsa (okul henüz yayınlamamış olabilir) dolu olan ilk öğüne geç
+    var aktif = turler.contains(_ogun) ? _ogun : turler.first;
+    if (gun[aktif] == null || gun[aktif]!.bos) {
+      for (final t in turler) {
+        if (gun[t] != null && !gun[t]!.bos) { aktif = t; break; }
+      }
+    }
+    final ogun = gun[aktif];
     return Column(children: [
       _GunSeridi(tarihler: tarihler, secili: _tarih, bugun: isoTarih(DateTime.now()), degisti: (t) => setState(() => _tarih = t)),
       Padding(
         padding: const EdgeInsets.fromLTRB(16, 8, 16, 4),
         child: SegmentedButton<String>(
-          segments: [for (final t in turler) ButtonSegment(value: t, label: Text(_ogunAdlari[t] ?? t), icon: Icon(_ogunIkon[t]))],
-          selected: {turler.contains(_ogun) ? _ogun : turler.first},
+          segments: [for (final t in turler) ButtonSegment(value: t, label: Text(_ogunAdlari[t] ?? t, maxLines: 1, softWrap: false), icon: Icon(_ogunIkon[t], size: 18))],
+          selected: {aktif},
+          showSelectedIcon: false,
+          style: const ButtonStyle(visualDensity: VisualDensity.compact, padding: WidgetStatePropertyAll(EdgeInsets.symmetric(horizontal: 4))),
           onSelectionChanged: (s) => setState(() => _ogun = s.first),
         ),
       ),
       Expanded(
         child: ogun == null || ogun.bos
-            ? Center(child: Text('Bu gün için ${_ogunAdlari[_ogun]?.toLowerCase() ?? ''} menüsü henüz yayınlanmadı.', textAlign: TextAlign.center))
-            : _OgunKarti(ogun: ogun, fiyat: _uni!.ogrenciFiyati(_ogun)),
+            ? Center(child: Text('Bu gün için ${_ogunAdlari[aktif]?.toLowerCase() ?? ''} menüsü henüz yayınlanmadı.', textAlign: TextAlign.center))
+            : _OgunKarti(ogun: ogun, fiyat: _uni!.ogrenciFiyati(aktif)),
       ),
       if (menu.guncellendi != null)
         Padding(
