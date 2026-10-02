@@ -42,10 +42,12 @@ class YemekOgesi {
 class Ogun {
   final List<YemekOgesi> ogeler;
   final int? kcal;
-  Ogun(this.ogeler, this.kcal);
+  final String? foto; // 'photos/2026-10-02.jpg' (günün tabldot fotoğrafı, varsa)
+  Ogun(this.ogeler, this.kcal, [this.foto]);
   factory Ogun.fromJson(Map<String, dynamic> j) => Ogun(
         ((j['items'] ?? const []) as List).map((e) => YemekOgesi.fromJson(e as Map<String, dynamic>)).toList(),
         (j['kcal'] as num?)?.toInt(),
+        j['photo'] as String?,
       );
   bool get bos => ogeler.isEmpty;
 }

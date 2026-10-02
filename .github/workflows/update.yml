@@ -12,6 +12,11 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with: { python-version: "3.12" }
+      - name: Bağımlılıklar (görsel okuma + fotoğraf küçültme)
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq tesseract-ocr tesseract-ocr-tur
+          pip install pillow
       - name: Testler
         run: cd scraper && python -m unittest discover -s tests -t .
       - name: Menüleri çek

@@ -21,6 +21,10 @@ class Universite:
         """{'2026-10-01': {'lunch': {...}, 'dinner': {...}, 'vegetarian': {...}}, ...} döndürür."""
         raise NotImplementedError
 
+    def gunluk(self):
+        """Opsiyonel: bugüne özel veri. {'date': 'YYYY-MM-DD'|None, 'photo': jpeg bayt|None, 'items': [...]|None, 'meal': 'lunch'} ya da None."""
+        return None
+
     def fiyatlar(self) -> list:
         """[{'label': 'Öğrenci (Öğle)', 'tl': 50}, ...] (bulunamazsa boş liste)."""
         return []

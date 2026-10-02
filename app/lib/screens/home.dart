@@ -117,7 +117,7 @@ class _AnaSayfaState extends State<AnaSayfa> {
       Expanded(
         child: ogun == null || ogun.bos
             ? Center(child: Text('Bu gün için ${_ogunAdlari[aktif]?.toLowerCase() ?? ''} menüsü henüz yayınlanmadı.', textAlign: TextAlign.center))
-            : _OgunKarti(ogun: ogun, fiyat: _uni!.ogrenciFiyati(aktif)),
+            : _OgunKarti(ogun: ogun, fiyat: _uni!.ogrenciFiyati(aktif), fotoUrl: _depo.fotoUrl(_uni!.id, ogun.foto)),
       ),
       if (menu.guncellendi != null)
         Padding(
@@ -197,7 +197,8 @@ class _GunSeridiState extends State<_GunSeridi> {
 class _OgunKarti extends StatelessWidget {
   final Ogun ogun;
   final int? fiyat;
-  const _OgunKarti({required this.ogun, this.fiyat});
+  final String? fotoUrl;
+  const _OgunKarti({required this.ogun, this.fiyat, this.fotoUrl});
 
   @override
   Widget build(BuildContext context) {
@@ -205,6 +206,22 @@ class _OgunKarti extends StatelessWidget {
     return ListView(
       padding: const EdgeInsets.all(16),
       children: [
+        if (fotoUrl != null)
+          Padding(
+            padding: const EdgeInsets.only(bottom: 12),
+            child: ClipRRect(
+              borderRadius: BorderRadius.circular(24),
+              child: AspectRatio(
+                aspectRatio: 3 / 2,
+                child: Image.network(
+                  fotoUrl!,
+                  fit: BoxFit.cover,
+                  loadingBuilder: (c, child, p) => p == null ? child : Container(color: tema.colorScheme.surfaceContainerHighest, child: const Center(child: CircularProgressIndicator())),
+                  errorBuilder: (c, e, s) => Container(color: tema.colorScheme.surfaceContainerHighest, child: const Center(child: Icon(Icons.restaurant, size: 40))),
+                ),
+              ),
+            ),
+          ),
         Card(
           elevation: 0,
           color: tema.colorScheme.surfaceContainerLow,

@@ -54,5 +54,14 @@ class AnkaraTesti(unittest.TestCase):
         self.assertIn("dinner", m["2026-10-02"])
 
 
+class OcrTesti(unittest.TestCase):
+    def test_liste(self):
+        from yemekhane.ocr import liste_ayikla, tarih_ayikla
+        m = "► TARHANA ÇORBA (176 kkal)\n\n► IZGARA TAVUK\nBAGET/PATATES GARNİTÜR (756\nkkal)\n\n► MEYVE (80 kkal)\n"
+        self.assertEqual(liste_ayikla(m), [{"name": "Tarhana Çorba", "kcal": 176}, {"name": "Izgara Tavuk Baget/Patates Garnitür", "kcal": 756}, {"name": "Meyve", "kcal": 80}])
+        self.assertEqual(tarih_ayikla("02.10.2026 Tarihli Yemek Listesi"), "2026-10-02")
+        self.assertIsNone(tarih_ayikla("tarih yok"))
+
+
 if __name__ == "__main__":
     unittest.main()

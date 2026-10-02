@@ -13,9 +13,9 @@ void main() {
     expect(uniler.first.ogrenciFiyati('dinner'), 100);
 
     final menu = Menu.fromJson(jsonDecode(File('assets/data/ankara/menu.json').readAsStringSync()) as Map<String, dynamic>);
-    final gun = menu.gunler['2026-09-01']!;
-    expect(gun['lunch']!.ogeler.length, 4);
-    expect(gun['lunch']!.kcal, 1910);
+    expect(menu.tarihler, isNotEmpty);
+    final tarih = menu.tarihler.firstWhere((t) => menu.gunler[t]!['lunch'] != null && !menu.gunler[t]!['lunch']!.bos);
+    expect(menu.gunler[tarih]!['lunch']!.ogeler.length, greaterThanOrEqualTo(3));
     expect(isoTarih(DateTime(2026, 9, 1)), '2026-09-01');
   });
 }

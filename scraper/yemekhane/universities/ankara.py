@@ -65,6 +65,27 @@ class AnkaraUniversitesi(Universite):
                 sonuc.setdefault(tarih, {})[tur] = gun
         return sonuc
 
+    def gunluk(self):
+        """SKS sayfası bugünün tabldot fotoğrafını ve listesini görsel olarak yayınlıyor (resim.php / baslik.php / yemek.php)."""
+        from .. import ocr
+        foto = None
+        try:
+            foto = self.indir(TABAN + "resim.php")
+        except Exception as e:
+            print("UYARI: günlük fotoğraf alınamadı:", e)
+        tarih, ogeler = None, None
+        if ocr.kullanilabilir():
+            try:
+                tarih = ocr.tarih_ayikla(ocr.oku(self.indir(TABAN + "baslik.php"), psm=7))
+                ogeler = ocr.liste_ayikla(ocr.oku(self.indir(TABAN + "yemek.php"), psm=6)) or None
+            except Exception as e:
+                print("UYARI: günlük liste okunamadı:", e)
+        else:
+            print("BİLGİ: tesseract yok, günlük liste görselden okunmadı")
+        if not foto and not ogeler:
+            return None
+        return {"date": tarih, "photo": foto, "items": ogeler, "meal": "lunch"}
+
     def fiyatlar(self) -> list:
         try:
             return fiyat_ayikla(self.indir(SKS_SAYFA).decode("utf-8", "ignore"))

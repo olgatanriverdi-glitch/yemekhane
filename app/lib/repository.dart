@@ -37,6 +37,9 @@ class Depo {
     return Menu.fromJson(j);
   }
 
+  /// Günün fotoğrafının adresi (yalnızca internet adresi tanımlıysa).
+  String? fotoUrl(String universiteId, String? foto) => (foto == null || veriTabanUrl.isEmpty) ? null : '$veriTabanUrl/$universiteId/$foto';
+
   Future<String?> seciliUniversite() async => (await SharedPreferences.getInstance()).getString('universite');
   Future<void> universiteSec(String id) async => (await SharedPreferences.getInstance()).setString('universite', id);
 }
