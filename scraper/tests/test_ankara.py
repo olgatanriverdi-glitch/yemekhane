@@ -57,8 +57,8 @@ class AnkaraTesti(unittest.TestCase):
 class TarihDuzeltTesti(unittest.TestCase):
     def test_okul_hatasi(self):
         from yemekhane.model import tarih_duzelt
-        g, d = tarih_duzelt(["2026-10-11", "2026-04-12", "2026-04-13", "2026-04-18", "2026-10-19"])
-        self.assertEqual(g, ["2026-10-11", "2026-10-12", "2026-10-13", "2026-10-18", "2026-10-19"])
+        g, d = tarih_duzelt(["2026-10-11", "2026-04-12", "2026-04-13", "2026-04-14", "2026-10-15"])
+        self.assertEqual(g, ["2026-10-11", "2026-10-12", "2026-10-13", "2026-10-14", "2026-10-15"])
         self.assertEqual(len(d), 3)
         # ay geçişi bozulmamalı
         self.assertEqual(tarih_duzelt(["2026-10-31", "2026-11-01"])[0], ["2026-10-31", "2026-11-01"])
