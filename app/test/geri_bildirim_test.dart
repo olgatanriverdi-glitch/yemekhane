@@ -26,26 +26,85 @@ void main() {
     expect((await d.yorumlar('s')).length, 1);
   });
 
+  test('firestore depo: dizin yoksa ortalama yedekle hesaplanır', () async {
+    final istemci = MockClient((r) async {
+      final u = r.url.toString();
+      if (u.contains('accounts:signUp')) {
+        return http.Response(
+            jsonEncode({
+              'idToken': 'T',
+              'refreshToken': 'R',
+              'localId': 'U1',
+              'expiresIn': '3600'
+            }),
+            200);
+      }
+      if (u.contains(':runAggregationQuery')) {
+        return http.Response('{"error":{"status":"FAILED_PRECONDITION"}}', 400);
+      }
+      if (u.contains(':runQuery')) {
+        Map d(int s) => {
+              'document': {
+                'name': 'x/y/z',
+                'fields': {
+                  'stars': {'integerValue': '$s'}
+                }
+              }
+            };
+        return http.Response(
+            jsonEncode([
+              d(5),
+              d(4),
+              d(3),
+              {'readTime': 'x'}
+            ]),
+            200);
+      }
+      return http.Response('{}', 200);
+    });
+    final o = await FirestoreDepo('p', 'K', istemci).puanOzeti('s');
+    expect(o.adet, 3);
+    expect(o.ortalama, 4.0);
+  });
+
   test('firestore depo: giriş, puan, yorum (sahte sunucu)', () async {
     final istekler = <String>[];
     final istemci = MockClient((r) async {
-      istekler.add('${r.method} ${r.url.path}${r.url.path.contains(':') ? '' : ''}');
+      istekler.add(
+          '${r.method} ${r.url.path}${r.url.path.contains(':') ? '' : ''}');
       final u = r.url.toString();
       if (u.contains('accounts:signUp')) {
-        return http.Response(jsonEncode({'idToken': 'T', 'refreshToken': 'R', 'localId': 'U1', 'expiresIn': '3600'}), 200);
+        return http.Response(
+            jsonEncode({
+              'idToken': 'T',
+              'refreshToken': 'R',
+              'localId': 'U1',
+              'expiresIn': '3600'
+            }),
+            200);
       }
       expect(r.headers['Authorization'], 'Bearer T');
       if (u.contains(':runAggregationQuery')) {
-        return http.Response(jsonEncode([
-          {'result': {'aggregateFields': {'n': {'integerValue': '3'}, 'ort': {'doubleValue': 4.333}}}}
-        ]), 200);
+        return http.Response(
+            jsonEncode([
+              {
+                'result': {
+                  'aggregateFields': {
+                    'n': {'integerValue': '3'},
+                    'ort': {'doubleValue': 4.333}
+                  }
+                }
+              }
+            ]),
+            200);
       }
       if (u.contains(':runQuery')) {
         return http.Response(
             jsonEncode([
               {
                 'document': {
-                  'name': 'projects/p/databases/(default)/documents/comments/C1',
+                  'name':
+                      'projects/p/databases/(default)/documents/comments/C1',
                   'fields': {
                     'uid': {'stringValue': 'U1'},
                     'name': {'stringValue': 'Ali'},
@@ -87,6 +146,7 @@ void main() {
     expect(y.first.id, 'C1');
     expect(y.first.ad, 'Ali');
     await d.yorumEkle('s', 'Ali', 'Merhaba');
-    expect(istekler.where((e) => e.contains('signUp')).length, 1); // tek kez giriş
+    expect(
+        istekler.where((e) => e.contains('signUp')).length, 1); // tek kez giriş
   });
 }

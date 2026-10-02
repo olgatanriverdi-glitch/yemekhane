@@ -221,6 +221,10 @@ class FirestoreDepo implements GeriBildirimDeposu {
             ],
           }
         }));
+    if (r.statusCode == 400 || r.statusCode == 412) {
+      return _puanOzetiYedek(
+          slot); // bileşik dizin henüz yok: ortalamayı uygulamada hesapla
+    }
     if (r.statusCode != 200) {
       throw Exception('Puan okunamadı (${r.statusCode})');
     }
@@ -232,6 +236,30 @@ class FirestoreDepo implements GeriBildirimDeposu {
     final ort = f['ort'];
     final d = ort == null ? null : (ort['doubleValue'] ?? ort['integerValue']);
     return PuanOzeti(n == 0 || d == null ? null : double.parse('$d'), n);
+  }
+
+  /// Dizin gerektirmeyen yedek: öğünün puanlarını (en fazla 1000) çekip ortalamasını hesaplar.
+  Future<PuanOzeti> _puanOzetiYedek(String slot) async {
+    final r = await _c.post(Uri.parse('$_kok:runQuery'),
+        headers: await _baslik(),
+        body: jsonEncode(
+            {'structuredQuery': _slotSorgusu('ratings', slot, limit: 1000)}));
+    if (r.statusCode != 200) {
+      throw Exception('Puan okunamadı (${r.statusCode})');
+    }
+    var toplam = 0, adet = 0;
+    for (final e in jsonDecode(r.body) as List) {
+      final f = (e as Map<String, dynamic>)['document']?['fields']
+          as Map<String, dynamic>?;
+      final v = f?['stars']?['integerValue'];
+      if (v != null) {
+        toplam += int.parse('$v');
+        adet++;
+      }
+    }
+    return adet == 0
+        ? const PuanOzeti(null, 0)
+        : PuanOzeti(toplam / adet, adet);
   }
 
   @override
