@@ -38,7 +38,9 @@ class Universite {
         ogun == 'lunch' ? 'öğle' : (ogun == 'dinner' ? 'akşam' : '');
     for (final f in fiyatlar) {
       final e = f.etiket.toLowerCase();
-      if (e.startsWith('öğrenci') && anahtar.isNotEmpty && e.contains(anahtar)) {
+      if (e.startsWith('öğrenci') &&
+          anahtar.isNotEmpty &&
+          e.contains(anahtar)) {
         return f.tl;
       }
     }

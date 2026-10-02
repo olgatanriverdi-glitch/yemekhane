@@ -2,7 +2,9 @@ import 'package:flutter/material.dart';
 
 import '../config.dart';
 import '../models.dart';
+import '../geri_bildirim.dart';
 import '../repository.dart';
+import 'geri_bildirim.dart';
 import 'university_picker.dart';
 
 const _ogunAdlari = {
@@ -24,6 +26,7 @@ class AnaSayfa extends StatefulWidget {
 
 class _AnaSayfaState extends State<AnaSayfa> {
   final _depo = Depo();
+  final _geriBildirim = GeriBildirimDeposu.olustur();
   List<Universite> _uniler = [];
   Universite? _uni;
   Menu? _menu;
@@ -196,7 +199,9 @@ class _AnaSayfaState extends State<AnaSayfa> {
                   ogun: ogun,
                   fiyat: _uni!.ogrenciFiyati(aktif),
                   fotoUrl: _depo.fotoUrl(_uni!.id, ogun.foto),
-                  fotoYaklasik: ogun.fotoYaklasik),
+                  fotoYaklasik: ogun.fotoYaklasik,
+                  geriBildirim: _geriBildirim,
+                  slot: slotKimligi(_uni!.id, _tarih, aktif)),
         ),
       ),
       if (menu.guncellendi != null)
@@ -365,11 +370,15 @@ class _OgunKarti extends StatelessWidget {
   final int? fiyat;
   final String? fotoUrl;
   final bool fotoYaklasik;
+  final GeriBildirimDeposu geriBildirim;
+  final String slot;
   const _OgunKarti(
       {required this.ogun,
       this.fiyat,
       this.fotoUrl,
-      this.fotoYaklasik = false});
+      this.fotoYaklasik = false,
+      required this.geriBildirim,
+      required this.slot});
 
   @override
   Widget build(BuildContext context) {
@@ -454,6 +463,8 @@ class _OgunKarti extends StatelessWidget {
             ]),
           ),
         ),
+        const SizedBox(height: 12),
+        GeriBildirimBolumu(key: ValueKey(slot), depo: geriBildirim, slot: slot),
       ],
     );
   }
