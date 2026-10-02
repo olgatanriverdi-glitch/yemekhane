@@ -26,4 +26,10 @@ jobs:
           git config user.name "yemekhane-bot"
           git config user.email "bot@users.noreply.github.com"
           git add data
-          git diff --cached --quiet || (git commit -m "Menüler güncellendi" && git push)
+          if git diff --cached --quiet; then echo "Değişiklik yok"; exit 0; fi
+          git commit -m "Menüler güncellendi"
+          for i in 1 2 3; do
+            git pull --rebase -X theirs origin main && git push && exit 0
+            echo "Push başarısız, tekrar deneniyor ($i)"; sleep 5
+          done
+          exit 1
