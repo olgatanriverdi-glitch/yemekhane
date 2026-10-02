@@ -64,6 +64,8 @@ class _AnaSayfaState extends State<AnaSayfa> {
     }
   }
 
+  void _gunSec(String t) => setState(() { _tarih = t; _uygunOgunSec(); });
+
   Future<void> _uniSec() async {
     final secilen = await Navigator.of(context).push<String>(MaterialPageRoute(builder: (_) => UniversitePicker(uniler: _uniler, secili: _uni?.id)));
     if (secilen != null && secilen != _uni?.id) _yukle(universiteId: secilen);
@@ -97,13 +99,16 @@ class _AnaSayfaState extends State<AnaSayfa> {
 
   Widget _icerik(ThemeData tema) {
     final menu = _menu!;
-    final tarihler = menu.tarihler;
+    final bugun = isoTarih(DateTime.now());
+    var tarihler = menu.tarihler.where((t) => t.compareTo(bugun) >= 0).toList();   // geçmiş günler gösterilmez
+    if (tarihler.isEmpty) tarihler = menu.tarihler.reversed.take(7).toList().reversed.toList();
     final gun = menu.gunler[_tarih] ?? {};
     final turler = [for (final t in ['lunch', 'dinner', 'vegetarian']) if (_uni!.ogunler.contains(t)) t];
     final aktif = turler.contains(_ogun) ? _ogun : turler.first;
     final ogun = gun[aktif];
     return Column(children: [
-      _GunSeridi(tarihler: tarihler, secili: _tarih, bugun: isoTarih(DateTime.now()), degisti: (t) => setState(() { _tarih = t; _uygunOgunSec(); })),
+      _GunBasligi(tarihler: tarihler, secili: _tarih, bugun: bugun, degisti: _gunSec),
+      _HaftaSeridi(tarihler: tarihler, secili: _tarih, bugun: bugun, degisti: _gunSec),
       Padding(
         padding: const EdgeInsets.fromLTRB(16, 8, 16, 4),
         child: SegmentedButton<String>(
@@ -115,9 +120,18 @@ class _AnaSayfaState extends State<AnaSayfa> {
         ),
       ),
       Expanded(
-        child: ogun == null || ogun.bos
+        child: GestureDetector(
+          behavior: HitTestBehavior.translucent,
+          onHorizontalDragEnd: (d) {
+            final v = d.primaryVelocity ?? 0;
+            final i = tarihler.indexOf(_tarih);
+            if (v < -250 && i >= 0 && i < tarihler.length - 1) _gunSec(tarihler[i + 1]);
+            if (v > 250 && i > 0) _gunSec(tarihler[i - 1]);
+          },
+          child: ogun == null || ogun.bos
             ? Center(child: Text('Bu gün için ${_ogunAdlari[aktif]?.toLowerCase() ?? ''} menüsü henüz yayınlanmadı.', textAlign: TextAlign.center))
             : _OgunKarti(ogun: ogun, fiyat: _uni!.ogrenciFiyati(aktif), fotoUrl: _depo.fotoUrl(_uni!.id, ogun.foto)),
+        ),
       ),
       if (menu.guncellendi != null)
         Padding(
@@ -129,66 +143,100 @@ class _AnaSayfaState extends State<AnaSayfa> {
   }
 }
 
-class _GunSeridi extends StatefulWidget {
+/// Üstte büyük "Bugün / Cuma · 2 Ekim" başlığı ve yanlarda önceki / sonraki gün okları.
+class _GunBasligi extends StatelessWidget {
   final List<String> tarihler;
   final String secili, bugun;
   final ValueChanged<String> degisti;
-  const _GunSeridi({required this.tarihler, required this.secili, required this.bugun, required this.degisti});
-  @override
-  State<_GunSeridi> createState() => _GunSeridiState();
-}
+  const _GunBasligi({required this.tarihler, required this.secili, required this.bugun, required this.degisti});
 
-class _GunSeridiState extends State<_GunSeridi> {
-  final _kontrol = ScrollController();
-  static const _genislik = 72.0;
-
-  @override
-  void initState() {
-    super.initState();
-    WidgetsBinding.instance.addPostFrameCallback((_) {
-      final i = widget.tarihler.indexOf(widget.secili);
-      if (i > 0 && _kontrol.hasClients) _kontrol.jumpTo((i * _genislik - 120).clamp(0, _kontrol.position.maxScrollExtent));
-    });
+  String _etiket(DateTime d, String t) {
+    final fark = DateTime(d.year, d.month, d.day).difference(DateTime.parse(bugun)).inDays;
+    if (fark == 0) return 'Bugün';
+    if (fark == 1) return 'Yarın';
+    return gunAdlari[d.weekday - 1];
   }
 
   @override
-  void dispose() { _kontrol.dispose(); super.dispose(); }
+  Widget build(BuildContext context) {
+    final tema = Theme.of(context);
+    final i = tarihler.indexOf(secili);
+    final d = DateTime.parse(secili);
+    return Padding(
+      padding: const EdgeInsets.fromLTRB(8, 4, 8, 0),
+      child: Row(children: [
+        IconButton.filledTonal(onPressed: i > 0 ? () => degisti(tarihler[i - 1]) : null, icon: const Icon(Icons.chevron_left), tooltip: 'Önceki gün'),
+        Expanded(
+          child: Column(children: [
+            Text(_etiket(d, secili), style: tema.textTheme.headlineSmall?.copyWith(fontWeight: FontWeight.w800)),
+            Text('${d.day} ${ayAdlari[d.month - 1]} ${d.year} · ${gunAdlari[d.weekday - 1]}', style: tema.textTheme.bodyMedium?.copyWith(color: tema.colorScheme.onSurfaceVariant)),
+          ]),
+        ),
+        IconButton.filledTonal(onPressed: i >= 0 && i < tarihler.length - 1 ? () => degisti(tarihler[i + 1]) : null, icon: const Icon(Icons.chevron_right), tooltip: 'Sonraki gün'),
+      ]),
+    );
+  }
+}
+
+/// Seçili günün etrafındaki 7 gün: eşit genişlikte, kaydırma yok. Dokununca o güne geçer.
+class _HaftaSeridi extends StatelessWidget {
+  final List<String> tarihler;
+  final String secili, bugun;
+  final ValueChanged<String> degisti;
+  const _HaftaSeridi({required this.tarihler, required this.secili, required this.bugun, required this.degisti});
 
   @override
   Widget build(BuildContext context) {
     final renk = Theme.of(context).colorScheme;
-    return SizedBox(
-      height: 84,
-      child: ListView.builder(
-        controller: _kontrol,
-        scrollDirection: Axis.horizontal,
-        padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 8),
-        itemCount: widget.tarihler.length,
-        itemBuilder: (_, i) {
-          final t = widget.tarihler[i];
-          final d = DateTime.parse(t);
-          final secili = t == widget.secili;
-          final bugun = t == widget.bugun;
-          return SizedBox(
-            width: _genislik,
+    final n = tarihler.length;
+    final i = tarihler.indexOf(secili).clamp(0, n - 1);
+    final baslangic = (i - 3).clamp(0, (n - 7).clamp(0, n));
+    final pencere = tarihler.sublist(baslangic, (baslangic + 7).clamp(0, n));
+    return Padding(
+      padding: const EdgeInsets.fromLTRB(12, 12, 12, 4),
+      child: Row(children: [
+        for (final t in pencere)
+          Expanded(
             child: Padding(
-              padding: const EdgeInsets.symmetric(horizontal: 3),
-              child: Material(
-                color: secili ? renk.primary : renk.surfaceContainerHighest,
-                borderRadius: BorderRadius.circular(16),
-                child: InkWell(
-                  borderRadius: BorderRadius.circular(16),
-                  onTap: () => widget.degisti(t),
-                  child: Column(mainAxisAlignment: MainAxisAlignment.center, children: [
-                    Text(gunKisa[d.weekday - 1], style: TextStyle(color: secili ? renk.onPrimary : renk.onSurfaceVariant, fontSize: 12)),
-                    Text('${d.day}', style: TextStyle(color: secili ? renk.onPrimary : renk.onSurface, fontSize: 22, fontWeight: FontWeight.bold)),
-                    Container(height: 4, width: 4, decoration: BoxDecoration(shape: BoxShape.circle, color: bugun ? (secili ? renk.onPrimary : renk.primary) : Colors.transparent)),
-                  ]),
-                ),
-              ),
+              padding: const EdgeInsets.symmetric(horizontal: 2.5),
+              child: _GunHucresi(tarih: t, secili: t == secili, bugun: t == bugun, renk: renk, tikla: () => degisti(t)),
             ),
-          );
-        },
+          ),
+      ]),
+    );
+  }
+}
+
+class _GunHucresi extends StatelessWidget {
+  final String tarih;
+  final bool secili, bugun;
+  final ColorScheme renk;
+  final VoidCallback tikla;
+  const _GunHucresi({required this.tarih, required this.secili, required this.bugun, required this.renk, required this.tikla});
+
+  @override
+  Widget build(BuildContext context) {
+    final d = DateTime.parse(tarih);
+    final haftaSonu = d.weekday >= 6;
+    final yaziRenk = secili ? renk.onPrimary : (haftaSonu ? renk.onSurfaceVariant.withValues(alpha: 0.7) : renk.onSurface);
+    return AnimatedContainer(
+      duration: const Duration(milliseconds: 180),
+      decoration: BoxDecoration(
+        color: secili ? renk.primary : Colors.transparent,
+        borderRadius: BorderRadius.circular(14),
+        border: Border.all(color: secili ? renk.primary : (bugun ? renk.primary.withValues(alpha: 0.7) : renk.outlineVariant.withValues(alpha: 0.5)), width: bugun && !secili ? 1.6 : 1),
+      ),
+      child: InkWell(
+        borderRadius: BorderRadius.circular(14),
+        onTap: tikla,
+        child: Padding(
+          padding: const EdgeInsets.symmetric(vertical: 8),
+          child: Column(mainAxisSize: MainAxisSize.min, children: [
+            Text(gunKisa[d.weekday - 1], style: TextStyle(color: yaziRenk, fontSize: 11, fontWeight: FontWeight.w600)),
+            const SizedBox(height: 2),
+            Text('${d.day}', style: TextStyle(color: yaziRenk, fontSize: 18, fontWeight: FontWeight.w800)),
+          ]),
+        ),
       ),
     );
   }
