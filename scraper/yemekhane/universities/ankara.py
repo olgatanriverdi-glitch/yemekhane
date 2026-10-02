@@ -1,0 +1,73 @@
+"""Ankara Üniversitesi SKS: menüler sksbasvuru.ankara.edu.tr üzerinde XLSX olarak yayınlanıyor (öğle / akşam / vejetaryen)."""
+import html
+import re
+
+from ..model import excel_tarih, toplam_kalori, yemek_ogesi
+from ..xlsx import satirlar
+from .base import Universite, indir
+
+TABAN = "https://sksbasvuru.ankara.edu.tr/kayit/moduller/yemeklistesi/"
+KAYNAKLAR = {
+    "lunch": TABAN + "aylikmenu.php",
+    "dinner": TABAN + "aksammenu.php",
+    "vegetarian": TABAN + "vejetaryenmenu.php",
+}
+SKS_SAYFA = "https://sks.ankara.edu.tr/yemek-hizmetleri-2/"
+
+
+def xlsx_menu(veri: bytes) -> dict:
+    """Bir XLSX dosyasını {tarih: {'items': [...], 'kcal': n}} sözlüğüne çevirir."""
+    gunler = {}
+    for satir in satirlar(veri):
+        a = satir.get("A", "")
+        if not re.fullmatch(r"\d{5}(\.\d+)?", a):          # tarih satırı (Excel gün numarası)
+            continue
+        ogeler = [yemek_ogesi(satir[s]) for s in "BCDE" if satir.get(s)]
+        gun = {"items": ogeler}
+        k = toplam_kalori(satir.get("F", ""))
+        if k:
+            gun["kcal"] = k
+        elif all("kcal" in o for o in ogeler) and ogeler:
+            gun["kcal"] = sum(o["kcal"] for o in ogeler)
+        gunler[excel_tarih(a)] = gun
+    return gunler
+
+
+def fiyat_ayikla(sayfa_html: str) -> list:
+    metin = html.unescape(re.sub(r"<[^>]+>", "\n", re.sub(r"<script.*?</script>|<style.*?</style>", "", sayfa_html, flags=re.S)))
+    satirlar_ = [s.strip() for s in metin.split("\n") if s.strip()]
+    sonuc = []
+    for i, s in enumerate(satirlar_):
+        if s == "₺" and i > 0 and i + 1 < len(satirlar_) and satirlar_[i + 1].isdigit():
+            sonuc.append({"label": satirlar_[i - 1], "tl": int(satirlar_[i + 1])})
+    return sonuc
+
+
+class AnkaraUniversitesi(Universite):
+    id = "ankara"
+    ad = "Ankara Üniversitesi"
+    kisa = "AÜ"
+    sehir = "Ankara"
+    kaynak = SKS_SAYFA
+
+    def __init__(self, indirici=indir):
+        self.indir = indirici
+
+    def menuler(self) -> dict:
+        sonuc = {}
+        for tur, url in KAYNAKLAR.items():
+            try:
+                gunler = xlsx_menu(self.indir(url))
+            except Exception as e:                      # bir tür bozuk olsa diğerleri yayınlansın
+                print("UYARI: %s menüsü alınamadı: %s" % (tur, e))
+                continue
+            for tarih, gun in gunler.items():
+                sonuc.setdefault(tarih, {})[tur] = gun
+        return sonuc
+
+    def fiyatlar(self) -> list:
+        try:
+            return fiyat_ayikla(self.indir(SKS_SAYFA).decode("utf-8", "ignore"))
+        except Exception as e:
+            print("UYARI: fiyatlar alınamadı:", e)
+            return []

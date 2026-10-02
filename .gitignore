@@ -1,0 +1,5 @@
+__pycache__/
+.dart_tool/
+build/
+.idea/
+.DS_Store

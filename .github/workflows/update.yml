@@ -1,0 +1,24 @@
+name: Menüleri güncelle
+on:
+  schedule:
+    - cron: "0 3,9,15 * * *"     # günde 3 kez (UTC): sabah 06:00, 12:00, 18:00 Türkiye saati
+  workflow_dispatch: {}
+permissions:
+  contents: write
+jobs:
+  guncelle:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - name: Testler
+        run: cd scraper && python -m unittest discover -s tests -t .
+      - name: Menüleri çek
+        run: cd scraper && python -m yemekhane.build
+      - name: Değişiklik varsa yayınla
+        run: |
+          git config user.name "yemekhane-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add data
+          git diff --cached --quiet || (git commit -m "Menüler güncellendi" && git push)

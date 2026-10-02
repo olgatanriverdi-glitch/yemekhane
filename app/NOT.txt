@@ -1,0 +1,1 @@
+(Flutter SDK bu makinede kurulu olmadığı için uygulama derlenmedi; kurulumdan sonra `flutter analyze` çalıştırın.)

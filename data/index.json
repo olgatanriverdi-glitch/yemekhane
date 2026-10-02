@@ -1,0 +1,50 @@
+{
+ "universities": [
+  {
+   "city": "Ankara",
+   "firstDay": "2026-09-01",
+   "id": "ankara",
+   "lastDay": "2026-10-31",
+   "meals": [
+    "dinner",
+    "lunch",
+    "vegetarian"
+   ],
+   "name": "Ankara Üniversitesi",
+   "prices": [
+    {
+     "label": "Öğrenci (Öğle Yemeği)",
+     "tl": 50
+    },
+    {
+     "label": "Öğrenci (Akşam Yemeği)",
+     "tl": 100
+    },
+    {
+     "label": "Öğretim Üyesi (Prof, Doç, Dr. Öğr. Üyesi)",
+     "tl": 132
+    },
+    {
+     "label": "Diğer Akademik Personel (Arş. Görevlisi. Öğr. Görevlisi)",
+     "tl": 102
+    },
+    {
+     "label": "Memur, Hizmetli",
+     "tl": 72
+    },
+    {
+     "label": "İşçi, Sürekli İşçi",
+     "tl": 297
+    },
+    {
+     "label": "Misafir",
+     "tl": 298
+    }
+   ],
+   "short": "AÜ",
+   "source": "https://sks.ankara.edu.tr/yemek-hizmetleri-2/"
+  }
+ ],
+ "updated": "2026-10-02T10:10:40+03:00",
+ "version": 1
+}
