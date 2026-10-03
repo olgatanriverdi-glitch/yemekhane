@@ -1,7 +1,7 @@
 # Üni Yemek
 
 Üniversite yemekhane menülerini **öğle / akşam / vejetaryen** olarak gösteren mobil uygulama.
-İlk üniversite: **Ankara Üniversitesi**. Başka üniversiteler eklenti olarak eklenir.
+Üniversiteler: **Ankara Üniversitesi** (öğle, akşam, vejetaryen) ve **Gazi Üniversitesi** (öğle, vejetaryen). Başka üniversiteler eklenti olarak eklenir.
 
 ## Mimari (sunucusuz, bedava)
 
@@ -14,9 +14,15 @@ okul sitesi (XLSX/HTML) ──► scraper (Python) ──► data/*.json (GitHub
 * `data/` — üretilen statik JSON. Uygulama bunu `raw.githubusercontent.com` / GitHub Pages üzerinden okur.
 * `app/` — Flutter uygulaması (iOS + Android).
 
+### Yemek fotoğrafları
+Her yemek adı için Wikimedia Commons'ta telifi serbest (CC) bir örnek görsel aranır (`scraper/yemekhane/dishes.py`), 320 px kare JPEG olarak
+`data/dishes/` altında saklanır; aynı adlı yemek tekrar aranmaz, bulunamayan 14 günde bir yeniden denenir. Kaynak/yazar/lisans `data/dishes/index.json`'dadır.
+Menüdeki her yemek öğesine `"img": "dishes/<anahtar>.jpg"` eklenir. Görseller yalnızca örnektir; yanlış eşleşmeyi önlemek için arama katıdır
+(bulunamazsa fotoğraf yerine sade bir simge gösterilir).
+
 ### JSON biçimi
 `data/index.json`: üniversite listesi, her biri için `meals`, `prices`, `firstDay`, `lastDay`.
-`data/<id>/menu.json`: `{"days": {"2026-10-02": {"lunch": {"items":[{"name":"Yayla Çorba","kcal":168}], "kcal":1910}, "dinner": {...}, "vegetarian": {...}}}}`
+`data/<id>/menu.json`: `{"days": {"2026-10-02": {"lunch": {"items":[{"name":"Yayla Çorba","kcal":168,"img":"dishes/ab12cd34ef.jpg"}], "kcal":1910}, "dinner": {...}, "vegetarian": {...}}}}`
 
 ## Çalıştırma
 ```bash

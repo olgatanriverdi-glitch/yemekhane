@@ -25,4 +25,22 @@ void main() {
         menu.gunler[tarih]!['lunch']!.ogeler.length, greaterThanOrEqualTo(3));
     expect(isoTarih(DateTime(2026, 9, 1)), '2026-09-01');
   });
+
+  test('Gazi: yalnızca öğle + vejetaryen, yemek fotoğrafı yolu okunur', () {
+    final idx = jsonDecode(File('assets/data/index.json').readAsStringSync())
+        as Map<String, dynamic>;
+    final gazi = (idx['universities'] as List)
+        .map((e) => Universite.fromJson(e as Map<String, dynamic>))
+        .firstWhere((u) => u.id == 'gazi');
+    expect(gazi.ogunler, containsAll(['lunch', 'vegetarian']));
+    expect(gazi.ogunler.contains('dinner'), isFalse);
+    expect(gazi.ogrenciFiyati('lunch'), 50);
+
+    final menu = Menu.fromJson(
+        jsonDecode(File('assets/data/gazi/menu.json').readAsStringSync())
+            as Map<String, dynamic>);
+    final ogeler = menu.gunler[menu.tarihler.first]!['lunch']!.ogeler;
+    expect(ogeler.any((o) => o.img != null && o.img!.startsWith('dishes/')),
+        isTrue);
+  });
 }

@@ -51,9 +51,10 @@ class Universite {
 class YemekOgesi {
   final String ad;
   final int? kcal;
-  YemekOgesi(this.ad, this.kcal);
-  factory YemekOgesi.fromJson(Map<String, dynamic> j) =>
-      YemekOgesi(j['name'] as String, (j['kcal'] as num?)?.toInt());
+  final String? img; // 'dishes/<anahtar>.jpg' (yemeğe ait küçük örnek fotoğraf)
+  YemekOgesi(this.ad, this.kcal, [this.img]);
+  factory YemekOgesi.fromJson(Map<String, dynamic> j) => YemekOgesi(
+      j['name'] as String, (j['kcal'] as num?)?.toInt(), j['img'] as String?);
 }
 
 class Ogun {
@@ -91,7 +92,7 @@ class Menu {
       gunler[tarih] = ogunler;
     });
     return Menu(j['university'] as String,
-        DateTime.tryParse((j['updated'] ?? '') as String), gunler);
+        DateTime.tryParse((j['updated'] ?? '') as String)?.toLocal(), gunler);
   }
 
   List<String> get tarihler => (gunler.keys.toList()..sort());

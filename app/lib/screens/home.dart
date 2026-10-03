@@ -200,6 +200,7 @@ class _AnaSayfaState extends State<AnaSayfa> {
                   fiyat: _uni!.ogrenciFiyati(aktif),
                   fotoUrl: _depo.fotoUrl(_uni!.id, ogun.foto),
                   fotoYaklasik: ogun.fotoYaklasik,
+                  yemekFoto: _depo.yemekFotoUrl,
                   geriBildirim: _geriBildirim,
                   slot: slotKimligi(_uni!.id, _tarih, aktif)),
         ),
@@ -370,6 +371,7 @@ class _OgunKarti extends StatelessWidget {
   final int? fiyat;
   final String? fotoUrl;
   final bool fotoYaklasik;
+  final String? Function(String?) yemekFoto;
   final GeriBildirimDeposu geriBildirim;
   final String slot;
   const _OgunKarti(
@@ -377,6 +379,7 @@ class _OgunKarti extends StatelessWidget {
       this.fiyat,
       this.fotoUrl,
       this.fotoYaklasik = false,
+      required this.yemekFoto,
       required this.geriBildirim,
       required this.slot});
 
@@ -440,6 +443,8 @@ class _OgunKarti extends StatelessWidget {
                 Padding(
                   padding: const EdgeInsets.symmetric(vertical: 8),
                   child: Row(children: [
+                    _YemekResmi(url: yemekFoto(o.img)),
+                    const SizedBox(width: 12),
                     Expanded(
                         child: Text(o.ad, style: tema.textTheme.titleMedium)),
                     if (o.kcal != null)
@@ -447,6 +452,14 @@ class _OgunKarti extends StatelessWidget {
                           style: tema.textTheme.bodyMedium?.copyWith(
                               color: tema.colorScheme.onSurfaceVariant)),
                   ]),
+                ),
+              if (ogun.ogeler.any((o) => o.img != null))
+                Padding(
+                  padding: const EdgeInsets.only(top: 8),
+                  child: Text(
+                      'Yemeklerin yanındaki küçük resimler örnektir (Wikimedia Commons, CC lisanslı); okuldaki yemek birebir aynı görünmeyebilir.',
+                      style: tema.textTheme.bodySmall
+                          ?.copyWith(color: tema.colorScheme.onSurfaceVariant)),
                 ),
               if (ogun.kcal != null || fiyat != null) const Divider(height: 28),
               Wrap(spacing: 8, runSpacing: 8, children: [
@@ -466,6 +479,38 @@ class _OgunKarti extends StatelessWidget {
         const SizedBox(height: 12),
         GeriBildirimBolumu(key: ValueKey(slot), depo: geriBildirim, slot: slot),
       ],
+    );
+  }
+}
+
+/// Yemek satırının başındaki küçük yuvarlak fotoğraf; yoksa ya da yüklenemezse sade bir yer tutucu.
+class _YemekResmi extends StatelessWidget {
+  final String? url;
+  const _YemekResmi({this.url});
+
+  @override
+  Widget build(BuildContext context) {
+    final tema = Theme.of(context);
+    final yerTutucu = Container(
+      color: tema.colorScheme.surfaceContainerHighest,
+      child: Icon(Icons.restaurant_menu_outlined,
+          size: 20, color: tema.colorScheme.onSurfaceVariant),
+    );
+    return ClipRRect(
+      borderRadius: BorderRadius.circular(14),
+      child: SizedBox(
+        width: 48,
+        height: 48,
+        child: url == null
+            ? yerTutucu
+            : Image.network(
+                url!,
+                fit: BoxFit.cover,
+                cacheWidth: 144,
+                errorBuilder: (c, e, s) => yerTutucu,
+                loadingBuilder: (c, child, p) => p == null ? child : yerTutucu,
+              ),
+      ),
     );
   }
 }

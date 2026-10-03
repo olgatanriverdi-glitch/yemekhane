@@ -48,6 +48,10 @@ class Depo {
           ? null
           : '$veriTabanUrl/$universiteId/$foto';
 
+  /// Yemeğin küçük örnek fotoğrafı ('dishes/..jpg'): üniversiteden bağımsız ortak klasörde.
+  String? yemekFotoUrl(String? img) =>
+      (img == null || veriTabanUrl.isEmpty) ? null : '$veriTabanUrl/$img';
+
   Future<String?> seciliUniversite() async =>
       (await SharedPreferences.getInstance()).getString('universite');
   Future<void> universiteSec(String id) async =>

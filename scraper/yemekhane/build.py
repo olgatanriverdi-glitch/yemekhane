@@ -54,17 +54,28 @@ def gunluk_isle(u, klasor, menuler, simdi, sinir):
     kut.kaydet(sinir)
 
 
+def yemek_fotolari_ekle(yf, menuler, ad):
+    """Menüdeki her yemeğe küçük örnek fotoğraf ekler. Ağ/arama hatası menüyü yayınlamayı engellemez."""
+    try:
+        yf.menulere_ekle(menuler)
+    except Exception as e:
+        print("UYARI: %s yemek fotoğrafları eklenemedi: %s" % (ad, e))
+
+
 def calistir(cikti: str, uniler=None) -> int:
     simdi = datetime.now(timezone(timedelta(hours=3)))        # Türkiye saati
     sinir = (simdi - timedelta(days=GUN_SAKLA)).date().isoformat()
     liste = []
     hata = 0
+    from .dishes import YemekFotolari
+    yf = YemekFotolari(os.path.join(cikti, "dishes"), bugun=simdi.date())
     for u in (uniler or KAYITLI):
         try:
             menuler = {t: g for t, g in u.menuler().items() if t >= sinir}
             if not menuler:
                 raise RuntimeError("hiç menü bulunamadı")
             gunluk_isle(u, os.path.join(cikti, u.id), menuler, simdi, sinir)
+            yemek_fotolari_ekle(yf, menuler, u.id)
             fiyatlar = u.fiyatlar()
             yaz(os.path.join(cikti, u.id, "menu.json"), {"university": u.id, "updated": simdi.isoformat(timespec="seconds"), "days": menuler})
             turler = sorted({tur for g in menuler.values() for tur in g})
@@ -74,6 +85,7 @@ def calistir(cikti: str, uniler=None) -> int:
         except Exception as e:
             hata += 1
             print("HATA: %s güncellenemedi: %s" % (u.id, e), file=sys.stderr)
+    yf.kaydet()
     if liste:
         yaz(os.path.join(cikti, "index.json"), {"version": 1, "updated": simdi.isoformat(timespec="seconds"), "universities": liste})
     return 1 if hata and not liste else 0

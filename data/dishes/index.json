@@ -1,0 +1,899 @@
+{
+ "dishes": {
+  "025eacfe0c": {
+   "baslik": "Etli taze fasulye in Ankara.jpg",
+   "kaynak": "Wikimedia Commons",
+   "lisans": "CC BY-SA 4.0",
+   "name": "Etli Taze Fasulye",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Etli_taze_fasulye_in_Ankara.jpg",
+   "sorgu": "Etli Taze Fasulye",
+   "yazar": "E4024"
+  },
+  "02f7afb0d6": {
+   "baslik": "Sahan köfte.jpg",
+   "kaynak": "Wikimedia Commons",
+   "lisans": "CC BY-SA 4.0",
+   "name": "Mantar Soslu Sahan Köfte",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Sahan_k%C3%B6fte.jpg",
+   "sorgu": "Sahan Köfte",
+   "yazar": "E4024"
+  },
+  "03b9040496": {
+   "baslik": "Cream Mushroom soup 2.jpg",
+   "kaynak": "Wikimedia Commons",
+   "lisans": "CC BY-SA 3.0",
+   "name": "Mantar Çorba",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Cream_Mushroom_soup_2.jpg",
+   "sorgu": "Mushroom soup",
+   "yazar": "Redeemer|Vodesnet"
+  },
+  "04aa480c87": {
+   "baslik": "Kadınbudu köfte.jpg",
+   "kaynak": "Wikimedia Commons",
+   "lisans": "CC BY-SA 4.0",
+   "name": "Kadınbudu Köfte/Patates Salata",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Kad%C4%B1nbudu_k%C3%B6fte.jpg",
+   "sorgu": "Kadınbudu Köfte",
+   "yazar": "E4024"
+  },
+  "0a22f28892": {
+   "baslik": "Bulgur pilavı (tel sehriyeli).jpg",
+   "kaynak": "Wikimedia Commons",
+   "lisans": "CC BY-SA 4.0",
+   "name": "Bulgur Pilavı/Turşu",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Bulgur_pilav%C4%B1_(tel_sehriyeli).jpg",
+   "sorgu": "Bulgur Pilavı",
+   "yazar": "E4024"
+  },
+  "0dad8706c5": {
+   "baslik": "Red Velvet Cake Waldorf Astoria.jpg",
+   "kaynak": "Wikimedia Commons",
+   "lisans": "CC BY-SA 3.0",
+   "name": "Red Velvet",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Red_Velvet_Cake_Waldorf_Astoria.jpg",
+   "sorgu": "Red velvet cake",
+   "yazar": "Hennem08"
+  },
+  "1097fc6f54": {
+   "baslik": "Orman kebap.jpg",
+   "kaynak": "Wikimedia Commons",
+   "lisans": "CC BY-SA 4.0",
+   "name": "Orman Kebap",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Orman_kebap.jpg",
+   "sorgu": "Orman Kebap",
+   "yazar": "E4024"
+  },
+  "154f53ef81": {
+   "baslik": "Wedding soup from the Turkish cuisine.jpg",
+   "kaynak": "Wikimedia Commons",
+   "lisans": "CC BY-SA 4.0",
+   "name": "Düğün Çorba",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Wedding_soup_from_the_Turkish_cuisine.jpg",
+   "sorgu": "Düğün Çorba",
+   "yazar": "E4024"
+  },
+  "16b5c22561": {
+   "baslik": "Naneli ayran - Dara.jpg",
+   "kaynak": "Wikimedia Commons",
+   "lisans": "CC0",
+   "name": "Ayran",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Naneli_ayran_-_Dara.jpg",
+   "sorgu": "Ayran",
+   "yazar": "Hamdigumus"
+  },
+  "18ccb4d264": {
+   "baslik": "Spaghetti (53257476437) (cropped).png",
+   "kaynak": "Wikimedia Commons",
+   "lisans": "CC BY 3.0",
+   "name": "Soslu Makarna",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Spaghetti_(53257476437)_(cropped).png",
+   "sorgu": "Spaghetti",
+   "yazar": "Choo Yut Shing"
+  },
+  "1b9c27cdb2": {
+   "baslik": "Yumurtalı Ispanak fırından çıkarken.jpg",
+   "kaynak": "Wikimedia Commons",
+   "lisans": "CC BY-SA 3.0",
+   "name": "Yumurtalı Ispanak",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Yumurtal%C4%B1_Ispanak_f%C4%B1r%C4%B1ndan_%C3%A7%C4%B1karken.jpg",
+   "sorgu": "Yumurtalı Ispanak",
+   "yazar": "lezzetcatering.com"
+  },
+  "1da7bd5f6e": {
+   "baslik": "İçli köfte (Oruk).jpg",
+   "kaynak": "Wikimedia Commons",
+   "lisans": "CC BY-SA 4.0",
+   "name": "İçli Köfte",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:%C4%B0%C3%A7li_k%C3%B6fte_(Oruk).jpg",
+   "sorgu": "İçli Köfte",
+   "yazar": "Garrett Ziegler"
+  },
+  "22dd093862": {
+   "baslik": "Mercimek çorbasi.jpg",
+   "kaynak": "Wikimedia Commons",
+   "lisans": "CC BY-SA 4.0",
+   "name": "Mercimek Çorba",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Mercimek_%C3%A7orbasi.jpg",
+   "sorgu": "Mercimek Çorba",
+   "yazar": "E4024"
+  },
+  "246525a1c0": {
+   "baslik": "Bulgur pilavı (tel sehriyeli).jpg",
+   "kaynak": "Wikimedia Commons",
+   "lisans": "CC BY-SA 4.0",
+   "name": "Şehriyeli Bulgur Pilavı",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Bulgur_pilav%C4%B1_(tel_sehriyeli).jpg",
+   "sorgu": "Şehriyeli Bulgur Pilavı",
+   "yazar": "E4024"
+  },
+  "25b07cf14e": {
+   "baslik": "Bulgur pilavı (tel sehriyeli).jpg",
+   "kaynak": "Wikimedia Commons",
+   "lisans": "CC BY-SA 4.0",
+   "name": "Bulgur Pilavı",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Bulgur_pilav%C4%B1_(tel_sehriyeli).jpg",
+   "sorgu": "Bulgur Pilavı",
+   "yazar": "E4024"
+  },
+  "2750c6f6c0": {
+   "baslik": "Karışık kızartma.jpg",
+   "kaynak": "Wikimedia Commons",
+   "lisans": "CC BY-SA 4.0",
+   "name": "Soslu Karışık Kızartma",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Kar%C4%B1%C5%9F%C4%B1k_k%C4%B1zartma.jpg",
+   "sorgu": "Karışık Kızartma",
+   "yazar": "E4024"
+  },
+  "2c0e163a7d": {
+   "baslik": "Tarhana çorbası.jpg",
+   "kaynak": "Wikimedia Commons",
+   "lisans": "CC BY-SA 4.0",
+   "name": "Tarhana Çorba",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Tarhana_%C3%A7orbas%C4%B1.jpg",
+   "sorgu": "Tarhana Çorba",
+   "yazar": "E4024"
+  },
+  "2c5a28d231": {
+   "baslik": "Etli patates.jpg",
+   "kaynak": "Wikimedia Commons",
+   "lisans": "CC BY-SA 4.0",
+   "name": "Etli Patates",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Etli_patates.jpg",
+   "sorgu": "Etli Patates",
+   "yazar": "E4024"
+  },
+  "2f47d03cf0": {
+   "baslik": "Zeytinyağlı taze fasulye from Turkey.jpg",
+   "kaynak": "Wikimedia Commons",
+   "lisans": "CC BY-SA 4.0",
+   "name": "Zeytinyağlı Taze Fasulye",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Zeytinya%C4%9Fl%C4%B1_taze_fasulye_from_Turkey.jpg",
+   "sorgu": "Zeytinyağlı Taze Fasulye",
+   "yazar": "E4024"
+  },
+  "2f58be7b7a": {
+   "baslik": "Cacik-1.jpg",
+   "kaynak": "Wikimedia Commons",
+   "lisans": "CC BY-SA 3.0",
+   "name": "Cacık",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Cacik-1.jpg",
+   "sorgu": "Cacık",
+   "yazar": "Rainer Zenz"
+  },
+  "3a38c0aebb": {
+   "baslik": "Turkish sütlaç - 1.jpg",
+   "kaynak": "Wikimedia Commons",
+   "lisans": "CC BY-SA 4.0",
+   "name": "Sütlaç",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Turkish_s%C3%BCtla%C3%A7_-_1.jpg",
+   "sorgu": "Sütlaç",
+   "yazar": "E4024"
+  },
+  "3ba6a3a823": {
+   "baslik": "Dalyan köfte with pilav.jpg",
+   "kaynak": "Wikimedia Commons",
+   "lisans": "CC BY-SA 4.0",
+   "name": "Püreli Dalyan Köfte",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Dalyan_k%C3%B6fte_with_pilav.jpg",
+   "sorgu": "Dalyan Köfte",
+   "yazar": "E4024"
+  },
+  "40082e8861": {
+   "baslik": "Tavuk döner (on pilav).jpg",
+   "kaynak": "Wikimedia Commons",
+   "lisans": "CC BY-SA 4.0",
+   "name": "Pilav Üstü Tavuk Döner",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Tavuk_d%C3%B6ner_(on_pilav).jpg",
+   "sorgu": "Tavuk Döner",
+   "yazar": "E4024"
+  },
+  "4008da5374": {
+   "baslik": "Pideli köfte - Istanbul.jpg",
+   "kaynak": "Wikimedia Commons",
+   "lisans": "CC BY-SA 4.0",
+   "name": "Pideli Köfte",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Pideli_k%C3%B6fte_-_Istanbul.jpg",
+   "sorgu": "Pideli Köfte",
+   "yazar": "E4024"
+  },
+  "41cb7c4e1b": {
+   "baslik": "Patlıcan islim kebap.jpg",
+   "kaynak": "Wikimedia Commons",
+   "lisans": "CC BY-SA 4.0",
+   "name": "Etsiz Patlıcan Yemeği",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Patl%C4%B1can_islim_kebap.jpg",
+   "sorgu": "Patlıcan",
+   "yazar": "E4024"
+  },
+  "4782e4b30f": {
+   "baslik": "Tavuk suyu çorba (tel şehriyeli).jpg",
+   "kaynak": "Wikimedia Commons",
+   "lisans": "CC BY-SA 4.0",
+   "name": "Şehriye Çorba",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Tavuk_suyu_%C3%A7orba_(tel_%C5%9Fehriyeli).jpg",
+   "sorgu": "Şehriye Çorba",
+   "yazar": "E4024"
+  },
+  "495c83bde2": {
+   "baslik": "İskender kebap 1.jpg",
+   "kaynak": "Wikimedia Commons",
+   "lisans": "CC BY-SA 4.0",
+   "name": "İskender Kebap",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:%C4%B0skender_kebap_1.jpg",
+   "sorgu": "İskender Kebap",
+   "yazar": "مانفی"
+  },
+  "53c2975a6e": {
+   "baslik": "Aşure (1) (cropped).JPG",
+   "kaynak": "Wikimedia Commons",
+   "lisans": "CC BY-SA 3.0",
+   "name": "Aşure",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:A%C5%9Fure_(1)_(cropped).JPG",
+   "sorgu": "Aşure",
+   "yazar": "Maderibeyza"
+  },
+  "5474cfdcf7": {
+   "baslik": "Adana Kebap.jpg",
+   "kaynak": "Wikimedia Commons",
+   "lisans": "CC BY-SA 4.0",
+   "name": "Adana Kebap/Bulgur Pilavı",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Adana_Kebap.jpg",
+   "sorgu": "Adana Kebap",
+   "yazar": "Garrett Ziegler"
+  },
+  "575b59d6b6": {
+   "baslik": "Turlu guvec.jpg",
+   "kaynak": "Wikimedia Commons",
+   "lisans": "CC BY-SA 4.0",
+   "name": "Şehriyeli Güveç",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Turlu_guvec.jpg",
+   "sorgu": "Şehriyeli Güveç",
+   "yazar": "E4024"
+  },
+  "5abbdce7b9": {
+   "baslik": "Vegetable soup 6.jpg",
+   "kaynak": "Wikimedia Commons",
+   "lisans": "CC BY-SA 4.0",
+   "name": "Sebze Çorba",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Vegetable_soup_6.jpg",
+   "sorgu": "Vegetable soup",
+   "yazar": "Gannu03"
+  },
+  "5acb48cd86": {
+   "baslik": "Çökertme kebabı (cropped).jpg",
+   "kaynak": "Wikimedia Commons",
+   "lisans": "CC BY-SA 4.0",
+   "name": "Tavuklu Çökertme",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:%C3%87%C3%B6kertme_kebab%C4%B1_(cropped).jpg",
+   "sorgu": "Çökertme",
+   "yazar": "Jwslubbock"
+  },
+  "5b853e51e0": {
+   "baslik": "Cooking şehriye pilavı.jpg",
+   "kaynak": "Wikimedia Commons",
+   "lisans": "CC BY-SA 4.0",
+   "name": "Şehriye Pilavı",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Cooking_%C5%9Fehriye_pilav%C4%B1.jpg",
+   "sorgu": "Şehriye Pilavı",
+   "yazar": "E4024"
+  },
+  "5de18824bc": {
+   "baslik": "Çökertme kebabı (cropped).jpg",
+   "kaynak": "Wikimedia Commons",
+   "lisans": "CC BY-SA 4.0",
+   "name": "Çökertme Kebap",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:%C3%87%C3%B6kertme_kebab%C4%B1_(cropped).jpg",
+   "sorgu": "Çökertme Kebap",
+   "yazar": "Jwslubbock"
+  },
+  "5faf1b0081": {
+   "baslik": "Mercimek çorbasi.jpg",
+   "kaynak": "Wikimedia Commons",
+   "lisans": "CC BY-SA 4.0",
+   "name": "Kırmızı Mercimek Çorba",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Mercimek_%C3%A7orbasi.jpg",
+   "sorgu": "Mercimek Çorba",
+   "yazar": "E4024"
+  },
+  "63af51a86f": {
+   "baslik": "Izgara köfte.jpg",
+   "kaynak": "Wikimedia Commons",
+   "lisans": "CC BY-SA 4.0",
+   "name": "Izgara Köfte/Elma Dilim Patates",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Izgara_k%C3%B6fte.jpg",
+   "sorgu": "Izgara Köfte",
+   "yazar": "E4024"
+  },
+  "694df91308": {
+   "baslik": "Izmir köfte and cacık.jpg",
+   "kaynak": "Wikimedia Commons",
+   "lisans": "CC BY-SA 4.0",
+   "name": "İzmir Köfte",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Izmir_k%C3%B6fte_and_cac%C4%B1k.jpg",
+   "sorgu": "İzmir Köfte",
+   "yazar": "E4024"
+  },
+  "6b28b8c427": {
+   "baslik": "Mercimek çorbasi.jpg",
+   "kaynak": "Wikimedia Commons",
+   "lisans": "CC BY-SA 4.0",
+   "name": "Yeşil Mercimek Çorba",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Mercimek_%C3%A7orbasi.jpg",
+   "sorgu": "Mercimek Çorba",
+   "yazar": "E4024"
+  },
+  "6c3bcaeded": {
+   "baslik": "Bir halka tatlısı.jpg",
+   "kaynak": "Wikimedia Commons",
+   "lisans": "CC BY-SA 4.0",
+   "name": "Halka Tatlı",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Bir_halka_tatl%C4%B1s%C4%B1.jpg",
+   "sorgu": "Halka Tatlı",
+   "yazar": "Kurmanbek"
+  },
+  "744c584fb4": {
+   "baslik": "Cevizli Çubuk Burma Kadayıf.jpg",
+   "kaynak": "Wikimedia Commons",
+   "lisans": "CC BY-SA 4.0",
+   "name": "Cevizli Kadayıf",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Cevizli_%C3%87ubuk_Burma_Kaday%C4%B1f.jpg",
+   "sorgu": "Cevizli Kadayıf",
+   "yazar": "Mehmetabdukaya"
+  },
+  "7599097195": {
+   "baslik": "Domates çorba.jpg",
+   "kaynak": "Wikimedia Commons",
+   "lisans": "CC BY-SA 4.0",
+   "name": "Domates Çorba",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Domates_%C3%A7orba.jpg",
+   "sorgu": "Domates Çorba",
+   "yazar": "E4024"
+  },
+  "7766c86468": {
+   "baslik": "Spaghetti (53257476437) (cropped).png",
+   "kaynak": "Wikimedia Commons",
+   "lisans": "CC BY 3.0",
+   "name": "Tereyağlı Makarna",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Spaghetti_(53257476437)_(cropped).png",
+   "sorgu": "Spaghetti",
+   "yazar": "Choo Yut Shing"
+  },
+  "7996503754": {
+   "baslik": "Spaghetti (53257476437) (cropped).png",
+   "kaynak": "Wikimedia Commons",
+   "lisans": "CC BY 3.0",
+   "name": "Peynirli Makarna",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Spaghetti_(53257476437)_(cropped).png",
+   "sorgu": "Spaghetti",
+   "yazar": "Choo Yut Shing"
+  },
+  "831b0f20cf": {
+   "baslik": "Su böreği and tea.jpg",
+   "kaynak": "Wikimedia Commons",
+   "lisans": "CC BY-SA 4.0",
+   "name": "Su Böreği",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Su_b%C3%B6re%C4%9Fi_and_tea.jpg",
+   "sorgu": "Su Böreği",
+   "yazar": "E4024"
+  },
+  "848c4f7aba": {
+   "baslik": "Ispanak yemeği.jpg",
+   "kaynak": "Wikimedia Commons",
+   "lisans": "CC BY-SA 4.0",
+   "name": "Etsiz Ispanak",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Ispanak_yeme%C4%9Fi.jpg",
+   "sorgu": "Ispanak",
+   "yazar": "E4024"
+  },
+  "85b7944a41": {
+   "baslik": "Tas kebabi.jpg",
+   "kaynak": "Wikimedia Commons",
+   "lisans": "CC BY-SA 4.0",
+   "name": "Tas Kebabı",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Tas_kebabi.jpg",
+   "sorgu": "Tas Kebabı",
+   "yazar": "E4024"
+  },
+  "86493234ae": {
+   "baslik": "Antakya Usulü Mercimekli Bulgur Pilavı.png",
+   "kaynak": "Wikimedia Commons",
+   "lisans": "CC BY-SA 4.0",
+   "name": "Mercimekli Bulgur Pilavı",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Antakya_Usul%C3%BC_Mercimekli_Bulgur_Pilav%C4%B1.png",
+   "sorgu": "Mercimekli Bulgur Pilavı",
+   "yazar": "Fatih Sarsılmaz"
+  },
+  "890b8e3990": {
+   "baslik": "Nohut yahni.jpg",
+   "kaynak": "Wikimedia Commons",
+   "lisans": "CC BY-SA 4.0",
+   "name": "Etli Nohut",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Nohut_yahni.jpg",
+   "sorgu": "Etli Nohut",
+   "yazar": "E4024"
+  },
+  "8c4e1b80b1": {
+   "baslik": "Kabak kalye.jpg",
+   "kaynak": "Wikimedia Commons",
+   "lisans": "CC BY-SA 4.0",
+   "name": "Kabak Kalye",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Kabak_kalye.jpg",
+   "sorgu": "Kabak Kalye",
+   "yazar": "E4024"
+  },
+  "972686fca7": {
+   "baslik": "Turkish muhallebi.jpg",
+   "kaynak": "Wikimedia Commons",
+   "lisans": "CC BY-SA 4.0",
+   "name": "Kadayıflı Muhallebi",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Turkish_muhallebi.jpg",
+   "sorgu": "Muhallebi",
+   "yazar": "E4024"
+  },
+  "99a67d4042": {
+   "baslik": "Mevsim salata.jpg",
+   "kaynak": "Wikimedia Commons",
+   "lisans": "CC BY-SA 4.0",
+   "name": "Mevsim Salata",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Mevsim_salata.jpg",
+   "sorgu": "Mevsim Salata",
+   "yazar": "E4024"
+  },
+  "9bd36390ba": {
+   "baslik": "Chicken fajitas - La Hacienda - Sarah Stierch.jpg",
+   "kaynak": "Wikimedia Commons",
+   "lisans": "CC BY 4.0",
+   "name": "Tavuk Fajita",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Chicken_fajitas_-_La_Hacienda_-_Sarah_Stierch.jpg",
+   "sorgu": "Chicken fajita",
+   "yazar": "Missvain"
+  },
+  "9c8d655ef5": {
+   "baslik": "Yogurt fruit bowl.jpg",
+   "kaynak": "Wikimedia Commons",
+   "lisans": "CC BY-SA 4.0",
+   "name": "Yoğurt",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Yogurt_fruit_bowl.jpg",
+   "sorgu": "Yoğurt",
+   "yazar": "Jumbocombo0811"
+  },
+  "9cfb2c37b2": {
+   "baslik": "Turkish shakshuka (Şakşuka).jpg",
+   "kaynak": "Wikimedia Commons",
+   "lisans": "CC BY-SA 4.0",
+   "name": "Şakşuka",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Turkish_shakshuka_(%C5%9Eak%C5%9Fuka).jpg",
+   "sorgu": "Şakşuka",
+   "yazar": "E4024"
+  },
+  "9f7df34b5a": {
+   "baslik": "Tavuk fırında.jpg",
+   "kaynak": "Wikimedia Commons",
+   "lisans": "CC BY-SA 4.0",
+   "name": "Fırın Tavuk But",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Tavuk_f%C4%B1r%C4%B1nda.jpg",
+   "sorgu": "Fırın Tavuk But",
+   "yazar": "E4024"
+  },
+  "a3b92ec497": {
+   "baslik": "Spaghetti (53257476437) (cropped).png",
+   "kaynak": "Wikimedia Commons",
+   "lisans": "CC BY 3.0",
+   "name": "Yoğurtlu Makarna",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Spaghetti_(53257476437)_(cropped).png",
+   "sorgu": "Spaghetti",
+   "yazar": "Choo Yut Shing"
+  },
+  "a78f83ec68": {
+   "baslik": "Corn soup.jpg",
+   "kaynak": "Wikimedia Commons",
+   "lisans": "CC BY-SA 3.0",
+   "name": "Mısır Çorba",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Corn_soup.jpg",
+   "sorgu": "Corn soup",
+   "yazar": "Laurier"
+  },
+  "a9362d6114": {
+   "baslik": "Fırında Domates Soslu Tavuk Baget.jpg",
+   "kaynak": "Wikimedia Commons",
+   "lisans": "CC BY-SA 4.0",
+   "name": "Tavuk Baget/Patates Kızartma",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:F%C4%B1r%C4%B1nda_Domates_Soslu_Tavuk_Baget.jpg",
+   "sorgu": "Tavuk Baget",
+   "yazar": "Samizambak"
+  },
+  "aa33e149cf": {
+   "baslik": "Yogurt soup (yayla çorba).jpg",
+   "kaynak": "Wikimedia Commons",
+   "lisans": "CC BY-SA 4.0",
+   "name": "Yoğurt Çorba",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Yogurt_soup_(yayla_%C3%A7orba).jpg",
+   "sorgu": "Yoğurt Çorba",
+   "yazar": "E4024"
+  },
+  "acc00713b7": {
+   "baslik": "Etli pilav.jpg",
+   "kaynak": "Wikimedia Commons",
+   "lisans": "CC BY-SA 4.0",
+   "name": "Etli Pilav",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Etli_pilav.jpg",
+   "sorgu": "Etli Pilav",
+   "yazar": "E4024"
+  },
+  "ad6dd6bafc": {
+   "baslik": "Turkish muhallebi.jpg",
+   "kaynak": "Wikimedia Commons",
+   "lisans": "CC BY-SA 4.0",
+   "name": "Frambuaz Soslu Muhallebi",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Turkish_muhallebi.jpg",
+   "sorgu": "Muhallebi",
+   "yazar": "E4024"
+  },
+  "ae0e2ddc52": {
+   "baslik": "Doner Kebab, sols carn i lletuga..jpg",
+   "kaynak": "Wikimedia Commons",
+   "lisans": "CC BY-SA 4.0",
+   "name": "Pilavüstü Et Döner",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Doner_Kebab,_sols_carn_i_lletuga..jpg",
+   "sorgu": "Et Döner",
+   "yazar": "Francesc Fort"
+  },
+  "b4bd5e2bab": {
+   "baslik": "Chocolate-brownie-hachatw.jpg",
+   "kaynak": "Wikimedia Commons",
+   "lisans": "CC BY-SA 4.0",
+   "name": "Çikolatalı Brownie",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Chocolate-brownie-hachatw.jpg",
+   "sorgu": "Chocolate brownie",
+   "yazar": "JefferySAC"
+  },
+  "b6bfa358ce": {
+   "baslik": "Tres leches cake.jpg",
+   "kaynak": "Wikimedia Commons",
+   "lisans": "CC BY-SA 2.0",
+   "name": "Trileçe",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Tres_leches_cake.jpg",
+   "sorgu": "Tres leches cake",
+   "yazar": ""
+  },
+  "b6cacec026": {
+   "baslik": "Nohut yahnisi (etsiz).jpg",
+   "kaynak": "Wikimedia Commons",
+   "lisans": "CC BY-SA 4.0",
+   "name": "Etsiz Nohut",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Nohut_yahnisi_(etsiz).jpg",
+   "sorgu": "Etsiz Nohut",
+   "yazar": "E4024"
+  },
+  "bf8474c8b9": {
+   "baslik": "Ezogelin soup, bread, and water.jpg",
+   "kaynak": "Wikimedia Commons",
+   "lisans": "CC BY 2.0",
+   "name": "Ezogelin Çorba",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Ezogelin_soup,_bread,_and_water.jpg",
+   "sorgu": "Ezogelin Çorba",
+   "yazar": "Matt Krause from Istanbul, Turkey"
+  },
+  "c0403431e1": {
+   "baslik": "Cooking şehriye pilavı.jpg",
+   "kaynak": "Wikimedia Commons",
+   "lisans": "CC BY-SA 4.0",
+   "name": "Arpa Şehriye Pilavı",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Cooking_%C5%9Fehriye_pilav%C4%B1.jpg",
+   "sorgu": "Arpa Şehriye Pilavı",
+   "yazar": "E4024"
+  },
+  "c59b9eaa6e": {
+   "baslik": "Etli bezelye.jpg",
+   "kaynak": "Wikimedia Commons",
+   "lisans": "CC BY-SA 4.0",
+   "name": "Etli Bezelye",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Etli_bezelye.jpg",
+   "sorgu": "Etli Bezelye",
+   "yazar": "E4024"
+  },
+  "c7170df648": {
+   "baslik": "Keşkek ile Sünnet Düğünü - Edremit Balıkesir .jpg",
+   "kaynak": "Wikimedia Commons",
+   "lisans": "CC BY 2.0",
+   "name": "Etsiz Nohut Yemeği",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Ke%C5%9Fkek_ile_S%C3%BCnnet_D%C3%BC%C4%9F%C3%BCn%C3%BC_-_Edremit_Bal%C4%B1kesir_.jpg",
+   "sorgu": "Etsiz Nohut Yemeği",
+   "yazar": "Celal Erdogdu from Riga, Istanbul, Turkey, Latvia"
+  },
+  "c89017d3ae": {
+   "baslik": "Domates çorba.jpg",
+   "kaynak": "Wikimedia Commons",
+   "lisans": "CC BY-SA 4.0",
+   "name": "Fesleğenli Domates Çorba",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Domates_%C3%A7orba.jpg",
+   "sorgu": "Domates Çorba",
+   "yazar": "E4024"
+  },
+  "c96fd73d5f": {
+   "baslik": "Bira ve çoban salata.jpg",
+   "kaynak": "Wikimedia Commons",
+   "lisans": "CC BY-SA 3.0",
+   "name": "Salata",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Bira_ve_%C3%A7oban_salata.jpg",
+   "sorgu": "Çoban salata",
+   "yazar": "Atacameño"
+  },
+  "d151de6ce3": {
+   "baslik": "Çoban kavurma in a sahan.jpg",
+   "kaynak": "Wikimedia Commons",
+   "lisans": "CC BY-SA 4.0",
+   "name": "Çoban Kavurma",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:%C3%87oban_kavurma_in_a_sahan.jpg",
+   "sorgu": "Çoban Kavurma",
+   "yazar": "E4024"
+  },
+  "d3d0c7a5cd": {
+   "baslik": "Su böreği - kol böreği.jpg",
+   "kaynak": "Wikimedia Commons",
+   "lisans": "CC BY-SA 4.0",
+   "name": "Patatesli Kol Böreği",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Su_b%C3%B6re%C4%9Fi_-_kol_b%C3%B6re%C4%9Fi.jpg",
+   "sorgu": "Kol Böreği",
+   "yazar": "E4024"
+  },
+  "de8670087d": {
+   "baslik": "Baklava - Turkish special, 80-ply.JPEG",
+   "kaynak": "Wikimedia Commons",
+   "lisans": "Public domain",
+   "name": "Baklava",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Baklava_-_Turkish_special,_80-ply.JPEG",
+   "sorgu": "Baklava",
+   "yazar": "Kultigin"
+  },
+  "e06561b6ca": {
+   "baslik": "Su böreği - kol böreği.jpg",
+   "kaynak": "Wikimedia Commons",
+   "lisans": "CC BY-SA 4.0",
+   "name": "Kıymalı Kol Böreği",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Su_b%C3%B6re%C4%9Fi_-_kol_b%C3%B6re%C4%9Fi.jpg",
+   "sorgu": "Kol Böreği",
+   "yazar": "E4024"
+  },
+  "e205e270b9": {
+   "baslik": "Spaghetti (53257476437) (cropped).png",
+   "kaynak": "Wikimedia Commons",
+   "lisans": "CC BY 3.0",
+   "name": "Soslu Spagetti",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Spaghetti_(53257476437)_(cropped).png",
+   "sorgu": "Spaghetti",
+   "yazar": "Choo Yut Shing"
+  },
+  "e430bca6db": {
+   "baslik": "Haydari in a square plate.jpg",
+   "kaynak": "Wikimedia Commons",
+   "lisans": "CC BY-SA 4.0",
+   "name": "Haydari",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Haydari_in_a_square_plate.jpg",
+   "sorgu": "Haydari",
+   "yazar": "E4024"
+  },
+  "e516c4a18a": {
+   "baslik": "Dolce Tiramisù monoporzione.jpg",
+   "kaynak": "Wikimedia Commons",
+   "lisans": "CC BY 4.0",
+   "name": "Tiramisu",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Dolce_Tiramis%C3%B9_monoporzione.jpg",
+   "sorgu": "Tiramisu",
+   "yazar": "Anna.Massini"
+  },
+  "e733831db0": {
+   "baslik": "Dolce Tiramisù monoporzione.jpg",
+   "kaynak": "Wikimedia Commons",
+   "lisans": "CC BY 4.0",
+   "name": "Tramisu",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Dolce_Tiramis%C3%B9_monoporzione.jpg",
+   "sorgu": "Tiramisu",
+   "yazar": "Anna.Massini"
+  },
+  "eb71cd5118": {
+   "baslik": "Nebie Kabak (48NS).png",
+   "kaynak": "Wikimedia Commons",
+   "lisans": "CC BY 2.5 bg",
+   "name": "Etsiz Kabak Yemeği",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Nebie_Kabak_(48NS).png",
+   "sorgu": "Kabak",
+   "yazar": "Unknown authorUnknown author"
+  },
+  "ec0228f614": {
+   "baslik": "Turşu kavurma.jpg",
+   "kaynak": "Wikimedia Commons",
+   "lisans": "CC BY-SA 4.0",
+   "name": "Turşu",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Tur%C5%9Fu_kavurma.jpg",
+   "sorgu": "Turşu",
+   "yazar": "E4024"
+  },
+  "ed17271d58": {
+   "baslik": "Fruit platter 2 (Hoshigaoka Saryō).png",
+   "kaynak": "Wikimedia Commons",
+   "lisans": "Public domain",
+   "name": "Meyve",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Fruit_platter_2_(Hoshigaoka_Sary%C5%8D).png",
+   "sorgu": "Fruit platter",
+   "yazar": "Rosanjin"
+  },
+  "ee8e1db5de": {
+   "baslik": "Zeytinyağlı pırasa (with rice).jpg",
+   "kaynak": "Wikimedia Commons",
+   "lisans": "CC BY-SA 4.0",
+   "name": "Zeytinyağlı Pırasa",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Zeytinya%C4%9Fl%C4%B1_p%C4%B1rasa_(with_rice).jpg",
+   "sorgu": "Zeytinyağlı Pırasa",
+   "yazar": "E4024"
+  },
+  "f14f3ecb53": {
+   "baslik": "Çökertme kebabı (cropped).jpg",
+   "kaynak": "Wikimedia Commons",
+   "lisans": "CC BY-SA 4.0",
+   "name": "Tavuklu Çökertme Kebabı",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:%C3%87%C3%B6kertme_kebab%C4%B1_(cropped).jpg",
+   "sorgu": "Çökertme Kebabı",
+   "yazar": "Jwslubbock"
+  },
+  "f2752c06ec": {
+   "baslik": "Tahin helva.jpg",
+   "kaynak": "Wikimedia Commons",
+   "lisans": "CC BY-SA 4.0",
+   "name": "Tahin Helvası",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Tahin_helva.jpg",
+   "sorgu": "Tahin Helvası",
+   "yazar": "E4024"
+  },
+  "f3f08da561": {
+   "baslik": "Tantuni sokak yemeği.jpg",
+   "kaynak": "Wikimedia Commons",
+   "lisans": "CC BY-SA 4.0",
+   "name": "Et Tantuni/Lavaş/Turşu",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Tantuni_sokak_yeme%C4%9Fi.jpg",
+   "sorgu": "Et Tantuni",
+   "yazar": "Joquee"
+  },
+  "f59840854b": {
+   "baslik": "Kuru fasulye (etsiz).jpg",
+   "kaynak": "Wikimedia Commons",
+   "lisans": "CC BY-SA 4.0",
+   "name": "Etsiz Kuru Fasülye",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Kuru_fasulye_(etsiz).jpg",
+   "sorgu": "Etsiz Kuru Fasülye",
+   "yazar": "E4024"
+  },
+  "f71bbead41": {
+   "baslik": "Etli kuru fasulye.jpg",
+   "kaynak": "Wikimedia Commons",
+   "lisans": "CC BY-SA 4.0",
+   "name": "Etli Kuru Fasülye",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Etli_kuru_fasulye.jpg",
+   "sorgu": "Etli Kuru Fasülye",
+   "yazar": "E4024"
+  },
+  "f79b284db7": {
+   "baslik": "Spaghetti (53257476437) (cropped).png",
+   "kaynak": "Wikimedia Commons",
+   "lisans": "CC BY 3.0",
+   "name": "Sebzeli Makarna",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Spaghetti_(53257476437)_(cropped).png",
+   "sorgu": "Spaghetti",
+   "yazar": "Choo Yut Shing"
+  },
+  "f90a68ad9b": {
+   "baslik": "Fırında Domates Soslu Tavuk Baget.jpg",
+   "kaynak": "Wikimedia Commons",
+   "lisans": "CC BY-SA 4.0",
+   "name": "Izgara Tavuk Baget/Patates Garnitür",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:F%C4%B1r%C4%B1nda_Domates_Soslu_Tavuk_Baget.jpg",
+   "sorgu": "Tavuk Baget",
+   "yazar": "Samizambak"
+  },
+  "f98b465287": {
+   "baslik": "Yogurt soup (yayla çorba).jpg",
+   "kaynak": "Wikimedia Commons",
+   "lisans": "CC BY-SA 4.0",
+   "name": "Yayla Çorba",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Yogurt_soup_(yayla_%C3%A7orba).jpg",
+   "sorgu": "Yayla Çorba",
+   "yazar": "E4024"
+  },
+  "fbb76e65c4": {
+   "baslik": "Kuru fasulye (etli).jpg",
+   "kaynak": "Wikimedia Commons",
+   "lisans": "CC BY-SA 4.0",
+   "name": "Etli Kuru Fasulye",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Kuru_fasulye_(etli).jpg",
+   "sorgu": "Etli Kuru Fasulye",
+   "yazar": "E4024"
+  },
+  "fc648efe4b": {
+   "baslik": "Lahmacun.jpg",
+   "kaynak": "Wikimedia Commons",
+   "lisans": "CC BY-SA 3.0",
+   "name": "Lahmacun",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Lahmacun.jpg",
+   "sorgu": "Lahmacun",
+   "yazar": "No machine-readable author provided. Rainer Zenz assumed (based on copyright cla"
+  }
+ },
+ "miss": {
+  "0b8510d8e8": "2026-10-03",
+  "1a817ec3d4": "2026-10-03",
+  "1ff73f45dc": "2026-10-03",
+  "211964d15e": "2026-10-03",
+  "24fb1421f0": "2026-10-03",
+  "2b6a0527dc": "2026-10-03",
+  "3c2759e9e2": "2026-10-03",
+  "3e56cf813e": "2026-10-03",
+  "411338e940": "2026-10-03",
+  "42bf86b3bf": "2026-10-03",
+  "454fd723e8": "2026-10-03",
+  "45d738bb6c": "2026-10-03",
+  "4cf396a308": "2026-10-03",
+  "57d2d2d906": "2026-10-03",
+  "59ba911f66": "2026-10-03",
+  "613616e611": "2026-10-03",
+  "62824fdcfe": "2026-10-03",
+  "6b8e3e4610": "2026-10-03",
+  "70ddba17c0": "2026-10-03",
+  "7a3b3546ba": "2026-10-03",
+  "7bae814a67": "2026-10-03",
+  "7d82f88f08": "2026-10-03",
+  "7e85f5098f": "2026-10-03",
+  "8061d7cb59": "2026-10-03",
+  "80a12c81aa": "2026-10-03",
+  "82bddc9f12": "2026-10-03",
+  "8383bb3fac": "2026-10-03",
+  "8537cbf8e8": "2026-10-03",
+  "8636bfbc0a": "2026-10-03",
+  "89f74b9ea7": "2026-10-03",
+  "8ceb59372b": "2026-10-03",
+  "91d34270c6": "2026-10-03",
+  "99f4bc2075": "2026-10-03",
+  "a08708a2dc": "2026-10-03",
+  "a090e0535f": "2026-10-03",
+  "a43c0db63b": "2026-10-03",
+  "a5a0d426d2": "2026-10-03",
+  "b3743cd135": "2026-10-03",
+  "b6a8224fc4": "2026-10-03",
+  "b79321e9e3": "2026-10-03",
+  "b7f7a0ca2b": "2026-10-03",
+  "bc4445cb87": "2026-10-03",
+  "bf461214db": "2026-10-03",
+  "c3679051de": "2026-10-03",
+  "c9bbf82882": "2026-10-03",
+  "cdbbaa4cff": "2026-10-03",
+  "dbae728869": "2026-10-03",
+  "de62be9b48": "2026-10-03",
+  "ecc20399ad": "2026-10-03",
+  "ed53d04fdc": "2026-10-03",
+  "ed89d84390": "2026-10-03",
+  "f029cd24e9": "2026-10-03",
+  "f582c87cac": "2026-10-03",
+  "fa4decda6a": "2026-10-03",
+  "fef6adada3": "2026-10-03",
+  "ff8bf920a9": "2026-10-03"
+ }
+}
