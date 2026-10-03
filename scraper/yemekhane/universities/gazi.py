@@ -66,7 +66,9 @@ def hafta_tarihleri(satir):
 def gun_menusu(hucreler, kalori):
     """Bir günün hücreleri (çorba, ana, etsiz ana, yan, tatlı...) -> (öğle, vejetaryen) ya da None (tatil / boş)."""
     dolu = [h for h in hucreler if h.strip("* ")]
-    if not dolu or any(_kucuk(h).strip("* ") == "tatil" for h in hucreler):
+    if any(_kucuk(h).strip("* ") == "tatil" for h in hucreler):
+        return {"items": [], "note": "Tatil"}, None          # uygulama "Tatil: yemek yok" gösterir
+    if not dolu:
         return None
     ogle = [{"name": yemek_adi(h)} for h in hucreler if h.strip("* ") and not h.startswith("*")]
     gun = {"items": ogle}

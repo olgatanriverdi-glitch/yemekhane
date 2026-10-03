@@ -58,11 +58,11 @@ class _AnaSayfaState extends State<AnaSayfa> {
           orElse: () => _uniler.first);
       await _depo.universiteSec(_uni!.id);
       _menu = await _depo.menu(_uni!.id);
-      // bugün menüde yoksa en yakın günü seç
-      if (!_menu!.gunler.containsKey(_tarih)) {
-        final t = _menu!.tarihler;
-        _tarih =
-            t.firstWhere((x) => x.compareTo(_tarih) >= 0, orElse: () => t.last);
+      // bugün menü aralığındaysa (menüsü olmasa da) bugünde kal; aralık dışındaysa en yakın uca git
+      final t = _menu!.tarihler;
+      if (t.isNotEmpty) {
+        if (_tarih.compareTo(t.first) < 0) _tarih = t.first;
+        if (_tarih.compareTo(t.last) > 0) _tarih = t.last;
       }
       _uygunOgunSec();
     } catch (e) {
@@ -138,12 +138,7 @@ class _AnaSayfaState extends State<AnaSayfa> {
   Widget _icerik(ThemeData tema) {
     final menu = _menu!;
     final bugun = isoTarih(DateTime.now());
-    var tarihler = menu.tarihler
-        .where((t) => t.compareTo(bugun) >= 0)
-        .toList(); // geçmiş günler gösterilmez
-    if (tarihler.isEmpty) {
-      tarihler = menu.tarihler.reversed.take(7).toList().reversed.toList();
-    }
+    final tarihler = gunListesi(menu, bugun); // boş günler dahil
     final gun = menu.gunler[_tarih] ?? {};
     final turler = [
       for (final t in ['lunch', 'dinner', 'vegetarian'])
@@ -188,21 +183,49 @@ class _AnaSayfaState extends State<AnaSayfa> {
             }
             if (v > 250 && i > 0) _gunSec(tarihler[i - 1]);
           },
-          child: ogun == null || ogun.bos
-              ? (aktif == 'vegetarian'
-                  ? _EtsizOneri(gun: gun)
-                  : Center(
-                      child: Text(
-                          'Bu gün için ${_ogunAdlari[aktif]?.toLowerCase() ?? ''} menüsü henüz yayınlanmadı.',
-                          textAlign: TextAlign.center)))
-              : _OgunKarti(
-                  ogun: ogun,
-                  fiyat: _uni!.ogrenciFiyati(aktif),
-                  fotoUrl: _depo.fotoUrl(_uni!.id, ogun.foto),
-                  fotoYaklasik: ogun.fotoYaklasik,
-                  yemekFoto: _depo.yemekFotoUrl,
-                  geriBildirim: _geriBildirim,
-                  slot: slotKimligi(_uni!.id, _tarih, aktif)),
+          child: gun.isEmpty
+              ? _YemekYok(
+                  baslik: 'Bu gün yemek yok',
+                  alt: DateTime.parse(_tarih).weekday >= 6
+                      ? 'Hafta sonu yemekhane hizmeti verilmiyor.'
+                      : 'Okul bu gün için menü yayınlamadı.',
+                  ikon: DateTime.parse(_tarih).weekday >= 6
+                      ? Icons.weekend_outlined
+                      : Icons.no_meals_outlined)
+              : gun.values.every((o) => o.bos)
+                  // o gün hiçbir öğünde yemek yok (örn. tatil): tek, net bir mesaj
+                  ? _YemekYok(
+                      baslik: gun.values
+                              .map((o) => o.not)
+                              .whereType<String>()
+                              .firstOrNull ??
+                          'Bu gün yemek yok',
+                      alt: 'Bu gün yemekhane hizmeti verilmiyor.',
+                      ikon: Icons.celebration_outlined)
+                  : ogun == null || ogun.bos
+                      ? (ogun?.not != null
+                          ? _YemekYok(
+                              baslik: ogun!.not!,
+                              alt:
+                                  'Bu gün ${_ogunAdlari[aktif]?.toLowerCase() ?? ''} yemeği yok.',
+                              ikon: Icons.celebration_outlined)
+                          : aktif == 'vegetarian'
+                              ? _EtsizOneri(gun: gun)
+                              : _YemekYok(
+                                  baslik:
+                                      'Bu gün ${_ogunAdlari[aktif]?.toLowerCase() ?? ''} yemeği yok',
+                                  alt: DateTime.parse(_tarih).weekday >= 6
+                                      ? 'Hafta sonu bu öğün verilmiyor.'
+                                      : 'Okul bu öğün için menü yayınlamadı.',
+                                  ikon: Icons.no_meals_outlined))
+                      : _OgunKarti(
+                          ogun: ogun,
+                          fiyat: _uni!.ogrenciFiyati(aktif),
+                          fotoUrl: _depo.fotoUrl(_uni!.id, ogun.foto),
+                          fotoYaklasik: ogun.fotoYaklasik,
+                          yemekFoto: _depo.yemekFotoUrl,
+                          geriBildirim: _geriBildirim,
+                          slot: slotKimligi(_uni!.id, _tarih, aktif)),
         ),
       ),
       if (menu.guncellendi != null)
@@ -213,6 +236,35 @@ class _AnaSayfaState extends State<AnaSayfa> {
               style: tema.textTheme.bodySmall),
         ),
     ]);
+  }
+}
+
+/// Yemek verilmeyen gün / öğün için sade bilgi ekranı.
+class _YemekYok extends StatelessWidget {
+  final String baslik, alt;
+  final IconData ikon;
+  const _YemekYok(
+      {required this.baslik, required this.alt, required this.ikon});
+
+  @override
+  Widget build(BuildContext context) {
+    final tema = Theme.of(context);
+    return ListView(
+      padding: const EdgeInsets.fromLTRB(24, 56, 24, 24),
+      children: [
+        Icon(ikon, size: 64, color: tema.colorScheme.outline),
+        const SizedBox(height: 16),
+        Text(baslik,
+            textAlign: TextAlign.center,
+            style: tema.textTheme.titleLarge
+                ?.copyWith(fontWeight: FontWeight.w700)),
+        const SizedBox(height: 8),
+        Text(alt,
+            textAlign: TextAlign.center,
+            style: tema.textTheme.bodyMedium
+                ?.copyWith(color: tema.colorScheme.onSurfaceVariant)),
+      ],
+    );
   }
 }
 

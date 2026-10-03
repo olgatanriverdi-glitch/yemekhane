@@ -43,4 +43,19 @@ void main() {
     expect(ogeler.any((o) => o.img != null && o.img!.startsWith('dishes/')),
         isTrue);
   });
+
+  test(
+      'Gazi: tatil günleri not olarak gelir, gün listesi hafta sonlarını içerir',
+      () {
+    final menu = Menu.fromJson(
+        jsonDecode(File('assets/data/gazi/menu.json').readAsStringSync())
+            as Map<String, dynamic>);
+    final tatil = menu.gunler['2026-10-28']!['lunch']!;
+    expect(tatil.bos, isTrue);
+    expect(tatil.not, 'Tatil');
+    final liste = gunListesi(menu, '2026-10-09');
+    expect(liste, containsAll(['2026-10-10', '2026-10-11', '2026-10-28']));
+    expect(
+        menu.gunler.containsKey('2026-10-10'), isFalse); // hafta sonu: menü yok
+  });
 }

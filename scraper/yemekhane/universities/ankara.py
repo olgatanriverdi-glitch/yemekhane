@@ -13,6 +13,7 @@ KAYNAKLAR = {
     "vegetarian": TABAN + "vejetaryenmenu.php",
 }
 SKS_SAYFA = "https://sks.ankara.edu.tr/yemek-hizmetleri-2/"
+TATIL = re.compile(r"tatil|bayram", re.I)
 
 
 def xlsx_menu(veri: bytes) -> dict:
@@ -24,6 +25,9 @@ def xlsx_menu(veri: bytes) -> dict:
         print("DÜZELTME: okulun dosyasındaki tarih %s -> %s olarak yorumlandı" % (eski, yeni))
     for satir, tarih in zip(tarih_satirlari, tarihler):
         ogeler = [yemek_ogesi(satir[s]) for s in "BCDE" if satir.get(s)]
+        if ogeler and all(TATIL.search(o["name"]) for o in ogeler):      # "29 Ekim Cumhuriyet Bayramı" yemek değil, tatil notudur
+            gunler[tarih] = {"items": [], "note": " / ".join(o["name"] for o in ogeler)}
+            continue
         gun = {"items": ogeler}
         k = toplam_kalori(satir.get("F", ""))
         if k:

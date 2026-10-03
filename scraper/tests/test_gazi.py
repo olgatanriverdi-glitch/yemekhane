@@ -16,10 +16,11 @@ class GaziTesti(unittest.TestCase):
         self.m = sayfa_menu(oku("gazi_menu.html").decode("utf-8"))
 
     def test_gunler_ve_tatil(self):
-        self.assertEqual(len(self.m), 18)
+        self.assertEqual(len(self.m), 20)
         self.assertIn("2026-10-05", self.m)
-        self.assertNotIn("2026-10-28", self.m)       # TATİL
-        self.assertNotIn("2026-10-29", self.m)
+        for t in ("2026-10-28", "2026-10-29"):       # TATİL: yemek yok, not olarak işaretlenir
+            self.assertEqual(self.m[t]["lunch"], {"items": [], "note": "Tatil"})
+            self.assertNotIn("vegetarian", self.m[t])
 
     def test_ogle_menusu(self):
         g = self.m["2026-10-06"]["lunch"]
@@ -45,5 +46,5 @@ class GaziTesti(unittest.TestCase):
     def test_fiyat_ve_birlesik(self):
         self.assertEqual(ucret_ayikla(oku("gazi_ucret.html").decode("utf-8")), [{"label": "Öğrenci (Öğle Yemeği)", "tl": 50}])
         u = GaziUniversitesi(lambda url: oku("gazi_ucret.html") if "264777" in url else oku("gazi_menu.html"))
-        self.assertEqual(len(u.menuler()), 18)
+        self.assertEqual(len(u.menuler()), 20)
         self.assertEqual(u.fiyatlar()[0]["tl"], 50)

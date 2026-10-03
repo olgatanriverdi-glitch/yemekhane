@@ -64,7 +64,10 @@ class Ogun {
       foto; // 'photos/lib/<anahtar>.jpg' (menünün tabldot fotoğrafı, varsa)
   final bool
       fotoYaklasik; // true: aynı menü değil, aynı ana yemekli benzer bir menünün fotoğrafı
-  Ogun(this.ogeler, this.kcal, [this.foto, this.fotoYaklasik = false]);
+  final String?
+      not; // örn. "Tatil", "29 Ekim Cumhuriyet Bayramı": yemek verilmeyen gün notu
+  Ogun(this.ogeler, this.kcal,
+      [this.foto, this.fotoYaklasik = false, this.not]);
   factory Ogun.fromJson(Map<String, dynamic> j) => Ogun(
         ((j['items'] ?? const []) as List)
             .map((e) => YemekOgesi.fromJson(e as Map<String, dynamic>))
@@ -72,6 +75,7 @@ class Ogun {
         (j['kcal'] as num?)?.toInt(),
         j['photo'] as String?,
         (j['photoApprox'] ?? false) as bool,
+        j['note'] as String?,
       );
   bool get bos => ogeler.isEmpty;
 }
@@ -96,6 +100,21 @@ class Menu {
   }
 
   List<String> get tarihler => (gunler.keys.toList()..sort());
+}
+
+/// Gün çubuğu için tarih listesi: bugünden (menü başlamamışsa ilk günden) son menü gününe kadar,
+/// menüsü olmayan günler (hafta sonu, tatil) dahil kesintisiz. Menü bittiyse son 7 gün gösterilir.
+List<String> gunListesi(Menu menu, String bugun) {
+  final t = menu.tarihler;
+  if (t.isEmpty) return [];
+  final son = DateTime.parse(t.last);
+  var bas = DateTime.parse(bugun.compareTo(t.first) < 0 ? t.first : bugun);
+  if (bas.isAfter(son)) bas = son.subtract(const Duration(days: 6));
+  final sonuc = <String>[];
+  for (var d = bas; !d.isAfter(son); d = DateTime(d.year, d.month, d.day + 1)) {
+    sonuc.add(isoTarih(d));
+  }
+  return sonuc;
 }
 
 String isoTarih(DateTime d) =>

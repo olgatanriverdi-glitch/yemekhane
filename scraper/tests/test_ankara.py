@@ -33,6 +33,16 @@ class AnkaraTesti(unittest.TestCase):
         self.assertEqual(len(ilk["items"]), 4)
         self.assertEqual(ilk["kcal"], 1910)
 
+    def test_tatil_notu(self):
+        g = xlsx_menu(oku("ankara_ogle.xlsx"))
+        tatiller = {t: d for t, d in g.items() if d.get("note")}
+        for t, d in tatiller.items():
+            self.assertEqual(d["items"], [])
+        # yemek olarak yanlış gösterilen bayram/tatil satırı kalmamalı
+        for d in g.values():
+            for o in d["items"]:
+                self.assertNotRegex(o["name"].lower(), "bayram|tatil")
+
     def test_aksam_ve_vejetaryen(self):
         self.assertGreater(len(xlsx_menu(oku("ankara_aksam.xlsx"))), 20)
         self.assertGreater(len(xlsx_menu(oku("ankara_vejetaryen.xlsx"))), 1)

@@ -1069,11 +1069,8 @@
     ]
    },
    "lunch": {
-    "items": [
-     {
-      "name": "Yarım Gün Tatil"
-     }
-    ]
+    "items": [],
+    "note": "Yarım Gün Tatil"
    }
   },
   "2026-10-29": {
@@ -1097,11 +1094,8 @@
     ]
    },
    "lunch": {
-    "items": [
-     {
-      "name": "29 Ekim Cumhuriyet Bayramı"
-     }
-    ]
+    "items": [],
+    "note": "29 Ekim Cumhuriyet Bayramı"
    }
   },
   "2026-10-30": {
@@ -1171,5 +1165,5 @@
   }
  },
  "university": "ankara",
- "updated": "2026-10-03T12:09:18+03:00"
+ "updated": "2026-10-03T16:20:23+03:00"
 }
