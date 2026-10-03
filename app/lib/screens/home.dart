@@ -108,7 +108,7 @@ class _AnaSayfaState extends State<AnaSayfa> {
             padding: const EdgeInsets.symmetric(vertical: 6, horizontal: 4),
             child: Row(mainAxisSize: MainAxisSize.min, children: [
               Flexible(
-                  child: Text(_uni?.ad ?? 'Yemekhane',
+                  child: Text(_uni?.ad ?? 'Üni Yemek',
                       overflow: TextOverflow.ellipsis)),
               const Icon(Icons.arrow_drop_down),
             ]),

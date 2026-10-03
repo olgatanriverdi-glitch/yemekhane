@@ -16,7 +16,7 @@ class YemekhaneApp extends StatelessWidget {
           visualDensity: VisualDensity.adaptivePlatformDensity,
         );
     return MaterialApp(
-      title: 'Yemekhane',
+      title: 'Üni Yemek',
       debugShowCheckedModeBanner: false,
       theme: tema(Brightness.light),
       darkTheme: tema(Brightness.dark),

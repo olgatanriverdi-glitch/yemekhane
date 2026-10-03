@@ -1,4 +1,4 @@
-# Yemekhane
+# Üni Yemek
 
 Üniversite yemekhane menülerini **öğle / akşam / vejetaryen** olarak gösteren mobil uygulama.
 İlk üniversite: **Ankara Üniversitesi**. Başka üniversiteler eklenti olarak eklenir.
