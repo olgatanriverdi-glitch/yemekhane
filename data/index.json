@@ -62,8 +62,43 @@
    ],
    "short": "GÜ",
    "source": "https://mediko.gazi.edu.tr/view/page/20412/yemek-listesi"
+  },
+  {
+   "city": "Ankara",
+   "firstDay": "2026-10-01",
+   "id": "hacettepe",
+   "lastDay": "2026-11-01",
+   "meals": [
+    "breakfast",
+    "dinner",
+    "lunch",
+    "vegetarian"
+   ],
+   "name": "Hacettepe Üniversitesi",
+   "prices": [],
+   "short": "HÜ",
+   "source": "https://beslenme.hacettepe.edu.tr/"
+  },
+  {
+   "city": "Ankara",
+   "firstDay": "2026-10-01",
+   "id": "aybu",
+   "lastDay": "2026-10-30",
+   "meals": [
+    "lunch",
+    "vegetarian"
+   ],
+   "name": "Ankara Yıldırım Beyazıt Üniversitesi",
+   "prices": [
+    {
+     "label": "Öğrenci (Öğle Yemeği)",
+     "tl": 50
+    }
+   ],
+   "short": "AYBÜ",
+   "source": "https://aybu.edu.tr/sks/tr/sayfa/6265"
   }
  ],
- "updated": "2026-10-03T16:20:23+03:00",
+ "updated": "2026-10-03T18:32:41+03:00",
  "version": 1
 }

@@ -8,11 +8,13 @@ import 'geri_bildirim.dart';
 import 'university_picker.dart';
 
 const _ogunAdlari = {
+  'breakfast': 'Kahvaltı',
   'lunch': 'Öğle',
   'dinner': 'Akşam',
   'vegetarian': 'Vejetaryen'
 };
 const _ogunIkon = {
+  'breakfast': Icons.free_breakfast_outlined,
   'lunch': Icons.wb_sunny_outlined,
   'dinner': Icons.nights_stay_outlined,
   'vegetarian': Icons.eco_outlined
@@ -77,7 +79,7 @@ class _AnaSayfaState extends State<AnaSayfa> {
     final gun = _menu?.gunler[_tarih];
     if (gun == null) return;
     if (gun[_ogun] != null && !gun[_ogun]!.bos) return;
-    for (final t in ['lunch', 'dinner', 'vegetarian']) {
+    for (final t in ['breakfast', 'lunch', 'dinner', 'vegetarian']) {
       if (gun[t] != null && !gun[t]!.bos) {
         _ogun = t;
         return;
@@ -141,7 +143,7 @@ class _AnaSayfaState extends State<AnaSayfa> {
     final tarihler = gunListesi(menu, bugun); // boş günler dahil
     final gun = menu.gunler[_tarih] ?? {};
     final turler = [
-      for (final t in ['lunch', 'dinner', 'vegetarian'])
+      for (final t in ['breakfast', 'lunch', 'dinner', 'vegetarian'])
         if (_uni!.ogunler.contains(t)) t
     ];
     final aktif = turler.contains(_ogun) ? _ogun : turler.first;
@@ -161,7 +163,8 @@ class _AnaSayfaState extends State<AnaSayfa> {
                   label: FittedBox(
                       fit: BoxFit.scaleDown,
                       child: Text(_ogunAdlari[t] ?? t, maxLines: 1)),
-                  icon: Icon(_ogunIkon[t], size: 18))
+                  // 4 sekmede etiketler okunur kalsın diye simge atılır
+                  icon: turler.length > 3 ? null : Icon(_ogunIkon[t], size: 18))
           ],
           selected: {aktif},
           showSelectedIcon: false,
@@ -499,6 +502,7 @@ class _OgunKarti extends StatelessWidget {
                     const SizedBox(width: 12),
                     Expanded(
                         child: Text(o.ad, style: tema.textTheme.titleMedium)),
+                    if (o.kcal != null) const SizedBox(width: 10),
                     if (o.kcal != null)
                       Text('${o.kcal} kkal',
                           style: tema.textTheme.bodyMedium?.copyWith(

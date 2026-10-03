@@ -58,4 +58,25 @@ void main() {
     expect(
         menu.gunler.containsKey('2026-10-10'), isFalse); // hafta sonu: menü yok
   });
+
+  test('Hacettepe: kahvaltı dahil dört öğün, AYBÜ: öğle + vejetaryen', () {
+    final idx = jsonDecode(File('assets/data/index.json').readAsStringSync())
+        as Map<String, dynamic>;
+    final uniler = {
+      for (final e in idx['universities'] as List)
+        (e as Map<String, dynamic>)['id'] as String: Universite.fromJson(e)
+    };
+    expect(uniler.keys, containsAll(['ankara', 'gazi', 'hacettepe', 'aybu']));
+    expect(uniler['hacettepe']!.ogunler,
+        containsAll(['breakfast', 'lunch', 'dinner', 'vegetarian']));
+    expect(uniler['aybu']!.ogunler, containsAll(['lunch', 'vegetarian']));
+    expect(uniler['aybu']!.ogrenciFiyati('lunch'), 50);
+
+    final hac = Menu.fromJson(
+        jsonDecode(File('assets/data/hacettepe/menu.json').readAsStringSync())
+            as Map<String, dynamic>);
+    final gun = hac.gunler[hac.tarihler.first]!;
+    expect(gun['breakfast']!.ogeler, isNotEmpty);
+    expect(gun['lunch']!.ogeler.length, greaterThanOrEqualTo(3));
+  });
 }

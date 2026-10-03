@@ -36,7 +36,10 @@ class _UniversitePickerState extends State<UniversitePicker> {
             for (final u in liste)
               ListTile(
                 leading: CircleAvatar(
-                    child: Text(u.kisa.isEmpty ? u.ad[0] : u.kisa)),
+                    child: Padding(
+                        padding: const EdgeInsets.all(4),
+                        child: FittedBox(
+                            child: Text(u.kisa.isEmpty ? u.ad[0] : u.kisa)))),
                 title: Text(u.ad),
                 subtitle: Text('${u.sehir} · ${u.ogunler.length} öğün türü'),
                 trailing: u.id == widget.secili
