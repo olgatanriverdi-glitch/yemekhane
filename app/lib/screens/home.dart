@@ -226,6 +226,8 @@ class _AnaSayfaState extends State<AnaSayfa> {
                           fiyat: _uni!.ogrenciFiyati(aktif),
                           fotoUrl: _depo.fotoUrl(_uni!.id, ogun.foto),
                           fotoYaklasik: ogun.fotoYaklasik,
+                          saat: _uni!.saat(aktif),
+                          uniId: _uni!.id,
                           yemekFoto: _depo.yemekFotoUrl,
                           geriBildirim: _geriBildirim,
                           slot: slotKimligi(_uni!.id, _tarih, aktif)),
@@ -421,30 +423,164 @@ class _GunHucresi extends StatelessWidget {
   }
 }
 
-class _OgunKarti extends StatelessWidget {
+class _OgunKarti extends StatefulWidget {
   final Ogun ogun;
   final int? fiyat;
+  final ServisSaati? saat;
   final String? fotoUrl;
   final bool fotoYaklasik;
   final String? Function(String?) yemekFoto;
   final GeriBildirimDeposu geriBildirim;
   final String slot;
+  final String uniId;
   const _OgunKarti(
       {required this.ogun,
       this.fiyat,
+      this.saat,
       this.fotoUrl,
       this.fotoYaklasik = false,
       required this.yemekFoto,
       required this.geriBildirim,
-      required this.slot});
+      required this.slot,
+      required this.uniId});
+
+  @override
+  State<_OgunKarti> createState() => _OgunKartiState();
+}
+
+class _OgunKartiState extends State<_OgunKarti> {
+  YemekPuanlari? _puanlar;
+
+  @override
+  void initState() {
+    super.initState();
+    _puanlariYukle();
+  }
+
+  @override
+  void didUpdateWidget(_OgunKarti eski) {
+    super.didUpdateWidget(eski);
+    if (eski.slot != widget.slot || eski.uniId != widget.uniId) {
+      _puanlar = null;
+      _puanlariYukle();
+    }
+  }
+
+  String? _yemekSlotu(YemekOgesi o) =>
+      o.anahtar == null ? null : yemekSlotKimligi(widget.uniId, o.anahtar!);
+
+  Future<void> _puanlariYukle() async {
+    final slot = widget.slot;
+    final slotlar = [
+      for (final o in widget.ogun.ogeler)
+        if (_yemekSlotu(o) != null) _yemekSlotu(o)!
+    ];
+    try {
+      final p = await widget.geriBildirim.puanlar(slotlar);
+      if (mounted && slot == widget.slot) setState(() => _puanlar = p);
+    } catch (_) {
+      // internet yoksa puan satırı "Puanla" olarak kalır
+    }
+  }
+
+  void _puanSayfasi(YemekOgesi o) {
+    final slot = _yemekSlotu(o)!;
+    final ozet = _puanlar?.ozet[slot];
+    final benim = _puanlar?.benim[slot];
+    showModalBottomSheet<void>(
+      context: context,
+      showDragHandle: true,
+      builder: (ctx) {
+        final tema = Theme.of(ctx);
+        return SafeArea(
+          child: Padding(
+            padding: const EdgeInsets.fromLTRB(24, 0, 24, 24),
+            child: Column(mainAxisSize: MainAxisSize.min, children: [
+              Text(o.ad,
+                  textAlign: TextAlign.center,
+                  style: tema.textTheme.titleLarge
+                      ?.copyWith(fontWeight: FontWeight.w700)),
+              const SizedBox(height: 6),
+              Text(
+                  ozet?.ortalama == null
+                      ? 'Henüz oy yok. İlk puanı sen ver.'
+                      : 'Ortalama ${ozet!.ortalama!.toStringAsFixed(1)} · ${ozet.adet} oy',
+                  style: tema.textTheme.bodyMedium
+                      ?.copyWith(color: tema.colorScheme.onSurfaceVariant)),
+              const SizedBox(height: 12),
+              Row(mainAxisAlignment: MainAxisAlignment.center, children: [
+                for (var i = 1; i <= 5; i++)
+                  IconButton(
+                    iconSize: 40,
+                    tooltip: '$i yıldız',
+                    onPressed: () async {
+                      Navigator.pop(ctx);
+                      try {
+                        await widget.geriBildirim.puanVer(slot, i);
+                        await _puanlariYukle();
+                      } catch (_) {
+                        if (mounted) {
+                          ScaffoldMessenger.of(context).showSnackBar(const SnackBar(
+                              content: Text(
+                                  'Puan kaydedilemedi. İnternet bağlantını kontrol et.')));
+                        }
+                      }
+                    },
+                    icon: Icon(
+                        (benim ?? 0) >= i
+                            ? Icons.star_rounded
+                            : Icons.star_outline_rounded,
+                        color: tema.colorScheme.primary),
+                  ),
+              ]),
+              if (benim != null)
+                Text('Önceki puanın: $benim / 5 (değiştirmek için dokun)',
+                    style: tema.textTheme.bodySmall),
+              if (!widget.geriBildirim.cevrimici)
+                Text('Deneme modu: puanlar yalnızca bu cihazda saklanır.',
+                    style: tema.textTheme.bodySmall),
+            ]),
+          ),
+        );
+      },
+    );
+  }
+
+  Widget _puanSatiri(YemekOgesi o) {
+    final tema = Theme.of(context);
+    final slot = _yemekSlotu(o)!;
+    final ozet = _puanlar?.ozet[slot];
+    final benim = _puanlar?.benim[slot];
+    final var_ = ozet?.ortalama != null;
+    final metin = var_
+        ? '${ozet!.ortalama!.toStringAsFixed(1)} · ${ozet.adet} oy${benim != null ? ' · senin: $benim' : ''}'
+        : 'Puanla';
+    return InkWell(
+      borderRadius: BorderRadius.circular(8),
+      onTap: () => _puanSayfasi(o),
+      child: Padding(
+        padding: const EdgeInsets.only(top: 3, bottom: 2),
+        child: Row(mainAxisSize: MainAxisSize.min, children: [
+          Icon(var_ ? Icons.star_rounded : Icons.star_outline_rounded,
+              size: 16, color: tema.colorScheme.primary),
+          const SizedBox(width: 4),
+          Text(metin,
+              style: tema.textTheme.bodySmall?.copyWith(
+                  color: tema.colorScheme.primary,
+                  fontWeight: FontWeight.w600)),
+        ]),
+      ),
+    );
+  }
 
   @override
   Widget build(BuildContext context) {
     final tema = Theme.of(context);
+    final ogun = widget.ogun;
     return ListView(
       padding: const EdgeInsets.all(16),
       children: [
-        if (fotoUrl != null)
+        if (widget.fotoUrl != null)
           Padding(
             padding: const EdgeInsets.only(bottom: 12),
             child: ClipRRect(
@@ -453,7 +589,7 @@ class _OgunKarti extends StatelessWidget {
                 aspectRatio: 3 / 2,
                 child: Stack(fit: StackFit.expand, children: [
                   Image.network(
-                    fotoUrl!,
+                    widget.fotoUrl!,
                     fit: BoxFit.cover,
                     loadingBuilder: (c, child, p) => p == null
                         ? child
@@ -466,7 +602,7 @@ class _OgunKarti extends StatelessWidget {
                         child: const Center(
                             child: Icon(Icons.restaurant, size: 40))),
                   ),
-                  if (fotoYaklasik)
+                  if (widget.fotoYaklasik)
                     Positioned(
                       left: 10,
                       bottom: 10,
@@ -498,10 +634,15 @@ class _OgunKarti extends StatelessWidget {
                 Padding(
                   padding: const EdgeInsets.symmetric(vertical: 8),
                   child: Row(children: [
-                    _YemekResmi(url: yemekFoto(o.img)),
+                    _YemekResmi(url: widget.yemekFoto(o.img)),
                     const SizedBox(width: 12),
                     Expanded(
-                        child: Text(o.ad, style: tema.textTheme.titleMedium)),
+                        child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                          Text(o.ad, style: tema.textTheme.titleMedium),
+                          if (o.anahtar != null) _puanSatiri(o),
+                        ])),
                     if (o.kcal != null) const SizedBox(width: 10),
                     if (o.kcal != null)
                       Text('${o.kcal} kkal',
@@ -517,23 +658,36 @@ class _OgunKarti extends StatelessWidget {
                       style: tema.textTheme.bodySmall
                           ?.copyWith(color: tema.colorScheme.onSurfaceVariant)),
                 ),
-              if (ogun.kcal != null || fiyat != null) const Divider(height: 28),
+              if (ogun.kcal != null ||
+                  widget.fiyat != null ||
+                  widget.saat != null)
+                const Divider(height: 28),
               Wrap(spacing: 8, runSpacing: 8, children: [
+                if (widget.saat != null)
+                  Chip(
+                      avatar: const Icon(Icons.schedule, size: 18),
+                      label: Text(widget.saat!.yaklasik
+                          ? 'Genelde ${widget.saat!.t}'
+                          : 'Servis ${widget.saat!.t}')),
                 if (ogun.kcal != null)
                   Chip(
                       avatar: const Icon(Icons.local_fire_department_outlined,
                           size: 18),
                       label: Text('Toplam ${ogun.kcal} kkal')),
-                if (fiyat != null)
+                if (widget.fiyat != null)
                   Chip(
                       avatar: const Icon(Icons.payments_outlined, size: 18),
-                      label: Text('Öğrenci $fiyat ₺')),
+                      label: Text('Öğrenci ${widget.fiyat} ₺')),
               ]),
             ]),
           ),
         ),
         const SizedBox(height: 12),
-        GeriBildirimBolumu(key: ValueKey(slot), depo: geriBildirim, slot: slot),
+        GeriBildirimBolumu(
+            key: ValueKey(widget.slot),
+            depo: widget.geriBildirim,
+            slot: widget.slot,
+            puanGoster: false),
       ],
     );
   }

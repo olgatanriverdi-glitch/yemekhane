@@ -25,6 +25,20 @@ class Universite:
         """Opsiyonel: bugüne özel veri. {'date': 'YYYY-MM-DD'|None, 'photo': jpeg bayt|None, 'items': [...]|None, 'meal': 'lunch'} ya da None."""
         return None
 
+    def saatler(self) -> dict:
+        """Okulun yayınladığı servis saatleri: {'lunch': '11:30–14:00', ...}. Bulunamayanlar yazılmaz (varsayılan build.py'de)."""
+        return {}
+
     def fiyatlar(self) -> list:
         """[{'label': 'Öğrenci (Öğle)', 'tl': 50}, ...] (bulunamazsa boş liste)."""
         return []
+
+
+def saat_duzenle(metin: str):
+    """'11.30-13.30', '11:30 - 14:00' -> '11:30–13:30'; saat aralığı yoksa None."""
+    import re
+    m = re.search(r"(\d{1,2})[.:](\d{2})\s*[-–—]\s*(\d{1,2})[.:](\d{2})", metin or "")
+    if not m:
+        return None
+    a, b, c, d = m.groups()
+    return "%02d:%s–%02d:%s" % (int(a), b, int(c), d)

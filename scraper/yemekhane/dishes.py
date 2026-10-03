@@ -228,6 +228,8 @@ class YemekFotolari:
         for gun in menuler.values():
             for ogun in gun.values():
                 for oge in ogun.get("items", []):
+                    if not ATLA.search(oge["name"].strip()):
+                        oge["key"] = anahtar(oge["name"])           # uygulamada yemek bazlı puanlama için
                     yol = self.dosya(oge["name"])
                     if yol:
                         oge["img"] = yol

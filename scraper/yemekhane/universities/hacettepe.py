@@ -9,7 +9,7 @@ import re
 import time
 from datetime import date, timedelta
 
-from .base import Universite, indir
+from .base import Universite, indir, saat_duzenle
 
 BASE = "https://beslenme.hacettepe.edu.tr/"
 ILERI_GUN = 40
@@ -70,6 +70,18 @@ def sayfa_gun(sayfa: str) -> dict:
     return gun
 
 
+def servis_saatleri(sayfa: str) -> dict:
+    """Bölümlerdeki 'Servis Saati' bilgisi: {'lunch': '11:30–14:00', 'dinner': '17:00–19:00', ...}"""
+    sonuc = {}
+    for m in re.finditer(r'<section id="(\w+)" class="tab-content[^"]*">(.*?)</section>', sayfa, flags=re.S):
+        tur = BOLUMLER.get(m.group(1))
+        s = re.search(r"Servis Saati.*?<strong[^>]*>([^<]+)</strong>", m.group(2), flags=re.S)
+        saat = saat_duzenle(s.group(1)) if s else None
+        if tur and saat:
+            sonuc[tur] = saat
+    return sonuc
+
+
 class HacettepeUniversitesi(Universite):
     id = "hacettepe"
     ad = "Hacettepe Üniversitesi"
@@ -81,6 +93,7 @@ class HacettepeUniversitesi(Universite):
         self.indir = indirici
         self.bugun = bugun
         self.bekle = bekle
+        self._saatler = {}
 
     def menuler(self) -> dict:
         bugun = self.bugun or date.today()
@@ -88,7 +101,10 @@ class HacettepeUniversitesi(Universite):
         for k in range(-GERI_GUN, ILERI_GUN + 1):
             tarih = (bugun + timedelta(days=k)).isoformat()
             try:
-                gun = sayfa_gun(self.indir(gun_url(tarih)).decode("utf-8", "ignore"))
+                sayfa = self.indir(gun_url(tarih)).decode("utf-8", "ignore")
+                gun = sayfa_gun(sayfa)
+                for tur, saat in servis_saatleri(sayfa).items():
+                    self._saatler.setdefault(tur, saat)
             except Exception as e:
                 print("UYARI: Hacettepe %s alınamadı: %s" % (tarih, e))
                 continue
@@ -103,6 +119,12 @@ class HacettepeUniversitesi(Universite):
                 if sonuc and bos >= ART_ARDA_BOS:
                     break
         return sonuc
+
+    def saatler(self) -> dict:
+        s = dict(self._saatler)
+        if "lunch" in s:
+            s.setdefault("vegetarian", s["lunch"])
+        return s
 
     def fiyatlar(self) -> list:
         return []      # öğrenci ücreti yalnızca resim/PDF olarak yayınlanıyor, güvenle okunamıyor

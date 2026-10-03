@@ -14,6 +14,20 @@ from datetime import datetime, timedelta, timezone
 from .universities import KAYITLI
 
 GUN_SAKLA = 45     # bugünden bu kadar gün öncesine kadar menü tutulur
+# Okul yayınlamıyorsa gösterilecek tipik saatler ('genelde' etiketiyle, kesin bilgi gibi sunulmaz)
+VARSAYILAN_SAATLER = {"lunch": "11:00–14:00", "dinner": "17:00–19:00"}
+
+
+def saat_bilgisi(u, turler) -> dict:
+    """{'lunch': {'t': '11:30–14:00', 'approx': False}, ...}: okulun saati varsa kesin, yoksa tipik saat 'approx' ile."""
+    okul = u.saatler()
+    sonuc = {}
+    for tur in turler:
+        if tur in okul:
+            sonuc[tur] = {"t": okul[tur], "approx": False}
+        elif tur in VARSAYILAN_SAATLER:
+            sonuc[tur] = {"t": VARSAYILAN_SAATLER[tur], "approx": True}
+    return sonuc
 
 
 def yaz(yol, veri):
@@ -80,7 +94,7 @@ def calistir(cikti: str, uniler=None) -> int:
             yaz(os.path.join(cikti, u.id, "menu.json"), {"university": u.id, "updated": simdi.isoformat(timespec="seconds"), "days": menuler})
             turler = sorted({tur for g in menuler.values() for tur in g})
             liste.append({"id": u.id, "name": u.ad, "short": u.kisa, "city": u.sehir, "source": u.kaynak, "meals": turler,
-                          "prices": fiyatlar, "firstDay": min(menuler), "lastDay": max(menuler)})
+                          "prices": fiyatlar, "hours": saat_bilgisi(u, turler), "firstDay": min(menuler), "lastDay": max(menuler)})
             print("%-10s %d gün (%s .. %s) türler=%s" % (u.id, len(menuler), min(menuler), max(menuler), turler))
         except Exception as e:
             hata += 1

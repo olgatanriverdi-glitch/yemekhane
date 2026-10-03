@@ -7,7 +7,13 @@ import '../geri_bildirim.dart';
 class GeriBildirimBolumu extends StatefulWidget {
   final GeriBildirimDeposu depo;
   final String slot;
-  const GeriBildirimBolumu({super.key, required this.depo, required this.slot});
+  final bool
+      puanGoster; // false: yalnızca yorumlar (puanlar yemek bazlı verilir)
+  const GeriBildirimBolumu(
+      {super.key,
+      required this.depo,
+      required this.slot,
+      this.puanGoster = true});
 
   @override
   State<GeriBildirimBolumu> createState() => _GeriBildirimBolumuState();
@@ -147,57 +153,59 @@ class _GeriBildirimBolumuState extends State<GeriBildirimBolumu> {
     final renk = tema.colorScheme;
     return Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
       // --- puan
-      Card(
-        elevation: 0,
-        color: renk.surfaceContainerLow,
-        shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(24)),
-        child: Padding(
-          padding: const EdgeInsets.all(18),
-          child:
-              Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
-            Row(children: [
-              Text('Puan',
-                  style: tema.textTheme.titleMedium
-                      ?.copyWith(fontWeight: FontWeight.w700)),
-              const Spacer(),
-              Icon(Icons.star_rounded, color: renk.primary, size: 22),
-              const SizedBox(width: 4),
+      if (widget.puanGoster)
+        Card(
+          elevation: 0,
+          color: renk.surfaceContainerLow,
+          shape:
+              RoundedRectangleBorder(borderRadius: BorderRadius.circular(24)),
+          child: Padding(
+            padding: const EdgeInsets.all(18),
+            child:
+                Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
+              Row(children: [
+                Text('Puan',
+                    style: tema.textTheme.titleMedium
+                        ?.copyWith(fontWeight: FontWeight.w700)),
+                const Spacer(),
+                Icon(Icons.star_rounded, color: renk.primary, size: 22),
+                const SizedBox(width: 4),
+                Text(
+                    _ozet.ortalama == null
+                        ? 'Henüz oy yok'
+                        : '${_ozet.ortalama!.toStringAsFixed(1)} · ${_ozet.adet} oy',
+                    style: tema.textTheme.titleSmall),
+              ]),
+              const SizedBox(height: 10),
               Text(
-                  _ozet.ortalama == null
-                      ? 'Henüz oy yok'
-                      : '${_ozet.ortalama!.toStringAsFixed(1)} · ${_ozet.adet} oy',
-                  style: tema.textTheme.titleSmall),
-            ]),
-            const SizedBox(height: 10),
-            Text(
-                _benim == null
-                    ? 'Bu öğünü nasıl buldun?'
-                    : 'Puanın: $_benim / 5 (değiştirmek için dokun)',
-                style: tema.textTheme.bodyMedium
-                    ?.copyWith(color: renk.onSurfaceVariant)),
-            const SizedBox(height: 6),
-            Row(mainAxisAlignment: MainAxisAlignment.center, children: [
-              for (var i = 1; i <= 5; i++)
-                IconButton(
-                  iconSize: 38,
-                  tooltip: '$i yıldız',
-                  onPressed: () => _puanVer(i),
-                  icon: Icon(
-                      (_benim ?? 0) >= i
-                          ? Icons.star_rounded
-                          : Icons.star_outline_rounded,
-                      color: renk.primary),
-                ),
-            ]),
-            if (!widget.depo.cevrimici)
-              Text(
-                  'Deneme modu: puan ve yorumlar yalnızca bu cihazda saklanır.',
-                  style: tema.textTheme.bodySmall
+                  _benim == null
+                      ? 'Bu öğünü nasıl buldun?'
+                      : 'Puanın: $_benim / 5 (değiştirmek için dokun)',
+                  style: tema.textTheme.bodyMedium
                       ?.copyWith(color: renk.onSurfaceVariant)),
-          ]),
+              const SizedBox(height: 6),
+              Row(mainAxisAlignment: MainAxisAlignment.center, children: [
+                for (var i = 1; i <= 5; i++)
+                  IconButton(
+                    iconSize: 38,
+                    tooltip: '$i yıldız',
+                    onPressed: () => _puanVer(i),
+                    icon: Icon(
+                        (_benim ?? 0) >= i
+                            ? Icons.star_rounded
+                            : Icons.star_outline_rounded,
+                        color: renk.primary),
+                  ),
+              ]),
+              if (!widget.depo.cevrimici)
+                Text(
+                    'Deneme modu: puan ve yorumlar yalnızca bu cihazda saklanır.',
+                    style: tema.textTheme.bodySmall
+                        ?.copyWith(color: renk.onSurfaceVariant)),
+            ]),
+          ),
         ),
-      ),
-      const SizedBox(height: 12),
+      if (widget.puanGoster) const SizedBox(height: 12),
       // --- yorumlar
       Card(
         elevation: 0,

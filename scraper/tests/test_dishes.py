@@ -86,3 +86,5 @@ class KutuphaneTesti(unittest.TestCase):
             ogeler = menu["2026-10-05"]["lunch"]["items"]
             self.assertIn("img", ogeler[0])
             self.assertNotIn("img", ogeler[1])
+            self.assertEqual(ogeler[0]["key"], D.anahtar("Ezogelin Çorba"))     # yemek bazlı puanlama anahtarı
+            self.assertNotIn("key", ogeler[1])

@@ -2,8 +2,9 @@ import os
 import unittest
 from datetime import date
 
-from yemekhane.universities.aybu import AnkaraYildirimBeyazit, sayfa_menu, ucret_ayikla, yemek_ogesi
-from yemekhane.universities.hacettepe import HacettepeUniversitesi, sayfa_gun, yemek_adi
+from yemekhane.universities.aybu import AnkaraYildirimBeyazit, saat_ayikla, sayfa_menu, ucret_ayikla, yemek_ogesi
+from yemekhane.universities.base import saat_duzenle
+from yemekhane.universities.hacettepe import HacettepeUniversitesi, servis_saatleri, sayfa_gun, yemek_adi
 
 FIX = os.path.join(os.path.dirname(__file__), "fixtures")
 
@@ -78,3 +79,39 @@ class AybuTesti(unittest.TestCase):
         self.assertEqual(m["2026-10-05"]["vegetarian"]["items"][1]["name"], "Patates Oturtma")
         self.assertEqual(u.fiyatlar(), [{"label": "Öğrenci (Öğle Yemeği)", "tl": 50}])
         self.assertEqual(ucret_ayikla(oku("aybu_ucret.html").decode("utf-8"))[0]["tl"], 50)
+
+
+class SaatTesti(unittest.TestCase):
+    def test_saat_duzenle(self):
+        self.assertEqual(saat_duzenle("11.30-13.30"), "11:30–13:30")
+        self.assertEqual(saat_duzenle("Servis 11:30 - 14:00 arası"), "11:30–14:00")
+        self.assertIsNone(saat_duzenle("saat yok"))
+
+    def test_hacettepe_servis_saatleri(self):
+        s = servis_saatleri(oku("hacettepe_gun.html").decode("utf-8"))
+        self.assertEqual(s["lunch"], "11:30–14:00")
+        self.assertEqual(s["dinner"], "17:00–19:00")
+        u = HacettepeUniversitesi(lambda url: oku("hacettepe_gun.html"), bugun=date(2026, 10, 5), bekle=0)
+        u.menuler()
+        self.assertEqual(u.saatler()["vegetarian"], "11:30–14:00")      # vegan öğle saatinde
+
+    def test_aybu_saat(self):
+        self.assertEqual(saat_ayikla(oku("aybu_ucret.html").decode("utf-8"))["lunch"], "11:30–13:30")
+
+    def test_build_saat_bilgisi_varsayilan_ve_kesin(self):
+        from yemekhane.build import saat_bilgisi
+        from yemekhane.universities.base import Universite
+
+        class Bos(Universite):
+            pass
+
+        class Kesin(Universite):
+            def saatler(self):
+                return {"lunch": "11:30–13:30"}
+        b = saat_bilgisi(Bos(), ["lunch", "dinner", "vegetarian"])
+        self.assertEqual(b["lunch"], {"t": "11:00–14:00", "approx": True})
+        self.assertEqual(b["dinner"], {"t": "17:00–19:00", "approx": True})
+        self.assertNotIn("vegetarian", b)
+        k = saat_bilgisi(Kesin(), ["lunch", "dinner"])
+        self.assertEqual(k["lunch"], {"t": "11:30–13:30", "approx": False})
+        self.assertTrue(k["dinner"]["approx"])

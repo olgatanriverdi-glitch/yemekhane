@@ -79,4 +79,30 @@ void main() {
     expect(gun['breakfast']!.ogeler, isNotEmpty);
     expect(gun['lunch']!.ogeler.length, greaterThanOrEqualTo(3));
   });
+
+  test('servis saatleri ve yemek anahtarı veride var', () {
+    final idx = jsonDecode(File('assets/data/index.json').readAsStringSync())
+        as Map<String, dynamic>;
+    final uniler = {
+      for (final e in idx['universities'] as List)
+        (e as Map<String, dynamic>)['id'] as String: Universite.fromJson(e)
+    };
+    for (final u in uniler.values) {
+      expect(u.saat('lunch'), isNotNull, reason: u.id);
+      expect(u.saat('lunch')!.t, matches(RegExp(r'^\d{2}:\d{2}–\d{2}:\d{2}$')));
+    }
+    expect(uniler['hacettepe']!.saat('lunch')!.yaklasik,
+        isFalse); // okuldan okunan
+    expect(uniler['ankara']!.saat('dinner')!.yaklasik, isTrue); // tipik saat
+    expect(uniler['hacettepe']!.saat('vegetarian')!.t,
+        uniler['hacettepe']!.saat('lunch')!.t);
+    expect(uniler['gazi']!.saat('dinner'), isNull); // Gazi'de akşam yok
+
+    final menu = Menu.fromJson(
+        jsonDecode(File('assets/data/gazi/menu.json').readAsStringSync())
+            as Map<String, dynamic>);
+    final ogeler = menu.gunler[menu.tarihler.first]!['lunch']!.ogeler;
+    expect(ogeler.every((o) => o.anahtar != null && o.anahtar!.length == 10),
+        isTrue);
+  });
 }

@@ -149,4 +149,67 @@ void main() {
     expect(
         istekler.where((e) => e.contains('signUp')).length, 1); // tek kez giriş
   });
+
+  test('yemek bazlı puan: yerel depo slotları ayrı tutar', () async {
+    final d = YerelDepo();
+    final a = yemekSlotKimligi('gazi', 'aaaa'),
+        b = yemekSlotKimligi('gazi', 'bbbb');
+    expect(a, 'y_gazi_aaaa');
+    await d.puanVer(a, 5);
+    final p = await d.puanlar([a, b]);
+    expect(p.ozet[a]!.ortalama, 5.0);
+    expect(p.ozet[b]!.adet, 0);
+    expect(p.benim, {a: 5});
+  });
+
+  test('yemek bazlı puan: firestore tek istekte ortalama ve benim puanım',
+      () async {
+    var puanSorgusu = 0;
+    final istemci = MockClient((r) async {
+      final u = r.url.toString();
+      if (u.contains('accounts:signUp')) {
+        return http.Response(
+            jsonEncode({
+              'idToken': 'T',
+              'refreshToken': 'R',
+              'localId': 'U1',
+              'expiresIn': '3600'
+            }),
+            200);
+      }
+      if (u.contains(':runQuery')) {
+        puanSorgusu++;
+        final govde = jsonDecode(r.body) as Map;
+        final filtre = govde['structuredQuery']['where']['fieldFilter'] as Map;
+        expect(filtre['op'], 'IN'); // slot IN [...] tek sorgu
+        Map d(String slot, String uid, int y) => {
+              'document': {
+                'name': 'x/y/z',
+                'fields': {
+                  'slot': {'stringValue': slot},
+                  'uid': {'stringValue': uid},
+                  'stars': {'integerValue': '$y'}
+                }
+              }
+            };
+        return http.Response(
+            jsonEncode([
+              d('s1', 'U1', 5),
+              d('s1', 'U2', 3),
+              d('s2', 'U2', 2),
+              {'readTime': 'x'}
+            ]),
+            200);
+      }
+      return http.Response('{}', 200);
+    });
+    final p =
+        await FirestoreDepo('p', 'K', istemci).puanlar(['s1', 's2', 's3']);
+    expect(puanSorgusu, 1);
+    expect(p.ozet['s1']!.ortalama, 4.0);
+    expect(p.ozet['s1']!.adet, 2);
+    expect(p.ozet['s2']!.adet, 1);
+    expect(p.ozet['s3']!.adet, 0);
+    expect(p.benim, {'s1': 5});
+  });
 }

@@ -6,7 +6,7 @@ import html
 import re
 from datetime import date, timedelta
 
-from .base import Universite, indir
+from .base import Universite, indir, saat_duzenle
 
 MENU_URL = "https://aybu.edu.tr/sks/tr/sayfa/6265"
 VEJETARYEN_URL = "https://aybu.edu.tr/sks/tr/sayfa/10423"
@@ -94,6 +94,19 @@ def ucret_ayikla(sayfa: str) -> list:
     return []
 
 
+def saat_ayikla(sayfa: str) -> dict:
+    """'Yemek Saatleri' tablosu: ÖĞRENCİ sütunundaki saat öğle yemeği saatidir."""
+    for tablo in re.findall(r"<table.*?</table>", sayfa, flags=re.S | re.I):
+        satirlar = [[temiz(h) for h in re.findall(r"<t[dh].*?</t[dh]>", tr, flags=re.S | re.I)]
+                    for tr in re.findall(r"<tr.*?</tr>", tablo, flags=re.S | re.I)]
+        if satirlar and satirlar[0] and satirlar[0][0].upper().startswith("ÖĞRENC"):
+            for satir in satirlar[1:]:
+                saat = saat_duzenle(satir[0]) if satir else None
+                if saat:
+                    return {"lunch": saat, "vegetarian": saat}
+    return {}
+
+
 class AnkaraYildirimBeyazit(Universite):
     id = "aybu"
     ad = "Ankara Yıldırım Beyazıt Üniversitesi"
@@ -115,6 +128,13 @@ class AnkaraYildirimBeyazit(Universite):
         except Exception as e:
             print("UYARI: AYBÜ vejetaryen menüsü alınamadı:", e)
         return sonuc
+
+    def saatler(self) -> dict:
+        try:
+            return saat_ayikla(self.indir(UCRET_URL).decode("utf-8", "ignore"))
+        except Exception as e:
+            print("UYARI: AYBÜ saatleri alınamadı:", e)
+            return {}
 
     def fiyatlar(self) -> list:
         try:

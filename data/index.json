@@ -3,6 +3,16 @@
   {
    "city": "Ankara",
    "firstDay": "2026-10-01",
+   "hours": {
+    "dinner": {
+     "approx": true,
+     "t": "17:00–19:00"
+    },
+    "lunch": {
+     "approx": true,
+     "t": "11:00–14:00"
+    }
+   },
    "id": "ankara",
    "lastDay": "2026-10-31",
    "meals": [
@@ -47,6 +57,12 @@
   {
    "city": "Ankara",
    "firstDay": "2026-10-05",
+   "hours": {
+    "lunch": {
+     "approx": true,
+     "t": "11:00–14:00"
+    }
+   },
    "id": "gazi",
    "lastDay": "2026-10-30",
    "meals": [
@@ -66,6 +82,20 @@
   {
    "city": "Ankara",
    "firstDay": "2026-10-01",
+   "hours": {
+    "dinner": {
+     "approx": false,
+     "t": "17:00–19:00"
+    },
+    "lunch": {
+     "approx": false,
+     "t": "11:30–14:00"
+    },
+    "vegetarian": {
+     "approx": false,
+     "t": "11:30–14:00"
+    }
+   },
    "id": "hacettepe",
    "lastDay": "2026-11-01",
    "meals": [
@@ -82,6 +112,16 @@
   {
    "city": "Ankara",
    "firstDay": "2026-10-01",
+   "hours": {
+    "lunch": {
+     "approx": false,
+     "t": "11:30–13:30"
+    },
+    "vegetarian": {
+     "approx": false,
+     "t": "11:30–13:30"
+    }
+   },
    "id": "aybu",
    "lastDay": "2026-10-30",
    "meals": [
@@ -99,6 +139,6 @@
    "source": "https://aybu.edu.tr/sks/tr/sayfa/6265"
   }
  ],
- "updated": "2026-10-03T18:32:41+03:00",
+ "updated": "2026-10-03T18:47:28+03:00",
  "version": 1
 }

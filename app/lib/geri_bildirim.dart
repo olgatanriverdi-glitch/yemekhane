@@ -10,6 +10,16 @@ import 'firebase_config.dart';
 String slotKimligi(String uni, String tarih, String ogun) =>
     '${uni}_${tarih}_$ogun';
 
+/// Bir yemeğin (üniversite + yemek anahtarı) kimliği: 'y_ankara_3fa9c01b2e'. Puanlar yemek bazlıdır, tarihten bağımsızdır.
+String yemekSlotKimligi(String uni, String anahtar) => 'y_${uni}_$anahtar';
+
+/// Birden çok yemeğin puan özeti ve kullanıcının kendi puanları (slot -> değer).
+class YemekPuanlari {
+  final Map<String, PuanOzeti> ozet;
+  final Map<String, int> benim;
+  const YemekPuanlari(this.ozet, this.benim);
+}
+
 class PuanOzeti {
   final double? ortalama;
   final int adet;
@@ -28,6 +38,7 @@ abstract class GeriBildirimDeposu {
   Future<String> kullaniciId();
   Future<PuanOzeti> puanOzeti(String slot);
   Future<int?> benimPuanim(String slot);
+  Future<YemekPuanlari> puanlar(List<String> slotlar);
   Future<void> puanVer(String slot, int yildiz);
   Future<List<Yorum>> yorumlar(String slot);
   Future<void> yorumEkle(String slot, String ad, String metin);
@@ -69,6 +80,20 @@ class YerelDepo implements GeriBildirimDeposu {
 
   @override
   Future<int?> benimPuanim(String slot) async => (await _p).getInt('yp/$slot');
+
+  @override
+  Future<YemekPuanlari> puanlar(List<String> slotlar) async {
+    final p = await _p;
+    final ozet = <String, PuanOzeti>{};
+    final benim = <String, int>{};
+    for (final s in slotlar) {
+      final v = p.getInt('yp/$s');
+      ozet[s] =
+          v == null ? const PuanOzeti(null, 0) : PuanOzeti(v.toDouble(), 1);
+      if (v != null) benim[s] = v;
+    }
+    return YemekPuanlari(ozet, benim);
+  }
 
   @override
   Future<void> puanVer(String slot, int yildiz) async =>
@@ -260,6 +285,58 @@ class FirestoreDepo implements GeriBildirimDeposu {
     return adet == 0
         ? const PuanOzeti(null, 0)
         : PuanOzeti(toplam / adet, adet);
+  }
+
+  /// Birçok yemeğin puanlarını tek istekle okur (slot IN [...]); ortalama ve "benim puanım" uygulamada hesaplanır.
+  @override
+  Future<YemekPuanlari> puanlar(List<String> slotlar) async {
+    if (slotlar.isEmpty) return const YemekPuanlari({}, {});
+    final uid = await kullaniciId();
+    final r = await _c.post(Uri.parse('$_kok:runQuery'),
+        headers: await _baslik(),
+        body: jsonEncode({
+          'structuredQuery': {
+            'from': [
+              {'collectionId': 'ratings'}
+            ],
+            'where': {
+              'fieldFilter': {
+                'field': {'fieldPath': 'slot'},
+                'op': 'IN',
+                'value': {
+                  'arrayValue': {
+                    'values': [
+                      for (final s in slotlar.take(30)) {'stringValue': s}
+                    ]
+                  }
+                }
+              }
+            },
+            'limit': 5000,
+          }
+        }));
+    if (r.statusCode != 200) {
+      throw Exception('Puanlar okunamadı (${r.statusCode})');
+    }
+    final toplam = <String, int>{}, adet = <String, int>{};
+    final benim = <String, int>{};
+    for (final e in jsonDecode(r.body) as List) {
+      final f = (e as Map<String, dynamic>)['document']?['fields']
+          as Map<String, dynamic>?;
+      final slot = f?['slot']?['stringValue'] as String?;
+      final v = f?['stars']?['integerValue'];
+      if (slot == null || v == null) continue;
+      final y = int.parse('$v');
+      toplam[slot] = (toplam[slot] ?? 0) + y;
+      adet[slot] = (adet[slot] ?? 0) + 1;
+      if (f?['uid']?['stringValue'] == uid) benim[slot] = y;
+    }
+    return YemekPuanlari({
+      for (final s in slotlar)
+        s: (adet[s] ?? 0) == 0
+            ? const PuanOzeti(null, 0)
+            : PuanOzeti(toplam[s]! / adet[s]!, adet[s]!)
+    }, benim);
   }
 
   @override

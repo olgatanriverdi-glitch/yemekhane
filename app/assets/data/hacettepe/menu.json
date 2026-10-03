@@ -5,37 +5,46 @@
     "items": [
      {
       "img": "dishes/22605468a2.jpg",
+      "key": "22605468a2",
       "name": "Çay"
      },
      {
       "img": "dishes/ddc30ae037.jpg",
+      "key": "ddc30ae037",
       "name": "Simit"
      },
      {
       "img": "dishes/a76e528356.jpg",
+      "key": "a76e528356",
       "name": "Haşlanmış Yumurta"
      },
      {
       "img": "dishes/b20332bcf6.jpg",
+      "key": "b20332bcf6",
       "name": "Kaşar Peynir"
      },
      {
       "img": "dishes/4e61a66308.jpg",
+      "key": "4e61a66308",
       "name": "Domates"
      },
      {
+      "key": "f6e1b2f63d",
       "name": "Salatalık"
      },
      {
       "img": "dishes/a402a42c08.jpg",
+      "key": "a402a42c08",
       "name": "Yeşil Zeytin"
      },
      {
       "img": "dishes/47d15e46b8.jpg",
+      "key": "47d15e46b8",
       "name": "Fındık Ezmesi"
      },
      {
       "img": "dishes/94c90170eb.jpg",
+      "key": "94c90170eb",
       "name": "Ekmek (50 gr)"
      }
     ]
@@ -44,21 +53,25 @@
     "items": [
      {
       "kcal": 260,
+      "key": "6056fa53c4",
       "name": "Tandır Çorbası"
      },
      {
       "img": "dishes/5dfc480937.jpg",
       "kcal": 521,
+      "key": "5dfc480937",
       "name": "Patlıcan Musakka"
      },
      {
       "img": "dishes/25b07cf14e.jpg",
       "kcal": 293,
+      "key": "25b07cf14e",
       "name": "Bulgur Pilavı"
      },
      {
       "img": "dishes/ed17271d58.jpg",
       "kcal": 130,
+      "key": "ed17271d58",
       "name": "Meyve"
      }
     ],
@@ -68,21 +81,25 @@
     "items": [
      {
       "kcal": 260,
+      "key": "6056fa53c4",
       "name": "Tandır Çorbası"
      },
      {
       "img": "dishes/5dfc480937.jpg",
       "kcal": 521,
+      "key": "5dfc480937",
       "name": "Patlıcan Musakka"
      },
      {
       "img": "dishes/25b07cf14e.jpg",
       "kcal": 293,
+      "key": "25b07cf14e",
       "name": "Bulgur Pilavı"
      },
      {
       "img": "dishes/ed17271d58.jpg",
       "kcal": 130,
+      "key": "ed17271d58",
       "name": "Meyve"
      }
     ],
@@ -92,20 +109,24 @@
     "items": [
      {
       "kcal": 260,
+      "key": "6056fa53c4",
       "name": "Tandır Çorbası"
      },
      {
       "kcal": 421,
+      "key": "8190fdee21",
       "name": "Etsiz Patlıcan Musakka"
      },
      {
       "img": "dishes/25b07cf14e.jpg",
       "kcal": 293,
+      "key": "25b07cf14e",
       "name": "Bulgur Pilavı"
      },
      {
       "img": "dishes/ed17271d58.jpg",
       "kcal": 130,
+      "key": "ed17271d58",
       "name": "Meyve"
      }
     ],
@@ -117,35 +138,44 @@
     "items": [
      {
       "img": "dishes/22605468a2.jpg",
+      "key": "22605468a2",
       "name": "Çay"
      },
      {
       "img": "dishes/5116c28e65.jpg",
+      "key": "5116c28e65",
       "name": "Kek"
      },
      {
       "img": "dishes/a76e528356.jpg",
+      "key": "a76e528356",
       "name": "Haşlanmış Yumurta"
      },
      {
       "img": "dishes/8690d4fe86.jpg",
+      "key": "8690d4fe86",
       "name": "Beyaz Peynir"
      },
      {
       "img": "dishes/4e61a66308.jpg",
+      "key": "4e61a66308",
       "name": "Domates"
      },
      {
+      "key": "f6e1b2f63d",
       "name": "Salatalık"
      },
      {
+      "key": "9e8512d0f7",
       "name": "Siyah Zeytin"
      },
      {
+      "key": "bd44d6f251",
       "name": "Tereyağ-Bal"
      },
      {
       "img": "dishes/94c90170eb.jpg",
+      "key": "94c90170eb",
       "name": "Ekmek (50 gr)"
      }
     ]
@@ -155,20 +185,24 @@
      {
       "img": "dishes/ba380b9a95.jpg",
       "kcal": 161,
+      "key": "ba380b9a95",
       "name": "Sebze Çorbası"
      },
      {
       "img": "dishes/fbb76e65c4.jpg",
       "kcal": 428,
+      "key": "fbb76e65c4",
       "name": "Etli Kuru Fasulye"
      },
      {
       "kcal": 345,
+      "key": "4d4c7e8241",
       "name": "Şeh. Pirinç Pilavı"
      },
      {
       "img": "dishes/ec0228f614.jpg",
       "kcal": 20,
+      "key": "ec0228f614",
       "name": "Turşu"
      }
     ],
@@ -179,20 +213,24 @@
      {
       "img": "dishes/ba380b9a95.jpg",
       "kcal": 161,
+      "key": "ba380b9a95",
       "name": "Sebze Çorbası"
      },
      {
       "img": "dishes/fbb76e65c4.jpg",
       "kcal": 428,
+      "key": "fbb76e65c4",
       "name": "Etli Kuru Fasulye"
      },
      {
       "kcal": 345,
+      "key": "4d4c7e8241",
       "name": "Şeh. Pirinç Pilavı"
      },
      {
       "img": "dishes/ec0228f614.jpg",
       "kcal": 20,
+      "key": "ec0228f614",
       "name": "Turşu"
      }
     ],
@@ -203,20 +241,24 @@
      {
       "img": "dishes/ba380b9a95.jpg",
       "kcal": 161,
+      "key": "ba380b9a95",
       "name": "Sebze Çorbası"
      },
      {
       "img": "dishes/6a4adcf24e.jpg",
       "kcal": 260,
+      "key": "6a4adcf24e",
       "name": "Etsiz Kuru Fasulye"
      },
      {
       "kcal": 345,
+      "key": "4d4c7e8241",
       "name": "Şeh. Pirinç Pilavı"
      },
      {
       "img": "dishes/ec0228f614.jpg",
       "kcal": 20,
+      "key": "ec0228f614",
       "name": "Turşu"
      }
     ],
@@ -228,35 +270,44 @@
     "items": [
      {
       "img": "dishes/22605468a2.jpg",
+      "key": "22605468a2",
       "name": "Çay"
      },
      {
       "img": "dishes/ebfeabaf2c.jpg",
+      "key": "ebfeabaf2c",
       "name": "Poğaça"
      },
      {
       "img": "dishes/a76e528356.jpg",
+      "key": "a76e528356",
       "name": "Haşlanmış Yumurta"
      },
      {
+      "key": "824940a544",
       "name": "Üçgen Peynir"
      },
      {
       "img": "dishes/4e61a66308.jpg",
+      "key": "4e61a66308",
       "name": "Domates"
      },
      {
+      "key": "f6e1b2f63d",
       "name": "Salatalık"
      },
      {
       "img": "dishes/a402a42c08.jpg",
+      "key": "a402a42c08",
       "name": "Yeşil Zeytin"
      },
      {
+      "key": "2b1abf323c",
       "name": "Tereyağ-Reçel"
      },
      {
       "img": "dishes/94c90170eb.jpg",
+      "key": "94c90170eb",
       "name": "Ekmek (50 gr)"
      }
     ]
@@ -266,20 +317,24 @@
      {
       "img": "dishes/bf8474c8b9.jpg",
       "kcal": 228,
+      "key": "bf8474c8b9",
       "name": "Ezogelin Çorba"
      },
      {
       "img": "dishes/878b29f656.jpg",
       "kcal": 266,
+      "key": "878b29f656",
       "name": "Etli Türlü"
      },
      {
       "kcal": 452,
+      "key": "99f4bc2075",
       "name": "Cevizli Erişte"
      },
      {
       "img": "dishes/9c8d655ef5.jpg",
       "kcal": 140,
+      "key": "9c8d655ef5",
       "name": "Yoğurt"
      }
     ],
@@ -290,20 +345,24 @@
      {
       "img": "dishes/bf8474c8b9.jpg",
       "kcal": 228,
+      "key": "bf8474c8b9",
       "name": "Ezogelin Çorba"
      },
      {
       "img": "dishes/878b29f656.jpg",
       "kcal": 266,
+      "key": "878b29f656",
       "name": "Etli Türlü"
      },
      {
       "kcal": 452,
+      "key": "99f4bc2075",
       "name": "Cevizli Erişte"
      },
      {
       "img": "dishes/9c8d655ef5.jpg",
       "kcal": 140,
+      "key": "9c8d655ef5",
       "name": "Yoğurt"
      }
     ],
@@ -314,20 +373,24 @@
      {
       "img": "dishes/4fb733faf2.jpg",
       "kcal": 228,
+      "key": "4fb733faf2",
       "name": "Ezogelin Çorbası"
      },
      {
       "img": "dishes/6bdddb27f8.jpg",
       "kcal": 166,
+      "key": "6bdddb27f8",
       "name": "Etsiz Türlü"
      },
      {
       "kcal": 452,
+      "key": "99f4bc2075",
       "name": "Cevizli Erişte"
      },
      {
       "img": "dishes/ed17271d58.jpg",
       "kcal": 130,
+      "key": "ed17271d58",
       "name": "Meyve"
      }
     ],
@@ -339,36 +402,45 @@
     "items": [
      {
       "img": "dishes/22605468a2.jpg",
+      "key": "22605468a2",
       "name": "Çay"
      },
      {
       "img": "dishes/ebfeabaf2c.jpg",
+      "key": "ebfeabaf2c",
       "name": "Poğaça"
      },
      {
       "img": "dishes/a76e528356.jpg",
+      "key": "a76e528356",
       "name": "Haşlanmış Yumurta"
      },
      {
       "img": "dishes/b20332bcf6.jpg",
+      "key": "b20332bcf6",
       "name": "Kaşar Peynir"
      },
      {
       "img": "dishes/4e61a66308.jpg",
+      "key": "4e61a66308",
       "name": "Domates"
      },
      {
+      "key": "f6e1b2f63d",
       "name": "Salatalık"
      },
      {
+      "key": "9e8512d0f7",
       "name": "Siyah Zeytin"
      },
      {
       "img": "dishes/dbab93961a.jpg",
+      "key": "dbab93961a",
       "name": "Tahin Pekmez"
      },
      {
       "img": "dishes/94c90170eb.jpg",
+      "key": "94c90170eb",
       "name": "Ekmek (50 gr)"
      }
     ]
@@ -377,20 +449,24 @@
     "items": [
      {
       "kcal": 245,
+      "key": "e47540f7f5",
       "name": "Domates Çorbası"
      },
      {
       "img": "dishes/a577bbfc25.jpg",
       "kcal": 608,
+      "key": "a577bbfc25",
       "name": "Tas Kebap"
      },
      {
       "kcal": 417,
+      "key": "bcfefc4ecf",
       "name": "Zeytinli Nohut Salata"
      },
      {
       "img": "dishes/ed17271d58.jpg",
       "kcal": 130,
+      "key": "ed17271d58",
       "name": "Meyve"
      }
     ],
@@ -400,20 +476,24 @@
     "items": [
      {
       "kcal": 245,
+      "key": "e47540f7f5",
       "name": "Domates Çorbası"
      },
      {
       "img": "dishes/a577bbfc25.jpg",
       "kcal": 608,
+      "key": "a577bbfc25",
       "name": "Tas Kebap"
      },
      {
       "kcal": 417,
+      "key": "bcfefc4ecf",
       "name": "Zeytinli Nohut Salata"
      },
      {
       "img": "dishes/ed17271d58.jpg",
       "kcal": 130,
+      "key": "ed17271d58",
       "name": "Meyve"
      }
     ],
@@ -424,20 +504,24 @@
      {
       "img": "dishes/13df0d14f8.jpg",
       "kcal": 282,
+      "key": "13df0d14f8",
       "name": "Etsiz Kabak Kalye"
      },
      {
       "kcal": 417,
+      "key": "bcfefc4ecf",
       "name": "Zeytinli Nohut Salata"
      },
      {
       "img": "dishes/f2752c06ec.jpg",
       "kcal": 425,
+      "key": "f2752c06ec",
       "name": "Tahin Helvası"
      },
      {
       "img": "dishes/ed17271d58.jpg",
       "kcal": 130,
+      "key": "ed17271d58",
       "name": "Meyve"
      }
     ],
@@ -449,36 +533,45 @@
     "items": [
      {
       "img": "dishes/22605468a2.jpg",
+      "key": "22605468a2",
       "name": "Çay"
      },
      {
       "img": "dishes/5116c28e65.jpg",
+      "key": "5116c28e65",
       "name": "Kek"
      },
      {
       "img": "dishes/a76e528356.jpg",
+      "key": "a76e528356",
       "name": "Haşlanmış Yumurta"
      },
      {
       "img": "dishes/8690d4fe86.jpg",
+      "key": "8690d4fe86",
       "name": "Beyaz Peynir"
      },
      {
       "img": "dishes/4e61a66308.jpg",
+      "key": "4e61a66308",
       "name": "Domates"
      },
      {
+      "key": "f6e1b2f63d",
       "name": "Salatalık"
      },
      {
+      "key": "9e8512d0f7",
       "name": "Siyah Zeytin"
      },
      {
       "img": "dishes/dbab93961a.jpg",
+      "key": "dbab93961a",
       "name": "Tahin Pekmez"
      },
      {
       "img": "dishes/94c90170eb.jpg",
+      "key": "94c90170eb",
       "name": "Ekmek (50 gr)"
      }
     ]
@@ -487,20 +580,24 @@
     "items": [
      {
       "kcal": 200,
+      "key": "fce91b9059",
       "name": "Alaca Çorbası"
      },
      {
       "kcal": 320,
+      "key": "5a598a5889",
       "name": "Kaşarlı Kıymalı Karnabahar"
      },
      {
       "img": "dishes/18ccb4d264.jpg",
       "kcal": 375,
+      "key": "18ccb4d264",
       "name": "Soslu Makarna"
      },
      {
       "img": "dishes/ed17271d58.jpg",
       "kcal": 130,
+      "key": "ed17271d58",
       "name": "Meyve"
      }
     ],
@@ -510,20 +607,24 @@
     "items": [
      {
       "kcal": 200,
+      "key": "fce91b9059",
       "name": "Alaca Çorbası"
      },
      {
       "kcal": 320,
+      "key": "5a598a5889",
       "name": "Kaşarlı Kıymalı Karnabahar"
      },
      {
       "img": "dishes/18ccb4d264.jpg",
       "kcal": 375,
+      "key": "18ccb4d264",
       "name": "Soslu Makarna"
      },
      {
       "img": "dishes/ed17271d58.jpg",
       "kcal": 130,
+      "key": "ed17271d58",
       "name": "Meyve"
      }
     ],
@@ -533,20 +634,24 @@
     "items": [
      {
       "kcal": 200,
+      "key": "fce91b9059",
       "name": "Alaca Çorbası"
      },
      {
       "kcal": 160,
+      "key": "ecc20399ad",
       "name": "Etsiz Karnabahar"
      },
      {
       "img": "dishes/18ccb4d264.jpg",
       "kcal": 375,
+      "key": "18ccb4d264",
       "name": "Soslu Makarna"
      },
      {
       "img": "dishes/ed17271d58.jpg",
       "kcal": 130,
+      "key": "ed17271d58",
       "name": "Meyve"
      }
     ],
@@ -558,36 +663,45 @@
     "items": [
      {
       "img": "dishes/22605468a2.jpg",
+      "key": "22605468a2",
       "name": "Çay"
      },
      {
       "img": "dishes/832f19a490.jpg",
+      "key": "832f19a490",
       "name": "Kol/Tepsi Böreği"
      },
      {
       "img": "dishes/a76e528356.jpg",
+      "key": "a76e528356",
       "name": "Haşlanmış Yumurta"
      },
      {
       "img": "dishes/b3d6d96ccc.jpg",
+      "key": "b3d6d96ccc",
       "name": "Poşet Beyaz Peynir"
      },
      {
       "img": "dishes/4e61a66308.jpg",
+      "key": "4e61a66308",
       "name": "Domates"
      },
      {
+      "key": "f6e1b2f63d",
       "name": "Salatalık"
      },
      {
       "img": "dishes/a402a42c08.jpg",
+      "key": "a402a42c08",
       "name": "Yeşil Zeytin"
      },
      {
+      "key": "bd44d6f251",
       "name": "Tereyağ-Bal"
      },
      {
       "img": "dishes/94c90170eb.jpg",
+      "key": "94c90170eb",
       "name": "Ekmek (50 gr)"
      }
     ]
@@ -596,20 +710,24 @@
     "items": [
      {
       "kcal": 245,
+      "key": "e47540f7f5",
       "name": "Domates Çorbası"
      },
      {
       "img": "dishes/575b59d6b6.jpg",
       "kcal": 534,
+      "key": "575b59d6b6",
       "name": "Şehriyeli Güveç"
      },
      {
       "kcal": 117,
+      "key": "d54f07080c",
       "name": "Ege Salata"
      },
      {
       "img": "dishes/a6607cdb9a.jpg",
       "kcal": 398,
+      "key": "a6607cdb9a",
       "name": "Keşkül"
      }
     ],
@@ -619,20 +737,24 @@
     "items": [
      {
       "kcal": 245,
+      "key": "e47540f7f5",
       "name": "Domates Çorbası"
      },
      {
       "img": "dishes/575b59d6b6.jpg",
       "kcal": 534,
+      "key": "575b59d6b6",
       "name": "Şehriyeli Güveç"
      },
      {
       "kcal": 117,
+      "key": "d54f07080c",
       "name": "Ege Salata"
      },
      {
       "img": "dishes/a6607cdb9a.jpg",
       "kcal": 398,
+      "key": "a6607cdb9a",
       "name": "Keşkül"
      }
     ],
@@ -642,20 +764,24 @@
     "items": [
      {
       "kcal": 276,
+      "key": "c3679051de",
       "name": "Etsiz Bezelye"
      },
      {
       "kcal": 117,
+      "key": "d54f07080c",
       "name": "Ege Salata"
      },
      {
       "img": "dishes/f2752c06ec.jpg",
       "kcal": 425,
+      "key": "f2752c06ec",
       "name": "Tahin Helvası"
      },
      {
       "img": "dishes/ed17271d58.jpg",
       "kcal": 130,
+      "key": "ed17271d58",
       "name": "Meyve"
      }
     ],
@@ -667,34 +793,43 @@
     "items": [
      {
       "img": "dishes/22605468a2.jpg",
+      "key": "22605468a2",
       "name": "Çay"
      },
      {
       "img": "dishes/ebfeabaf2c.jpg",
+      "key": "ebfeabaf2c",
       "name": "Poğaça"
      },
      {
       "img": "dishes/a76e528356.jpg",
+      "key": "a76e528356",
       "name": "Haşlanmış Yumurta"
      },
      {
+      "key": "824940a544",
       "name": "Üçgen Peynir"
      },
      {
       "img": "dishes/4e61a66308.jpg",
+      "key": "4e61a66308",
       "name": "Domates"
      },
      {
+      "key": "f6e1b2f63d",
       "name": "Salatalık"
      },
      {
+      "key": "9e8512d0f7",
       "name": "Siyah Zeytin"
      },
      {
+      "key": "2b1abf323c",
       "name": "Tereyağ-Reçel"
      },
      {
       "img": "dishes/94c90170eb.jpg",
+      "key": "94c90170eb",
       "name": "Ekmek (50 gr)"
      }
     ]
@@ -703,21 +838,25 @@
     "items": [
      {
       "kcal": 299,
+      "key": "ee75ab01ff",
       "name": "Köylü Çorbası"
      },
      {
       "img": "dishes/025eacfe0c.jpg",
       "kcal": 298,
+      "key": "025eacfe0c",
       "name": "Etli Taze Fasulye"
      },
      {
       "img": "dishes/2d54b3bc4e.jpg",
       "kcal": 305,
+      "key": "2d54b3bc4e",
       "name": "Patatesli Tepsi Börek"
      },
      {
       "img": "dishes/9c8d655ef5.jpg",
       "kcal": 140,
+      "key": "9c8d655ef5",
       "name": "Yoğurt"
      }
     ],
@@ -727,21 +866,25 @@
     "items": [
      {
       "kcal": 299,
+      "key": "ee75ab01ff",
       "name": "Köylü Çorbası"
      },
      {
       "img": "dishes/025eacfe0c.jpg",
       "kcal": 298,
+      "key": "025eacfe0c",
       "name": "Etli Taze Fasulye"
      },
      {
       "img": "dishes/2d54b3bc4e.jpg",
       "kcal": 305,
+      "key": "2d54b3bc4e",
       "name": "Patatesli Tepsi Börek"
      },
      {
       "img": "dishes/9c8d655ef5.jpg",
       "kcal": 140,
+      "key": "9c8d655ef5",
       "name": "Yoğurt"
      }
     ],
@@ -751,21 +894,25 @@
     "items": [
      {
       "kcal": 299,
+      "key": "ee75ab01ff",
       "name": "Köylü Çorbası"
      },
      {
       "img": "dishes/1d16892cbf.jpg",
       "kcal": 198,
+      "key": "1d16892cbf",
       "name": "Etsiz Taze Fasulye"
      },
      {
       "img": "dishes/18ccb4d264.jpg",
       "kcal": 375,
+      "key": "18ccb4d264",
       "name": "Soslu Makarna"
      },
      {
       "img": "dishes/ed17271d58.jpg",
       "kcal": 130,
+      "key": "ed17271d58",
       "name": "Meyve"
      }
     ],
@@ -777,37 +924,46 @@
     "items": [
      {
       "img": "dishes/22605468a2.jpg",
+      "key": "22605468a2",
       "name": "Çay"
      },
      {
       "img": "dishes/ddc30ae037.jpg",
+      "key": "ddc30ae037",
       "name": "Simit"
      },
      {
       "img": "dishes/a76e528356.jpg",
+      "key": "a76e528356",
       "name": "Haşlanmış Yumurta"
      },
      {
       "img": "dishes/b20332bcf6.jpg",
+      "key": "b20332bcf6",
       "name": "Kaşar Peynir"
      },
      {
       "img": "dishes/4e61a66308.jpg",
+      "key": "4e61a66308",
       "name": "Domates"
      },
      {
+      "key": "f6e1b2f63d",
       "name": "Salatalık"
      },
      {
       "img": "dishes/a402a42c08.jpg",
+      "key": "a402a42c08",
       "name": "Yeşil Zeytin"
      },
      {
       "img": "dishes/47d15e46b8.jpg",
+      "key": "47d15e46b8",
       "name": "Fındık Ezmesi"
      },
      {
       "img": "dishes/94c90170eb.jpg",
+      "key": "94c90170eb",
       "name": "Ekmek (50 gr)"
      }
     ]
@@ -817,20 +973,24 @@
      {
       "img": "dishes/78d4dad707.jpg",
       "kcal": 208,
+      "key": "78d4dad707",
       "name": "Tarhana Çorbası"
      },
      {
       "img": "dishes/dcd4b17d0f.jpg",
       "kcal": 485,
+      "key": "dcd4b17d0f",
       "name": "Tavuk Baget"
      },
      {
       "kcal": 235,
+      "key": "cb630505c8",
       "name": "Buğday Salatası"
      },
      {
       "img": "dishes/ba50d196d7.jpg",
       "kcal": 300,
+      "key": "ba50d196d7",
       "name": "Kemalpaşa Tatlısı"
      }
     ],
@@ -841,20 +1001,24 @@
      {
       "img": "dishes/78d4dad707.jpg",
       "kcal": 208,
+      "key": "78d4dad707",
       "name": "Tarhana Çorbası"
      },
      {
       "img": "dishes/dcd4b17d0f.jpg",
       "kcal": 485,
+      "key": "dcd4b17d0f",
       "name": "Tavuk Baget"
      },
      {
       "kcal": 235,
+      "key": "cb630505c8",
       "name": "Buğday Salatası"
      },
      {
       "img": "dishes/ba50d196d7.jpg",
       "kcal": 300,
+      "key": "ba50d196d7",
       "name": "Kemalpaşa Tatlısı"
      }
     ],
@@ -864,20 +1028,24 @@
     "items": [
      {
       "kcal": 421,
+      "key": "8190fdee21",
       "name": "Etsiz Patlıcan Musakka"
      },
      {
       "kcal": 235,
+      "key": "cb630505c8",
       "name": "Buğday Salatası"
      },
      {
       "img": "dishes/f2752c06ec.jpg",
       "kcal": 425,
+      "key": "f2752c06ec",
       "name": "Tahin Helvası"
      },
      {
       "img": "dishes/ed17271d58.jpg",
       "kcal": 130,
+      "key": "ed17271d58",
       "name": "Meyve"
      }
     ],
@@ -889,35 +1057,44 @@
     "items": [
      {
       "img": "dishes/22605468a2.jpg",
+      "key": "22605468a2",
       "name": "Çay"
      },
      {
       "img": "dishes/5116c28e65.jpg",
+      "key": "5116c28e65",
       "name": "Kek"
      },
      {
       "img": "dishes/a76e528356.jpg",
+      "key": "a76e528356",
       "name": "Haşlanmış Yumurta"
      },
      {
       "img": "dishes/8690d4fe86.jpg",
+      "key": "8690d4fe86",
       "name": "Beyaz Peynir"
      },
      {
       "img": "dishes/4e61a66308.jpg",
+      "key": "4e61a66308",
       "name": "Domates"
      },
      {
+      "key": "f6e1b2f63d",
       "name": "Salatalık"
      },
      {
+      "key": "9e8512d0f7",
       "name": "Siyah Zeytin"
      },
      {
+      "key": "bd44d6f251",
       "name": "Tereyağ-Bal"
      },
      {
       "img": "dishes/94c90170eb.jpg",
+      "key": "94c90170eb",
       "name": "Ekmek (50 gr)"
      }
     ]
@@ -927,21 +1104,25 @@
      {
       "img": "dishes/b55dc663cc.jpg",
       "kcal": 161,
+      "key": "b55dc663cc",
       "name": "Kr. Sebze Çorbası"
      },
      {
       "img": "dishes/890b8e3990.jpg",
       "kcal": 428,
+      "key": "890b8e3990",
       "name": "Etli Nohut"
      },
      {
       "img": "dishes/25b07cf14e.jpg",
       "kcal": 293,
+      "key": "25b07cf14e",
       "name": "Bulgur Pilavı"
      },
      {
       "img": "dishes/ec0228f614.jpg",
       "kcal": 20,
+      "key": "ec0228f614",
       "name": "Turşu"
      }
     ],
@@ -952,21 +1133,25 @@
      {
       "img": "dishes/b55dc663cc.jpg",
       "kcal": 161,
+      "key": "b55dc663cc",
       "name": "Kr. Sebze Çorbası"
      },
      {
       "img": "dishes/890b8e3990.jpg",
       "kcal": 428,
+      "key": "890b8e3990",
       "name": "Etli Nohut"
      },
      {
       "img": "dishes/25b07cf14e.jpg",
       "kcal": 293,
+      "key": "25b07cf14e",
       "name": "Bulgur Pilavı"
      },
      {
       "img": "dishes/ec0228f614.jpg",
       "kcal": 20,
+      "key": "ec0228f614",
       "name": "Turşu"
      }
     ],
@@ -977,21 +1162,25 @@
      {
       "img": "dishes/b6cacec026.jpg",
       "kcal": 300,
+      "key": "b6cacec026",
       "name": "Etsiz Nohut"
      },
      {
       "img": "dishes/25b07cf14e.jpg",
       "kcal": 293,
+      "key": "25b07cf14e",
       "name": "Bulgur Pilavı"
      },
      {
       "img": "dishes/ec0228f614.jpg",
       "kcal": 20,
+      "key": "ec0228f614",
       "name": "Turşu"
      },
      {
       "img": "dishes/ed17271d58.jpg",
       "kcal": 130,
+      "key": "ed17271d58",
       "name": "Meyve"
      }
     ],
@@ -1003,35 +1192,44 @@
     "items": [
      {
       "img": "dishes/22605468a2.jpg",
+      "key": "22605468a2",
       "name": "Çay"
      },
      {
       "img": "dishes/ebfeabaf2c.jpg",
+      "key": "ebfeabaf2c",
       "name": "Poğaça"
      },
      {
       "img": "dishes/a76e528356.jpg",
+      "key": "a76e528356",
       "name": "Haşlanmış Yumurta"
      },
      {
+      "key": "824940a544",
       "name": "Üçgen Peynir"
      },
      {
       "img": "dishes/4e61a66308.jpg",
+      "key": "4e61a66308",
       "name": "Domates"
      },
      {
+      "key": "f6e1b2f63d",
       "name": "Salatalık"
      },
      {
       "img": "dishes/a402a42c08.jpg",
+      "key": "a402a42c08",
       "name": "Yeşil Zeytin"
      },
      {
+      "key": "2b1abf323c",
       "name": "Tereyağ-Reçel"
      },
      {
       "img": "dishes/94c90170eb.jpg",
+      "key": "94c90170eb",
       "name": "Ekmek (50 gr)"
      }
     ]
@@ -1041,19 +1239,23 @@
      {
       "img": "dishes/c79dd3c35d.jpg",
       "kcal": 173,
+      "key": "c79dd3c35d",
       "name": "Kremalı Brokoli Çorbası"
      },
      {
       "kcal": 408,
+      "key": "eb695606e6",
       "name": "Macar Gulaş"
      },
      {
       "kcal": 184,
+      "key": "74da321495",
       "name": "Kırmızı Lahana Havuç Salatası"
      },
      {
       "img": "dishes/16b5c22561.jpg",
       "kcal": 75,
+      "key": "16b5c22561",
       "name": "Ayran"
      }
     ],
@@ -1064,19 +1266,23 @@
      {
       "img": "dishes/c79dd3c35d.jpg",
       "kcal": 173,
+      "key": "c79dd3c35d",
       "name": "Kremalı Brokoli Çorbası"
      },
      {
       "kcal": 408,
+      "key": "eb695606e6",
       "name": "Macar Gulaş"
      },
      {
       "kcal": 184,
+      "key": "74da321495",
       "name": "Kırmızı Lahana Havuç Salatası"
      },
      {
       "img": "dishes/16b5c22561.jpg",
       "kcal": 75,
+      "key": "16b5c22561",
       "name": "Ayran"
      }
     ],
@@ -1087,20 +1293,24 @@
      {
       "img": "dishes/eb71cd5118.jpg",
       "kcal": 282,
+      "key": "eb71cd5118",
       "name": "Etsiz Kabak Yemeği"
      },
      {
       "img": "dishes/18ccb4d264.jpg",
       "kcal": 375,
+      "key": "18ccb4d264",
       "name": "Soslu Makarna"
      },
      {
       "kcal": 184,
+      "key": "74da321495",
       "name": "Kırmızı Lahana Havuç Salatası"
      },
      {
       "img": "dishes/ed17271d58.jpg",
       "kcal": 130,
+      "key": "ed17271d58",
       "name": "Meyve"
      }
     ],
@@ -1112,36 +1322,45 @@
     "items": [
      {
       "img": "dishes/22605468a2.jpg",
+      "key": "22605468a2",
       "name": "Çay"
      },
      {
       "img": "dishes/ebfeabaf2c.jpg",
+      "key": "ebfeabaf2c",
       "name": "Poğaça"
      },
      {
       "img": "dishes/a76e528356.jpg",
+      "key": "a76e528356",
       "name": "Haşlanmış Yumurta"
      },
      {
       "img": "dishes/b20332bcf6.jpg",
+      "key": "b20332bcf6",
       "name": "Kaşar Peynir"
      },
      {
       "img": "dishes/4e61a66308.jpg",
+      "key": "4e61a66308",
       "name": "Domates"
      },
      {
+      "key": "f6e1b2f63d",
       "name": "Salatalık"
      },
      {
+      "key": "9e8512d0f7",
       "name": "Siyah Zeytin"
      },
      {
       "img": "dishes/dbab93961a.jpg",
+      "key": "dbab93961a",
       "name": "Tahin Pekmez"
      },
      {
       "img": "dishes/94c90170eb.jpg",
+      "key": "94c90170eb",
       "name": "Ekmek (50 gr)"
      }
     ]
@@ -1150,19 +1369,23 @@
     "items": [
      {
       "kcal": 205,
+      "key": "f9e3094533",
       "name": "Toyga Çorba"
      },
      {
       "kcal": 423,
+      "key": "32c20f56da",
       "name": "Etli Yeşil Mercimek"
      },
      {
       "kcal": 452,
+      "key": "99f4bc2075",
       "name": "Cevizli Erişte"
      },
      {
       "img": "dishes/ed17271d58.jpg",
       "kcal": 130,
+      "key": "ed17271d58",
       "name": "Meyve"
      }
     ],
@@ -1172,19 +1395,23 @@
     "items": [
      {
       "kcal": 205,
+      "key": "f9e3094533",
       "name": "Toyga Çorba"
      },
      {
       "kcal": 423,
+      "key": "32c20f56da",
       "name": "Etli Yeşil Mercimek"
      },
      {
       "kcal": 452,
+      "key": "99f4bc2075",
       "name": "Cevizli Erişte"
      },
      {
       "img": "dishes/ed17271d58.jpg",
       "kcal": 130,
+      "key": "ed17271d58",
       "name": "Meyve"
      }
     ],
@@ -1194,20 +1421,24 @@
     "items": [
      {
       "kcal": 373,
+      "key": "90e8ccb482",
       "name": "Etsiz Yeşil Mercimek"
      },
      {
       "kcal": 452,
+      "key": "99f4bc2075",
       "name": "Cevizli Erişte"
      },
      {
       "img": "dishes/ec0228f614.jpg",
       "kcal": 20,
+      "key": "ec0228f614",
       "name": "Turşu"
      },
      {
       "img": "dishes/ed17271d58.jpg",
       "kcal": 130,
+      "key": "ed17271d58",
       "name": "Meyve"
      }
     ],
@@ -1219,36 +1450,45 @@
     "items": [
      {
       "img": "dishes/22605468a2.jpg",
+      "key": "22605468a2",
       "name": "Çay"
      },
      {
       "img": "dishes/5116c28e65.jpg",
+      "key": "5116c28e65",
       "name": "Kek"
      },
      {
       "img": "dishes/a76e528356.jpg",
+      "key": "a76e528356",
       "name": "Haşlanmış Yumurta"
      },
      {
       "img": "dishes/8690d4fe86.jpg",
+      "key": "8690d4fe86",
       "name": "Beyaz Peynir"
      },
      {
       "img": "dishes/4e61a66308.jpg",
+      "key": "4e61a66308",
       "name": "Domates"
      },
      {
+      "key": "f6e1b2f63d",
       "name": "Salatalık"
      },
      {
+      "key": "9e8512d0f7",
       "name": "Siyah Zeytin"
      },
      {
       "img": "dishes/dbab93961a.jpg",
+      "key": "dbab93961a",
       "name": "Tahin Pekmez"
      },
      {
       "img": "dishes/94c90170eb.jpg",
+      "key": "94c90170eb",
       "name": "Ekmek (50 gr)"
      }
     ]
@@ -1258,20 +1498,24 @@
      {
       "img": "dishes/0955218757.jpg",
       "kcal": 230,
+      "key": "0955218757",
       "name": "Mercimek Çorbası"
      },
      {
       "kcal": 428,
+      "key": "e080b39b61",
       "name": "Rosto Köfte (püreli)"
      },
      {
       "img": "dishes/48bb33cfa7.jpg",
       "kcal": 120,
+      "key": "48bb33cfa7",
       "name": "Zeytinyağlı Brokoli Pilaki"
      },
      {
       "img": "dishes/16f3b1855e.jpg",
       "kcal": 494,
+      "key": "16f3b1855e",
       "name": "Lokma Tatlısı"
      }
     ],
@@ -1282,20 +1526,24 @@
      {
       "img": "dishes/0955218757.jpg",
       "kcal": 230,
+      "key": "0955218757",
       "name": "Mercimek Çorbası"
      },
      {
       "kcal": 428,
+      "key": "e080b39b61",
       "name": "Rosto Köfte (püreli)"
      },
      {
       "img": "dishes/48bb33cfa7.jpg",
       "kcal": 120,
+      "key": "48bb33cfa7",
       "name": "Zeytinyağlı Brokoli Pilaki"
      },
      {
       "img": "dishes/16f3b1855e.jpg",
       "kcal": 494,
+      "key": "16f3b1855e",
       "name": "Lokma Tatlısı"
      }
     ],
@@ -1306,21 +1554,25 @@
      {
       "img": "dishes/0955218757.jpg",
       "kcal": 230,
+      "key": "0955218757",
       "name": "Mercimek Çorbası"
      },
      {
       "img": "dishes/a3db1e6994.jpg",
       "kcal": 290,
+      "key": "a3db1e6994",
       "name": "Etsiz Kavata Biber Dolma"
      },
      {
       "img": "dishes/48bb33cfa7.jpg",
       "kcal": 120,
+      "key": "48bb33cfa7",
       "name": "Zeytinyağlı Brokoli Pilaki"
      },
      {
       "img": "dishes/16f3b1855e.jpg",
       "kcal": 494,
+      "key": "16f3b1855e",
       "name": "Lokma Tatlısı"
      }
     ],
@@ -1332,36 +1584,45 @@
     "items": [
      {
       "img": "dishes/22605468a2.jpg",
+      "key": "22605468a2",
       "name": "Çay"
      },
      {
       "img": "dishes/832f19a490.jpg",
+      "key": "832f19a490",
       "name": "Kol/Tepsi Böreği"
      },
      {
       "img": "dishes/a76e528356.jpg",
+      "key": "a76e528356",
       "name": "Haşlanmış Yumurta"
      },
      {
       "img": "dishes/b3d6d96ccc.jpg",
+      "key": "b3d6d96ccc",
       "name": "Poşet Beyaz Peynir"
      },
      {
       "img": "dishes/4e61a66308.jpg",
+      "key": "4e61a66308",
       "name": "Domates"
      },
      {
+      "key": "f6e1b2f63d",
       "name": "Salatalık"
      },
      {
       "img": "dishes/a402a42c08.jpg",
+      "key": "a402a42c08",
       "name": "Yeşil Zeytin"
      },
      {
+      "key": "bd44d6f251",
       "name": "Tereyağ-Bal"
      },
      {
       "img": "dishes/94c90170eb.jpg",
+      "key": "94c90170eb",
       "name": "Ekmek (50 gr)"
      }
     ]
@@ -1371,21 +1632,25 @@
      {
       "img": "dishes/ba380b9a95.jpg",
       "kcal": 161,
+      "key": "ba380b9a95",
       "name": "Sebze Çorbası"
      },
      {
       "img": "dishes/1b9c27cdb2.jpg",
       "kcal": 219,
+      "key": "1b9c27cdb2",
       "name": "Yumurtalı Ispanak"
      },
      {
       "img": "dishes/af6741872c.jpg",
       "kcal": 491,
+      "key": "af6741872c",
       "name": "Fırın Makarna"
      },
      {
       "img": "dishes/16b5c22561.jpg",
       "kcal": 75,
+      "key": "16b5c22561",
       "name": "Ayran"
      }
     ],
@@ -1396,21 +1661,25 @@
      {
       "img": "dishes/ba380b9a95.jpg",
       "kcal": 161,
+      "key": "ba380b9a95",
       "name": "Sebze Çorbası"
      },
      {
       "img": "dishes/1b9c27cdb2.jpg",
       "kcal": 219,
+      "key": "1b9c27cdb2",
       "name": "Yumurtalı Ispanak"
      },
      {
       "img": "dishes/af6741872c.jpg",
       "kcal": 491,
+      "key": "af6741872c",
       "name": "Fırın Makarna"
      },
      {
       "img": "dishes/16b5c22561.jpg",
       "kcal": 75,
+      "key": "16b5c22561",
       "name": "Ayran"
      }
     ],
@@ -1421,21 +1690,25 @@
      {
       "img": "dishes/848c4f7aba.jpg",
       "kcal": 308,
+      "key": "848c4f7aba",
       "name": "Etsiz Ispanak"
      },
      {
       "img": "dishes/e73ca2dd11.jpg",
       "kcal": 461,
+      "key": "e73ca2dd11",
       "name": "Spagetti Makarna"
      },
      {
       "img": "dishes/f2752c06ec.jpg",
       "kcal": 425,
+      "key": "f2752c06ec",
       "name": "Tahin Helvası"
      },
      {
       "img": "dishes/ed17271d58.jpg",
       "kcal": 130,
+      "key": "ed17271d58",
       "name": "Meyve"
      }
     ],
@@ -1447,34 +1720,43 @@
     "items": [
      {
       "img": "dishes/22605468a2.jpg",
+      "key": "22605468a2",
       "name": "Çay"
      },
      {
       "img": "dishes/ebfeabaf2c.jpg",
+      "key": "ebfeabaf2c",
       "name": "Poğaça"
      },
      {
       "img": "dishes/a76e528356.jpg",
+      "key": "a76e528356",
       "name": "Haşlanmış Yumurta"
      },
      {
+      "key": "824940a544",
       "name": "Üçgen Peynir"
      },
      {
       "img": "dishes/4e61a66308.jpg",
+      "key": "4e61a66308",
       "name": "Domates"
      },
      {
+      "key": "f6e1b2f63d",
       "name": "Salatalık"
      },
      {
+      "key": "9e8512d0f7",
       "name": "Siyah Zeytin"
      },
      {
+      "key": "2b1abf323c",
       "name": "Tereyağ-Reçel"
      },
      {
       "img": "dishes/94c90170eb.jpg",
+      "key": "94c90170eb",
       "name": "Ekmek (50 gr)"
      }
     ]
@@ -1484,19 +1766,23 @@
      {
       "img": "dishes/495fb304f2.jpg",
       "kcal": 218,
+      "key": "495fb304f2",
       "name": "Şehriye Çorbası"
      },
      {
       "kcal": 653,
+      "key": "bef2e38c80",
       "name": "Beykoz Kebap"
      },
      {
       "kcal": 105,
+      "key": "33d28db351",
       "name": "Domatesli Semizotu Salatası"
      },
      {
       "img": "dishes/904e9c87e9.jpg",
       "kcal": 674,
+      "key": "904e9c87e9",
       "name": "Şekerpare"
      }
     ],
@@ -1507,19 +1793,23 @@
      {
       "img": "dishes/495fb304f2.jpg",
       "kcal": 218,
+      "key": "495fb304f2",
       "name": "Şehriye Çorbası"
      },
      {
       "kcal": 653,
+      "key": "bef2e38c80",
       "name": "Beykoz Kebap"
      },
      {
       "kcal": 105,
+      "key": "33d28db351",
       "name": "Domatesli Semizotu Salatası"
      },
      {
       "img": "dishes/904e9c87e9.jpg",
       "kcal": 674,
+      "key": "904e9c87e9",
       "name": "Şekerpare"
      }
     ],
@@ -1530,19 +1820,23 @@
      {
       "img": "dishes/495fb304f2.jpg",
       "kcal": 218,
+      "key": "495fb304f2",
       "name": "Şehriye Çorbası"
      },
      {
       "kcal": 421,
+      "key": "8190fdee21",
       "name": "Etsiz Patlıcan Musakka"
      },
      {
       "kcal": 105,
+      "key": "33d28db351",
       "name": "Domatesli Semizotu Salatası"
      },
      {
       "img": "dishes/ed17271d58.jpg",
       "kcal": 130,
+      "key": "ed17271d58",
       "name": "Meyve"
      }
     ],
@@ -1554,37 +1848,46 @@
     "items": [
      {
       "img": "dishes/22605468a2.jpg",
+      "key": "22605468a2",
       "name": "Çay"
      },
      {
       "img": "dishes/ddc30ae037.jpg",
+      "key": "ddc30ae037",
       "name": "Simit"
      },
      {
       "img": "dishes/a76e528356.jpg",
+      "key": "a76e528356",
       "name": "Haşlanmış Yumurta"
      },
      {
       "img": "dishes/b20332bcf6.jpg",
+      "key": "b20332bcf6",
       "name": "Kaşar Peynir"
      },
      {
       "img": "dishes/4e61a66308.jpg",
+      "key": "4e61a66308",
       "name": "Domates"
      },
      {
+      "key": "f6e1b2f63d",
       "name": "Salatalık"
      },
      {
       "img": "dishes/a402a42c08.jpg",
+      "key": "a402a42c08",
       "name": "Yeşil Zeytin"
      },
      {
       "img": "dishes/47d15e46b8.jpg",
+      "key": "47d15e46b8",
       "name": "Fındık Ezmesi"
      },
      {
       "img": "dishes/94c90170eb.jpg",
+      "key": "94c90170eb",
       "name": "Ekmek (50 gr)"
      }
     ]
@@ -1593,20 +1896,24 @@
     "items": [
      {
       "kcal": 245,
+      "key": "e47540f7f5",
       "name": "Domates Çorbası"
      },
      {
       "img": "dishes/808629f982.jpg",
       "kcal": 490,
+      "key": "808629f982",
       "name": "Mantı"
      },
      {
       "img": "dishes/197ebd4c8a.jpg",
       "kcal": 211,
+      "key": "197ebd4c8a",
       "name": "Komposto (Çilek)"
      },
      {
       "kcal": 320,
+      "key": "c16f7048b9",
       "name": "Kuru Fasülye Piyaz"
      }
     ],
@@ -1616,20 +1923,24 @@
     "items": [
      {
       "kcal": 245,
+      "key": "e47540f7f5",
       "name": "Domates Çorbası"
      },
      {
       "img": "dishes/808629f982.jpg",
       "kcal": 490,
+      "key": "808629f982",
       "name": "Mantı"
      },
      {
       "img": "dishes/197ebd4c8a.jpg",
       "kcal": 211,
+      "key": "197ebd4c8a",
       "name": "Komposto (Çilek)"
      },
      {
       "kcal": 320,
+      "key": "c16f7048b9",
       "name": "Kuru Fasülye Piyaz"
      }
     ],
@@ -1639,20 +1950,24 @@
     "items": [
      {
       "kcal": 155,
+      "key": "2f2a945fb8",
       "name": "Etsiz Mantar Sote"
      },
      {
       "img": "dishes/ec0228f614.jpg",
       "kcal": 20,
+      "key": "ec0228f614",
       "name": "Turşu"
      },
      {
       "img": "dishes/a765c7c985.jpg",
       "kcal": 183,
+      "key": "a765c7c985",
       "name": "Komposto"
      },
      {
       "kcal": 320,
+      "key": "c16f7048b9",
       "name": "Kuru Fasülye Piyaz"
      }
     ],
@@ -1664,35 +1979,44 @@
     "items": [
      {
       "img": "dishes/22605468a2.jpg",
+      "key": "22605468a2",
       "name": "Çay"
      },
      {
       "img": "dishes/5116c28e65.jpg",
+      "key": "5116c28e65",
       "name": "Kek"
      },
      {
       "img": "dishes/a76e528356.jpg",
+      "key": "a76e528356",
       "name": "Haşlanmış Yumurta"
      },
      {
       "img": "dishes/8690d4fe86.jpg",
+      "key": "8690d4fe86",
       "name": "Beyaz Peynir"
      },
      {
       "img": "dishes/4e61a66308.jpg",
+      "key": "4e61a66308",
       "name": "Domates"
      },
      {
+      "key": "f6e1b2f63d",
       "name": "Salatalık"
      },
      {
+      "key": "9e8512d0f7",
       "name": "Siyah Zeytin"
      },
      {
+      "key": "bd44d6f251",
       "name": "Tereyağ-Bal"
      },
      {
       "img": "dishes/94c90170eb.jpg",
+      "key": "94c90170eb",
       "name": "Ekmek (50 gr)"
      }
     ]
@@ -1701,19 +2025,23 @@
     "items": [
      {
       "kcal": 260,
+      "key": "e42eaf5b04",
       "name": "Hanımağa Çorbası"
      },
      {
       "kcal": 485,
+      "key": "ff961abc5d",
       "name": "Tavuk But"
      },
      {
       "kcal": 144,
+      "key": "06a0121e31",
       "name": "Yoğ. Salatalık Salatası"
      },
      {
       "img": "dishes/faa2e9e4f2.jpg",
       "kcal": 520,
+      "key": "faa2e9e4f2",
       "name": "Supangle"
      }
     ],
@@ -1723,19 +2051,23 @@
     "items": [
      {
       "kcal": 260,
+      "key": "e42eaf5b04",
       "name": "Hanımağa Çorbası"
      },
      {
       "kcal": 485,
+      "key": "ff961abc5d",
       "name": "Tavuk But"
      },
      {
       "kcal": 144,
+      "key": "06a0121e31",
       "name": "Yoğ. Salatalık Salatası"
      },
      {
       "img": "dishes/faa2e9e4f2.jpg",
       "kcal": 520,
+      "key": "faa2e9e4f2",
       "name": "Supangle"
      }
     ],
@@ -1745,20 +2077,24 @@
     "items": [
      {
       "kcal": 260,
+      "key": "e42eaf5b04",
       "name": "Hanımağa Çorbası"
      },
      {
       "kcal": 276,
+      "key": "c3679051de",
       "name": "Etsiz Bezelye"
      },
      {
       "img": "dishes/085e645d66.jpg",
       "kcal": 172,
+      "key": "085e645d66",
       "name": "Çoban Salatası"
      },
      {
       "img": "dishes/ed17271d58.jpg",
       "kcal": 130,
+      "key": "ed17271d58",
       "name": "Meyve"
      }
     ],
@@ -1770,35 +2106,44 @@
     "items": [
      {
       "img": "dishes/22605468a2.jpg",
+      "key": "22605468a2",
       "name": "Çay"
      },
      {
       "img": "dishes/ebfeabaf2c.jpg",
+      "key": "ebfeabaf2c",
       "name": "Poğaça"
      },
      {
       "img": "dishes/a76e528356.jpg",
+      "key": "a76e528356",
       "name": "Haşlanmış Yumurta"
      },
      {
+      "key": "824940a544",
       "name": "Üçgen Peynir"
      },
      {
       "img": "dishes/4e61a66308.jpg",
+      "key": "4e61a66308",
       "name": "Domates"
      },
      {
+      "key": "f6e1b2f63d",
       "name": "Salatalık"
      },
      {
       "img": "dishes/a402a42c08.jpg",
+      "key": "a402a42c08",
       "name": "Yeşil Zeytin"
      },
      {
+      "key": "2b1abf323c",
       "name": "Tereyağ-Reçel"
      },
      {
       "img": "dishes/94c90170eb.jpg",
+      "key": "94c90170eb",
       "name": "Ekmek (50 gr)"
      }
     ]
@@ -1808,19 +2153,23 @@
      {
       "img": "dishes/5d3038c41b.jpg",
       "kcal": 220,
+      "key": "5d3038c41b",
       "name": "Yayla Çorbası"
      },
      {
       "kcal": 574,
+      "key": "69d9d30f1a",
       "name": "Fırın Patates"
      },
      {
       "kcal": 198,
+      "key": "988f5db491",
       "name": "Gavurdağ Salata"
      },
      {
       "img": "dishes/ed17271d58.jpg",
       "kcal": 130,
+      "key": "ed17271d58",
       "name": "Meyve"
      }
     ],
@@ -1831,19 +2180,23 @@
      {
       "img": "dishes/5d3038c41b.jpg",
       "kcal": 220,
+      "key": "5d3038c41b",
       "name": "Yayla Çorbası"
      },
      {
       "kcal": 574,
+      "key": "69d9d30f1a",
       "name": "Fırın Patates"
      },
      {
       "kcal": 198,
+      "key": "988f5db491",
       "name": "Gavurdağ Salata"
      },
      {
       "img": "dishes/ed17271d58.jpg",
       "kcal": 130,
+      "key": "ed17271d58",
       "name": "Meyve"
      }
     ],
@@ -1853,20 +2206,24 @@
     "items": [
      {
       "kcal": 474,
+      "key": "dbae728869",
       "name": "Etsiz Patates Yemeği"
      },
      {
       "kcal": 198,
+      "key": "988f5db491",
       "name": "Gavurdağ Salata"
      },
      {
       "img": "dishes/2cadfd988f.jpg",
       "kcal": 211,
+      "key": "2cadfd988f",
       "name": "Hoşaf"
      },
      {
       "img": "dishes/ed17271d58.jpg",
       "kcal": 130,
+      "key": "ed17271d58",
       "name": "Meyve"
      }
     ],
@@ -1878,36 +2235,45 @@
     "items": [
      {
       "img": "dishes/22605468a2.jpg",
+      "key": "22605468a2",
       "name": "Çay"
      },
      {
       "img": "dishes/ebfeabaf2c.jpg",
+      "key": "ebfeabaf2c",
       "name": "Poğaça"
      },
      {
       "img": "dishes/a76e528356.jpg",
+      "key": "a76e528356",
       "name": "Haşlanmış Yumurta"
      },
      {
       "img": "dishes/b20332bcf6.jpg",
+      "key": "b20332bcf6",
       "name": "Kaşar Peynir"
      },
      {
       "img": "dishes/4e61a66308.jpg",
+      "key": "4e61a66308",
       "name": "Domates"
      },
      {
+      "key": "f6e1b2f63d",
       "name": "Salatalık"
      },
      {
+      "key": "9e8512d0f7",
       "name": "Siyah Zeytin"
      },
      {
       "img": "dishes/dbab93961a.jpg",
+      "key": "dbab93961a",
       "name": "Tahin Pekmez"
      },
      {
       "img": "dishes/94c90170eb.jpg",
+      "key": "94c90170eb",
       "name": "Ekmek (50 gr)"
      }
     ]
@@ -1916,20 +2282,24 @@
     "items": [
      {
       "kcal": 248,
+      "key": "255a40beee",
       "name": "Maraş Çorba"
      },
      {
       "kcal": 584,
+      "key": "42bf86b3bf",
       "name": "Bahçevan Kebap"
      },
      {
       "img": "dishes/4e5e05480d.jpg",
       "kcal": 296,
+      "key": "4e5e05480d",
       "name": "Ezogelin Pilavı"
      },
      {
       "img": "dishes/ec0228f614.jpg",
       "kcal": 20,
+      "key": "ec0228f614",
       "name": "Turşu"
      }
     ],
@@ -1939,20 +2309,24 @@
     "items": [
      {
       "kcal": 248,
+      "key": "255a40beee",
       "name": "Maraş Çorba"
      },
      {
       "kcal": 584,
+      "key": "42bf86b3bf",
       "name": "Bahçevan Kebap"
      },
      {
       "img": "dishes/4e5e05480d.jpg",
       "kcal": 296,
+      "key": "4e5e05480d",
       "name": "Ezogelin Pilavı"
      },
      {
       "img": "dishes/ec0228f614.jpg",
       "kcal": 20,
+      "key": "ec0228f614",
       "name": "Turşu"
      }
     ],
@@ -1962,20 +2336,24 @@
     "items": [
      {
       "kcal": 248,
+      "key": "255a40beee",
       "name": "Maraş Çorba"
      },
      {
       "kcal": 160,
+      "key": "ecc20399ad",
       "name": "Etsiz Karnabahar"
      },
      {
       "img": "dishes/4e5e05480d.jpg",
       "kcal": 296,
+      "key": "4e5e05480d",
       "name": "Ezogelin Pilavı"
      },
      {
       "img": "dishes/ec0228f614.jpg",
       "kcal": 20,
+      "key": "ec0228f614",
       "name": "Turşu"
      }
     ],
@@ -1987,36 +2365,45 @@
     "items": [
      {
       "img": "dishes/22605468a2.jpg",
+      "key": "22605468a2",
       "name": "Çay"
      },
      {
       "img": "dishes/5116c28e65.jpg",
+      "key": "5116c28e65",
       "name": "Kek"
      },
      {
       "img": "dishes/a76e528356.jpg",
+      "key": "a76e528356",
       "name": "Haşlanmış Yumurta"
      },
      {
       "img": "dishes/8690d4fe86.jpg",
+      "key": "8690d4fe86",
       "name": "Beyaz Peynir"
      },
      {
       "img": "dishes/4e61a66308.jpg",
+      "key": "4e61a66308",
       "name": "Domates"
      },
      {
+      "key": "f6e1b2f63d",
       "name": "Salatalık"
      },
      {
+      "key": "9e8512d0f7",
       "name": "Siyah Zeytin"
      },
      {
       "img": "dishes/dbab93961a.jpg",
+      "key": "dbab93961a",
       "name": "Tahin Pekmez"
      },
      {
       "img": "dishes/94c90170eb.jpg",
+      "key": "94c90170eb",
       "name": "Ekmek (50 gr)"
      }
     ]
@@ -2026,20 +2413,24 @@
      {
       "img": "dishes/78d4dad707.jpg",
       "kcal": 208,
+      "key": "78d4dad707",
       "name": "Tarhana Çorbası"
      },
      {
       "img": "dishes/fbb76e65c4.jpg",
       "kcal": 428,
+      "key": "fbb76e65c4",
       "name": "Etli Kuru Fasulye"
      },
      {
       "kcal": 343,
+      "key": "8636bfbc0a",
       "name": "Pirinç Pilavı"
      },
      {
       "img": "dishes/ec0228f614.jpg",
       "kcal": 20,
+      "key": "ec0228f614",
       "name": "Turşu"
      }
     ],
@@ -2050,20 +2441,24 @@
      {
       "img": "dishes/78d4dad707.jpg",
       "kcal": 208,
+      "key": "78d4dad707",
       "name": "Tarhana Çorbası"
      },
      {
       "img": "dishes/fbb76e65c4.jpg",
       "kcal": 428,
+      "key": "fbb76e65c4",
       "name": "Etli Kuru Fasulye"
      },
      {
       "kcal": 343,
+      "key": "8636bfbc0a",
       "name": "Pirinç Pilavı"
      },
      {
       "img": "dishes/ec0228f614.jpg",
       "kcal": 20,
+      "key": "ec0228f614",
       "name": "Turşu"
      }
     ],
@@ -2074,20 +2469,24 @@
      {
       "img": "dishes/6a4adcf24e.jpg",
       "kcal": 260,
+      "key": "6a4adcf24e",
       "name": "Etsiz Kuru Fasulye"
      },
      {
       "kcal": 343,
+      "key": "8636bfbc0a",
       "name": "Pirinç Pilavı"
      },
      {
       "img": "dishes/ec0228f614.jpg",
       "kcal": 20,
+      "key": "ec0228f614",
       "name": "Turşu"
      },
      {
       "img": "dishes/ed17271d58.jpg",
       "kcal": 130,
+      "key": "ed17271d58",
       "name": "Meyve"
      }
     ],
@@ -2099,36 +2498,45 @@
     "items": [
      {
       "img": "dishes/22605468a2.jpg",
+      "key": "22605468a2",
       "name": "Çay"
      },
      {
       "img": "dishes/832f19a490.jpg",
+      "key": "832f19a490",
       "name": "Kol/Tepsi Böreği"
      },
      {
       "img": "dishes/a76e528356.jpg",
+      "key": "a76e528356",
       "name": "Haşlanmış Yumurta"
      },
      {
       "img": "dishes/b3d6d96ccc.jpg",
+      "key": "b3d6d96ccc",
       "name": "Poşet Beyaz Peynir"
      },
      {
       "img": "dishes/4e61a66308.jpg",
+      "key": "4e61a66308",
       "name": "Domates"
      },
      {
+      "key": "f6e1b2f63d",
       "name": "Salatalık"
      },
      {
       "img": "dishes/a402a42c08.jpg",
+      "key": "a402a42c08",
       "name": "Yeşil Zeytin"
      },
      {
+      "key": "bd44d6f251",
       "name": "Tereyağ-Bal"
      },
      {
       "img": "dishes/94c90170eb.jpg",
+      "key": "94c90170eb",
       "name": "Ekmek (50 gr)"
      }
     ]
@@ -2138,20 +2546,24 @@
      {
       "img": "dishes/87bd497d59.jpg",
       "kcal": 218,
+      "key": "87bd497d59",
       "name": "Tel Şehriye Çorba"
      },
      {
       "img": "dishes/694df91308.jpg",
       "kcal": 616,
+      "key": "694df91308",
       "name": "İzmir Köfte"
      },
      {
       "kcal": 155,
+      "key": "bde51cef87",
       "name": "Bostana Salatası"
      },
      {
       "img": "dishes/ed17271d58.jpg",
       "kcal": 130,
+      "key": "ed17271d58",
       "name": "Meyve"
      }
     ],
@@ -2162,20 +2574,24 @@
      {
       "img": "dishes/87bd497d59.jpg",
       "kcal": 218,
+      "key": "87bd497d59",
       "name": "Tel Şehriye Çorba"
      },
      {
       "img": "dishes/694df91308.jpg",
       "kcal": 616,
+      "key": "694df91308",
       "name": "İzmir Köfte"
      },
      {
       "kcal": 155,
+      "key": "bde51cef87",
       "name": "Bostana Salatası"
      },
      {
       "img": "dishes/ed17271d58.jpg",
       "kcal": 130,
+      "key": "ed17271d58",
       "name": "Meyve"
      }
     ],
@@ -2186,19 +2602,23 @@
      {
       "img": "dishes/87bd497d59.jpg",
       "kcal": 218,
+      "key": "87bd497d59",
       "name": "Tel Şehriye Çorba"
      },
      {
       "kcal": 474,
+      "key": "dbae728869",
       "name": "Etsiz Patates Yemeği"
      },
      {
       "kcal": 155,
+      "key": "bde51cef87",
       "name": "Bostana Salatası"
      },
      {
       "img": "dishes/ed17271d58.jpg",
       "kcal": 130,
+      "key": "ed17271d58",
       "name": "Meyve"
      }
     ],
@@ -2210,34 +2630,43 @@
     "items": [
      {
       "img": "dishes/22605468a2.jpg",
+      "key": "22605468a2",
       "name": "Çay"
      },
      {
       "img": "dishes/ebfeabaf2c.jpg",
+      "key": "ebfeabaf2c",
       "name": "Poğaça"
      },
      {
       "img": "dishes/a76e528356.jpg",
+      "key": "a76e528356",
       "name": "Haşlanmış Yumurta"
      },
      {
+      "key": "824940a544",
       "name": "Üçgen Peynir"
      },
      {
       "img": "dishes/4e61a66308.jpg",
+      "key": "4e61a66308",
       "name": "Domates"
      },
      {
+      "key": "f6e1b2f63d",
       "name": "Salatalık"
      },
      {
+      "key": "9e8512d0f7",
       "name": "Siyah Zeytin"
      },
      {
+      "key": "2b1abf323c",
       "name": "Tereyağ-Reçel"
      },
      {
       "img": "dishes/94c90170eb.jpg",
+      "key": "94c90170eb",
       "name": "Ekmek (50 gr)"
      }
     ]
@@ -2246,20 +2675,24 @@
     "items": [
      {
       "kcal": 200,
+      "key": "fce91b9059",
       "name": "Alaca Çorbası"
      },
      {
       "kcal": 260,
+      "key": "79f5f04ad1",
       "name": "Etli Terbiyeli Kereviz"
      },
      {
       "img": "dishes/c12508390a.jpg",
       "kcal": 273,
+      "key": "c12508390a",
       "name": "Peynirli Gül Böreği"
      },
      {
       "img": "dishes/2cadfd988f.jpg",
       "kcal": 211,
+      "key": "2cadfd988f",
       "name": "Hoşaf"
      }
     ],
@@ -2269,20 +2702,24 @@
     "items": [
      {
       "kcal": 200,
+      "key": "fce91b9059",
       "name": "Alaca Çorbası"
      },
      {
       "kcal": 260,
+      "key": "79f5f04ad1",
       "name": "Etli Terbiyeli Kereviz"
      },
      {
       "img": "dishes/c12508390a.jpg",
       "kcal": 273,
+      "key": "c12508390a",
       "name": "Peynirli Gül Böreği"
      },
      {
       "img": "dishes/2cadfd988f.jpg",
       "kcal": 211,
+      "key": "2cadfd988f",
       "name": "Hoşaf"
      }
     ],
@@ -2292,21 +2729,25 @@
     "items": [
      {
       "kcal": 200,
+      "key": "fce91b9059",
       "name": "Alaca Çorbası"
      },
      {
       "img": "dishes/6fe775a68d.jpg",
       "kcal": 257,
+      "key": "6fe775a68d",
       "name": "Etsiz Kereviz"
      },
      {
       "img": "dishes/18ccb4d264.jpg",
       "kcal": 375,
+      "key": "18ccb4d264",
       "name": "Soslu Makarna"
      },
      {
       "img": "dishes/2cadfd988f.jpg",
       "kcal": 211,
+      "key": "2cadfd988f",
       "name": "Hoşaf"
      }
     ],
@@ -2318,37 +2759,46 @@
     "items": [
      {
       "img": "dishes/22605468a2.jpg",
+      "key": "22605468a2",
       "name": "Çay"
      },
      {
       "img": "dishes/ddc30ae037.jpg",
+      "key": "ddc30ae037",
       "name": "Simit"
      },
      {
       "img": "dishes/a76e528356.jpg",
+      "key": "a76e528356",
       "name": "Haşlanmış Yumurta"
      },
      {
       "img": "dishes/b20332bcf6.jpg",
+      "key": "b20332bcf6",
       "name": "Kaşar Peynir"
      },
      {
       "img": "dishes/4e61a66308.jpg",
+      "key": "4e61a66308",
       "name": "Domates"
      },
      {
+      "key": "f6e1b2f63d",
       "name": "Salatalık"
      },
      {
       "img": "dishes/a402a42c08.jpg",
+      "key": "a402a42c08",
       "name": "Yeşil Zeytin"
      },
      {
       "img": "dishes/47d15e46b8.jpg",
+      "key": "47d15e46b8",
       "name": "Fındık Ezmesi"
      },
      {
       "img": "dishes/94c90170eb.jpg",
+      "key": "94c90170eb",
       "name": "Ekmek (50 gr)"
      }
     ]
@@ -2358,20 +2808,24 @@
      {
       "img": "dishes/0955218757.jpg",
       "kcal": 230,
+      "key": "0955218757",
       "name": "Mercimek Çorbası"
      },
      {
       "img": "dishes/1e0a78e916.jpg",
       "kcal": 479,
+      "key": "1e0a78e916",
       "name": "Orman Kebabı"
      },
      {
       "kcal": 343,
+      "key": "8636bfbc0a",
       "name": "Pirinç Pilavı"
      },
      {
       "img": "dishes/ed17271d58.jpg",
       "kcal": 130,
+      "key": "ed17271d58",
       "name": "Meyve"
      }
     ],
@@ -2382,20 +2836,24 @@
      {
       "img": "dishes/0955218757.jpg",
       "kcal": 230,
+      "key": "0955218757",
       "name": "Mercimek Çorbası"
      },
      {
       "img": "dishes/1e0a78e916.jpg",
       "kcal": 479,
+      "key": "1e0a78e916",
       "name": "Orman Kebabı"
      },
      {
       "kcal": 343,
+      "key": "8636bfbc0a",
       "name": "Pirinç Pilavı"
      },
      {
       "img": "dishes/ed17271d58.jpg",
       "kcal": 130,
+      "key": "ed17271d58",
       "name": "Meyve"
      }
     ],
@@ -2406,19 +2864,23 @@
      {
       "img": "dishes/0955218757.jpg",
       "kcal": 230,
+      "key": "0955218757",
       "name": "Mercimek Çorbası"
      },
      {
       "kcal": 155,
+      "key": "2f2a945fb8",
       "name": "Etsiz Mantar Sote"
      },
      {
       "kcal": 343,
+      "key": "8636bfbc0a",
       "name": "Pirinç Pilavı"
      },
      {
       "img": "dishes/ed17271d58.jpg",
       "kcal": 130,
+      "key": "ed17271d58",
       "name": "Meyve"
      }
     ],
@@ -2430,35 +2892,44 @@
     "items": [
      {
       "img": "dishes/22605468a2.jpg",
+      "key": "22605468a2",
       "name": "Çay"
      },
      {
       "img": "dishes/5116c28e65.jpg",
+      "key": "5116c28e65",
       "name": "Kek"
      },
      {
       "img": "dishes/a76e528356.jpg",
+      "key": "a76e528356",
       "name": "Haşlanmış Yumurta"
      },
      {
       "img": "dishes/8690d4fe86.jpg",
+      "key": "8690d4fe86",
       "name": "Beyaz Peynir"
      },
      {
       "img": "dishes/4e61a66308.jpg",
+      "key": "4e61a66308",
       "name": "Domates"
      },
      {
+      "key": "f6e1b2f63d",
       "name": "Salatalık"
      },
      {
+      "key": "9e8512d0f7",
       "name": "Siyah Zeytin"
      },
      {
+      "key": "bd44d6f251",
       "name": "Tereyağ-Bal"
      },
      {
       "img": "dishes/94c90170eb.jpg",
+      "key": "94c90170eb",
       "name": "Ekmek (50 gr)"
      }
     ]
@@ -2467,19 +2938,23 @@
     "items": [
      {
       "kcal": 260,
+      "key": "e42eaf5b04",
       "name": "Hanımağa Çorbası"
      },
      {
       "kcal": 210,
+      "key": "4280b45688",
       "name": "Tavuk Pirzola"
      },
      {
       "kcal": 170,
+      "key": "5462ae398b",
       "name": "Mor Dünya Salatası"
      },
      {
       "img": "dishes/ab0edb6146.jpg",
       "kcal": 420,
+      "key": "ab0edb6146",
       "name": "Brownie"
      }
     ],
@@ -2489,19 +2964,23 @@
     "items": [
      {
       "kcal": 260,
+      "key": "e42eaf5b04",
       "name": "Hanımağa Çorbası"
      },
      {
       "kcal": 210,
+      "key": "4280b45688",
       "name": "Tavuk Pirzola"
      },
      {
       "kcal": 170,
+      "key": "5462ae398b",
       "name": "Mor Dünya Salatası"
      },
      {
       "img": "dishes/ab0edb6146.jpg",
       "kcal": 420,
+      "key": "ab0edb6146",
       "name": "Brownie"
      }
     ],
@@ -2511,19 +2990,23 @@
     "items": [
      {
       "kcal": 260,
+      "key": "e42eaf5b04",
       "name": "Hanımağa Çorbası"
      },
      {
       "kcal": 421,
+      "key": "8190fdee21",
       "name": "Etsiz Patlıcan Musakka"
      },
      {
       "kcal": 184,
+      "key": "74da321495",
       "name": "Kırmızı Lahana Havuç Salatası"
      },
      {
       "img": "dishes/f2752c06ec.jpg",
       "kcal": 425,
+      "key": "f2752c06ec",
       "name": "Tahin Helvası"
      }
     ],
@@ -2535,35 +3018,44 @@
     "items": [
      {
       "img": "dishes/22605468a2.jpg",
+      "key": "22605468a2",
       "name": "Çay"
      },
      {
       "img": "dishes/ebfeabaf2c.jpg",
+      "key": "ebfeabaf2c",
       "name": "Poğaça"
      },
      {
       "img": "dishes/a76e528356.jpg",
+      "key": "a76e528356",
       "name": "Haşlanmış Yumurta"
      },
      {
+      "key": "824940a544",
       "name": "Üçgen Peynir"
      },
      {
       "img": "dishes/4e61a66308.jpg",
+      "key": "4e61a66308",
       "name": "Domates"
      },
      {
+      "key": "f6e1b2f63d",
       "name": "Salatalık"
      },
      {
       "img": "dishes/a402a42c08.jpg",
+      "key": "a402a42c08",
       "name": "Yeşil Zeytin"
      },
      {
+      "key": "2b1abf323c",
       "name": "Tereyağ-Reçel"
      },
      {
       "img": "dishes/94c90170eb.jpg",
+      "key": "94c90170eb",
       "name": "Ekmek (50 gr)"
      }
     ]
@@ -2573,20 +3065,24 @@
      {
       "img": "dishes/5d3038c41b.jpg",
       "kcal": 220,
+      "key": "5d3038c41b",
       "name": "Yayla Çorbası"
      },
      {
       "img": "dishes/bd01ecb31b.jpg",
       "kcal": 292,
+      "key": "bd01ecb31b",
       "name": "Kıymalı Kapuska"
      },
      {
       "kcal": 452,
+      "key": "99f4bc2075",
       "name": "Cevizli Erişte"
      },
      {
       "img": "dishes/ed17271d58.jpg",
       "kcal": 130,
+      "key": "ed17271d58",
       "name": "Meyve"
      }
     ],
@@ -2597,20 +3093,24 @@
      {
       "img": "dishes/5d3038c41b.jpg",
       "kcal": 220,
+      "key": "5d3038c41b",
       "name": "Yayla Çorbası"
      },
      {
       "img": "dishes/bd01ecb31b.jpg",
       "kcal": 292,
+      "key": "bd01ecb31b",
       "name": "Kıymalı Kapuska"
      },
      {
       "kcal": 452,
+      "key": "99f4bc2075",
       "name": "Cevizli Erişte"
      },
      {
       "img": "dishes/ed17271d58.jpg",
       "kcal": 130,
+      "key": "ed17271d58",
       "name": "Meyve"
      }
     ],
@@ -2621,20 +3121,24 @@
      {
       "img": "dishes/d35dd703ba.jpg",
       "kcal": 165,
+      "key": "d35dd703ba",
       "name": "Etsiz Kapuska"
      },
      {
       "kcal": 452,
+      "key": "99f4bc2075",
       "name": "Cevizli Erişte"
      },
      {
       "img": "dishes/ec0228f614.jpg",
       "kcal": 20,
+      "key": "ec0228f614",
       "name": "Turşu"
      },
      {
       "img": "dishes/ed17271d58.jpg",
       "kcal": 130,
+      "key": "ed17271d58",
       "name": "Meyve"
      }
     ],
@@ -2646,36 +3150,45 @@
     "items": [
      {
       "img": "dishes/22605468a2.jpg",
+      "key": "22605468a2",
       "name": "Çay"
      },
      {
       "img": "dishes/ebfeabaf2c.jpg",
+      "key": "ebfeabaf2c",
       "name": "Poğaça"
      },
      {
       "img": "dishes/a76e528356.jpg",
+      "key": "a76e528356",
       "name": "Haşlanmış Yumurta"
      },
      {
       "img": "dishes/b20332bcf6.jpg",
+      "key": "b20332bcf6",
       "name": "Kaşar Peynir"
      },
      {
       "img": "dishes/4e61a66308.jpg",
+      "key": "4e61a66308",
       "name": "Domates"
      },
      {
+      "key": "f6e1b2f63d",
       "name": "Salatalık"
      },
      {
+      "key": "9e8512d0f7",
       "name": "Siyah Zeytin"
      },
      {
       "img": "dishes/dbab93961a.jpg",
+      "key": "dbab93961a",
       "name": "Tahin Pekmez"
      },
      {
       "img": "dishes/94c90170eb.jpg",
+      "key": "94c90170eb",
       "name": "Ekmek (50 gr)"
      }
     ]
@@ -2685,15 +3198,18 @@
      {
       "img": "dishes/bfbaa36483.jpg",
       "kcal": 510,
+      "key": "bfbaa36483",
       "name": "Dana Tandır"
      },
      {
       "kcal": 192,
+      "key": "1268937c0d",
       "name": "Havuç Salata"
      },
      {
       "img": "dishes/16b5c22561.jpg",
       "kcal": 75,
+      "key": "16b5c22561",
       "name": "Ayran"
      }
     ],
@@ -2704,15 +3220,18 @@
      {
       "img": "dishes/bfbaa36483.jpg",
       "kcal": 510,
+      "key": "bfbaa36483",
       "name": "Dana Tandır"
      },
      {
       "kcal": 192,
+      "key": "1268937c0d",
       "name": "Havuç Salata"
      },
      {
       "img": "dishes/16b5c22561.jpg",
       "kcal": 75,
+      "key": "16b5c22561",
       "name": "Ayran"
      }
     ],
@@ -2723,14 +3242,17 @@
      {
       "img": "dishes/1d16892cbf.jpg",
       "kcal": 198,
+      "key": "1d16892cbf",
       "name": "Etsiz Taze Fasulye"
      },
      {
       "kcal": 343,
+      "key": "8636bfbc0a",
       "name": "Pirinç Pilavı"
      },
      {
       "kcal": 192,
+      "key": "1268937c0d",
       "name": "Havuç Salata"
      }
     ],
@@ -2742,36 +3264,45 @@
     "items": [
      {
       "img": "dishes/22605468a2.jpg",
+      "key": "22605468a2",
       "name": "Çay"
      },
      {
       "img": "dishes/5116c28e65.jpg",
+      "key": "5116c28e65",
       "name": "Kek"
      },
      {
       "img": "dishes/a76e528356.jpg",
+      "key": "a76e528356",
       "name": "Haşlanmış Yumurta"
      },
      {
       "img": "dishes/8690d4fe86.jpg",
+      "key": "8690d4fe86",
       "name": "Beyaz Peynir"
      },
      {
       "img": "dishes/4e61a66308.jpg",
+      "key": "4e61a66308",
       "name": "Domates"
      },
      {
+      "key": "f6e1b2f63d",
       "name": "Salatalık"
      },
      {
+      "key": "9e8512d0f7",
       "name": "Siyah Zeytin"
      },
      {
       "img": "dishes/dbab93961a.jpg",
+      "key": "dbab93961a",
       "name": "Tahin Pekmez"
      },
      {
       "img": "dishes/94c90170eb.jpg",
+      "key": "94c90170eb",
       "name": "Ekmek (50 gr)"
      }
     ]
@@ -2781,20 +3312,24 @@
      {
       "img": "dishes/281191c921.jpg",
       "kcal": 260,
+      "key": "281191c921",
       "name": "Körili Mercimek Çorba"
      },
      {
       "kcal": 408,
+      "key": "83bbf54b22",
       "name": "Yoğ. Kıymalı Ispanak"
      },
      {
       "img": "dishes/08bbc9e902.jpg",
       "kcal": 352,
+      "key": "08bbc9e902",
       "name": "Pesto Soslu Makarna"
      },
      {
       "img": "dishes/ed17271d58.jpg",
       "kcal": 130,
+      "key": "ed17271d58",
       "name": "Meyve"
      }
     ],
@@ -2805,20 +3340,24 @@
      {
       "img": "dishes/281191c921.jpg",
       "kcal": 260,
+      "key": "281191c921",
       "name": "Körili Mercimek Çorba"
      },
      {
       "kcal": 408,
+      "key": "83bbf54b22",
       "name": "Yoğ. Kıymalı Ispanak"
      },
      {
       "img": "dishes/08bbc9e902.jpg",
       "kcal": 352,
+      "key": "08bbc9e902",
       "name": "Pesto Soslu Makarna"
      },
      {
       "img": "dishes/ed17271d58.jpg",
       "kcal": 130,
+      "key": "ed17271d58",
       "name": "Meyve"
      }
     ],
@@ -2829,21 +3368,25 @@
      {
       "img": "dishes/281191c921.jpg",
       "kcal": 260,
+      "key": "281191c921",
       "name": "Körili Mercimek Çorba"
      },
      {
       "img": "dishes/08bbc9e902.jpg",
       "kcal": 352,
+      "key": "08bbc9e902",
       "name": "Pesto Soslu Makarna"
      },
      {
       "img": "dishes/848c4f7aba.jpg",
       "kcal": 308,
+      "key": "848c4f7aba",
       "name": "Etsiz Ispanak"
      },
      {
       "img": "dishes/ed17271d58.jpg",
       "kcal": 130,
+      "key": "ed17271d58",
       "name": "Meyve"
      }
     ],
@@ -2855,36 +3398,45 @@
     "items": [
      {
       "img": "dishes/22605468a2.jpg",
+      "key": "22605468a2",
       "name": "Çay"
      },
      {
       "img": "dishes/832f19a490.jpg",
+      "key": "832f19a490",
       "name": "Kol/Tepsi Böreği"
      },
      {
       "img": "dishes/a76e528356.jpg",
+      "key": "a76e528356",
       "name": "Haşlanmış Yumurta"
      },
      {
       "img": "dishes/b3d6d96ccc.jpg",
+      "key": "b3d6d96ccc",
       "name": "Poşet Beyaz Peynir"
      },
      {
       "img": "dishes/4e61a66308.jpg",
+      "key": "4e61a66308",
       "name": "Domates"
      },
      {
+      "key": "f6e1b2f63d",
       "name": "Salatalık"
      },
      {
       "img": "dishes/a402a42c08.jpg",
+      "key": "a402a42c08",
       "name": "Yeşil Zeytin"
      },
      {
+      "key": "bd44d6f251",
       "name": "Tereyağ-Bal"
      },
      {
       "img": "dishes/94c90170eb.jpg",
+      "key": "94c90170eb",
       "name": "Ekmek (50 gr)"
      }
     ]
@@ -2893,20 +3445,24 @@
     "items": [
      {
       "kcal": 245,
+      "key": "e47540f7f5",
       "name": "Domates Çorbası"
      },
      {
       "img": "dishes/a60ac0d42a.jpg",
       "kcal": 688,
+      "key": "a60ac0d42a",
       "name": "Ankara Tava"
      },
      {
       "kcal": 230,
+      "key": "8af969815a",
       "name": "Mantar Salatası"
      },
      {
       "img": "dishes/1087b76fa2.jpg",
       "kcal": 527,
+      "key": "1087b76fa2",
       "name": "Revani"
      }
     ],
@@ -2916,20 +3472,24 @@
     "items": [
      {
       "kcal": 245,
+      "key": "e47540f7f5",
       "name": "Domates Çorbası"
      },
      {
       "img": "dishes/a60ac0d42a.jpg",
       "kcal": 688,
+      "key": "a60ac0d42a",
       "name": "Ankara Tava"
      },
      {
       "kcal": 230,
+      "key": "8af969815a",
       "name": "Mantar Salatası"
      },
      {
       "img": "dishes/1087b76fa2.jpg",
       "kcal": 527,
+      "key": "1087b76fa2",
       "name": "Revani"
      }
     ],
@@ -2940,19 +3500,23 @@
      {
       "img": "dishes/22668493a0.jpg",
       "kcal": 320,
+      "key": "22668493a0",
       "name": "Etsiz Barbunya"
      },
      {
       "kcal": 343,
+      "key": "8636bfbc0a",
       "name": "Pirinç Pilavı"
      },
      {
       "kcal": 230,
+      "key": "8af969815a",
       "name": "Mantar Salatası"
      },
      {
       "img": "dishes/f2752c06ec.jpg",
       "kcal": 425,
+      "key": "f2752c06ec",
       "name": "Tahin Helvası"
      }
     ],
@@ -2964,34 +3528,43 @@
     "items": [
      {
       "img": "dishes/22605468a2.jpg",
+      "key": "22605468a2",
       "name": "Çay"
      },
      {
       "img": "dishes/ebfeabaf2c.jpg",
+      "key": "ebfeabaf2c",
       "name": "Poğaça"
      },
      {
       "img": "dishes/a76e528356.jpg",
+      "key": "a76e528356",
       "name": "Haşlanmış Yumurta"
      },
      {
+      "key": "824940a544",
       "name": "Üçgen Peynir"
      },
      {
       "img": "dishes/4e61a66308.jpg",
+      "key": "4e61a66308",
       "name": "Domates"
      },
      {
+      "key": "f6e1b2f63d",
       "name": "Salatalık"
      },
      {
+      "key": "9e8512d0f7",
       "name": "Siyah Zeytin"
      },
      {
+      "key": "2b1abf323c",
       "name": "Tereyağ-Reçel"
      },
      {
       "img": "dishes/94c90170eb.jpg",
+      "key": "94c90170eb",
       "name": "Ekmek (50 gr)"
      }
     ]
@@ -3001,21 +3574,25 @@
      {
       "img": "dishes/c79dd3c35d.jpg",
       "kcal": 173,
+      "key": "c79dd3c35d",
       "name": "Kremalı Brokoli Çorbası"
      },
      {
       "img": "dishes/890b8e3990.jpg",
       "kcal": 428,
+      "key": "890b8e3990",
       "name": "Etli Nohut"
      },
      {
       "img": "dishes/25b07cf14e.jpg",
       "kcal": 293,
+      "key": "25b07cf14e",
       "name": "Bulgur Pilavı"
      },
      {
       "img": "dishes/9c8d655ef5.jpg",
       "kcal": 140,
+      "key": "9c8d655ef5",
       "name": "Yoğurt"
      }
     ],
@@ -3026,21 +3603,25 @@
      {
       "img": "dishes/c79dd3c35d.jpg",
       "kcal": 173,
+      "key": "c79dd3c35d",
       "name": "Kremalı Brokoli Çorbası"
      },
      {
       "img": "dishes/890b8e3990.jpg",
       "kcal": 428,
+      "key": "890b8e3990",
       "name": "Etli Nohut"
      },
      {
       "img": "dishes/25b07cf14e.jpg",
       "kcal": 293,
+      "key": "25b07cf14e",
       "name": "Bulgur Pilavı"
      },
      {
       "img": "dishes/9c8d655ef5.jpg",
       "kcal": 140,
+      "key": "9c8d655ef5",
       "name": "Yoğurt"
      }
     ],
@@ -3051,21 +3632,25 @@
      {
       "img": "dishes/b6cacec026.jpg",
       "kcal": 300,
+      "key": "b6cacec026",
       "name": "Etsiz Nohut"
      },
      {
       "img": "dishes/25b07cf14e.jpg",
       "kcal": 293,
+      "key": "25b07cf14e",
       "name": "Bulgur Pilavı"
      },
      {
       "img": "dishes/ec0228f614.jpg",
       "kcal": 20,
+      "key": "ec0228f614",
       "name": "Turşu"
      },
      {
       "img": "dishes/ed17271d58.jpg",
       "kcal": 130,
+      "key": "ed17271d58",
       "name": "Meyve"
      }
     ],
@@ -3077,37 +3662,46 @@
     "items": [
      {
       "img": "dishes/22605468a2.jpg",
+      "key": "22605468a2",
       "name": "Çay"
      },
      {
       "img": "dishes/ddc30ae037.jpg",
+      "key": "ddc30ae037",
       "name": "Simit"
      },
      {
       "img": "dishes/a76e528356.jpg",
+      "key": "a76e528356",
       "name": "Haşlanmış Yumurta"
      },
      {
       "img": "dishes/b20332bcf6.jpg",
+      "key": "b20332bcf6",
       "name": "Kaşar Peynir"
      },
      {
       "img": "dishes/4e61a66308.jpg",
+      "key": "4e61a66308",
       "name": "Domates"
      },
      {
+      "key": "f6e1b2f63d",
       "name": "Salatalık"
      },
      {
       "img": "dishes/a402a42c08.jpg",
+      "key": "a402a42c08",
       "name": "Yeşil Zeytin"
      },
      {
       "img": "dishes/47d15e46b8.jpg",
+      "key": "47d15e46b8",
       "name": "Fındık Ezmesi"
      },
      {
       "img": "dishes/94c90170eb.jpg",
+      "key": "94c90170eb",
       "name": "Ekmek (50 gr)"
      }
     ]
@@ -3117,19 +3711,23 @@
      {
       "img": "dishes/bf8474c8b9.jpg",
       "kcal": 228,
+      "key": "bf8474c8b9",
       "name": "Ezogelin Çorba"
      },
      {
       "kcal": 326,
+      "key": "9365d82133",
       "name": "Akdeniz Usulü Hindi"
      },
      {
       "kcal": 130,
+      "key": "38f7af0035",
       "name": "Zy.Taze Fasulye"
      },
      {
       "img": "dishes/f99fce24d6.jpg",
       "kcal": 357,
+      "key": "f99fce24d6",
       "name": "Sakızlı Muhallebi"
      }
     ],
@@ -3140,19 +3738,23 @@
      {
       "img": "dishes/bf8474c8b9.jpg",
       "kcal": 228,
+      "key": "bf8474c8b9",
       "name": "Ezogelin Çorba"
      },
      {
       "kcal": 326,
+      "key": "9365d82133",
       "name": "Akdeniz Usulü Hindi"
      },
      {
       "kcal": 130,
+      "key": "38f7af0035",
       "name": "Zy.Taze Fasulye"
      },
      {
       "img": "dishes/f99fce24d6.jpg",
       "kcal": 357,
+      "key": "f99fce24d6",
       "name": "Sakızlı Muhallebi"
      }
     ],
@@ -3163,19 +3765,23 @@
      {
       "img": "dishes/bf8474c8b9.jpg",
       "kcal": 228,
+      "key": "bf8474c8b9",
       "name": "Ezogelin Çorba"
      },
      {
       "kcal": 290,
+      "key": "e9499a05c3",
       "name": "Etsiz Kavata Dolma"
      },
      {
       "kcal": 130,
+      "key": "38f7af0035",
       "name": "Zy.Taze Fasulye"
      },
      {
       "img": "dishes/f2752c06ec.jpg",
       "kcal": 425,
+      "key": "f2752c06ec",
       "name": "Tahin Helvası"
      }
     ],
@@ -3187,35 +3793,44 @@
     "items": [
      {
       "img": "dishes/22605468a2.jpg",
+      "key": "22605468a2",
       "name": "Çay"
      },
      {
       "img": "dishes/5116c28e65.jpg",
+      "key": "5116c28e65",
       "name": "Kek"
      },
      {
       "img": "dishes/a76e528356.jpg",
+      "key": "a76e528356",
       "name": "Haşlanmış Yumurta"
      },
      {
       "img": "dishes/8690d4fe86.jpg",
+      "key": "8690d4fe86",
       "name": "Beyaz Peynir"
      },
      {
       "img": "dishes/4e61a66308.jpg",
+      "key": "4e61a66308",
       "name": "Domates"
      },
      {
+      "key": "f6e1b2f63d",
       "name": "Salatalık"
      },
      {
+      "key": "9e8512d0f7",
       "name": "Siyah Zeytin"
      },
      {
+      "key": "bd44d6f251",
       "name": "Tereyağ-Bal"
      },
      {
       "img": "dishes/94c90170eb.jpg",
+      "key": "94c90170eb",
       "name": "Ekmek (50 gr)"
      }
     ]
@@ -3224,21 +3839,25 @@
     "items": [
      {
       "kcal": 260,
+      "key": "4686bbb603",
       "name": "Çerkez Çorbası"
      },
      {
       "img": "dishes/c59b9eaa6e.jpg",
       "kcal": 376,
+      "key": "c59b9eaa6e",
       "name": "Etli Bezelye"
      },
      {
       "img": "dishes/af6741872c.jpg",
       "kcal": 491,
+      "key": "af6741872c",
       "name": "Fırın Makarna"
      },
      {
       "img": "dishes/2cadfd988f.jpg",
       "kcal": 211,
+      "key": "2cadfd988f",
       "name": "Hoşaf"
      }
     ],
@@ -3248,21 +3867,25 @@
     "items": [
      {
       "kcal": 260,
+      "key": "4686bbb603",
       "name": "Çerkez Çorbası"
      },
      {
       "img": "dishes/c59b9eaa6e.jpg",
       "kcal": 376,
+      "key": "c59b9eaa6e",
       "name": "Etli Bezelye"
      },
      {
       "img": "dishes/af6741872c.jpg",
       "kcal": 491,
+      "key": "af6741872c",
       "name": "Fırın Makarna"
      },
      {
       "img": "dishes/2cadfd988f.jpg",
       "kcal": 211,
+      "key": "2cadfd988f",
       "name": "Hoşaf"
      }
     ],
@@ -3272,21 +3895,25 @@
     "items": [
      {
       "kcal": 276,
+      "key": "c3679051de",
       "name": "Etsiz Bezelye"
      },
      {
       "img": "dishes/e73ca2dd11.jpg",
       "kcal": 461,
+      "key": "e73ca2dd11",
       "name": "Spagetti Makarna"
      },
      {
       "img": "dishes/2cadfd988f.jpg",
       "kcal": 211,
+      "key": "2cadfd988f",
       "name": "Hoşaf"
      },
      {
       "img": "dishes/ed17271d58.jpg",
       "kcal": 130,
+      "key": "ed17271d58",
       "name": "Meyve"
      }
     ],
@@ -3298,35 +3925,44 @@
     "items": [
      {
       "img": "dishes/22605468a2.jpg",
+      "key": "22605468a2",
       "name": "Çay"
      },
      {
       "img": "dishes/ebfeabaf2c.jpg",
+      "key": "ebfeabaf2c",
       "name": "Poğaça"
      },
      {
       "img": "dishes/a76e528356.jpg",
+      "key": "a76e528356",
       "name": "Haşlanmış Yumurta"
      },
      {
+      "key": "824940a544",
       "name": "Üçgen Peynir"
      },
      {
       "img": "dishes/4e61a66308.jpg",
+      "key": "4e61a66308",
       "name": "Domates"
      },
      {
+      "key": "f6e1b2f63d",
       "name": "Salatalık"
      },
      {
       "img": "dishes/a402a42c08.jpg",
+      "key": "a402a42c08",
       "name": "Yeşil Zeytin"
      },
      {
+      "key": "2b1abf323c",
       "name": "Tereyağ-Reçel"
      },
      {
       "img": "dishes/94c90170eb.jpg",
+      "key": "94c90170eb",
       "name": "Ekmek (50 gr)"
      }
     ]
@@ -3336,20 +3972,24 @@
      {
       "img": "dishes/b55dc663cc.jpg",
       "kcal": 161,
+      "key": "b55dc663cc",
       "name": "Kr. Sebze Çorbası"
      },
      {
       "kcal": 200,
+      "key": "8bef5e2efa",
       "name": "Hamburger Köfte"
      },
      {
       "img": "dishes/085e645d66.jpg",
       "kcal": 172,
+      "key": "085e645d66",
       "name": "Çoban Salatası"
      },
      {
       "img": "dishes/16b5c22561.jpg",
       "kcal": 75,
+      "key": "16b5c22561",
       "name": "Ayran"
      }
     ],
@@ -3360,20 +4000,24 @@
      {
       "img": "dishes/b55dc663cc.jpg",
       "kcal": 161,
+      "key": "b55dc663cc",
       "name": "Kr. Sebze Çorbası"
      },
      {
       "kcal": 200,
+      "key": "8bef5e2efa",
       "name": "Hamburger Köfte"
      },
      {
       "img": "dishes/085e645d66.jpg",
       "kcal": 172,
+      "key": "085e645d66",
       "name": "Çoban Salatası"
      },
      {
       "img": "dishes/16b5c22561.jpg",
       "kcal": 75,
+      "key": "16b5c22561",
       "name": "Ayran"
      }
     ],
@@ -3383,21 +4027,25 @@
     "items": [
      {
       "kcal": 474,
+      "key": "dbae728869",
       "name": "Etsiz Patates Yemeği"
      },
      {
       "img": "dishes/085e645d66.jpg",
       "kcal": 172,
+      "key": "085e645d66",
       "name": "Çoban Salatası"
      },
      {
       "img": "dishes/f2752c06ec.jpg",
       "kcal": 425,
+      "key": "f2752c06ec",
       "name": "Tahin Helvası"
      },
      {
       "img": "dishes/ed17271d58.jpg",
       "kcal": 130,
+      "key": "ed17271d58",
       "name": "Meyve"
      }
     ],
@@ -3409,36 +4057,45 @@
     "items": [
      {
       "img": "dishes/22605468a2.jpg",
+      "key": "22605468a2",
       "name": "Çay"
      },
      {
       "img": "dishes/ebfeabaf2c.jpg",
+      "key": "ebfeabaf2c",
       "name": "Poğaça"
      },
      {
       "img": "dishes/a76e528356.jpg",
+      "key": "a76e528356",
       "name": "Haşlanmış Yumurta"
      },
      {
       "img": "dishes/b20332bcf6.jpg",
+      "key": "b20332bcf6",
       "name": "Kaşar Peynir"
      },
      {
       "img": "dishes/4e61a66308.jpg",
+      "key": "4e61a66308",
       "name": "Domates"
      },
      {
+      "key": "f6e1b2f63d",
       "name": "Salatalık"
      },
      {
+      "key": "9e8512d0f7",
       "name": "Siyah Zeytin"
      },
      {
       "img": "dishes/dbab93961a.jpg",
+      "key": "dbab93961a",
       "name": "Tahin Pekmez"
      },
      {
       "img": "dishes/94c90170eb.jpg",
+      "key": "94c90170eb",
       "name": "Ekmek (50 gr)"
      }
     ]
@@ -3447,20 +4104,24 @@
     "items": [
      {
       "kcal": 250,
+      "key": "076ac316a2",
       "name": "Gemici Çorba"
      },
      {
       "img": "dishes/025eacfe0c.jpg",
       "kcal": 298,
+      "key": "025eacfe0c",
       "name": "Etli Taze Fasulye"
      },
      {
       "kcal": 343,
+      "key": "8636bfbc0a",
       "name": "Pirinç Pilavı"
      },
      {
       "img": "dishes/ed17271d58.jpg",
       "kcal": 130,
+      "key": "ed17271d58",
       "name": "Meyve"
      }
     ],
@@ -3470,20 +4131,24 @@
     "items": [
      {
       "kcal": 250,
+      "key": "076ac316a2",
       "name": "Gemici Çorba"
      },
      {
       "img": "dishes/025eacfe0c.jpg",
       "kcal": 298,
+      "key": "025eacfe0c",
       "name": "Etli Taze Fasulye"
      },
      {
       "kcal": 343,
+      "key": "8636bfbc0a",
       "name": "Pirinç Pilavı"
      },
      {
       "img": "dishes/ed17271d58.jpg",
       "kcal": 130,
+      "key": "ed17271d58",
       "name": "Meyve"
      }
     ],
@@ -3494,20 +4159,24 @@
      {
       "img": "dishes/1d16892cbf.jpg",
       "kcal": 198,
+      "key": "1d16892cbf",
       "name": "Etsiz Taze Fasulye"
      },
      {
       "kcal": 343,
+      "key": "8636bfbc0a",
       "name": "Pirinç Pilavı"
      },
      {
       "img": "dishes/ec0228f614.jpg",
       "kcal": 20,
+      "key": "ec0228f614",
       "name": "Turşu"
      },
      {
       "img": "dishes/ed17271d58.jpg",
       "kcal": 130,
+      "key": "ed17271d58",
       "name": "Meyve"
      }
     ],
@@ -3516,5 +4185,5 @@
   }
  },
  "university": "hacettepe",
- "updated": "2026-10-03T18:32:41+03:00"
+ "updated": "2026-10-03T18:47:28+03:00"
 }

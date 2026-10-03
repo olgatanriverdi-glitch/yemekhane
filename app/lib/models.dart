@@ -6,10 +6,18 @@ class Fiyat {
       Fiyat(j['label'] as String, (j['tl'] as num).toInt());
 }
 
+/// Servis saati: [t] '11:30–14:00'; [yaklasik] true ise okul yayınlamamış, tipik saattir ("Genelde …").
+class ServisSaati {
+  final String t;
+  final bool yaklasik;
+  const ServisSaati(this.t, this.yaklasik);
+}
+
 class Universite {
   final String id, ad, kisa, sehir, kaynak;
   final List<String> ogunler;
   final List<Fiyat> fiyatlar;
+  final Map<String, ServisSaati> saatler;
   Universite(
       {required this.id,
       required this.ad,
@@ -17,7 +25,8 @@ class Universite {
       required this.sehir,
       required this.kaynak,
       required this.ogunler,
-      required this.fiyatlar});
+      required this.fiyatlar,
+      this.saatler = const {}});
 
   factory Universite.fromJson(Map<String, dynamic> j) => Universite(
         id: j['id'] as String,
@@ -30,7 +39,16 @@ class Universite {
         fiyatlar: ((j['prices'] ?? const []) as List)
             .map((e) => Fiyat.fromJson(e as Map<String, dynamic>))
             .toList(),
+        saatler: {
+          for (final e in ((j['hours'] ?? const {}) as Map).entries)
+            e.key as String: ServisSaati((e.value as Map)['t'] as String,
+                ((e.value as Map)['approx'] ?? false) as bool)
+        },
       );
+
+  /// Öğünün servis saati; vejetaryen menünün kendi saati yoksa öğle saatini kullanır.
+  ServisSaati? saat(String ogun) =>
+      saatler[ogun] ?? (ogun == 'vegetarian' ? saatler['lunch'] : null);
 
   /// Öğrenci fiyatı: etiketi "Öğrenci" ile başlayan ve öğün adını içeren kayıt.
   int? ogrenciFiyati(String ogun) {
@@ -52,9 +70,14 @@ class YemekOgesi {
   final String ad;
   final int? kcal;
   final String? img; // 'dishes/<anahtar>.jpg' (yemeğe ait küçük örnek fotoğraf)
-  YemekOgesi(this.ad, this.kcal, [this.img]);
+  final String?
+      anahtar; // yemek adından türeyen kalıcı kimlik (yemek bazlı puanlama için)
+  YemekOgesi(this.ad, this.kcal, [this.img, this.anahtar]);
   factory YemekOgesi.fromJson(Map<String, dynamic> j) => YemekOgesi(
-      j['name'] as String, (j['kcal'] as num?)?.toInt(), j['img'] as String?);
+      j['name'] as String,
+      (j['kcal'] as num?)?.toInt(),
+      j['img'] as String?,
+      j['key'] as String?);
 }
 
 class Ogun {
