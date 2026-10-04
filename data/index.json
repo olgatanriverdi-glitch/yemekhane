@@ -81,7 +81,7 @@
   },
   {
    "city": "Ankara",
-   "firstDay": "2026-10-01",
+   "firstDay": "2026-10-02",
    "hours": {
     "dinner": {
      "approx": false,
@@ -249,6 +249,6 @@
    "source": "https://www.mgu.edu.tr/mgu-yemek-menusu/"
   }
  ],
- "updated": "2026-10-03T18:47:28+03:00",
+ "updated": "2026-10-04T11:56:10+03:00",
  "version": 1
 }
