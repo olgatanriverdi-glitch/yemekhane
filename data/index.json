@@ -137,6 +137,116 @@
    ],
    "short": "AYBÜ",
    "source": "https://aybu.edu.tr/sks/tr/sayfa/6265"
+  },
+  {
+   "city": "Ankara",
+   "firstDay": "2026-10-01",
+   "hours": {
+    "dinner": {
+     "approx": false,
+     "t": "17:00–18:30"
+    },
+    "lunch": {
+     "approx": false,
+     "t": "11:30–14:00"
+    }
+   },
+   "id": "odtu",
+   "lastDay": "2026-10-31",
+   "meals": [
+    "dinner",
+    "lunch"
+   ],
+   "name": "Orta Doğu Teknik Üniversitesi",
+   "prices": [
+    {
+     "label": "Öğrenci (Öğle Yemeği)",
+     "tl": 50
+    },
+    {
+     "label": "Öğrenci (Akşam Yemeği)",
+     "tl": 50
+    }
+   ],
+   "short": "ODTÜ",
+   "source": "https://kafeterya.metu.edu.tr/"
+  },
+  {
+   "city": "Ankara",
+   "firstDay": "2026-10-01",
+   "hours": {
+    "lunch": {
+     "approx": true,
+     "t": "11:00–14:00"
+    }
+   },
+   "id": "hbv",
+   "lastDay": "2026-10-08",
+   "meals": [
+    "lunch"
+   ],
+   "name": "Ankara Hacı Bayram Veli Üniversitesi",
+   "prices": [
+    {
+     "label": "Öğrenci (Öğle Yemeği)",
+     "tl": 50
+    }
+   ],
+   "short": "AHBVÜ",
+   "source": "https://yemek.hacibayram.edu.tr/"
+  },
+  {
+   "city": "Ankara",
+   "firstDay": "2026-10-01",
+   "hours": {
+    "lunch": {
+     "approx": false,
+     "t": "11:30–13:30"
+    },
+    "vegetarian": {
+     "approx": false,
+     "t": "11:30–13:30"
+    }
+   },
+   "id": "asbu",
+   "lastDay": "2026-10-30",
+   "meals": [
+    "lunch",
+    "vegetarian"
+   ],
+   "name": "Ankara Sosyal Bilimler Üniversitesi",
+   "prices": [
+    {
+     "label": "Öğrenci (Öğle Yemeği)",
+     "tl": 45
+    }
+   ],
+   "short": "ASBÜ",
+   "source": "https://sksdb.asbu.edu.tr/tr/aylik-menu-0"
+  },
+  {
+   "city": "Ankara",
+   "firstDay": "2026-09-28",
+   "hours": {
+    "lunch": {
+     "approx": false,
+     "t": "11:30–13:30"
+    }
+   },
+   "id": "mgu",
+   "lastDay": "2026-10-30",
+   "meals": [
+    "lunch"
+   ],
+   "name": "Ankara Müzik ve Güzel Sanatlar Üniversitesi",
+   "prices": [
+    {
+     "label": "Öğrenci (Öğle Yemeği)",
+     "tl": 40
+    }
+   ],
+   "short": "MGÜ",
+   "source": "https://www.mgu.edu.tr/mgu-yemek-menusu/"
   }
  ],
  "updated": "2026-10-03T18:47:28+03:00",
