@@ -10,6 +10,7 @@
       "name": "Yayla Çorba"
      },
      {
+      "img": "dishes/7e2a438be8.jpg",
       "kcal": 404,
       "key": "7e2a438be8",
       "name": "Tavuk Haşlama"
@@ -21,6 +22,7 @@
       "name": "Su Böreği"
      },
      {
+      "img": "dishes/c195b508e6.jpg",
       "kcal": 92,
       "key": "c195b508e6",
       "name": "Erik"
@@ -74,11 +76,13 @@
       "name": "Tavuk Izgara İncik"
      },
      {
+      "img": "dishes/ac109bce12.jpg",
       "kcal": 366,
       "key": "ac109bce12",
       "name": "Erişte Makarna"
      },
      {
+      "img": "dishes/c7a7221cac.jpg",
       "kcal": 190,
       "key": "c7a7221cac",
       "name": "Niğde Gazozu"
@@ -97,6 +101,7 @@
       "name": "Tarhana Çorbası"
      },
      {
+      "img": "dishes/e03bfb4e5b.jpg",
       "kcal": 248,
       "key": "e03bfb4e5b",
       "name": "Fırın Güveç"
@@ -107,6 +112,7 @@
       "name": "Pirinç Pilavı"
      },
      {
+      "img": "dishes/a3d80c5897.jpg",
       "kcal": 117,
       "key": "a3d80c5897",
       "name": "Armut"
@@ -150,6 +156,7 @@
    "lunch": {
     "items": [
      {
+      "img": "dishes/4579869060.jpg",
       "kcal": 149,
       "key": "4579869060",
       "name": "Erişteli Yeşil Mercimek Çorba"
@@ -176,5 +183,5 @@
   }
  },
  "university": "hbv",
- "updated": "2026-10-04T17:30:53+03:00"
+ "updated": "2026-10-04T21:26:46+03:00"
 }
