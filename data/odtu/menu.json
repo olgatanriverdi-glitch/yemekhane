@@ -529,6 +529,7 @@
       "name": "Erişte Pilavı"
      },
      {
+      "img": "dishes/cfca59afeb.jpg",
       "kcal": 246,
       "key": "cfca59afeb",
       "name": "Puding"
@@ -554,6 +555,7 @@
       "name": "Erişte Pilavı"
      },
      {
+      "img": "dishes/cfca59afeb.jpg",
       "kcal": 246,
       "key": "cfca59afeb",
       "name": "Puding"
@@ -714,6 +716,7 @@
       "name": "Etli Sebze Sote"
      },
      {
+      "img": "dishes/7f63837141.jpg",
       "kcal": 367,
       "key": "7f63837141",
       "name": "Naneli Bulgur Pilavı"
@@ -738,16 +741,19 @@
       "name": "Tarhana Çorba"
      },
      {
+      "img": "dishes/0f31587819.jpg",
       "kcal": 452,
       "key": "0f31587819",
       "name": "Kıymalı Tirit"
      },
      {
+      "img": "dishes/38d8401ff1.jpg",
       "kcal": 332,
       "key": "38d8401ff1",
       "name": "Zeytinyağlı Barbunya Pilaki"
      },
      {
+      "img": "dishes/7d496ec144.jpg",
       "kcal": 350,
       "key": "7d496ec144",
       "name": "Muhallebili Kemal Paşa"
@@ -769,11 +775,13 @@
       "name": "Zülbiye Kebabı"
      },
      {
+      "img": "dishes/3617fa4e71.jpg",
       "kcal": 206,
       "key": "3617fa4e71",
       "name": "Mamzana"
      },
      {
+      "img": "dishes/7d496ec144.jpg",
       "kcal": 350,
       "key": "7d496ec144",
       "name": "Muhallebili Kemal Paşa"
@@ -876,6 +884,7 @@
       "name": "Melek Çorba"
      },
      {
+      "img": "dishes/db1c09888e.jpg",
       "kcal": 422,
       "key": "db1c09888e",
       "name": "Saray Köfte"
@@ -904,6 +913,7 @@
       "name": "Vitamin Çorba"
      },
      {
+      "img": "dishes/4c8bc7fad7.jpg",
       "kcal": 354,
       "key": "4c8bc7fad7",
       "name": "Etli Nohut Yahni"
@@ -930,6 +940,7 @@
       "name": "Vitamin Çorba"
      },
      {
+      "img": "dishes/4c8bc7fad7.jpg",
       "kcal": 354,
       "key": "4c8bc7fad7",
       "name": "Etli Nohut Yahni"
@@ -1007,6 +1018,7 @@
    "dinner": {
     "items": [
      {
+      "img": "dishes/cc7782af18.jpg",
       "kcal": 155,
       "key": "cc7782af18",
       "name": "Yarma Çorba"
@@ -1017,6 +1029,7 @@
       "name": "Sebze Graten"
      },
      {
+      "img": "dishes/f110121a07.jpg",
       "kcal": 383,
       "key": "f110121a07",
       "name": "Bolonez Soslu Makarna"
@@ -1033,11 +1046,13 @@
    "lunch": {
     "items": [
      {
+      "img": "dishes/cc7782af18.jpg",
       "kcal": 155,
       "key": "cc7782af18",
       "name": "Yarma Çorba"
      },
      {
+      "img": "dishes/fb7c3d4c2a.jpg",
       "kcal": 446,
       "key": "fb7c3d4c2a",
       "name": "Etli Belen Tava"
@@ -1121,11 +1136,13 @@
       "name": "Saray Çorba"
      },
      {
+      "img": "dishes/3ed346919a.jpg",
       "kcal": 427,
       "key": "3ed346919a",
       "name": "Dana Haşlama"
      },
      {
+      "img": "dishes/3ac4f2289e.jpg",
       "kcal": 342,
       "key": "3ac4f2289e",
       "name": "Patlıcanlı Bulgur Pilavı"
@@ -1147,6 +1164,7 @@
       "name": "Saray Çorba"
      },
      {
+      "img": "dishes/60d79896ec.jpg",
       "kcal": 329,
       "key": "60d79896ec",
       "name": "Gemici Usulü Kuru Fasulye"
@@ -1175,6 +1193,7 @@
       "name": "Çeşmi Nigar Çorba"
      },
      {
+      "img": "dishes/047e4117d8.jpg",
       "kcal": 357,
       "key": "047e4117d8",
       "name": "Kuru Köfte"
@@ -1200,6 +1219,7 @@
       "name": "Çeşmi Nigar Çorba"
      },
      {
+      "img": "dishes/c785270abd.jpg",
       "kcal": 403,
       "key": "c785270abd",
       "name": "Bodrum Makarna"
@@ -1287,6 +1307,7 @@
       "name": "Çiftlik Kebap"
      },
      {
+      "img": "dishes/e5c8d49cb8.jpg",
       "kcal": 318,
       "key": "e5c8d49cb8",
       "name": "Börek"
@@ -1312,6 +1333,7 @@
       "name": "Çiftlik Kebap"
      },
      {
+      "img": "dishes/e5c8d49cb8.jpg",
       "kcal": 318,
       "key": "e5c8d49cb8",
       "name": "Börek"
@@ -1334,6 +1356,7 @@
       "name": "Kremalı Soğan Çorba"
      },
      {
+      "img": "dishes/72c54af301.jpg",
       "kcal": 334,
       "key": "72c54af301",
       "name": "Barbunya Yemeği"
@@ -1361,6 +1384,7 @@
       "name": "Kremalı Soğan Çorba"
      },
      {
+      "img": "dishes/72c54af301.jpg",
       "kcal": 334,
       "key": "72c54af301",
       "name": "Barbunya Yemeği"
@@ -1473,6 +1497,7 @@
       "name": "Şafak Çorba"
      },
      {
+      "img": "dishes/be11516e3d.jpg",
       "kcal": 385,
       "key": "be11516e3d",
       "name": "Balaban Kebabı"
@@ -1506,11 +1531,13 @@
       "name": "Yoğurtlu Kıymalı Mantı"
      },
      {
+      "img": "dishes/7637343502.jpg",
       "kcal": 210,
       "key": "7637343502",
       "name": "Zeytinyağlı Kereviz"
      },
      {
+      "img": "dishes/cfca59afeb.jpg",
       "kcal": 246,
       "key": "cfca59afeb",
       "name": "Puding"
@@ -1531,11 +1558,13 @@
       "name": "Yoğurtlu Kıymalı Mantı"
      },
      {
+      "img": "dishes/7637343502.jpg",
       "kcal": 210,
       "key": "7637343502",
       "name": "Zeytinyağlı Kereviz"
      },
      {
+      "img": "dishes/cfca59afeb.jpg",
       "kcal": 246,
       "key": "cfca59afeb",
       "name": "Puding"
@@ -1559,6 +1588,7 @@
       "name": "Karnabahar Kızartma"
      },
      {
+      "img": "dishes/7e50408774.jpg",
       "kcal": 346,
       "key": "7e50408774",
       "name": "Kıymalı Makarna"
@@ -1586,6 +1616,7 @@
       "name": "Karnabahar Kızartma"
      },
      {
+      "img": "dishes/7e50408774.jpg",
       "kcal": 346,
       "key": "7e50408774",
       "name": "Kıymalı Makarna"
@@ -1615,6 +1646,7 @@
       "name": "Fırın Somon/Yeşillik"
      },
      {
+      "img": "dishes/9cc15e97bd.jpg",
       "kcal": 148,
       "key": "9cc15e97bd",
       "name": "Patates Salatası"
@@ -1641,6 +1673,7 @@
       "name": "Fırın Somon/Yeşillik"
      },
      {
+      "img": "dishes/9cc15e97bd.jpg",
       "kcal": 148,
       "key": "9cc15e97bd",
       "name": "Patates Salatası"
@@ -1663,6 +1696,7 @@
       "name": "Sebze Çorba (Kış)"
      },
      {
+      "img": "dishes/4c8bc7fad7.jpg",
       "kcal": 354,
       "key": "4c8bc7fad7",
       "name": "Etli Nohut Yahni"
@@ -1689,6 +1723,7 @@
       "name": "Sebze Çorba (Kış)"
      },
      {
+      "img": "dishes/4c8bc7fad7.jpg",
       "kcal": 354,
       "key": "4c8bc7fad7",
       "name": "Etli Nohut Yahni"
@@ -1710,5 +1745,5 @@
   }
  },
  "university": "odtu",
- "updated": "2026-10-04T16:54:22+03:00"
+ "updated": "2026-10-04T17:30:53+03:00"
 }
