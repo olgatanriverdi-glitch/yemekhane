@@ -14,6 +14,11 @@ def baslik_yap(metin: str) -> str:
     return " ".join("/".join(kelime(p) for p in k.split("/") if p) for k in metin.split())
 
 
+def baslik_yap_serbest(metin: str) -> str:
+    """Parantez/artı gibi noktalama içeren adlar için: her harf dizisi ayrı başlıklanır ('MANTI (SOS+YOĞURT)' -> 'Mantı (Sos+Yoğurt)')."""
+    return re.sub(r"[^\W\d_]+", lambda m: baslik_yap(m.group(0)), metin)
+
+
 def excel_tarih(seri) -> str:
     """Excel gün numarasını ISO tarihe çevirir (46266 -> 2026-09-01)."""
     return (date(1899, 12, 30) + timedelta(days=int(float(seri)))).isoformat()

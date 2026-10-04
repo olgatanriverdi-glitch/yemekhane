@@ -1,0 +1,638 @@
+{
+ "days": {
+  "2026-10-01": {
+   "lunch": {
+    "items": [
+     {
+      "img": "dishes/22dd093862.jpg",
+      "kcal": 215,
+      "key": "22dd093862",
+      "name": "Mercimek Çorba"
+     },
+     {
+      "kcal": 322,
+      "key": "9be8fa6a5c",
+      "name": "Kış Türlüsü"
+     },
+     {
+      "kcal": 482,
+      "key": "1fcc6d6120",
+      "name": "Nohutlu Pirinç Pilav"
+     },
+     {
+      "kcal": 352,
+      "key": "5f34f26545",
+      "name": "Profiterol"
+     }
+    ],
+    "kcal": 1371
+   }
+  },
+  "2026-10-02": {
+   "lunch": {
+    "items": [
+     {
+      "kcal": 180,
+      "key": "09bc6a807a",
+      "name": "Kazdağı Çorbası"
+     },
+     {
+      "kcal": 355,
+      "key": "aa8b7fc56b",
+      "name": "Yalancı İskender Köfte"
+     },
+     {
+      "img": "dishes/831b0f20cf.jpg",
+      "kcal": 380,
+      "key": "831b0f20cf",
+      "name": "Su Böreği"
+     },
+     {
+      "kcal": 250,
+      "key": "dc944fba4f",
+      "name": "Kazandibi"
+     }
+    ],
+    "kcal": 1165
+   }
+  },
+  "2026-10-05": {
+   "lunch": {
+    "items": [
+     {
+      "img": "dishes/2c0e163a7d.jpg",
+      "kcal": 205,
+      "key": "2c0e163a7d",
+      "name": "Tarhana Çorba"
+     },
+     {
+      "img": "dishes/694df91308.jpg",
+      "kcal": 368,
+      "key": "694df91308",
+      "name": "İzmir Köfte"
+     },
+     {
+      "kcal": 326,
+      "key": "e8dd3ef986",
+      "name": "Biberli Makarna"
+     },
+     {
+      "kcal": 340,
+      "key": "c87422e40b",
+      "name": "Sarıburma"
+     }
+    ],
+    "kcal": 1239
+   }
+  },
+  "2026-10-06": {
+   "lunch": {
+    "items": [
+     {
+      "img": "dishes/22dd093862.jpg",
+      "kcal": 215,
+      "key": "22dd093862",
+      "name": "Mercimek Çorba"
+     },
+     {
+      "img": "dishes/890b8e3990.jpg",
+      "kcal": 285,
+      "key": "890b8e3990",
+      "name": "Etli Nohut"
+     },
+     {
+      "kcal": 412,
+      "key": "e7a136fcd5",
+      "name": "Pirinç Pilav"
+     },
+     {
+      "kcal": 166,
+      "key": "9b6c60c176",
+      "name": "Tavuk Göğsü"
+     }
+    ],
+    "kcal": 1078
+   }
+  },
+  "2026-10-07": {
+   "lunch": {
+    "items": [
+     {
+      "img": "dishes/03b9040496.jpg",
+      "kcal": 148,
+      "key": "03b9040496",
+      "name": "Mantar Çorba"
+     },
+     {
+      "kcal": 656,
+      "key": "97d4313fb3",
+      "name": "Gs Pilav"
+     },
+     {
+      "img": "dishes/16b5c22561.jpg",
+      "kcal": 96,
+      "key": "16b5c22561",
+      "name": "Ayran"
+     },
+     {
+      "kcal": 412,
+      "key": "3b140d6d1c",
+      "name": "Tulumba Tatlısı"
+     }
+    ],
+    "kcal": 1312
+   }
+  },
+  "2026-10-08": {
+   "lunch": {
+    "items": [
+     {
+      "img": "dishes/bf8474c8b9.jpg",
+      "kcal": 205,
+      "key": "bf8474c8b9",
+      "name": "Ezogelin Çorba"
+     },
+     {
+      "kcal": 467,
+      "key": "0e0e520868",
+      "name": "Hünkar Beğendi"
+     },
+     {
+      "kcal": 376,
+      "key": "437ce48b24",
+      "name": "Tereyağlı Pilav"
+     },
+     {
+      "img": "dishes/de8670087d.jpg",
+      "kcal": 456,
+      "key": "de8670087d",
+      "name": "Baklava"
+     }
+    ],
+    "kcal": 1504
+   }
+  },
+  "2026-10-09": {
+   "lunch": {
+    "items": [
+     {
+      "kcal": 110,
+      "key": "2987a8a6ea",
+      "name": "Karnabahar Çorbası"
+     },
+     {
+      "kcal": 394,
+      "key": "63eb4c61a8",
+      "name": "Çıtır Tavuk"
+     },
+     {
+      "img": "dishes/e73ca2dd11.jpg",
+      "kcal": 280,
+      "key": "e73ca2dd11",
+      "name": "Spagetti Makarna"
+     },
+     {
+      "kcal": 220,
+      "key": "e7fd113962",
+      "name": "Çikolatalı Puding"
+     }
+    ],
+    "kcal": 1004
+   }
+  },
+  "2026-10-12": {
+   "lunch": {
+    "items": [
+     {
+      "kcal": 205,
+      "key": "77c8de72c8",
+      "name": "Şehriyeli Sütlüce Çorba"
+     },
+     {
+      "img": "dishes/078c778ebe.jpg",
+      "kcal": 420,
+      "key": "078c778ebe",
+      "name": "Et Döner"
+     },
+     {
+      "kcal": 412,
+      "key": "e7a136fcd5",
+      "name": "Pirinç Pilav"
+     },
+     {
+      "kcal": 408,
+      "key": "9e9fa3d499",
+      "name": "Havuç Dilimi"
+     }
+    ],
+    "kcal": 1445
+   }
+  },
+  "2026-10-13": {
+   "lunch": {
+    "items": [
+     {
+      "img": "dishes/22dd093862.jpg",
+      "kcal": 215,
+      "key": "22dd093862",
+      "name": "Mercimek Çorba"
+     },
+     {
+      "kcal": 162,
+      "key": "1a817ec3d4",
+      "name": "Mantar Sote"
+     },
+     {
+      "img": "dishes/af6741872c.jpg",
+      "kcal": 264,
+      "key": "af6741872c",
+      "name": "Fırın Makarna"
+     },
+     {
+      "kcal": 475,
+      "key": "9b91634cc5",
+      "name": "Ballı Badem"
+     }
+    ],
+    "kcal": 1116
+   }
+  },
+  "2026-10-14": {
+   "lunch": {
+    "items": [
+     {
+      "kcal": 196,
+      "key": "1de04edbfa",
+      "name": "Buğday Çorba"
+     },
+     {
+      "kcal": 394,
+      "key": "392eadee0c",
+      "name": "Domates Soslu Midi Köfte"
+     },
+     {
+      "img": "dishes/25b07cf14e.jpg",
+      "kcal": 347,
+      "key": "25b07cf14e",
+      "name": "Bulgur Pilavı"
+     },
+     {
+      "kcal": 166,
+      "key": "9b6c60c176",
+      "name": "Tavuk Göğsü"
+     }
+    ],
+    "kcal": 1103
+   }
+  },
+  "2026-10-15": {
+   "lunch": {
+    "items": [
+     {
+      "kcal": 188,
+      "key": "f717db877b",
+      "name": "Kaşarlı Domates Çorba"
+     },
+     {
+      "kcal": 200,
+      "key": "b4ddd9093e",
+      "name": "Mevsim Balık"
+     },
+     {
+      "kcal": 482,
+      "key": "1fcc6d6120",
+      "name": "Nohutlu Pirinç Pilav"
+     },
+     {
+      "img": "dishes/44abc36c0c.jpg",
+      "kcal": 451,
+      "key": "44abc36c0c",
+      "name": "İrmik Helvası"
+     }
+    ],
+    "kcal": 1321
+   }
+  },
+  "2026-10-16": {
+   "lunch": {
+    "items": [
+     {
+      "img": "dishes/bf8474c8b9.jpg",
+      "kcal": 205,
+      "key": "bf8474c8b9",
+      "name": "Ezogelin Çorba"
+     },
+     {
+      "kcal": 310,
+      "key": "5a46a2ee87",
+      "name": "Karışık Dolma"
+     },
+     {
+      "img": "dishes/831b0f20cf.jpg",
+      "kcal": 380,
+      "key": "831b0f20cf",
+      "name": "Su Böreği"
+     },
+     {
+      "kcal": 205,
+      "key": "b15955da0c",
+      "name": "Limonlu Keşkül"
+     }
+    ],
+    "kcal": 1100
+   }
+  },
+  "2026-10-19": {
+   "lunch": {
+    "items": [
+     {
+      "img": "dishes/22dd093862.jpg",
+      "kcal": 215,
+      "key": "22dd093862",
+      "name": "Mercimek Çorba"
+     },
+     {
+      "kcal": 356,
+      "key": "e9977e6607",
+      "name": "Ekşili Köfte"
+     },
+     {
+      "img": "dishes/25b07cf14e.jpg",
+      "kcal": 347,
+      "key": "25b07cf14e",
+      "name": "Bulgur Pilavı"
+     },
+     {
+      "kcal": 352,
+      "key": "5f34f26545",
+      "name": "Profiterol"
+     }
+    ],
+    "kcal": 1270
+   }
+  },
+  "2026-10-20": {
+   "lunch": {
+    "items": [
+     {
+      "img": "dishes/154f53ef81.jpg",
+      "kcal": 150,
+      "key": "154f53ef81",
+      "name": "Düğün Çorba"
+     },
+     {
+      "img": "dishes/fbb76e65c4.jpg",
+      "kcal": 285,
+      "key": "fbb76e65c4",
+      "name": "Etli Kuru Fasulye"
+     },
+     {
+      "kcal": 376,
+      "key": "489045dff1",
+      "name": "Tereyağlı Pirinç Pilav"
+     },
+     {
+      "kcal": 450,
+      "key": "649b7af083",
+      "name": "Bülbül Yuvası"
+     }
+    ],
+    "kcal": 1261
+   }
+  },
+  "2026-10-21": {
+   "lunch": {
+    "items": [
+     {
+      "img": "dishes/41393d3b18.jpg",
+      "kcal": 148,
+      "key": "41393d3b18",
+      "name": "Kremalı Mantar Çorba"
+     },
+     {
+      "kcal": 332,
+      "key": "a05effd5c6",
+      "name": "Fransız Usulü Kemikli Tavuk"
+     },
+     {
+      "img": "dishes/7766c86468.jpg",
+      "kcal": 310,
+      "key": "7766c86468",
+      "name": "Tereyağlı Makarna"
+     },
+     {
+      "kcal": 250,
+      "key": "dc944fba4f",
+      "name": "Kazandibi"
+     }
+    ],
+    "kcal": 1040
+   }
+  },
+  "2026-10-22": {
+   "lunch": {
+    "items": [
+     {
+      "img": "dishes/c89017d3ae.jpg",
+      "kcal": 168,
+      "key": "c89017d3ae",
+      "name": "Fesleğenli Domates Çorba"
+     },
+     {
+      "kcal": 272,
+      "key": "d7a96da313",
+      "name": "Patlıcan Kebap"
+     },
+     {
+      "kcal": 445,
+      "key": "4db64a22b2",
+      "name": "Şehriyeli Pirinç Pilav"
+     },
+     {
+      "img": "dishes/904e9c87e9.jpg",
+      "kcal": 247,
+      "key": "904e9c87e9",
+      "name": "Şekerpare"
+     }
+    ],
+    "kcal": 1132
+   }
+  },
+  "2026-10-23": {
+   "lunch": {
+    "items": [
+     {
+      "img": "dishes/bf8474c8b9.jpg",
+      "kcal": 205,
+      "key": "bf8474c8b9",
+      "name": "Ezogelin Çorba"
+     },
+     {
+      "kcal": 217,
+      "key": "6025509e79",
+      "name": "Hindi Tandori"
+     },
+     {
+      "img": "dishes/18ccb4d264.jpg",
+      "kcal": 306,
+      "key": "18ccb4d264",
+      "name": "Soslu Makarna"
+     },
+     {
+      "kcal": 339,
+      "key": "f9026a5320",
+      "name": "Fırın Sütlaç"
+     }
+    ],
+    "kcal": 1067
+   }
+  },
+  "2026-10-26": {
+   "lunch": {
+    "items": [
+     {
+      "kcal": 178,
+      "key": "1de04edbfa",
+      "name": "Buğday Çorba"
+     },
+     {
+      "kcal": 350,
+      "key": "32161784d7",
+      "name": "Karışık Musakka"
+     },
+     {
+      "img": "dishes/25b07cf14e.jpg",
+      "kcal": 347,
+      "key": "25b07cf14e",
+      "name": "Bulgur Pilavı"
+     },
+     {
+      "img": "dishes/de8670087d.jpg",
+      "kcal": 456,
+      "key": "de8670087d",
+      "name": "Baklava"
+     }
+    ],
+    "kcal": 1331
+   }
+  },
+  "2026-10-27": {
+   "lunch": {
+    "items": [
+     {
+      "img": "dishes/bf8474c8b9.jpg",
+      "kcal": 205,
+      "key": "bf8474c8b9",
+      "name": "Ezogelin Çorba"
+     },
+     {
+      "img": "dishes/025eacfe0c.jpg",
+      "kcal": 221,
+      "key": "025eacfe0c",
+      "name": "Etli Taze Fasulye"
+     },
+     {
+      "kcal": 412,
+      "key": "e7a136fcd5",
+      "name": "Pirinç Pilav"
+     },
+     {
+      "kcal": 166,
+      "key": "9b6c60c176",
+      "name": "Tavuk Göğsü"
+     }
+    ],
+    "kcal": 1004
+   }
+  },
+  "2026-10-28": {
+   "lunch": {
+    "items": [
+     {
+      "img": "dishes/f98b465287.jpg",
+      "kcal": 205,
+      "key": "f98b465287",
+      "name": "Yayla Çorba"
+     },
+     {
+      "kcal": 234,
+      "key": "4d0676c683",
+      "name": "Fırın Köfte"
+     },
+     {
+      "img": "dishes/943fe1113c.jpg",
+      "kcal": 310,
+      "key": "943fe1113c",
+      "name": "Erişte"
+     },
+     {
+      "kcal": 220,
+      "key": "e7fd113962",
+      "name": "Çikolatalı Puding"
+     }
+    ],
+    "kcal": 969
+   }
+  },
+  "2026-10-29": {
+   "lunch": {
+    "items": [
+     {
+      "img": "dishes/22dd093862.jpg",
+      "kcal": 215,
+      "key": "22dd093862",
+      "name": "Mercimek Çorba"
+     },
+     {
+      "img": "dishes/bd01ecb31b.jpg",
+      "kcal": 190,
+      "key": "bd01ecb31b",
+      "name": "Kıymalı Kapuska"
+     },
+     {
+      "kcal": 310,
+      "key": "1f5ebfb95e",
+      "name": "Kaşarlı Makarna"
+     },
+     {
+      "kcal": 470,
+      "key": "c914dabbd7",
+      "name": "Tel Kadayıf"
+     }
+    ],
+    "kcal": 1185
+   }
+  },
+  "2026-10-30": {
+   "lunch": {
+    "items": [
+     {
+      "img": "dishes/7599097195.jpg",
+      "kcal": 168,
+      "key": "7599097195",
+      "name": "Domates Çorba"
+     },
+     {
+      "kcal": 370,
+      "key": "ebf998b1b8",
+      "name": "Tavuklu Tepsi Kebabı"
+     },
+     {
+      "kcal": 445,
+      "key": "4db64a22b2",
+      "name": "Şehriyeli Pirinç Pilav"
+     },
+     {
+      "img": "dishes/ba50d196d7.jpg",
+      "kcal": 251,
+      "key": "ba50d196d7",
+      "name": "Kemalpaşa Tatlısı"
+     }
+    ],
+    "kcal": 1234
+   }
+  }
+ },
+ "university": "gsu",
+ "updated": "2026-10-04T21:14:43+03:00"
+}

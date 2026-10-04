@@ -76,11 +76,21 @@ def yemek_fotolari_ekle(yf, menuler, ad):
         print("UYARI: %s yemek fotoğrafları eklenemedi: %s" % (ad, e))
 
 
+def onceki_kayitlar(cikti: str) -> dict:
+    """Önceki çalıştırmanın index.json kayıtları: {id: kayıt}. Dosya yoksa/bozuksa boş."""
+    try:
+        with open(os.path.join(cikti, "index.json"), encoding="utf-8") as f:
+            return {u["id"]: u for u in json.load(f)["universities"]}
+    except (OSError, ValueError, KeyError, TypeError):
+        return {}
+
+
 def calistir(cikti: str, uniler=None) -> int:
     simdi = datetime.now(timezone(timedelta(hours=3)))        # Türkiye saati
     sinir = (simdi - timedelta(days=GUN_SAKLA)).date().isoformat()
     liste = []
-    hata = 0
+    hata = basarili = 0
+    eski = onceki_kayitlar(cikti)
     from .dishes import YemekFotolari
     yf = YemekFotolari(os.path.join(cikti, "dishes"), bugun=simdi.date())
     for u in (uniler or KAYITLI):
@@ -95,14 +105,18 @@ def calistir(cikti: str, uniler=None) -> int:
             turler = sorted({tur for g in menuler.values() for tur in g})
             liste.append({"id": u.id, "name": u.ad, "short": u.kisa, "city": u.sehir, "source": u.kaynak, "meals": turler,
                           "prices": fiyatlar, "hours": saat_bilgisi(u, turler), "firstDay": min(menuler), "lastDay": max(menuler)})
+            basarili += 1
             print("%-10s %d gün (%s .. %s) türler=%s" % (u.id, len(menuler), min(menuler), max(menuler), turler))
         except Exception as e:
             hata += 1
             print("HATA: %s güncellenemedi: %s" % (u.id, e), file=sys.stderr)
+            if u.id in eski:         # geçici bir hata okulu uygulamadan düşürmesin: önceki kayıt (ve dokunulmamış menu.json) kalır
+                liste.append(eski[u.id])
+                print("%-10s önceki kayıt korundu" % u.id, file=sys.stderr)
     yf.kaydet()
     if liste:
         yaz(os.path.join(cikti, "index.json"), {"version": 1, "updated": simdi.isoformat(timespec="seconds"), "universities": liste})
-    return 1 if hata and not liste else 0
+    return 1 if hata and not basarili else 0
 
 
 if __name__ == "__main__":

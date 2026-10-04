@@ -1,0 +1,18 @@
+{
+ "2026-10-04|lunch": "{\"success\":false,\"meal\":null,\"message\":\"Bu tarihte yemek listesi bulunamad\\u0131.\"}",
+ "2026-10-04|dinner": "{\"success\":false,\"meal\":null,\"message\":\"Bu tarihte yemek listesi bulunamad\\u0131.\"}",
+ "2026-10-04|breakfast": "{\"success\":false,\"meal\":null,\"message\":\"Bu tarihte yemek listesi bulunamad\\u0131.\"}",
+ "2026-10-04|vegan": "{\"success\":false,\"meal\":null,\"message\":\"Bu tarihte yemek listesi bulunamad\\u0131.\"}",
+ "2026-10-05|lunch": "{\"success\":true,\"meal\":\"D\\u00fc\\u011f\\u00fcn \\u00c7orbas\\u0131,\\r\\nEtli Bezelye,\\r\\nPirin\\u00e7 Pilav\\u0131,\\r\\nK\\u0131br\\u0131s Tatl\\u0131s\\u0131\",\"category\":\"lunch\"}",
+ "2026-10-05|dinner": "{\"success\":true,\"meal\":\"D\\u00fc\\u011f\\u00fcn \\u00c7orbas\\u0131,\\r\\nEtli Bezelye,\\r\\nPirin\\u00e7 Pilav\\u0131,\\r\\nK\\u0131br\\u0131s Tatl\\u0131s\\u0131\",\"category\":\"dinner\"}",
+ "2026-10-05|breakfast": "{\"success\":true,\"meal\":\"\\u00c7ay\\/Meyve Suyu\\/S\\u00fct, \\u00c7ilek Re\\u00e7eli-Tereya\\u011f\\u0131, Labne Peynir, Po\\u011fa\\u00e7a, Menemen\",\"category\":\"breakfast\"}",
+ "2026-10-05|vegan": "{\"success\":true,\"meal\":\"Patates Ezme \\u00c7orbas\\u0131,\\r\\nEtsiz Bezelye Yeme\\u011fi,\\r\\nPirin\\u00e7 Pilav\\u0131,\\r\\nVi\\u015fne Kompostosu\",\"category\":\"vegan\"}",
+ "2026-10-06|lunch": "{\"success\":true,\"meal\":\"Ka\\u015farl\\u0131 Domates \\u00c7orbas\\u0131,\\r\\nPili\\u00e7 K\\u00fclbast\\u0131 (Sebze Garnili),\\r\\nYo\\u011furtlu Mant\\u0131,\\r\\nArmut\",\"category\":\"lunch\"}",
+ "2026-10-06|dinner": "{\"success\":true,\"meal\":\"Ka\\u015farl\\u0131 Domates \\u00c7orbas\\u0131,\\r\\nPili\\u00e7 K\\u00fclbast\\u0131 (Sebze Garnili),\\r\\nYo\\u011furtlu Mant\\u0131,\\r\\nArmut\",\"category\":\"dinner\"}",
+ "2026-10-06|breakfast": "{\"success\":true,\"meal\":\"\\u00c7ay\\/Meyve Suyu\\/S\\u00fct, Tahin Helvas\\u0131, Dil Peyniri, A\\u00e7ma, Patates K\\u0131zartmas\\u0131 (Ket\\u00e7ap, Mayonez)\",\"category\":\"breakfast\"}",
+ "2026-10-06|vegan": "{\"success\":true,\"meal\":\"Domates \\u00c7orbas\\u0131,\\r\\nMantar Sote,\\r\\nMercimek K\\u00f6ftesi,\\r\\nArmut\",\"category\":\"vegan\"}",
+ "2026-11-02|lunch": "{\"success\":false,\"meal\":null,\"message\":\"Bu tarihte yemek listesi bulunamad\\u0131.\"}",
+ "2026-11-02|dinner": "{\"success\":false,\"meal\":null,\"message\":\"Bu tarihte yemek listesi bulunamad\\u0131.\"}",
+ "2026-11-02|breakfast": "{\"success\":false,\"meal\":null,\"message\":\"Bu tarihte yemek listesi bulunamad\\u0131.\"}",
+ "2026-11-02|vegan": "{\"success\":false,\"meal\":null,\"message\":\"Bu tarihte yemek listesi bulunamad\\u0131.\"}"
+}

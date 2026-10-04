@@ -247,6 +247,202 @@
    ],
    "short": "MGÜ",
    "source": "https://www.mgu.edu.tr/mgu-yemek-menusu/"
+  },
+  {
+   "city": "Eskişehir",
+   "firstDay": "2026-09-28",
+   "hours": {
+    "dinner": {
+     "approx": true,
+     "t": "17:00–19:00"
+    },
+    "lunch": {
+     "approx": true,
+     "t": "11:00–14:00"
+    }
+   },
+   "id": "esogu",
+   "lastDay": "2026-10-30",
+   "meals": [
+    "dinner",
+    "lunch",
+    "vegetarian"
+   ],
+   "name": "Eskişehir Osmangazi Üniversitesi",
+   "prices": [],
+   "short": "ESOGÜ",
+   "source": "https://yemekhane.ogu.edu.tr/"
+  },
+  {
+   "city": "Eskişehir",
+   "firstDay": "2026-10-01",
+   "hours": {
+    "lunch": {
+     "approx": true,
+     "t": "11:00–14:00"
+    }
+   },
+   "id": "estu",
+   "lastDay": "2026-10-30",
+   "meals": [
+    "lunch",
+    "vegetarian"
+   ],
+   "name": "Eskişehir Teknik Üniversitesi",
+   "prices": [],
+   "short": "ESTÜ",
+   "source": "https://saglikkulturspor.eskisehir.edu.tr/tr/Icerik/Detay/yemekhaneler"
+  },
+  {
+   "city": "İstanbul",
+   "firstDay": "2026-10-02",
+   "hours": {
+    "breakfast": {
+     "approx": false,
+     "t": "07:30–09:00"
+    },
+    "dinner": {
+     "approx": false,
+     "t": "16:00–18:00"
+    },
+    "lunch": {
+     "approx": false,
+     "t": "11:00–14:00"
+    }
+   },
+   "id": "iu",
+   "lastDay": "2026-10-30",
+   "meals": [
+    "breakfast",
+    "dinner",
+    "lunch",
+    "vegetarian"
+   ],
+   "name": "İstanbul Üniversitesi",
+   "prices": [],
+   "short": "İÜ",
+   "source": "https://sks.istanbul.edu.tr/yemek-listesi"
+  },
+  {
+   "city": "İstanbul",
+   "firstDay": "2026-10-03",
+   "hours": {
+    "dinner": {
+     "approx": false,
+     "t": "17:00–19:30"
+    },
+    "lunch": {
+     "approx": false,
+     "t": "11:30–14:00"
+    }
+   },
+   "id": "itu",
+   "lastDay": "2026-10-18",
+   "meals": [
+    "dinner",
+    "lunch"
+   ],
+   "name": "İstanbul Teknik Üniversitesi",
+   "prices": [
+    {
+     "label": "Öğrenci (Öğle Yemeği)",
+     "tl": 60
+    },
+    {
+     "label": "Öğrenci (Akşam Yemeği)",
+     "tl": 60
+    }
+   ],
+   "short": "İTÜ",
+   "source": "https://sks.itu.edu.tr/"
+  },
+  {
+   "city": "İstanbul",
+   "firstDay": "2026-10-01",
+   "hours": {
+    "dinner": {
+     "approx": false,
+     "t": "17:00–19:15"
+    },
+    "lunch": {
+     "approx": false,
+     "t": "11:30–14:30"
+    }
+   },
+   "id": "boun",
+   "lastDay": "2026-10-11",
+   "meals": [
+    "dinner",
+    "lunch",
+    "vegetarian"
+   ],
+   "name": "Boğaziçi Üniversitesi",
+   "prices": [],
+   "short": "BÜ",
+   "source": "https://yemekhane.bogazici.edu.tr/"
+  },
+  {
+   "city": "İstanbul",
+   "firstDay": "2026-09-28",
+   "hours": {
+    "lunch": {
+     "approx": true,
+     "t": "11:00–14:00"
+    }
+   },
+   "id": "marmara",
+   "lastDay": "2026-10-02",
+   "meals": [
+    "lunch",
+    "vegetarian"
+   ],
+   "name": "Marmara Üniversitesi",
+   "prices": [
+    {
+     "label": "Öğrenci (Öğle Yemeği)",
+     "tl": 60
+    }
+   ],
+   "short": "MÜ",
+   "source": "https://sks.marmara.edu.tr/yemek"
+  },
+  {
+   "city": "İstanbul",
+   "firstDay": "2026-10-01",
+   "hours": {
+    "lunch": {
+     "approx": true,
+     "t": "11:00–14:00"
+    }
+   },
+   "id": "gsu",
+   "lastDay": "2026-10-30",
+   "meals": [
+    "lunch"
+   ],
+   "name": "Galatasaray Üniversitesi",
+   "prices": [],
+   "short": "GSÜ",
+   "source": "https://gsu.edu.tr/tr/kesfet/kampuste-yasam/yemek-menusu"
+  },
+  {
+   "city": "İstanbul",
+   "firstDay": "2026-10-01",
+   "hours": {
+    "lunch": {
+     "approx": true,
+     "t": "11:00–14:00"
+    }
+   },
+   "id": "msgsu",
+   "lastDay": "2026-10-30",
+   "meals": [
+    "lunch"
+   ],
+   "name": "Mimar Sinan Güzel Sanatlar Üniversitesi",
+   "prices": [],
+   "short": "MSGSÜ",
+   "source": "https://msgsu.edu.tr/ogrenci/kampuste-yasam/beslenme/"
   }
  ],
  "updated": "2026-10-04T11:56:10+03:00",

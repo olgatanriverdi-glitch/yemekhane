@@ -2,7 +2,8 @@
 
 Üniversite yemekhane menülerini **öğle / akşam / vejetaryen** olarak gösteren mobil uygulama.
 Üniversiteler: Ankara Üniversitesi, Gazi, Hacettepe, Ankara Yıldırım Beyazıt (AYBÜ), ODTÜ, Ankara Hacı Bayram Veli (AHBVÜ), Ankara Sosyal Bilimler (ASBÜ) ve
-Ankara Müzik ve Güzel Sanatlar (MGÜ). Başka üniversiteler eklenti olarak eklenir.
+Ankara Müzik ve Güzel Sanatlar (MGÜ), Eskişehir Osmangazi (ESOGÜ), Eskişehir Teknik (ESTÜ) ve İstanbul'dan İstanbul Üniversitesi (İÜ), İTÜ, Boğaziçi (BÜ), Marmara (MÜ), Galatasaray (GSÜ) ve
+Mimar Sinan Güzel Sanatlar (MSGSÜ). Başka üniversiteler eklenti olarak eklenir.
 
 ## Mimari (sunucusuz, bedava)
 
@@ -34,6 +35,25 @@ Menüdeki her yemek öğesine `key` eklenir (yemek adından türeyen kimlik). Uy
 * **ASBÜ** aylık menüyü düşük çözünürlüklü bir resim olarak yayınlar, otomatik okunmaz: menü `elle_veri/asbu.json` dosyasına elle girilir.
   Her ay okul yeni resmi koyunca bu dosyaya o ayın günleri eklenmelidir (aksi halde menü bitince ASBÜ uygulamadan düşer).
 * `elle_veri/<id>.json` biçimi `data/<id>/menu.json` ile aynıdır (`{"days": {"2026-10-01": {"lunch": {...}}}}`).
+
+### Metin tabanlı PDF yayınlayan okullar (ESTÜ)
+`scraper/yemekhane/pdf.py`, Word vb. çıkışlı PDF'lerden konumlu metin çıkarır (yalnızca standart kütüphane; ToUnicode tablolarıyla Türkçe harfler doğru gelir).
+ESTÜ'nün aylık menüsü böyle bir PDF'tir: sütunlar haftanın günlerine göre ortak bir ızgaradan bulunur (tek tek başlıklara güvenilmez; bayram günlerinde başlık yoktur),
+adı `*` ile biten satır etsiz alternatiftir. Taranmış (resim) PDF'lerde metin yoktur, onlar için OCR gerekir (ODTÜ).
+
+### İstanbul okulları: veri kaynakları
+* **İÜ:** `sks.istanbul.edu.tr/meals-by-date?date=...&category=breakfast|lunch|dinner|vegan` JSON'u gün gün sorgulanır (`vegan` -> vejetaryen öğün). Ücret yalnızca taranmış karar olarak yayınlandığı için yok.
+* **İTÜ:** ana sayfadaki menü çerçevesinin kaynağı (`bilgiekrani.itu.edu.tr/.../yemek-menu.aspx?tip=itu-ogle-yemegi-genel&&value=6.10.2026`) gün gün sorgulanır; menü ~2 hafta ileriye yayınlanır.
+  Bu adres okulun 'uzerinde-calisilan' (üzerinde çalışılan) klasöründedir: yer değiştirirse İTÜ okunamaz hale gelir. Saat ve ücret `sks.itu.edu.tr` tablolarından okunur.
+* **Boğaziçi:** `yemekhane.bogazici.edu.tr/aylik-menu/YYYY-AA` takvim sayfası (öğle, akşam, öğlenin vegan alternatifi). **Marmara:** `sks.marmara.edu.tr/yemek` haftalık tablolar (normal + alternatif ana yemek, vejetaryen).
+* **GSÜ:** yalnızca öğlen PDF'i okunur (akşam PDF'inde harfler eksik, vegan PDF'lerinin düzeni farklı); satır girdi sayısı gün sayısına uymayan haftalar atlanır.
+* **MSGSÜ:** aylık PDF'in adresi WordPress medya API'sinden bulunur.
+
+### Okunamayan okullar
+* **İstanbul'da eklenmeyenler:** İstanbul Üniversitesi-Cerrahpaşa (SKS sitesi güvenlik doğrulamalı bir CMS), Yıldız Teknik (`sks.yildiz.edu.tr` bağlantı zaman aşımı veriyor, `beslenme.yildiz.edu.tr` güncel menüyü vermiyor),
+  İstanbul Medeniyet (menü sayfası boş), Türk-Alman (siteye otomatik erişim 403), Sağlık Bilimleri, İstanbul Sağlık ve Teknoloji, Türk-Japon (menü yayınlamıyor/bulunamadı).
+* **Anadolu Üniversitesi:** öğrenci yemekhanesinin menüsü yalnızca Anadolu hesabıyla girişten sonra görülüyor (yemekhane.anadolu.edu.tr); herkese açık sayfalarda yalnızca personel lokali, Akademik Kulüp ve Taşbina gibi à la carte restoranların menüleri var. Bu yüzden eklenmedi.
+* Bir okul geçici olarak okunamazsa (sunucu yavaş/kapalı) `build` onu listeden düşürmez: önceki `index.json` kaydı ve `menu.json` korunur, hata günlüğe yazılır.
 
 ### JSON biçimi
 `data/index.json`: üniversite listesi, her biri için `meals`, `prices`, `firstDay`, `lastDay`.
