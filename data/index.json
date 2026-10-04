@@ -81,7 +81,7 @@
   },
   {
    "city": "Ankara",
-   "firstDay": "2026-10-01",
+   "firstDay": "2026-10-02",
    "hours": {
     "dinner": {
      "approx": false,
@@ -139,6 +139,6 @@
    "source": "https://aybu.edu.tr/sks/tr/sayfa/6265"
   }
  ],
- "updated": "2026-10-03T21:24:58+03:00",
+ "updated": "2026-10-04T11:56:10+03:00",
  "version": 1
 }
