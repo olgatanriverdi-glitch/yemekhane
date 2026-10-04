@@ -1652,6 +1652,7 @@
       "name": "Patates Salatası"
      },
      {
+      "img": "dishes/244e9e2e55.jpg",
       "kcal": 310,
       "key": "244e9e2e55",
       "name": "Tahin Helva"
@@ -1679,6 +1680,7 @@
       "name": "Patates Salatası"
      },
      {
+      "img": "dishes/244e9e2e55.jpg",
       "kcal": 310,
       "key": "244e9e2e55",
       "name": "Tahin Helva"
@@ -1691,6 +1693,7 @@
    "dinner": {
     "items": [
      {
+      "img": "dishes/a4b09633dc.jpg",
       "kcal": 187,
       "key": "a4b09633dc",
       "name": "Sebze Çorba (Kış)"
@@ -1718,6 +1721,7 @@
    "lunch": {
     "items": [
      {
+      "img": "dishes/a4b09633dc.jpg",
       "kcal": 187,
       "key": "a4b09633dc",
       "name": "Sebze Çorba (Kış)"
@@ -1745,5 +1749,5 @@
   }
  },
  "university": "odtu",
- "updated": "2026-10-04T17:30:53+03:00"
+ "updated": "2026-10-04T21:26:46+03:00"
 }

@@ -9,6 +9,7 @@
       "name": "Mercimek Çorba"
      },
      {
+      "img": "dishes/c94ea723fe.jpg",
       "key": "c94ea723fe",
       "name": "Etli Nohut Yemeği"
      },
@@ -32,6 +33,7 @@
       "name": "Şehriye Çorba"
      },
      {
+      "img": "dishes/8714880c0b.jpg",
       "key": "8714880c0b",
       "name": "Akçaabat Köfte"
      },
@@ -66,10 +68,12 @@
       "name": "Halep Dolma"
      },
      {
+      "img": "dishes/bb1917ea91.jpg",
       "key": "bb1917ea91",
       "name": "Kol Böreği"
      },
      {
+      "img": "dishes/c83e938fef.jpg",
       "key": "c83e938fef",
       "name": "Paket Yoğurt"
      },
@@ -150,6 +154,7 @@
       "name": "Ezogelin Çorba"
      },
      {
+      "img": "dishes/d109793d5d.jpg",
       "key": "d109793d5d",
       "name": "Izgara Köfte"
      },
@@ -190,6 +195,7 @@
       "name": "Zeytinyağlı Taze Fasulye"
      },
      {
+      "img": "dishes/c83e938fef.jpg",
       "key": "c83e938fef",
       "name": "Paket Yoğurt"
      },
@@ -299,6 +305,7 @@
       "name": "Mercimek Çorba"
      },
      {
+      "img": "dishes/c94ea723fe.jpg",
       "key": "c94ea723fe",
       "name": "Etli Nohut Yemeği"
      },
@@ -358,6 +365,7 @@
       "name": "Domates Çorba"
      },
      {
+      "img": "dishes/19732f01d3.jpg",
       "key": "19732f01d3",
       "name": "Tavuk Şiş"
      },
@@ -417,14 +425,17 @@
       "name": "Ezogelin Çorba"
      },
      {
+      "img": "dishes/add3592632.jpg",
       "key": "add3592632",
       "name": "Karışık Kızartma"
      },
      {
+      "img": "dishes/bb1917ea91.jpg",
       "key": "bb1917ea91",
       "name": "Kol Böreği"
      },
      {
+      "img": "dishes/c83e938fef.jpg",
       "key": "c83e938fef",
       "name": "Paket Yoğurt"
      },
@@ -505,6 +516,7 @@
       "name": "Ezogelin Çorba"
      },
      {
+      "img": "dishes/cb0bdfa8a7.jpg",
       "key": "cb0bdfa8a7",
       "name": "Arnavut Ciğeri"
      },
@@ -535,6 +547,7 @@
       "name": "Mercimek Çorba"
      },
      {
+      "img": "dishes/bd571c7d2a.jpg",
       "key": "bd571c7d2a",
       "name": "Fırın Tavuk"
      },
@@ -595,6 +608,7 @@
       "name": "Mercimek Çorba"
      },
      {
+      "img": "dishes/c94ea723fe.jpg",
       "key": "c94ea723fe",
       "name": "Etli Nohut Yemeği"
      },
@@ -733,5 +747,5 @@
   }
  },
  "university": "mgu",
- "updated": "2026-10-04T17:30:53+03:00"
+ "updated": "2026-10-04T21:26:46+03:00"
 }
