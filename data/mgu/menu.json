@@ -129,6 +129,7 @@
       "name": "Soslu Makarna"
      },
      {
+      "img": "dishes/cfca59afeb.jpg",
       "key": "cfca59afeb",
       "name": "Puding"
      },
@@ -732,5 +733,5 @@
   }
  },
  "university": "mgu",
- "updated": "2026-10-04T16:54:22+03:00"
+ "updated": "2026-10-04T17:30:53+03:00"
 }

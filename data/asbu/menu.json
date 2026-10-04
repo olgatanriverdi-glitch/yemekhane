@@ -416,6 +416,7 @@
       "name": "Piliç Topkapı"
      },
      {
+      "img": "dishes/9cc15e97bd.jpg",
       "kcal": 180,
       "key": "9cc15e97bd",
       "name": "Patates Salatası"
@@ -448,6 +449,7 @@
       "name": "İç Pilav"
      },
      {
+      "img": "dishes/9cc15e97bd.jpg",
       "kcal": 180,
       "key": "9cc15e97bd",
       "name": "Patates Salatası"
@@ -1363,5 +1365,5 @@
   }
  },
  "university": "asbu",
- "updated": "2026-10-04T16:54:22+03:00"
+ "updated": "2026-10-04T17:30:53+03:00"
 }
