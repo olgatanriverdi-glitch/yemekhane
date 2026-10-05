@@ -1,0 +1,310 @@
+
+<!DOCTYPE html>
+<html dir="ltr" lang="tr">
+<head>
+
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <meta name="description" content="Sivas Cumhuriyet Üniversitesi - Yemek Listesi" />
+    <meta name="keywords" content="Sivas Cumhuriyet Üniversitesi" />
+    <title>Sivas Cumhuriyet Üniversitesi - Yemek Listesi</title>
+    <link href="images/favicon_cumhuriyet.png" rel="shortcut icon">
+    <link href="images/favicon_cumhuriyet.png" rel="apple-touch-icon">
+    <link href="images/favicon_cumhuriyet.png" rel="apple-touch-icon" sizes="72x72">
+    <link href="images/favicon_cumhuriyet.png" rel="apple-touch-icon" sizes="114x114">
+    <link href="images/favicon_cumhuriyet.png" rel="apple-touch-icon" sizes="144x144">
+    <link href="css/main.min.css" rel="stylesheet" type="text/css" />
+    <link href="css/mstyle.min.css" rel="stylesheet" type="text/css" />
+    <link href="css/calendar/main.min.css" rel="stylesheet" type="text/css" />
+	
+
+    <style>
+        .fc{
+            font-size:10px;
+        }
+        .fc-scroller {
+            overflow-y: hidden !important;
+        }
+        .fc .fc-toolbar.fc-header-toolbar {
+    margin-bottom: 0.5em;
+    margin-top: -15px;
+}
+    </style>
+
+    <style>
+        #calendar {
+            max-width: 350px; /* İstediğin genişlik */
+            margin: 0 auto;
+            height: 334px;
+        }
+
+        .fc-event {
+            background-color: #1c93e3 !important; /* Event olan günlerin arka planı mavi */
+            border: none;
+        }
+
+        #calendarMain .fc-event {
+            background-color: #fff !important; /* Event olan günlerin arka planı mavi */
+            border: none;
+        }
+
+    </style>
+    <link href="css/tools.min.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <div id="wrapper" class="clearfix">
+        <header id="header" class="header">
+            <div class="header-nav">
+                <div class="header-nav-wrapper navbar-scrolltofixed bg-theme-colored border-bottom-theme-color-2-4px">
+                    <div class="container">
+      <a href="https://www.cumhuriyet.edu.tr/" class="logo-container" target="_blank">
+         <img src="images/logo.png" style="display: flex;justify-content: center;align-items: center;height: 100%; width: 100px;" alt="Cumhuriyet Üniversitesi">
+		  <p>Sivas Cumhuriyet Üniversitesi</p>
+                            </a>
+                    </div>
+                </div>
+            </div>	
+			
+        </header>
+        <div class="main-content">
+            <div id="ymkl">
+    
+    <section class="inner-header bg-lighter">
+    <div class="container pt-40 pb-0">
+        <div class="section-content">
+            <div class="row">
+                <div class="col-md-12 xs-text-center">
+                    <h2 class="mt-10 text-theme-colored">Aylık Yemek Listesi (Ekim 2026)</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 text-right hidden-xs">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section>
+    <div class="container pt-30 pb-20">
+        <div class="alert alert-success xs-text-center">
+            <div class="mb-5">
+                <i class="fa fa-cutlery fa-lg mr-10" aria-hidden="true"></i>
+                <span class="font-weight-600 font-16">Günün Yemeği</span>
+            </div>
+                        <span class="text-nowrap">EZOGELİN ÇORBA </span> <span class="text-theme-color-2">|</span>
+            <span class="text-nowrap">TAVUK ŞİNİTSEL/P. KIZARTMA </span> <span class="text-theme-color-2">|</span>
+            <span class="text-nowrap">SEBZELİ MAKARNA</span> <span class="text-theme-color-2">|</span>
+            <span class="text-nowrap">AYRAN </span> <span class="text-theme-color-2">|</span>
+        <span class="font-10 text-theme-color-2 text-nowrap"> » </span>
+
+
+            </div>
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="form-group mb-20">
+                    <div class="input-group position-relative">
+                        <div class="input-group-addon bg-theme-colored text-white font-weight-500" style="border: none;">BİRİM :</div>
+                        <select class="form-control" id="yemekBirim" data-birim="48357578" onchange="getSelectedValue()">
+                            <option value="1" selected="selected">Öğrenci Yemekhanesi</option><option value="2" onclick="window.location.href='https://www.cumhuriyet.edu.tr/yemeklistesi/index.php?yemek=2'">Personel Yemekhanesi</option><option value="3" onclick="window.location.href='https://www.cumhuriyet.edu.tr/yemeklistesi/index.php?yemek=3'">Sosyal Tesisler ve Restorant</option><option value="4" onclick="window.location.href='https://www.cumhuriyet.edu.tr/yemeklistesi/index.php?yemek=4'">Turizm Fakültesi Restorant</option>                        </select>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid pt-30 pb-20">
+        <div id="ycontent">
+
+            <div id="ylist-table">
+            <div class="row ml-0 mr-0 bg-theme-colored" style="border-radius: 4px 4px 0px 0px;">
+                <div class="col-md-5c hidden-xs hidden-sm"><div class="pt-15 pb-15 text-center text-white">PAZARTESİ</div></div>
+                <div class="col-md-5c hidden-xs hidden-sm"><div class="pt-15 pb-15 text-center text-white">SALI</div></div>
+                <div class="col-md-5c hidden-xs hidden-sm"><div class="pt-15 pb-15 text-center text-white">ÇARŞAMBA</div></div>
+                <div class="col-md-5c hidden-xs hidden-sm"><div class="pt-15 pb-15 text-center text-white">PERŞEMBE</div></div>
+                <div class="col-md-5c hidden-xs hidden-sm"><div class="pt-15 pb-15 text-center text-white">CUMA</div></div>
+            </div>
+            <div class="row ml-0 mr-0" id="ylistTable">
+                <div class="mitem col-md-5c"></div><div class="mitem col-md-5c"></div><div class="mitem col-md-5c"></div><div class="mitem col-md-5c men-item" >
+                            <div class="text-center font-13 p-10">
+                                <h4 class="m-0 mb-5 text-theme-color-2">01-10-2026</h4>
+                                ANADOLU ÇORBA <br> ÇİFTLİK KEBAP  <br> BUHARA PİLAVI <br> KAKAOLU PUDİNG
+                                <br><small class="text-theme-color-2"></small>
+                            </div>
+                        </div><div class="mitem col-md-5c men-item" >
+                            <div class="text-center font-13 p-10">
+                                <h4 class="m-0 mb-5 text-theme-color-2">02-10-2026</h4>
+                                ŞEHRİYE ÇORBA <br> TAVUK ROSTO KÖFTE  <br> SEBZELİ BULGUR PİLAVI <br> YOĞURT
+                                <br><small class="text-theme-color-2"></small>
+                            </div>
+                        </div><div class="mitem col-md-5c men-item" style="background-color:#d9edf7;">
+                        <div class="text-center font-13 p-10">
+                            <h4 class="m-0 mb-5 text-theme-color-2">BUGÜN</h4>
+                            EZOGELİN ÇORBA <br> TAVUK ŞİNİTSEL/P. KIZARTMA  <br> SEBZELİ MAKARNA <br> AYRAN
+                            <br><small class="text-theme-color-2"></small>
+                        </div>
+                    </div><div class="mitem col-md-5c men-item" >
+                            <div class="text-center font-13 p-10">
+                                <h4 class="m-0 mb-5 text-theme-color-2">06-10-2026</h4>
+                                TOYGA ÇORBA <br> BAHÇEVAN KEBAP  <br> MERCİMEKLİ BULGUR PİLAVI <br> ŞEKERPARE TATLISI
+                                <br><small class="text-theme-color-2"></small>
+                            </div>
+                        </div><div class="mitem col-md-5c men-item" >
+                            <div class="text-center font-13 p-10">
+                                <h4 class="m-0 mb-5 text-theme-color-2">07-10-2026</h4>
+                                MERCİMEK ÇORBA <br> ÇOBAN KAVURMA  <br> NOHUTLU PİRİNÇ PİLAVI <br> AYRAN
+                                <br><small class="text-theme-color-2"></small>
+                            </div>
+                        </div><div class="mitem col-md-5c men-item" >
+                            <div class="text-center font-13 p-10">
+                                <h4 class="m-0 mb-5 text-theme-color-2">08-10-2026</h4>
+                                TAVUKLU DÜĞÜN ÇORBA <br> SUCUK İÇİ KÖFTE  <br> ACILI BULGUR PİLAVI <br> KEŞKÜL
+                                <br><small class="text-theme-color-2"></small>
+                            </div>
+                        </div><div class="mitem col-md-5c men-item" >
+                            <div class="text-center font-13 p-10">
+                                <h4 class="m-0 mb-5 text-theme-color-2">09-10-2026</h4>
+                                ERZURUM KESME ÇORBA <br> SEBZELİ TAVUK KIZARTMA  <br> YOĞURTLU KARIŞIK KIZARTMA <br> ŞEFTALİ
+                                <br><small class="text-theme-color-2"></small>
+                            </div>
+                        </div><div class="mitem col-md-5c men-item" >
+                            <div class="text-center font-13 p-10">
+                                <h4 class="m-0 mb-5 text-theme-color-2">12-10-2026</h4>
+                                MİLFÖY BÖREĞİ <br> ETLİ KURU FASULYE  <br> ŞEHRİYELİ PİRİNÇ PİLAVI <br> KARIŞIK TURŞU
+                                <br><small class="text-theme-color-2"></small>
+                            </div>
+                        </div><div class="mitem col-md-5c men-item" >
+                            <div class="text-center font-13 p-10">
+                                <h4 class="m-0 mb-5 text-theme-color-2">13-10-2026</h4>
+                                ERZİNCAN KESME ÇORBA <br> SEBZELİ TAVUK KIZARTMA  <br> FISTIKLI PİRİNÇ PİLAVI <br> KALBURABASTI TATLISI
+                                <br><small class="text-theme-color-2"></small>
+                            </div>
+                        </div><div class="mitem col-md-5c men-item" >
+                            <div class="text-center font-13 p-10">
+                                <h4 class="m-0 mb-5 text-theme-color-2">14-10-2026</h4>
+                                YAYLA ÇORBA <br> İZMİR KÖFTE  <br> SEBZELİ BURGU MAKARNA <br> MUZ
+                                <br><small class="text-theme-color-2"></small>
+                            </div>
+                        </div><div class="mitem col-md-5c men-item" >
+                            <div class="text-center font-13 p-10">
+                                <h4 class="m-0 mb-5 text-theme-color-2">15-10-2026</h4>
+                                ÇEŞMİNİGAR ÇORBA <br> PATLICAN KEBAP  <br> MISIRLI PİRİNÇ PİLAVI <br> YOĞURT
+                                <br><small class="text-theme-color-2"></small>
+                            </div>
+                        </div><div class="mitem col-md-5c men-item" >
+                            <div class="text-center font-13 p-10">
+                                <h4 class="m-0 mb-5 text-theme-color-2">16-10-2026</h4>
+                                EZOGELİN ÇORBA <br> TAVUK ÇÖKERTME KEBAP  <br> ÖZBEK PİLAVI <br> FINDIKLI MUHALLEBİ
+                                <br><small class="text-theme-color-2"></small>
+                            </div>
+                        </div><div class="mitem col-md-5c men-item" >
+                            <div class="text-center font-13 p-10">
+                                <h4 class="m-0 mb-5 text-theme-color-2">19-10-2026</h4>
+                                MERCİMEK ÇORBA <br> TAVUK PİRZOLA / P. KIZARTMA  <br> SOSLU BURGU MAKARNA <br> AYRAN
+                                <br><small class="text-theme-color-2"></small>
+                            </div>
+                        </div><div class="mitem col-md-5c men-item" >
+                            <div class="text-center font-13 p-10">
+                                <h4 class="m-0 mb-5 text-theme-color-2">20-10-2026</h4>
+                                YOĞURTLU DÖVME ÇORBA <br> ETLİ SEBZELİ KEBAP  <br> İÇ PİLAV <br> HANIMGÖBEĞİ TATLISI
+                                <br><small class="text-theme-color-2"></small>
+                            </div>
+                        </div><div class="mitem col-md-5c men-item" >
+                            <div class="text-center font-13 p-10">
+                                <h4 class="m-0 mb-5 text-theme-color-2">21-10-2026</h4>
+                                ARAPAŞI ÇORBA <br> ÇİFTLİK KÖFTE  <br> BULGUR PİLAVI <br> YOĞURT
+                                <br><small class="text-theme-color-2"></small>
+                            </div>
+                        </div><div class="mitem col-md-5c men-item" >
+                            <div class="text-center font-13 p-10">
+                                <h4 class="m-0 mb-5 text-theme-color-2">22-10-2026</h4>
+                                EZOGELİN ÇORBA <br> TAVUK BUT KIZARTMA  <br> ŞEHRİYELİ PİRİNÇ PİLAVI <br> ARMUT
+                                <br><small class="text-theme-color-2"></small>
+                            </div>
+                        </div><div class="mitem col-md-5c men-item" >
+                            <div class="text-center font-13 p-10">
+                                <h4 class="m-0 mb-5 text-theme-color-2">23-10-2026</h4>
+                                ETLİ DÜĞÜN ÇORBA <br> SEBZELİ TAVUK SARMA  <br> SOSLU BURGU MAKARNA <br> VİŞNE PELTESİ
+                                <br><small class="text-theme-color-2"></small>
+                            </div>
+                        </div><div class="mitem col-md-5c men-item" >
+                            <div class="text-center font-13 p-10">
+                                <h4 class="m-0 mb-5 text-theme-color-2">26-10-2026</h4>
+                                SEBZELİ TAVUK ÇORBA <br> PATLICAN MUSAKKA  <br> ŞEHRİYELİ PİRİNÇ PİLAVI <br> CACIK
+                                <br><small class="text-theme-color-2"></small>
+                            </div>
+                        </div><div class="mitem col-md-5c men-item" >
+                            <div class="text-center font-13 p-10">
+                                <h4 class="m-0 mb-5 text-theme-color-2">27-10-2026</h4>
+                                TAVUK ÇORBA <br> SEBZELİ FIRIN KÖFTE  <br> NOHUTLU PİRİNÇ PİLAVI <br> BAKLAVA
+                                <br><small class="text-theme-color-2"></small>
+                            </div>
+                        </div><div class="mitem col-md-5c men-item" >
+                            <div class="text-center font-13 p-10">
+                                <h4 class="m-0 mb-5 text-theme-color-2">28-10-2026</h4>
+                                 <br> RESMİ TATİL  <br>  <br> 
+                                <br><small class="text-theme-color-2"></small>
+                            </div>
+                        </div><div class="mitem col-md-5c men-item" >
+                            <div class="text-center font-13 p-10">
+                                <h4 class="m-0 mb-5 text-theme-color-2">29-10-2026</h4>
+                                 <br> RESMİ TATİL  <br>  <br> 
+                                <br><small class="text-theme-color-2"></small>
+                            </div>
+                        </div><div class="mitem col-md-5c men-item" >
+                            <div class="text-center font-13 p-10">
+                                <h4 class="m-0 mb-5 text-theme-color-2">30-10-2026</h4>
+                                YAYLA ÇORBA <br> PATATES OTURTMA  <br> ACILI BULGUR PİLAVI <br> BROWNİ
+                                <br><small class="text-theme-color-2"></small>
+                            </div>
+                        </div>
+            </div>
+
+            <div class="col-md-5c mb-10 hidden-xs hidden-sm"></div>
+            <div class="col-md-5c mb-10 hidden-xs hidden-sm"></div>
+            <div class="col-md-5c mb-10 hidden-xs hidden-sm"></div>
+            <div class="col-md-5c mb-10 hidden-xs hidden-sm"></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+</div>
+
+
+
+
+
+       <footer id="footer" class="footer divider layer-overlay overlay-dark-9" style="">
+
+                  
+               
+                <div class="footer-bottom bg-black-333">
+                    <div class="container pt-20 pb-20">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <p class="font-15 text-black-777 m-0 sm-text-center" style="text-align: center; color: white;">Copyright © 2024 <a href="https://www.cumhuriyet.edu.tr/cubid/anasayfa" target="_blank">Bilgi İşlem Daire Başkanlığı - Yazılım Geliştirme Grubu</a>. Tüm Hakları Saklıdır.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a class="scrollToTop" href="#"><i class="fa fa-angle-up"></i></a>
+            </footer>
+        </div>
+    </div>
+    
+      <script src="js/calendar/main.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/plugin.js"></script>
+    <script src="js/custom-no-obf-used-functions.js"></script>
+
+    <script>
+        function getSelectedValue() {
+            const selectedValue = $('#yemekBirim').val();
+            window.location.href='https://www.cumhuriyet.edu.tr/yemeklistesi/index.php?yemek='+selectedValue;
+            // Seçilen değeri HTML'ye yaz
+            console.log(selectedValue);
+        }
+    </script>
+   
+</body>
+</html>

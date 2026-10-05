@@ -443,8 +443,264 @@
    "prices": [],
    "short": "MSGSÜ",
    "source": "https://msgsu.edu.tr/ogrenci/kampuste-yasam/beslenme/"
+  },
+  {
+   "city": "İzmir",
+   "firstDay": "2026-10-01",
+   "hours": {
+    "dinner": {
+     "approx": true,
+     "t": "17:00–19:00"
+    },
+    "lunch": {
+     "approx": true,
+     "t": "11:00–14:00"
+    }
+   },
+   "id": "ege",
+   "lastDay": "2026-10-31",
+   "meals": [
+    "dinner",
+    "lunch",
+    "vegetarian"
+   ],
+   "name": "Ege Üniversitesi",
+   "prices": [],
+   "short": "EÜ",
+   "source": "https://sksdb.ege.edu.tr/tr-8417/aylik_yemek_menuleri.html"
+  },
+  {
+   "city": "İzmir",
+   "firstDay": "2026-09-28",
+   "hours": {
+    "lunch": {
+     "approx": true,
+     "t": "11:00–14:00"
+    }
+   },
+   "id": "deu",
+   "lastDay": "2026-10-30",
+   "meals": [
+    "lunch",
+    "vegetarian"
+   ],
+   "name": "Dokuz Eylül Üniversitesi",
+   "prices": [],
+   "short": "DEÜ",
+   "source": "https://sks.deu.edu.tr/yemek-menusu/"
+  },
+  {
+   "city": "İzmir",
+   "firstDay": "2026-10-05",
+   "hours": {
+    "lunch": {
+     "approx": true,
+     "t": "11:00–14:00"
+    }
+   },
+   "id": "ikcu",
+   "lastDay": "2026-10-06",
+   "meals": [
+    "lunch",
+    "vegetarian"
+   ],
+   "name": "İzmir Katip Çelebi Üniversitesi",
+   "prices": [],
+   "short": "İKÇÜ",
+   "source": "https://ikcu.edu.tr/yemeklistesi"
+  },
+  {
+   "city": "Antalya",
+   "firstDay": "2026-10-05",
+   "hours": {
+    "lunch": {
+     "approx": true,
+     "t": "11:00–14:00"
+    }
+   },
+   "id": "alku",
+   "lastDay": "2026-10-09",
+   "meals": [
+    "lunch"
+   ],
+   "name": "Alanya Alaaddin Keykubat Üniversitesi",
+   "prices": [],
+   "short": "ALKÜ",
+   "source": "https://sksdb.alanya.edu.tr/hizmetlerimiz/beslenme-hizmetleri/alku-yemek-menusu/"
+  },
+  {
+   "city": "Çanakkale",
+   "firstDay": "2026-10-01",
+   "hours": {
+    "lunch": {
+     "approx": false,
+     "t": "11:30–14:00"
+    }
+   },
+   "id": "comu",
+   "lastDay": "2026-10-30",
+   "meals": [
+    "lunch",
+    "vegetarian"
+   ],
+   "name": "Çanakkale Onsekiz Mart Üniversitesi",
+   "prices": [],
+   "short": "ÇOMÜ",
+   "source": "https://sks.comu.edu.tr/tr/sayfa/yemek-listesi-65.html"
+  },
+  {
+   "city": "Sivas",
+   "firstDay": "2026-10-01",
+   "hours": {
+    "lunch": {
+     "approx": true,
+     "t": "11:00–14:00"
+    }
+   },
+   "id": "sbtu",
+   "lastDay": "2026-10-30",
+   "meals": [
+    "lunch"
+   ],
+   "name": "Sivas Bilim ve Teknoloji Üniversitesi",
+   "prices": [],
+   "short": "SBTÜ",
+   "source": "https://www.sivas.edu.tr/yemek-listesi"
+  },
+  {
+   "city": "Sivas",
+   "firstDay": "2026-10-01",
+   "hours": {
+    "lunch": {
+     "approx": true,
+     "t": "11:00–14:00"
+    }
+   },
+   "id": "cumhuriyet",
+   "lastDay": "2026-10-30",
+   "meals": [
+    "lunch"
+   ],
+   "name": "Sivas Cumhuriyet Üniversitesi",
+   "prices": [],
+   "short": "CÜ",
+   "source": "https://www.cumhuriyet.edu.tr/yemeklistesi/index.php"
+  },
+  {
+   "city": "Erzurum",
+   "firstDay": "2026-10-05",
+   "hours": {
+    "lunch": {
+     "approx": true,
+     "t": "11:00–14:00"
+    }
+   },
+   "id": "atauni",
+   "lastDay": "2026-10-06",
+   "meals": [
+    "lunch"
+   ],
+   "name": "Atatürk Üniversitesi",
+   "prices": [],
+   "short": "ATAUNİ",
+   "source": "https://atauni.edu.tr/saglik-kultur-ve-spor-daire-baskanligi/"
+  },
+  {
+   "city": "Trabzon",
+   "firstDay": "2026-09-28",
+   "hours": {
+    "lunch": {
+     "approx": true,
+     "t": "11:00–14:00"
+    }
+   },
+   "id": "ktu",
+   "lastDay": "2026-10-09",
+   "meals": [
+    "lunch"
+   ],
+   "name": "Karadeniz Teknik Üniversitesi",
+   "prices": [],
+   "short": "KTÜ",
+   "source": "https://sks.ktu.edu.tr/yemeklistesi"
+  },
+  {
+   "city": "Trabzon",
+   "firstDay": "2026-10-01",
+   "hours": {
+    "lunch": {
+     "approx": true,
+     "t": "11:00–14:00"
+    }
+   },
+   "id": "trabzon",
+   "lastDay": "2026-10-30",
+   "meals": [
+    "lunch"
+   ],
+   "name": "Trabzon Üniversitesi",
+   "prices": [],
+   "short": "TÜ",
+   "source": "https://sks.trabzon.edu.tr/S/8978"
+  },
+  {
+   "city": "Samsun",
+   "firstDay": "2026-10-01",
+   "hours": {
+    "lunch": {
+     "approx": true,
+     "t": "11:00–14:00"
+    }
+   },
+   "id": "omu",
+   "lastDay": "2026-10-30",
+   "meals": [
+    "lunch"
+   ],
+   "name": "Ondokuz Mayıs Üniversitesi",
+   "prices": [],
+   "short": "OMÜ",
+   "source": "https://www.omu.edu.tr/tr/omude-yasam/beslenme"
+  },
+  {
+   "city": "Samsun",
+   "firstDay": "2026-10-01",
+   "hours": {
+    "lunch": {
+     "approx": true,
+     "t": "11:00–14:00"
+    }
+   },
+   "id": "samsun",
+   "lastDay": "2026-10-30",
+   "meals": [
+    "lunch"
+   ],
+   "name": "Samsun Üniversitesi",
+   "prices": [],
+   "short": "SÜ",
+   "source": "https://sks.samsun.edu.tr/yemek-listesi/"
+  },
+  {
+   "city": "Kocaeli",
+   "firstDay": "2026-10-01",
+   "hours": {
+    "lunch": {
+     "approx": true,
+     "t": "11:00–14:00"
+    }
+   },
+   "id": "gtu",
+   "lastDay": "2026-10-30",
+   "meals": [
+    "lunch"
+   ],
+   "name": "Gebze Teknik Üniversitesi",
+   "prices": [],
+   "short": "GTÜ",
+   "source": "https://www.gtu.edu.tr/kategori/1296/0/display.aspx"
   }
  ],
- "updated": "2026-10-04T11:56:10+03:00",
+ "updated": "2026-10-05T09:44:44+03:00",
  "version": 1
 }

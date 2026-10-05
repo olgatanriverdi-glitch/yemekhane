@@ -1,0 +1,882 @@
+{
+ "days": {
+  "2026-09-28": {
+   "lunch": {
+    "items": [
+     {
+      "name": "Etli Bezelye Yemeği"
+     },
+     {
+      "name": "Bulgur Pilavı"
+     },
+     {
+      "name": "Yoğurt"
+     },
+     {
+      "name": "Turşu"
+     },
+     {
+      "name": "Tatlı"
+     }
+    ],
+    "kcal": 1140
+   },
+   "vegetarian": {
+    "items": [
+     {
+      "name": "Bezelye Yemeği"
+     },
+     {
+      "name": "Bulgur Pilavı"
+     },
+     {
+      "name": "Salata"
+     },
+     {
+      "name": "Turşu"
+     },
+     {
+      "name": "Meyve"
+     }
+    ],
+    "kcal": 721
+   }
+  },
+  "2026-09-29": {
+   "lunch": {
+    "items": [
+     {
+      "name": "Tas Kebabı"
+     },
+     {
+      "name": "Nohutlu Pirinç Pilavı"
+     },
+     {
+      "name": "Kuru Cacık"
+     },
+     {
+      "name": "Meyve"
+     }
+    ],
+    "kcal": 930
+   },
+   "vegetarian": {
+    "items": [
+     {
+      "name": "Patates Yemeği"
+     },
+     {
+      "name": "Nohutlu Pirinç Pilavı"
+     },
+     {
+      "name": "Salata"
+     },
+     {
+      "name": "Meyve"
+     }
+    ],
+    "kcal": 835
+   }
+  },
+  "2026-09-30": {
+   "lunch": {
+    "items": [
+     {
+      "name": "Domates Çorbası"
+     },
+     {
+      "name": "Fırında Piliç Baget"
+     },
+     {
+      "name": "Arpa Şehriye Pilavı"
+     },
+     {
+      "name": "Ayran"
+     }
+    ],
+    "kcal": 945
+   },
+   "vegetarian": {
+    "items": [
+     {
+      "name": "(Sütsüz) Domates Çorba"
+     },
+     {
+      "name": "Ispanak Yemeği"
+     },
+     {
+      "name": "Arpa Şehriye Pilavı"
+     },
+     {
+      "name": "Meyve"
+     }
+    ],
+    "kcal": 729
+   }
+  },
+  "2026-10-01": {
+   "lunch": {
+    "items": [
+     {
+      "name": "Ezogelin Çorbası"
+     },
+     {
+      "name": "Fırında Sebze Graten"
+     },
+     {
+      "name": "Yoğurt"
+     },
+     {
+      "name": "Tatlı"
+     }
+    ],
+    "kcal": 975
+   },
+   "vegetarian": {
+    "items": [
+     {
+      "name": "Ezogelin Çorbası"
+     },
+     {
+      "name": "Fırında Sebze Yemeği"
+     },
+     {
+      "name": "Salata"
+     },
+     {
+      "name": "Meyve"
+     }
+    ],
+    "kcal": 710
+   }
+  },
+  "2026-10-02": {
+   "lunch": {
+    "items": [
+     {
+      "name": "Ekşili Köfte"
+     },
+     {
+      "name": "Domates Soslu Makarna"
+     },
+     {
+      "name": "Çoban Salata"
+     },
+     {
+      "name": "Meyve"
+     }
+    ],
+    "kcal": 915
+   },
+   "vegetarian": {
+    "items": [
+     {
+      "name": "Karnabahar Yemeği"
+     },
+     {
+      "name": "Domates Soslu Makarna"
+     },
+     {
+      "name": "Çoban Salata"
+     },
+     {
+      "name": "Meyve"
+     }
+    ],
+    "kcal": 685
+   }
+  },
+  "2026-10-05": {
+   "lunch": {
+    "items": [
+     {
+      "name": "Nohut Yemeği"
+     },
+     {
+      "name": "Bulgur Pilavı"
+     },
+     {
+      "name": "Yoğurt"
+     },
+     {
+      "name": "Turşu"
+     },
+     {
+      "name": "Tatlı"
+     }
+    ],
+    "kcal": 686
+   },
+   "vegetarian": {
+    "items": [
+     {
+      "name": "Nohut Yemeği"
+     },
+     {
+      "name": "Bulgur Pilavı"
+     },
+     {
+      "name": "Salata"
+     },
+     {
+      "name": "Turşu"
+     },
+     {
+      "name": "Meyve"
+     }
+    ],
+    "kcal": 686
+   }
+  },
+  "2026-10-06": {
+   "lunch": {
+    "items": [
+     {
+      "name": "Etli Mevsim Türlü"
+     },
+     {
+      "name": "Erişte"
+     },
+     {
+      "name": "Havuç Tarator"
+     },
+     {
+      "name": "Meyve"
+     }
+    ],
+    "kcal": 1119
+   },
+   "vegetarian": {
+    "items": [
+     {
+      "name": "Mevsim Türlü (Etsiz)"
+     },
+     {
+      "name": "Erişte"
+     },
+     {
+      "name": "Havuç Salatası"
+     },
+     {
+      "name": "Meyve"
+     }
+    ],
+    "kcal": 748
+   }
+  },
+  "2026-10-07": {
+   "lunch": {
+    "items": [
+     {
+      "name": "Ispanak Borani"
+     },
+     {
+      "name": "Fırın Makarna"
+     },
+     {
+      "name": "Yoğurt"
+     },
+     {
+      "name": "Tatlı"
+     }
+    ],
+    "kcal": 829
+   },
+   "vegetarian": {
+    "items": [
+     {
+      "name": "Ispanak Borani"
+     },
+     {
+      "name": "Soslu Makarna"
+     },
+     {
+      "name": "Salata"
+     },
+     {
+      "name": "Meyve"
+     }
+    ],
+    "kcal": 829
+   }
+  },
+  "2026-10-08": {
+   "lunch": {
+    "items": [
+     {
+      "name": "Mercimek Çorbası"
+     },
+     {
+      "name": "Fırın Piliç But"
+     },
+     {
+      "name": "Pirinç Pilavı"
+     },
+     {
+      "name": "Ayran"
+     }
+    ],
+    "kcal": 755
+   },
+   "vegetarian": {
+    "items": [
+     {
+      "name": "Mercimek Çorbası"
+     },
+     {
+      "name": "Patates Yemeği"
+     },
+     {
+      "name": "Pirinç Pilavı"
+     },
+     {
+      "name": "Meyve"
+     }
+    ],
+    "kcal": 755
+   }
+  },
+  "2026-10-09": {
+   "lunch": {
+    "items": [
+     {
+      "name": "Püreli Rosto Köfte"
+     },
+     {
+      "name": "Domates Soslu Makarna"
+     },
+     {
+      "name": "Mevsim Salata"
+     },
+     {
+      "name": "Tatlı"
+     }
+    ],
+    "kcal": 840
+   },
+   "vegetarian": {
+    "items": [
+     {
+      "name": "Karışık Kızartma"
+     },
+     {
+      "name": "Domates Soslu Makarna"
+     },
+     {
+      "name": "Mevsim Salata"
+     },
+     {
+      "name": "Meyve"
+     }
+    ],
+    "kcal": 840
+   }
+  },
+  "2026-10-12": {
+   "lunch": {
+    "items": [
+     {
+      "name": "Kuru Fasulye"
+     },
+     {
+      "name": "Gökkuşağı Pilavı"
+     },
+     {
+      "name": "Turşu"
+     },
+     {
+      "name": "Yoğurt"
+     },
+     {
+      "name": "Tatlı"
+     }
+    ],
+    "kcal": 961
+   },
+   "vegetarian": {
+    "items": [
+     {
+      "name": "Kuru Fasulye"
+     },
+     {
+      "name": "Gökkuşağı Pilavı"
+     },
+     {
+      "name": "Turşu"
+     },
+     {
+      "name": "Salata"
+     },
+     {
+      "name": "Meyve"
+     }
+    ],
+    "kcal": 961
+   }
+  },
+  "2026-10-13": {
+   "lunch": {
+    "items": [
+     {
+      "name": "Orman Kebabı"
+     },
+     {
+      "name": "Arpa Şehriye Pilavı"
+     },
+     {
+      "name": "Kuru Cacık"
+     },
+     {
+      "name": "Meyve"
+     }
+    ],
+    "kcal": 885
+   },
+   "vegetarian": {
+    "items": [
+     {
+      "name": "Orman Kebabı"
+     },
+     {
+      "name": "Arpa Şehriye Pilavı"
+     },
+     {
+      "name": "Salata"
+     },
+     {
+      "name": "Meyve"
+     }
+    ],
+    "kcal": 885
+   }
+  },
+  "2026-10-14": {
+   "lunch": {
+    "items": [
+     {
+      "name": "Düğün Çorbası"
+     },
+     {
+      "name": "Patatesli Karnabahar Graten"
+     },
+     {
+      "name": "Makarna"
+     },
+     {
+      "name": "Tatlı"
+     }
+    ],
+    "kcal": 1014
+   },
+   "vegetarian": {
+    "items": [
+     {
+      "name": "Patates Yemeği"
+     },
+     {
+      "name": "Makarna"
+     },
+     {
+      "name": "Salata"
+     },
+     {
+      "name": "Meyve"
+     }
+    ],
+    "kcal": 847
+   }
+  },
+  "2026-10-15": {
+   "lunch": {
+    "items": [
+     {
+      "name": "Fırında Sebzeli Köfte"
+     },
+     {
+      "name": "Makarna"
+     },
+     {
+      "name": "Salata"
+     },
+     {
+      "name": "Meyve"
+     }
+    ],
+    "kcal": 914
+   },
+   "vegetarian": {
+    "items": [
+     {
+      "name": "Domates Çorbası"
+     },
+     {
+      "name": "Bezelye Yemeği"
+     },
+     {
+      "name": "Pirinç Pilavı"
+     },
+     {
+      "name": "Meyve"
+     }
+    ],
+    "kcal": 914
+   }
+  },
+  "2026-10-16": {
+   "lunch": {
+    "items": [
+     {
+      "name": "Domates Çorbası"
+     },
+     {
+      "name": "Fırında Piliç Baget"
+     },
+     {
+      "name": "Pirinç Pilavı"
+     },
+     {
+      "name": "Ayran"
+     }
+    ],
+    "kcal": 857
+   },
+   "vegetarian": {
+    "items": [
+     {
+      "name": "Sebze Sote"
+     },
+     {
+      "name": "Makarna"
+     },
+     {
+      "name": "Salata"
+     },
+     {
+      "name": "Meyve"
+     }
+    ],
+    "kcal": 857
+   }
+  },
+  "2026-10-19": {
+   "lunch": {
+    "items": [
+     {
+      "name": "Yeşil Mercimek Yemeği"
+     },
+     {
+      "name": "Arpa Şehriyeli Pirinç Pilavı"
+     },
+     {
+      "name": "Turşu"
+     },
+     {
+      "name": "Yoğurt"
+     },
+     {
+      "name": "Tatlı"
+     }
+    ],
+    "kcal": 880
+   },
+   "vegetarian": {
+    "items": [
+     {
+      "name": "Yeşil Mercimek Yemeği"
+     },
+     {
+      "name": "Arpa Şehriyeli Pirinç Pilavı"
+     },
+     {
+      "name": "Turşu"
+     },
+     {
+      "name": "Salata"
+     },
+     {
+      "name": "Meyve"
+     }
+    ],
+    "kcal": 880
+   }
+  },
+  "2026-10-20": {
+   "lunch": {
+    "items": [
+     {
+      "name": "Taze Fasulye Yemeği"
+     },
+     {
+      "name": "Makarna"
+     },
+     {
+      "name": "Kuru Cacık"
+     },
+     {
+      "name": "Tatlı"
+     }
+    ],
+    "kcal": 966
+   },
+   "vegetarian": {
+    "items": [
+     {
+      "name": "Taze Fasülye"
+     },
+     {
+      "name": "Makarna"
+     },
+     {
+      "name": "Salata"
+     },
+     {
+      "name": "Meyve"
+     }
+    ],
+    "kcal": 825
+   }
+  },
+  "2026-10-21": {
+   "lunch": {
+    "items": [
+     {
+      "name": "Mengen Musakka"
+     },
+     {
+      "name": "Bulgur Pilavı"
+     },
+     {
+      "name": "Yoğurt"
+     },
+     {
+      "name": "Tatlı"
+     }
+    ],
+    "kcal": 887
+   },
+   "vegetarian": {
+    "items": [
+     {
+      "name": "Mengen Musakka (Etsiz)"
+     },
+     {
+      "name": "Bulgur Pilavı"
+     },
+     {
+      "name": "Turşu"
+     },
+     {
+      "name": "Meyve"
+     }
+    ],
+    "kcal": 887
+   }
+  },
+  "2026-10-22": {
+   "lunch": {
+    "items": [
+     {
+      "name": "Körili Piliç Sote"
+     },
+     {
+      "name": "Erişte"
+     },
+     {
+      "name": "Salata"
+     },
+     {
+      "name": "Ayran"
+     }
+    ],
+    "kcal": 773
+   },
+   "vegetarian": {
+    "items": [
+     {
+      "name": "Mantar Sote"
+     },
+     {
+      "name": "Erişte"
+     },
+     {
+      "name": "Salata"
+     },
+     {
+      "name": "Meyve"
+     }
+    ],
+    "kcal": 773
+   }
+  },
+  "2026-10-23": {
+   "lunch": {
+    "items": [
+     {
+      "name": "İzmir Köfte"
+     },
+     {
+      "name": "Pirinç Pilavı"
+     },
+     {
+      "name": "Piyaz"
+     },
+     {
+      "name": "Tatlı"
+     }
+    ],
+    "kcal": 889
+   },
+   "vegetarian": {
+    "items": [
+     {
+      "name": "Sebze Yemeği"
+     },
+     {
+      "name": "Pirinç Pilavı"
+     },
+     {
+      "name": "Piyaz"
+     },
+     {
+      "name": "Meyve"
+     }
+    ],
+    "kcal": 735
+   }
+  },
+  "2026-10-26": {
+   "lunch": {
+    "items": [
+     {
+      "name": "Etli Nohut Yemeği"
+     },
+     {
+      "name": "Pirinç Pilavı"
+     },
+     {
+      "name": "Turşu"
+     },
+     {
+      "name": "Yoğurt"
+     },
+     {
+      "name": "Tatlı"
+     }
+    ],
+    "kcal": 1008
+   },
+   "vegetarian": {
+    "items": [
+     {
+      "name": "Nohut Yemeği"
+     },
+     {
+      "name": "Pirinç Pilavı"
+     },
+     {
+      "name": "Turşu"
+     },
+     {
+      "name": "Salata"
+     },
+     {
+      "name": "Meyve"
+     }
+    ],
+    "kcal": 915
+   }
+  },
+  "2026-10-27": {
+   "lunch": {
+    "items": [
+     {
+      "name": "Patates Oturtma"
+     },
+     {
+      "name": "Erişte"
+     },
+     {
+      "name": "Yoğurt"
+     },
+     {
+      "name": "Tatlı"
+     }
+    ],
+    "kcal": 1085
+   },
+   "vegetarian": {
+    "items": [
+     {
+      "name": "Patates Oturtma"
+     },
+     {
+      "name": "Erişte"
+     },
+     {
+      "name": "Salata"
+     },
+     {
+      "name": "Meyve"
+     }
+    ],
+    "kcal": 784
+   }
+  },
+  "2026-10-28": {
+   "lunch": {
+    "items": [],
+    "note": "Yarım gün"
+   },
+   "vegetarian": {
+    "items": [],
+    "note": "Yarım gün"
+   }
+  },
+  "2026-10-29": {
+   "lunch": {
+    "items": [],
+    "note": "Cumhuriyet Bayramı (resmi tatil)"
+   },
+   "vegetarian": {
+    "items": [],
+    "note": "Cumhuriyet Bayramı (resmi tatil)"
+   }
+  },
+  "2026-10-30": {
+   "lunch": {
+    "items": [
+     {
+      "name": "Fırın But"
+     },
+     {
+      "name": "Meyhane Pilavı"
+     },
+     {
+      "name": "Mevsim Salata"
+     },
+     {
+      "name": "Meyve"
+     }
+    ],
+    "kcal": 1045
+   },
+   "vegetarian": {
+    "items": [
+     {
+      "name": "Karnabahar Yemeği"
+     },
+     {
+      "name": "Meyhane Pilavı"
+     },
+     {
+      "name": "Mevsim Salata"
+     },
+     {
+      "name": "Meyve"
+     }
+    ],
+    "kcal": 842
+   }
+  }
+ }
+}

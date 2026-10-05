@@ -37,3 +37,16 @@ flutter:
     - assets/data/marmara/
     - assets/data/gsu/
     - assets/data/msgsu/
+    - assets/data/ege/
+    - assets/data/deu/
+    - assets/data/ikcu/
+    - assets/data/alku/
+    - assets/data/comu/
+    - assets/data/sbtu/
+    - assets/data/cumhuriyet/
+    - assets/data/atauni/
+    - assets/data/ktu/
+    - assets/data/trabzon/
+    - assets/data/omu/
+    - assets/data/samsun/
+    - assets/data/gtu/
