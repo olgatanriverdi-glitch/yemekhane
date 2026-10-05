@@ -4,7 +4,9 @@ import '../config.dart';
 import '../models.dart';
 import '../geri_bildirim.dart';
 import '../repository.dart';
+import '../tema.dart';
 import 'geri_bildirim.dart';
+import 'tema_secici.dart';
 import 'university_picker.dart';
 
 const _ogunAdlari = {
@@ -21,7 +23,8 @@ const _ogunIkon = {
 };
 
 class AnaSayfa extends StatefulWidget {
-  const AnaSayfa({super.key});
+  final TemaAyari temaAyari;
+  const AnaSayfa({super.key, required this.temaAyari});
   @override
   State<AnaSayfa> createState() => _AnaSayfaState();
 }
@@ -117,6 +120,10 @@ class _AnaSayfaState extends State<AnaSayfa> {
           ),
         ),
         actions: [
+          IconButton(
+              onPressed: () => temaSeciciGoster(context, widget.temaAyari),
+              icon: const Icon(Icons.palette_outlined),
+              tooltip: 'Tema'),
           IconButton(
               onPressed: _yukleniyor ? null : () => _yukle(),
               icon: const Icon(Icons.refresh),

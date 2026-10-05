@@ -1,0 +1,53 @@
+{
+ "days": {
+  "2026-10-05": {
+   "lunch": {
+    "items": [
+     {
+      "img": "dishes/5faf1b0081.jpg",
+      "key": "5faf1b0081",
+      "name": "Kırmızı Mercimek Çorba"
+     },
+     {
+      "key": "411338e940",
+      "name": "Etli Mevsim Türlü"
+     },
+     {
+      "key": "fa4decda6a",
+      "name": "Şehriyeli Pirinç Pilavı"
+     },
+     {
+      "key": "92485508df",
+      "name": "Tatlı"
+     }
+    ]
+   }
+  },
+  "2026-10-06": {
+   "lunch": {
+    "items": [
+     {
+      "img": "dishes/aa33e149cf.jpg",
+      "key": "aa33e149cf",
+      "name": "Yoğurt Çorba"
+     },
+     {
+      "key": "57382f4271",
+      "name": "Tavuk Roti"
+     },
+     {
+      "key": "c62a7d497f",
+      "name": "Alfredo Soslu Fettucini"
+     },
+     {
+      "img": "dishes/99a67d4042.jpg",
+      "key": "99a67d4042",
+      "name": "Mevsim Salata"
+     }
+    ]
+   }
+  }
+ },
+ "university": "atauni",
+ "updated": "2026-10-05T09:44:44+03:00"
+}

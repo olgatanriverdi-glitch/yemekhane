@@ -1,0 +1,486 @@
+{
+ "days": {
+  "2026-10-01": {
+   "lunch": {
+    "items": [
+     {
+      "key": "8061d7cb59",
+      "name": "Anadolu Çorba"
+     },
+     {
+      "key": "8f5cab321c",
+      "name": "Çiftlik Kebap"
+     },
+     {
+      "key": "56a26057a7",
+      "name": "Buhara Pilavı"
+     },
+     {
+      "key": "b3743cd135",
+      "name": "Kakaolu Puding"
+     }
+    ]
+   }
+  },
+  "2026-10-02": {
+   "lunch": {
+    "items": [
+     {
+      "img": "dishes/4782e4b30f.jpg",
+      "key": "4782e4b30f",
+      "name": "Şehriye Çorba"
+     },
+     {
+      "key": "1cf1aa949e",
+      "name": "Tavuk Rosto Köfte"
+     },
+     {
+      "key": "2356abfde0",
+      "name": "Sebzeli Bulgur Pilavı"
+     },
+     {
+      "img": "dishes/9c8d655ef5.jpg",
+      "key": "9c8d655ef5",
+      "name": "Yoğurt"
+     }
+    ]
+   }
+  },
+  "2026-10-05": {
+   "lunch": {
+    "items": [
+     {
+      "img": "dishes/bf8474c8b9.jpg",
+      "key": "bf8474c8b9",
+      "name": "Ezogelin Çorba"
+     },
+     {
+      "key": "512b0befa2",
+      "name": "Tavuk Şinitsel/Patates Kızartma"
+     },
+     {
+      "img": "dishes/f79b284db7.jpg",
+      "key": "f79b284db7",
+      "name": "Sebzeli Makarna"
+     },
+     {
+      "img": "dishes/16b5c22561.jpg",
+      "key": "16b5c22561",
+      "name": "Ayran"
+     }
+    ]
+   }
+  },
+  "2026-10-06": {
+   "lunch": {
+    "items": [
+     {
+      "key": "f9e3094533",
+      "name": "Toyga Çorba"
+     },
+     {
+      "key": "42bf86b3bf",
+      "name": "Bahçevan Kebap"
+     },
+     {
+      "img": "dishes/86493234ae.jpg",
+      "key": "86493234ae",
+      "name": "Mercimekli Bulgur Pilavı"
+     },
+     {
+      "key": "8eb544916b",
+      "name": "Şekerpare Tatlısı"
+     }
+    ]
+   }
+  },
+  "2026-10-07": {
+   "lunch": {
+    "items": [
+     {
+      "img": "dishes/22dd093862.jpg",
+      "key": "22dd093862",
+      "name": "Mercimek Çorba"
+     },
+     {
+      "img": "dishes/d151de6ce3.jpg",
+      "key": "d151de6ce3",
+      "name": "Çoban Kavurma"
+     },
+     {
+      "key": "fef6adada3",
+      "name": "Nohutlu Pirinç Pilavı"
+     },
+     {
+      "img": "dishes/16b5c22561.jpg",
+      "key": "16b5c22561",
+      "name": "Ayran"
+     }
+    ]
+   }
+  },
+  "2026-10-08": {
+   "lunch": {
+    "items": [
+     {
+      "key": "b8acd80288",
+      "name": "Tavuklu Düğün Çorba"
+     },
+     {
+      "key": "d9f3f48a22",
+      "name": "Sucuk İçi Köfte"
+     },
+     {
+      "key": "c1cd803af6",
+      "name": "Acılı Bulgur Pilavı"
+     },
+     {
+      "img": "dishes/a6607cdb9a.jpg",
+      "key": "a6607cdb9a",
+      "name": "Keşkül"
+     }
+    ]
+   }
+  },
+  "2026-10-09": {
+   "lunch": {
+    "items": [
+     {
+      "key": "9161e29eb6",
+      "name": "Erzurum Kesme Çorba"
+     },
+     {
+      "key": "8efbf2ab81",
+      "name": "Sebzeli Tavuk Kızartma"
+     },
+     {
+      "key": "f06ea6287d",
+      "name": "Yoğurtlu Karışık Kızartma"
+     },
+     {
+      "key": "79cd5389f2",
+      "name": "Şeftali"
+     }
+    ]
+   }
+  },
+  "2026-10-12": {
+   "lunch": {
+    "items": [
+     {
+      "key": "c511f64618",
+      "name": "Milföy Böreği"
+     },
+     {
+      "img": "dishes/fbb76e65c4.jpg",
+      "key": "fbb76e65c4",
+      "name": "Etli Kuru Fasulye"
+     },
+     {
+      "key": "fa4decda6a",
+      "name": "Şehriyeli Pirinç Pilavı"
+     },
+     {
+      "key": "3ef45fb941",
+      "name": "Karışık Turşu"
+     }
+    ]
+   }
+  },
+  "2026-10-13": {
+   "lunch": {
+    "items": [
+     {
+      "key": "1b050f6542",
+      "name": "Erzincan Kesme Çorba"
+     },
+     {
+      "key": "8efbf2ab81",
+      "name": "Sebzeli Tavuk Kızartma"
+     },
+     {
+      "key": "dcf2523e86",
+      "name": "Fıstıklı Pirinç Pilavı"
+     },
+     {
+      "key": "26633eeae0",
+      "name": "Kalburabastı Tatlısı"
+     }
+    ]
+   }
+  },
+  "2026-10-14": {
+   "lunch": {
+    "items": [
+     {
+      "img": "dishes/f98b465287.jpg",
+      "key": "f98b465287",
+      "name": "Yayla Çorba"
+     },
+     {
+      "img": "dishes/694df91308.jpg",
+      "key": "694df91308",
+      "name": "İzmir Köfte"
+     },
+     {
+      "key": "7753ad8d4b",
+      "name": "Sebzeli Burgu Makarna"
+     },
+     {
+      "img": "dishes/997b4ad147.jpg",
+      "key": "997b4ad147",
+      "name": "Muz"
+     }
+    ]
+   }
+  },
+  "2026-10-15": {
+   "lunch": {
+    "items": [
+     {
+      "key": "7480a44193",
+      "name": "Çeşminigar Çorba"
+     },
+     {
+      "key": "d7a96da313",
+      "name": "Patlıcan Kebap"
+     },
+     {
+      "key": "57d2d2d906",
+      "name": "Mısırlı Pirinç Pilavı"
+     },
+     {
+      "img": "dishes/9c8d655ef5.jpg",
+      "key": "9c8d655ef5",
+      "name": "Yoğurt"
+     }
+    ]
+   }
+  },
+  "2026-10-16": {
+   "lunch": {
+    "items": [
+     {
+      "img": "dishes/bf8474c8b9.jpg",
+      "key": "bf8474c8b9",
+      "name": "Ezogelin Çorba"
+     },
+     {
+      "key": "1a94898a31",
+      "name": "Tavuk Çökertme Kebap"
+     },
+     {
+      "key": "8383bb3fac",
+      "name": "Özbek Pilavı"
+     },
+     {
+      "key": "c24df71363",
+      "name": "Fındıklı Muhallebi"
+     }
+    ]
+   }
+  },
+  "2026-10-19": {
+   "lunch": {
+    "items": [
+     {
+      "img": "dishes/22dd093862.jpg",
+      "key": "22dd093862",
+      "name": "Mercimek Çorba"
+     },
+     {
+      "key": "4186abfcb0",
+      "name": "Tavuk Pirzola / Patates Kızartma"
+     },
+     {
+      "key": "d78dc7dace",
+      "name": "Soslu Burgu Makarna"
+     },
+     {
+      "img": "dishes/16b5c22561.jpg",
+      "key": "16b5c22561",
+      "name": "Ayran"
+     }
+    ]
+   }
+  },
+  "2026-10-20": {
+   "lunch": {
+    "items": [
+     {
+      "key": "13484fcf29",
+      "name": "Yoğurtlu Dövme Çorba"
+     },
+     {
+      "key": "31f4cae590",
+      "name": "Etli Sebzeli Kebap"
+     },
+     {
+      "img": "dishes/40440fb845.jpg",
+      "key": "40440fb845",
+      "name": "İç Pilav"
+     },
+     {
+      "key": "6f967543e5",
+      "name": "Hanımgöbeği Tatlısı"
+     }
+    ]
+   }
+  },
+  "2026-10-21": {
+   "lunch": {
+    "items": [
+     {
+      "key": "f744ebe6f6",
+      "name": "Arapaşı Çorba"
+     },
+     {
+      "key": "4c0e6d36bb",
+      "name": "Çiftlik Köfte"
+     },
+     {
+      "img": "dishes/25b07cf14e.jpg",
+      "key": "25b07cf14e",
+      "name": "Bulgur Pilavı"
+     },
+     {
+      "img": "dishes/9c8d655ef5.jpg",
+      "key": "9c8d655ef5",
+      "name": "Yoğurt"
+     }
+    ]
+   }
+  },
+  "2026-10-22": {
+   "lunch": {
+    "items": [
+     {
+      "img": "dishes/bf8474c8b9.jpg",
+      "key": "bf8474c8b9",
+      "name": "Ezogelin Çorba"
+     },
+     {
+      "key": "92bd577ff7",
+      "name": "Tavuk But Kızartma"
+     },
+     {
+      "key": "fa4decda6a",
+      "name": "Şehriyeli Pirinç Pilavı"
+     },
+     {
+      "img": "dishes/a3d80c5897.jpg",
+      "key": "a3d80c5897",
+      "name": "Armut"
+     }
+    ]
+   }
+  },
+  "2026-10-23": {
+   "lunch": {
+    "items": [
+     {
+      "key": "cb86e49aef",
+      "name": "Etli Düğün Çorba"
+     },
+     {
+      "key": "9ae8362de2",
+      "name": "Sebzeli Tavuk Sarma"
+     },
+     {
+      "key": "d78dc7dace",
+      "name": "Soslu Burgu Makarna"
+     },
+     {
+      "key": "53e43b2e83",
+      "name": "Vişne Peltesi"
+     }
+    ]
+   }
+  },
+  "2026-10-26": {
+   "lunch": {
+    "items": [
+     {
+      "key": "0a99b6aad1",
+      "name": "Sebzeli Tavuk Çorba"
+     },
+     {
+      "img": "dishes/5dfc480937.jpg",
+      "key": "5dfc480937",
+      "name": "Patlıcan Musakka"
+     },
+     {
+      "key": "fa4decda6a",
+      "name": "Şehriyeli Pirinç Pilavı"
+     },
+     {
+      "img": "dishes/2f58be7b7a.jpg",
+      "key": "2f58be7b7a",
+      "name": "Cacık"
+     }
+    ]
+   }
+  },
+  "2026-10-27": {
+   "lunch": {
+    "items": [
+     {
+      "key": "b359c477cf",
+      "name": "Tavuk Çorba"
+     },
+     {
+      "key": "3d1e6c0b39",
+      "name": "Sebzeli Fırın Köfte"
+     },
+     {
+      "key": "fef6adada3",
+      "name": "Nohutlu Pirinç Pilavı"
+     },
+     {
+      "img": "dishes/de8670087d.jpg",
+      "key": "de8670087d",
+      "name": "Baklava"
+     }
+    ]
+   }
+  },
+  "2026-10-28": {
+   "lunch": {
+    "items": [],
+    "note": "Resmi tatil"
+   }
+  },
+  "2026-10-29": {
+   "lunch": {
+    "items": [],
+    "note": "Resmi tatil"
+   }
+  },
+  "2026-10-30": {
+   "lunch": {
+    "items": [
+     {
+      "img": "dishes/f98b465287.jpg",
+      "key": "f98b465287",
+      "name": "Yayla Çorba"
+     },
+     {
+      "img": "dishes/1d49307d95.jpg",
+      "key": "1d49307d95",
+      "name": "Patates Oturtma"
+     },
+     {
+      "key": "c1cd803af6",
+      "name": "Acılı Bulgur Pilavı"
+     },
+     {
+      "key": "f3f84c9554",
+      "name": "Browni"
+     }
+    ]
+   }
+  }
+ },
+ "university": "cumhuriyet",
+ "updated": "2026-10-05T09:44:44+03:00"
+}

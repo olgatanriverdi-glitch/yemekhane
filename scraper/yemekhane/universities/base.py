@@ -16,6 +16,7 @@ class Universite:
     kisa = ""          # 'AÜ'
     sehir = ""
     kaynak = ""        # bilgi amaçlı: verinin alındığı site
+    birikimli = False  # True: okul yalnızca bugünün/haftanın menüsünü yayınlıyor; build önceki çalıştırmalarda kaydedilen günleri korur
 
     def menuler(self) -> dict:
         """{'2026-10-01': {'lunch': {...}, 'dinner': {...}, 'vegetarian': {...}}, ...} döndürür."""
@@ -32,6 +33,15 @@ class Universite:
     def fiyatlar(self) -> list:
         """[{'label': 'Öğrenci (Öğle)', 'tl': 50}, ...] (bulunamazsa boş liste)."""
         return []
+
+
+class ElleUniversite(Universite):
+    """Menüyü yalnızca resim/PDF-resim olarak yayınlayan okullar: menü `elle_veri/<id>.json` dosyasına resimden elle girilir (bkz. elle.py, README).
+    Okul her ay (ya da hafta) yeni resmi koyunca dosyaya yeni günler eklenmelidir; aksi halde menü bitince okul uygulamada boş görünür."""
+
+    def menuler(self) -> dict:
+        from .. import elle
+        return elle.yukle(self.id)
 
 
 def saat_duzenle(metin: str):

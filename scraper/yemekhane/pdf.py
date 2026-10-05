@@ -1,8 +1,8 @@
 """Metin tabanlı (Word vb. çıkışlı) PDF'lerden konumlu metin çıkarır; yalnızca standart kütüphane kullanır.
 Taranmış (resim) PDF'lerde metin yoktur, onlar için ocr.py kullanılır.
 
-Kapsam: FlateDecode akışlar, nesne akışları (ObjStm), Type0/Identity-H yazı tiplerinin ToUnicode tabloları (bfchar, bfrange ve dizi biçimli bfrange)
-ve basit yazı tiplerinin düz metin dizgileri. Şifreli PDF'ler ve gömülü olmayan özel kodlamalar desteklenmez."""
+Kapsam: FlateDecode akışlar, nesne akışları (ObjStm), Type0/Identity-H yazı tiplerinin ToUnicode tabloları (bfchar, bfrange ve dizi biçimli bfrange; kodlar
+hem <hex> hem de (literal) dizgi olarak yazılmış olabilir), dolaylı (`/Font 21 0 R`) yazı tipi sözlükleri ve basit yazı tiplerinin düz metin dizgileri. Şifreli PDF'ler ve gömülü olmayan özel kodlamalar desteklenmez."""
 import re
 import zlib
 
@@ -65,32 +65,45 @@ def cmap_oku(akis: bytes) -> dict:
     return harita
 
 
-def _dizgi(ham: bytes) -> str:
+def cmap_genislik(akis: bytes) -> int:
+    """ToUnicode CMap'in kod uzayından kodun bayt sayısı: <0000> <FFFF> -> 2, <00> <FF> -> 1 (belirtilmemişse 2: Identity-H)."""
+    m = re.search(rb"begincodespacerange\s*<([0-9A-Fa-f]+)>", akis)
+    return max(1, len(m.group(1)) // 2) if m else 2
+
+
+def _dizgi_baytlari(ham: bytes) -> bytes:
     ic = ham[1:-1]
     ic = re.sub(rb"\\([0-7]{1,3})", lambda m: bytes([int(m.group(1), 8) & 255]), ic)
-    ic = re.sub(rb"\\(.)", lambda m: m.group(1), ic, flags=re.S)
-    return ic.decode("cp1254", "ignore")
+    return re.sub(rb"\\(.)", lambda m: {b"n": b"\n", b"r": b"\r", b"t": b"\t"}.get(m.group(1), m.group(1)), ic, flags=re.S)
 
 
-def sayfa_metinleri(pdf: bytes) -> list:
-    """Her içerik akışı için [(x, y, yazı_boyu, metin)] listesi (PDF koordinatları: y yukarı doğru artar)."""
+def _dizgi(ham: bytes) -> str:
+    return _dizgi_baytlari(ham).decode("cp1254", "ignore")
+
+
+def sayfa_metinleri(pdf: bytes, ctm: bool = False) -> list:
+    """Her içerik akışı için [(x, y, yazı_boyu, metin)] listesi (PDF koordinatları: y yukarı doğru artar).
+    ctm=True: q/Q/cm dönüşümleri ve metin matrisleri uygulanır, konumlar sayfa koordinatlarında verilir (her metin bloğu kendi `cm` matrisiyle yazılmışsa,
+    örn. Canva çıkışlı PDF'ler); varsayılan (False) konumlar içerik akışındaki ham değerlerdir."""
     nes = nesneler(pdf)
-    yazitipi = {}          # nesne_no -> cmap
+    yazitipi = {}          # nesne_no -> (cmap, kod_baytı)
     for no, (sozluk, _) in nes.items():
-        m = re.search(rb"/ToUnicode (\d+) 0 R", sozluk)
+        m = re.search(rb"/ToUnicode\s+(\d+) 0 R", sozluk)
         if m and re.search(rb"/Type\s*/Font\b", sozluk) and nes.get(int(m.group(1)), (b"", None))[1]:
-            yazitipi[no] = cmap_oku(nes[int(m.group(1))][1])
+            akis = nes[int(m.group(1))][1]
+            yazitipi[no] = (cmap_oku(akis), cmap_genislik(akis))
     adlar = {}             # kaynak adı (F1) -> yazı tipi nesnesi
     for sozluk, _ in nes.values():
-        for m in re.finditer(rb"/Font\s*<<(.*?)>>", sozluk, re.S):
-            for ad, ref in re.findall(rb"/(\w+)\s+(\d+) 0 R", m.group(1)):
+        for m in re.finditer(rb"/Font\s*(?:<<(.*?)>>|(\d+) 0 R)", sozluk, re.S):
+            govde = m.group(1) if m.group(1) is not None else nes.get(int(m.group(2)), (b"", None))[0]
+            for ad, ref in re.findall(rb"/([\w+-]+)\s+(\d+) 0 R", govde):
                 adlar[ad.decode()] = int(ref)
     sayfalar = []
     for no in sorted(nes):
         sozluk, akis = nes[no]
         if not akis or not _icerik_akisi_mi(sozluk, akis):
             continue
-        sayfalar.append(_icerik(akis, adlar, yazitipi))
+        sayfalar.append(_icerik(akis, adlar, yazitipi, ctm))
     return sayfalar
 
 
@@ -102,19 +115,58 @@ def _icerik_akisi_mi(sozluk: bytes, akis: bytes) -> bool:
         return False
     ornek = akis[:4000]
     yazdirilabilir = sum(1 for b in ornek if 32 <= b < 127 or b in (9, 10, 13))
-    return yazdirilabilir >= 0.95 * len(ornek)           # ikili veri (yazı tipi dosyası vb.) metin işleci içerse bile içerik akışı değildir
+    return yazdirilabilir >= 0.85 * len(ornek)           # ikili veri (yazı tipi dosyası vb.) metin işleci içerse bile içerik akışı değildir; 2 baytlı (\x00D) dizgiler %5-10 ikili bayt taşır
 
 
-def _icerik(akis: bytes, adlar: dict, yazitipi: dict) -> list:
+def satirlari_birlestir(parcalar: list, bosluk: float = 2.0) -> list:
+    """Karakter karakter (ya da sözcük sözcük) konumlanmış metin parçalarını satırlara toplar: art arda gelen, aynı y'deki ve soldan sağa giden
+    parçalar birleşir. [(x, y, boyut, metin)] -> [(metin, x_baş, x_son, y, boyut)]; x_son son parçanın başlangıcıdır."""
+    sonuc, cur = [], None
+    for x, y, boyut, metin in parcalar:
+        if cur and abs(cur[3] - y) < 0.5 and x >= cur[2] - 0.01 and x - cur[2] <= boyut * bosluk:
+            cur[0] += metin
+            cur[2] = x
+        else:
+            if cur:
+                sonuc.append(tuple(cur))
+            cur = [metin, x, x, y, boyut]
+    if cur:
+        sonuc.append(tuple(cur))
+    return sonuc
+
+
+def _carp(m, n):
+    """İki 2B dönüşüm matrisi [a b c d e f]: önce m, sonra n uygulanır."""
+    return (m[0] * n[0] + m[1] * n[2], m[0] * n[1] + m[1] * n[3], m[2] * n[0] + m[3] * n[2], m[2] * n[1] + m[3] * n[3],
+            m[4] * n[0] + m[5] * n[2] + n[4], m[4] * n[1] + m[5] * n[3] + n[5])
+
+
+_BIRIM = (1.0, 0.0, 0.0, 1.0, 0.0, 0.0)
+
+
+def _icerik(akis: bytes, adlar: dict, yazitipi: dict, ctm: bool = False) -> list:
     yigin, sonuc = [], []
     font, boyut, tx, ty, lx, ly, tl = None, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0
+    cm, cm_yigin, tlm = _BIRIM, [], _BIRIM          # yalnızca ctm=True: geçerli dönüşüm matrisi, q/Q yığını, metin satır matrisi
     for m in _TOKEN.finditer(akis):
         t = m.group(0)
         if not _OPERATOR.fullmatch(t) or t in (b"true", b"false", b"null"):
             yigin.append(float(t) if t[:1] in b"-+0123456789." else t)
             continue
         try:
-            if t == b"Tf":
+            if ctm and t == b"q":
+                cm_yigin.append(cm)
+            elif ctm and t == b"Q":
+                cm = cm_yigin.pop() if cm_yigin else _BIRIM
+            elif ctm and t == b"cm":
+                cm = _carp(tuple(float(v) for v in yigin[-6:]), cm)
+            elif ctm and t == b"Tm":
+                tlm = tuple(float(v) for v in yigin[-6:])
+                tx, ty = tlm[4] * cm[0] + tlm[5] * cm[2] + cm[4], tlm[4] * cm[1] + tlm[5] * cm[3] + cm[5]
+            elif ctm and t in (b"Td", b"TD"):
+                tlm = _carp((1.0, 0.0, 0.0, 1.0, float(yigin[-2]), float(yigin[-1])), tlm)
+                tx, ty = tlm[4] * cm[0] + tlm[5] * cm[2] + cm[4], tlm[4] * cm[1] + tlm[5] * cm[3] + cm[5]
+            elif t == b"Tf":
                 font, boyut = yigin[-2][1:].decode(), float(yigin[-1])
             elif t == b"Tm":
                 lx, ly = float(yigin[-2]), float(yigin[-1])
@@ -130,19 +182,24 @@ def _icerik(akis: bytes, adlar: dict, yazitipi: dict) -> list:
             elif t == b"TL":
                 tl = float(yigin[-1])
             elif t in (b"Tj", b"TJ", b"'", b'"'):
-                cmap = yazitipi.get(adlar.get(font, -1))
+                cmap, genislik = yazitipi.get(adlar.get(font, -1), (None, 2))
                 parca = []
                 for o in yigin:
                     if isinstance(o, bytes) and o[:1] == b"<" and o[:2] != b"<<":
-                        hx = re.sub(rb"\s", b"", o[1:-1]).decode()
-                        if cmap:
-                            parca += [cmap.get(int(hx[i:i + 4], 16), "") for i in range(0, len(hx) - 3, 4)]
-                        else:
-                            parca += [bytes.fromhex(hx[i:i + 2]).decode("cp1254", "ignore") for i in range(0, len(hx) - 1, 2)]
+                        ham = bytes.fromhex(re.sub(rb"\s", b"", o[1:-1]).decode() or "")
                     elif isinstance(o, bytes) and o[:1] == b"(":
-                        parca.append(_dizgi(o))
+                        ham = _dizgi_baytlari(o)
                     elif isinstance(o, float) and o < -200:           # TJ içindeki büyük boşluk ayarı: sözcük aralığı
                         parca.append(" ")
+                        continue
+                    else:
+                        continue
+                    if cmap:
+                        parca += [cmap.get(int.from_bytes(ham[i:i + genislik], "big"), "") for i in range(0, len(ham) - genislik + 1, genislik)]
+                    elif o[:1] == b"<":
+                        parca += [bytes([b]).decode("cp1254", "ignore") for b in ham]
+                    else:
+                        parca.append(ham.decode("cp1254", "ignore"))
                 metin = "".join(parca)
                 if metin:
                     sonuc.append((round(tx, 1), round(ty, 1), boyut, metin))

@@ -85,6 +85,19 @@ def onceki_kayitlar(cikti: str) -> dict:
         return {}
 
 
+def onceki_gunler(cikti: str, kimlik: str, sinir: str, yeni: dict) -> dict:
+    """Okul yalnızca bugünün ya da bu haftanın menüsünü yayınlıyorsa (`birikimli = True` eklentiler) önceki çalıştırmalarda
+    kaydedilen günler korunur; aynı gün için yeni veri geçerlidir."""
+    try:
+        with open(os.path.join(cikti, kimlik, "menu.json"), encoding="utf-8") as f:
+            eski = json.load(f)["days"]
+    except (OSError, ValueError, KeyError, TypeError):
+        return yeni
+    birlesik = {t: g for t, g in eski.items() if t >= sinir}
+    birlesik.update(yeni)
+    return birlesik
+
+
 def calistir(cikti: str, uniler=None) -> int:
     simdi = datetime.now(timezone(timedelta(hours=3)))        # Türkiye saati
     sinir = (simdi - timedelta(days=GUN_SAKLA)).date().isoformat()
@@ -96,6 +109,8 @@ def calistir(cikti: str, uniler=None) -> int:
     for u in (uniler or KAYITLI):
         try:
             menuler = {t: g for t, g in u.menuler().items() if t >= sinir}
+            if menuler and getattr(u, "birikimli", False):
+                menuler = onceki_gunler(cikti, u.id, sinir, menuler)
             if not menuler:
                 raise RuntimeError("hiç menü bulunamadı")
             gunluk_isle(u, os.path.join(cikti, u.id), menuler, simdi, sinir)
