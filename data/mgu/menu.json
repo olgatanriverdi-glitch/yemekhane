@@ -578,6 +578,7 @@
       "name": "Tel Şehriye Çorba"
      },
      {
+      "img": "dishes/415cd292c5.jpg",
       "key": "415cd292c5",
       "name": "Kıymalı Patates Oturtma"
      },
@@ -642,6 +643,7 @@
       "name": "Sultan Kebabı"
      },
      {
+      "img": "dishes/cb4993d46f.jpg",
       "key": "cb4993d46f",
       "name": "Zeytinyağlı Brokoli"
      },
@@ -666,6 +668,7 @@
       "name": "Tarhana Çorba"
      },
      {
+      "img": "dishes/df8e1e6b52.jpg",
       "key": "df8e1e6b52",
       "name": "Karnıyarık"
      },
@@ -725,6 +728,7 @@
       "name": "Ezogelin Çorba"
      },
      {
+      "img": "dishes/0eb251f78d.jpg",
       "key": "0eb251f78d",
       "name": "Fırında Sebzeli Tavuk Baget"
      },
@@ -747,5 +751,5 @@
   }
  },
  "university": "mgu",
- "updated": "2026-10-04T21:26:46+03:00"
+ "updated": "2026-10-05T09:05:47+03:00"
 }

@@ -1,8 +1,10 @@
 {
  "dates": {
-  "2026-10-02": "41a246d21c3d"
+  "2026-10-02": "41a246d21c3d",
+  "2026-10-05": "8f579a24b2f7"
  },
  "main": {
+  "025eacfe0c": "8f579a24b2f7",
   "211964d15e": "41a246d21c3d"
  },
  "menus": {
@@ -14,6 +16,16 @@
     "Izgara Tavuk But/Patates Garnitür",
     "Soslu Makarna",
     "Meyve"
+   ]
+  },
+  "8f579a24b2f7": {
+   "added": "2026-10-05",
+   "hash": "625c1d5214eb666fbeae54b90298f22449b50e59",
+   "items": [
+    "Yeşil Mercimek Çorba",
+    "Etli Taze Fasulye",
+    "Sade Pirinç Pilavı",
+    "Yoğurt"
    ]
   }
  }

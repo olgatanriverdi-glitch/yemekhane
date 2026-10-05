@@ -103,6 +103,7 @@
       "name": "Makarna"
      },
      {
+      "img": "dishes/c3352ed568.jpg",
       "key": "c3352ed568",
       "name": "Kısır"
      }
@@ -176,6 +177,7 @@
       "name": "Domates Çorba"
      },
      {
+      "img": "dishes/19732f01d3.jpg",
       "key": "19732f01d3",
       "name": "Tavuk Şiş"
      },
@@ -338,6 +340,7 @@
       "name": "Etli Mantı"
      },
      {
+      "img": "dishes/6481a77c76.jpg",
       "key": "6481a77c76",
       "name": "Barbunya Pilaki"
      },
@@ -494,6 +497,7 @@
       "name": "Tarhana Çorba"
      },
      {
+      "img": "dishes/19732f01d3.jpg",
       "key": "19732f01d3",
       "name": "Tavuk Şiş"
      },
@@ -553,5 +557,5 @@
   }
  },
  "university": "msgsu",
- "updated": "2026-10-04T21:14:43+03:00"
+ "updated": "2026-10-05T09:05:47+03:00"
 }

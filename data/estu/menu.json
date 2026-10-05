@@ -242,6 +242,7 @@
       "name": "Köylü Çorba"
      },
      {
+      "img": "dishes/e9977e6607.jpg",
       "kcal": 300,
       "key": "e9977e6607",
       "name": "Ekşili Köfte"
@@ -354,11 +355,13 @@
       "name": "Kremalı Mantar Çorba"
      },
      {
+      "img": "dishes/7639303090.jpg",
       "kcal": 320,
       "key": "7639303090",
       "name": "Papaz Yahni"
      },
      {
+      "img": "dishes/40440fb845.jpg",
       "kcal": 290,
       "key": "40440fb845",
       "name": "İç Pilav"
@@ -387,6 +390,7 @@
       "name": "Zeytinyağlı Taze Fasulye"
      },
      {
+      "img": "dishes/40440fb845.jpg",
       "kcal": 290,
       "key": "40440fb845",
       "name": "İç Pilav"
@@ -439,6 +443,7 @@
       "name": "Mercimek Çorba"
      },
      {
+      "img": "dishes/60d79896ec.jpg",
       "kcal": 255,
       "key": "60d79896ec",
       "name": "Gemici Usulü Kuru Fasulye"
@@ -462,6 +467,7 @@
    "lunch": {
     "items": [
      {
+      "img": "dishes/8c084741d5.jpg",
       "kcal": 190,
       "key": "8c084741d5",
       "name": "Naneli Yoğurt Çorba"
@@ -488,11 +494,13 @@
    "vegetarian": {
     "items": [
      {
+      "img": "dishes/8c084741d5.jpg",
       "kcal": 190,
       "key": "8c084741d5",
       "name": "Naneli Yoğurt Çorba"
      },
      {
+      "img": "dishes/cb4993d46f.jpg",
       "kcal": 255,
       "key": "cb4993d46f",
       "name": "Zeytinyağlı Brokoli"
@@ -578,16 +586,19 @@
       "name": "Ezogelin Çorba"
      },
      {
+      "img": "dishes/27f8bf5206.jpg",
       "kcal": 370,
       "key": "27f8bf5206",
       "name": "Elbasan Tava"
      },
      {
+      "img": "dishes/ee9340b30e.jpg",
       "kcal": 210,
       "key": "ee9340b30e",
       "name": "Fesleğenli Makarna"
      },
      {
+      "img": "dishes/9441daa556.jpg",
       "kcal": 270,
       "key": "9441daa556",
       "name": "Şambali"
@@ -609,11 +620,13 @@
       "name": "Fırın Karnabahar"
      },
      {
+      "img": "dishes/ee9340b30e.jpg",
       "kcal": 210,
       "key": "ee9340b30e",
       "name": "Fesleğenli Makarna"
      },
      {
+      "img": "dishes/9441daa556.jpg",
       "kcal": 270,
       "key": "9441daa556",
       "name": "Şambali"
@@ -626,6 +639,7 @@
    "lunch": {
     "items": [
      {
+      "img": "dishes/78d2ed22b1.jpg",
       "kcal": 200,
       "key": "78d2ed22b1",
       "name": "Terbiyeli Şehriye Çorba"
@@ -651,6 +665,7 @@
    "vegetarian": {
     "items": [
      {
+      "img": "dishes/78d2ed22b1.jpg",
       "kcal": 200,
       "key": "78d2ed22b1",
       "name": "Terbiyeli Şehriye Çorba"
@@ -684,6 +699,7 @@
       "name": "Kremalı Sebze Çorba"
      },
      {
+      "img": "dishes/98f7190944.jpg",
       "kcal": 260,
       "key": "98f7190944",
       "name": "Mantı (Sos+Yoğurt)"
@@ -694,6 +710,7 @@
       "name": "Nohut Salatası"
      },
      {
+      "img": "dishes/06be046ffd.jpg",
       "kcal": 0,
       "key": "06be046ffd",
       "name": "Maden Suyu"
@@ -720,6 +737,7 @@
       "name": "Nohut Salatası"
      },
      {
+      "img": "dishes/06be046ffd.jpg",
       "kcal": 0,
       "key": "06be046ffd",
       "name": "Maden Suyu"
@@ -794,6 +812,7 @@
       "name": "Yüksük Çorba"
      },
      {
+      "img": "dishes/af4ebca652.jpg",
       "kcal": 350,
       "key": "af4ebca652",
       "name": "Sebzeli Köfte"
@@ -932,6 +951,7 @@
       "name": "Köylü Çorba"
      },
      {
+      "img": "dishes/28d5317345.jpg",
       "kcal": 275,
       "key": "28d5317345",
       "name": "Sebze Sote"
@@ -1018,6 +1038,7 @@
       "name": "Havuç Çorba"
      },
      {
+      "img": "dishes/3543c91e67.jpg",
       "kcal": 310,
       "key": "3543c91e67",
       "name": "Hasanpaşa Köfte"
@@ -1029,6 +1050,7 @@
       "name": "Yoğurtlu Makarna"
      },
      {
+      "img": "dishes/554833aaeb.jpg",
       "kcal": 310,
       "key": "554833aaeb",
       "name": "İncirli Muhallebi"
@@ -1056,6 +1078,7 @@
       "name": "Yoğurtlu Makarna"
      },
      {
+      "img": "dishes/554833aaeb.jpg",
       "kcal": 310,
       "key": "554833aaeb",
       "name": "İncirli Muhallebi"
@@ -1080,6 +1103,7 @@
       "name": "Mercimek Çorba"
      },
      {
+      "img": "dishes/72c54af301.jpg",
       "kcal": 250,
       "key": "72c54af301",
       "name": "Barbunya Yemeği"
@@ -1107,6 +1131,7 @@
       "name": "Mercimek Çorba"
      },
      {
+      "img": "dishes/72c54af301.jpg",
       "kcal": 250,
       "key": "72c54af301",
       "name": "Barbunya Yemeği"
@@ -1128,5 +1153,5 @@
   }
  },
  "university": "estu",
- "updated": "2026-10-04T17:47:29+03:00"
+ "updated": "2026-10-05T09:05:47+03:00"
 }

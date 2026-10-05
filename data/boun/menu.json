@@ -392,6 +392,7 @@
       "name": "Mısır Çorba"
      },
      {
+      "img": "dishes/28d5317345.jpg",
       "key": "28d5317345",
       "name": "Sebze Sote"
      },
@@ -677,6 +678,7 @@
       "name": "Melek Pilavı"
      },
      {
+      "img": "dishes/087dc75384.jpg",
       "key": "087dc75384",
       "name": "Domatesli Bulgur Pilavı"
      },
@@ -712,6 +714,7 @@
       "name": "Melek Pilavı"
      },
      {
+      "img": "dishes/087dc75384.jpg",
       "key": "087dc75384",
       "name": "Domatesli Bulgur Pilavı"
      },
@@ -778,6 +781,7 @@
       "name": "Şef'in Özel İskenderi"
      },
      {
+      "img": "dishes/087dc75384.jpg",
       "key": "087dc75384",
       "name": "Domatesli Bulgur Pilavı"
      },
@@ -812,6 +816,7 @@
       "name": "Nohut Tava"
      },
      {
+      "img": "dishes/087dc75384.jpg",
       "key": "087dc75384",
       "name": "Domatesli Bulgur Pilavı"
      },
@@ -947,6 +952,7 @@
       "name": "Kıymalı Yeşil Mercimek"
      },
      {
+      "img": "dishes/bb1917ea91.jpg",
       "key": "bb1917ea91",
       "name": "Kol Böreği"
      },
@@ -1047,6 +1053,7 @@
       "name": "Domates Çorba"
      },
      {
+      "img": "dishes/17d2e9100f.jpg",
       "key": "17d2e9100f",
       "name": "Tavuk Döner"
      },
@@ -1147,5 +1154,5 @@
   }
  },
  "university": "boun",
- "updated": "2026-10-04T21:14:43+03:00"
+ "updated": "2026-10-05T09:05:47+03:00"
 }

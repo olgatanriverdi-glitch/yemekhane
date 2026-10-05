@@ -352,6 +352,7 @@
       "name": "Mercimek Çorba"
      },
      {
+      "img": "dishes/e9977e6607.jpg",
       "kcal": 356,
       "key": "e9977e6607",
       "name": "Ekşili Köfte"
@@ -634,5 +635,5 @@
   }
  },
  "university": "gsu",
- "updated": "2026-10-04T21:14:43+03:00"
+ "updated": "2026-10-05T09:05:47+03:00"
 }

@@ -1,110 +1,5 @@
 {
  "days": {
-  "2026-10-02": {
-   "breakfast": {
-    "items": [
-     {
-      "img": "dishes/22605468a2.jpg",
-      "key": "22605468a2",
-      "name": "Çay"
-     },
-     {
-      "key": "f7b84ad85a",
-      "name": "Meyve Suyu"
-     },
-     {
-      "img": "dishes/bff26db9ff.jpg",
-      "key": "bff26db9ff",
-      "name": "Süt"
-     },
-     {
-      "key": "a5700115ba",
-      "name": "Kakaolu Fındık Kreması"
-     },
-     {
-      "img": "dishes/8690d4fe86.jpg",
-      "key": "8690d4fe86",
-      "name": "Beyaz Peynir"
-     },
-     {
-      "img": "dishes/ddc30ae037.jpg",
-      "key": "ddc30ae037",
-      "name": "Simit"
-     },
-     {
-      "img": "dishes/7144976785.jpg",
-      "key": "7144976785",
-      "name": "Soslu Sosis"
-     }
-    ]
-   },
-   "dinner": {
-    "items": [
-     {
-      "key": "e9bd0907a9",
-      "name": "Salçalı Pirinç Çorbası"
-     },
-     {
-      "img": "dishes/fe966f7485.jpg",
-      "key": "fe966f7485",
-      "name": "Kıymalı Ispanak"
-     },
-     {
-      "img": "dishes/1da7bd5f6e.jpg",
-      "key": "1da7bd5f6e",
-      "name": "İçli Köfte"
-     },
-     {
-      "key": "22cf53ced1",
-      "name": "Gazlı İçecek"
-     }
-    ]
-   },
-   "lunch": {
-    "items": [
-     {
-      "key": "e9bd0907a9",
-      "name": "Salçalı Pirinç Çorbası"
-     },
-     {
-      "img": "dishes/fe966f7485.jpg",
-      "key": "fe966f7485",
-      "name": "Kıymalı Ispanak"
-     },
-     {
-      "img": "dishes/1da7bd5f6e.jpg",
-      "key": "1da7bd5f6e",
-      "name": "İçli Köfte"
-     },
-     {
-      "key": "22cf53ced1",
-      "name": "Gazlı İçecek"
-     }
-    ]
-   },
-   "vegetarian": {
-    "items": [
-     {
-      "key": "e9bd0907a9",
-      "name": "Salçalı Pirinç Çorbası"
-     },
-     {
-      "img": "dishes/ca947b0d72.jpg",
-      "key": "ca947b0d72",
-      "name": "Ispanak Yemeği"
-     },
-     {
-      "img": "dishes/bac7d91091.jpg",
-      "key": "bac7d91091",
-      "name": "Makarna"
-     },
-     {
-      "key": "22cf53ced1",
-      "name": "Gazlı İçecek"
-     }
-    ]
-   }
-  },
   "2026-10-05": {
    "breakfast": {
     "items": [
@@ -1573,6 +1468,7 @@
       "name": "Mercimek Çorbası"
      },
      {
+      "img": "dishes/2a86e68e94.jpg",
       "key": "2a86e68e94",
       "name": "Kabak Dolması"
      },
@@ -1582,6 +1478,7 @@
       "name": "Mevsim Salatası"
      },
      {
+      "img": "dishes/af4828c33f.jpg",
       "key": "af4828c33f",
       "name": "Un Helvası"
      }
@@ -1632,6 +1529,7 @@
       "name": "Düğün Çorbası"
      },
      {
+      "img": "dishes/415cd292c5.jpg",
       "key": "415cd292c5",
       "name": "Kıymalı Patates Oturtma"
      },
@@ -1640,6 +1538,7 @@
       "name": "Yoğurtlu Ispanak"
      },
      {
+      "img": "dishes/c47036e360.jpg",
       "key": "c47036e360",
       "name": "Elma"
      }
@@ -1653,6 +1552,7 @@
       "name": "Düğün Çorbası"
      },
      {
+      "img": "dishes/415cd292c5.jpg",
       "key": "415cd292c5",
       "name": "Kıymalı Patates Oturtma"
      },
@@ -1661,6 +1561,7 @@
       "name": "Yoğurtlu Ispanak"
      },
      {
+      "img": "dishes/c47036e360.jpg",
       "key": "c47036e360",
       "name": "Elma"
      }
@@ -1669,6 +1570,7 @@
    "vegetarian": {
     "items": [
      {
+      "img": "dishes/0db619554a.jpg",
       "key": "0db619554a",
       "name": "Brokoli Çorbası"
      },
@@ -1742,6 +1644,7 @@
       "name": "Yoğurtlu Havuç Tarator"
      },
      {
+      "img": "dishes/2e9a9837b2.jpg",
       "key": "2e9a9837b2",
       "name": "Cevizli Baklava"
      }
@@ -1764,6 +1667,7 @@
       "name": "Yoğurtlu Havuç Tarator"
      },
      {
+      "img": "dishes/2e9a9837b2.jpg",
       "key": "2e9a9837b2",
       "name": "Cevizli Baklava"
      }
@@ -1781,6 +1685,7 @@
       "name": "Etsiz Bezelye"
      },
      {
+      "img": "dishes/5175124eab.jpg",
       "key": "5175124eab",
       "name": "Karışık Kızartma Soslu"
      },
@@ -1880,6 +1785,7 @@
       "name": "Domates Çorbası"
      },
      {
+      "img": "dishes/07539d3f17.jpg",
       "key": "07539d3f17",
       "name": "İmam Bayıldı"
      },
@@ -1888,6 +1794,7 @@
       "name": "Pirinç Pilavı"
      },
      {
+      "img": "dishes/c47036e360.jpg",
       "key": "c47036e360",
       "name": "Elma"
      }
@@ -2010,6 +1917,7 @@
       "name": "Beyaz Peynir"
      },
      {
+      "img": "dishes/2c9fac8de8.jpg",
       "key": "2c9fac8de8",
       "name": "Peynirli Gözleme"
      },
@@ -2032,6 +1940,7 @@
       "name": "Yayla Çorbası"
      },
      {
+      "img": "dishes/785c5c2182.jpg",
       "key": "785c5c2182",
       "name": "Cordon Blue (Patates Garnili)"
      },
@@ -2040,6 +1949,7 @@
       "name": "Yoğurtlu Mantı"
      },
      {
+      "img": "dishes/099956f884.jpg",
       "key": "099956f884",
       "name": "Cevizli Tel Kadayıf"
      }
@@ -2053,6 +1963,7 @@
       "name": "Yayla Çorbası"
      },
      {
+      "img": "dishes/785c5c2182.jpg",
       "key": "785c5c2182",
       "name": "Cordon Blue (Patates Garnili)"
      },
@@ -2061,6 +1972,7 @@
       "name": "Yoğurtlu Mantı"
      },
      {
+      "img": "dishes/099956f884.jpg",
       "key": "099956f884",
       "name": "Cevizli Tel Kadayıf"
      }
@@ -2077,6 +1989,7 @@
       "name": "Mantar Sote"
      },
      {
+      "img": "dishes/c3352ed568.jpg",
       "key": "c3352ed568",
       "name": "Kısır"
      },
@@ -2090,5 +2003,5 @@
   }
  },
  "university": "iu",
- "updated": "2026-10-04T21:14:43+03:00"
+ "updated": "2026-10-05T09:05:47+03:00"
 }

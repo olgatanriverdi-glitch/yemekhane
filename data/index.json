@@ -81,7 +81,7 @@
   },
   {
    "city": "Ankara",
-   "firstDay": "2026-10-02",
+   "firstDay": "2026-10-03",
    "hours": {
     "dinner": {
      "approx": false,
@@ -250,7 +250,7 @@
   },
   {
    "city": "Eskişehir",
-   "firstDay": "2026-09-28",
+   "firstDay": "2026-10-05",
    "hours": {
     "dinner": {
      "approx": true,
@@ -295,7 +295,7 @@
   },
   {
    "city": "İstanbul",
-   "firstDay": "2026-10-02",
+   "firstDay": "2026-10-05",
    "hours": {
     "breakfast": {
      "approx": false,
@@ -325,7 +325,7 @@
   },
   {
    "city": "İstanbul",
-   "firstDay": "2026-10-03",
+   "firstDay": "2026-10-04",
    "hours": {
     "dinner": {
      "approx": false,
@@ -337,7 +337,7 @@
     }
    },
    "id": "itu",
-   "lastDay": "2026-10-18",
+   "lastDay": "2026-10-25",
    "meals": [
     "dinner",
     "lunch"
@@ -383,7 +383,7 @@
   },
   {
    "city": "İstanbul",
-   "firstDay": "2026-09-28",
+   "firstDay": "2026-10-05",
    "hours": {
     "lunch": {
      "approx": true,
@@ -391,7 +391,7 @@
     }
    },
    "id": "marmara",
-   "lastDay": "2026-10-02",
+   "lastDay": "2026-10-05",
    "meals": [
     "lunch",
     "vegetarian"
@@ -445,6 +445,6 @@
    "source": "https://msgsu.edu.tr/ogrenci/kampuste-yasam/beslenme/"
   }
  ],
- "updated": "2026-10-04T21:26:46+03:00",
+ "updated": "2026-10-05T09:05:47+03:00",
  "version": 1
 }
