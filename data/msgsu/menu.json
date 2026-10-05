@@ -336,6 +336,7 @@
       "name": "Brokoli Çorba"
      },
      {
+      "img": "dishes/41be0efb51.jpg",
       "key": "41be0efb51",
       "name": "Etli Mantı"
      },
@@ -557,5 +558,5 @@
   }
  },
  "university": "msgsu",
- "updated": "2026-10-05T09:05:47+03:00"
+ "updated": "2026-10-05T12:46:17+03:00"
 }

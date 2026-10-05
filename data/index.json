@@ -83,17 +83,21 @@
    "city": "Ankara",
    "firstDay": "2026-10-03",
    "hours": {
+    "breakfast": {
+     "approx": false,
+     "t": "09:00–10:00"
+    },
     "dinner": {
      "approx": false,
      "t": "17:00–19:00"
     },
     "lunch": {
      "approx": false,
-     "t": "11:30–14:00"
+     "t": "12:00–13:30"
     },
     "vegetarian": {
      "approx": false,
-     "t": "11:30–14:00"
+     "t": "12:00–13:30"
     }
    },
    "id": "hacettepe",
@@ -391,7 +395,7 @@
     }
    },
    "id": "marmara",
-   "lastDay": "2026-10-05",
+   "lastDay": "2026-10-09",
    "meals": [
     "lunch",
     "vegetarian"
@@ -701,6 +705,6 @@
    "source": "https://www.gtu.edu.tr/kategori/1296/0/display.aspx"
   }
  ],
- "updated": "2026-10-05T09:44:44+03:00",
+ "updated": "2026-10-05T12:46:17+03:00",
  "version": 1
 }

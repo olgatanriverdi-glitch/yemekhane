@@ -255,6 +255,7 @@
       "name": "Et Yahni"
      },
      {
+      "img": "dishes/2356abfde0.jpg",
       "key": "2356abfde0",
       "name": "Sebzeli Bulgur Pilavı"
      },
@@ -405,6 +406,7 @@
       "name": "Cevizli Erişte Pilavı"
      },
      {
+      "img": "dishes/ed47fcacda.jpg",
       "key": "ed47fcacda",
       "name": "Pembe Sultan"
      }
@@ -486,5 +488,5 @@
   }
  },
  "university": "omu",
- "updated": "2026-10-05T09:44:44+03:00"
+ "updated": "2026-10-05T12:46:17+03:00"
 }

@@ -168,6 +168,7 @@
       "name": "Ayran"
      },
      {
+      "img": "dishes/7f43705206.jpg",
       "key": "7f43705206",
       "name": "Osmanlı Tulumba Tatlısı"
      }
@@ -209,6 +210,7 @@
    "lunch": {
     "items": [
      {
+      "img": "dishes/23d0bb7dd1.jpg",
       "key": "23d0bb7dd1",
       "name": "Sebzeli Mantar Çorbası"
      },
@@ -232,6 +234,7 @@
       "name": "Kısır"
      },
      {
+      "img": "dishes/571318ed8e.jpg",
       "key": "571318ed8e",
       "name": "Garnitür Arpa Şehriye Pilavı"
      }
@@ -255,6 +258,7 @@
       "name": "Nohutlu Pirinç Pilavı"
      },
      {
+      "img": "dishes/163819ec0d.jpg",
       "key": "163819ec0d",
       "name": "Şekerpare - H"
      },
@@ -277,10 +281,12 @@
       "name": "Hamburger"
      },
      {
+      "img": "dishes/5adcc65825.jpg",
       "key": "5adcc65825",
       "name": "Hardallı Patates Salatası"
      },
      {
+      "img": "dishes/2be1b1ba72.jpg",
       "key": "2be1b1ba72",
       "name": "Kola"
      },
@@ -336,6 +342,7 @@
       "name": "Patates Oturtma"
      },
      {
+      "img": "dishes/127bfefbec.jpg",
       "key": "127bfefbec",
       "name": "Yeşil Mercimekli Bulgur Pilavı"
      },
@@ -368,6 +375,7 @@
       "name": "Bulgur Pilavı"
      },
      {
+      "img": "dishes/5a41fac25a.jpg",
       "key": "5a41fac25a",
       "name": "Sütlü İrmik Tatlısı"
      },
@@ -473,6 +481,7 @@
       "name": "Mercimek Çorbası"
      },
      {
+      "img": "dishes/abd94319df.jpg",
       "key": "abd94319df",
       "name": "Sosyete Mantısı"
      },
@@ -486,6 +495,7 @@
       "name": "Maş Fasulyesi Salatası"
      },
      {
+      "img": "dishes/8f15138720.jpg",
       "key": "8f15138720",
       "name": "Bademli Muhallebi"
      }
@@ -516,6 +526,7 @@
       "name": "Fasulye Piyazı"
      },
      {
+      "img": "dishes/65dfdea3d4.jpg",
       "key": "65dfdea3d4",
       "name": "Garnitür Patates Püresi"
      }
@@ -589,6 +600,7 @@
       "name": "Kıymalı Karnabahar"
      },
      {
+      "img": "dishes/127bfefbec.jpg",
       "key": "127bfefbec",
       "name": "Yeşil Mercimekli Bulgur Pilavı"
      },
@@ -598,6 +610,7 @@
       "name": "Haydari"
      },
      {
+      "img": "dishes/c2cb7fa47d.jpg",
       "key": "c2cb7fa47d",
       "name": "Şöbiyet"
      }
@@ -623,6 +636,7 @@
       "name": "Akdeniz Salatası"
      },
      {
+      "img": "dishes/5b7bbc3ecc.jpg",
       "key": "5b7bbc3ecc",
       "name": "Portakal"
      },
@@ -677,6 +691,7 @@
       "name": "Etli Kuru Fasulye"
      },
      {
+      "img": "dishes/2356abfde0.jpg",
       "key": "2356abfde0",
       "name": "Sebzeli Bulgur Pilavı"
      },
@@ -706,6 +721,7 @@
       "name": "Hasanpaşa Köfte"
      },
      {
+      "img": "dishes/7819d0a412.jpg",
       "key": "7819d0a412",
       "name": "Kremalı Fesleğenli Makarna"
      },
@@ -714,6 +730,7 @@
       "name": "Meyve Suyu"
      },
      {
+      "img": "dishes/23f8e27f8d.jpg",
       "key": "23f8e27f8d",
       "name": "Karnabahar-Brokoli Salatası"
      }
@@ -761,6 +778,7 @@
       "name": "Düğün Çorbası"
      },
      {
+      "img": "dishes/5438925b4c.jpg",
       "key": "5438925b4c",
       "name": "Etli Barbunya"
      },
@@ -770,6 +788,7 @@
       "name": "Bulgur Pilavı"
      },
      {
+      "img": "dishes/ed47fcacda.jpg",
       "key": "ed47fcacda",
       "name": "Pembe Sultan"
      },
@@ -849,6 +868,7 @@
       "name": "Kabak Tarator"
      },
      {
+      "img": "dishes/aa2426d85c.jpg",
       "key": "aa2426d85c",
       "name": "Mozaik Pasta"
      },
@@ -935,10 +955,12 @@
       "name": "Rosto Köfte"
      },
      {
+      "img": "dishes/233687b1eb.jpg",
       "key": "233687b1eb",
       "name": "Mantarlı Makarna"
      },
      {
+      "img": "dishes/5b7bbc3ecc.jpg",
       "key": "5b7bbc3ecc",
       "name": "Portakal"
      },
@@ -947,6 +969,7 @@
       "name": "Rus Salatası"
      },
      {
+      "img": "dishes/65dfdea3d4.jpg",
       "key": "65dfdea3d4",
       "name": "Garnitür Patates Püresi"
      }
@@ -964,6 +987,7 @@
       "name": "Kıymalı Ispanak"
      },
      {
+      "img": "dishes/f296c2badf.jpg",
       "key": "f296c2badf",
       "name": "Patatesli Gül Böreği"
      },
@@ -973,6 +997,7 @@
       "name": "Yoğurt"
      },
      {
+      "img": "dishes/98ddf53138.jpg",
       "key": "98ddf53138",
       "name": "Fındıklı İrmik Helvası"
      }
@@ -1060,6 +1085,7 @@
       "name": "Havuç Tarator"
      },
      {
+      "img": "dishes/2be1b1ba72.jpg",
       "key": "2be1b1ba72",
       "name": "Kola"
      },
@@ -1148,6 +1174,7 @@
       "name": "Nohut Salatası"
      },
      {
+      "img": "dishes/aa2426d85c.jpg",
       "key": "aa2426d85c",
       "name": "Mozaik Pasta"
      }
@@ -1192,6 +1219,7 @@
       "name": "Kıymalı Yeşil Mercimek"
      },
      {
+      "img": "dishes/2356abfde0.jpg",
       "key": "2356abfde0",
       "name": "Sebzeli Bulgur Pilavı"
      },
@@ -1268,5 +1296,5 @@
   }
  },
  "university": "itu",
- "updated": "2026-10-05T09:05:47+03:00"
+ "updated": "2026-10-05T12:46:17+03:00"
 }

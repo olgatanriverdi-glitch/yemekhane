@@ -143,6 +143,7 @@
       "name": "Biber Turşu"
      },
      {
+      "img": "dishes/ed47fcacda.jpg",
       "kcal": 67,
       "key": "ed47fcacda",
       "name": "Pembe Sultan"
@@ -649,6 +650,7 @@
       "name": "Biber Turşu"
      },
      {
+      "img": "dishes/ed47fcacda.jpg",
       "kcal": 67,
       "key": "ed47fcacda",
       "name": "Pembe Sultan"
@@ -916,6 +918,7 @@
       "name": "Etli Bezelye"
      },
      {
+      "img": "dishes/127bfefbec.jpg",
       "kcal": 376,
       "key": "127bfefbec",
       "name": "Yeşil Mercimekli Bulgur Pilavı"
@@ -1017,5 +1020,5 @@
   }
  },
  "university": "gtu",
- "updated": "2026-10-05T09:44:44+03:00"
+ "updated": "2026-10-05T12:46:17+03:00"
 }

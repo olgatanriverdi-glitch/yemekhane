@@ -38,6 +38,7 @@
    "lunch": {
     "items": [
      {
+      "img": "dishes/d722d1f827.jpg",
       "key": "d722d1f827",
       "name": "Kremalı Domates Çorba"
      },
@@ -60,6 +61,7 @@
       "name": "Cacık"
      },
      {
+      "img": "dishes/2be1b1ba72.jpg",
       "key": "2be1b1ba72",
       "name": "Kola"
      },
@@ -72,6 +74,7 @@
    "vegetarian": {
     "items": [
      {
+      "img": "dishes/d722d1f827.jpg",
       "key": "d722d1f827",
       "name": "Kremalı Domates Çorba"
      },
@@ -94,6 +97,7 @@
       "name": "Cacık"
      },
      {
+      "img": "dishes/2be1b1ba72.jpg",
       "key": "2be1b1ba72",
       "name": "Kola"
      },
@@ -121,6 +125,7 @@
       "name": "Pirinç Pilavı"
      },
      {
+      "img": "dishes/2356abfde0.jpg",
       "key": "2356abfde0",
       "name": "Sebzeli Bulgur Pilavı"
      },
@@ -274,6 +279,7 @@
       "name": "Yeşil Mercimek Salatası"
      },
      {
+      "img": "dishes/2be1b1ba72.jpg",
       "key": "2be1b1ba72",
       "name": "Kola"
      }
@@ -308,6 +314,7 @@
       "name": "Yeşil Mercimek Salatası"
      },
      {
+      "img": "dishes/2be1b1ba72.jpg",
       "key": "2be1b1ba72",
       "name": "Kola"
      }
@@ -335,6 +342,7 @@
       "name": "Domatesli Arpa Şehriye Pilavı"
      },
      {
+      "img": "dishes/2be1b1ba72.jpg",
       "key": "2be1b1ba72",
       "name": "Kola"
      },
@@ -445,6 +453,7 @@
       "name": "Kırmızı Pancar Salata"
      },
      {
+      "img": "dishes/2be1b1ba72.jpg",
       "key": "2be1b1ba72",
       "name": "Kola"
      },
@@ -795,6 +804,7 @@
       "name": "Salata"
      },
      {
+      "img": "dishes/2be1b1ba72.jpg",
       "key": "2be1b1ba72",
       "name": "Kola"
      },
@@ -830,6 +840,7 @@
       "name": "Salata"
      },
      {
+      "img": "dishes/2be1b1ba72.jpg",
       "key": "2be1b1ba72",
       "name": "Kola"
      },
@@ -856,6 +867,7 @@
       "name": "Domates Soslu Spagetti"
      },
      {
+      "img": "dishes/2356abfde0.jpg",
       "key": "2356abfde0",
       "name": "Sebzeli Bulgur Pilavı"
      },
@@ -864,6 +876,7 @@
       "name": "Akdeniz Salata"
      },
      {
+      "img": "dishes/2be1b1ba72.jpg",
       "key": "2be1b1ba72",
       "name": "Kola"
      },
@@ -898,6 +911,7 @@
       "name": "Spoonful"
      },
      {
+      "img": "dishes/2be1b1ba72.jpg",
       "key": "2be1b1ba72",
       "name": "Kola"
      },
@@ -930,6 +944,7 @@
       "name": "Spoonful"
      },
      {
+      "img": "dishes/2be1b1ba72.jpg",
       "key": "2be1b1ba72",
       "name": "Kola"
      },
@@ -1000,6 +1015,7 @@
       "name": "Soda"
      },
      {
+      "img": "dishes/ed47fcacda.jpg",
       "key": "ed47fcacda",
       "name": "Pembe Sultan"
      },
@@ -1033,6 +1049,7 @@
       "name": "Soda"
      },
      {
+      "img": "dishes/ed47fcacda.jpg",
       "key": "ed47fcacda",
       "name": "Pembe Sultan"
      },
@@ -1066,6 +1083,7 @@
       "name": "Bezelyeli Pirinç Pilavı"
      },
      {
+      "img": "dishes/2be1b1ba72.jpg",
       "key": "2be1b1ba72",
       "name": "Kola"
      },
@@ -1154,5 +1172,5 @@
   }
  },
  "university": "boun",
- "updated": "2026-10-05T09:05:47+03:00"
+ "updated": "2026-10-05T12:46:17+03:00"
 }

@@ -70,6 +70,7 @@
       "name": "Köri Soslu Tavuk"
      },
      {
+      "img": "dishes/2356abfde0.jpg",
       "kcal": 288,
       "key": "2356abfde0",
       "name": "Sebzeli Bulgur Pilavı"
@@ -97,6 +98,7 @@
       "name": "Nohut"
      },
      {
+      "img": "dishes/2356abfde0.jpg",
       "kcal": 288,
       "key": "2356abfde0",
       "name": "Sebzeli Bulgur Pilavı"
@@ -881,6 +883,7 @@
       "name": "Tavuk Sote"
      },
      {
+      "img": "dishes/abd94319df.jpg",
       "kcal": 357,
       "key": "abd94319df",
       "name": "Sosyete Mantısı"
@@ -1213,5 +1216,5 @@
   }
  },
  "university": "comu",
- "updated": "2026-10-05T09:44:44+03:00"
+ "updated": "2026-10-05T12:46:17+03:00"
 }

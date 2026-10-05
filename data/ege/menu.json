@@ -1390,6 +1390,7 @@
       "name": "Garnitürlü Kuru Köfte"
      },
      {
+      "img": "dishes/2356abfde0.jpg",
       "key": "2356abfde0",
       "name": "Sebzeli Bulgur Pilavı"
      },
@@ -1417,6 +1418,7 @@
       "name": "Yoğurt"
      },
      {
+      "img": "dishes/c2cb7fa47d.jpg",
       "key": "c2cb7fa47d",
       "name": "Şöbiyet"
      }
@@ -1439,6 +1441,7 @@
       "name": "Yoğurt"
      },
      {
+      "img": "dishes/c2cb7fa47d.jpg",
       "key": "c2cb7fa47d",
       "name": "Şöbiyet"
      }
@@ -1534,6 +1537,7 @@
       "name": "Napoliten Soslu Makarna"
      },
      {
+      "img": "dishes/ed47fcacda.jpg",
       "key": "ed47fcacda",
       "name": "Pembe Sultan"
      }
@@ -1995,6 +1999,7 @@
       "name": "Köylü Pilavı"
      },
      {
+      "img": "dishes/ed47fcacda.jpg",
       "key": "ed47fcacda",
       "name": "Pembe Sultan"
      }
@@ -2123,5 +2128,5 @@
   }
  },
  "university": "ege",
- "updated": "2026-10-05T09:44:44+03:00"
+ "updated": "2026-10-05T12:46:17+03:00"
 }
