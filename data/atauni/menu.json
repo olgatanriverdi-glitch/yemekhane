@@ -36,8 +36,9 @@
       "name": "Tavuk Roti"
      },
      {
-      "key": "c62a7d497f",
-      "name": "Alfredo Soslu Fettucini"
+      "img": "dishes/221278edb6.jpg",
+      "key": "221278edb6",
+      "name": "Spagetti Napoliten"
      },
      {
       "img": "dishes/99a67d4042.jpg",
@@ -46,8 +47,32 @@
      }
     ]
    }
+  },
+  "2026-10-07": {
+   "lunch": {
+    "items": [
+     {
+      "key": "e8b8cd2e28",
+      "name": "Yoğurtlu Şehriye Çorba"
+     },
+     {
+      "img": "dishes/e9977e6607.jpg",
+      "key": "e9977e6607",
+      "name": "Ekşili Köfte"
+     },
+     {
+      "img": "dishes/831b0f20cf.jpg",
+      "key": "831b0f20cf",
+      "name": "Su Böreği"
+     },
+     {
+      "key": "f7b84ad85a",
+      "name": "Meyve Suyu"
+     }
+    ]
+   }
   }
  },
  "university": "atauni",
- "updated": "2026-10-05T12:46:17+03:00"
+ "updated": "2026-10-06T00:43:15+03:00"
 }

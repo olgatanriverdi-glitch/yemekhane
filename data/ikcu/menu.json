@@ -69,9 +69,9 @@
       "name": "Bulgur Pilavı"
      },
      {
-      "img": "dishes/ed17271d58.jpg",
-      "key": "ed17271d58",
-      "name": "Meyve"
+      "img": "dishes/2f58be7b7a.jpg",
+      "key": "2f58be7b7a",
+      "name": "Cacık"
      }
     ]
    },
@@ -92,19 +92,64 @@
       "name": "Bulgur Pilavı"
      },
      {
-      "img": "dishes/ed17271d58.jpg",
-      "key": "ed17271d58",
-      "name": "Meyve"
-     },
-     {
       "img": "dishes/2f58be7b7a.jpg",
       "key": "2f58be7b7a",
       "name": "Cacık"
+     },
+     {
+      "img": "dishes/c96fd73d5f.jpg",
+      "key": "c96fd73d5f",
+      "name": "Salata"
+     }
+    ]
+   }
+  },
+  "2026-10-07": {
+   "lunch": {
+    "items": [
+     {
+      "key": "8061d7cb59",
+      "name": "Anadolu Çorba"
+     },
+     {
+      "img": "dishes/0428d021a9.jpg",
+      "key": "0428d021a9",
+      "name": "Hamburger"
+     },
+     {
+      "key": "69d9d30f1a",
+      "name": "Fırın Patates"
+     },
+     {
+      "img": "dishes/16b5c22561.jpg",
+      "key": "16b5c22561",
+      "name": "Ayran"
+     }
+    ]
+   },
+   "vegetarian": {
+    "items": [
+     {
+      "key": "8061d7cb59",
+      "name": "Anadolu Çorba"
+     },
+     {
+      "key": "f22675b051",
+      "name": "Patates Graten"
+     },
+     {
+      "key": "6aa952989c",
+      "name": "Fırın Patates Ayran"
+     },
+     {
+      "img": "dishes/a765c7c985.jpg",
+      "key": "a765c7c985",
+      "name": "Komposto"
      }
     ]
    }
   }
  },
  "university": "ikcu",
- "updated": "2026-10-05T09:44:44+03:00"
+ "updated": "2026-10-06T00:43:15+03:00"
 }

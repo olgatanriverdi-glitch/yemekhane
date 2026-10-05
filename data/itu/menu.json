@@ -1193,6 +1193,7 @@
       "name": "Bahçıvan Köfte"
      },
      {
+      "img": "dishes/c0061c55f1.jpg",
       "key": "c0061c55f1",
       "name": "Kremalı Mantarlı Fesleğenli Makarna"
      },
@@ -1253,6 +1254,7 @@
       "name": "Pirinç Pilavı"
      },
      {
+      "img": "dishes/5d18931e0d.jpg",
       "key": "5d18931e0d",
       "name": "Cevizli Saray Sarma"
      },
@@ -1293,8 +1295,421 @@
      }
     ]
    }
+  },
+  "2026-10-26": {
+   "dinner": {
+    "items": [
+     {
+      "key": "fab279355e",
+      "name": "Kremalı Domates Çorbası"
+     },
+     {
+      "key": "d01d045022",
+      "name": "Fırın Balık (Uskumru)"
+     },
+     {
+      "img": "dishes/f7b4cf4bd7.jpg",
+      "key": "f7b4cf4bd7",
+      "name": "Arrabiata Soslu Makarna"
+     },
+     {
+      "img": "dishes/3d7b828baf.jpg",
+      "key": "3d7b828baf",
+      "name": "Şalgam Suyu"
+     },
+     {
+      "img": "dishes/cc4ac55a9e.jpg",
+      "key": "cc4ac55a9e",
+      "name": "Cevizli İrmik Helvası"
+     },
+     {
+      "key": "7deef2ea4e",
+      "name": "Garnitür Roka Salatası"
+     }
+    ]
+   },
+   "lunch": {
+    "items": [
+     {
+      "img": "dishes/4fb733faf2.jpg",
+      "key": "4fb733faf2",
+      "name": "Ezogelin Çorbası"
+     },
+     {
+      "key": "52a050b2a9",
+      "name": "Yoğurtlu Etli Mantı"
+     },
+     {
+      "img": "dishes/e5a17617a9.jpg",
+      "key": "e5a17617a9",
+      "name": "Zeytinyağlı Karnabahar-Brokoli"
+     },
+     {
+      "img": "dishes/099956f884.jpg",
+      "key": "099956f884",
+      "name": "Cevizli Tel Kadayıf"
+     },
+     {
+      "img": "dishes/a3d80c5897.jpg",
+      "key": "a3d80c5897",
+      "name": "Armut"
+     }
+    ]
+   }
+  },
+  "2026-10-27": {
+   "dinner": {
+    "items": [
+     {
+      "img": "dishes/0955218757.jpg",
+      "key": "0955218757",
+      "name": "Mercimek Çorbası"
+     },
+     {
+      "img": "dishes/2c5a28d231.jpg",
+      "key": "2c5a28d231",
+      "name": "Etli Patates"
+     },
+     {
+      "img": "dishes/127bfefbec.jpg",
+      "key": "127bfefbec",
+      "name": "Yeşil Mercimekli Bulgur Pilavı"
+     },
+     {
+      "img": "dishes/e430bca6db.jpg",
+      "key": "e430bca6db",
+      "name": "Haydari"
+     },
+     {
+      "img": "dishes/3a38c0aebb.jpg",
+      "key": "3a38c0aebb",
+      "name": "Sütlaç"
+     }
+    ]
+   },
+   "lunch": {
+    "items": [
+     {
+      "key": "fce91b9059",
+      "name": "Alaca Çorbası"
+     },
+     {
+      "key": "804bb7b3f4",
+      "name": "Piliç Haşlama"
+     },
+     {
+      "img": "dishes/0b9e39c61a.jpg",
+      "key": "0b9e39c61a",
+      "name": "Salçalı Makarna"
+     },
+     {
+      "key": "d14bc2ed6a",
+      "name": "Akdeniz Salatası"
+     },
+     {
+      "img": "dishes/ed47fcacda.jpg",
+      "key": "ed47fcacda",
+      "name": "Pembe Sultan"
+     }
+    ]
+   }
+  },
+  "2026-10-28": {
+   "dinner": {
+    "items": [
+     {
+      "key": "f734542a51",
+      "name": "Saray Çorbası"
+     },
+     {
+      "key": "37d5fa698f",
+      "name": "Adana Dürüm"
+     },
+     {
+      "img": "dishes/321b4fe3c9.jpg",
+      "key": "321b4fe3c9",
+      "name": "Mevsim Salatası"
+     },
+     {
+      "img": "dishes/9814c6dc58.jpg",
+      "key": "9814c6dc58",
+      "name": "Mandalina"
+     },
+     {
+      "img": "dishes/16b5c22561.jpg",
+      "key": "16b5c22561",
+      "name": "Ayran"
+     }
+    ]
+   },
+   "lunch": {
+    "items": [
+     {
+      "key": "574f0487e7",
+      "name": "Tel Şehriyeli Havuç Çorbası"
+     },
+     {
+      "img": "dishes/878b29f656.jpg",
+      "key": "878b29f656",
+      "name": "Etli Türlü"
+     },
+     {
+      "key": "8636bfbc0a",
+      "name": "Pirinç Pilavı"
+     },
+     {
+      "img": "dishes/f3f84c9554.jpg",
+      "key": "f3f84c9554",
+      "name": "Browni"
+     },
+     {
+      "img": "dishes/2f58be7b7a.jpg",
+      "key": "2f58be7b7a",
+      "name": "Cacık"
+     }
+    ]
+   }
+  },
+  "2026-10-29": {
+   "dinner": {
+    "items": [
+     {
+      "img": "dishes/4e30e73821.jpg",
+      "key": "4e30e73821",
+      "name": "Kremalı Mantar Çorbası"
+     },
+     {
+      "key": "5b155550f9",
+      "name": "Kıymalı Biber Dolması"
+     },
+     {
+      "img": "dishes/6481a77c76.jpg",
+      "key": "6481a77c76",
+      "name": "Barbunya Pilaki"
+     },
+     {
+      "img": "dishes/1087b76fa2.jpg",
+      "key": "1087b76fa2",
+      "name": "Revani"
+     },
+     {
+      "img": "dishes/9c8d655ef5.jpg",
+      "key": "9c8d655ef5",
+      "name": "Yoğurt"
+     }
+    ]
+   },
+   "lunch": {
+    "items": [
+     {
+      "img": "dishes/e73b79f7e6.jpg",
+      "key": "e73b79f7e6",
+      "name": "Tutmaç Çorbası"
+     },
+     {
+      "key": "a43c0db63b",
+      "name": "Beğendili Köfte"
+     },
+     {
+      "img": "dishes/25b07cf14e.jpg",
+      "key": "25b07cf14e",
+      "name": "Bulgur Pilavı"
+     },
+     {
+      "key": "f1db7bea12",
+      "name": "Havuç-Turp Salatası"
+     },
+     {
+      "key": "3ddbc111d2",
+      "name": "Limonata"
+     }
+    ]
+   }
+  },
+  "2026-10-30": {
+   "dinner": {
+    "items": [
+     {
+      "key": "b09bac10e9",
+      "name": "Mahluta Çorbası"
+     },
+     {
+      "key": "63eb4c61a8",
+      "name": "Çıtır Tavuk"
+     },
+     {
+      "img": "dishes/f7b4cf4bd7.jpg",
+      "key": "f7b4cf4bd7",
+      "name": "Arrabiata Soslu Makarna"
+     },
+     {
+      "key": "f7b84ad85a",
+      "name": "Meyve Suyu"
+     },
+     {
+      "key": "de84c155eb",
+      "name": "Rus Salatası"
+     },
+     {
+      "key": "124297d670",
+      "name": "Garnitür Patates Kızartması"
+     }
+    ]
+   },
+   "lunch": {
+    "items": [
+     {
+      "img": "dishes/78d4dad707.jpg",
+      "key": "78d4dad707",
+      "name": "Tarhana Çorbası"
+     },
+     {
+      "key": "552664a671",
+      "name": "Mantarlı Et Sote"
+     },
+     {
+      "key": "8f58a53982",
+      "name": "Sebze Graten"
+     },
+     {
+      "img": "dishes/16b5c22561.jpg",
+      "key": "16b5c22561",
+      "name": "Ayran"
+     },
+     {
+      "img": "dishes/c3352ed568.jpg",
+      "key": "c3352ed568",
+      "name": "Kısır"
+     },
+     {
+      "key": "96bf98863d",
+      "name": "Garnitür Pirinç Pilavı"
+     }
+    ]
+   }
+  },
+  "2026-10-31": {
+   "dinner": {
+    "items": [
+     {
+      "key": "a4976547e4",
+      "name": "Erzincan Çorbası"
+     },
+     {
+      "img": "dishes/fbb76e65c4.jpg",
+      "key": "fbb76e65c4",
+      "name": "Etli Kuru Fasulye"
+     },
+     {
+      "key": "8636bfbc0a",
+      "name": "Pirinç Pilavı"
+     },
+     {
+      "img": "dishes/0a95425edd.jpg",
+      "key": "0a95425edd",
+      "name": "Kıbrıs Tatlısı"
+     },
+     {
+      "key": "3ef45fb941",
+      "name": "Karışık Turşu"
+     }
+    ]
+   },
+   "lunch": {
+    "items": [
+     {
+      "img": "dishes/c79dd3c35d.jpg",
+      "key": "c79dd3c35d",
+      "name": "Kremalı Brokoli Çorbası"
+     },
+     {
+      "key": "f6e6cd518c",
+      "name": "Piliç Emense"
+     },
+     {
+      "img": "dishes/0b9e39c61a.jpg",
+      "key": "0b9e39c61a",
+      "name": "Salçalı Makarna"
+     },
+     {
+      "key": "79ded7ea04",
+      "name": "Havuç Tarator"
+     },
+     {
+      "key": "bce2805a8b",
+      "name": "Nohut Salatası"
+     },
+     {
+      "key": "124297d670",
+      "name": "Garnitür Patates Kızartması"
+     }
+    ]
+   }
+  },
+  "2026-11-01": {
+   "dinner": {
+    "items": [
+     {
+      "img": "dishes/4fb733faf2.jpg",
+      "key": "4fb733faf2",
+      "name": "Ezogelin Çorbası"
+     },
+     {
+      "img": "dishes/85b7944a41.jpg",
+      "key": "85b7944a41",
+      "name": "Tas Kebabı"
+     },
+     {
+      "img": "dishes/7637343502.jpg",
+      "key": "7637343502",
+      "name": "Zeytinyağlı Kereviz"
+     },
+     {
+      "img": "dishes/5b7bbc3ecc.jpg",
+      "key": "5b7bbc3ecc",
+      "name": "Portakal"
+     },
+     {
+      "key": "6d0ead057a",
+      "name": "Yoğurtlu Kuskus Salatası"
+     },
+     {
+      "img": "dishes/17acd2b4b1.jpg",
+      "key": "17acd2b4b1",
+      "name": "Garnitür Bulgur Pilavı"
+     }
+    ]
+   },
+   "lunch": {
+    "items": [
+     {
+      "img": "dishes/64ee8e0b3b.jpg",
+      "key": "64ee8e0b3b",
+      "name": "Düğün Çorbası"
+     },
+     {
+      "img": "dishes/c59b9eaa6e.jpg",
+      "key": "c59b9eaa6e",
+      "name": "Etli Bezelye"
+     },
+     {
+      "key": "57d2d2d906",
+      "name": "Mısırlı Pirinç Pilavı"
+     },
+     {
+      "img": "dishes/e430bca6db.jpg",
+      "key": "e430bca6db",
+      "name": "Haydari"
+     },
+     {
+      "img": "dishes/7f43705206.jpg",
+      "key": "7f43705206",
+      "name": "Osmanlı Tulumba Tatlısı"
+     }
+    ]
+   }
   }
  },
  "university": "itu",
- "updated": "2026-10-05T12:46:17+03:00"
+ "updated": "2026-10-06T00:43:15+03:00"
 }

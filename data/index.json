@@ -341,7 +341,7 @@
     }
    },
    "id": "itu",
-   "lastDay": "2026-10-25",
+   "lastDay": "2026-11-01",
    "meals": [
     "dinner",
     "lunch"
@@ -503,7 +503,7 @@
     }
    },
    "id": "ikcu",
-   "lastDay": "2026-10-06",
+   "lastDay": "2026-10-07",
    "meals": [
     "lunch",
     "vegetarian"
@@ -600,7 +600,7 @@
     }
    },
    "id": "atauni",
-   "lastDay": "2026-10-06",
+   "lastDay": "2026-10-07",
    "meals": [
     "lunch"
    ],
@@ -705,6 +705,6 @@
    "source": "https://www.gtu.edu.tr/kategori/1296/0/display.aspx"
   }
  ],
- "updated": "2026-10-05T12:46:17+03:00",
+ "updated": "2026-10-06T00:43:15+03:00",
  "version": 1
 }

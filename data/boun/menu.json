@@ -17,6 +17,7 @@
       "name": "Mısırlı Pirinç Pilavı"
      },
      {
+      "img": "dishes/81c7521b9b.jpg",
       "key": "81c7521b9b",
       "name": "Kekik Soslu Makarna"
      },
@@ -43,6 +44,7 @@
       "name": "Kremalı Domates Çorba"
      },
      {
+      "img": "dishes/d01a4e56e5.jpg",
       "key": "d01a4e56e5",
       "name": "Etli Patlıcan kebabı"
      },
@@ -79,6 +81,7 @@
       "name": "Kremalı Domates Çorba"
      },
      {
+      "img": "dishes/7dd7cc65d7.jpg",
       "key": "7dd7cc65d7",
       "name": "Patlıcan Tava"
      },
@@ -130,6 +133,7 @@
       "name": "Sebzeli Bulgur Pilavı"
      },
      {
+      "img": "dishes/2e70342554.jpg",
       "key": "2e70342554",
       "name": "Ice Tea"
      },
@@ -152,6 +156,7 @@
       "name": "Ezogelin Çorba"
      },
      {
+      "img": "dishes/aaa0c14e8c.jpg",
       "key": "aaa0c14e8c",
       "name": "Tavuk Tikka"
      },
@@ -160,6 +165,7 @@
       "name": "Melek Pilavı"
      },
      {
+      "img": "dishes/44e0318435.jpg",
       "key": "44e0318435",
       "name": "Mac and Cheese"
      },
@@ -168,6 +174,7 @@
       "name": "Akdeniz Salata"
      },
      {
+      "img": "dishes/3201b259e1.jpg",
       "key": "3201b259e1",
       "name": "Gazoz"
      },
@@ -194,6 +201,7 @@
       "name": "Melek Pilavı"
      },
      {
+      "img": "dishes/44e0318435.jpg",
       "key": "44e0318435",
       "name": "Mac and Cheese"
      },
@@ -202,6 +210,7 @@
       "name": "Akdeniz Salata"
      },
      {
+      "img": "dishes/3201b259e1.jpg",
       "key": "3201b259e1",
       "name": "Gazoz"
      },
@@ -227,6 +236,7 @@
       "name": "Kıymalı Ispanak"
      },
      {
+      "img": "dishes/defc88bfca.jpg",
       "key": "defc88bfca",
       "name": "Gül Böreği"
      },
@@ -236,6 +246,7 @@
       "name": "Soslu Spagetti"
      },
      {
+      "img": "dishes/4b472db172.jpg",
       "key": "4b472db172",
       "name": "Hayrabolu Tatlısı"
      },
@@ -338,6 +349,7 @@
       "name": "Havuçlu Pirinç Pilavı"
      },
      {
+      "img": "dishes/601bb5256c.jpg",
       "key": "601bb5256c",
       "name": "Domatesli Arpa Şehriye Pilavı"
      },
@@ -352,6 +364,7 @@
       "name": "Meyve"
      },
      {
+      "img": "dishes/6c1f410c41.jpg",
       "key": "6c1f410c41",
       "name": "Rus Salata"
      }
@@ -382,6 +395,7 @@
       "name": "Yeşil Salata"
      },
      {
+      "img": "dishes/2e70342554.jpg",
       "key": "2e70342554",
       "name": "Ice Tea"
      },
@@ -418,6 +432,7 @@
       "name": "Yeşil Salata"
      },
      {
+      "img": "dishes/2e70342554.jpg",
       "key": "2e70342554",
       "name": "Ice Tea"
      },
@@ -441,6 +456,7 @@
       "name": "Sebzeli Misket Köfte"
      },
      {
+      "img": "dishes/2911af800f.jpg",
       "key": "2911af800f",
       "name": "Kremalı Makarna"
      },
@@ -471,6 +487,7 @@
       "name": "Şafak Çorba"
      },
      {
+      "img": "dishes/e95d861d8f.jpg",
       "key": "e95d861d8f",
       "name": "Etli Yahni"
      },
@@ -479,6 +496,7 @@
       "name": "Gökkuşağı Pilavı"
      },
      {
+      "img": "dishes/3bd5f9d265.jpg",
       "key": "3bd5f9d265",
       "name": "Kekik Soslu Spagetti"
      },
@@ -504,6 +522,7 @@
       "name": "Şafak Çorba"
      },
      {
+      "img": "dishes/49477eefc2.jpg",
       "key": "49477eefc2",
       "name": "Falafel"
      },
@@ -512,6 +531,7 @@
       "name": "Gökkuşağı Pilavı"
      },
      {
+      "img": "dishes/3bd5f9d265.jpg",
       "key": "3bd5f9d265",
       "name": "Kekik Soslu Spagetti"
      },
@@ -540,8 +560,8 @@
       "name": "Sebze Çorba"
      },
      {
-      "key": "691764876b",
-      "name": "Kibrit Kebabı"
+      "key": "8f61a62c59",
+      "name": "Sweet Chili Soslu Tavuk"
      },
      {
       "key": "def29d5074",
@@ -556,13 +576,13 @@
       "name": "Cheesecake"
      },
      {
+      "img": "dishes/2e70342554.jpg",
       "key": "2e70342554",
       "name": "Ice Tea"
      },
      {
-      "img": "dishes/ed17271d58.jpg",
-      "key": "ed17271d58",
-      "name": "Meyve"
+      "key": "79ded7ea04",
+      "name": "Havuç Tarator"
      }
     ]
    },
@@ -574,12 +594,8 @@
       "name": "Mantar Çorba"
      },
      {
-      "key": "8f61a62c59",
-      "name": "Sweet Chili Soslu Tavuk"
-     },
-     {
-      "key": "8636bfbc0a",
-      "name": "Pirinç Pilavı"
+      "key": "691764876b",
+      "name": "Kibrit Kebabı"
      },
      {
       "img": "dishes/86493234ae.jpg",
@@ -587,16 +603,21 @@
       "name": "Mercimekli Bulgur Pilavı"
      },
      {
-      "key": "79ded7ea04",
-      "name": "Havuç Tarator"
+      "key": "8636bfbc0a",
+      "name": "Pirinç Pilavı"
      },
      {
-      "key": "5f54f3a06f",
-      "name": "Çikolatalı Meyve Salatası"
+      "img": "dishes/99a67d4042.jpg",
+      "key": "99a67d4042",
+      "name": "Mevsim Salata"
      },
      {
       "key": "ce072af2f7",
       "name": "Portakallı Gazoz"
+     },
+     {
+      "key": "5f54f3a06f",
+      "name": "Çikolatalı Meyve Salatası"
      }
     ]
    },
@@ -612,25 +633,26 @@
       "name": "Zy.Enginar"
      },
      {
-      "key": "8636bfbc0a",
-      "name": "Pirinç Pilavı"
-     },
-     {
       "img": "dishes/86493234ae.jpg",
       "key": "86493234ae",
       "name": "Mercimekli Bulgur Pilavı"
      },
      {
-      "key": "79ded7ea04",
-      "name": "Havuç Tarator"
+      "key": "8636bfbc0a",
+      "name": "Pirinç Pilavı"
      },
      {
-      "key": "5f54f3a06f",
-      "name": "Çikolatalı Meyve Salatası"
+      "img": "dishes/99a67d4042.jpg",
+      "key": "99a67d4042",
+      "name": "Mevsim Salata"
      },
      {
       "key": "ce072af2f7",
       "name": "Portakallı Gazoz"
+     },
+     {
+      "key": "5f54f3a06f",
+      "name": "Çikolatalı Meyve Salatası"
      }
     ]
    }
@@ -768,6 +790,7 @@
       "name": "Börülce Salatası"
      },
      {
+      "img": "dishes/2e70342554.jpg",
       "key": "2e70342554",
       "name": "Ice Tea"
      },
@@ -1172,5 +1195,5 @@
   }
  },
  "university": "boun",
- "updated": "2026-10-05T12:46:17+03:00"
+ "updated": "2026-10-06T00:43:15+03:00"
 }
