@@ -60,7 +60,8 @@ class TemaAyari extends ChangeNotifier {
     if (mod == _mod) return;
     _mod = mod;
     notifyListeners();
-    await _kaydet(modAnahtari, _modlar.entries.firstWhere((e) => e.value == mod).key);
+    await _kaydet(
+        modAnahtari, _modlar.entries.firstWhere((e) => e.value == mod).key);
   }
 
   Future<void> renkSec(TemaRengi renk) async {

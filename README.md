@@ -97,6 +97,9 @@ python3 -m yemekhane.build                       # ../data klasörünü güncell
 6. Yeni okulun `data/<id>/` klasörü için `app/pubspec.yaml`'a `assets/data/<id>/` satırı ve `app/assets/data/` altına menü kopyası eklenir.
 
 ## Uygulama
+**Ana ekran:** seçili öğünün ana yemeği büyük fotoğraflı 'Bugünün yemeği' kartında öne çıkar (`models.dart` `anaYemek`: çorba/pilav/tatlı dışında, etli yemekler arasında kalorisi en yüksek);
+yemek küçük resimleri 76 px'tir ve dokununca büyür; menü yüklenirken iskelet ekran görünür; gün/öğün değişimi kayarak yumuşak geçer; okul listesi şehre göre gruplanır (Türkçe alfabe sırası).
+
 **Tema:** ana ekrandaki palet simgesi görünüm seçimini açar: Sistem/Açık/Koyu modu ve 7 vurgu rengi (turuncu varsayılan). Seçim cihazda saklanır (`app/lib/tema.dart`, `app/lib/screens/tema_secici.dart`).
 
 Flutter kurulumundan sonra: `cd app && flutter create . --project-name yemekhane --org com.tolga && flutter pub get && flutter run`

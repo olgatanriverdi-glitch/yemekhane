@@ -147,6 +147,10 @@ String isoTarih(DateTime d) =>
 String kucukTr(String s) =>
     s.replaceAll('İ', 'i').replaceAll('I', 'ı').toLowerCase();
 
+/// Türkçe'ye uygun büyük harfe çevirme (i -> İ, ı -> I).
+String buyukTr(String s) =>
+    s.replaceAll('i', 'İ').replaceAll('ı', 'I').toUpperCase();
+
 const _etAnahtar = [
   'et ',
   ' et',
@@ -198,4 +202,98 @@ bool etsizMi(String ad) {
     if (k.contains(a)) return false;
   }
   return true;
+}
+
+const _yanYemek = [
+  'çorba',
+  'ayran',
+  'salata',
+  'yoğurt',
+  'cacık',
+  'turşu',
+  'meyve',
+  'komposto',
+  'tatlı',
+  'baklava',
+  'sütlaç',
+  'puding',
+  'kek',
+  'helva',
+  'tulumba',
+  'revani',
+  'kadayıf',
+  'şekerpare',
+  'muhallebi',
+  'kazandibi',
+  'pasta',
+  'ekmek',
+  'içecek',
+  'meşrubat',
+  'dondurma',
+  'haydari',
+  'piyaz',
+  'tarator',
+  'ezme',
+  'kısır',
+  'pilav',
+  'makarna',
+  'erişte',
+  'spagetti',
+  'kuskus',
+  'bulgur',
+];
+
+/// Öğünün "ana yemeği": çorba olmayan etli/tavuklu/balıklı yemekler arasından (yoksa çorba, pilav, salata, tatlı gibi yan yemekler
+/// dışındakiler arasından) kalorisi en yüksek olan. Kalori yoksa ilk aday. Öğün boşsa null.
+YemekOgesi? anaYemek(Ogun o) {
+  final liste = o.ogeler;
+  if (liste.isEmpty) return null;
+  final etli = liste
+      .where((e) => !etsizMi(e.ad) && !kucukTr(e.ad).contains('çorba'))
+      .toList();
+  var havuz = etli;
+  if (havuz.isEmpty) {
+    havuz = liste.where((e) {
+      final k = kucukTr(e.ad);
+      return !_yanYemek.any(k.contains);
+    }).toList();
+  }
+  if (havuz.isEmpty) havuz = liste;
+  return havuz.reduce((a, b) => (b.kcal ?? -1) > (a.kcal ?? -1) ? b : a);
+}
+
+const _trAlfabe = 'abcçdefgğhıijklmnoöprsştuüvyz';
+
+/// Türkçe alfabe sırasına göre karşılaştırma (ç, ğ, ı, ö, ş, ü doğru yerde).
+int trKarsilastir(String a, String b) {
+  int sira(String ch) {
+    final i = _trAlfabe.indexOf(ch);
+    return i >= 0 ? i : 100 + ch.codeUnitAt(0);
+  }
+
+  final x = kucukTr(a), y = kucukTr(b);
+  for (var i = 0; i < x.length && i < y.length; i++) {
+    final fark = sira(x[i]) - sira(y[i]);
+    if (fark != 0) return fark;
+  }
+  return x.length - y.length;
+}
+
+/// Üniversite listesini şehre göre gruplar: şehirler ve her şehrin okulları Türkçe alfabe sırasında; şehri olmayanlar "Diğer" altında sona gider.
+List<MapEntry<String, List<Universite>>> sehreGoreGrupla(
+    List<Universite> uniler) {
+  final gruplar = <String, List<Universite>>{};
+  for (final u in uniler) {
+    gruplar.putIfAbsent(u.sehir.isEmpty ? 'Diğer' : u.sehir, () => []).add(u);
+  }
+  final sehirler = gruplar.keys.toList()
+    ..sort((a, b) {
+      if (a == 'Diğer') return 1;
+      if (b == 'Diğer') return -1;
+      return trKarsilastir(a, b);
+    });
+  return [
+    for (final s in sehirler)
+      MapEntry(s, gruplar[s]!..sort((a, b) => trKarsilastir(a.ad, b.ad)))
+  ];
 }

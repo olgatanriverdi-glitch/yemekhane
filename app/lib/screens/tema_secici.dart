@@ -88,10 +88,10 @@ class _RenkDugmesi extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final kontrast = ThemeData.estimateBrightnessForColor(renk.renk) ==
-            Brightness.dark
-        ? Colors.white
-        : Colors.black;
+    final kontrast =
+        ThemeData.estimateBrightnessForColor(renk.renk) == Brightness.dark
+            ? Colors.white
+            : Colors.black;
     final cerceve = secili
         ? BorderSide(color: Theme.of(context).colorScheme.onSurface, width: 3)
         : BorderSide.none;

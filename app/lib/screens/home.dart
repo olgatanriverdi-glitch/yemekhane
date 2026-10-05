@@ -6,6 +6,7 @@ import '../geri_bildirim.dart';
 import '../repository.dart';
 import '../tema.dart';
 import 'geri_bildirim.dart';
+import 'gun_bilesenleri.dart';
 import 'tema_secici.dart';
 import 'university_picker.dart';
 
@@ -39,6 +40,7 @@ class _AnaSayfaState extends State<AnaSayfa> {
   bool _yukleniyor = true;
   late String _tarih;
   String _ogun = 'lunch';
+  int _yon = 1; // gün geçişinin yönü (1 ileri, -1 geri): kayma animasyonu için
 
   @override
   void initState() {
@@ -91,6 +93,7 @@ class _AnaSayfaState extends State<AnaSayfa> {
   }
 
   void _gunSec(String t) => setState(() {
+        _yon = t.compareTo(_tarih) >= 0 ? 1 : -1;
         _tarih = t;
         _uygunOgunSec();
       });
@@ -131,7 +134,7 @@ class _AnaSayfaState extends State<AnaSayfa> {
         ],
       ),
       body: _yukleniyor
-          ? const Center(child: CircularProgressIndicator())
+          ? const YuklemeIskeleti()
           : _hata != null
               ? Center(
                   child: Column(mainAxisSize: MainAxisSize.min, children: [
@@ -142,6 +145,29 @@ class _AnaSayfaState extends State<AnaSayfa> {
                 ]))
               : _icerik(tema),
     );
+  }
+
+  /// Ana yemek kartının üstündeki etiket: 'Bugünün yemeği', 'Yarının yemeği', 'Bu akşamın yemeği'...
+  String _kartEtiketi(String bugun, String ogun) {
+    final fark =
+        DateTime.parse(_tarih).difference(DateTime.parse(bugun)).inDays;
+    if (ogun == 'breakfast') {
+      return fark == 0
+          ? 'Bugünün kahvaltısı'
+          : (fark == 1 ? 'Yarının kahvaltısı' : 'Günün kahvaltısı');
+    }
+    if (ogun == 'vegetarian') {
+      return fark == 0
+          ? 'Bugünün vejetaryen yemeği'
+          : (fark == 1
+              ? 'Yarının vejetaryen yemeği'
+              : 'Günün vejetaryen yemeği');
+    }
+    if (ogun == 'dinner' && fark == 0) return 'Bu akşamın yemeği';
+    if (ogun == 'dinner' && fark == 1) return 'Yarın akşamın yemeği';
+    return fark == 0
+        ? 'Bugünün yemeği'
+        : (fark == 1 ? 'Yarının yemeği' : 'Günün yemeği');
   }
 
   Widget _icerik(ThemeData tema) {
@@ -193,51 +219,72 @@ class _AnaSayfaState extends State<AnaSayfa> {
             }
             if (v > 250 && i > 0) _gunSec(tarihler[i - 1]);
           },
-          child: gun.isEmpty
-              ? _YemekYok(
-                  baslik: 'Bu gün yemek yok',
-                  alt: DateTime.parse(_tarih).weekday >= 6
-                      ? 'Hafta sonu yemekhane hizmeti verilmiyor.'
-                      : 'Okul bu gün için menü yayınlamadı.',
-                  ikon: DateTime.parse(_tarih).weekday >= 6
-                      ? Icons.weekend_outlined
-                      : Icons.no_meals_outlined)
-              : gun.values.every((o) => o.bos)
-                  // o gün hiçbir öğünde yemek yok (örn. tatil): tek, net bir mesaj
+          child: AnimatedSwitcher(
+            duration: const Duration(milliseconds: 260),
+            switchInCurve: Curves.easeOutCubic,
+            switchOutCurve: Curves.easeInCubic,
+            layoutBuilder: (current, onceki) => Stack(
+                fit: StackFit.expand,
+                children: [...onceki, if (current != null) current]),
+            transitionBuilder: (child, animasyon) => FadeTransition(
+              opacity: animasyon,
+              child: SlideTransition(
+                position: Tween<Offset>(
+                        begin: Offset(0.06 * _yon, 0), end: Offset.zero)
+                    .animate(animasyon),
+                child: child,
+              ),
+            ),
+            child: KeyedSubtree(
+              key: ValueKey('${_uni!.id}/$_tarih/$aktif'),
+              child: gun.isEmpty
                   ? _YemekYok(
-                      baslik: gun.values
-                              .map((o) => o.not)
-                              .whereType<String>()
-                              .firstOrNull ??
-                          'Bu gün yemek yok',
-                      alt: 'Bu gün yemekhane hizmeti verilmiyor.',
-                      ikon: Icons.celebration_outlined)
-                  : ogun == null || ogun.bos
-                      ? (ogun?.not != null
-                          ? _YemekYok(
-                              baslik: ogun!.not!,
-                              alt:
-                                  'Bu gün ${_ogunAdlari[aktif]?.toLowerCase() ?? ''} yemeği yok.',
-                              ikon: Icons.celebration_outlined)
-                          : aktif == 'vegetarian'
-                              ? _EtsizOneri(gun: gun)
-                              : _YemekYok(
-                                  baslik:
-                                      'Bu gün ${_ogunAdlari[aktif]?.toLowerCase() ?? ''} yemeği yok',
-                                  alt: DateTime.parse(_tarih).weekday >= 6
-                                      ? 'Hafta sonu bu öğün verilmiyor.'
-                                      : 'Okul bu öğün için menü yayınlamadı.',
-                                  ikon: Icons.no_meals_outlined))
-                      : _OgunKarti(
-                          ogun: ogun,
-                          fiyat: _uni!.ogrenciFiyati(aktif),
-                          fotoUrl: _depo.fotoUrl(_uni!.id, ogun.foto),
-                          fotoYaklasik: ogun.fotoYaklasik,
-                          saat: _uni!.saat(aktif),
-                          uniId: _uni!.id,
-                          yemekFoto: _depo.yemekFotoUrl,
-                          geriBildirim: _geriBildirim,
-                          slot: slotKimligi(_uni!.id, _tarih, aktif)),
+                      baslik: 'Bu gün yemek yok',
+                      alt: DateTime.parse(_tarih).weekday >= 6
+                          ? 'Hafta sonu yemekhane hizmeti verilmiyor.'
+                          : 'Okul bu gün için menü yayınlamadı.',
+                      ikon: DateTime.parse(_tarih).weekday >= 6
+                          ? Icons.weekend_outlined
+                          : Icons.no_meals_outlined)
+                  : gun.values.every((o) => o.bos)
+                      // o gün hiçbir öğünde yemek yok (örn. tatil): tek, net bir mesaj
+                      ? _YemekYok(
+                          baslik: gun.values
+                                  .map((o) => o.not)
+                                  .whereType<String>()
+                                  .firstOrNull ??
+                              'Bu gün yemek yok',
+                          alt: 'Bu gün yemekhane hizmeti verilmiyor.',
+                          ikon: Icons.celebration_outlined)
+                      : ogun == null || ogun.bos
+                          ? (ogun?.not != null
+                              ? _YemekYok(
+                                  baslik: ogun!.not!,
+                                  alt:
+                                      'Bu gün ${_ogunAdlari[aktif]?.toLowerCase() ?? ''} yemeği yok.',
+                                  ikon: Icons.celebration_outlined)
+                              : aktif == 'vegetarian'
+                                  ? _EtsizOneri(gun: gun)
+                                  : _YemekYok(
+                                      baslik:
+                                          'Bu gün ${_ogunAdlari[aktif]?.toLowerCase() ?? ''} yemeği yok',
+                                      alt: DateTime.parse(_tarih).weekday >= 6
+                                          ? 'Hafta sonu bu öğün verilmiyor.'
+                                          : 'Okul bu öğün için menü yayınlamadı.',
+                                      ikon: Icons.no_meals_outlined))
+                          : _OgunKarti(
+                              ogun: ogun,
+                              fiyat: _uni!.ogrenciFiyati(aktif),
+                              fotoUrl: _depo.fotoUrl(_uni!.id, ogun.foto),
+                              fotoYaklasik: ogun.fotoYaklasik,
+                              saat: _uni!.saat(aktif),
+                              uniId: _uni!.id,
+                              yemekFoto: _depo.yemekFotoUrl,
+                              geriBildirim: _geriBildirim,
+                              slot: slotKimligi(_uni!.id, _tarih, aktif),
+                              baslik: _kartEtiketi(bugun, aktif)),
+            ),
+          ),
         ),
       ),
       if (menu.guncellendi != null)
@@ -440,8 +487,10 @@ class _OgunKarti extends StatefulWidget {
   final GeriBildirimDeposu geriBildirim;
   final String slot;
   final String uniId;
+  final String baslik;
   const _OgunKarti(
-      {required this.ogun,
+      {required this.baslik,
+      required this.ogun,
       this.fiyat,
       this.saat,
       this.fotoUrl,
@@ -587,46 +636,17 @@ class _OgunKartiState extends State<_OgunKarti> {
     return ListView(
       padding: const EdgeInsets.all(16),
       children: [
-        if (widget.fotoUrl != null)
-          Padding(
-            padding: const EdgeInsets.only(bottom: 12),
-            child: ClipRRect(
-              borderRadius: BorderRadius.circular(24),
-              child: AspectRatio(
-                aspectRatio: 3 / 2,
-                child: Stack(fit: StackFit.expand, children: [
-                  Image.network(
-                    widget.fotoUrl!,
-                    fit: BoxFit.cover,
-                    loadingBuilder: (c, child, p) => p == null
-                        ? child
-                        : Container(
-                            color: tema.colorScheme.surfaceContainerHighest,
-                            child: const Center(
-                                child: CircularProgressIndicator())),
-                    errorBuilder: (c, e, s) => Container(
-                        color: tema.colorScheme.surfaceContainerHighest,
-                        child: const Center(
-                            child: Icon(Icons.restaurant, size: 40))),
-                  ),
-                  if (widget.fotoYaklasik)
-                    Positioned(
-                      left: 10,
-                      bottom: 10,
-                      child: Container(
-                        padding: const EdgeInsets.symmetric(
-                            horizontal: 10, vertical: 5),
-                        decoration: BoxDecoration(
-                            color: Colors.black.withValues(alpha: 0.6),
-                            borderRadius: BorderRadius.circular(20)),
-                        child: const Text('Örnek fotoğraf · benzer menü',
-                            style:
-                                TextStyle(color: Colors.white, fontSize: 12)),
-                      ),
-                    ),
-                ]),
-              ),
-            ),
+        if (anaYemek(ogun) != null)
+          GununYemegiKarti(
+            etiket: widget.baslik,
+            ana: anaYemek(ogun)!,
+            fotoUrl: widget.fotoUrl ?? widget.yemekFoto(anaYemek(ogun)!.img),
+            tabldotFoto: widget.fotoUrl != null,
+            fotoYaklasik: widget.fotoYaklasik,
+            toplamKcal: ogun.kcal,
+            puan: anaYemek(ogun)!.anahtar != null
+                ? _puanSatiri(anaYemek(ogun)!)
+                : null,
           ),
         Card(
           elevation: 0,
@@ -641,7 +661,7 @@ class _OgunKartiState extends State<_OgunKarti> {
                 Padding(
                   padding: const EdgeInsets.symmetric(vertical: 8),
                   child: Row(children: [
-                    _YemekResmi(url: widget.yemekFoto(o.img)),
+                    _YemekResmi(url: widget.yemekFoto(o.img), baslik: o.ad),
                     const SizedBox(width: 12),
                     Expanded(
                         child: Column(
@@ -703,7 +723,8 @@ class _OgunKartiState extends State<_OgunKarti> {
 /// Yemek satırının başındaki küçük yuvarlak fotoğraf; yoksa ya da yüklenemezse sade bir yer tutucu.
 class _YemekResmi extends StatelessWidget {
   final String? url;
-  const _YemekResmi({this.url});
+  final String baslik;
+  const _YemekResmi({this.url, this.baslik = ''});
 
   @override
   Widget build(BuildContext context) {
@@ -711,21 +732,25 @@ class _YemekResmi extends StatelessWidget {
     final yerTutucu = Container(
       color: tema.colorScheme.surfaceContainerHighest,
       child: Icon(Icons.restaurant_menu_outlined,
-          size: 20, color: tema.colorScheme.onSurfaceVariant),
+          size: 28, color: tema.colorScheme.onSurfaceVariant),
     );
     return ClipRRect(
-      borderRadius: BorderRadius.circular(14),
+      borderRadius: BorderRadius.circular(18),
       child: SizedBox(
-        width: 48,
-        height: 48,
+        width: 76,
+        height: 76,
         child: url == null
             ? yerTutucu
-            : Image.network(
-                url!,
-                fit: BoxFit.cover,
-                cacheWidth: 144,
-                errorBuilder: (c, e, s) => yerTutucu,
-                loadingBuilder: (c, child, p) => p == null ? child : yerTutucu,
+            : InkWell(
+                onTap: () => fotoAc(context, url!, baslik),
+                child: Image.network(
+                  url!,
+                  fit: BoxFit.cover,
+                  cacheWidth: 228,
+                  errorBuilder: (c, e, s) => yerTutucu,
+                  loadingBuilder: (c, child, p) =>
+                      p == null ? child : yerTutucu,
+                ),
               ),
       ),
     );

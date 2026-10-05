@@ -43,7 +43,8 @@ void main() {
     expect(ayar.renk.kimlik, 'turuncu');
   });
 
-  test('seçim değişince dinleyenler bir kez haberdar edilir, aynı seçim sessizdir',
+  test(
+      'seçim değişince dinleyenler bir kez haberdar edilir, aynı seçim sessizdir',
       () async {
     final ayar = TemaAyari();
     var sayac = 0;
@@ -68,8 +69,8 @@ void main() {
 
   testWidgets('seçici: mod ve renk seçilince ayar güncellenir', (tester) async {
     final ayar = TemaAyari();
-    await tester.pumpWidget(MaterialApp(
-        home: Scaffold(body: TemaSecici(ayar: ayar))));
+    await tester
+        .pumpWidget(MaterialApp(home: Scaffold(body: TemaSecici(ayar: ayar))));
     expect(find.text('Görünüm'), findsOneWidget);
     expect(find.text('Sistem'), findsOneWidget);
 

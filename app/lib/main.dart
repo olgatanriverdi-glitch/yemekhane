@@ -6,7 +6,8 @@ import 'tema.dart';
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
   final ayar = TemaAyari();
-  await ayar.yukle(); // kayıtlı tema ilk karede uygulansın (varsayılan renkle yanıp sönmesin)
+  await ayar
+      .yukle(); // kayıtlı tema ilk karede uygulansın (varsayılan renkle yanıp sönmesin)
   runApp(YemekhaneApp(ayar: ayar));
 }
 
