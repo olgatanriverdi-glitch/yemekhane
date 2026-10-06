@@ -994,6 +994,7 @@
       "name": "Pirinç Pilavı"
      },
      {
+      "img": "dishes/97a7f04327.jpg",
       "key": "97a7f04327",
       "name": "Piyaz"
      },
@@ -1015,6 +1016,7 @@
       "name": "Pirinç Pilavı"
      },
      {
+      "img": "dishes/97a7f04327.jpg",
       "key": "97a7f04327",
       "name": "Piyaz"
      },
@@ -1207,5 +1209,5 @@
   }
  },
  "university": "deu",
- "updated": "2026-10-06T12:33:21+03:00"
+ "updated": "2026-10-06T22:53:53+03:00"
 }

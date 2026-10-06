@@ -39,6 +39,7 @@
       "name": "Domates Çorba"
      },
      {
+      "img": "dishes/32b33057f9.jpg",
       "key": "32b33057f9",
       "name": "Patates Musakka"
      },
@@ -146,6 +147,7 @@
       "name": "Tel Şehriye Çorba"
      },
      {
+      "img": "dishes/e957fd7de3.jpg",
       "key": "e957fd7de3",
       "name": "Kuru Dolma"
      },
@@ -182,6 +184,7 @@
       "name": "Tavuk Şiş"
      },
      {
+      "img": "dishes/77abab963d.jpg",
       "key": "77abab963d",
       "name": "Lavaş"
      },
@@ -235,6 +238,7 @@
       "name": "Köri Soslu Tavuk"
      },
      {
+      "img": "dishes/0821c58a44.jpg",
       "key": "0821c58a44",
       "name": "Parmak Patates"
      },
@@ -269,6 +273,7 @@
       "name": "Pirinç Pilavı"
      },
      {
+      "img": "dishes/c2650f6f42.jpg",
       "key": "c2650f6f42",
       "name": "Kuru Meyveli Muhallebi"
      }
@@ -311,10 +316,12 @@
       "name": "Mercimek Çorba"
      },
      {
+      "img": "dishes/003ff15abd.jpg",
       "key": "003ff15abd",
       "name": "Şehriyeli Etli Güveç"
      },
      {
+      "img": "dishes/f06ea6287d.jpg",
       "key": "f06ea6287d",
       "name": "Yoğurtlu Karışık Kızartma"
      },
@@ -346,6 +353,7 @@
       "name": "Barbunya Pilaki"
      },
      {
+      "img": "dishes/afebc72602.jpg",
       "key": "afebc72602",
       "name": "Çiğ Köfte"
      }
@@ -362,6 +370,7 @@
       "name": "Mercimek Çorba"
      },
      {
+      "img": "dishes/c7cadac826.jpg",
       "key": "c7cadac826",
       "name": "Bahçıvan Kebabı"
      },
@@ -420,6 +429,7 @@
       "name": "Rosto Köfte"
      },
      {
+      "img": "dishes/1bc5d6ef75.jpg",
       "key": "1bc5d6ef75",
       "name": "Püre"
      },
@@ -450,10 +460,12 @@
       "name": "Tavuk Tantuni"
      },
      {
+      "img": "dishes/77abab963d.jpg",
       "key": "77abab963d",
       "name": "Lavaş"
      },
      {
+      "img": "dishes/97a7f04327.jpg",
       "key": "97a7f04327",
       "name": "Piyaz"
      },
@@ -503,6 +515,7 @@
       "name": "Tavuk Şiş"
      },
      {
+      "img": "dishes/77abab963d.jpg",
       "key": "77abab963d",
       "name": "Lavaş"
      },
@@ -540,6 +553,7 @@
       "name": "Et Döner"
      },
      {
+      "img": "dishes/0821c58a44.jpg",
       "key": "0821c58a44",
       "name": "Parmak Patates"
      },
@@ -558,5 +572,5 @@
   }
  },
  "university": "msgsu",
- "updated": "2026-10-06T12:33:21+03:00"
+ "updated": "2026-10-06T22:53:53+03:00"
 }

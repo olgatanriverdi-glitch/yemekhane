@@ -451,6 +451,7 @@
       "name": "Fesleğenli Domates Çorba"
      },
      {
+      "img": "dishes/d7a96da313.jpg",
       "kcal": 272,
       "key": "d7a96da313",
       "name": "Patlıcan Kebap"
@@ -604,11 +605,13 @@
       "name": "Kıymalı Kapuska"
      },
      {
+      "img": "dishes/1f5ebfb95e.jpg",
       "kcal": 310,
       "key": "1f5ebfb95e",
       "name": "Kaşarlı Makarna"
      },
      {
+      "img": "dishes/c914dabbd7.jpg",
       "kcal": 470,
       "key": "c914dabbd7",
       "name": "Tel Kadayıf"
@@ -627,6 +630,7 @@
       "name": "Domates Çorba"
      },
      {
+      "img": "dishes/ebf998b1b8.jpg",
       "kcal": 370,
       "key": "ebf998b1b8",
       "name": "Tavuklu Tepsi Kebabı"
@@ -648,5 +652,5 @@
   }
  },
  "university": "gsu",
- "updated": "2026-10-06T12:33:21+03:00"
+ "updated": "2026-10-06T22:53:53+03:00"
 }

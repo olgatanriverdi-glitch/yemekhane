@@ -1,5 +1,14 @@
 {
  "dishes": {
+  "003ff15abd": {
+   "baslik": "Turlu guvec.jpg",
+   "kaynak": "Wikimedia Commons",
+   "lisans": "CC BY-SA 4.0",
+   "name": "Şehriyeli Etli Güveç",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Turlu_guvec.jpg",
+   "sorgu": "Şehriyeli Etli Güveç",
+   "yazar": "E4024"
+  },
   "01251ac5c0": {
    "baslik": "Dana haşlama (Black Sea cuisine).jpg",
    "kaynak": "Wikimedia Commons",
@@ -63,6 +72,15 @@
    "sorgu": "Kadınbudu Köfte",
    "yazar": "E4024"
   },
+  "05b304ca1b": {
+   "baslik": "Tas kebabi.jpg",
+   "kaynak": "Wikimedia Commons",
+   "lisans": "CC BY-SA 4.0",
+   "name": "Püreli Tas Kebabı",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Tas_kebabi.jpg",
+   "sorgu": "Tas Kebabı",
+   "yazar": "E4024"
+  },
   "063b562724": {
    "baslik": "Zeytinyagli Enginar.jpg",
    "kaynak": "Wikimedia Commons",
@@ -98,6 +116,15 @@
    "sayfa": "https://commons.wikimedia.org/wiki/File:Doner_Kebab,_sols_carn_i_lletuga..jpg",
    "sorgu": "Et Döner",
    "yazar": "Francesc Fort"
+  },
+  "0821c58a44": {
+   "baslik": "Turkish köfte and fries.jpg",
+   "kaynak": "Wikimedia Commons",
+   "lisans": "CC BY-SA 4.0",
+   "name": "Parmak Patates",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Turkish_k%C3%B6fte_and_fries.jpg",
+   "sorgu": "Parmak Patates",
+   "yazar": "E4024"
   },
   "085e645d66": {
    "baslik": "Bira ve çoban salata.jpg",
@@ -405,6 +432,15 @@
    "sorgu": "Yumurtalı Ispanak",
    "yazar": "lezzetcatering.com"
   },
+  "1bc5d6ef75": {
+   "baslik": "Pure 5.JPG",
+   "kaynak": "Wikimedia Commons",
+   "lisans": "CC BY-SA 3.0",
+   "name": "Püre",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Pure_5.JPG",
+   "sorgu": "Püre",
+   "yazar": "No machine-readable author provided. Adri08 assumed (based on copyright claims)."
+  },
   "1d16892cbf": {
    "baslik": "Etsiz taze fasulye.jpg",
    "kaynak": "Wikimedia Commons",
@@ -467,6 +503,15 @@
    "sayfa": "https://commons.wikimedia.org/wiki/File:Orman_kebab%C4%B1_in_Ankara.jpg",
    "sorgu": "Orman Kebabı",
    "yazar": "E4024"
+  },
+  "1f5ebfb95e": {
+   "baslik": "Spaghetti (53257476437) (cropped).png",
+   "kaynak": "Wikimedia Commons",
+   "lisans": "CC BY 3.0",
+   "name": "Kaşarlı Makarna",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Spaghetti_(53257476437)_(cropped).png",
+   "sorgu": "Spaghetti",
+   "yazar": "Choo Yut Shing"
   },
   "1f6a358896": {
    "baslik": "Tel kadayıf production.jpg",
@@ -819,6 +864,15 @@
    "sorgu": "Mevsim Salatası",
    "yazar": "E4024"
   },
+  "32b33057f9": {
+   "baslik": "Patates-patlıcan oturtma.jpg",
+   "kaynak": "Wikimedia Commons",
+   "lisans": "CC BY-SA 4.0",
+   "name": "Patates Musakka",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Patates-patl%C4%B1can_oturtma.jpg",
+   "sorgu": "Patates Musakka",
+   "yazar": "E4024"
+  },
   "3543c91e67": {
    "baslik": "Hasanpaşa köfte and Turkish pilav.jpg",
    "kaynak": "Wikimedia Commons",
@@ -827,6 +881,15 @@
    "sayfa": "https://commons.wikimedia.org/wiki/File:Hasanpa%C5%9Fa_k%C3%B6fte_and_Turkish_pilav.jpg",
    "sorgu": "Hasanpaşa Köfte",
    "yazar": "E4024"
+  },
+  "360275e0df": {
+   "baslik": "Lor Tatlısı and Mastic Ice Cream.jpg",
+   "kaynak": "Wikimedia Commons",
+   "lisans": "CC0",
+   "name": "Lor Tatlısı",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Lor_Tatl%C4%B1s%C4%B1_and_Mastic_Ice_Cream.jpg",
+   "sorgu": "Lor Tatlısı",
+   "yazar": "SutKartonu"
   },
   "3617fa4e71": {
    "baslik": "Mamzanas beautiful trees.jpg",
@@ -1143,6 +1206,15 @@
    "sorgu": "Hayrabolu Tatlısı",
    "yazar": "Harald the Bard"
   },
+  "4b7ce2cf2a": {
+   "baslik": "Kuru köfte ve pilav.jpg",
+   "kaynak": "Wikimedia Commons",
+   "lisans": "CC BY-SA 4.0",
+   "name": "Garnitürlü Kuru Köfte",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Kuru_k%C3%B6fte_ve_pilav.jpg",
+   "sorgu": "Kuru Köfte",
+   "yazar": "E4024"
+  },
   "4c4293f14a": {
    "baslik": "Kapuska.jpg",
    "kaynak": "Wikimedia Commons",
@@ -1458,6 +1530,15 @@
    "sorgu": "Kalburabastı",
    "yazar": "Miomir Magdevski"
   },
+  "5f6d2c8223": {
+   "baslik": "Hasanpaşa köfte and Turkish pilav.jpg",
+   "kaynak": "Wikimedia Commons",
+   "lisans": "CC BY-SA 4.0",
+   "name": "Püreli Hasanpaşa Köfte",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Hasanpa%C5%9Fa_k%C3%B6fte_and_Turkish_pilav.jpg",
+   "sorgu": "Hasanpaşa Köfte",
+   "yazar": "E4024"
+  },
   "5faf1b0081": {
    "baslik": "Mercimek çorbasi.jpg",
    "kaynak": "Wikimedia Commons",
@@ -1683,6 +1764,15 @@
    "sorgu": "Kereviz",
    "yazar": "E4024"
   },
+  "712effcf50": {
+   "baslik": "Patlıcan islim kebabı.jpg",
+   "kaynak": "Wikimedia Commons",
+   "lisans": "CC BY-SA 4.0",
+   "name": "Patlıcan Kebabı",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Patl%C4%B1can_islim_kebab%C4%B1.jpg",
+   "sorgu": "Patlıcan Kebabı",
+   "yazar": "E4024"
+  },
   "7144976785": {
    "baslik": "Sosis bakar.jpg",
    "kaynak": "Wikimedia Commons",
@@ -1718,6 +1808,15 @@
    "sayfa": "https://commons.wikimedia.org/wiki/File:02021_0652_(1)_Kuskus_with_baked_salmon_and_vegetable.jpg",
    "sorgu": "Kuskus",
    "yazar": "Silar"
+  },
+  "73f2c97485": {
+   "baslik": "İskender kebap in Bursa, Turkey - 20070422.jpg",
+   "kaynak": "Wikimedia Commons",
+   "lisans": "CC BY-SA 3.0",
+   "name": "İskender Döner",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:%C4%B0skender_kebap_in_Bursa,_Turkey_-_20070422.jpg",
+   "sorgu": "İskender Döner",
+   "yazar": "Eaeeae (Hakkı Arıkan)."
   },
   "744be7f4f9": {
    "baslik": "Spaghetti (53257476437) (cropped).png",
@@ -1781,6 +1880,15 @@
    "sayfa": "https://commons.wikimedia.org/wiki/File:Spaghetti_(53257476437)_(cropped).png",
    "sorgu": "Spaghetti",
    "yazar": "Choo Yut Shing"
+  },
+  "77abab963d": {
+   "baslik": "Lavash preparation.jpg",
+   "kaynak": "Wikimedia Commons",
+   "lisans": "CC BY 4.0",
+   "name": "Lavaş",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Lavash_preparation.jpg",
+   "sorgu": "Lavaş",
+   "yazar": "Alessandro Bezzi"
   },
   "7819d0a412": {
    "baslik": "Spaghetti (53257476437) (cropped).png",
@@ -2043,6 +2151,15 @@
    "sorgu": "Yoğurt Çorba",
    "yazar": "E4024"
   },
+  "8c127460d6": {
+   "baslik": "Tavuklu şehriye çorbası.jpg",
+   "kaynak": "Wikimedia Commons",
+   "lisans": "CC BY-SA 4.0",
+   "name": "Domates Şehriye Çorbası",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Tavuklu_%C5%9Fehriye_%C3%A7orbas%C4%B1.jpg",
+   "sorgu": "Şehriye Çorbası",
+   "yazar": "E4024"
+  },
   "8c4e1b80b1": {
    "baslik": "Kabak kalye.jpg",
    "kaynak": "Wikimedia Commons",
@@ -2142,6 +2259,15 @@
    "sorgu": "Cheesecake",
    "yazar": "Ocdp"
   },
+  "95c276698d": {
+   "baslik": "Kremalı sebze çorbası.jpg",
+   "kaynak": "Wikimedia Commons",
+   "lisans": "CC BY-SA 4.0",
+   "name": "Kremalı Sebze Çorbası",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Kremal%C4%B1_sebze_%C3%A7orbas%C4%B1.jpg",
+   "sorgu": "Kremalı Sebze Çorbası",
+   "yazar": "E4024"
+  },
   "963385cde3": {
    "baslik": "Acılı Ezme.jpg",
    "kaynak": "Wikimedia Commons",
@@ -2159,6 +2285,15 @@
    "sayfa": "https://commons.wikimedia.org/wiki/File:Turkish_muhallebi.jpg",
    "sorgu": "Muhallebi",
    "yazar": "E4024"
+  },
+  "97a7f04327": {
+   "baslik": "Piyaz 01.jpg",
+   "kaynak": "Wikimedia Commons",
+   "lisans": "Public domain",
+   "name": "Piyaz",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Piyaz_01.jpg",
+   "sorgu": "Piyaz",
+   "yazar": "Chapultepec"
   },
   "9814c6dc58": {
    "baslik": "Mandarin Oranges (Citrus Reticulata).jpg",
@@ -2646,6 +2781,15 @@
    "sorgu": "Spaghetti",
    "yazar": "Choo Yut Shing"
   },
+  "afebc72602": {
+   "baslik": "Turkish çiğ köfte.jpg",
+   "kaynak": "Wikimedia Commons",
+   "lisans": "CC BY-SA 4.0",
+   "name": "Çiğ Köfte",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Turkish_%C3%A7i%C4%9F_k%C3%B6fte.jpg",
+   "sorgu": "Çiğ Köfte",
+   "yazar": "E4024"
+  },
   "b0585b264d": {
    "baslik": "Taze fasulye yemeği.jpg",
    "kaynak": "Wikimedia Commons",
@@ -2745,6 +2889,15 @@
    "sorgu": "Kemalpaşa Tatlısı",
    "yazar": "E4024"
   },
+  "ba724a9a6d": {
+   "baslik": "Yogurt soup (yayla çorba).jpg",
+   "kaynak": "Wikimedia Commons",
+   "lisans": "CC BY-SA 4.0",
+   "name": "Yoğurt Çorbası",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Yogurt_soup_(yayla_%C3%A7orba).jpg",
+   "sorgu": "Yoğurt Çorbası",
+   "yazar": "E4024"
+  },
   "bac7d91091": {
    "baslik": "Spaghetti (53257476437) (cropped).png",
    "kaynak": "Wikimedia Commons",
@@ -2763,6 +2916,15 @@
    "sorgu": "Kol Böreği",
    "yazar": "E4024"
   },
+  "bcafe51e20": {
+   "baslik": "Peynirli börek.jpg",
+   "kaynak": "Wikimedia Commons",
+   "lisans": "CC BY-SA 4.0",
+   "name": "Peynirli Börek",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Peynirli_b%C3%B6rek.jpg",
+   "sorgu": "Peynirli Börek",
+   "yazar": "E4024"
+  },
   "bd01ecb31b": {
    "baslik": "Kapuska.jpg",
    "kaynak": "Wikimedia Commons",
@@ -2771,6 +2933,15 @@
    "sayfa": "https://commons.wikimedia.org/wiki/File:Kapuska.jpg",
    "sorgu": "Kapuska",
    "yazar": "E4024"
+  },
+  "bd07b81556": {
+   "baslik": "-Tire Köftesi Set Menü- Tire Meatball Menu.JPG",
+   "kaynak": "Wikimedia Commons",
+   "lisans": "CC BY-SA 3.0",
+   "name": "Tire Köfte",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:-Tire_K%C3%B6ftesi_Set_Men%C3%BC-_Tire_Meatball_Menu.JPG",
+   "sorgu": "Tire Köfte",
+   "yazar": "Cevdetcabbar"
   },
   "bd571c7d2a": {
    "baslik": "Tavuk fırın - Ankara.jpg",
@@ -2862,6 +3033,15 @@
    "sorgu": "Erik",
    "yazar": "Erik Werenskiold"
   },
+  "c2650f6f42": {
+   "baslik": "Meyveli muhallebi.jpg",
+   "kaynak": "Wikimedia Commons",
+   "lisans": "CC BY-SA 4.0",
+   "name": "Kuru Meyveli Muhallebi",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Meyveli_muhallebi.jpg",
+   "sorgu": "Meyveli Muhallebi",
+   "yazar": "E4024"
+  },
   "c2cb7fa47d": {
    "baslik": "Şöbiyet Baklava.jpg",
    "kaynak": "Wikimedia Commons",
@@ -2943,6 +3123,15 @@
    "sorgu": "Niğde Gazozu",
    "yazar": "E4024"
   },
+  "c7cadac826": {
+   "baslik": "Bahcivan-kebabi.jpg",
+   "kaynak": "Wikimedia Commons",
+   "lisans": "CC BY-SA 4.0",
+   "name": "Bahçıvan Kebabı",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Bahcivan-kebabi.jpg",
+   "sorgu": "Bahçıvan Kebabı",
+   "yazar": "Mence"
+  },
   "c83e938fef": {
    "baslik": "AŞLAMA MANTISI 2014-04-22.jpg",
    "kaynak": "Wikimedia Commons",
@@ -2959,6 +3148,15 @@
    "name": "Fesleğenli Domates Çorba",
    "sayfa": "https://commons.wikimedia.org/wiki/File:Domates_%C3%A7orba.jpg",
    "sorgu": "Domates Çorba",
+   "yazar": "E4024"
+  },
+  "c914dabbd7": {
+   "baslik": "Tel kadayıf production.jpg",
+   "kaynak": "Wikimedia Commons",
+   "lisans": "CC BY-SA 4.0",
+   "name": "Tel Kadayıf",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Tel_kaday%C4%B1f_production.jpg",
+   "sorgu": "Tel Kadayıf",
    "yazar": "E4024"
   },
   "c94ea723fe": {
@@ -3114,6 +3312,15 @@
    "sorgu": "Çoban Kavurma",
    "yazar": "E4024"
   },
+  "d262447f9d": {
+   "baslik": "Köfte-patates, salad and hot sauce.jpg",
+   "kaynak": "Wikimedia Commons",
+   "lisans": "CC BY-SA 4.0",
+   "name": "Fırın Köfte Patates",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:K%C3%B6fte-patates,_salad_and_hot_sauce.jpg",
+   "sorgu": "Köfte Patates",
+   "yazar": "E4024"
+  },
   "d35dd703ba": {
    "baslik": "Kapuska.jpg",
    "kaynak": "Wikimedia Commons",
@@ -3139,6 +3346,15 @@
    "name": "Kremalı Domates Çorba",
    "sayfa": "https://commons.wikimedia.org/wiki/File:Domates_%C3%A7orba.jpg",
    "sorgu": "Domates Çorba",
+   "yazar": "E4024"
+  },
+  "d7a96da313": {
+   "baslik": "Patlıcan kebap and company.jpg",
+   "kaynak": "Wikimedia Commons",
+   "lisans": "CC BY-SA 4.0",
+   "name": "Patlıcan Kebap",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Patl%C4%B1can_kebap_and_company.jpg",
+   "sorgu": "Patlıcan Kebap",
    "yazar": "E4024"
   },
   "d85eae33cf": {
@@ -3393,6 +3609,15 @@
    "sorgu": "Spaghetti",
    "yazar": "Choo Yut Shing"
   },
+  "e957fd7de3": {
+   "baslik": "Kuru dolma 2023.jpg",
+   "kaynak": "Wikimedia Commons",
+   "lisans": "CC BY-SA 4.0",
+   "name": "Kuru Dolma",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Kuru_dolma_2023.jpg",
+   "sorgu": "Kuru Dolma",
+   "yazar": "Samizambak"
+  },
   "e95d861d8f": {
    "baslik": "Nohut yahni.jpg",
    "kaynak": "Wikimedia Commons",
@@ -3428,6 +3653,15 @@
    "sayfa": "https://commons.wikimedia.org/wiki/File:Nebie_Kabak_(48NS).png",
    "sorgu": "Kabak",
    "yazar": "Unknown authorUnknown author"
+  },
+  "ebf998b1b8": {
+   "baslik": "Tepsi kebap.jpg",
+   "kaynak": "Wikimedia Commons",
+   "lisans": "CC BY-SA 4.0",
+   "name": "Tavuklu Tepsi Kebabı",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Tepsi_kebap.jpg",
+   "sorgu": "Tepsi Kebabı",
+   "yazar": "E4024"
   },
   "ebfeabaf2c": {
    "baslik": "Peynirli poğaça in Ankara.jpg",
@@ -3491,6 +3725,15 @@
    "sayfa": "https://commons.wikimedia.org/wiki/File:Spaghetti_(53257476437)_(cropped).png",
    "sorgu": "Spaghetti",
    "yazar": "Choo Yut Shing"
+  },
+  "f06ea6287d": {
+   "baslik": "Karışık kızartma.jpg",
+   "kaynak": "Wikimedia Commons",
+   "lisans": "CC BY-SA 4.0",
+   "name": "Yoğurtlu Karışık Kızartma",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Kar%C4%B1%C5%9F%C4%B1k_k%C4%B1zartma.jpg",
+   "sorgu": "Karışık Kızartma",
+   "yazar": "E4024"
   },
   "f110121a07": {
    "baslik": "Spaghetti (53257476437) (cropped).png",
@@ -3754,20 +3997,24 @@
   "0b8510d8e8": "2026-10-03",
   "0df0391a03": "2026-10-06",
   "0fddc05415": "2026-10-05",
+  "0fe284c548": "2026-10-06",
   "103ad30904": "2026-10-06",
   "1045cf4872": "2026-10-05",
   "104c039755": "2026-10-05",
   "10e06e3044": "2026-10-03",
+  "11f15e7adb": "2026-10-06",
   "124297d670": "2026-10-05",
   "1260560f1e": "2026-10-06",
   "1268937c0d": "2026-10-03",
   "140cc9bb4c": "2026-10-05",
   "14a0312744": "2026-10-04",
   "153994bca2": "2026-10-04",
+  "1677e526cb": "2026-10-06",
   "1745c59a73": "2026-10-04",
   "175cc9ed30": "2026-10-05",
   "1778526b5c": "2026-10-04",
   "177a453af1": "2026-10-04",
+  "17a6f3b023": "2026-10-06",
   "1a817ec3d4": "2026-10-03",
   "1adc846128": "2026-10-06",
   "1b8d128905": "2026-10-05",
@@ -3781,6 +4028,7 @@
   "1f6954870e": "2026-10-06",
   "1fcc6d6120": "2026-10-06",
   "1ff73f45dc": "2026-10-03",
+  "2022863e61": "2026-10-06",
   "20754d757a": "2026-10-06",
   "20a36296ca": "2026-10-04",
   "21092f516b": "2026-10-06",
@@ -3791,6 +4039,7 @@
   "22e6ede5a4": "2026-10-04",
   "24fb1421f0": "2026-10-03",
   "255a40beee": "2026-10-03",
+  "263edd5439": "2026-10-06",
   "2987a8a6ea": "2026-10-06",
   "2a57ab16da": "2026-10-05",
   "2b1abf323c": "2026-10-03",
@@ -3801,6 +4050,7 @@
   "2c97844142": "2026-10-06",
   "2cefb626dd": "2026-10-05",
   "2da1201da2": "2026-10-05",
+  "2eb969fa8d": "2026-10-06",
   "2f2a945fb8": "2026-10-03",
   "2f47dfc743": "2026-10-05",
   "2f48dae569": "2026-10-04",
@@ -3808,9 +4058,11 @@
   "3097d10d18": "2026-10-04",
   "30a3126a63": "2026-10-04",
   "30e2ac32ea": "2026-10-04",
+  "32161784d7": "2026-10-06",
   "32c20f56da": "2026-10-03",
   "33d28db351": "2026-10-03",
   "33f164fbd0": "2026-10-05",
+  "3697d86769": "2026-10-06",
   "36a84f5e2d": "2026-10-04",
   "36b8ab35a3": "2026-10-04",
   "3792ce5f06": "2026-10-04",
@@ -3840,29 +4092,38 @@
   "444cf51292": "2026-10-06",
   "454fd723e8": "2026-10-03",
   "4553d36205": "2026-10-04",
+  "45a7fec3ff": "2026-10-06",
   "45b97d7ca7": "2026-10-05",
   "45d738bb6c": "2026-10-03",
   "45f3a3b0bb": "2026-10-06",
   "4686bbb603": "2026-10-03",
   "46b6cfb1fd": "2026-10-03",
   "46bd021b04": "2026-10-04",
+  "489045dff1": "2026-10-06",
+  "4a9a26fc1b": "2026-10-06",
   "4b52606601": "2026-10-04",
   "4c0e6d36bb": "2026-10-04",
   "4cf396a308": "2026-10-03",
+  "4d0676c683": "2026-10-06",
   "4d4c7e8241": "2026-10-03",
+  "4db64a22b2": "2026-10-06",
   "513cbb5ac4": "2026-10-06",
   "52a050b2a9": "2026-10-06",
   "5377d60513": "2026-10-06",
   "543929f646": "2026-10-05",
   "5462ae398b": "2026-10-03",
   "547567279c": "2026-10-03",
+  "54d6c94e3f": "2026-10-06",
   "552664a671": "2026-10-05",
   "57382f4271": "2026-10-03",
   "574f0487e7": "2026-10-05",
+  "57841f3a58": "2026-10-06",
   "57d2d2d906": "2026-10-03",
+  "57d451ede7": "2026-10-06",
   "58120a3406": "2026-10-05",
   "59ba911f66": "2026-10-03",
   "5a3a0bfe26": "2026-10-06",
+  "5a46a2ee87": "2026-10-06",
   "5a598a5889": "2026-10-03",
   "5b155550f9": "2026-10-06",
   "5b5d73f5c8": "2026-10-05",
@@ -3871,9 +4132,11 @@
   "5f0b267259": "2026-10-05",
   "5f34f26545": "2026-10-05",
   "5f54f3a06f": "2026-10-06",
+  "6025509e79": "2026-10-06",
   "6056fa53c4": "2026-10-03",
   "613616e611": "2026-10-03",
   "62824fdcfe": "2026-10-03",
+  "63d672f2f1": "2026-10-06",
   "63eb4c61a8": "2026-10-06",
   "6449bfd3e0": "2026-10-04",
   "65973fad08": "2026-10-04",
@@ -3889,10 +4152,12 @@
   "6d45191ead": "2026-10-04",
   "6d7236605f": "2026-10-06",
   "6dbbe8d8be": "2026-10-04",
+  "6e4303a6b5": "2026-10-06",
   "6e46dc7d8d": "2026-10-05",
   "6fe01d8dcb": "2026-10-04",
   "70ddba17c0": "2026-10-03",
   "71127d15c0": "2026-10-06",
+  "712d276d9b": "2026-10-06",
   "7173ebb3fa": "2026-10-06",
   "717cbcb045": "2026-10-04",
   "72b59cf684": "2026-10-06",
@@ -3916,6 +4181,7 @@
   "79f5f04ad1": "2026-10-03",
   "7a3b3546ba": "2026-10-03",
   "7a4848ad31": "2026-10-05",
+  "7a7b3fc410": "2026-10-06",
   "7a8ef767f2": "2026-10-05",
   "7a9f18e1fe": "2026-10-04",
   "7bae814a67": "2026-10-03",
@@ -3938,6 +4204,7 @@
   "8383bb3fac": "2026-10-03",
   "83bbf54b22": "2026-10-03",
   "8537cbf8e8": "2026-10-03",
+  "85c96da6f1": "2026-10-06",
   "85feac919a": "2026-10-05",
   "8636bfbc0a": "2026-10-03",
   "86671ca64d": "2026-10-05",
@@ -3961,6 +4228,7 @@
   "8f5cab321c": "2026-10-04",
   "8f61a62c59": "2026-10-06",
   "8f76214279": "2026-10-04",
+  "8fd13886e4": "2026-10-06",
   "90e8ccb482": "2026-10-03",
   "91d34270c6": "2026-10-03",
   "9256d173ae": "2026-10-03",
@@ -3981,6 +4249,7 @@
   "9c455617de": "2026-10-04",
   "9c953e57cf": "2026-10-04",
   "9e8512d0f7": "2026-10-03",
+  "a05effd5c6": "2026-10-06",
   "a08708a2dc": "2026-10-03",
   "a090e0535f": "2026-10-03",
   "a17fdf1335": "2026-10-06",
@@ -4009,9 +4278,11 @@
   "aea7ea71cd": "2026-10-04",
   "af431ae101": "2026-10-04",
   "af4870e17b": "2026-10-05",
+  "b0193ed2fd": "2026-10-06",
   "b03d77d041": "2026-10-05",
   "b09bac10e9": "2026-10-05",
   "b13c329917": "2026-10-04",
+  "b15955da0c": "2026-10-06",
   "b178752b58": "2026-10-05",
   "b2a4f59852": "2026-10-04",
   "b3743cd135": "2026-10-03",
@@ -4043,6 +4314,7 @@
   "bf461214db": "2026-10-03",
   "bf8fcaa99c": "2026-10-05",
   "c16f7048b9": "2026-10-03",
+  "c2624f1f61": "2026-10-06",
   "c328a5fb68": "2026-10-06",
   "c3679051de": "2026-10-03",
   "c5ae2e3381": "2026-10-05",
@@ -4054,6 +4326,7 @@
   "ca6b9edafa": "2026-10-04",
   "caec904c68": "2026-10-04",
   "cb630505c8": "2026-10-03",
+  "cc1b49c185": "2026-10-06",
   "cc749468c5": "2026-10-05",
   "cc8707746c": "2026-10-06",
   "ccc329e06a": "2026-10-03",
@@ -4076,6 +4349,7 @@
   "d59efb4d98": "2026-10-04",
   "d6021e33c2": "2026-10-06",
   "d621426267": "2026-10-04",
+  "d7cf01ddb2": "2026-10-06",
   "d7fd606eac": "2026-10-06",
   "d978047780": "2026-10-06",
   "d9ff5c4358": "2026-10-04",
@@ -4093,6 +4367,7 @@
   "e2b8ad029c": "2026-10-04",
   "e42eaf5b04": "2026-10-03",
   "e47540f7f5": "2026-10-03",
+  "e4754762a0": "2026-10-06",
   "e4875285c9": "2026-10-04",
   "e50483f43f": "2026-10-05",
   "e5331cc9c2": "2026-10-04",
@@ -4122,6 +4397,7 @@
   "f2b02cbe7f": "2026-10-04",
   "f2d24ae146": "2026-10-05",
   "f337c8d4b6": "2026-10-06",
+  "f4ed5ad2ac": "2026-10-06",
   "f582c87cac": "2026-10-03",
   "f6bcdfe5a8": "2026-10-03",
   "f6e1b2f63d": "2026-10-03",

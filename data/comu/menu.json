@@ -1120,6 +1120,7 @@
       "name": "Küp Patates"
      },
      {
+      "img": "dishes/bcafe51e20.jpg",
       "kcal": 430,
       "key": "bcafe51e20",
       "name": "Peynirli Börek"
@@ -1219,5 +1220,5 @@
   }
  },
  "university": "comu",
- "updated": "2026-10-06T12:33:21+03:00"
+ "updated": "2026-10-06T22:53:53+03:00"
 }

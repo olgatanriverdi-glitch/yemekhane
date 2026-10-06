@@ -295,6 +295,7 @@
       "name": "İzmir Köfte"
      },
      {
+      "img": "dishes/97a7f04327.jpg",
       "kcal": 171,
       "key": "97a7f04327",
       "name": "Piyaz"
@@ -392,5 +393,5 @@
   }
  },
  "university": "ktu",
- "updated": "2026-10-06T12:33:21+03:00"
+ "updated": "2026-10-06T22:53:53+03:00"
 }

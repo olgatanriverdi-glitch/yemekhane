@@ -155,6 +155,7 @@
       "name": "Sebzeli Tavuk Kızartma"
      },
      {
+      "img": "dishes/f06ea6287d.jpg",
       "key": "f06ea6287d",
       "name": "Yoğurtlu Karışık Kızartma"
      },
@@ -243,6 +244,7 @@
       "name": "Çeşminigar Çorba"
      },
      {
+      "img": "dishes/d7a96da313.jpg",
       "key": "d7a96da313",
       "name": "Patlıcan Kebap"
      },
@@ -484,5 +486,5 @@
   }
  },
  "university": "cumhuriyet",
- "updated": "2026-10-06T12:33:21+03:00"
+ "updated": "2026-10-06T22:53:53+03:00"
 }
