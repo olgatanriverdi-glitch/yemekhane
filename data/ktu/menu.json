@@ -27,6 +27,7 @@
       "name": "Şehriyeli Pirinç Pilavı"
      },
      {
+      "img": "dishes/3b140d6d1c.jpg",
       "kcal": 296,
       "key": "3b140d6d1c",
       "name": "Tulumba Tatlısı"
@@ -391,5 +392,5 @@
   }
  },
  "university": "ktu",
- "updated": "2026-10-06T00:43:15+03:00"
+ "updated": "2026-10-06T12:33:21+03:00"
 }

@@ -217,6 +217,7 @@
       "name": "Ekşili Köfte"
      },
      {
+      "img": "dishes/1d9f36bd6a.jpg",
       "key": "1d9f36bd6a",
       "name": "Domates Soslu Makarna"
      },
@@ -240,6 +241,7 @@
       "name": "Karnabahar Yemeği"
      },
      {
+      "img": "dishes/1d9f36bd6a.jpg",
       "key": "1d9f36bd6a",
       "name": "Domates Soslu Makarna"
      },
@@ -472,6 +474,7 @@
       "name": "Püreli Rosto Köfte"
      },
      {
+      "img": "dishes/1d9f36bd6a.jpg",
       "key": "1d9f36bd6a",
       "name": "Domates Soslu Makarna"
      },
@@ -495,6 +498,7 @@
       "name": "Karışık Kızartma"
      },
      {
+      "img": "dishes/1d9f36bd6a.jpg",
       "key": "1d9f36bd6a",
       "name": "Domates Soslu Makarna"
      },
@@ -832,6 +836,7 @@
    "lunch": {
     "items": [
      {
+      "img": "dishes/b0585b264d.jpg",
       "key": "b0585b264d",
       "name": "Taze Fasulye Yemeği"
      },
@@ -1202,5 +1207,5 @@
   }
  },
  "university": "deu",
- "updated": "2026-10-06T00:43:15+03:00"
+ "updated": "2026-10-06T12:33:21+03:00"
 }

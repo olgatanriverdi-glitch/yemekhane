@@ -1,67 +1,5 @@
 {
  "days": {
-  "2026-10-04": {
-   "dinner": {
-    "items": [
-     {
-      "img": "dishes/ba380b9a95.jpg",
-      "key": "ba380b9a95",
-      "name": "Sebze Çorbası"
-     },
-     {
-      "key": "552664a671",
-      "name": "Mantarlı Et Sote"
-     },
-     {
-      "img": "dishes/2f47d03cf0.jpg",
-      "key": "2f47d03cf0",
-      "name": "Zeytinyağlı Taze Fasulye"
-     },
-     {
-      "img": "dishes/a3d80c5897.jpg",
-      "key": "a3d80c5897",
-      "name": "Armut"
-     },
-     {
-      "key": "de84c155eb",
-      "name": "Rus Salatası"
-     },
-     {
-      "key": "96bf98863d",
-      "name": "Garnitür Pirinç Pilavı"
-     }
-    ]
-   },
-   "lunch": {
-    "items": [
-     {
-      "img": "dishes/fd6f1df9c8.jpg",
-      "key": "fd6f1df9c8",
-      "name": "Toyga Çorbası"
-     },
-     {
-      "img": "dishes/1fd1faa9f2.jpg",
-      "key": "1fd1faa9f2",
-      "name": "Kıymalı Kabak Dolması"
-     },
-     {
-      "img": "dishes/53e350c35e.jpg",
-      "key": "53e350c35e",
-      "name": "Peynirli Kol Böreği"
-     },
-     {
-      "img": "dishes/9c8d655ef5.jpg",
-      "key": "9c8d655ef5",
-      "name": "Yoğurt"
-     },
-     {
-      "img": "dishes/ce99022f02.jpg",
-      "key": "ce99022f02",
-      "name": "Hindistan Cevizli Muhallebi"
-     }
-    ]
-   }
-  },
   "2026-10-05": {
    "dinner": {
     "items": [
@@ -179,31 +117,26 @@
    "dinner": {
     "items": [
      {
-      "key": "f734542a51",
-      "name": "Saray Çorbası"
+      "key": "a4976547e4",
+      "name": "Erzincan Çorbası"
      },
      {
-      "img": "dishes/d151de6ce3.jpg",
-      "key": "d151de6ce3",
-      "name": "Çoban Kavurma"
+      "key": "007b19b638",
+      "name": "Kıymalı Yeşil Mercimek"
      },
      {
-      "key": "8f58a53982",
-      "name": "Sebze Graten"
+      "img": "dishes/25b07cf14e.jpg",
+      "key": "25b07cf14e",
+      "name": "Bulgur Pilavı"
      },
      {
-      "img": "dishes/16b5c22561.jpg",
-      "key": "16b5c22561",
-      "name": "Ayran"
+      "img": "dishes/5a41fac25a.jpg",
+      "key": "5a41fac25a",
+      "name": "Sütlü İrmik Tatlısı"
      },
      {
-      "img": "dishes/c47036e360.jpg",
-      "key": "c47036e360",
-      "name": "Elma"
-     },
-     {
-      "key": "96bf98863d",
-      "name": "Garnitür Pirinç Pilavı"
+      "key": "79ded7ea04",
+      "name": "Havuç Tarator"
      }
     ]
    },
@@ -258,14 +191,14 @@
       "name": "Nohutlu Pirinç Pilavı"
      },
      {
-      "img": "dishes/163819ec0d.jpg",
-      "key": "163819ec0d",
-      "name": "Şekerpare - H"
-     },
-     {
       "img": "dishes/2f58be7b7a.jpg",
       "key": "2f58be7b7a",
       "name": "Cacık"
+     },
+     {
+      "img": "dishes/904e9c87e9.jpg",
+      "key": "904e9c87e9",
+      "name": "Şekerpare"
      }
     ]
    },
@@ -362,26 +295,31 @@
    "dinner": {
     "items": [
      {
-      "key": "a4976547e4",
-      "name": "Erzincan Çorbası"
+      "key": "f734542a51",
+      "name": "Saray Çorbası"
      },
      {
-      "key": "007b19b638",
-      "name": "Kıymalı Yeşil Mercimek"
+      "img": "dishes/d151de6ce3.jpg",
+      "key": "d151de6ce3",
+      "name": "Çoban Kavurma"
      },
      {
-      "img": "dishes/25b07cf14e.jpg",
-      "key": "25b07cf14e",
-      "name": "Bulgur Pilavı"
+      "key": "8f58a53982",
+      "name": "Sebze Graten"
      },
      {
-      "img": "dishes/5a41fac25a.jpg",
-      "key": "5a41fac25a",
-      "name": "Sütlü İrmik Tatlısı"
+      "img": "dishes/16b5c22561.jpg",
+      "key": "16b5c22561",
+      "name": "Ayran"
      },
      {
-      "key": "79ded7ea04",
-      "name": "Havuç Tarator"
+      "img": "dishes/c47036e360.jpg",
+      "key": "c47036e360",
+      "name": "Elma"
+     },
+     {
+      "key": "96bf98863d",
+      "name": "Garnitür Pirinç Pilavı"
      }
     ]
    },
@@ -397,17 +335,17 @@
       "name": "Bahçıvan Köfte"
      },
      {
-      "key": "8636bfbc0a",
-      "name": "Pirinç Pilavı"
+      "key": "fa4decda6a",
+      "name": "Şehriyeli Pirinç Pilavı"
      },
      {
       "key": "d14bc2ed6a",
       "name": "Akdeniz Salatası"
      },
      {
-      "img": "dishes/16b5c22561.jpg",
-      "key": "16b5c22561",
-      "name": "Ayran"
+      "img": "dishes/2be1b1ba72.jpg",
+      "key": "2be1b1ba72",
+      "name": "Kola"
      }
     ]
    }
@@ -1711,5 +1649,5 @@
   }
  },
  "university": "itu",
- "updated": "2026-10-06T00:43:15+03:00"
+ "updated": "2026-10-06T12:33:21+03:00"
 }

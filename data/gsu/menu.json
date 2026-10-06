@@ -37,6 +37,7 @@
       "name": "Kazdağı Çorbası"
      },
      {
+      "img": "dishes/aa8b7fc56b.jpg",
       "kcal": 355,
       "key": "aa8b7fc56b",
       "name": "Yalancı İskender Köfte"
@@ -73,6 +74,7 @@
       "name": "İzmir Köfte"
      },
      {
+      "img": "dishes/e8dd3ef986.jpg",
       "kcal": 326,
       "key": "e8dd3ef986",
       "name": "Biberli Makarna"
@@ -107,6 +109,7 @@
       "name": "Pirinç Pilav"
      },
      {
+      "img": "dishes/9b6c60c176.jpg",
       "kcal": 166,
       "key": "9b6c60c176",
       "name": "Tavuk Göğsü"
@@ -136,6 +139,7 @@
       "name": "Ayran"
      },
      {
+      "img": "dishes/3b140d6d1c.jpg",
       "kcal": 412,
       "key": "3b140d6d1c",
       "name": "Tulumba Tatlısı"
@@ -154,6 +158,7 @@
       "name": "Ezogelin Çorba"
      },
      {
+      "img": "dishes/0e0e520868.jpg",
       "kcal": 467,
       "key": "0e0e520868",
       "name": "Hünkar Beğendi"
@@ -221,6 +226,7 @@
       "name": "Pirinç Pilav"
      },
      {
+      "img": "dishes/9e9fa3d499.jpg",
       "kcal": 408,
       "key": "9e9fa3d499",
       "name": "Havuç Dilimi"
@@ -278,6 +284,7 @@
       "name": "Bulgur Pilavı"
      },
      {
+      "img": "dishes/9b6c60c176.jpg",
       "kcal": 166,
       "key": "9b6c60c176",
       "name": "Tavuk Göğsü"
@@ -290,6 +297,7 @@
    "lunch": {
     "items": [
      {
+      "img": "dishes/f717db877b.jpg",
       "kcal": 188,
       "key": "f717db877b",
       "name": "Kaşarlı Domates Çorba"
@@ -394,6 +402,7 @@
       "name": "Tereyağlı Pirinç Pilav"
      },
      {
+      "img": "dishes/649b7af083.jpg",
       "kcal": 450,
       "key": "649b7af083",
       "name": "Bülbül Yuvası"
@@ -482,6 +491,7 @@
       "name": "Soslu Makarna"
      },
      {
+      "img": "dishes/f9026a5320.jpg",
       "kcal": 339,
       "key": "f9026a5320",
       "name": "Fırın Sütlaç"
@@ -540,6 +550,7 @@
       "name": "Pirinç Pilav"
      },
      {
+      "img": "dishes/9b6c60c176.jpg",
       "kcal": 166,
       "key": "9b6c60c176",
       "name": "Tavuk Göğsü"
@@ -637,5 +648,5 @@
   }
  },
  "university": "gsu",
- "updated": "2026-10-06T00:43:15+03:00"
+ "updated": "2026-10-06T12:33:21+03:00"
 }

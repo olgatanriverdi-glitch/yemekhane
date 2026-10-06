@@ -833,6 +833,7 @@
       "name": "Tel Şehriyeli Pirinç Pilavı"
      },
      {
+      "img": "dishes/3b140d6d1c.jpg",
       "kcal": 495,
       "key": "3b140d6d1c",
       "name": "Tulumba Tatlısı"
@@ -1000,6 +1001,7 @@
       "name": "Haydari"
      },
      {
+      "img": "dishes/1d9f36bd6a.jpg",
       "kcal": 317,
       "key": "1d9f36bd6a",
       "name": "Domates Soslu Makarna"
@@ -1026,6 +1028,7 @@
       "name": "Bezelye"
      },
      {
+      "img": "dishes/1d9f36bd6a.jpg",
       "kcal": 317,
       "key": "1d9f36bd6a",
       "name": "Domates Soslu Makarna"
@@ -1216,5 +1219,5 @@
   }
  },
  "university": "comu",
- "updated": "2026-10-06T00:43:15+03:00"
+ "updated": "2026-10-06T12:33:21+03:00"
 }

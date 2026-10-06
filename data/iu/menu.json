@@ -202,9 +202,9 @@
       "name": "Mantar Sote"
      },
      {
-      "img": "dishes/a1c6654e48.jpg",
-      "key": "a1c6654e48",
-      "name": "Mercimek Köftesi"
+      "img": "dishes/25b07cf14e.jpg",
+      "key": "25b07cf14e",
+      "name": "Bulgur Pilavı"
      },
      {
       "img": "dishes/a3d80c5897.jpg",
@@ -2003,5 +2003,5 @@
   }
  },
  "university": "iu",
- "updated": "2026-10-06T00:43:15+03:00"
+ "updated": "2026-10-06T12:33:21+03:00"
 }
