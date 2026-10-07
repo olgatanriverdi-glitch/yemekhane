@@ -361,7 +361,8 @@
       "name": "Red Velvet"
      }
     ],
-    "kcal": 1869
+    "kcal": 1869,
+    "photo": "photos/lib/8fef1ef330d1.jpg"
    },
    "vegetarian": {
     "items": [
@@ -1101,7 +1102,9 @@
       "name": "Tiramisu"
      }
     ],
-    "kcal": 1570
+    "kcal": 1570,
+    "photo": "photos/lib/8fef1ef330d1.jpg",
+    "photoApprox": true
    }
   },
   "2026-10-23": {
@@ -1448,5 +1451,5 @@
   }
  },
  "university": "ankara",
- "updated": "2026-10-06T22:53:53+03:00"
+ "updated": "2026-10-07T12:29:30+03:00"
 }

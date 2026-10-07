@@ -180,8 +180,188 @@
     ],
     "kcal": 781
    }
+  },
+  "2026-10-09": {
+   "lunch": {
+    "items": [
+     {
+      "img": "dishes/bf8474c8b9.jpg",
+      "kcal": 95,
+      "key": "bf8474c8b9",
+      "name": "EZOGELİN ÇORBA"
+     },
+     {
+      "kcal": 402,
+      "key": "a6320029b1",
+      "name": "ET KAVURMA/KÖZ DOMATES"
+     },
+     {
+      "kcal": 220,
+      "key": "fef6adada3",
+      "name": "NOHUTLU PİRİNÇ PİLAVI"
+     },
+     {
+      "img": "dishes/faa2e9e4f2.jpg",
+      "kcal": 243,
+      "key": "faa2e9e4f2",
+      "name": "SUPANGLE"
+     }
+    ],
+    "kcal": 960
+   }
+  },
+  "2026-10-12": {
+   "lunch": {
+    "items": [
+     {
+      "kcal": 138,
+      "key": "73dd9b0857",
+      "name": "ARABAŞI ÇORBA"
+     },
+     {
+      "img": "dishes/664bfec39c.jpg",
+      "kcal": 396,
+      "key": "664bfec39c",
+      "name": "NOHUT YEMEĞİ"
+     },
+     {
+      "kcal": 215,
+      "key": "70ddba17c0",
+      "name": "ARPA ŞEHRİYELİ PİRİNÇ PİLAVI"
+     },
+     {
+      "img": "dishes/c2cb7fa47d.jpg",
+      "kcal": 373,
+      "key": "c2cb7fa47d",
+      "name": "ŞÖBİYET"
+     }
+    ],
+    "kcal": 1122
+   }
+  },
+  "2026-10-13": {
+   "lunch": {
+    "items": [
+     {
+      "img": "dishes/0955218757.jpg",
+      "kcal": 137,
+      "key": "0955218757",
+      "name": "MERCİMEK ÇORBASI"
+     },
+     {
+      "img": "dishes/e28cc47b80.jpg",
+      "kcal": 376,
+      "key": "e28cc47b80",
+      "name": "ET DÖNER/ELMA DİLİM PATATES"
+     },
+     {
+      "img": "dishes/25b07cf14e.jpg",
+      "kcal": 235,
+      "key": "25b07cf14e",
+      "name": "BULGUR PİLAVI"
+     },
+     {
+      "img": "dishes/16b5c22561.jpg",
+      "kcal": 73,
+      "key": "16b5c22561",
+      "name": "AYRAN"
+     }
+    ],
+    "kcal": 821
+   }
+  },
+  "2026-10-14": {
+   "lunch": {
+    "items": [
+     {
+      "img": "dishes/f717db877b.jpg",
+      "kcal": 67,
+      "key": "f717db877b",
+      "name": "KAŞARLI DOMATES ÇORBA"
+     },
+     {
+      "img": "dishes/4008da5374.jpg",
+      "kcal": 409,
+      "key": "4008da5374",
+      "name": "PİDELİ KÖFTE"
+     },
+     {
+      "img": "dishes/18ccb4d264.jpg",
+      "kcal": 277,
+      "key": "18ccb4d264",
+      "name": "SOSLU MAKARNA"
+     },
+     {
+      "img": "dishes/c83e938fef.jpg",
+      "kcal": 134,
+      "key": "c83e938fef",
+      "name": "PAKET YOĞURT"
+     }
+    ],
+    "kcal": 887
+   }
+  },
+  "2026-10-15": {
+   "lunch": {
+    "items": [
+     {
+      "img": "dishes/bf8474c8b9.jpg",
+      "kcal": 95,
+      "key": "bf8474c8b9",
+      "name": "EZOGELİN ÇORBA"
+     },
+     {
+      "kcal": 374,
+      "key": "835b0f68ed",
+      "name": "TAVUK IZGARA/KÖZ DOMATES BİBER"
+     },
+     {
+      "img": "dishes/25b07cf14e.jpg",
+      "kcal": 235,
+      "key": "25b07cf14e",
+      "name": "BULGUR PİLAVI"
+     },
+     {
+      "img": "dishes/997b4ad147.jpg",
+      "kcal": 178,
+      "key": "997b4ad147",
+      "name": "MUZ"
+     }
+    ],
+    "kcal": 882
+   }
+  },
+  "2026-10-16": {
+   "lunch": {
+    "items": [
+     {
+      "img": "dishes/22dd093862.jpg",
+      "kcal": 137,
+      "key": "22dd093862",
+      "name": "MERCİMEK ÇORBA"
+     },
+     {
+      "img": "dishes/808629f982.jpg",
+      "kcal": 424,
+      "key": "808629f982",
+      "name": "MANTI"
+     },
+     {
+      "kcal": 356,
+      "key": "1229022705",
+      "name": "BARBUNYA"
+     },
+     {
+      "img": "dishes/3201b259e1.jpg",
+      "kcal": 190,
+      "key": "3201b259e1",
+      "name": "GAZOZ"
+     }
+    ],
+    "kcal": 1107
+   }
   }
  },
  "university": "hbv",
- "updated": "2026-10-06T22:53:53+03:00"
+ "updated": "2026-10-07T12:29:30+03:00"
 }

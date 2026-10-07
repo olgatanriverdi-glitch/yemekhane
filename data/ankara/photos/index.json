@@ -2,11 +2,13 @@
  "dates": {
   "2026-10-02": "41a246d21c3d",
   "2026-10-05": "8f579a24b2f7",
-  "2026-10-06": "78be4bc465a4"
+  "2026-10-06": "78be4bc465a4",
+  "2026-10-07": "8fef1ef330d1"
  },
  "main": {
   "025eacfe0c": "8f579a24b2f7",
   "211964d15e": "41a246d21c3d",
+  "495c83bde2": "8fef1ef330d1",
   "b7f7a0ca2b": "78be4bc465a4"
  },
  "menus": {
@@ -38,6 +40,16 @@
     "Etli Taze Fasulye",
     "Sade Pirinç Pilavı",
     "Yoğurt"
+   ]
+  },
+  "8fef1ef330d1": {
+   "added": "2026-10-07",
+   "hash": "9f232159be8096b75a380c04506cb523a8a6172c",
+   "items": [
+    "Kırmızı Mercimek Çorba",
+    "İskender Kebap",
+    "Şakşuka",
+    "Red Velvet"
    ]
   }
  }

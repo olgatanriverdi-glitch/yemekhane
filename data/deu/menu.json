@@ -4,6 +4,7 @@
    "lunch": {
     "items": [
      {
+      "img": "dishes/5e6031dfca.jpg",
       "key": "5e6031dfca",
       "name": "Etli Bezelye Yemeği"
      },
@@ -1209,5 +1210,5 @@
   }
  },
  "university": "deu",
- "updated": "2026-10-06T22:53:53+03:00"
+ "updated": "2026-10-07T12:29:30+03:00"
 }

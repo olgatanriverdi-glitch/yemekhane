@@ -81,11 +81,11 @@
   },
   {
    "city": "Ankara",
-   "firstDay": "2026-10-04",
+   "firstDay": "2026-10-05",
    "hours": {
     "breakfast": {
      "approx": false,
-     "t": "09:00–10:00"
+     "t": "08:00–09:15"
     },
     "dinner": {
      "approx": false,
@@ -93,11 +93,11 @@
     },
     "lunch": {
      "approx": false,
-     "t": "12:00–13:30"
+     "t": "11:30–14:00"
     },
     "vegetarian": {
      "approx": false,
-     "t": "12:00–13:30"
+     "t": "11:30–14:00"
     }
    },
    "id": "hacettepe",
@@ -185,7 +185,7 @@
     }
    },
    "id": "hbv",
-   "lastDay": "2026-10-08",
+   "lastDay": "2026-10-16",
    "meals": [
     "lunch"
    ],
@@ -329,7 +329,7 @@
   },
   {
    "city": "İstanbul",
-   "firstDay": "2026-10-05",
+   "firstDay": "2026-10-06",
    "hours": {
     "dinner": {
      "approx": false,
@@ -374,7 +374,7 @@
     }
    },
    "id": "boun",
-   "lastDay": "2026-10-11",
+   "lastDay": "2026-10-31",
    "meals": [
     "dinner",
     "lunch",
@@ -503,7 +503,7 @@
     }
    },
    "id": "ikcu",
-   "lastDay": "2026-10-07",
+   "lastDay": "2026-10-08",
    "meals": [
     "lunch",
     "vegetarian"
@@ -600,7 +600,7 @@
     }
    },
    "id": "atauni",
-   "lastDay": "2026-10-07",
+   "lastDay": "2026-10-08",
    "meals": [
     "lunch"
    ],
@@ -705,6 +705,6 @@
    "source": "https://www.gtu.edu.tr/kategori/1296/0/display.aspx"
   }
  ],
- "updated": "2026-10-06T22:53:53+03:00",
+ "updated": "2026-10-07T12:29:30+03:00",
  "version": 1
 }

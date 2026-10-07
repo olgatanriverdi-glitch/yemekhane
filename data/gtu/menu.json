@@ -686,6 +686,7 @@
       "name": "Tepsi Böreği"
      },
      {
+      "img": "dishes/910cd3327e.jpg",
       "kcal": 233,
       "key": "910cd3327e",
       "name": "Magnolia"
@@ -1021,5 +1022,5 @@
   }
  },
  "university": "gtu",
- "updated": "2026-10-06T22:53:53+03:00"
+ "updated": "2026-10-07T12:29:30+03:00"
 }
