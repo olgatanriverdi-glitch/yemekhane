@@ -24,6 +24,7 @@
       "name": "Turşu"
      },
      {
+      "img": "dishes/92485508df.jpg",
       "key": "92485508df",
       "name": "Tatlı"
      }
@@ -178,6 +179,7 @@
       "name": "Yoğurt"
      },
      {
+      "img": "dishes/92485508df.jpg",
       "key": "92485508df",
       "name": "Tatlı"
      }
@@ -284,6 +286,7 @@
       "name": "Turşu"
      },
      {
+      "img": "dishes/92485508df.jpg",
       "key": "92485508df",
       "name": "Tatlı"
      }
@@ -387,6 +390,7 @@
       "name": "Yoğurt"
      },
      {
+      "img": "dishes/92485508df.jpg",
       "key": "92485508df",
       "name": "Tatlı"
      }
@@ -485,6 +489,7 @@
       "name": "Mevsim Salata"
      },
      {
+      "img": "dishes/92485508df.jpg",
       "key": "92485508df",
       "name": "Tatlı"
      }
@@ -540,6 +545,7 @@
       "name": "Yoğurt"
      },
      {
+      "img": "dishes/92485508df.jpg",
       "key": "92485508df",
       "name": "Tatlı"
      }
@@ -646,6 +652,7 @@
       "name": "Makarna"
      },
      {
+      "img": "dishes/92485508df.jpg",
       "key": "92485508df",
       "name": "Tatlı"
      }
@@ -682,6 +689,7 @@
    "lunch": {
     "items": [
      {
+      "img": "dishes/2dfccf532a.jpg",
       "key": "2dfccf532a",
       "name": "Fırında Sebzeli Köfte"
      },
@@ -798,6 +806,7 @@
       "name": "Yoğurt"
      },
      {
+      "img": "dishes/92485508df.jpg",
       "key": "92485508df",
       "name": "Tatlı"
      }
@@ -852,6 +861,7 @@
       "name": "Kuru Cacık"
      },
      {
+      "img": "dishes/92485508df.jpg",
       "key": "92485508df",
       "name": "Tatlı"
      }
@@ -861,6 +871,7 @@
    "vegetarian": {
     "items": [
      {
+      "img": "dishes/d020f94fc7.jpg",
       "key": "d020f94fc7",
       "name": "Taze Fasülye"
      },
@@ -901,6 +912,7 @@
       "name": "Yoğurt"
      },
      {
+      "img": "dishes/92485508df.jpg",
       "key": "92485508df",
       "name": "Tatlı"
      }
@@ -1000,6 +1012,7 @@
       "name": "Piyaz"
      },
      {
+      "img": "dishes/92485508df.jpg",
       "key": "92485508df",
       "name": "Tatlı"
      }
@@ -1053,6 +1066,7 @@
       "name": "Yoğurt"
      },
      {
+      "img": "dishes/92485508df.jpg",
       "key": "92485508df",
       "name": "Tatlı"
      }
@@ -1108,6 +1122,7 @@
       "name": "Yoğurt"
      },
      {
+      "img": "dishes/92485508df.jpg",
       "key": "92485508df",
       "name": "Tatlı"
      }
@@ -1210,5 +1225,5 @@
   }
  },
  "university": "deu",
- "updated": "2026-10-07T12:29:30+03:00"
+ "updated": "2026-10-07T23:17:02+03:00"
 }

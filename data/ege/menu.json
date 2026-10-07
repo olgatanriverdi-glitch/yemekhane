@@ -2047,6 +2047,7 @@
    "vegetarian": {
     "items": [
      {
+      "img": "dishes/b933cbd8aa.jpg",
       "key": "b933cbd8aa",
       "name": "Zeytinyağlı Bezelye"
      },
@@ -2099,6 +2100,7 @@
       "name": "Ezogelin Çorbası"
      },
      {
+      "img": "dishes/42f8008e1e.jpg",
       "key": "42f8008e1e",
       "name": "Dalyan Köfte"
      },
@@ -2143,5 +2145,5 @@
   }
  },
  "university": "ege",
- "updated": "2026-10-07T12:29:30+03:00"
+ "updated": "2026-10-07T23:17:02+03:00"
 }

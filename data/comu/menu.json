@@ -10,6 +10,7 @@
       "name": "Tarhana Çorba"
      },
      {
+      "img": "dishes/bdb44d4537.jpg",
       "kcal": 446,
       "key": "bdb44d4537",
       "name": "Hünkarbeğendi"
@@ -93,6 +94,7 @@
       "name": "Mercimek Çorba"
      },
      {
+      "img": "dishes/e2134501b4.jpg",
       "kcal": 283,
       "key": "e2134501b4",
       "name": "Nohut"
@@ -129,6 +131,7 @@
       "name": "Et Döner"
      },
      {
+      "img": "dishes/67212df125.jpg",
       "kcal": 18,
       "key": "67212df125",
       "name": "Köz Domates Biber"
@@ -186,11 +189,13 @@
       "name": "Buğday Çorba"
      },
      {
+      "img": "dishes/143c4ac6d7.jpg",
       "kcal": 386,
       "key": "143c4ac6d7",
       "name": "Izgara Tavuk Kanat"
      },
      {
+      "img": "dishes/10302d7f73.jpg",
       "kcal": 137,
       "key": "10302d7f73",
       "name": "Patates Püresi"
@@ -316,6 +321,7 @@
       "name": "Salçalı Makarna"
      },
      {
+      "img": "dishes/ad8629fbec.jpg",
       "kcal": 480,
       "key": "ad8629fbec",
       "name": "Fıstıklı İrmik Helvası"
@@ -527,6 +533,7 @@
    "lunch": {
     "items": [
      {
+      "img": "dishes/e3fefbc26e.jpg",
       "kcal": 198,
       "key": "e3fefbc26e",
       "name": "Tavuksuyu Çorba"
@@ -543,6 +550,7 @@
       "name": "Erişte Kavurma"
      },
      {
+      "img": "dishes/d25e39c209.jpg",
       "kcal": 261,
       "key": "d25e39c209",
       "name": "Peynir Tatlısı"
@@ -621,6 +629,7 @@
       "name": "Mantar Çorba"
      },
      {
+      "img": "dishes/11f80a41e2.jpg",
       "kcal": 273,
       "key": "11f80a41e2",
       "name": "Kuru Börülce"
@@ -655,16 +664,19 @@
       "name": "Et Sote"
      },
      {
+      "img": "dishes/10302d7f73.jpg",
       "kcal": 137,
       "key": "10302d7f73",
       "name": "Patates Püresi"
      },
      {
+      "img": "dishes/56e2c3a592.jpg",
       "kcal": 310,
       "key": "56e2c3a592",
       "name": "Makarna Kavurma"
      },
      {
+      "img": "dishes/ea90a960e8.jpg",
       "kcal": 301,
       "key": "ea90a960e8",
       "name": "Islak Kek"
@@ -686,6 +698,7 @@
       "name": "Zeytinyağlı Patates"
      },
      {
+      "img": "dishes/56e2c3a592.jpg",
       "kcal": 310,
       "key": "56e2c3a592",
       "name": "Makarna Kavurma"
@@ -850,6 +863,7 @@
       "name": "Mercimek Çorba"
      },
      {
+      "img": "dishes/e2134501b4.jpg",
       "kcal": 283,
       "key": "e2134501b4",
       "name": "Nohut"
@@ -912,6 +926,7 @@
       "name": "Karışık Kızartma"
      },
      {
+      "img": "dishes/56e2c3a592.jpg",
       "kcal": 310,
       "key": "56e2c3a592",
       "name": "Makarna Kavurma"
@@ -1046,6 +1061,7 @@
    "lunch": {
     "items": [
      {
+      "img": "dishes/e3fefbc26e.jpg",
       "kcal": 198,
       "key": "e3fefbc26e",
       "name": "Tavuksuyu Çorba"
@@ -1220,5 +1236,5 @@
   }
  },
  "university": "comu",
- "updated": "2026-10-07T12:29:30+03:00"
+ "updated": "2026-10-07T23:17:02+03:00"
 }

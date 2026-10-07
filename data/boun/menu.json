@@ -1330,18 +1330,17 @@
       "name": "Köylü Çorba"
      },
      {
-      "img": "dishes/1da7bd5f6e.jpg",
-      "key": "1da7bd5f6e",
-      "name": "İçli Köfte"
+      "key": "a43c0db63b",
+      "name": "Beğendili Köfte"
      },
      {
-      "img": "dishes/9cfb2c37b2.jpg",
-      "key": "9cfb2c37b2",
-      "name": "Şakşuka"
+      "key": "8636bfbc0a",
+      "name": "Pirinç Pilavı"
      },
      {
-      "key": "cc8707746c",
-      "name": "Zy.Barbunya"
+      "img": "dishes/abad8aab8e.jpg",
+      "key": "abad8aab8e",
+      "name": "Napoliten Soslu Makarna"
      },
      {
       "img": "dishes/ed17271d58.jpg",
@@ -2070,8 +2069,8 @@
       "name": "Tarhana Çorba"
      },
      {
-      "key": "ad4ff39ef6",
-      "name": "Etli Karışık Dolma"
+      "key": "e192d62843",
+      "name": "Fındık Mantarlı Köfte"
      },
      {
       "img": "dishes/831b0f20cf.jpg",
@@ -2105,8 +2104,8 @@
       "name": "Tarhana Çorba"
      },
      {
-      "key": "e04fa62d86",
-      "name": "Zy.Dolma"
+      "key": "1a817ec3d4",
+      "name": "Mantar Sote"
      },
      {
       "img": "dishes/831b0f20cf.jpg",
@@ -3191,5 +3190,5 @@
   }
  },
  "university": "boun",
- "updated": "2026-10-07T12:29:30+03:00"
+ "updated": "2026-10-07T23:17:02+03:00"
 }

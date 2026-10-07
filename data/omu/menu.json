@@ -396,6 +396,7 @@
    "lunch": {
     "items": [
      {
+      "img": "dishes/e3fefbc26e.jpg",
       "key": "e3fefbc26e",
       "name": "Tavuksuyu Çorba"
      },
@@ -490,5 +491,5 @@
   }
  },
  "university": "omu",
- "updated": "2026-10-07T12:29:30+03:00"
+ "updated": "2026-10-07T23:17:02+03:00"
 }

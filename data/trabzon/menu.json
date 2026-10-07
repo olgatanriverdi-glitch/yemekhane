@@ -313,6 +313,7 @@
       "name": "Nohutlu Pirinç Pilavı"
      },
      {
+      "img": "dishes/ea90a960e8.jpg",
       "kcal": 370,
       "key": "ea90a960e8",
       "name": "Islak Kek"
@@ -592,5 +593,5 @@
   }
  },
  "university": "trabzon",
- "updated": "2026-10-07T12:29:30+03:00"
+ "updated": "2026-10-07T23:17:02+03:00"
 }

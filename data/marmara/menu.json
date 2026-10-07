@@ -270,11 +270,13 @@
       "name": "Kıymalı Ispanak Ve Yoğurt"
      },
      {
+      "img": "dishes/983a482c3e.jpg",
       "kcal": 275,
       "key": "983a482c3e",
       "name": "Etli Karışık Dolma Ve Yoğurt (Alternatif)"
      },
      {
+      "img": "dishes/1fabb7a5f8.jpg",
       "kcal": 390,
       "key": "1fabb7a5f8",
       "name": "Peynirli Su Böreği"
@@ -302,6 +304,7 @@
       "name": "Kabak Çığırtma"
      },
      {
+      "img": "dishes/1fabb7a5f8.jpg",
       "kcal": 390,
       "key": "1fabb7a5f8",
       "name": "Peynirli Su Böreği"
@@ -318,5 +321,5 @@
   }
  },
  "university": "marmara",
- "updated": "2026-10-07T12:29:30+03:00"
+ "updated": "2026-10-07T23:17:02+03:00"
 }

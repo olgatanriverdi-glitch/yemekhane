@@ -83,6 +83,7 @@
       "name": "Yoğurtlu Yarma Çorbası"
      },
      {
+      "img": "dishes/e2134501b4.jpg",
       "kcal": 317,
       "key": "e2134501b4",
       "name": "Nohut"
@@ -745,5 +746,5 @@
   }
  },
  "university": "sbtu",
- "updated": "2026-10-07T12:29:30+03:00"
+ "updated": "2026-10-07T23:17:02+03:00"
 }

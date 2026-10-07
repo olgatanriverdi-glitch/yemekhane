@@ -17,6 +17,7 @@
       "name": "Şehriyeli Pirinç Pilavı"
      },
      {
+      "img": "dishes/92485508df.jpg",
       "key": "92485508df",
       "name": "Tatlı"
      }
@@ -90,6 +91,7 @@
       "name": "Mercimekli Bulgur Pilavı"
      },
      {
+      "img": "dishes/92485508df.jpg",
       "key": "92485508df",
       "name": "Tatlı"
      }
@@ -98,5 +100,5 @@
   }
  },
  "university": "atauni",
- "updated": "2026-10-07T12:29:30+03:00"
+ "updated": "2026-10-07T23:17:02+03:00"
 }

@@ -83,6 +83,7 @@
       "name": "Domates Çorba"
      },
      {
+      "img": "dishes/e962cfa60f.jpg",
       "key": "e962cfa60f",
       "name": "Soslu Patlıcan Yemeği"
      },
@@ -158,8 +159,8 @@
       "name": "Tarhana Çorba"
      },
      {
-      "key": "08e425abe9",
-      "name": "Fırın Tavuk Kanat + Garnitür"
+      "key": "032b34fe27",
+      "name": "Fırın Tavuk Pirzola + Garnitür"
      },
      {
       "img": "dishes/5b853e51e0.jpg",
@@ -181,10 +182,12 @@
       "name": "Tarhana Çorba"
      },
      {
+      "img": "dishes/b933cbd8aa.jpg",
       "key": "b933cbd8aa",
       "name": "Zeytinyağlı Bezelye"
      },
      {
+      "img": "dishes/4fbfffed46.jpg",
       "key": "4fbfffed46",
       "name": "Şehriye Pilavı Mevsim Salata"
      },
@@ -198,5 +201,5 @@
   }
  },
  "university": "ikcu",
- "updated": "2026-10-07T12:29:30+03:00"
+ "updated": "2026-10-07T23:17:02+03:00"
 }
