@@ -394,6 +394,7 @@
       "name": "Etli Düğün Çorba"
      },
      {
+      "img": "dishes/9ae8362de2.jpg",
       "key": "9ae8362de2",
       "name": "Sebzeli Tavuk Sarma"
      },
@@ -413,6 +414,7 @@
    "lunch": {
     "items": [
      {
+      "img": "dishes/0a99b6aad1.jpg",
       "key": "0a99b6aad1",
       "name": "Sebzeli Tavuk Çorba"
      },
@@ -437,6 +439,7 @@
    "lunch": {
     "items": [
      {
+      "img": "dishes/b359c477cf.jpg",
       "key": "b359c477cf",
       "name": "Tavuk Çorba"
      },
@@ -496,5 +499,5 @@
   }
  },
  "university": "cumhuriyet",
- "updated": "2026-10-08T12:40:48+03:00"
+ "updated": "2026-10-08T23:24:00+03:00"
 }

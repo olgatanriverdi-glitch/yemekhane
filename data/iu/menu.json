@@ -1851,6 +1851,29 @@
      }
     ]
    },
+   "lunch": {
+    "items": [
+     {
+      "img": "dishes/5d3038c41b.jpg",
+      "key": "5d3038c41b",
+      "name": "Yayla Çorbası"
+     },
+     {
+      "img": "dishes/785c5c2182.jpg",
+      "key": "785c5c2182",
+      "name": "Cordon Blue (Patates Garnili)"
+     },
+     {
+      "key": "46bd021b04",
+      "name": "Yoğurtlu Mantı"
+     },
+     {
+      "img": "dishes/099956f884.jpg",
+      "key": "099956f884",
+      "name": "Cevizli Tel Kadayıf"
+     }
+    ]
+   },
    "vegetarian": {
     "items": [
      {
@@ -1876,5 +1899,5 @@
   }
  },
  "university": "iu",
- "updated": "2026-10-08T12:40:48+03:00"
+ "updated": "2026-10-08T23:24:00+03:00"
 }

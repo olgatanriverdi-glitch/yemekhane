@@ -325,6 +325,7 @@
       "name": "Domates Çorba"
      },
      {
+      "img": "dishes/f8245dd5b0.jpg",
       "kcal": 371,
       "key": "f8245dd5b0",
       "name": "Patates Garnitürlü Tavuk Döner"
@@ -504,6 +505,7 @@
       "name": "Yoğurt"
      },
      {
+      "img": "dishes/d6b2b596ba.jpg",
       "key": "d6b2b596ba",
       "name": "Lokma Tatlı"
      }
@@ -514,6 +516,7 @@
    "lunch": {
     "items": [
      {
+      "img": "dishes/d24f0b9a36.jpg",
       "kcal": 91,
       "key": "d24f0b9a36",
       "name": "Mısırlı Sebze Çorba"
@@ -559,6 +562,7 @@
       "name": "Ezogelin Çorba"
      },
      {
+      "img": "dishes/2bc841e8ce.jpg",
       "kcal": 353,
       "key": "2bc841e8ce",
       "name": "Püreli Çoban Kavurma"
@@ -643,6 +647,7 @@
       "name": "Çiftlik Kebap"
      },
      {
+      "img": "dishes/b62e2600fa.jpg",
       "kcal": 533,
       "key": "b62e2600fa",
       "name": "Sebzeli Fırın Tavuk Baget"
@@ -685,6 +690,7 @@
       "name": "Püreli Rosto Köfte"
      },
      {
+      "img": "dishes/3ba3b6140f.jpg",
       "kcal": 310,
       "key": "3ba3b6140f",
       "name": "Domates Soslu Fesleğenli Makarna"
@@ -763,6 +769,7 @@
       "name": "Etli Taze Fasulye"
      },
      {
+      "img": "dishes/921ad76222.jpg",
       "kcal": 427,
       "key": "921ad76222",
       "name": "Peynirli Tepsi Böreği"
@@ -783,5 +790,5 @@
   }
  },
  "university": "ktu",
- "updated": "2026-10-08T12:40:48+03:00"
+ "updated": "2026-10-08T23:24:00+03:00"
 }

@@ -39,11 +39,13 @@
       "name": "Tarhana Çorba"
      },
      {
+      "img": "dishes/e237db8733.jpg",
       "kcal": 575,
       "key": "e237db8733",
       "name": "Et Kavurma Pilav"
      },
      {
+      "img": "dishes/195faf4170.jpg",
       "kcal": 180,
       "key": "195faf4170",
       "name": "Gavurdağı Salata"
@@ -125,11 +127,13 @@
       "name": "Mercimek Çorba"
      },
      {
+      "img": "dishes/c632c923d8.jpg",
       "kcal": 330,
       "key": "c632c923d8",
       "name": "Kağıt Kebabı"
      },
      {
+      "img": "dishes/289123a5e1.jpg",
       "kcal": 297,
       "key": "289123a5e1",
       "name": "Bulgur Pilav"
@@ -154,11 +158,13 @@
       "name": "Domates Çorba"
      },
      {
+      "img": "dishes/5c78ff26d4.jpg",
       "kcal": 325,
       "key": "5c78ff26d4",
       "name": "Soslu Köfte"
      },
      {
+      "img": "dishes/921ad76222.jpg",
       "kcal": 450,
       "key": "921ad76222",
       "name": "Peynirli Tepsi Böreği"
@@ -332,6 +338,7 @@
       "name": "Mercimek Çorba"
      },
      {
+      "img": "dishes/feff2a6396.jpg",
       "kcal": 380,
       "key": "feff2a6396",
       "name": "Kıymalı Biber Dolma"
@@ -392,6 +399,7 @@
       "name": "Ezogelin Çorba"
      },
      {
+      "img": "dishes/d0ee7d01d0.jpg",
       "kcal": 420,
       "key": "d0ee7d01d0",
       "name": "Sebzeli Fırın Tavuk"
@@ -572,6 +580,7 @@
       "name": "Domates Çorba"
      },
      {
+      "img": "dishes/9b6d322e93.jpg",
       "kcal": 390,
       "key": "9b6d322e93",
       "name": "İslim Kebabı"
@@ -593,5 +602,5 @@
   }
  },
  "university": "trabzon",
- "updated": "2026-10-08T12:40:48+03:00"
+ "updated": "2026-10-08T23:24:00+03:00"
 }

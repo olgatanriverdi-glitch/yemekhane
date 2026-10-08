@@ -53,6 +53,7 @@
    "lunch": {
     "items": [
      {
+      "img": "dishes/e8b8cd2e28.jpg",
       "key": "e8b8cd2e28",
       "name": "Yoğurtlu Şehriye Çorba"
      },
@@ -125,5 +126,5 @@
   }
  },
  "university": "atauni",
- "updated": "2026-10-08T12:40:48+03:00"
+ "updated": "2026-10-08T23:24:00+03:00"
 }
