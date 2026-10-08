@@ -1,62 +1,5 @@
 {
  "days": {
-  "2026-10-06": {
-   "dinner": {
-    "items": [
-     {
-      "img": "dishes/fd6f1df9c8.jpg",
-      "key": "fd6f1df9c8",
-      "name": "Toyga Çorbası"
-     },
-     {
-      "key": "890573126a",
-      "name": "Tavuklu Bezelye"
-     },
-     {
-      "key": "57d2d2d906",
-      "name": "Mısırlı Pirinç Pilavı"
-     },
-     {
-      "img": "dishes/9c8d655ef5.jpg",
-      "key": "9c8d655ef5",
-      "name": "Yoğurt"
-     },
-     {
-      "key": "79cce46055",
-      "name": "Bisküvili Pasta"
-     }
-    ]
-   },
-   "lunch": {
-    "items": [
-     {
-      "img": "dishes/78d4dad707.jpg",
-      "key": "78d4dad707",
-      "name": "Tarhana Çorbası"
-     },
-     {
-      "img": "dishes/3ed346919a.jpg",
-      "key": "3ed346919a",
-      "name": "Dana Haşlama"
-     },
-     {
-      "img": "dishes/3ac4f2289e.jpg",
-      "key": "3ac4f2289e",
-      "name": "Patlıcanlı Bulgur Pilavı"
-     },
-     {
-      "img": "dishes/16b5c22561.jpg",
-      "key": "16b5c22561",
-      "name": "Ayran"
-     },
-     {
-      "img": "dishes/7f43705206.jpg",
-      "key": "7f43705206",
-      "name": "Osmanlı Tulumba Tatlısı"
-     }
-    ]
-   }
-  },
   "2026-10-07": {
    "dinner": {
     "items": [
@@ -1593,5 +1536,5 @@
   }
  },
  "university": "itu",
- "updated": "2026-10-07T23:17:02+03:00"
+ "updated": "2026-10-08T12:40:48+03:00"
 }

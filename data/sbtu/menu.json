@@ -190,11 +190,13 @@
       "name": "Mantar Çorbası"
      },
      {
+      "img": "dishes/782e01df3b.jpg",
       "kcal": 306,
       "key": "782e01df3b",
       "name": "Fırında Tavuk Kanat"
      },
      {
+      "img": "dishes/bebb3f5417.jpg",
       "kcal": 230,
       "key": "bebb3f5417",
       "name": "Spagetti"
@@ -336,6 +338,7 @@
       "name": "Taze Fasulye"
      },
      {
+      "img": "dishes/e284be2c52.jpg",
       "kcal": 133,
       "key": "e284be2c52",
       "name": "Ispanak"
@@ -472,6 +475,7 @@
       "name": "Mercimek Çorbası"
      },
      {
+      "img": "dishes/978b1567af.jpg",
       "kcal": 340,
       "key": "978b1567af",
       "name": "Sebzeli Çoban Kavurma"
@@ -507,21 +511,25 @@
       "name": "Yayla Çorbası"
      },
      {
+      "img": "dishes/7639c433a0.jpg",
       "kcal": 110,
       "key": "7639c433a0",
       "name": "Kabak Yemeği"
      },
      {
+      "img": "dishes/77798bcfb4.jpg",
       "kcal": 285,
       "key": "77798bcfb4",
       "name": "Nugget"
      },
      {
+      "img": "dishes/bebb3f5417.jpg",
       "kcal": 230,
       "key": "bebb3f5417",
       "name": "Spagetti"
      },
      {
+      "img": "dishes/d6bb6aa472.jpg",
       "kcal": 120,
       "key": "d6bb6aa472",
       "name": "Şeker Pare"
@@ -549,6 +557,7 @@
       "name": "Sebzeli Tavuk Sote"
      },
      {
+      "img": "dishes/6873b97bdd.jpg",
       "kcal": 312,
       "key": "6873b97bdd",
       "name": "Körili Makarna"
@@ -746,5 +755,5 @@
   }
  },
  "university": "sbtu",
- "updated": "2026-10-07T23:17:02+03:00"
+ "updated": "2026-10-08T12:40:48+03:00"
 }

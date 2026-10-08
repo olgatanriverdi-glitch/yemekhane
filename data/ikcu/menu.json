@@ -198,8 +198,51 @@
      }
     ]
    }
+  },
+  "2026-10-09": {
+   "lunch": {
+    "items": [
+     {
+      "img": "dishes/f98b465287.jpg",
+      "key": "f98b465287",
+      "name": "Yayla Çorba"
+     },
+     {
+      "key": "2022863e61",
+      "name": "Çiftlik Kebabı"
+     },
+     {
+      "img": "dishes/bac7d91091.jpg",
+      "key": "bac7d91091",
+      "name": "Makarna"
+     },
+     {
+      "img": "dishes/faa2e9e4f2.jpg",
+      "key": "faa2e9e4f2",
+      "name": "Supangle"
+     }
+    ]
+   },
+   "vegetarian": {
+    "items": [
+     {
+      "img": "dishes/f98b465287.jpg",
+      "key": "f98b465287",
+      "name": "Yayla Çorba"
+     },
+     {
+      "key": "e5b6e2177f",
+      "name": "Zeytinyağlı Kabak"
+     },
+     {
+      "img": "dishes/629aa095d5.jpg",
+      "key": "629aa095d5",
+      "name": "Makarna Supangle Haydari"
+     }
+    ]
+   }
   }
  },
  "university": "ikcu",
- "updated": "2026-10-07T23:17:02+03:00"
+ "updated": "2026-10-08T12:40:48+03:00"
 }

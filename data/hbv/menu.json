@@ -360,8 +360,68 @@
     ],
     "kcal": 1107
    }
+  },
+  "2026-10-19": {
+   "lunch": {
+    "items": [
+     {
+      "img": "dishes/f98b465287.jpg",
+      "kcal": 105,
+      "key": "f98b465287",
+      "name": "YAYLA ÇORBA"
+     },
+     {
+      "img": "dishes/fe966f7485.jpg",
+      "kcal": 162,
+      "key": "fe966f7485",
+      "name": "KIYMALI ISPANAK"
+     },
+     {
+      "img": "dishes/831b0f20cf.jpg",
+      "kcal": 375,
+      "key": "831b0f20cf",
+      "name": "SU BÖREĞİ"
+     },
+     {
+      "img": "dishes/910cd3327e.jpg",
+      "kcal": 278,
+      "key": "910cd3327e",
+      "name": "MAGNOLİA"
+     }
+    ],
+    "kcal": 920
+   }
+  },
+  "2026-10-20": {
+   "lunch": {
+    "items": [
+     {
+      "img": "dishes/bf8474c8b9.jpg",
+      "kcal": 95,
+      "key": "bf8474c8b9",
+      "name": "EZOGELİN ÇORBA"
+     },
+     {
+      "kcal": 493,
+      "key": "808cc3c639",
+      "name": "MARMARİS KÖFTE"
+     },
+     {
+      "kcal": 215,
+      "key": "58a84c71b9",
+      "name": "TEL ŞEH.PİRİNÇ PİLAVI"
+     },
+     {
+      "img": "dishes/c47036e360.jpg",
+      "kcal": 100,
+      "key": "c47036e360",
+      "name": "ELMA"
+     }
+    ],
+    "kcal": 903
+   }
   }
  },
  "university": "hbv",
- "updated": "2026-10-07T23:17:02+03:00"
+ "updated": "2026-10-08T12:40:48+03:00"
 }

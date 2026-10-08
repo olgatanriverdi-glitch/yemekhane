@@ -3,12 +3,14 @@
   "2026-10-02": "41a246d21c3d",
   "2026-10-05": "8f579a24b2f7",
   "2026-10-06": "78be4bc465a4",
-  "2026-10-07": "8fef1ef330d1"
+  "2026-10-07": "8fef1ef330d1",
+  "2026-10-08": "942c5a76c502"
  },
  "main": {
   "025eacfe0c": "8f579a24b2f7",
   "211964d15e": "41a246d21c3d",
   "495c83bde2": "8fef1ef330d1",
+  "91d34270c6": "942c5a76c502",
   "b7f7a0ca2b": "78be4bc465a4"
  },
  "menus": {
@@ -50,6 +52,16 @@
     "İskender Kebap",
     "Şakşuka",
     "Red Velvet"
+   ]
+  },
+  "942c5a76c502": {
+   "added": "2026-10-08",
+   "hash": "d150ad5a21f2a776223de8696b645e99d52d1218",
+   "items": [
+    "Alaca Çorba",
+    "İsveç Köfte/Sebze Garnitür",
+    "Cevizli Erişte",
+    "Meyve"
    ]
   }
  }

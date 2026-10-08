@@ -89,6 +89,7 @@
       "name": "Mercimekli Bulgur Pilavı"
      },
      {
+      "img": "dishes/8eb544916b.jpg",
       "key": "8eb544916b",
       "name": "Şekerpare Tatlısı"
      }
@@ -132,6 +133,7 @@
       "name": "Sucuk İçi Köfte"
      },
      {
+      "img": "dishes/c1cd803af6.jpg",
       "key": "c1cd803af6",
       "name": "Acılı Bulgur Pilavı"
      },
@@ -225,6 +227,7 @@
       "name": "İzmir Köfte"
      },
      {
+      "img": "dishes/7753ad8d4b.jpg",
       "key": "7753ad8d4b",
       "name": "Sebzeli Burgu Makarna"
      },
@@ -269,6 +272,7 @@
       "name": "Ezogelin Çorba"
      },
      {
+      "img": "dishes/1a94898a31.jpg",
       "key": "1a94898a31",
       "name": "Tavuk Çökertme Kebap"
      },
@@ -277,6 +281,7 @@
       "name": "Özbek Pilavı"
      },
      {
+      "img": "dishes/c24df71363.jpg",
       "key": "c24df71363",
       "name": "Fındıklı Muhallebi"
      }
@@ -292,10 +297,12 @@
       "name": "Mercimek Çorba"
      },
      {
+      "img": "dishes/4186abfcb0.jpg",
       "key": "4186abfcb0",
       "name": "Tavuk Pirzola / Patates Kızartma"
      },
      {
+      "img": "dishes/d78dc7dace.jpg",
       "key": "d78dc7dace",
       "name": "Soslu Burgu Makarna"
      },
@@ -315,6 +322,7 @@
       "name": "Yoğurtlu Dövme Çorba"
      },
      {
+      "img": "dishes/31f4cae590.jpg",
       "key": "31f4cae590",
       "name": "Etli Sebzeli Kebap"
      },
@@ -390,6 +398,7 @@
       "name": "Sebzeli Tavuk Sarma"
      },
      {
+      "img": "dishes/d78dc7dace.jpg",
       "key": "d78dc7dace",
       "name": "Soslu Burgu Makarna"
      },
@@ -473,6 +482,7 @@
       "name": "Patates Oturtma"
      },
      {
+      "img": "dishes/c1cd803af6.jpg",
       "key": "c1cd803af6",
       "name": "Acılı Bulgur Pilavı"
      },
@@ -486,5 +496,5 @@
   }
  },
  "university": "cumhuriyet",
- "updated": "2026-10-07T23:17:02+03:00"
+ "updated": "2026-10-08T12:40:48+03:00"
 }

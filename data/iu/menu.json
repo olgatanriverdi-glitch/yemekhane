@@ -1,109 +1,5 @@
 {
  "days": {
-  "2026-10-05": {
-   "breakfast": {
-    "items": [
-     {
-      "img": "dishes/22605468a2.jpg",
-      "key": "22605468a2",
-      "name": "Çay"
-     },
-     {
-      "key": "f7b84ad85a",
-      "name": "Meyve Suyu"
-     },
-     {
-      "img": "dishes/bff26db9ff.jpg",
-      "key": "bff26db9ff",
-      "name": "Süt"
-     },
-     {
-      "key": "fdec71eec9",
-      "name": "Çilek Reçeli-Tereyağı"
-     },
-     {
-      "key": "d55ffa8efc",
-      "name": "Labne Peynir"
-     },
-     {
-      "img": "dishes/ebfeabaf2c.jpg",
-      "key": "ebfeabaf2c",
-      "name": "Poğaça"
-     },
-     {
-      "img": "dishes/cd4fbb0aa2.jpg",
-      "key": "cd4fbb0aa2",
-      "name": "Menemen"
-     }
-    ]
-   },
-   "dinner": {
-    "items": [
-     {
-      "img": "dishes/64ee8e0b3b.jpg",
-      "key": "64ee8e0b3b",
-      "name": "Düğün Çorbası"
-     },
-     {
-      "img": "dishes/c59b9eaa6e.jpg",
-      "key": "c59b9eaa6e",
-      "name": "Etli Bezelye"
-     },
-     {
-      "key": "8636bfbc0a",
-      "name": "Pirinç Pilavı"
-     },
-     {
-      "img": "dishes/0a95425edd.jpg",
-      "key": "0a95425edd",
-      "name": "Kıbrıs Tatlısı"
-     }
-    ]
-   },
-   "lunch": {
-    "items": [
-     {
-      "img": "dishes/64ee8e0b3b.jpg",
-      "key": "64ee8e0b3b",
-      "name": "Düğün Çorbası"
-     },
-     {
-      "img": "dishes/c59b9eaa6e.jpg",
-      "key": "c59b9eaa6e",
-      "name": "Etli Bezelye"
-     },
-     {
-      "key": "8636bfbc0a",
-      "name": "Pirinç Pilavı"
-     },
-     {
-      "img": "dishes/0a95425edd.jpg",
-      "key": "0a95425edd",
-      "name": "Kıbrıs Tatlısı"
-     }
-    ]
-   },
-   "vegetarian": {
-    "items": [
-     {
-      "key": "36b8ab35a3",
-      "name": "Patates Ezme Çorbası"
-     },
-     {
-      "key": "e5331cc9c2",
-      "name": "Etsiz Bezelye Yemeği"
-     },
-     {
-      "key": "8636bfbc0a",
-      "name": "Pirinç Pilavı"
-     },
-     {
-      "key": "fece5a0444",
-      "name": "Vişne Kompostosu"
-     }
-    ]
-   }
-  },
   "2026-10-06": {
    "breakfast": {
     "items": [
@@ -1955,29 +1851,6 @@
      }
     ]
    },
-   "lunch": {
-    "items": [
-     {
-      "img": "dishes/5d3038c41b.jpg",
-      "key": "5d3038c41b",
-      "name": "Yayla Çorbası"
-     },
-     {
-      "img": "dishes/785c5c2182.jpg",
-      "key": "785c5c2182",
-      "name": "Cordon Blue (Patates Garnili)"
-     },
-     {
-      "key": "46bd021b04",
-      "name": "Yoğurtlu Mantı"
-     },
-     {
-      "img": "dishes/099956f884.jpg",
-      "key": "099956f884",
-      "name": "Cevizli Tel Kadayıf"
-     }
-    ]
-   },
    "vegetarian": {
     "items": [
      {
@@ -2003,5 +1876,5 @@
   }
  },
  "university": "iu",
- "updated": "2026-10-07T23:17:02+03:00"
+ "updated": "2026-10-08T12:40:48+03:00"
 }

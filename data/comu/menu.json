@@ -789,6 +789,7 @@
       "name": "Patlıcan Musakka"
      },
      {
+      "img": "dishes/f86f2964eb.jpg",
       "kcal": 270,
       "key": "f86f2964eb",
       "name": "Zerdeçallı Bulgur Pilavı"
@@ -809,11 +810,13 @@
       "name": "Havuç Çorba"
      },
      {
+      "img": "dishes/7b9bea9b00.jpg",
       "kcal": 146,
       "key": "7b9bea9b00",
       "name": "İmambayıldı"
      },
      {
+      "img": "dishes/f86f2964eb.jpg",
       "kcal": 270,
       "key": "f86f2964eb",
       "name": "Zerdeçallı Bulgur Pilavı"
@@ -836,6 +839,7 @@
       "name": "Lebeniye Çorba"
      },
      {
+      "img": "dishes/8bae368139.jpg",
       "kcal": 359,
       "key": "8bae368139",
       "name": "Ali Nazik"
@@ -945,6 +949,7 @@
    "lunch": {
     "items": [
      {
+      "img": "dishes/79c6c69fa3.jpg",
       "kcal": 167,
       "key": "79c6c69fa3",
       "name": "Arpa Şehriye Çorba"
@@ -971,6 +976,7 @@
    "vegetarian": {
     "items": [
      {
+      "img": "dishes/79c6c69fa3.jpg",
       "kcal": 167,
       "key": "79c6c69fa3",
       "name": "Arpa Şehriye Çorba"
@@ -999,6 +1005,7 @@
    "lunch": {
     "items": [
      {
+      "img": "dishes/7d5322c037.jpg",
       "kcal": 151,
       "key": "7d5322c037",
       "name": "Kremalı Brokoli Çorba"
@@ -1102,6 +1109,7 @@
       "name": "Karışık Kızartma"
      },
      {
+      "img": "dishes/224fe5ed7e.jpg",
       "kcal": 328,
       "key": "224fe5ed7e",
       "name": "Biber Dolma"
@@ -1236,5 +1244,5 @@
   }
  },
  "university": "comu",
- "updated": "2026-10-07T23:17:02+03:00"
+ "updated": "2026-10-08T12:40:48+03:00"
 }
