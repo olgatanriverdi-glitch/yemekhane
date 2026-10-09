@@ -1,66 +1,5 @@
 {
  "days": {
-  "2026-10-07": {
-   "dinner": {
-    "items": [
-     {
-      "key": "a4976547e4",
-      "name": "Erzincan Çorbası"
-     },
-     {
-      "key": "007b19b638",
-      "name": "Kıymalı Yeşil Mercimek"
-     },
-     {
-      "img": "dishes/25b07cf14e.jpg",
-      "key": "25b07cf14e",
-      "name": "Bulgur Pilavı"
-     },
-     {
-      "img": "dishes/5a41fac25a.jpg",
-      "key": "5a41fac25a",
-      "name": "Sütlü İrmik Tatlısı"
-     },
-     {
-      "key": "79ded7ea04",
-      "name": "Havuç Tarator"
-     }
-    ]
-   },
-   "lunch": {
-    "items": [
-     {
-      "img": "dishes/23d0bb7dd1.jpg",
-      "key": "23d0bb7dd1",
-      "name": "Sebzeli Mantar Çorbası"
-     },
-     {
-      "key": "ad6e113e72",
-      "name": "Domates Soslu Fırın Piliç"
-     },
-     {
-      "img": "dishes/321b4fe3c9.jpg",
-      "key": "321b4fe3c9",
-      "name": "Mevsim Salatası"
-     },
-     {
-      "img": "dishes/972686fca7.jpg",
-      "key": "972686fca7",
-      "name": "Kadayıflı Muhallebi"
-     },
-     {
-      "img": "dishes/c3352ed568.jpg",
-      "key": "c3352ed568",
-      "name": "Kısır"
-     },
-     {
-      "img": "dishes/571318ed8e.jpg",
-      "key": "571318ed8e",
-      "name": "Garnitür Arpa Şehriye Pilavı"
-     }
-    ]
-   }
-  },
   "2026-10-08": {
    "dinner": {
     "items": [
@@ -1536,5 +1475,5 @@
   }
  },
  "university": "itu",
- "updated": "2026-10-08T23:24:00+03:00"
+ "updated": "2026-10-09T12:46:47+03:00"
 }

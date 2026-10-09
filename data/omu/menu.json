@@ -384,6 +384,7 @@
       "name": "Mercimek Çorba"
      },
      {
+      "img": "dishes/4f24dc85f2.jpg",
       "key": "4f24dc85f2",
       "name": "Lavaş Pilavüstü Et Döner"
      },
@@ -500,5 +501,5 @@
   }
  },
  "university": "omu",
- "updated": "2026-10-08T23:24:00+03:00"
+ "updated": "2026-10-09T12:46:47+03:00"
 }

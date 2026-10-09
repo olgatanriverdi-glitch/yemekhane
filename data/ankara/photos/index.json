@@ -4,16 +4,28 @@
   "2026-10-05": "8f579a24b2f7",
   "2026-10-06": "78be4bc465a4",
   "2026-10-07": "8fef1ef330d1",
-  "2026-10-08": "942c5a76c502"
+  "2026-10-08": "942c5a76c502",
+  "2026-10-09": "164fe8b5ccd4"
  },
  "main": {
   "025eacfe0c": "8f579a24b2f7",
   "211964d15e": "41a246d21c3d",
   "495c83bde2": "8fef1ef330d1",
   "91d34270c6": "942c5a76c502",
-  "b7f7a0ca2b": "78be4bc465a4"
+  "b7f7a0ca2b": "78be4bc465a4",
+  "de62be9b48": "164fe8b5ccd4"
  },
  "menus": {
+  "164fe8b5ccd4": {
+   "added": "2026-10-09",
+   "hash": "4c76f839e3bc42bbefad0d2624956bbc43d6eed3",
+   "items": [
+    "Anadolu Çorba",
+    "Ispanak Yatağında Izgara Tavuk",
+    "Mısırlı Pirinç Pilavı",
+    "Trileçe"
+   ]
+  },
   "41a246d21c3d": {
    "added": "2026-10-02",
    "hash": "cbc1f630ff30a5f211844686af4dd9195aac2141",

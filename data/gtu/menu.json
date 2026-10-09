@@ -123,6 +123,7 @@
       "name": "Pirinç Pilavı"
      },
      {
+      "img": "dishes/0509e40109.jpg",
       "kcal": 322,
       "key": "0509e40109",
       "name": "Acı Soslu Makarna"
@@ -179,6 +180,7 @@
       "name": "Napoliten Soslu Makarna"
      },
      {
+      "img": "dishes/75fbb01a4f.jpg",
       "kcal": 280,
       "key": "75fbb01a4f",
       "name": "Damla Sakızlı Muhallebi"
@@ -213,6 +215,7 @@
       "name": "Ezogelin Çorba"
      },
      {
+      "img": "dishes/f8fa4340a2.jpg",
       "kcal": 486,
       "key": "f8fa4340a2",
       "name": "Soslu İzmir Köfte"
@@ -292,6 +295,7 @@
       "name": "Çiğköfte"
      },
      {
+      "img": "dishes/9e0999f0d7.jpg",
       "kcal": 49,
       "key": "9e0999f0d7",
       "name": "Kıvırcık"
@@ -313,6 +317,7 @@
       "name": "Kaşarlı Domates Çorbası"
      },
      {
+      "img": "dishes/73140ef6b5.jpg",
       "kcal": 396,
       "key": "73140ef6b5",
       "name": "Tavuk Sarma"
@@ -414,11 +419,13 @@
       "name": "Ezogelin Çorba"
      },
      {
+      "img": "dishes/0d8c09beed.jpg",
       "kcal": 256,
       "key": "0d8c09beed",
       "name": "Etli Taze Fasülye"
      },
      {
+      "img": "dishes/9f371b0753.jpg",
       "kcal": 397,
       "key": "9f371b0753",
       "name": "Arpa Şehriye Pilav"
@@ -595,6 +602,7 @@
       "name": "Mercimek Köftesi"
      },
      {
+      "img": "dishes/9e0999f0d7.jpg",
       "kcal": 49,
       "key": "9e0999f0d7",
       "name": "Kıvırcık"
@@ -681,6 +689,7 @@
       "name": "Bulgur Pilavı"
      },
      {
+      "img": "dishes/9940970a61.jpg",
       "kcal": 322,
       "key": "9940970a61",
       "name": "Tepsi Böreği"
@@ -698,6 +707,7 @@
       "name": "Mercimek Köftesi"
      },
      {
+      "img": "dishes/9e0999f0d7.jpg",
       "kcal": 49,
       "key": "9e0999f0d7",
       "name": "Kıvırcık"
@@ -826,6 +836,7 @@
       "name": "Dana Tandır"
      },
      {
+      "img": "dishes/6f6a72d790.jpg",
       "kcal": 380,
       "key": "6f6a72d790",
       "name": "Keşkek"
@@ -864,6 +875,7 @@
       "name": "Domates Çorbası"
      },
      {
+      "img": "dishes/571bb3ea03.jpg",
       "kcal": 573,
       "key": "571bb3ea03",
       "name": "İskender"
@@ -994,6 +1006,7 @@
       "name": "Napoliten Soslu Makarna"
      },
      {
+      "img": "dishes/75fbb01a4f.jpg",
       "kcal": 280,
       "key": "75fbb01a4f",
       "name": "Damla Sakızlı Muhallebi"
@@ -1022,5 +1035,5 @@
   }
  },
  "university": "gtu",
- "updated": "2026-10-08T23:24:00+03:00"
+ "updated": "2026-10-09T12:46:47+03:00"
 }
