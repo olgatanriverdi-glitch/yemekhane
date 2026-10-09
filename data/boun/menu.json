@@ -1575,6 +1575,76 @@
       "name": "Akdeniz Salata"
      }
     ]
+   },
+   "lunch": {
+    "items": [
+     {
+      "key": "808150eca6",
+      "name": "Antep Çorba"
+     },
+     {
+      "img": "dishes/0e0e520868.jpg",
+      "key": "0e0e520868",
+      "name": "Hünkar Beğendi"
+     },
+     {
+      "key": "f03644afc2",
+      "name": "Melek Pilavı"
+     },
+     {
+      "img": "dishes/acfd9f660c.jpg",
+      "key": "acfd9f660c",
+      "name": "Köri Soslu Makarna"
+     },
+     {
+      "key": "52c7d1392a",
+      "name": "Ballı Balım Tatlısı"
+     },
+     {
+      "img": "dishes/16b5c22561.jpg",
+      "key": "16b5c22561",
+      "name": "Ayran"
+     },
+     {
+      "key": "2c97844142",
+      "name": "Sezar Salata"
+     }
+    ]
+   },
+   "vegetarian": {
+    "items": [
+     {
+      "key": "808150eca6",
+      "name": "Antep Çorba"
+     },
+     {
+      "img": "dishes/af3bfd620b.jpg",
+      "key": "af3bfd620b",
+      "name": "Mücver"
+     },
+     {
+      "key": "f03644afc2",
+      "name": "Melek Pilavı"
+     },
+     {
+      "img": "dishes/acfd9f660c.jpg",
+      "key": "acfd9f660c",
+      "name": "Köri Soslu Makarna"
+     },
+     {
+      "key": "52c7d1392a",
+      "name": "Ballı Balım Tatlısı"
+     },
+     {
+      "img": "dishes/16b5c22561.jpg",
+      "key": "16b5c22561",
+      "name": "Ayran"
+     },
+     {
+      "key": "2c97844142",
+      "name": "Sezar Salata"
+     }
+    ]
    }
   },
   "2026-10-16": {
@@ -3190,5 +3260,5 @@
   }
  },
  "university": "boun",
- "updated": "2026-10-09T12:46:47+03:00"
+ "updated": "2026-10-09T22:52:51+03:00"
 }
