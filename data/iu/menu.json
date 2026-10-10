@@ -1,111 +1,5 @@
 {
  "days": {
-  "2026-10-07": {
-   "breakfast": {
-    "items": [
-     {
-      "img": "dishes/22605468a2.jpg",
-      "key": "22605468a2",
-      "name": "Çay"
-     },
-     {
-      "key": "f7b84ad85a",
-      "name": "Meyve Suyu"
-     },
-     {
-      "img": "dishes/bff26db9ff.jpg",
-      "key": "bff26db9ff",
-      "name": "Süt"
-     },
-     {
-      "key": "bd44353672",
-      "name": "Bal-Tereyağı"
-     },
-     {
-      "img": "dishes/8690d4fe86.jpg",
-      "key": "8690d4fe86",
-      "name": "Beyaz Peynir"
-     },
-     {
-      "img": "dishes/174840f01c.jpg",
-      "key": "174840f01c",
-      "name": "Ispanaklı Tepsi Böreği"
-     },
-     {
-      "img": "dishes/61eeda5228.jpg",
-      "key": "61eeda5228",
-      "name": "Domates-Salatalık"
-     }
-    ]
-   },
-   "dinner": {
-    "items": [
-     {
-      "img": "dishes/4fb733faf2.jpg",
-      "key": "4fb733faf2",
-      "name": "Ezogelin Çorbası"
-     },
-     {
-      "key": "7beef3c4ec",
-      "name": "Kayseri Köfte"
-     },
-     {
-      "key": "99f4bc2075",
-      "name": "Cevizli Erişte"
-     },
-     {
-      "img": "dishes/2f58be7b7a.jpg",
-      "key": "2f58be7b7a",
-      "name": "Cacık"
-     }
-    ]
-   },
-   "lunch": {
-    "items": [
-     {
-      "img": "dishes/4fb733faf2.jpg",
-      "key": "4fb733faf2",
-      "name": "Ezogelin Çorbası"
-     },
-     {
-      "key": "7beef3c4ec",
-      "name": "Kayseri Köfte"
-     },
-     {
-      "key": "99f4bc2075",
-      "name": "Cevizli Erişte"
-     },
-     {
-      "img": "dishes/2f58be7b7a.jpg",
-      "key": "2f58be7b7a",
-      "name": "Cacık"
-     }
-    ]
-   },
-   "vegetarian": {
-    "items": [
-     {
-      "img": "dishes/4fb733faf2.jpg",
-      "key": "4fb733faf2",
-      "name": "Ezogelin Çorbası"
-     },
-     {
-      "key": "b7593804b8",
-      "name": "Biber Dolması"
-     },
-     {
-      "img": "dishes/943fe1113c.jpg",
-      "key": "943fe1113c",
-      "name": "Erişte"
-     },
-     {
-      "img": "dishes/44abc36c0c.jpg",
-      "key": "44abc36c0c",
-      "name": "İrmik Helvası"
-     }
-    ]
-   }
-  },
   "2026-10-08": {
    "breakfast": {
     "items": [
@@ -1789,5 +1683,5 @@
   }
  },
  "university": "iu",
- "updated": "2026-10-09T22:52:51+03:00"
+ "updated": "2026-10-10T12:11:41+03:00"
 }

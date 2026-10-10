@@ -1,62 +1,5 @@
 {
  "days": {
-  "2026-10-08": {
-   "dinner": {
-    "items": [
-     {
-      "key": "574f0487e7",
-      "name": "Tel Şehriyeli Havuç Çorbası"
-     },
-     {
-      "img": "dishes/878b29f656.jpg",
-      "key": "878b29f656",
-      "name": "Etli Türlü"
-     },
-     {
-      "key": "fef6adada3",
-      "name": "Nohutlu Pirinç Pilavı"
-     },
-     {
-      "img": "dishes/2f58be7b7a.jpg",
-      "key": "2f58be7b7a",
-      "name": "Cacık"
-     },
-     {
-      "img": "dishes/904e9c87e9.jpg",
-      "key": "904e9c87e9",
-      "name": "Şekerpare"
-     }
-    ]
-   },
-   "lunch": {
-    "items": [
-     {
-      "key": "b09bac10e9",
-      "name": "Mahluta Çorbası"
-     },
-     {
-      "img": "dishes/0428d021a9.jpg",
-      "key": "0428d021a9",
-      "name": "Hamburger"
-     },
-     {
-      "img": "dishes/5adcc65825.jpg",
-      "key": "5adcc65825",
-      "name": "Hardallı Patates Salatası"
-     },
-     {
-      "img": "dishes/2be1b1ba72.jpg",
-      "key": "2be1b1ba72",
-      "name": "Kola"
-     },
-     {
-      "img": "dishes/c195b508e6.jpg",
-      "key": "c195b508e6",
-      "name": "Erik"
-     }
-    ]
-   }
-  },
   "2026-10-09": {
    "dinner": {
     "items": [
@@ -1475,5 +1418,5 @@
   }
  },
  "university": "itu",
- "updated": "2026-10-09T22:52:51+03:00"
+ "updated": "2026-10-10T12:11:41+03:00"
 }

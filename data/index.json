@@ -81,7 +81,7 @@
   },
   {
    "city": "Ankara",
-   "firstDay": "2026-10-07",
+   "firstDay": "2026-10-08",
    "hours": {
     "breakfast": {
      "approx": false,
@@ -299,7 +299,7 @@
   },
   {
    "city": "İstanbul",
-   "firstDay": "2026-10-07",
+   "firstDay": "2026-10-08",
    "hours": {
     "breakfast": {
      "approx": false,
@@ -329,7 +329,7 @@
   },
   {
    "city": "İstanbul",
-   "firstDay": "2026-10-08",
+   "firstDay": "2026-10-09",
    "hours": {
     "dinner": {
      "approx": false,
@@ -705,6 +705,6 @@
    "source": "https://www.gtu.edu.tr/kategori/1296/0/display.aspx"
   }
  ],
- "updated": "2026-10-09T22:52:51+03:00",
+ "updated": "2026-10-10T12:11:41+03:00",
  "version": 1
 }
