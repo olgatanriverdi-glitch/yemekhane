@@ -123,8 +123,34 @@
      }
     ]
    }
+  },
+  "2026-10-12": {
+   "lunch": {
+    "items": [
+     {
+      "img": "dishes/dd81bbe4d5.jpg",
+      "key": "dd81bbe4d5",
+      "name": "Tavuklu Şehriye Çorba"
+     },
+     {
+      "img": "dishes/fe966f7485.jpg",
+      "key": "fe966f7485",
+      "name": "Kıymalı Ispanak"
+     },
+     {
+      "img": "dishes/18ccb4d264.jpg",
+      "key": "18ccb4d264",
+      "name": "Soslu Makarna"
+     },
+     {
+      "img": "dishes/36715dbae7.jpg",
+      "key": "36715dbae7",
+      "name": "Kase Yoğurt"
+     }
+    ]
+   }
   }
  },
  "university": "atauni",
- "updated": "2026-10-09T22:52:51+03:00"
+ "updated": "2026-10-11T12:26:23+03:00"
 }

@@ -1,108 +1,5 @@
 {
  "days": {
-  "2026-10-08": {
-   "breakfast": {
-    "items": [
-     {
-      "img": "dishes/22605468a2.jpg",
-      "key": "22605468a2",
-      "name": "Çay"
-     },
-     {
-      "key": "f7b84ad85a",
-      "name": "Meyve Suyu"
-     },
-     {
-      "img": "dishes/bff26db9ff.jpg",
-      "key": "bff26db9ff",
-      "name": "Süt"
-     },
-     {
-      "key": "b13c329917",
-      "name": "Vişne Reçeli-Tereyağı"
-     },
-     {
-      "key": "d55ffa8efc",
-      "name": "Labne Peynir"
-     },
-     {
-      "img": "dishes/ddc30ae037.jpg",
-      "key": "ddc30ae037",
-      "name": "Simit"
-     },
-     {
-      "key": "d57fd2c8c7",
-      "name": "Patatesli Yumurta"
-     }
-    ]
-   },
-   "dinner": {
-    "items": [
-     {
-      "img": "dishes/4e30e73821.jpg",
-      "key": "4e30e73821",
-      "name": "Kremalı Mantar Çorbası"
-     },
-     {
-      "img": "dishes/6bdddb27f8.jpg",
-      "key": "6bdddb27f8",
-      "name": "Etsiz Türlü"
-     },
-     {
-      "key": "8636bfbc0a",
-      "name": "Pirinç Pilavı"
-     },
-     {
-      "key": "ef1336ebbe",
-      "name": "Mürdüm Eriği"
-     }
-    ]
-   },
-   "lunch": {
-    "items": [
-     {
-      "img": "dishes/4e30e73821.jpg",
-      "key": "4e30e73821",
-      "name": "Kremalı Mantar Çorbası"
-     },
-     {
-      "img": "dishes/6bdddb27f8.jpg",
-      "key": "6bdddb27f8",
-      "name": "Etsiz Türlü"
-     },
-     {
-      "key": "8636bfbc0a",
-      "name": "Pirinç Pilavı"
-     },
-     {
-      "key": "ef1336ebbe",
-      "name": "Mürdüm Eriği"
-     }
-    ]
-   },
-   "vegetarian": {
-    "items": [
-     {
-      "img": "dishes/da64dc8fd8.jpg",
-      "key": "da64dc8fd8",
-      "name": "Mantar Çorbası"
-     },
-     {
-      "img": "dishes/6bdddb27f8.jpg",
-      "key": "6bdddb27f8",
-      "name": "Etsiz Türlü"
-     },
-     {
-      "key": "8636bfbc0a",
-      "name": "Pirinç Pilavı"
-     },
-     {
-      "key": "3ddbc111d2",
-      "name": "Limonata"
-     }
-    ]
-   }
-  },
   "2026-10-09": {
    "breakfast": {
     "items": [
@@ -1683,5 +1580,5 @@
   }
  },
  "university": "iu",
- "updated": "2026-10-10T22:02:39+03:00"
+ "updated": "2026-10-11T12:26:23+03:00"
 }
