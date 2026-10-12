@@ -1,64 +1,5 @@
 {
  "days": {
-  "2026-10-10": {
-   "dinner": {
-    "items": [
-     {
-      "key": "f734542a51",
-      "name": "Saray Çorbası"
-     },
-     {
-      "img": "dishes/d151de6ce3.jpg",
-      "key": "d151de6ce3",
-      "name": "Çoban Kavurma"
-     },
-     {
-      "key": "8f58a53982",
-      "name": "Sebze Graten"
-     },
-     {
-      "img": "dishes/16b5c22561.jpg",
-      "key": "16b5c22561",
-      "name": "Ayran"
-     },
-     {
-      "img": "dishes/c47036e360.jpg",
-      "key": "c47036e360",
-      "name": "Elma"
-     },
-     {
-      "key": "96bf98863d",
-      "name": "Garnitür Pirinç Pilavı"
-     }
-    ]
-   },
-   "lunch": {
-    "items": [
-     {
-      "img": "dishes/c79dd3c35d.jpg",
-      "key": "c79dd3c35d",
-      "name": "Kremalı Brokoli Çorbası"
-     },
-     {
-      "key": "bf8fcaa99c",
-      "name": "Bahçıvan Köfte"
-     },
-     {
-      "key": "fa4decda6a",
-      "name": "Şehriyeli Pirinç Pilavı"
-     },
-     {
-      "key": "d14bc2ed6a",
-      "name": "Akdeniz Salatası"
-     },
-     {
-      "img": "dishes/2be1b1ba72.jpg",
-      "key": "2be1b1ba72",
-      "name": "Kola"
-     }
-    ]
-   }
-  },
   "2026-10-11": {
    "dinner": {
     "items": [
@@ -1358,5 +1299,5 @@
   }
  },
  "university": "itu",
- "updated": "2026-10-11T22:16:06+03:00"
+ "updated": "2026-10-12T12:57:05+03:00"
 }

@@ -327,8 +327,9 @@
       "name": "Kırmızı Mercimek Çorba"
      },
      {
-      "key": "8636bfbc0a",
-      "name": "Pirinç Pilavı"
+      "img": "dishes/1d16892cbf.jpg",
+      "key": "1d16892cbf",
+      "name": "Etsiz Taze Fasulye"
      },
      {
       "img": "dishes/c96fd73d5f.jpg",
@@ -893,5 +894,5 @@
   }
  },
  "university": "gazi",
- "updated": "2026-10-11T22:16:06+03:00"
+ "updated": "2026-10-12T12:57:05+03:00"
 }

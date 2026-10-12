@@ -5,10 +5,12 @@
   "2026-10-06": "78be4bc465a4",
   "2026-10-07": "8fef1ef330d1",
   "2026-10-08": "942c5a76c502",
-  "2026-10-09": "164fe8b5ccd4"
+  "2026-10-09": "164fe8b5ccd4",
+  "2026-10-12": "e12d07f13338"
  },
  "main": {
   "025eacfe0c": "8f579a24b2f7",
+  "04aa480c87": "e12d07f13338",
   "211964d15e": "41a246d21c3d",
   "495c83bde2": "8fef1ef330d1",
   "91d34270c6": "942c5a76c502",
@@ -74,6 +76,16 @@
     "İsveç Köfte/Sebze Garnitür",
     "Cevizli Erişte",
     "Meyve"
+   ]
+  },
+  "e12d07f13338": {
+   "added": "2026-10-12",
+   "hash": "cb76d2b4d9937ca27cc13dddd564f51d1e80f8cc",
+   "items": [
+    "Ezogelin Çorba",
+    "Kadınbudu Köfte/Patates Salata",
+    "Arpa Şehriye Pilavı",
+    "Cacık"
    ]
   }
  }

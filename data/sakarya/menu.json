@@ -784,6 +784,7 @@
       "name": "Tavuk Cordon Bleu (Ezme)"
      },
      {
+      "img": "dishes/55eb7dc162.jpg",
       "key": "55eb7dc162",
       "name": "Etsiz Nohut (Merkez Yemekhanede)"
      },
@@ -855,6 +856,7 @@
       "name": "Et Sote"
      },
      {
+      "img": "dishes/550466382c.jpg",
       "key": "550466382c",
       "name": "Etsiz Kağıt Kebabı (Merkez Yemekhanede)"
      },
@@ -878,5 +880,5 @@
   }
  },
  "university": "sakarya",
- "updated": "2026-10-11T09:03:56+03:00"
+ "updated": "2026-10-12T12:57:05+03:00"
 }

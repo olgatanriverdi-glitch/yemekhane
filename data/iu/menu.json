@@ -1,108 +1,5 @@
 {
  "days": {
-  "2026-10-09": {
-   "breakfast": {
-    "items": [
-     {
-      "img": "dishes/22605468a2.jpg",
-      "key": "22605468a2",
-      "name": "Çay"
-     },
-     {
-      "key": "f7b84ad85a",
-      "name": "Meyve Suyu"
-     },
-     {
-      "img": "dishes/bff26db9ff.jpg",
-      "key": "bff26db9ff",
-      "name": "Süt"
-     },
-     {
-      "key": "a5700115ba",
-      "name": "Kakaolu Fındık Kreması"
-     },
-     {
-      "img": "dishes/b20332bcf6.jpg",
-      "key": "b20332bcf6",
-      "name": "Kaşar Peynir"
-     },
-     {
-      "key": "1f2f6f52d6",
-      "name": "Dereotlu Poğaça"
-     },
-     {
-      "img": "dishes/a402a42c08.jpg",
-      "key": "a402a42c08",
-      "name": "Yeşil Zeytin"
-     }
-    ]
-   },
-   "dinner": {
-    "items": [
-     {
-      "key": "067b4cc77a",
-      "name": "Prenses Çorbası"
-     },
-     {
-      "img": "dishes/9f1a521a31.jpg",
-      "key": "9f1a521a31",
-      "name": "Şehriyeli Dana Güveç"
-     },
-     {
-      "key": "bcb3b987c1",
-      "name": "Pembe Güzeli Salatası"
-     },
-     {
-      "key": "bde22e4e8e",
-      "name": "Siyah Üzüm"
-     }
-    ]
-   },
-   "lunch": {
-    "items": [
-     {
-      "key": "067b4cc77a",
-      "name": "Prenses Çorbası"
-     },
-     {
-      "img": "dishes/9f1a521a31.jpg",
-      "key": "9f1a521a31",
-      "name": "Şehriyeli Dana Güveç"
-     },
-     {
-      "key": "bcb3b987c1",
-      "name": "Pembe Güzeli Salatası"
-     },
-     {
-      "key": "bde22e4e8e",
-      "name": "Siyah Üzüm"
-     }
-    ]
-   },
-   "vegetarian": {
-    "items": [
-     {
-      "img": "dishes/e2fac9b8dd.jpg",
-      "key": "e2fac9b8dd",
-      "name": "Tel Şehriye Çorbası"
-     },
-     {
-      "img": "dishes/1d16892cbf.jpg",
-      "key": "1d16892cbf",
-      "name": "Etsiz Taze Fasulye"
-     },
-     {
-      "img": "dishes/321b4fe3c9.jpg",
-      "key": "321b4fe3c9",
-      "name": "Mevsim Salatası"
-     },
-     {
-      "key": "6fe01d8dcb",
-      "name": "Sütsüz Supangle"
-     }
-    ]
-   }
-  },
   "2026-10-12": {
    "breakfast": {
     "items": [
@@ -1580,5 +1477,5 @@
   }
  },
  "university": "iu",
- "updated": "2026-10-11T22:16:06+03:00"
+ "updated": "2026-10-12T12:57:05+03:00"
 }

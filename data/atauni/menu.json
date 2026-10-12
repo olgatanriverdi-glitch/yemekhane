@@ -143,14 +143,39 @@
       "name": "Soslu Makarna"
      },
      {
-      "img": "dishes/36715dbae7.jpg",
-      "key": "36715dbae7",
-      "name": "Kase Yoğurt"
+      "img": "dishes/9c8d655ef5.jpg",
+      "key": "9c8d655ef5",
+      "name": "Yoğurt"
+     }
+    ]
+   }
+  },
+  "2026-10-13": {
+   "lunch": {
+    "items": [
+     {
+      "img": "dishes/d61d397136.jpg",
+      "key": "d61d397136",
+      "name": "Süzme Mercimek Çorba"
+     },
+     {
+      "key": "4d0676c683",
+      "name": "Fırın Köfte"
+     },
+     {
+      "img": "dishes/b81f8dd2b7.jpg",
+      "key": "b81f8dd2b7",
+      "name": "Nohutlu Bulgur Pilavı"
+     },
+     {
+      "img": "dishes/92485508df.jpg",
+      "key": "92485508df",
+      "name": "Tatlı"
      }
     ]
    }
   }
  },
  "university": "atauni",
- "updated": "2026-10-11T22:16:06+03:00"
+ "updated": "2026-10-12T12:57:05+03:00"
 }
