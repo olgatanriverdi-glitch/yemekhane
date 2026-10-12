@@ -55,6 +55,7 @@
       "name": "Kuru Börülce Salatası"
      },
      {
+      "img": "dishes/43ff673522.jpg",
       "key": "43ff673522",
       "name": "Zeytinyağlı Biber Dolma"
      },
@@ -109,6 +110,7 @@
       "name": "Düğün Çorba"
      },
      {
+      "img": "dishes/e3b065bc71.jpg",
       "key": "e3b065bc71",
       "name": "Piliç Etli Bulgur Pilavı"
      },
@@ -195,6 +197,7 @@
    "vegetarian": {
     "items": [
      {
+      "img": "dishes/39ea22d2c7.jpg",
       "key": "39ea22d2c7",
       "name": "Zeytinyağlı Brokoli - Havuç"
      },
@@ -259,6 +262,7 @@
       "name": "Domatesli Şehriye Çorba"
      },
      {
+      "img": "dishes/bf98f4824d.jpg",
       "key": "bf98f4824d",
       "name": "Ankara Burma"
      },
@@ -294,6 +298,7 @@
       "name": "Akdeniz Salata"
      },
      {
+      "img": "dishes/bf98f4824d.jpg",
       "key": "bf98f4824d",
       "name": "Ankara Burma"
      }
@@ -317,6 +322,7 @@
       "name": "Elma"
      },
      {
+      "img": "dishes/eb3760fa48.jpg",
       "key": "eb3760fa48",
       "name": "Etli Türlü (Yaz)"
      }
@@ -325,6 +331,7 @@
    "lunch": {
     "items": [
      {
+      "img": "dishes/d0a1d08d54.jpg",
       "key": "d0a1d08d54",
       "name": "Domates - Biberli Tavuk Pirzola"
      },
@@ -334,6 +341,7 @@
       "name": "Kırmızı Mercimek Çorba"
      },
      {
+      "img": "dishes/45c9e633d9.jpg",
       "key": "45c9e633d9",
       "name": "Arabiata Soslu Makarna"
      },
@@ -351,6 +359,7 @@
       "name": "Zerdeçallı Karnabahar - Havuç"
      },
      {
+      "img": "dishes/073c89ab04.jpg",
       "key": "073c89ab04",
       "name": "Kabak Mücver"
      },
@@ -365,6 +374,7 @@
       "name": "Sebzeli Kuru Fasülye"
      },
      {
+      "img": "dishes/45c9e633d9.jpg",
       "key": "45c9e633d9",
       "name": "Arabiata Soslu Makarna"
      },
@@ -484,6 +494,7 @@
    "lunch": {
     "items": [
      {
+      "img": "dishes/0f7b594e87.jpg",
       "key": "0f7b594e87",
       "name": "Kıymalı Kabak Sandal Sefası"
      },
@@ -511,6 +522,7 @@
       "name": "Ezogelin Çorba"
      },
      {
+      "img": "dishes/8b3e204445.jpg",
       "key": "8b3e204445",
       "name": "Vegan Fajita"
      },
@@ -940,6 +952,7 @@
       "name": "Aynalı Kebap"
      },
      {
+      "img": "dishes/7cb2113a31.jpg",
       "key": "7cb2113a31",
       "name": "Terbiyeli Tel Şehriye Çorba"
      },
@@ -957,6 +970,7 @@
    "lunch": {
     "items": [
      {
+      "img": "dishes/70b0acc4a8.jpg",
       "key": "70b0acc4a8",
       "name": "Fırın Tavuk Baget"
      },
@@ -996,6 +1010,7 @@
       "name": "Yoğurtlu Makarna"
      },
      {
+      "img": "dishes/59bb5b26e5.jpg",
       "key": "59bb5b26e5",
       "name": "Humus"
      },
@@ -1011,6 +1026,7 @@
    "dinner": {
     "items": [
      {
+      "img": "dishes/0f7b594e87.jpg",
       "key": "0f7b594e87",
       "name": "Kıymalı Kabak Sandal Sefası"
      },
@@ -1065,6 +1081,7 @@
       "name": "Mantar Sote"
      },
      {
+      "img": "dishes/fed037687f.jpg",
       "key": "fed037687f",
       "name": "Zeytinyağlı Taze Fasülye"
      },
@@ -1089,6 +1106,7 @@
    "dinner": {
     "items": [
      {
+      "img": "dishes/d0a1d08d54.jpg",
       "key": "d0a1d08d54",
       "name": "Domates - Biberli Tavuk Pirzola"
      },
@@ -1098,6 +1116,7 @@
       "name": "Kırmızı Mercimek Çorba"
      },
      {
+      "img": "dishes/45c9e633d9.jpg",
       "key": "45c9e633d9",
       "name": "Arabiata Soslu Makarna"
      },
@@ -1111,6 +1130,7 @@
    "lunch": {
     "items": [
      {
+      "img": "dishes/eb3760fa48.jpg",
       "key": "eb3760fa48",
       "name": "Etli Türlü (Yaz)"
      },
@@ -1192,6 +1212,7 @@
       "name": "Naneli Yoğurt Çorba"
      },
      {
+      "img": "dishes/6bfa0ca014.jpg",
       "key": "6bfa0ca014",
       "name": "Salçalı Bulgur Pilavı"
      },
@@ -1205,6 +1226,7 @@
    "vegetarian": {
     "items": [
      {
+      "img": "dishes/da4cb15494.jpg",
       "key": "da4cb15494",
       "name": "Naneli Yoğurt Çorbası"
      },
@@ -1217,10 +1239,12 @@
       "name": "Zeytinyağlı Portakallı Kereviz"
      },
      {
+      "img": "dishes/6bfa0ca014.jpg",
       "key": "6bfa0ca014",
       "name": "Salçalı Bulgur Pilavı"
      },
      {
+      "img": "dishes/073c89ab04.jpg",
       "key": "073c89ab04",
       "name": "Kabak Mücver"
      },
@@ -1292,6 +1316,7 @@
       "name": "Sebzeli Nohut"
      },
      {
+      "img": "dishes/6472f185bf.jpg",
       "key": "6472f185bf",
       "name": "Zeytinyağlı Enginar Dolma"
      },
@@ -1300,6 +1325,7 @@
       "name": "Sade Pirinç Pilavı"
      },
      {
+      "img": "dishes/14287cd0b6.jpg",
       "key": "14287cd0b6",
       "name": "Çiğ Köfte / Marul"
      },
@@ -1401,6 +1427,7 @@
       "name": "Tantuni"
      },
      {
+      "img": "dishes/7cb2113a31.jpg",
       "key": "7cb2113a31",
       "name": "Terbiyeli Tel Şehriye Çorba"
      },
@@ -1520,6 +1547,7 @@
       "name": "Peynirli Gül Böreği"
      },
      {
+      "img": "dishes/e76c2f2d40.jpg",
       "key": "e76c2f2d40",
       "name": "Yoğurtlu Cevizli Kereviz Salata"
      },
@@ -1609,6 +1637,7 @@
       "name": "Sebzeli Pirinç Pilavı"
      },
      {
+      "img": "dishes/f0596486d4.jpg",
       "key": "f0596486d4",
       "name": "Mercimek Köfte / Marul"
      },
@@ -1622,5 +1651,5 @@
   }
  },
  "university": "uludag",
- "updated": "2026-10-12T12:57:05+03:00"
+ "updated": "2026-10-13T01:18:03+03:00"
 }

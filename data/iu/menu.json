@@ -147,46 +147,44 @@
    "dinner": {
     "items": [
      {
-      "img": "dishes/78d4dad707.jpg",
-      "key": "78d4dad707",
-      "name": "Tarhana Çorbası"
+      "key": "0afb69c78d",
+      "name": "Kaşarlı Domates Çorbası"
      },
      {
-      "img": "dishes/7dcf3f797f.jpg",
-      "key": "7dcf3f797f",
-      "name": "Ankara Tava (Pirinç)"
+      "key": "82bddc9f12",
+      "name": "Kıymalı Karnabahar"
      },
      {
-      "key": "8780f22af6",
-      "name": "Yoğurtlu Havuç Tarator"
+      "img": "dishes/831b0f20cf.jpg",
+      "key": "831b0f20cf",
+      "name": "Su Böreği"
      },
      {
-      "img": "dishes/997b4ad147.jpg",
-      "key": "997b4ad147",
-      "name": "Muz"
+      "img": "dishes/16b5c22561.jpg",
+      "key": "16b5c22561",
+      "name": "Ayran"
      }
     ]
    },
    "lunch": {
     "items": [
      {
-      "img": "dishes/78d4dad707.jpg",
-      "key": "78d4dad707",
-      "name": "Tarhana Çorbası"
+      "key": "0afb69c78d",
+      "name": "Kaşarlı Domates Çorbası"
      },
      {
-      "img": "dishes/7dcf3f797f.jpg",
-      "key": "7dcf3f797f",
-      "name": "Ankara Tava (Pirinç)"
+      "key": "82bddc9f12",
+      "name": "Kıymalı Karnabahar"
      },
      {
-      "key": "8780f22af6",
-      "name": "Yoğurtlu Havuç Tarator"
+      "img": "dishes/831b0f20cf.jpg",
+      "key": "831b0f20cf",
+      "name": "Su Böreği"
      },
      {
-      "img": "dishes/997b4ad147.jpg",
-      "key": "997b4ad147",
-      "name": "Muz"
+      "img": "dishes/16b5c22561.jpg",
+      "key": "16b5c22561",
+      "name": "Ayran"
      }
     ]
    },
@@ -470,44 +468,46 @@
    "dinner": {
     "items": [
      {
-      "key": "0afb69c78d",
-      "name": "Kaşarlı Domates Çorbası"
+      "img": "dishes/78d4dad707.jpg",
+      "key": "78d4dad707",
+      "name": "Tarhana Çorbası"
      },
      {
-      "key": "82bddc9f12",
-      "name": "Kıymalı Karnabahar"
+      "img": "dishes/7dcf3f797f.jpg",
+      "key": "7dcf3f797f",
+      "name": "Ankara Tava (Pirinç)"
      },
      {
-      "img": "dishes/831b0f20cf.jpg",
-      "key": "831b0f20cf",
-      "name": "Su Böreği"
+      "key": "8780f22af6",
+      "name": "Yoğurtlu Havuç Tarator"
      },
      {
-      "img": "dishes/16b5c22561.jpg",
-      "key": "16b5c22561",
-      "name": "Ayran"
+      "img": "dishes/997b4ad147.jpg",
+      "key": "997b4ad147",
+      "name": "Muz"
      }
     ]
    },
    "lunch": {
     "items": [
      {
-      "key": "0afb69c78d",
-      "name": "Kaşarlı Domates Çorbası"
+      "img": "dishes/78d4dad707.jpg",
+      "key": "78d4dad707",
+      "name": "Tarhana Çorbası"
      },
      {
-      "key": "82bddc9f12",
-      "name": "Kıymalı Karnabahar"
+      "img": "dishes/7dcf3f797f.jpg",
+      "key": "7dcf3f797f",
+      "name": "Ankara Tava (Pirinç)"
      },
      {
-      "img": "dishes/831b0f20cf.jpg",
-      "key": "831b0f20cf",
-      "name": "Su Böreği"
+      "key": "8780f22af6",
+      "name": "Yoğurtlu Havuç Tarator"
      },
      {
-      "img": "dishes/16b5c22561.jpg",
-      "key": "16b5c22561",
-      "name": "Ayran"
+      "img": "dishes/997b4ad147.jpg",
+      "key": "997b4ad147",
+      "name": "Muz"
      }
     ]
    },
@@ -1477,5 +1477,5 @@
   }
  },
  "university": "iu",
- "updated": "2026-10-12T12:57:05+03:00"
+ "updated": "2026-10-13T01:18:03+03:00"
 }

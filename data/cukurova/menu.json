@@ -293,40 +293,6 @@
     "kcal": 726
    }
   },
-  "2026-10-12": {
-   "lunch": {
-    "items": [
-     {
-      "img": "dishes/daa5ce82dc.jpg",
-      "kcal": 246,
-      "key": "daa5ce82dc",
-      "name": "Soslu Dalyan Köfte + Patates Püresi"
-     },
-     {
-      "kcal": 220,
-      "key": "a15214336b",
-      "name": "Fırın Patates (Etsiz)"
-     },
-     {
-      "kcal": 290,
-      "key": "af2485acdf",
-      "name": "Sebzeli Erişte Pilavı"
-     },
-     {
-      "img": "dishes/9c8d655ef5.jpg",
-      "kcal": 118,
-      "key": "9c8d655ef5",
-      "name": "Yoğurt"
-     },
-     {
-      "kcal": 7,
-      "key": "d7528dbe47",
-      "name": "Salatalık Turşusu"
-     }
-    ],
-    "kcal": 881
-   }
-  },
   "2026-10-13": {
    "lunch": {
     "items": [
@@ -335,6 +301,11 @@
       "kcal": 396,
       "key": "7e2a438be8",
       "name": "Tavuk Haşlama"
+     },
+     {
+      "kcal": 133,
+      "key": "ad9e636233",
+      "name": "Kabak Musakka (Etsiz)"
      },
      {
       "kcal": 377,
@@ -354,7 +325,7 @@
       "name": "Meyve (Elma)"
      }
     ],
-    "kcal": 935
+    "kcal": 1068
    }
   },
   "2026-10-14": {
@@ -462,18 +433,18 @@
       "name": "Meyhane Pilavı"
      },
      {
-      "img": "dishes/9c8d655ef5.jpg",
-      "kcal": 118,
-      "key": "9c8d655ef5",
-      "name": "Yoğurt"
+      "img": "dishes/16b5c22561.jpg",
+      "kcal": 60,
+      "key": "16b5c22561",
+      "name": "Ayran"
      },
      {
-      "kcal": 7,
-      "key": "d7528dbe47",
-      "name": "Salatalık Turşusu"
+      "kcal": 105,
+      "key": "1268937c0d",
+      "name": "Havuç Salata"
      }
     ],
-    "kcal": 926
+    "kcal": 966
    }
   },
   "2026-10-20": {
@@ -598,5 +569,5 @@
   }
  },
  "university": "cukurova",
- "updated": "2026-10-12T12:57:05+03:00"
+ "updated": "2026-10-13T01:18:03+03:00"
 }

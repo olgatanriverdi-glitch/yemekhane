@@ -713,24 +713,24 @@
       "name": "Domates Çorbası"
      },
      {
-      "img": "dishes/808629f982.jpg",
-      "kcal": 490,
-      "key": "808629f982",
-      "name": "Mantı"
+      "img": "dishes/890b8e3990.jpg",
+      "kcal": 428,
+      "key": "890b8e3990",
+      "name": "Etli Nohut"
+     },
+     {
+      "kcal": 343,
+      "key": "8636bfbc0a",
+      "name": "Pirinç Pilavı"
      },
      {
       "img": "dishes/197ebd4c8a.jpg",
       "kcal": 211,
       "key": "197ebd4c8a",
       "name": "Komposto (Çilek)"
-     },
-     {
-      "kcal": 320,
-      "key": "c16f7048b9",
-      "name": "Kuru Fasülye Piyaz"
      }
     ],
-    "kcal": 1266
+    "kcal": 1227
    },
    "lunch": {
     "items": [
@@ -740,31 +740,37 @@
       "name": "Domates Çorbası"
      },
      {
-      "img": "dishes/808629f982.jpg",
-      "kcal": 490,
-      "key": "808629f982",
-      "name": "Mantı"
+      "img": "dishes/890b8e3990.jpg",
+      "kcal": 428,
+      "key": "890b8e3990",
+      "name": "Etli Nohut"
+     },
+     {
+      "kcal": 343,
+      "key": "8636bfbc0a",
+      "name": "Pirinç Pilavı"
      },
      {
       "img": "dishes/197ebd4c8a.jpg",
       "kcal": 211,
       "key": "197ebd4c8a",
       "name": "Komposto (Çilek)"
-     },
-     {
-      "kcal": 320,
-      "key": "c16f7048b9",
-      "name": "Kuru Fasülye Piyaz"
      }
     ],
-    "kcal": 1266
+    "kcal": 1227
    },
    "vegetarian": {
     "items": [
      {
-      "kcal": 155,
-      "key": "2f2a945fb8",
-      "name": "Etsiz Mantar Sote"
+      "img": "dishes/b6cacec026.jpg",
+      "kcal": 300,
+      "key": "b6cacec026",
+      "name": "Etsiz Nohut"
+     },
+     {
+      "kcal": 343,
+      "key": "8636bfbc0a",
+      "name": "Pirinç Pilavı"
      },
      {
       "img": "dishes/ec0228f614.jpg",
@@ -777,14 +783,9 @@
       "kcal": 183,
       "key": "a765c7c985",
       "name": "Komposto"
-     },
-     {
-      "kcal": 320,
-      "key": "c16f7048b9",
-      "name": "Kuru Fasülye Piyaz"
      }
     ],
-    "kcal": 678
+    "kcal": 846
    }
   },
   "2026-10-16": {
@@ -2998,5 +2999,5 @@
   }
  },
  "university": "hacettepe",
- "updated": "2026-10-12T12:57:05+03:00"
+ "updated": "2026-10-13T01:18:03+03:00"
 }

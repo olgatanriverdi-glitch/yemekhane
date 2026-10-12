@@ -53,6 +53,7 @@
       "name": "Kısır"
      },
      {
+      "img": "dishes/9b9712fb92.jpg",
       "kcal": 188,
       "key": "9b9712fb92",
       "name": "Ekşili Brokoli"
@@ -235,6 +236,7 @@
       "name": "Bulgur Pilavı"
      },
      {
+      "img": "dishes/1d3e00a1a7.jpg",
       "kcal": 285,
       "key": "1d3e00a1a7",
       "name": "Nohut (Zeytinyağlı)"
@@ -332,6 +334,7 @@
       "name": "Zeytinyağlı Karnabahar"
      },
      {
+      "img": "dishes/98c92cbbd4.jpg",
       "kcal": 1,
       "key": "98c92cbbd4",
       "name": "Makarna Salata"
@@ -456,5 +459,5 @@
   }
  },
  "university": "pamukkale",
- "updated": "2026-10-12T12:57:05+03:00"
+ "updated": "2026-10-13T01:18:03+03:00"
 }
