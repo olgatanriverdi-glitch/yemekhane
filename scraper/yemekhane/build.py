@@ -9,11 +9,15 @@ import io
 import json
 import os
 import sys
+from concurrent.futures import ThreadPoolExecutor, TimeoutError as ZamanAsimi
 from datetime import datetime, timedelta, timezone
 
 from .universities import KAYITLI
 
 GUN_SAKLA = 45     # bugünden bu kadar gün öncesine kadar menü tutulur
+OKUL_SURESI = 180  # sn: bir okulun menuler() çağrısı bu süreyi aşarsa hata sayılır (önceki kayıt korunur)
+PARALEL = 6        # yalnızca menuler() çağrıları paralel; geri kalan işlem (fotoğraf, yazma) sırayla
+ESKI_GUN = 14      # korunan kaydın son günü bundan eskiyse index kaydına "stale": true yazılır
 # Okul yayınlamıyorsa gösterilecek tipik saatler ('genelde' etiketiyle, kesin bilgi gibi sunulmaz)
 VARSAYILAN_SAATLER = {"lunch": "11:00–14:00", "dinner": "17:00–19:00"}
 
@@ -106,9 +110,18 @@ def calistir(cikti: str, uniler=None) -> int:
     eski = onceki_kayitlar(cikti)
     from .dishes import YemekFotolari
     yf = YemekFotolari(os.path.join(cikti, "dishes"), bugun=simdi.date())
-    for u in (uniler or KAYITLI):
+    uniler = list(uniler or KAYITLI)
+    hatalilar = []
+    # menuler() ağ beklediği için paralel; paylaşımlı YemekFotolari/FotoKutuphanesi'ne dokunmaz
+    havuz = ThreadPoolExecutor(max_workers=PARALEL)
+    vadeler = [havuz.submit(u.menuler) for u in uniler]
+    for u, vade in zip(uniler, vadeler):
         try:
-            menuler = {t: g for t, g in u.menuler().items() if t >= sinir}
+            try:
+                ham = vade.result(timeout=OKUL_SURESI)
+            except ZamanAsimi:
+                raise RuntimeError("zaman aşımı (%d sn)" % OKUL_SURESI)
+            menuler = {t: g for t, g in ham.items() if t >= sinir}
             if menuler and getattr(u, "birikimli", False):
                 menuler = onceki_gunler(cikti, u.id, sinir, menuler)
             if not menuler:
@@ -124,10 +137,19 @@ def calistir(cikti: str, uniler=None) -> int:
             print("%-10s %d gün (%s .. %s) türler=%s" % (u.id, len(menuler), min(menuler), max(menuler), turler))
         except Exception as e:
             hata += 1
+            hatalilar.append((u.id, e))
             print("HATA: %s güncellenemedi: %s" % (u.id, e), file=sys.stderr)
             if u.id in eski:         # geçici bir hata okulu uygulamadan düşürmesin: önceki kayıt (ve dokunulmamış menu.json) kalır
-                liste.append(eski[u.id])
-                print("%-10s önceki kayıt korundu" % u.id, file=sys.stderr)
+                kayit = dict(eski[u.id])
+                if kayit.get("lastDay", "") < (simdi - timedelta(days=ESKI_GUN)).date().isoformat():
+                    kayit["stale"] = True        # uygulama "Menü güncel değil" gösterir
+                else:
+                    kayit.pop("stale", None)
+                liste.append(kayit)
+                print("%-10s önceki kayıt korundu%s" % (u.id, " (eski: stale)" if kayit.get("stale") else ""), file=sys.stderr)
+    havuz.shutdown(wait=False, cancel_futures=True)     # zaman aşımına uğrayan iş arka planda bitsin, beklenmesin
+    if hatalilar:
+        print("ÖZET: %d okul hatalı: %s" % (len(hatalilar), ", ".join("%s (%s)" % (k, e) for k, e in hatalilar)), file=sys.stderr)
     yf.kaydet()
     if liste:
         yaz(os.path.join(cikti, "index.json"), {"version": 1, "updated": simdi.isoformat(timespec="seconds"), "universities": liste})

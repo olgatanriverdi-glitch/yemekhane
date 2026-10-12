@@ -1,5 +1,14 @@
 {
  "dishes": {
+  "002ba512d2": {
+   "baslik": "Kuru köfte ve pilav.jpg",
+   "kaynak": "Wikimedia Commons",
+   "lisans": "CC BY-SA 4.0",
+   "name": "Kuru Köfte/Garnitür",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Kuru_k%C3%B6fte_ve_pilav.jpg",
+   "sorgu": "Kuru Köfte",
+   "yazar": "E4024"
+  },
   "003ff15abd": {
    "baslik": "Turlu guvec.jpg",
    "kaynak": "Wikimedia Commons",
@@ -828,6 +837,15 @@
    "sorgu": "Bulgur Pilav",
    "yazar": "E4024"
   },
+  "28b694241b": {
+   "baslik": "Şehriyeli pilav.jpg",
+   "kaynak": "Wikimedia Commons",
+   "lisans": "CC BY-SA 4.0",
+   "name": "Şehriyeli Pilav",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:%C5%9Eehriyeli_pilav.jpg",
+   "sorgu": "Şehriyeli Pilav",
+   "yazar": "E4024"
+  },
   "28d5317345": {
    "baslik": "Sauteed beef and vegetables.jpg",
    "kaynak": "Wikimedia Commons",
@@ -963,6 +981,15 @@
    "sorgu": "Ice Tea",
    "yazar": "Renee Comet (photographer)"
   },
+  "2e7c33aa00": {
+   "baslik": "Fırında Domates Soslu Tavuk Baget.jpg",
+   "kaynak": "Wikimedia Commons",
+   "lisans": "CC BY-SA 4.0",
+   "name": "Fırında Tavuk Baget (Garnitür)",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:F%C4%B1r%C4%B1nda_Domates_Soslu_Tavuk_Baget.jpg",
+   "sorgu": "Fırında Tavuk Baget",
+   "yazar": "Samizambak"
+  },
   "2e9a9837b2": {
    "baslik": "İzmir Karşıyaka Cevizli Baklava.jpg",
    "kaynak": "Wikimedia Commons",
@@ -1042,6 +1069,15 @@
    "name": "Hasanpaşa Köfte",
    "sayfa": "https://commons.wikimedia.org/wiki/File:Hasanpa%C5%9Fa_k%C3%B6fte_and_Turkish_pilav.jpg",
    "sorgu": "Hasanpaşa Köfte",
+   "yazar": "E4024"
+  },
+  "35fe2931ed": {
+   "baslik": "Tavuk fırında.jpg",
+   "kaynak": "Wikimedia Commons",
+   "lisans": "CC BY-SA 4.0",
+   "name": "Fırında Tavuk But (Garnitür)",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Tavuk_f%C4%B1r%C4%B1nda.jpg",
+   "sorgu": "Fırında Tavuk But",
    "yazar": "E4024"
   },
   "360275e0df": {
@@ -1566,6 +1602,15 @@
    "sorgu": "Kol Böreği",
    "yazar": "E4024"
   },
+  "541bb2f598": {
+   "baslik": "Cordon-bleu-2.jpg",
+   "kaynak": "Wikimedia Commons",
+   "lisans": "GPL",
+   "name": "Tavuk Cordon Bleu (Ezme)",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Cordon-bleu-2.jpg",
+   "sorgu": "Cordon Bleu",
+   "yazar": "Rainer Zenz"
+  },
   "5438925b4c": {
    "baslik": "Barbunya pilaki in Ankara.jpg",
    "kaynak": "Wikimedia Commons",
@@ -1709,6 +1754,15 @@
    "sayfa": "https://commons.wikimedia.org/wiki/File:Patates_Salatas%C4%B1.jpg",
    "sorgu": "Patates Salatası",
    "yazar": "Basak"
+  },
+  "5b4ebfa836": {
+   "baslik": "Patlıcan islim kebap.jpg",
+   "kaynak": "Wikimedia Commons",
+   "lisans": "CC BY-SA 4.0",
+   "name": "Etsiz Patlıcan Yemeği (Merkez Yemekhanede)",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Patl%C4%B1can_islim_kebap.jpg",
+   "sorgu": "Patlıcan",
+   "yazar": "E4024"
   },
   "5b7bbc3ecc": {
    "baslik": "Fatih Portakal (6788432689).jpg",
@@ -1935,6 +1989,15 @@
    "sorgu": "Düğün Çorbası",
    "yazar": "E4024"
   },
+  "656f5f271a": {
+   "baslik": "Sandal sefası (not cooked yet).jpg",
+   "kaynak": "Wikimedia Commons",
+   "lisans": "CC BY-SA 4.0",
+   "name": "Etsiz Sandal Sefası (Merkez Yemekhanede)",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Sandal_sefas%C4%B1_(not_cooked_yet).jpg",
+   "sorgu": "Sandal Sefası",
+   "yazar": "E4024"
+  },
   "65dfdea3d4": {
    "baslik": "Mashed potatos - patates püresi mutfak tezgahında (3113043650).jpg",
    "kaynak": "Wikimedia Commons",
@@ -2042,6 +2105,15 @@
    "sayfa": "https://commons.wikimedia.org/wiki/File:Bir_halka_tatl%C4%B1s%C4%B1.jpg",
    "sorgu": "Halka Tatlı",
    "yazar": "Kurmanbek"
+  },
+  "6c902f65f4": {
+   "baslik": "Cordon-bleu-2.jpg",
+   "kaynak": "Wikimedia Commons",
+   "lisans": "GPL",
+   "name": "Tavuk Cordon Bleu (Garnitürlü)",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Cordon-bleu-2.jpg",
+   "sorgu": "Cordon Bleu",
+   "yazar": "Rainer Zenz"
   },
   "6d972afa58": {
    "baslik": "Tavuk kanat or chicken wings.jpg",
@@ -2457,6 +2529,15 @@
    "sorgu": "Kol",
    "yazar": "FunkMonk"
   },
+  "847340026b": {
+   "baslik": "Etsiz bamya.jpg",
+   "kaynak": "Wikimedia Commons",
+   "lisans": "CC BY-SA 4.0",
+   "name": "Etsiz Bamya Yemeği (Merkez Yemekhane)",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Etsiz_bamya.jpg",
+   "sorgu": "Etsiz Bamya Yemeği",
+   "yazar": "E4024"
+  },
   "848c4f7aba": {
    "baslik": "Ispanak yemeği.jpg",
    "kaynak": "Wikimedia Commons",
@@ -2484,6 +2565,15 @@
    "sorgu": "Mercimekli Bulgur Pilavı",
    "yazar": "Fatih Sarsılmaz"
   },
+  "866962031a": {
+   "baslik": "Tavuklu şehriye çorbası.jpg",
+   "kaynak": "Wikimedia Commons",
+   "lisans": "CC BY-SA 4.0",
+   "name": "Salçalı Tel Şehriye Çorbası",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Tavuklu_%C5%9Fehriye_%C3%A7orbas%C4%B1.jpg",
+   "sorgu": "Şehriye Çorbası",
+   "yazar": "E4024"
+  },
   "8690d4fe86": {
    "baslik": "Beyaz peynir and olives 1.jpg",
    "kaynak": "Wikimedia Commons",
@@ -2492,6 +2582,15 @@
    "sayfa": "https://commons.wikimedia.org/wiki/File:Beyaz_peynir_and_olives_1.jpg",
    "sorgu": "Beyaz Peynir",
    "yazar": "Oksana Makarenko (UA-Lora)"
+  },
+  "86b4c1e8e9": {
+   "baslik": "Kadınbudu köfte.jpg",
+   "kaynak": "Wikimedia Commons",
+   "lisans": "CC BY-SA 4.0",
+   "name": "Kadınbudu Köfte (Ezmeli)",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Kad%C4%B1nbudu_k%C3%B6fte.jpg",
+   "sorgu": "Kadınbudu Köfte",
+   "yazar": "E4024"
   },
   "8714880c0b": {
    "baslik": "Akcaabatkofte.jpg",
@@ -2736,6 +2835,15 @@
    "sorgu": "Cheesecake",
    "yazar": "Ocdp"
   },
+  "951524f4b5": {
+   "baslik": "İmam bayıldı AvL.JPG",
+   "kaynak": "Wikimedia Commons",
+   "lisans": "CC BY-SA 4.0",
+   "name": "İmam Bayıldı (Etsiz) (Merkez Yemekhanede)",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:%C4%B0mam_bay%C4%B1ld%C4%B1_AvL.JPG",
+   "sorgu": "İmam Bayıldı",
+   "yazar": "AlexanderVanLoon"
+  },
   "95c276698d": {
    "baslik": "Kremalı sebze çorbası.jpg",
    "kaynak": "Wikimedia Commons",
@@ -2771,6 +2879,15 @@
    "sayfa": "https://commons.wikimedia.org/wiki/File:%C3%87oban_kavurma_in_a_sahan.jpg",
    "sorgu": "Çoban Kavurma",
    "yazar": "E4024"
+  },
+  "9794d385f5": {
+   "baslik": "Doner Kebab, sols carn i lletuga..jpg",
+   "kaynak": "Wikimedia Commons",
+   "lisans": "CC BY-SA 4.0",
+   "name": "Garnitürlü Et Döner",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Doner_Kebab,_sols_carn_i_lletuga..jpg",
+   "sorgu": "Et Döner",
+   "yazar": "Francesc Fort"
   },
   "97a7f04327": {
    "baslik": "Piyaz 01.jpg",
@@ -3059,6 +3176,15 @@
    "sayfa": "https://commons.wikimedia.org/wiki/File:Yesil_zeytin_1.jpg",
    "sorgu": "Yeşil Zeytin",
    "yazar": "Citrat at Turkish Wikipedia"
+  },
+  "a4538436cf": {
+   "baslik": "Saray Sarma.jpg",
+   "kaynak": "Wikimedia Commons",
+   "lisans": "CC BY-SA 4.0",
+   "name": "Saray Sarma",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Saray_Sarma.jpg",
+   "sorgu": "Saray Sarma",
+   "yazar": "Garrett Ziegler"
   },
   "a4afe0f46b": {
    "baslik": "Sebzeli kebap.jpg",
@@ -3798,6 +3924,15 @@
    "sorgu": "Paket Yoğurt",
    "yazar": "User:Yeşil aşlama"
   },
+  "c86f396a72": {
+   "baslik": "Kuru fasulye (etsiz).jpg",
+   "kaynak": "Wikimedia Commons",
+   "lisans": "CC BY-SA 4.0",
+   "name": "Etsiz Kuru Fasulye (Merkez Yemekhanede)",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Kuru_fasulye_(etsiz).jpg",
+   "sorgu": "Etsiz Kuru Fasulye",
+   "yazar": "E4024"
+  },
   "c89017d3ae": {
    "baslik": "Domates çorba.jpg",
    "kaynak": "Wikimedia Commons",
@@ -3913,6 +4048,15 @@
    "name": "Yarma Çorba",
    "sayfa": "https://commons.wikimedia.org/wiki/File:Ayran_a%C5%9F%C4%B1_-_detalles.jpg",
    "sorgu": "Yarma Çorba",
+   "yazar": "E4024"
+  },
+  "ccc1e1ced5": {
+   "baslik": "Barbunya pilaki in Ankara.jpg",
+   "kaynak": "Wikimedia Commons",
+   "lisans": "CC BY-SA 4.0",
+   "name": "Etsiz Barbunya Yemeği (Merkez Yemekhanede)",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Barbunya_pilaki_in_Ankara.jpg",
+   "sorgu": "Barbunya",
    "yazar": "E4024"
   },
   "cd4fbb0aa2": {
@@ -4211,6 +4355,15 @@
    "sayfa": "https://commons.wikimedia.org/wiki/File:Baklava_-_Turkish_special,_80-ply.JPEG",
    "sorgu": "Baklava",
    "yazar": "Kultigin"
+  },
+  "dee949dc61": {
+   "baslik": "Tavuk döner (on pilav).jpg",
+   "kaynak": "Wikimedia Commons",
+   "lisans": "CC BY-SA 4.0",
+   "name": "Garnitürlü Tavuk Döner",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Tavuk_d%C3%B6ner_(on_pilav).jpg",
+   "sorgu": "Tavuk Döner",
+   "yazar": "E4024"
   },
   "defc88bfca": {
    "baslik": "Gül böreği 2.jpg",
@@ -4842,6 +4995,15 @@
    "sorgu": "Etli Kuru Fasulye",
    "yazar": "E4024"
   },
+  "fbf3bb7259": {
+   "baslik": "Etsiz taze fasulye.jpg",
+   "kaynak": "Wikimedia Commons",
+   "lisans": "CC BY-SA 4.0",
+   "name": "Etsiz Taze Fasulye (Merkez Yemekhanede)",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Etsiz_taze_fasulye.jpg",
+   "sorgu": "Etsiz Taze Fasulye",
+   "yazar": "E4024"
+  },
   "fc648efe4b": {
    "baslik": "Lahmacun.jpg",
    "kaynak": "Wikimedia Commons",
@@ -4896,9 +5058,11 @@
   "02c0db3786": "2026-10-06",
   "032b34fe27": "2026-10-07",
   "046f08eac4": "2026-10-03",
+  "04cff7905c": "2026-10-11",
   "064ca28314": "2026-10-04",
   "067b4cc77a": "2026-10-04",
   "06a0121e31": "2026-10-03",
+  "0731c84a24": "2026-10-11",
   "076ac316a2": "2026-10-03",
   "07baf01b04": "2026-10-04",
   "08e0915cf5": "2026-10-07",
@@ -4968,9 +5132,11 @@
   "24a90bea32": "2026-10-07",
   "24fb1421f0": "2026-10-03",
   "255a40beee": "2026-10-03",
+  "256678f626": "2026-10-11",
   "25989b6867": "2026-10-09",
   "263edd5439": "2026-10-06",
   "26633eeae0": "2026-10-08",
+  "27486f7ce0": "2026-10-11",
   "28a9db800d": "2026-10-08",
   "2987a8a6ea": "2026-10-06",
   "2a57ab16da": "2026-10-05",
@@ -4985,11 +5151,13 @@
   "2da1201da2": "2026-10-05",
   "2e83fdab75": "2026-10-08",
   "2eb969fa8d": "2026-10-06",
+  "2ec5b766c7": "2026-10-11",
   "2f2a945fb8": "2026-10-03",
   "2f47dfc743": "2026-10-05",
   "2f48dae569": "2026-10-04",
   "2f988021ae": "2026-10-05",
   "2fb7c288ac": "2026-10-08",
+  "30132f9261": "2026-10-11",
   "3097d10d18": "2026-10-04",
   "30a3126a63": "2026-10-04",
   "30c2538600": "2026-10-07",
@@ -5053,6 +5221,7 @@
   "46bd021b04": "2026-10-04",
   "489045dff1": "2026-10-06",
   "4a9a26fc1b": "2026-10-06",
+  "4aaf02669d": "2026-10-11",
   "4b52606601": "2026-10-04",
   "4b76564c9a": "2026-10-07",
   "4c0e6d36bb": "2026-10-04",
@@ -5105,16 +5274,19 @@
   "614e901f2c": "2026-10-07",
   "61f62beb30": "2026-10-08",
   "62824fdcfe": "2026-10-03",
+  "6372961d01": "2026-10-11",
   "63d672f2f1": "2026-10-06",
   "63eb4c61a8": "2026-10-06",
   "6449bfd3e0": "2026-10-04",
   "646360f3fe": "2026-10-09",
+  "6594c180ef": "2026-10-11",
   "65973fad08": "2026-10-04",
   "65cf22ffed": "2026-10-04",
   "672842b18c": "2026-10-06",
   "67b08c663c": "2026-10-05",
   "67d4cf6b38": "2026-10-08",
   "683f4fd8c6": "2026-10-06",
+  "68ad777da1": "2026-10-11",
   "691764876b": "2026-10-06",
   "69d9d30f1a": "2026-10-03",
   "6aa952989c": "2026-10-07",
@@ -5149,9 +5321,11 @@
   "76456e5734": "2026-10-04",
   "76c48c2a89": "2026-10-04",
   "770b6aada5": "2026-10-04",
+  "7790d02ea8": "2026-10-11",
   "77c317eb2a": "2026-10-08",
   "77c8de72c8": "2026-10-06",
   "7837a3b150": "2026-10-07",
+  "7896f84c22": "2026-10-11",
   "789e0e19e0": "2026-10-04",
   "79066e436c": "2026-10-04",
   "790d1e72ea": "2026-10-04",
@@ -5197,6 +5371,7 @@
   "85feac919a": "2026-10-05",
   "8636bfbc0a": "2026-10-03",
   "86552df348": "2026-10-07",
+  "86620aaace": "2026-10-11",
   "86671ca64d": "2026-10-05",
   "8780f22af6": "2026-10-04",
   "8781de9b33": "2026-10-05",
@@ -5247,6 +5422,7 @@
   "9759481c06": "2026-10-05",
   "97cb247e3a": "2026-10-08",
   "97d4313fb3": "2026-10-06",
+  "981302b706": "2026-10-11",
   "988f5db491": "2026-10-03",
   "98e5915640": "2026-10-04",
   "990377f8ad": "2026-10-04",
@@ -5294,6 +5470,7 @@
   "acad42fd92": "2026-10-06",
   "ad4ff39ef6": "2026-10-07",
   "ad6e113e72": "2026-10-05",
+  "ade015c1f5": "2026-10-11",
   "ae7f7aa639": "2026-10-04",
   "aea7ea71cd": "2026-10-04",
   "aebf5d06f9": "2026-10-07",
@@ -5355,6 +5532,7 @@
   "c4e7bc4088": "2026-10-09",
   "c511f64618": "2026-10-08",
   "c5ae2e3381": "2026-10-05",
+  "c61a9a3d54": "2026-10-11",
   "c6a123491c": "2026-10-04",
   "c7a4568e2a": "2026-10-07",
   "c80a0db0d4": "2026-10-07",
@@ -5367,6 +5545,7 @@
   "caec904c68": "2026-10-04",
   "cb630505c8": "2026-10-03",
   "cb86e49aef": "2026-10-08",
+  "cc14a1ee0c": "2026-10-11",
   "cc1b49c185": "2026-10-06",
   "cc749468c5": "2026-10-05",
   "cc8707746c": "2026-10-06",
@@ -5394,6 +5573,7 @@
   "d6021e33c2": "2026-10-06",
   "d621426267": "2026-10-04",
   "d64600977b": "2026-10-09",
+  "d7cc29ffe1": "2026-10-11",
   "d7cf01ddb2": "2026-10-06",
   "d7fd606eac": "2026-10-06",
   "d978047780": "2026-10-06",
@@ -5405,12 +5585,14 @@
   "dc17559ef7": "2026-10-05",
   "dc1eda3a7a": "2026-10-07",
   "dcf2523e86": "2026-10-08",
+  "ddf08c7541": "2026-10-11",
   "de62be9b48": "2026-10-03",
   "de84c155eb": "2026-10-05",
   "dea73a3f81": "2026-10-05",
   "def29d5074": "2026-10-06",
   "df142b7612": "2026-10-03",
   "df74becef0": "2026-10-08",
+  "df906eb588": "2026-10-11",
   "dfb380c71f": "2026-10-07",
   "e04fa62d86": "2026-10-07",
   "e05ede8c7b": "2026-10-04",
@@ -5420,6 +5602,7 @@
   "e222d067f6": "2026-10-06",
   "e2b8ad029c": "2026-10-04",
   "e3896b4188": "2026-10-07",
+  "e42d6b07f2": "2026-10-11",
   "e42eaf5b04": "2026-10-03",
   "e47540f7f5": "2026-10-03",
   "e4754762a0": "2026-10-06",
@@ -5481,6 +5664,7 @@
   "f8275a5831": "2026-10-09",
   "f8782f5e53": "2026-10-04",
   "f8d13565bd": "2026-10-09",
+  "f96eabb945": "2026-10-11",
   "f9e3094533": "2026-10-03",
   "fa093d6a50": "2026-10-04",
   "fa4decda6a": "2026-10-03",

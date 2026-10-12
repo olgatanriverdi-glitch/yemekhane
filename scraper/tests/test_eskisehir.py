@@ -186,6 +186,36 @@ class BuildOncekiKayitTesti(unittest.TestCase):
             self.calistir(k, [self.Sahte("a"), self.Sahte("c", bozuk=True)])       # c hiç başarıyla okunmadı: önceki kaydı yok
             self.assertEqual([u["id"] for u in json.load(open(os.path.join(k, "index.json")))["universities"]], ["a"])
 
+    def test_eski_korunan_kayit_stale_olur(self):
+        with tempfile.TemporaryDirectory() as k:
+            self.calistir(k, [self.Sahte("a")])        # lastDay 2999: taze
+            yol = os.path.join(k, "index.json")
+            self.calistir(k, [self.Sahte("a", bozuk=True)])
+            self.assertNotIn("stale", json.load(open(yol))["universities"][0])
+            index = json.load(open(yol))
+            index["universities"][0]["lastDay"] = "2020-01-01"       # eski menü
+            json.dump(index, open(yol, "w"))
+            self.calistir(k, [self.Sahte("a", bozuk=True)])
+            self.assertTrue(json.load(open(yol))["universities"][0]["stale"])
+
+    def test_zaman_asimi_ve_paralel(self):
+        import io
+        from contextlib import redirect_stderr
+
+        class Yavas(self.Sahte):
+            def menuler(self):
+                import time
+                time.sleep(1)
+                return super().menuler()
+        with tempfile.TemporaryDirectory() as k, mock.patch.object(build, "OKUL_SURESI", 0.1):
+            err = io.StringIO()
+            with redirect_stderr(err):
+                kod = self.calistir(k, [Yavas("y"), self.Sahte("b")])
+            self.assertEqual(kod, 0)                                    # b başarılı
+            self.assertEqual([u["id"] for u in json.load(open(os.path.join(k, "index.json")))["universities"]], ["b"])
+            self.assertIn("zaman aşımı", err.getvalue())
+            self.assertIn("ÖZET: 1 okul hatalı", err.getvalue())
+
 
 if __name__ == "__main__":
     unittest.main()

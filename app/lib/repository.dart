@@ -9,6 +9,18 @@ import 'models.dart';
 
 /// Veriyi sırayla dener: internet -> önbellek -> uygulamayla gelen kopya. Böylece çevrimdışıyken de menü görünür.
 class Depo {
+  /// Son okunan verinin çevrimdışı olup olmadığı (ağdan alınamadıysa true).
+  bool cevrimdisi = false;
+
+  static DateTime? _updated(String govde) {
+    try {
+      final j = jsonDecode(govde);
+      return j is Map ? DateTime.tryParse('${j['updated'] ?? ''}') : null;
+    } catch (_) {
+      return null;
+    }
+  }
+
   Future<String> _oku(String yol) async {
     final prefs = await SharedPreferences.getInstance();
     if (veriTabanUrl.isNotEmpty) {
@@ -20,20 +32,43 @@ class Depo {
           final govde = utf8.decode(r.bodyBytes);
           jsonDecode(govde); // bozuk veriyi önbelleğe yazma
           await prefs.setString('onbellek/$yol', govde);
+          cevrimdisi = false;
           return govde;
         }
       } catch (_) {}
+      cevrimdisi = true;
     }
     final onbellek = prefs.getString('onbellek/$yol');
-    if (onbellek != null) return onbellek;
-    return rootBundle.loadString('assets/data/$yol');
+    String? paket;
+    try {
+      paket = await rootBundle.loadString('assets/data/$yol');
+    } catch (_) {}
+    if (onbellek == null) {
+      return paket ?? await rootBundle.loadString('assets/data/$yol');
+    }
+    if (paket == null) return onbellek;
+    // uygulamayla gelen kopya önbellekten daha yeniyse (uygulama güncellendi) onu kullan
+    final uo = _updated(onbellek), up = _updated(paket);
+    return (uo != null && up != null && up.isAfter(uo)) ? paket : onbellek;
   }
 
   Future<List<Universite>> universiteler() async {
     final j = jsonDecode(await _oku('index.json')) as Map<String, dynamic>;
-    return (j['universities'] as List)
+    final liste = (j['universities'] as List)
         .map((e) => Universite.fromJson(e as Map<String, dynamic>))
         .toList();
+    // uygulamayla gelen kopyada olup okunan listede olmayan okulları da ekle
+    // (ör. eski önbellek ya da henüz yayınlanmamış yeni okullar)
+    try {
+      final paket = jsonDecode(
+          await rootBundle.loadString('assets/data/index.json')) as Map;
+      final idler = liste.map((u) => u.id).toSet();
+      for (final e in paket['universities'] as List) {
+        final u = Universite.fromJson(e as Map<String, dynamic>);
+        if (idler.add(u.id)) liste.add(u);
+      }
+    } catch (_) {}
+    return liste;
   }
 
   Future<Menu> menu(String universiteId) async {
