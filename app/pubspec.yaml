@@ -50,3 +50,8 @@ flutter:
     - assets/data/omu/
     - assets/data/samsun/
     - assets/data/gtu/
+    - assets/data/sakarya/
+    - assets/data/cukurova/
+    - assets/data/uludag/
+    - assets/data/pamukkale/
+    - assets/data/gaziantep/

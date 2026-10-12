@@ -18,6 +18,8 @@ class Universite {
   final List<String> ogunler;
   final List<Fiyat> fiyatlar;
   final Map<String, ServisSaati> saatler;
+  final bool
+      eskimis; // build.py: korunan eski kayıt, menü 14 günden eski ("Menü güncel değil")
   Universite(
       {required this.id,
       required this.ad,
@@ -26,7 +28,8 @@ class Universite {
       required this.kaynak,
       required this.ogunler,
       required this.fiyatlar,
-      this.saatler = const {}});
+      this.saatler = const {},
+      this.eskimis = false});
 
   factory Universite.fromJson(Map<String, dynamic> j) => Universite(
         id: j['id'] as String,
@@ -44,6 +47,7 @@ class Universite {
             e.key as String: ServisSaati((e.value as Map)['t'] as String,
                 ((e.value as Map)['approx'] ?? false) as bool)
         },
+        eskimis: (j['stale'] ?? false) as bool,
       );
 
   /// Öğünün servis saati; vejetaryen menünün kendi saati yoksa öğle saatini kullanır.
@@ -92,9 +96,12 @@ class Ogun {
   Ogun(this.ogeler, this.kcal,
       [this.foto, this.fotoYaklasik = false, this.not]);
   factory Ogun.fromJson(Map<String, dynamic> j) => Ogun(
-        ((j['items'] ?? const []) as List)
-            .map((e) => YemekOgesi.fromJson(e as Map<String, dynamic>))
-            .toList(),
+        [
+          // bozuk öğe tüm öğünü düşürmesin: atlanır
+          for (final e in ((j['items'] ?? const []) as List))
+            if (e is Map<String, dynamic> && e['name'] is String)
+              YemekOgesi.fromJson(e)
+        ],
         (j['kcal'] as num?)?.toInt(),
         j['photo'] as String?,
         (j['photoApprox'] ?? false) as bool,
@@ -112,14 +119,24 @@ class Menu {
 
   factory Menu.fromJson(Map<String, dynamic> j) {
     final gunler = <String, Map<String, Ogun>>{};
-    (j['days'] as Map<String, dynamic>).forEach((tarih, v) {
-      final ogunler = <String, Ogun>{};
-      (v as Map<String, dynamic>).forEach(
-          (tur, o) => ogunler[tur] = Ogun.fromJson(o as Map<String, dynamic>));
-      gunler[tarih] = ogunler;
-    });
+    final gunHam = j['days'];
+    if (gunHam is Map) {
+      gunHam.forEach((tarih, v) {
+        // bozuk gün / öğün atlanır, kalan menü yine gösterilir
+        if (tarih is! String || DateTime.tryParse(tarih) == null) return;
+        if (v is! Map) return;
+        final ogunler = <String, Ogun>{};
+        v.forEach((tur, o) {
+          if (tur is! String || o is! Map<String, dynamic>) return;
+          try {
+            ogunler[tur] = Ogun.fromJson(o);
+          } catch (_) {}
+        });
+        gunler[tarih] = ogunler;
+      });
+    }
     return Menu(j['university'] as String,
-        DateTime.tryParse((j['updated'] ?? '') as String)?.toLocal(), gunler);
+        DateTime.tryParse('${j['updated'] ?? ''}')?.toLocal(), gunler);
   }
 
   List<String> get tarihler => (gunler.keys.toList()..sort());
@@ -139,6 +156,10 @@ List<String> gunListesi(Menu menu, String bugun) {
   }
   return sonuc;
 }
+
+/// Türkiye saati (UTC+3): cihazın saat dilimi ne olursa olsun "bugün" ve 15:00 öğün kararı aynı kalır.
+/// Dönen değerin yalnızca tarih/saat alanları kullanılmalı (UTC işaretli, ama duvar saati Türkiye'dir).
+DateTime turkiyeSimdi() => DateTime.now().toUtc().add(const Duration(hours: 3));
 
 String isoTarih(DateTime d) =>
     '${d.year.toString().padLeft(4, '0')}-${d.month.toString().padLeft(2, '0')}-${d.day.toString().padLeft(2, '0')}';

@@ -5,7 +5,7 @@
 Ankara Müzik ve Güzel Sanatlar (MGÜ), Eskişehir Osmangazi (ESOGÜ), Eskişehir Teknik (ESTÜ), İstanbul'dan İstanbul Üniversitesi (İÜ), İTÜ, Boğaziçi (BÜ), Marmara (MÜ), Galatasaray (GSÜ) ve
 Mimar Sinan Güzel Sanatlar (MSGSÜ), İzmir'den Ege (EÜ), Dokuz Eylül (DEÜ) ve İzmir Katip Çelebi (İKÇÜ), Antalya'dan Alanya Alaaddin Keykubat (ALKÜ), Çanakkale Onsekiz Mart (ÇOMÜ),
 Sivas'tan Sivas Bilim ve Teknoloji (SBTÜ) ve Sivas Cumhuriyet (CÜ), Erzurum'dan Atatürk Üniversitesi, Trabzon'dan Karadeniz Teknik (KTÜ) ve Trabzon Üniversitesi,
-Samsun'dan Ondokuz Mayıs (OMÜ) ve Samsun Üniversitesi, Gebze Teknik (GTÜ). Hepsi devlet üniversitesidir. Başka üniversiteler eklenti olarak eklenir.
+Samsun'dan Ondokuz Mayıs (OMÜ) ve Samsun Üniversitesi, Gebze Teknik (GTÜ), Sakarya (SAÜ), Çukurova (ÇÜ), Bursa Uludağ (BUÜ), Pamukkale (PAÜ) ve Gaziantep (GAÜN). Hepsi devlet üniversitesidir. Başka üniversiteler eklenti olarak eklenir.
 
 ## Mimari (sunucusuz, bedava)
 
@@ -69,11 +69,21 @@ adı `*` ile biten satır etsiz alternatiftir. Taranmış (resim) PDF'lerde meti
   yalnızca 'Merkez Yemekhane') geçmiş tutmaz: bu eklentiler `birikimli = True`'dur, `build.py` önceki çalıştırmalarda kaydedilen günleri (`data/<id>/menu.json`) yeni veriyle birleştirir. Robot günde 3 kez çalıştığı için
   her gün yakalanır; ilk çalıştırmada yalnızca o günler vardır.
 
+### P1 partisi okulları (Sakarya, Çukurova, Bursa Uludağ, Pamukkale, Gaziantep): veri kaynakları
+* **Sakarya:** `menu.sabis.sakarya.edu.tr` (SABİS, giriş gerekmez). `POST /Home/GetirAylikMenu` (`year`, `month`, `diyetMi=false`) kart ızgarası HTML'i döner; başlıkta yıl yok, kalori satırın `title` özniteliğinde
+  ('Kalori: 160'; 0 = bilinmiyor). Okul öğün adı yazmaz, günde tek liste olduğu için öğle sayılır; diyet menüsü alınmaz. Bu, okulun bilgi sistemi uç noktasıdır: adres/parametre değişirse bozulur.
+* **Çukurova:** `yemekhane.cu.edu.tr` ana sayfasındaki 'Aylık Liste' (sayfa Windows-1254 kodlu); tek öğün (öğle), kalemli kalori ve 'Toplam' var.
+* **Bursa Uludağ:** `uludag.edu.tr/yemek` aylık sekmeleri: Öğrenci öğle -> lunch, Öğrenci akşam -> dinner, Vejetaryen öğle -> vegetarian; kalori yok, alerjen numaraları ('(1,3,4)') atılır, 'RESMİ TATİL' günü tatil notu olur. Personel menüsü alınmaz.
+* **Pamukkale:** `www.pau.edu.tr/pau/tr/yemekMenuleri` yalnızca güncel haftayı (5 iş günü) gösterir (`birikimli = True`). 'Yemekhane' -> lunch (akşam bloğu varsa dinner), 'Vejetaryen' -> vegetarian; Turuncu Salon, Konuk Evi, Tekno Kafe vb. alınmaz.
+* **Gaziantep:** `www.gaziantep.edu.tr/yemek/` (`gantep.edu.tr` buraya yönlenir) sayfasındaki aylık tablo; tek öğün, kalemli kalori ('MEYVE (ŞEFTALİ 72 kcal)' biçimi desteklenir).
+
 ### Okunamayan okullar
 * **Bu turda eklenemeyen devlet üniversiteleri:** Akdeniz (Antalya; merkezi yemekhane yalnızca haftalık bir resim yayınlıyor, her hafta elle girmek gerekir), Erzurum Teknik (`servis.erzurum.edu.tr/yemeklistesi` yalnızca günün menüsünü
   gösteriyor ve şu an 'Hazırlanıyor' diyor), İYTE, İzmir Demokrasi ve İzmir Bakırçay (SKS sitelerinde herkese açık menü bulunamadı), Alanya Hamdullah Emin Paşa (siteye otomatik erişilemedi). Atatürk Üniversitesi eklendi ama yalnızca bugün+yarın yayınlandığı için aylık liste yok.
 * **İstanbul'da eklenmeyenler:** İstanbul Üniversitesi-Cerrahpaşa (SKS sitesi güvenlik doğrulamalı bir CMS), Yıldız Teknik (`sks.yildiz.edu.tr` bağlantı zaman aşımı veriyor, `beslenme.yildiz.edu.tr` güncel menüyü vermiyor),
   İstanbul Medeniyet (menü sayfası boş), Türk-Alman (siteye otomatik erişim 403), Sağlık Bilimleri, İstanbul Sağlık ve Teknoloji, Türk-Japon (menü yayınlamıyor/bulunamadı).
+* **P1 partisinde eklenemeyenler (11 Ekim 2026):** Selçuk (`yemek.selcuk.edu.tr` Selçuk SSO girişi istiyor; herkese açık menü sayfası bulunamadı), Erciyes (`erciyes.edu.tr/tr/2/ogrenci-yemek-listesi` sayfasındaki 'Öğrenci Menüsü' şu an boş,
+  yalnızca 'Personel Menüsü' dolu; öğrenci menüsü dolunca tekrar bakılabilir), Kocaeli (`sksdb.kocaeli.edu.tr` istemci tarafında çizilen bir Next.js uygulaması; menü adresi/API'si bulunamadı).
 * **Anadolu Üniversitesi:** öğrenci yemekhanesinin menüsü yalnızca Anadolu hesabıyla girişten sonra görülüyor (yemekhane.anadolu.edu.tr); herkese açık sayfalarda yalnızca personel lokali, Akademik Kulüp ve Taşbina gibi à la carte restoranların menüleri var. Bu yüzden eklenmedi.
 * Bir okul geçici olarak okunamazsa (sunucu yavaş/kapalı) `build` onu listeden düşürmez: önceki `index.json` kaydı ve `menu.json` korunur, hata günlüğe yazılır.
 

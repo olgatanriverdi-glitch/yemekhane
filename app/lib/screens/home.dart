@@ -29,7 +29,7 @@ class AnaSayfa extends StatefulWidget {
   State<AnaSayfa> createState() => _AnaSayfaState();
 }
 
-class _AnaSayfaState extends State<AnaSayfa> {
+class _AnaSayfaState extends State<AnaSayfa> with WidgetsBindingObserver {
   final _depo = Depo();
   final _geriBildirim = GeriBildirimDeposu.olustur();
   List<Universite> _uniler = [];
@@ -37,18 +37,52 @@ class _AnaSayfaState extends State<AnaSayfa> {
   Menu? _menu;
   String? _hata;
   bool _yukleniyor = true;
+  late String
+      _bugun; // Türkiye saatine göre; uygulama arka plandan dönünce yenilenir
   late String _tarih;
   String _ogun = 'lunch';
 
   @override
   void initState() {
     super.initState();
-    final simdi = DateTime.now();
-    _tarih = isoTarih(simdi);
+    WidgetsBinding.instance.addObserver(this);
+    final simdi = turkiyeSimdi();
+    _bugun = isoTarih(simdi);
+    _tarih = _bugun;
     _ogun = simdi.hour >= 15
         ? 'dinner'
         : 'lunch'; // öğleden sonra akşam menüsünü göster
     _yukle();
+  }
+
+  @override
+  void dispose() {
+    WidgetsBinding.instance.removeObserver(this);
+    super.dispose();
+  }
+
+  // Uygulama gece açık kalıp sabah öne gelirse gün değişmiştir: bugüne dön.
+  @override
+  void didChangeAppLifecycleState(AppLifecycleState durum) {
+    if (durum != AppLifecycleState.resumed) return;
+    final simdi = turkiyeSimdi();
+    final bugun = isoTarih(simdi);
+    if (bugun == _bugun) return;
+    setState(() {
+      _bugun = bugun;
+      _tarih = bugun;
+      _ogun = simdi.hour >= 15 ? 'dinner' : 'lunch';
+      _tarihiSinirla();
+      _uygunOgunSec();
+    });
+  }
+
+  // bugün menü aralığındaysa (menüsü olmasa da) bugünde kal; aralık dışındaysa en yakın uca git
+  void _tarihiSinirla() {
+    final t = _menu?.tarihler ?? const <String>[];
+    if (t.isEmpty) return;
+    if (_tarih.compareTo(t.first) < 0) _tarih = t.first;
+    if (_tarih.compareTo(t.last) > 0) _tarih = t.last;
   }
 
   Future<void> _yukle({String? universiteId}) async {
@@ -57,21 +91,32 @@ class _AnaSayfaState extends State<AnaSayfa> {
       _hata = null;
     });
     try {
-      _uniler = await _depo.universiteler();
+      final uniler = await _depo.universiteler();
+      if (uniler.isEmpty) throw const _BosListe();
       final kayitli = universiteId ?? await _depo.seciliUniversite();
-      _uni = _uniler.firstWhere((u) => u.id == kayitli,
-          orElse: () => _uniler.first);
-      await _depo.universiteSec(_uni!.id);
-      _menu = await _depo.menu(_uni!.id);
-      // bugün menü aralığındaysa (menüsü olmasa da) bugünde kal; aralık dışındaysa en yakın uca git
-      final t = _menu!.tarihler;
-      if (t.isNotEmpty) {
-        if (_tarih.compareTo(t.first) < 0) _tarih = t.first;
-        if (_tarih.compareTo(t.last) > 0) _tarih = t.last;
-      }
+      final uni =
+          uniler.firstWhere((u) => u.id == kayitli, orElse: () => uniler.first);
+      // önce menüyü yükle: başarısızsa önceki okul ve menü olduğu gibi kalır
+      final menu = await _depo.menu(uni.id);
+      _uniler = uniler;
+      _uni = uni;
+      _menu = menu;
+      await _depo.universiteSec(uni.id);
+      _tarihiSinirla();
       _uygunOgunSec();
     } catch (e) {
-      _hata = 'Menü yüklenemedi. İnternet bağlantını kontrol et.';
+      final mesaj = e is _BosListe
+          ? 'Üniversite listesi boş. Birazdan tekrar dene.'
+          : 'Menü yüklenemedi. İnternet bağlantını kontrol et.';
+      if (_menu != null) {
+        // önceki menü ekranda kalır, hata kısa bir bildirimle gösterilir
+        if (mounted) {
+          ScaffoldMessenger.of(context)
+              .showSnackBar(SnackBar(content: Text(mesaj)));
+        }
+      } else {
+        _hata = mesaj;
+      }
     }
     if (mounted) setState(() => _yukleniyor = false);
   }
@@ -138,7 +183,12 @@ class _AnaSayfaState extends State<AnaSayfa> {
                   Text(_hata!),
                   const SizedBox(height: 12),
                   FilledButton(
-                      onPressed: _yukle, child: const Text('Tekrar dene'))
+                      onPressed: _yukle, child: const Text('Tekrar dene')),
+                  if (_uniler.isNotEmpty) ...[
+                    const SizedBox(height: 8),
+                    TextButton(
+                        onPressed: _uniSec, child: const Text('Okul seç'))
+                  ]
                 ]))
               : _icerik(tema),
     );
@@ -146,7 +196,7 @@ class _AnaSayfaState extends State<AnaSayfa> {
 
   Widget _icerik(ThemeData tema) {
     final menu = _menu!;
-    final bugun = isoTarih(DateTime.now());
+    final bugun = _bugun;
     final tarihler = gunListesi(menu, bugun); // boş günler dahil
     final gun = menu.gunler[_tarih] ?? {};
     final turler = [
@@ -244,11 +294,19 @@ class _AnaSayfaState extends State<AnaSayfa> {
         Padding(
           padding: const EdgeInsets.only(bottom: 10),
           child: Text(
-              'Son güncelleme: ${menu.guncellendi!.day} ${ayAdlari[menu.guncellendi!.month - 1]} ${menu.guncellendi!.hour.toString().padLeft(2, '0')}:${menu.guncellendi!.minute.toString().padLeft(2, '0')}',
+              'Son güncelleme: ${menu.guncellendi!.day} ${ayAdlari[menu.guncellendi!.month - 1]} ${menu.guncellendi!.hour.toString().padLeft(2, '0')}:${menu.guncellendi!.minute.toString().padLeft(2, '0')}'
+              '${_depo.cevrimdisi ? ' · Çevrimdışı: son bilinen veri' : ''}'
+              '${_uni!.eskimis ? ' · Menü güncel değil' : ''}',
+              textAlign: TextAlign.center,
               style: tema.textTheme.bodySmall),
         ),
     ]);
   }
+}
+
+/// Okul listesi boş geldiğinde (bağlantı hatasından ayrı mesaj için) fırlatılır.
+class _BosListe implements Exception {
+  const _BosListe();
 }
 
 /// Yemek verilmeyen gün / öğün için sade bilgi ekranı.
@@ -393,40 +451,49 @@ class _GunHucresi extends StatelessWidget {
         : (haftaSonu
             ? renk.onSurfaceVariant.withValues(alpha: 0.7)
             : renk.onSurface);
-    return AnimatedContainer(
-      duration: const Duration(milliseconds: 180),
-      decoration: BoxDecoration(
-        color: secili ? renk.primary : Colors.transparent,
-        borderRadius: BorderRadius.circular(14),
-        border: Border.all(
-            color: secili
-                ? renk.primary
-                : (bugun
-                    ? renk.primary.withValues(alpha: 0.7)
-                    : renk.outlineVariant.withValues(alpha: 0.5)),
-            width: bugun && !secili ? 1.6 : 1),
-      ),
-      child: InkWell(
-        borderRadius: BorderRadius.circular(14),
+    final etiket =
+        '${gunAdlari[d.weekday - 1]} ${d.day} ${ayAdlari[d.month - 1]}'
+        '${bugun ? ', bugün' : ''}${secili ? ', seçili' : ''}';
+    return Semantics(
+        button: true,
+        selected: secili,
+        label: etiket,
+        excludeSemantics: true,
         onTap: tikla,
-        child: Padding(
-          padding: const EdgeInsets.symmetric(vertical: 8),
-          child: Column(mainAxisSize: MainAxisSize.min, children: [
-            Text(gunKisa[d.weekday - 1],
-                style: TextStyle(
-                    color: yaziRenk,
-                    fontSize: 11,
-                    fontWeight: FontWeight.w600)),
-            const SizedBox(height: 2),
-            Text('${d.day}',
-                style: TextStyle(
-                    color: yaziRenk,
-                    fontSize: 18,
-                    fontWeight: FontWeight.w800)),
-          ]),
-        ),
-      ),
-    );
+        child: AnimatedContainer(
+          duration: const Duration(milliseconds: 180),
+          decoration: BoxDecoration(
+            color: secili ? renk.primary : Colors.transparent,
+            borderRadius: BorderRadius.circular(14),
+            border: Border.all(
+                color: secili
+                    ? renk.primary
+                    : (bugun
+                        ? renk.primary.withValues(alpha: 0.7)
+                        : renk.outlineVariant.withValues(alpha: 0.5)),
+                width: bugun && !secili ? 1.6 : 1),
+          ),
+          child: InkWell(
+            borderRadius: BorderRadius.circular(14),
+            onTap: tikla,
+            child: Padding(
+              padding: const EdgeInsets.symmetric(vertical: 8),
+              child: Column(mainAxisSize: MainAxisSize.min, children: [
+                Text(gunKisa[d.weekday - 1],
+                    style: TextStyle(
+                        color: yaziRenk,
+                        fontSize: 11,
+                        fontWeight: FontWeight.w600)),
+                const SizedBox(height: 2),
+                Text('${d.day}',
+                    style: TextStyle(
+                        color: yaziRenk,
+                        fontSize: 18,
+                        fontWeight: FontWeight.w800)),
+              ]),
+            ),
+          ),
+        ));
   }
 }
 
