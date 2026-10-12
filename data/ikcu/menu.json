@@ -241,8 +241,52 @@
      }
     ]
    }
+  },
+  "2026-10-12": {
+   "lunch": {
+    "items": [
+     {
+      "img": "dishes/bf8474c8b9.jpg",
+      "key": "bf8474c8b9",
+      "name": "Ezogelin Çorba"
+     },
+     {
+      "key": "dbab44f2f2",
+      "name": "Sebzeli Et Güveç"
+     },
+     {
+      "img": "dishes/351dbc8599.jpg",
+      "key": "351dbc8599",
+      "name": "Soslu Makarna Salata"
+     }
+    ]
+   },
+   "vegetarian": {
+    "items": [
+     {
+      "img": "dishes/bf8474c8b9.jpg",
+      "key": "bf8474c8b9",
+      "name": "Ezogelin Çorba"
+     },
+     {
+      "img": "dishes/2f47d03cf0.jpg",
+      "key": "2f47d03cf0",
+      "name": "Zeytinyağlı Taze Fasulye"
+     },
+     {
+      "img": "dishes/351dbc8599.jpg",
+      "key": "351dbc8599",
+      "name": "Soslu Makarna Salata"
+     },
+     {
+      "img": "dishes/9c8d655ef5.jpg",
+      "key": "9c8d655ef5",
+      "name": "Yoğurt"
+     }
+    ]
+   }
   }
  },
  "university": "ikcu",
- "updated": "2026-10-09T22:52:51+03:00"
+ "updated": "2026-10-11T22:16:06+03:00"
 }

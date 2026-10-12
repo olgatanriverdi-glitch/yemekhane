@@ -1,65 +1,5 @@
 {
  "days": {
-  "2026-10-09": {
-   "dinner": {
-    "items": [
-     {
-      "key": "fab279355e",
-      "name": "Kremalı Domates Çorbası"
-     },
-     {
-      "key": "7e6f902ed2",
-      "name": "Piliç Kapama"
-     },
-     {
-      "img": "dishes/c0403431e1.jpg",
-      "key": "c0403431e1",
-      "name": "Arpa Şehriye Pilavı"
-     },
-     {
-      "img": "dishes/085e645d66.jpg",
-      "key": "085e645d66",
-      "name": "Çoban Salatası"
-     },
-     {
-      "key": "f7b84ad85a",
-      "name": "Meyve Suyu"
-     },
-     {
-      "key": "104c039755",
-      "name": "Garnitür Buharda Sebze"
-     }
-    ]
-   },
-   "lunch": {
-    "items": [
-     {
-      "img": "dishes/4fb733faf2.jpg",
-      "key": "4fb733faf2",
-      "name": "Ezogelin Çorbası"
-     },
-     {
-      "img": "dishes/1d49307d95.jpg",
-      "key": "1d49307d95",
-      "name": "Patates Oturtma"
-     },
-     {
-      "img": "dishes/127bfefbec.jpg",
-      "key": "127bfefbec",
-      "name": "Yeşil Mercimekli Bulgur Pilavı"
-     },
-     {
-      "img": "dishes/0a95425edd.jpg",
-      "key": "0a95425edd",
-      "name": "Kıbrıs Tatlısı"
-     },
-     {
-      "key": "0fddc05415",
-      "name": "Kabak Tarator"
-     }
-    ]
-   }
-  },
   "2026-10-10": {
    "dinner": {
     "items": [
@@ -1418,5 +1358,5 @@
   }
  },
  "university": "itu",
- "updated": "2026-10-10T22:02:39+03:00"
+ "updated": "2026-10-11T22:16:06+03:00"
 }
