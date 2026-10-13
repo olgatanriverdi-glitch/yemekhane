@@ -6,7 +6,8 @@
   "2026-10-07": "8fef1ef330d1",
   "2026-10-08": "942c5a76c502",
   "2026-10-09": "164fe8b5ccd4",
-  "2026-10-12": "e12d07f13338"
+  "2026-10-12": "e12d07f13338",
+  "2026-10-13": "f6784bbc19c2"
  },
  "main": {
   "025eacfe0c": "8f579a24b2f7",
@@ -15,7 +16,8 @@
   "495c83bde2": "8fef1ef330d1",
   "91d34270c6": "942c5a76c502",
   "b7f7a0ca2b": "78be4bc465a4",
-  "de62be9b48": "164fe8b5ccd4"
+  "de62be9b48": "164fe8b5ccd4",
+  "f029cd24e9": "f6784bbc19c2"
  },
  "menus": {
   "164fe8b5ccd4": {
@@ -86,6 +88,16 @@
     "Kadınbudu Köfte/Patates Salata",
     "Arpa Şehriye Pilavı",
     "Cacık"
+   ]
+  },
+  "f6784bbc19c2": {
+   "added": "2026-10-13",
+   "hash": "c854aa1c3b36c9811d7729f831c144bb8d822549",
+   "items": [
+    "Kırmızı Mercimek Çorba",
+    "Izgara Tavuk But/Sebze Garnitür",
+    "Yoğurtlu Makarna",
+    "Meyve"
    ]
   }
  }

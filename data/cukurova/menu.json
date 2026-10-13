@@ -349,13 +349,13 @@
       "name": "Ayran"
      },
      {
-      "img": "dishes/c27879d4fd.jpg",
-      "kcal": 142,
-      "key": "c27879d4fd",
-      "name": "Meyve (Elma)"
+      "img": "dishes/fbaf022539.jpg",
+      "kcal": 128,
+      "key": "fbaf022539",
+      "name": "Meyve (Armut)"
      }
     ],
-    "kcal": 941
+    "kcal": 927
    }
   },
   "2026-10-15": {
@@ -569,5 +569,5 @@
   }
  },
  "university": "cukurova",
- "updated": "2026-10-13T01:18:03+03:00"
+ "updated": "2026-10-13T12:50:58+03:00"
 }

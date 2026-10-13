@@ -345,6 +345,7 @@
       "name": "Ekşili Mantar"
      },
      {
+      "img": "dishes/34b3868507.jpg",
       "key": "34b3868507",
       "name": "Patlıcan Salatası"
      },
@@ -379,10 +380,12 @@
       "name": "Ezogelin Çorba"
      },
      {
+      "img": "dishes/655251f48b.jpg",
       "key": "655251f48b",
       "name": "Tavuklu Elbasan Tava"
      },
      {
+      "img": "dishes/2932ff5041.jpg",
       "key": "2932ff5041",
       "name": "Napoliten Soslu Spagetti"
      },
@@ -459,5 +462,5 @@
   }
  },
  "university": "pamukkale",
- "updated": "2026-10-13T01:18:03+03:00"
+ "updated": "2026-10-13T12:50:58+03:00"
 }

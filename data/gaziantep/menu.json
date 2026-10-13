@@ -80,6 +80,7 @@
       "name": "Şehriyeli Pirinç Pilavı"
      },
      {
+      "img": "dishes/d19d8336af.jpg",
       "kcal": 120,
       "key": "d19d8336af",
       "name": "Yoğurt/Turşu"
@@ -108,6 +109,7 @@
       "name": "Sebzeli Bulgur Pilavı"
      },
      {
+      "img": "dishes/dbab186633.jpg",
       "kcal": 615,
       "key": "dbab186633",
       "name": "Şam Tatlı"
@@ -137,6 +139,7 @@
       "name": "Şehriyeli Pirinç Pilavı"
      },
      {
+      "img": "dishes/e93926b0dc.jpg",
       "kcal": 72,
       "key": "e93926b0dc",
       "name": "Meyve (Şeftali)"
@@ -184,6 +187,7 @@
       "name": "Süleymaniye Çorba"
      },
      {
+      "img": "dishes/05403cc507.jpg",
       "kcal": 375,
       "key": "05403cc507",
       "name": "Etli Güveç"
@@ -225,6 +229,7 @@
       "name": "Şehriyeli Bulgur Pilavı"
      },
      {
+      "img": "dishes/d19d8336af.jpg",
       "kcal": 120,
       "key": "d19d8336af",
       "name": "Yoğurt/Turşu"
@@ -373,6 +378,7 @@
       "name": "Şehriyeli Bulgur Pilavı"
      },
      {
+      "img": "dishes/baa2148557.jpg",
       "kcal": 217,
       "key": "baa2148557",
       "name": "Turşu/Ayran"
@@ -489,6 +495,7 @@
       "name": "Şehriyeli Pirinç Pilavı"
      },
      {
+      "img": "dishes/67dbf660bb.jpg",
       "kcal": 132,
       "key": "67dbf660bb",
       "name": "Meyve (Erik)"
@@ -506,6 +513,7 @@
       "name": "Ustanın Çorbası"
      },
      {
+      "img": "dishes/83dca4d43c.jpg",
       "kcal": 555,
       "key": "83dca4d43c",
       "name": "Antep Yuvarlama"
@@ -626,5 +634,5 @@
   }
  },
  "university": "gaziantep",
- "updated": "2026-10-13T01:18:03+03:00"
+ "updated": "2026-10-13T12:50:58+03:00"
 }

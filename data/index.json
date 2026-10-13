@@ -81,7 +81,7 @@
   },
   {
    "city": "Ankara",
-   "firstDay": "2026-10-10",
+   "firstDay": "2026-10-11",
    "hours": {
     "breakfast": {
      "approx": false,
@@ -329,7 +329,7 @@
   },
   {
    "city": "İstanbul",
-   "firstDay": "2026-10-11",
+   "firstDay": "2026-10-12",
    "hours": {
     "dinner": {
      "approx": false,
@@ -807,6 +807,6 @@
    "source": "https://www.gaziantep.edu.tr/yemek/"
   }
  ],
- "updated": "2026-10-13T01:18:03+03:00",
+ "updated": "2026-10-13T12:50:58+03:00",
  "version": 1
 }

@@ -426,10 +426,9 @@
    "lunch": {
     "items": [
      {
-      "img": "dishes/11d5798385.jpg",
-      "kcal": 122,
-      "key": "11d5798385",
-      "name": "Brokoli Çorba"
+      "kcal": 121,
+      "key": "0bf17a9ce0",
+      "name": "Ispanak Çorba"
      },
      {
       "img": "dishes/9794d385f5.jpg",
@@ -880,5 +879,5 @@
   }
  },
  "university": "sakarya",
- "updated": "2026-10-13T01:18:03+03:00"
+ "updated": "2026-10-13T12:50:58+03:00"
 }

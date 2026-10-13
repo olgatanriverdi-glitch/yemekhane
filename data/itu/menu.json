@@ -1,65 +1,5 @@
 {
  "days": {
-  "2026-10-11": {
-   "dinner": {
-    "items": [
-     {
-      "img": "dishes/4fb733faf2.jpg",
-      "key": "4fb733faf2",
-      "name": "Ezogelin Çorbası"
-     },
-     {
-      "key": "b6e457a76c",
-      "name": "Hindi Sote"
-     },
-     {
-      "img": "dishes/18ccb4d264.jpg",
-      "key": "18ccb4d264",
-      "name": "Soslu Makarna"
-     },
-     {
-      "key": "3ddbc111d2",
-      "name": "Limonata"
-     },
-     {
-      "img": "dishes/a3d80c5897.jpg",
-      "key": "a3d80c5897",
-      "name": "Armut"
-     },
-     {
-      "key": "1045cf4872",
-      "name": "Garnitür Küp Patates Kızartması"
-     }
-    ]
-   },
-   "lunch": {
-    "items": [
-     {
-      "key": "fce91b9059",
-      "name": "Alaca Çorbası"
-     },
-     {
-      "key": "ed740539b7",
-      "name": "Kıymalı Pırasa"
-     },
-     {
-      "img": "dishes/53e350c35e.jpg",
-      "key": "53e350c35e",
-      "name": "Peynirli Kol Böreği"
-     },
-     {
-      "img": "dishes/e430bca6db.jpg",
-      "key": "e430bca6db",
-      "name": "Haydari"
-     },
-     {
-      "img": "dishes/2e9a9837b2.jpg",
-      "key": "2e9a9837b2",
-      "name": "Cevizli Baklava"
-     }
-    ]
-   }
-  },
   "2026-10-12": {
    "dinner": {
     "items": [
@@ -1299,5 +1239,5 @@
   }
  },
  "university": "itu",
- "updated": "2026-10-13T01:18:03+03:00"
+ "updated": "2026-10-13T12:50:58+03:00"
 }

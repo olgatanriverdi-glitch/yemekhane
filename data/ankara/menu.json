@@ -597,7 +597,8 @@
       "name": "Meyve"
      }
     ],
-    "kcal": 1419
+    "kcal": 1419,
+    "photo": "photos/lib/f6784bbc19c2.jpg"
    },
    "vegetarian": {
     "items": [
@@ -1452,5 +1453,5 @@
   }
  },
  "university": "ankara",
- "updated": "2026-10-13T01:18:03+03:00"
+ "updated": "2026-10-13T12:50:58+03:00"
 }
