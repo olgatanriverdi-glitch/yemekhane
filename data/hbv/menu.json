@@ -420,8 +420,38 @@
     ],
     "kcal": 903
    }
+  },
+  "2026-10-21": {
+   "lunch": {
+    "items": [
+     {
+      "img": "dishes/7599097195.jpg",
+      "kcal": 67,
+      "key": "7599097195",
+      "name": "Domates Çorba"
+     },
+     {
+      "img": "dishes/4493083826.jpg",
+      "kcal": 333,
+      "key": "4493083826",
+      "name": "Tavuk Pirzola/Elma Dilim Patates"
+     },
+     {
+      "kcal": 366,
+      "key": "f8782f5e53",
+      "name": "Erişte Pilavı"
+     },
+     {
+      "img": "dishes/16b5c22561.jpg",
+      "kcal": 47,
+      "key": "16b5c22561",
+      "name": "Ayran"
+     }
+    ],
+    "kcal": 813
+   }
   }
  },
  "university": "hbv",
- "updated": "2026-10-14T11:08:23+03:00"
+ "updated": "2026-10-14T17:08:48+03:00"
 }
