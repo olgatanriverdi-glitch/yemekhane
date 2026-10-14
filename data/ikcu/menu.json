@@ -390,8 +390,39 @@
      }
     ]
    }
+  },
+  "2026-10-15": {
+   "lunch": {
+    "items": [
+     {
+      "key": "1babb072dc",
+      "name": "Köylü Çorba Tavuk Döner Şehriyeli Pirinç Pilavı Ayran"
+     }
+    ]
+   },
+   "vegetarian": {
+    "items": [
+     {
+      "key": "7e85f5098f",
+      "name": "Köylü Çorba"
+     },
+     {
+      "key": "8f58a53982",
+      "name": "Sebze Graten"
+     },
+     {
+      "key": "3bc51e2793",
+      "name": "Şehriyeli Pirinç Pilavı Ayran"
+     },
+     {
+      "img": "dishes/c3352ed568.jpg",
+      "key": "c3352ed568",
+      "name": "Kısır"
+     }
+    ]
+   }
   }
  },
  "university": "ikcu",
- "updated": "2026-10-13T23:25:43+03:00"
+ "updated": "2026-10-14T11:08:23+03:00"
 }

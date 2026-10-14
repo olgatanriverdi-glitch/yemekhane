@@ -674,7 +674,8 @@
       "name": "Love Bombıng"
      }
     ],
-    "kcal": 1375
+    "kcal": 1375,
+    "photo": "photos/lib/f74a9d748b67.jpg"
    },
    "vegetarian": {
     "items": [
@@ -1453,5 +1454,5 @@
   }
  },
  "university": "ankara",
- "updated": "2026-10-13T23:25:43+03:00"
+ "updated": "2026-10-14T11:08:23+03:00"
 }

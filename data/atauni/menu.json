@@ -198,8 +198,33 @@
      }
     ]
    }
+  },
+  "2026-10-15": {
+   "lunch": {
+    "items": [
+     {
+      "img": "dishes/5faf1b0081.jpg",
+      "key": "5faf1b0081",
+      "name": "Kırmızı Mercimek Çorba"
+     },
+     {
+      "img": "dishes/8ab26ad603.jpg",
+      "key": "8ab26ad603",
+      "name": "Etli Ev Mantısı"
+     },
+     {
+      "key": "92d8a6cea4",
+      "name": "Marul Salata"
+     },
+     {
+      "img": "dishes/92485508df.jpg",
+      "key": "92485508df",
+      "name": "Tatlı"
+     }
+    ]
+   }
   }
  },
  "university": "atauni",
- "updated": "2026-10-13T23:25:43+03:00"
+ "updated": "2026-10-14T11:08:23+03:00"
 }

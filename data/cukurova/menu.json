@@ -293,41 +293,6 @@
     "kcal": 726
    }
   },
-  "2026-10-13": {
-   "lunch": {
-    "items": [
-     {
-      "img": "dishes/7e2a438be8.jpg",
-      "kcal": 396,
-      "key": "7e2a438be8",
-      "name": "Tavuk Haşlama"
-     },
-     {
-      "kcal": 133,
-      "key": "ad9e636233",
-      "name": "Kabak Musakka (Etsiz)"
-     },
-     {
-      "kcal": 377,
-      "key": "fef6adada3",
-      "name": "Nohutlu Pirinç Pilavı"
-     },
-     {
-      "img": "dishes/2610f75ca2.jpg",
-      "kcal": 20,
-      "key": "2610f75ca2",
-      "name": "Şalgam"
-     },
-     {
-      "img": "dishes/c27879d4fd.jpg",
-      "kcal": 142,
-      "key": "c27879d4fd",
-      "name": "Meyve (Elma)"
-     }
-    ],
-    "kcal": 1068
-   }
-  },
   "2026-10-14": {
    "lunch": {
     "items": [
@@ -335,6 +300,11 @@
       "kcal": 387,
       "key": "4c0e6d36bb",
       "name": "Çiftlik Köfte"
+     },
+     {
+      "kcal": 184,
+      "key": "a67824c6a6",
+      "name": "Karnabahar Kızartma"
      },
      {
       "img": "dishes/22402adbde.jpg",
@@ -355,7 +325,7 @@
       "name": "Meyve (Armut)"
      }
     ],
-    "kcal": 927
+    "kcal": 1111
    }
   },
   "2026-10-15": {
@@ -569,5 +539,5 @@
   }
  },
  "university": "cukurova",
- "updated": "2026-10-13T23:25:43+03:00"
+ "updated": "2026-10-14T11:08:23+03:00"
 }

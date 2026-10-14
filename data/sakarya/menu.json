@@ -487,10 +487,9 @@
       "name": "İzmir Köfte"
      },
      {
-      "img": "dishes/af6741872c.jpg",
-      "kcal": 339,
-      "key": "af6741872c",
-      "name": "Fırın Makarna"
+      "kcal": 312,
+      "key": "99f4bc2075",
+      "name": "Cevizli Erişte"
      },
      {
       "img": "dishes/9c8d655ef5.jpg",
@@ -557,13 +556,14 @@
       "name": "Zerdeçallı Tavuk Kavurma(Püreli)"
      },
      {
-      "kcal": 312,
-      "key": "99f4bc2075",
-      "name": "Cevizli Erişte"
-     },
-     {
       "key": "2ec5b766c7",
       "name": "Yoğurtlu Karnabahar Kızartma (Merkez Yemekhanede)"
+     },
+     {
+      "img": "dishes/af6741872c.jpg",
+      "kcal": 339,
+      "key": "af6741872c",
+      "name": "Fırın Makarna"
      },
      {
       "img": "dishes/3a38c0aebb.jpg",
@@ -879,5 +879,5 @@
   }
  },
  "university": "sakarya",
- "updated": "2026-10-13T23:25:43+03:00"
+ "updated": "2026-10-14T11:08:23+03:00"
 }

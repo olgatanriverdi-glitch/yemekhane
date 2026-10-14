@@ -1,66 +1,5 @@
 {
  "days": {
-  "2026-10-12": {
-   "dinner": {
-    "items": [
-     {
-      "img": "dishes/0955218757.jpg",
-      "key": "0955218757",
-      "name": "Mercimek Çorbası"
-     },
-     {
-      "img": "dishes/abd94319df.jpg",
-      "key": "abd94319df",
-      "name": "Sosyete Mantısı"
-     },
-     {
-      "img": "dishes/cb4993d46f.jpg",
-      "key": "cb4993d46f",
-      "name": "Zeytinyağlı Brokoli"
-     },
-     {
-      "key": "e50483f43f",
-      "name": "Maş Fasulyesi Salatası"
-     },
-     {
-      "img": "dishes/8f15138720.jpg",
-      "key": "8f15138720",
-      "name": "Bademli Muhallebi"
-     }
-    ]
-   },
-   "lunch": {
-    "items": [
-     {
-      "img": "dishes/fd6f1df9c8.jpg",
-      "key": "fd6f1df9c8",
-      "name": "Toyga Çorbası"
-     },
-     {
-      "img": "dishes/047e4117d8.jpg",
-      "key": "047e4117d8",
-      "name": "Kuru Köfte"
-     },
-     {
-      "key": "543929f646",
-      "name": "Zeytinyağlı Ispanak"
-     },
-     {
-      "key": "b03d77d041",
-      "name": "Arpa Şehriye Slatası"
-     },
-     {
-      "key": "7c14face05",
-      "name": "Fasulye Piyazı"
-     },
-     {
-      "img": "dishes/65dfdea3d4.jpg",
-      "key": "65dfdea3d4",
-      "name": "Garnitür Patates Püresi"
-     }
-    ]
-   }
-  },
   "2026-10-13": {
    "dinner": {
     "items": [
@@ -1239,5 +1178,5 @@
   }
  },
  "university": "itu",
- "updated": "2026-10-13T23:25:43+03:00"
+ "updated": "2026-10-14T11:08:23+03:00"
 }

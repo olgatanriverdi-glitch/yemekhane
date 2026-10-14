@@ -253,11 +253,6 @@
       "name": "Şakşuka"
      },
      {
-      "kcal": 1,
-      "key": "962b16935f",
-      "name": "Yoğurtlu Semiz Otu"
-     },
-     {
       "key": "8af969815a",
       "name": "Mantar Salatası"
      },
@@ -278,6 +273,17 @@
       "kcal": 118,
       "key": "9c8d655ef5",
       "name": "Yoğurt"
+     },
+     {
+      "img": "dishes/98c92cbbd4.jpg",
+      "kcal": 1,
+      "key": "98c92cbbd4",
+      "name": "Makarna Salata"
+     },
+     {
+      "kcal": 150,
+      "key": "79ded7ea04",
+      "name": "Havuç Tarator"
      }
     ]
    }
@@ -462,5 +468,5 @@
   }
  },
  "university": "pamukkale",
- "updated": "2026-10-13T23:25:43+03:00"
+ "updated": "2026-10-14T11:08:23+03:00"
 }

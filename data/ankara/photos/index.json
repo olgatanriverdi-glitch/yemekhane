@@ -7,7 +7,8 @@
   "2026-10-08": "942c5a76c502",
   "2026-10-09": "164fe8b5ccd4",
   "2026-10-12": "e12d07f13338",
-  "2026-10-13": "f6784bbc19c2"
+  "2026-10-13": "f6784bbc19c2",
+  "2026-10-14": "f74a9d748b67"
  },
  "main": {
   "025eacfe0c": "8f579a24b2f7",
@@ -17,7 +18,8 @@
   "91d34270c6": "942c5a76c502",
   "b7f7a0ca2b": "78be4bc465a4",
   "de62be9b48": "164fe8b5ccd4",
-  "f029cd24e9": "f6784bbc19c2"
+  "f029cd24e9": "f6784bbc19c2",
+  "fbb76e65c4": "f74a9d748b67"
  },
  "menus": {
   "164fe8b5ccd4": {
@@ -98,6 +100,16 @@
     "Izgara Tavuk But/Sebze Garnitür",
     "Yoğurtlu Makarna",
     "Meyve"
+   ]
+  },
+  "f74a9d748b67": {
+   "added": "2026-10-14",
+   "hash": "0468ef56a3c99dfbc35fcef110b41dff0d1e5ce0",
+   "items": [
+    "Mısır Çorba",
+    "Etli Kuru Fasulye",
+    "Şehriyeli Pirinç Pilavı/Turşu",
+    "Love Bombıng"
    ]
   }
  }
