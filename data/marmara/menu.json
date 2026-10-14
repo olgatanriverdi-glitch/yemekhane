@@ -201,30 +201,29 @@
       "name": "Tarhana Çorbası"
      },
      {
-      "img": "dishes/11e519bd24.jpg",
-      "kcal": 355,
-      "key": "11e519bd24",
-      "name": "Et Yahni"
+      "img": "dishes/c1ece91243.jpg",
+      "kcal": 305,
+      "key": "c1ece91243",
+      "name": "Kuru Köfte Ve Domates, Biber"
      },
      {
-      "img": "dishes/2c7be5c477.jpg",
-      "kcal": 325,
-      "key": "2c7be5c477",
-      "name": "Hasanpaşa Köfte (Alternatif)"
+      "img": "dishes/cd63e43318.jpg",
+      "kcal": 255,
+      "key": "cd63e43318",
+      "name": "Izgara Köfte Domates Biber (Alternatif)"
      },
      {
-      "kcal": 320,
-      "key": "57d2d2d906",
-      "name": "Mısırlı Pirinç Pilavı"
+      "kcal": 230,
+      "key": "8636bfbc0a",
+      "name": "Pirinç Pilavı"
      },
      {
-      "img": "dishes/321b4fe3c9.jpg",
-      "kcal": 50,
-      "key": "321b4fe3c9",
-      "name": "Mevsim Salatası"
+      "kcal": 100,
+      "key": "3ddbc111d2",
+      "name": "Limonata"
      }
     ],
-    "kcal": 835
+    "kcal": 745
    },
    "vegetarian": {
     "items": [
@@ -241,18 +240,17 @@
       "name": "Nohut Yemeği"
      },
      {
-      "kcal": 320,
-      "key": "57d2d2d906",
-      "name": "Mısırlı Pirinç Pilavı"
+      "kcal": 230,
+      "key": "8636bfbc0a",
+      "name": "Pirinç Pilavı"
      },
      {
-      "img": "dishes/99a67d4042.jpg",
-      "kcal": 50,
-      "key": "99a67d4042",
-      "name": "Mevsim Salata"
+      "kcal": 100,
+      "key": "3ddbc111d2",
+      "name": "Limonata"
      }
     ],
-    "kcal": 730
+    "kcal": 690
    }
   },
   "2026-10-16": {
@@ -317,5 +315,5 @@
   }
  },
  "university": "marmara",
- "updated": "2026-10-14T17:08:48+03:00"
+ "updated": "2026-10-14T22:01:59+03:00"
 }
