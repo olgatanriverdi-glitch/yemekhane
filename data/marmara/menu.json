@@ -263,10 +263,9 @@
       "name": "Ezogelin Çorbası"
      },
      {
-      "img": "dishes/808629f982.jpg",
-      "kcal": 365,
-      "key": "808629f982",
-      "name": "Mantı"
+      "kcal": 320,
+      "key": "f123b95158",
+      "name": "Tavuk Şinitzel"
      },
      {
       "kcal": 220,
@@ -274,9 +273,10 @@
       "name": "Kıymalı Kabak Sandal (Alternatif)"
      },
      {
-      "kcal": 235,
-      "key": "6583a18c05",
-      "name": "Kaşarlı Patates Graten"
+      "img": "dishes/18ccb4d264.jpg",
+      "kcal": 270,
+      "key": "18ccb4d264",
+      "name": "Soslu Makarna"
      },
      {
       "kcal": 245,
@@ -284,7 +284,7 @@
       "name": "Tavukgöğsü Tatlısı"
      }
     ],
-    "kcal": 960
+    "kcal": 950
    },
    "vegetarian": {
     "items": [
@@ -300,9 +300,10 @@
       "name": "Fellah Köfte"
      },
      {
-      "kcal": 225,
-      "key": "f22675b051",
-      "name": "Patates Graten"
+      "img": "dishes/18ccb4d264.jpg",
+      "kcal": 270,
+      "key": "18ccb4d264",
+      "name": "Soslu Makarna"
      },
      {
       "kcal": 245,
@@ -310,10 +311,10 @@
       "name": "Tavukgöğsü Tatlısı"
      }
     ],
-    "kcal": 862
+    "kcal": 907
    }
   }
  },
  "university": "marmara",
- "updated": "2026-10-15T16:46:44+03:00"
+ "updated": "2026-10-15T21:45:37+03:00"
 }
