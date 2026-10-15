@@ -223,8 +223,33 @@
      }
     ]
    }
+  },
+  "2026-10-16": {
+   "lunch": {
+    "items": [
+     {
+      "img": "dishes/17fe9d2c1e.jpg",
+      "key": "17fe9d2c1e",
+      "name": "Yeşil Mercimek Çorbası"
+     },
+     {
+      "img": "dishes/1097fc6f54.jpg",
+      "key": "1097fc6f54",
+      "name": "Orman Kebap"
+     },
+     {
+      "key": "fa4decda6a",
+      "name": "Şehriyeli Pirinç Pilavı"
+     },
+     {
+      "img": "dishes/ed17271d58.jpg",
+      "key": "ed17271d58",
+      "name": "Meyve"
+     }
+    ]
+   }
   }
  },
  "university": "atauni",
- "updated": "2026-10-14T22:01:59+03:00"
+ "updated": "2026-10-15T10:48:57+03:00"
 }

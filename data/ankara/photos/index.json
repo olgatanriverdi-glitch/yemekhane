@@ -15,6 +15,7 @@
   "04aa480c87": "e12d07f13338",
   "211964d15e": "41a246d21c3d",
   "495c83bde2": "8fef1ef330d1",
+  "613616e611": "cb1148062900",
   "91d34270c6": "942c5a76c502",
   "b7f7a0ca2b": "78be4bc465a4",
   "de62be9b48": "164fe8b5ccd4",
@@ -80,6 +81,16 @@
     "İsveç Köfte/Sebze Garnitür",
     "Cevizli Erişte",
     "Meyve"
+   ]
+  },
+  "cb1148062900": {
+   "added": "2025-10-15",
+   "hash": "c74bb6aacbf47dbd0faffdfb77fed4ba393d920a",
+   "items": [
+    "Düğürcük Çorba",
+    "Köri Soslu Tavuk/Salata",
+    "Soslu Makarna",
+    "Ayran"
    ]
   },
   "e12d07f13338": {

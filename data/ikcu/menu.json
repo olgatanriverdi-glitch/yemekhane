@@ -421,8 +421,55 @@
      }
     ]
    }
+  },
+  "2026-10-16": {
+   "lunch": {
+    "items": [
+     {
+      "img": "dishes/22dd093862.jpg",
+      "key": "22dd093862",
+      "name": "Mercimek Çorba"
+     },
+     {
+      "key": "8ceb59372b",
+      "name": "Misket Köfte"
+     },
+     {
+      "key": "776c631f9e",
+      "name": "Erişte Petibörlü Pasta"
+     }
+    ]
+   },
+   "vegetarian": {
+    "items": [
+     {
+      "img": "dishes/22dd093862.jpg",
+      "key": "22dd093862",
+      "name": "Mercimek Çorba"
+     },
+     {
+      "img": "dishes/ee8e1db5de.jpg",
+      "key": "ee8e1db5de",
+      "name": "Zeytinyağlı Pırasa"
+     },
+     {
+      "img": "dishes/943fe1113c.jpg",
+      "key": "943fe1113c",
+      "name": "Erişte"
+     },
+     {
+      "key": "42b82f7986",
+      "name": "Petibörlü Pasta"
+     },
+     {
+      "img": "dishes/e430bca6db.jpg",
+      "key": "e430bca6db",
+      "name": "Haydari"
+     }
+    ]
+   }
   }
  },
  "university": "ikcu",
- "updated": "2026-10-14T22:01:59+03:00"
+ "updated": "2026-10-15T10:48:57+03:00"
 }

@@ -78,9 +78,9 @@
    "dinner": {
     "items": [
      {
-      "img": "dishes/60cec17c78.jpg",
-      "key": "60cec17c78",
-      "name": "Etli Karnıyarık"
+      "img": "dishes/df8e1e6b52.jpg",
+      "key": "df8e1e6b52",
+      "name": "Karnıyarık"
      },
      {
       "img": "dishes/bf8474c8b9.jpg",
@@ -810,9 +810,9 @@
    "lunch": {
     "items": [
      {
-      "img": "dishes/60cec17c78.jpg",
-      "key": "60cec17c78",
-      "name": "Etli Karnıyarık"
+      "img": "dishes/df8e1e6b52.jpg",
+      "key": "df8e1e6b52",
+      "name": "Karnıyarık"
      },
      {
       "img": "dishes/bf8474c8b9.jpg",
@@ -1651,5 +1651,5 @@
   }
  },
  "university": "uludag",
- "updated": "2026-10-14T22:01:59+03:00"
+ "updated": "2026-10-15T10:48:57+03:00"
 }
