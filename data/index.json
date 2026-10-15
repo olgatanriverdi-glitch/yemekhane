@@ -185,7 +185,7 @@
     }
    },
    "id": "hbv",
-   "lastDay": "2026-10-21",
+   "lastDay": "2026-10-30",
    "meals": [
     "lunch"
    ],
@@ -807,6 +807,6 @@
    "source": "https://www.gaziantep.edu.tr/yemek/"
   }
  ],
- "updated": "2026-10-15T10:48:57+03:00",
+ "updated": "2026-10-15T16:46:44+03:00",
  "version": 1
 }

@@ -1566,13 +1566,12 @@
       "name": "Portakallı Gazoz"
      },
      {
-      "img": "dishes/ed17271d58.jpg",
-      "key": "ed17271d58",
-      "name": "Meyve"
-     },
-     {
       "key": "a08708a2dc",
       "name": "Akdeniz Salata"
+     },
+     {
+      "key": "ceac262390",
+      "name": "Magnolia Lotus"
      }
     ]
    },
@@ -3260,5 +3259,5 @@
   }
  },
  "university": "boun",
- "updated": "2026-10-15T10:48:57+03:00"
+ "updated": "2026-10-15T16:46:44+03:00"
 }
