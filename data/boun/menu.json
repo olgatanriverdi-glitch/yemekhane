@@ -2142,13 +2142,13 @@
       "name": "Fındık Mantarlı Köfte"
      },
      {
-      "img": "dishes/831b0f20cf.jpg",
-      "key": "831b0f20cf",
-      "name": "Su Böreği"
+      "key": "1f6954870e",
+      "name": "Havuçlu Pirinç Pilavı"
      },
      {
-      "key": "1229022705",
-      "name": "Barbunya"
+      "img": "dishes/abad8aab8e.jpg",
+      "key": "abad8aab8e",
+      "name": "Napoliten Soslu Makarna"
      },
      {
       "key": "ce072af2f7",
@@ -2177,13 +2177,13 @@
       "name": "Mantar Sote"
      },
      {
-      "img": "dishes/831b0f20cf.jpg",
-      "key": "831b0f20cf",
-      "name": "Su Böreği"
+      "key": "1f6954870e",
+      "name": "Havuçlu Pirinç Pilavı"
      },
      {
-      "key": "1229022705",
-      "name": "Barbunya"
+      "img": "dishes/abad8aab8e.jpg",
+      "key": "abad8aab8e",
+      "name": "Napoliten Soslu Makarna"
      },
      {
       "key": "ce072af2f7",
@@ -2345,6 +2345,82 @@
       "img": "dishes/ed17271d58.jpg",
       "key": "ed17271d58",
       "name": "Meyve"
+     }
+    ]
+   },
+   "lunch": {
+    "items": [
+     {
+      "img": "dishes/bf8474c8b9.jpg",
+      "key": "bf8474c8b9",
+      "name": "Ezogelin Çorba"
+     },
+     {
+      "img": "dishes/17d2e9100f.jpg",
+      "key": "17d2e9100f",
+      "name": "Tavuk Döner"
+     },
+     {
+      "key": "f03644afc2",
+      "name": "Melek Pilavı"
+     },
+     {
+      "img": "dishes/2911af800f.jpg",
+      "key": "2911af800f",
+      "name": "Kremalı Makarna"
+     },
+     {
+      "img": "dishes/b6bfa358ce.jpg",
+      "key": "b6bfa358ce",
+      "name": "Trileçe"
+     },
+     {
+      "img": "dishes/99a67d4042.jpg",
+      "key": "99a67d4042",
+      "name": "Mevsim Salata"
+     },
+     {
+      "img": "dishes/3201b259e1.jpg",
+      "key": "3201b259e1",
+      "name": "Gazoz"
+     }
+    ]
+   },
+   "vegetarian": {
+    "items": [
+     {
+      "img": "dishes/bf8474c8b9.jpg",
+      "key": "bf8474c8b9",
+      "name": "Ezogelin Çorba"
+     },
+     {
+      "img": "dishes/588fdb17b9.jpg",
+      "key": "588fdb17b9",
+      "name": "Mantar Güveç"
+     },
+     {
+      "key": "f03644afc2",
+      "name": "Melek Pilavı"
+     },
+     {
+      "img": "dishes/2911af800f.jpg",
+      "key": "2911af800f",
+      "name": "Kremalı Makarna"
+     },
+     {
+      "img": "dishes/b6bfa358ce.jpg",
+      "key": "b6bfa358ce",
+      "name": "Trileçe"
+     },
+     {
+      "img": "dishes/99a67d4042.jpg",
+      "key": "99a67d4042",
+      "name": "Mevsim Salata"
+     },
+     {
+      "img": "dishes/3201b259e1.jpg",
+      "key": "3201b259e1",
+      "name": "Gazoz"
      }
     ]
    }
@@ -3259,5 +3335,5 @@
   }
  },
  "university": "boun",
- "updated": "2026-10-16T10:37:35+03:00"
+ "updated": "2026-10-16T16:36:32+03:00"
 }

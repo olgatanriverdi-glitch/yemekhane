@@ -387,6 +387,15 @@
    "sorgu": "Orman Kebap",
    "yazar": "E4024"
   },
+  "10e9f891a4": {
+   "baslik": "Kabak ve patlıcan dolma.jpg",
+   "kaynak": "Wikimedia Commons",
+   "lisans": "CC BY-SA 4.0",
+   "name": "Zeytinyağlı Patlıcan Dolma",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Kabak_ve_patl%C4%B1can_dolma.jpg",
+   "sorgu": "Patlıcan Dolma",
+   "yazar": "E4024"
+  },
   "11d5798385": {
    "baslik": "Broccoli and cross section edit.jpg",
    "kaynak": "Wikimedia Commons",
@@ -1080,6 +1089,15 @@
    "sorgu": "Tepsi Börek",
    "yazar": "Vikiçizer"
   },
+  "2db5c03914": {
+   "baslik": "Semizotu salad.jpg",
+   "kaynak": "Wikimedia Commons",
+   "lisans": "CC BY-SA 4.0",
+   "name": "Yoğurtlu Semizotu Salata",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Semizotu_salad.jpg",
+   "sorgu": "Semizotu Salata",
+   "yazar": "E4024"
+  },
   "2dfccf532a": {
    "baslik": "Sebzeli köfte in Ankara.jpg",
    "kaynak": "Wikimedia Commons",
@@ -1303,6 +1321,15 @@
    "name": "Patlıcanlı Bulgur Pilavı",
    "sayfa": "https://commons.wikimedia.org/wiki/File:Bulgur_pilav%C4%B1_(tel_sehriyeli).jpg",
    "sorgu": "Bulgur Pilavı",
+   "yazar": "E4024"
+  },
+  "3acf2087fe": {
+   "baslik": "Kabak tatlısı.jpg",
+   "kaynak": "Wikimedia Commons",
+   "lisans": "CC BY-SA 4.0",
+   "name": "Kabak Tatlısı",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Kabak_tatl%C4%B1s%C4%B1.jpg",
+   "sorgu": "Kabak Tatlısı",
    "yazar": "E4024"
   },
   "3b140d6d1c": {
@@ -1897,6 +1924,15 @@
    "name": "Şehriyeli Güveç",
    "sayfa": "https://commons.wikimedia.org/wiki/File:Turlu_guvec.jpg",
    "sorgu": "Şehriyeli Güveç",
+   "yazar": "E4024"
+  },
+  "588fdb17b9": {
+   "baslik": "Güveçte mantar.jpg",
+   "kaynak": "Wikimedia Commons",
+   "lisans": "CC BY-SA 4.0",
+   "name": "Mantar Güveç",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:G%C3%BCve%C3%A7te_mantar.jpg",
+   "sorgu": "Mantar Güveç",
    "yazar": "E4024"
   },
   "58cbab5fdc": {
@@ -4581,6 +4617,15 @@
    "sorgu": "Tavuk Pirzola",
    "yazar": "E4024"
   },
+  "d0dd99d58c": {
+   "baslik": "Kemalpaşa.jpg",
+   "kaynak": "Wikimedia Commons",
+   "lisans": "CC BY-SA 4.0",
+   "name": "Kemal Paşa Tatlısı (Ekstra)",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Kemalpa%C5%9Fa.jpg",
+   "sorgu": "Kemal Paşa Tatlısı",
+   "yazar": "E4024"
+  },
   "d0ee7d01d0": {
    "baslik": "Tavuk fırın - Ankara.jpg",
    "kaynak": "Wikimedia Commons",
@@ -4814,6 +4859,15 @@
    "sayfa": "https://commons.wikimedia.org/wiki/File:F%C4%B1r%C4%B1nda_Domates_Soslu_Tavuk_Baget.jpg",
    "sorgu": "Tavuk Baget",
    "yazar": "Samizambak"
+  },
+  "dcf35673dd": {
+   "baslik": "Kabak ve patlıcan dolma.jpg",
+   "kaynak": "Wikimedia Commons",
+   "lisans": "CC BY-SA 4.0",
+   "name": "Kuru Patlıcan Dolma",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Kabak_ve_patl%C4%B1can_dolma.jpg",
+   "sorgu": "Patlıcan Dolma",
+   "yazar": "E4024"
   },
   "dd81bbe4d5": {
    "baslik": "Tavuk suyu çorba (tel şehriyeli).jpg",
@@ -5481,6 +5535,15 @@
    "sorgu": "Tavuk Baget",
    "yazar": "Samizambak"
   },
+  "f911017949": {
+   "baslik": "Romanesco broccoli 2025 G2.jpg",
+   "kaynak": "Wikimedia Commons",
+   "lisans": "CC BY 4.0",
+   "name": "Beşamel Soslu Brokoli",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Romanesco_broccoli_2025_G2.jpg",
+   "sorgu": "Broccoli",
+   "yazar": "George Chernilevsky"
+  },
   "f98b465287": {
    "baslik": "Yogurt soup (yayla çorba).jpg",
    "kaynak": "Wikimedia Commons",
@@ -5630,6 +5693,7 @@
   "003099ee9f": "2026-10-08",
   "00671ebcaa": "2026-10-07",
   "007b19b638": "2026-10-05",
+  "022c30d154": "2026-10-16",
   "022d458336": "2026-10-03",
   "02c0db3786": "2026-10-06",
   "032b34fe27": "2026-10-07",
@@ -5857,6 +5921,7 @@
   "56a26057a7": "2026-10-08",
   "57382f4271": "2026-10-03",
   "574f0487e7": "2026-10-05",
+  "576aadd835": "2026-10-16",
   "57841f3a58": "2026-10-06",
   "57d2d2d906": "2026-10-03",
   "57d451ede7": "2026-10-06",
@@ -6360,6 +6425,7 @@
   "fd44657e50": "2026-10-08",
   "fd8e546cf8": "2026-10-06",
   "fdec71eec9": "2026-10-04",
+  "fe67cc735e": "2026-10-16",
   "fec7c66b50": "2026-10-06",
   "fece5a0444": "2026-10-04",
   "fed5fa5522": "2026-10-04",
