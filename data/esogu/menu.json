@@ -997,90 +997,12 @@
   },
   "2026-10-28": {
    "dinner": {
-    "items": [
-     {
-      "img": "dishes/2c0e163a7d.jpg",
-      "kcal": 178,
-      "key": "2c0e163a7d",
-      "name": "Tarhana Çorba"
-     },
-     {
-      "img": "dishes/8f159875f3.jpg",
-      "kcal": 350,
-      "key": "8f159875f3",
-      "name": "Soslu Tavuk Baget"
-     },
-     {
-      "img": "dishes/f79b284db7.jpg",
-      "kcal": 350,
-      "key": "f79b284db7",
-      "name": "Sebzeli Makarna"
-     },
-     {
-      "img": "dishes/ed17271d58.jpg",
-      "kcal": 120,
-      "key": "ed17271d58",
-      "name": "Meyve"
-     }
-    ],
-    "kcal": 998
+    "items": [],
+    "note": "Tatil: Cumhuriyet bayramı"
    },
    "lunch": {
-    "items": [
-     {
-      "img": "dishes/2c0e163a7d.jpg",
-      "kcal": 178,
-      "key": "2c0e163a7d",
-      "name": "Tarhana Çorba"
-     },
-     {
-      "img": "dishes/8f159875f3.jpg",
-      "kcal": 350,
-      "key": "8f159875f3",
-      "name": "Soslu Tavuk Baget"
-     },
-     {
-      "img": "dishes/f79b284db7.jpg",
-      "kcal": 350,
-      "key": "f79b284db7",
-      "name": "Sebzeli Makarna"
-     },
-     {
-      "img": "dishes/ed17271d58.jpg",
-      "kcal": 120,
-      "key": "ed17271d58",
-      "name": "Meyve"
-     }
-    ],
-    "kcal": 998
-   },
-   "vegetarian": {
-    "items": [
-     {
-      "img": "dishes/2c0e163a7d.jpg",
-      "kcal": 178,
-      "key": "2c0e163a7d",
-      "name": "Tarhana Çorba"
-     },
-     {
-      "kcal": 450,
-      "key": "8190fdee21",
-      "name": "Etsiz Patlıcan Musakka"
-     },
-     {
-      "img": "dishes/f79b284db7.jpg",
-      "kcal": 350,
-      "key": "f79b284db7",
-      "name": "Sebzeli Makarna"
-     },
-     {
-      "img": "dishes/ed17271d58.jpg",
-      "kcal": 120,
-      "key": "ed17271d58",
-      "name": "Meyve"
-     }
-    ],
-    "kcal": 1098
+    "items": [],
+    "note": "Tatil: Cumhuriyet bayramı"
    }
   },
   "2026-10-29": {
@@ -1180,5 +1102,5 @@
   }
  },
  "university": "esogu",
- "updated": "2026-10-15T21:45:37+03:00"
+ "updated": "2026-10-16T10:37:35+03:00"
 }

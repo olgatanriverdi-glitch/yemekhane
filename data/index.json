@@ -2,7 +2,7 @@
  "universities": [
   {
    "city": "Ankara",
-   "firstDay": "2025-10-15",
+   "firstDay": "2026-10-01",
    "hours": {
     "dinner": {
      "approx": true,
@@ -81,7 +81,7 @@
   },
   {
    "city": "Ankara",
-   "firstDay": "2026-10-13",
+   "firstDay": "2026-10-14",
    "hours": {
     "breakfast": {
      "approx": false,
@@ -299,7 +299,7 @@
   },
   {
    "city": "İstanbul",
-   "firstDay": "2026-10-13",
+   "firstDay": "2026-10-14",
    "hours": {
     "breakfast": {
      "approx": false,
@@ -329,7 +329,7 @@
   },
   {
    "city": "İstanbul",
-   "firstDay": "2026-10-14",
+   "firstDay": "2026-10-15",
    "hours": {
     "dinner": {
      "approx": false,
@@ -807,6 +807,6 @@
    "source": "https://www.gaziantep.edu.tr/yemek/"
   }
  ],
- "updated": "2026-10-15T21:45:37+03:00",
+ "updated": "2026-10-16T10:37:35+03:00",
  "version": 1
 }

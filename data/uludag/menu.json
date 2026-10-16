@@ -876,13 +876,13 @@
       "name": "Ezogelin Çorba"
      },
      {
-      "key": "ccc329e06a",
-      "name": "Sebzeli Pirinç Pilavı"
-     },
-     {
       "img": "dishes/16b5c22561.jpg",
       "key": "16b5c22561",
       "name": "Ayran"
+     },
+     {
+      "key": "57d2d2d906",
+      "name": "Mısırlı Pirinç Pilavı"
      }
     ]
    },
@@ -1651,5 +1651,5 @@
   }
  },
  "university": "uludag",
- "updated": "2026-10-15T21:45:37+03:00"
+ "updated": "2026-10-16T10:37:35+03:00"
 }

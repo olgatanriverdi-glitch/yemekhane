@@ -8,13 +8,15 @@
   "2026-10-09": "164fe8b5ccd4",
   "2026-10-12": "e12d07f13338",
   "2026-10-13": "f6784bbc19c2",
-  "2026-10-14": "f74a9d748b67"
+  "2026-10-14": "f74a9d748b67",
+  "2026-10-16": "e2956e24cd10"
  },
  "main": {
   "025eacfe0c": "8f579a24b2f7",
   "04aa480c87": "e12d07f13338",
   "211964d15e": "41a246d21c3d",
   "495c83bde2": "8fef1ef330d1",
+  "5de18824bc": "e2956e24cd10",
   "613616e611": "cb1148062900",
   "91d34270c6": "942c5a76c502",
   "b7f7a0ca2b": "78be4bc465a4",
@@ -101,6 +103,16 @@
     "Kadınbudu Köfte/Patates Salata",
     "Arpa Şehriye Pilavı",
     "Cacık"
+   ]
+  },
+  "e2956e24cd10": {
+   "added": "2026-10-16",
+   "hash": "350a8f88f06b62cb50cab23e7afc3de464fc7703",
+   "items": [
+    "Mahluta Çorba",
+    "Çökertme Kebap",
+    "Sade Pirinç Pilavı",
+    "Kakaolu Puding"
    ]
   },
   "f6784bbc19c2": {

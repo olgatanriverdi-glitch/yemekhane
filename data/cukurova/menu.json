@@ -293,41 +293,6 @@
     "kcal": 726
    }
   },
-  "2026-10-15": {
-   "lunch": {
-    "items": [
-     {
-      "img": "dishes/fbb76e65c4.jpg",
-      "kcal": 340,
-      "key": "fbb76e65c4",
-      "name": "Etli Kuru Fasulye"
-     },
-     {
-      "img": "dishes/efb86b31df.jpg",
-      "kcal": 267,
-      "key": "efb86b31df",
-      "name": "Kuru Fasülye (Etsiz)"
-     },
-     {
-      "kcal": 310,
-      "key": "fc234c58bc",
-      "name": "Tel Şehriyeli Pirinç Pilavı"
-     },
-     {
-      "kcal": 7,
-      "key": "d7528dbe47",
-      "name": "Salatalık Turşusu"
-     },
-     {
-      "img": "dishes/9c8d655ef5.jpg",
-      "kcal": 118,
-      "key": "9c8d655ef5",
-      "name": "Yoğurt"
-     }
-    ],
-    "kcal": 1042
-   }
-  },
   "2026-10-16": {
    "lunch": {
     "items": [
@@ -336,6 +301,12 @@
       "kcal": 294,
       "key": "e9977e6607",
       "name": "Ekşili Köfte"
+     },
+     {
+      "img": "dishes/bcafe51e20.jpg",
+      "kcal": 362,
+      "key": "bcafe51e20",
+      "name": "Peynirli Börek"
      },
      {
       "img": "dishes/18ccb4d264.jpg",
@@ -356,7 +327,7 @@
       "name": "İrmik Helvası"
      }
     ],
-    "kcal": 1176
+    "kcal": 1538
    }
   },
   "2026-10-19": {
@@ -510,5 +481,5 @@
   }
  },
  "university": "cukurova",
- "updated": "2026-10-15T21:45:37+03:00"
+ "updated": "2026-10-16T10:37:35+03:00"
 }

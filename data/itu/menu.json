@@ -1,64 +1,5 @@
 {
  "days": {
-  "2026-10-14": {
-   "dinner": {
-    "items": [
-     {
-      "key": "f734542a51",
-      "name": "Saray Çorbası"
-     },
-     {
-      "key": "82bddc9f12",
-      "name": "Kıymalı Karnabahar"
-     },
-     {
-      "img": "dishes/127bfefbec.jpg",
-      "key": "127bfefbec",
-      "name": "Yeşil Mercimekli Bulgur Pilavı"
-     },
-     {
-      "img": "dishes/e430bca6db.jpg",
-      "key": "e430bca6db",
-      "name": "Haydari"
-     },
-     {
-      "img": "dishes/c2cb7fa47d.jpg",
-      "key": "c2cb7fa47d",
-      "name": "Şöbiyet"
-     }
-    ]
-   },
-   "lunch": {
-    "items": [
-     {
-      "key": "fab279355e",
-      "name": "Kremalı Domates Çorbası"
-     },
-     {
-      "key": "2f988021ae",
-      "name": "Köri Soslu Piliç Kavurma"
-     },
-     {
-      "img": "dishes/f7b4cf4bd7.jpg",
-      "key": "f7b4cf4bd7",
-      "name": "Arrabiata Soslu Makarna"
-     },
-     {
-      "key": "d14bc2ed6a",
-      "name": "Akdeniz Salatası"
-     },
-     {
-      "img": "dishes/5b7bbc3ecc.jpg",
-      "key": "5b7bbc3ecc",
-      "name": "Portakal"
-     },
-     {
-      "key": "1045cf4872",
-      "name": "Garnitür Küp Patates Kızartması"
-     }
-    ]
-   }
-  },
   "2026-10-15": {
    "dinner": {
     "items": [
@@ -1129,5 +1070,5 @@
   }
  },
  "university": "itu",
- "updated": "2026-10-15T21:45:37+03:00"
+ "updated": "2026-10-16T10:37:35+03:00"
 }

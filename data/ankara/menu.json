@@ -1,35 +1,5 @@
 {
  "days": {
-  "2025-10-15": {
-   "lunch": {
-    "items": [
-     {
-      "kcal": 196,
-      "key": "cdbbaa4cff",
-      "name": "Düğürcük Çorba"
-     },
-     {
-      "kcal": 613,
-      "key": "613616e611",
-      "name": "Köri Soslu Tavuk/Salata"
-     },
-     {
-      "img": "dishes/18ccb4d264.jpg",
-      "kcal": 456,
-      "key": "18ccb4d264",
-      "name": "Soslu Makarna"
-     },
-     {
-      "img": "dishes/16b5c22561.jpg",
-      "kcal": 64,
-      "key": "16b5c22561",
-      "name": "Ayran"
-     }
-    ],
-    "kcal": 1329,
-    "photo": "photos/lib/cb1148062900.jpg"
-   }
-  },
   "2026-10-01": {
    "dinner": {
     "items": [
@@ -855,7 +825,8 @@
       "name": "Kakaolu Puding"
      }
     ],
-    "kcal": 1837
+    "kcal": 1837,
+    "photo": "photos/lib/e2956e24cd10.jpg"
    },
    "vegetarian": {
     "items": [
@@ -1485,5 +1456,5 @@
   }
  },
  "university": "ankara",
- "updated": "2026-10-15T21:45:37+03:00"
+ "updated": "2026-10-16T10:37:35+03:00"
 }

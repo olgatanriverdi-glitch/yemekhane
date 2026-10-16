@@ -1,109 +1,5 @@
 {
  "days": {
-  "2026-10-13": {
-   "breakfast": {
-    "items": [
-     {
-      "img": "dishes/22605468a2.jpg",
-      "key": "22605468a2",
-      "name": "Çay"
-     },
-     {
-      "key": "f7b84ad85a",
-      "name": "Meyve Suyu"
-     },
-     {
-      "img": "dishes/bff26db9ff.jpg",
-      "key": "bff26db9ff",
-      "name": "Süt"
-     },
-     {
-      "key": "a5700115ba",
-      "name": "Kakaolu Fındık Kreması"
-     },
-     {
-      "key": "5e5b38bbfe",
-      "name": "Örgü Peynir"
-     },
-     {
-      "img": "dishes/1f6ccd2be7.jpg",
-      "key": "1f6ccd2be7",
-      "name": "Pizza"
-     },
-     {
-      "img": "dishes/61eeda5228.jpg",
-      "key": "61eeda5228",
-      "name": "Domates-Salatalık"
-     }
-    ]
-   },
-   "dinner": {
-    "items": [
-     {
-      "key": "0afb69c78d",
-      "name": "Kaşarlı Domates Çorbası"
-     },
-     {
-      "key": "82bddc9f12",
-      "name": "Kıymalı Karnabahar"
-     },
-     {
-      "img": "dishes/831b0f20cf.jpg",
-      "key": "831b0f20cf",
-      "name": "Su Böreği"
-     },
-     {
-      "img": "dishes/16b5c22561.jpg",
-      "key": "16b5c22561",
-      "name": "Ayran"
-     }
-    ]
-   },
-   "lunch": {
-    "items": [
-     {
-      "key": "0afb69c78d",
-      "name": "Kaşarlı Domates Çorbası"
-     },
-     {
-      "key": "82bddc9f12",
-      "name": "Kıymalı Karnabahar"
-     },
-     {
-      "img": "dishes/831b0f20cf.jpg",
-      "key": "831b0f20cf",
-      "name": "Su Böreği"
-     },
-     {
-      "img": "dishes/16b5c22561.jpg",
-      "key": "16b5c22561",
-      "name": "Ayran"
-     }
-    ]
-   },
-   "vegetarian": {
-    "items": [
-     {
-      "img": "dishes/e2fac9b8dd.jpg",
-      "key": "e2fac9b8dd",
-      "name": "Tel Şehriye Çorbası"
-     },
-     {
-      "key": "fed5fa5522",
-      "name": "Etsiz Karnabahar Yemeği"
-     },
-     {
-      "key": "fef6adada3",
-      "name": "Nohutlu Pirinç Pilavı"
-     },
-     {
-      "img": "dishes/997b4ad147.jpg",
-      "key": "997b4ad147",
-      "name": "Muz"
-     }
-    ]
-   }
-  },
   "2026-10-14": {
    "breakfast": {
     "items": [
@@ -1370,5 +1266,5 @@
   }
  },
  "university": "iu",
- "updated": "2026-10-15T21:45:37+03:00"
+ "updated": "2026-10-16T10:37:35+03:00"
 }
