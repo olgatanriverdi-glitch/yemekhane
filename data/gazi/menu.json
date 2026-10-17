@@ -229,6 +229,7 @@
       "name": "Yayla Çorba"
      },
      {
+      "img": "dishes/dbae728869.jpg",
       "key": "dbae728869",
       "name": "Etsiz Patates Yemeği"
      },
@@ -894,5 +895,5 @@
   }
  },
  "university": "gazi",
- "updated": "2026-10-16T21:30:21+03:00"
+ "updated": "2026-10-17T10:16:50+03:00"
 }

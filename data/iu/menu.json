@@ -1,108 +1,5 @@
 {
  "days": {
-  "2026-10-14": {
-   "breakfast": {
-    "items": [
-     {
-      "img": "dishes/22605468a2.jpg",
-      "key": "22605468a2",
-      "name": "Çay"
-     },
-     {
-      "key": "f7b84ad85a",
-      "name": "Meyve Suyu"
-     },
-     {
-      "img": "dishes/bff26db9ff.jpg",
-      "key": "bff26db9ff",
-      "name": "Süt"
-     },
-     {
-      "key": "a1bafdb9d5",
-      "name": "Kayısı Reçeli-Tereyağı"
-     },
-     {
-      "key": "d55ffa8efc",
-      "name": "Labne Peynir"
-     },
-     {
-      "img": "dishes/ddc30ae037.jpg",
-      "key": "ddc30ae037",
-      "name": "Simit"
-     },
-     {
-      "key": "9e8512d0f7",
-      "name": "Siyah Zeytin"
-     }
-    ]
-   },
-   "dinner": {
-    "items": [
-     {
-      "img": "dishes/fd6f1df9c8.jpg",
-      "key": "fd6f1df9c8",
-      "name": "Toyga Çorbası"
-     },
-     {
-      "key": "1e3a81be4a",
-      "name": "Mantarlı Tavuk Sote"
-     },
-     {
-      "img": "dishes/c0403431e1.jpg",
-      "key": "c0403431e1",
-      "name": "Arpa Şehriye Pilavı"
-     },
-     {
-      "key": "ef1336ebbe",
-      "name": "Mürdüm Eriği"
-     }
-    ]
-   },
-   "lunch": {
-    "items": [
-     {
-      "img": "dishes/fd6f1df9c8.jpg",
-      "key": "fd6f1df9c8",
-      "name": "Toyga Çorbası"
-     },
-     {
-      "key": "1e3a81be4a",
-      "name": "Mantarlı Tavuk Sote"
-     },
-     {
-      "img": "dishes/c0403431e1.jpg",
-      "key": "c0403431e1",
-      "name": "Arpa Şehriye Pilavı"
-     },
-     {
-      "key": "ef1336ebbe",
-      "name": "Mürdüm Eriği"
-     }
-    ]
-   },
-   "vegetarian": {
-    "items": [
-     {
-      "img": "dishes/ba380b9a95.jpg",
-      "key": "ba380b9a95",
-      "name": "Sebze Çorbası"
-     },
-     {
-      "key": "1a817ec3d4",
-      "name": "Mantar Sote"
-     },
-     {
-      "img": "dishes/063b562724.jpg",
-      "key": "063b562724",
-      "name": "Zeytinyağlı Enginar"
-     },
-     {
-      "key": "ef1336ebbe",
-      "name": "Mürdüm Eriği"
-     }
-    ]
-   }
-  },
   "2026-10-15": {
    "breakfast": {
     "items": [
@@ -838,6 +735,7 @@
       "name": "Brokoli Çorbası"
      },
      {
+      "img": "dishes/dbae728869.jpg",
       "key": "dbae728869",
       "name": "Etsiz Patates Yemeği"
      },
@@ -1266,5 +1164,5 @@
   }
  },
  "university": "iu",
- "updated": "2026-10-16T21:30:21+03:00"
+ "updated": "2026-10-17T10:16:50+03:00"
 }
