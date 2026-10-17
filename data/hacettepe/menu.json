@@ -1102,6 +1102,7 @@
       "name": "Hanımağa Çorbası"
      },
      {
+      "img": "dishes/4280b45688.jpg",
       "kcal": 210,
       "key": "4280b45688",
       "name": "Tavuk Pirzola"
@@ -1128,6 +1129,7 @@
       "name": "Hanımağa Çorbası"
      },
      {
+      "img": "dishes/4280b45688.jpg",
       "kcal": 210,
       "key": "4280b45688",
       "name": "Tavuk Pirzola"
@@ -2346,5 +2348,5 @@
   }
  },
  "university": "hacettepe",
- "updated": "2026-10-17T10:16:50+03:00"
+ "updated": "2026-10-17T15:33:19+03:00"
 }

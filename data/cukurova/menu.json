@@ -151,6 +151,7 @@
    "lunch": {
     "items": [
      {
+      "img": "dishes/f6fb3bf6c6.jpg",
       "kcal": 235,
       "key": "f6fb3bf6c6",
       "name": "Sebzeli Dalyan Köfte"
@@ -251,6 +252,7 @@
       "name": "Tel Şehriyeli Bulgur Pilavı"
      },
      {
+      "img": "dishes/ec5b312458.jpg",
       "kcal": 133,
       "key": "ec5b312458",
       "name": "Dondurma"
@@ -279,6 +281,7 @@
       "name": "Tel Şehriyeli Pirinç Pilavı"
      },
      {
+      "img": "dishes/f540ceda29.jpg",
       "kcal": 1,
       "key": "f540ceda29",
       "name": "Karnabahar Salatası"
@@ -681,5 +684,5 @@
   }
  },
  "university": "cukurova",
- "updated": "2026-10-17T10:16:50+03:00"
+ "updated": "2026-10-17T15:33:19+03:00"
 }
