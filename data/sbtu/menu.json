@@ -45,6 +45,7 @@
       "name": "Tel Şehriye Çorbası"
      },
      {
+      "img": "dishes/b7593804b8.jpg",
       "kcal": 262,
       "key": "b7593804b8",
       "name": "Biber Dolması"
@@ -755,5 +756,5 @@
   }
  },
  "university": "sbtu",
- "updated": "2026-10-18T15:51:42+03:00"
+ "updated": "2026-10-18T20:38:40+03:00"
 }
