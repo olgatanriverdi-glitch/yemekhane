@@ -243,6 +243,7 @@
       "name": "Beyaz Peynir"
      },
      {
+      "img": "dishes/f2b02cbe7f.jpg",
       "key": "f2b02cbe7f",
       "name": "Limonlu Kek"
      },
@@ -1055,5 +1056,5 @@
   }
  },
  "university": "iu",
- "updated": "2026-10-18T10:30:43+03:00"
+ "updated": "2026-10-18T15:51:42+03:00"
 }
