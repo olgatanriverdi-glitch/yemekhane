@@ -1,65 +1,5 @@
 {
  "days": {
-  "2026-10-16": {
-   "dinner": {
-    "items": [
-     {
-      "img": "dishes/78d4dad707.jpg",
-      "key": "78d4dad707",
-      "name": "Tarhana Çorbası"
-     },
-     {
-      "img": "dishes/3543c91e67.jpg",
-      "key": "3543c91e67",
-      "name": "Hasanpaşa Köfte"
-     },
-     {
-      "img": "dishes/7819d0a412.jpg",
-      "key": "7819d0a412",
-      "name": "Kremalı Fesleğenli Makarna"
-     },
-     {
-      "key": "f7b84ad85a",
-      "name": "Meyve Suyu"
-     },
-     {
-      "img": "dishes/23f8e27f8d.jpg",
-      "key": "23f8e27f8d",
-      "name": "Karnabahar-Brokoli Salatası"
-     }
-    ]
-   },
-   "lunch": {
-    "items": [
-     {
-      "img": "dishes/0955218757.jpg",
-      "key": "0955218757",
-      "name": "Mercimek Çorbası"
-     },
-     {
-      "key": "aa4a602ff5",
-      "name": "Piliç Sote"
-     },
-     {
-      "key": "fa4decda6a",
-      "name": "Şehriyeli Pirinç Pilavı"
-     },
-     {
-      "img": "dishes/16b5c22561.jpg",
-      "key": "16b5c22561",
-      "name": "Ayran"
-     },
-     {
-      "key": "8ebd6667e7",
-      "name": "Krem Şokola"
-     },
-     {
-      "key": "1045cf4872",
-      "name": "Garnitür Küp Patates Kızartması"
-     }
-    ]
-   }
-  },
   "2026-10-17": {
    "dinner": {
     "items": [
@@ -1010,5 +950,5 @@
   }
  },
  "university": "itu",
- "updated": "2026-10-17T20:36:00+03:00"
+ "updated": "2026-10-18T10:30:43+03:00"
 }
