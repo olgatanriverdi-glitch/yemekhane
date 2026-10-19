@@ -209,6 +209,7 @@
       "name": "Etli Barbunya"
      },
      {
+      "img": "dishes/5a2fa01c62.jpg",
       "kcal": 270,
       "key": "5a2fa01c62",
       "name": "Etli Bezelye (Alternatif)"
@@ -319,5 +320,5 @@
   }
  },
  "university": "marmara",
- "updated": "2026-10-19T11:13:55+03:00"
+ "updated": "2026-10-19T18:59:22+03:00"
 }

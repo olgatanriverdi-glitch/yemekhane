@@ -635,11 +635,6 @@
       "name": "Mantar Sote"
      },
      {
-      "img": "dishes/10e9f891a4.jpg",
-      "key": "10e9f891a4",
-      "name": "Zeytinyağlı Patlıcan Dolma"
-     },
-     {
       "kcal": 267,
       "key": "ccddc81b59",
       "name": "Zeytinyağlı Yeşil Mercimek"
@@ -681,6 +676,10 @@
       "img": "dishes/dc944fba4f.jpg",
       "key": "dc944fba4f",
       "name": "Kazandibi"
+     },
+     {
+      "key": "3a7591c4a9",
+      "name": "Zy'Lı Patlıcan"
      }
     ]
    }
@@ -980,5 +979,5 @@
   }
  },
  "university": "pamukkale",
- "updated": "2026-10-19T11:13:55+03:00"
+ "updated": "2026-10-19T18:59:22+03:00"
 }

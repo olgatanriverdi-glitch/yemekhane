@@ -522,9 +522,8 @@
       "name": "Yayla Çorba"
      },
      {
-      "img": "dishes/848c4f7aba.jpg",
-      "key": "848c4f7aba",
-      "name": "Etsiz Ispanak"
+      "key": "c3679051de",
+      "name": "Etsiz Bezelye"
      },
      {
       "img": "dishes/831b0f20cf.jpg",
@@ -895,5 +894,5 @@
   }
  },
  "university": "gazi",
- "updated": "2026-10-19T11:13:55+03:00"
+ "updated": "2026-10-19T18:59:22+03:00"
 }

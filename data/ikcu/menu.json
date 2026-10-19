@@ -533,6 +533,7 @@
       "name": "Köri Soslu Tavuk"
      },
      {
+      "img": "dishes/8b893412cf.jpg",
       "key": "8b893412cf",
       "name": "Soslu Spagetti Meyve"
      }
@@ -550,6 +551,7 @@
       "name": "Patates Graten"
      },
      {
+      "img": "dishes/8b893412cf.jpg",
       "key": "8b893412cf",
       "name": "Soslu Spagetti Meyve"
      },
@@ -562,5 +564,5 @@
   }
  },
  "university": "ikcu",
- "updated": "2026-10-19T11:13:55+03:00"
+ "updated": "2026-10-19T18:59:22+03:00"
 }
