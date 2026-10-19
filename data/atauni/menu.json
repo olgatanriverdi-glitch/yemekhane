@@ -270,11 +270,41 @@
       "img": "dishes/16b5c22561.jpg",
       "key": "16b5c22561",
       "name": "Ayran"
+     },
+     {
+      "img": "dishes/5faf1b0081.jpg",
+      "key": "5faf1b0081",
+      "name": "Kırmızı Mercimek Çorba"
+     }
+    ]
+   }
+  },
+  "2026-10-20": {
+   "lunch": {
+    "items": [
+     {
+      "img": "dishes/8ab26ad603.jpg",
+      "key": "8ab26ad603",
+      "name": "Etli Ev Mantısı"
+     },
+     {
+      "key": "92d8a6cea4",
+      "name": "Marul Salata"
+     },
+     {
+      "img": "dishes/92485508df.jpg",
+      "key": "92485508df",
+      "name": "Tatlı"
+     },
+     {
+      "img": "dishes/5faf1b0081.jpg",
+      "key": "5faf1b0081",
+      "name": "Kırmızı Mercimek Çorba"
      }
     ]
    }
   }
  },
  "university": "atauni",
- "updated": "2026-10-18T20:38:40+03:00"
+ "updated": "2026-10-19T11:13:55+03:00"
 }

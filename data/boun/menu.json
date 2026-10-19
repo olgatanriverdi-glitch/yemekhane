@@ -2394,9 +2394,8 @@
       "name": "Ezogelin Çorba"
      },
      {
-      "img": "dishes/588fdb17b9.jpg",
-      "key": "588fdb17b9",
-      "name": "Mantar Güveç"
+      "key": "30574757f1",
+      "name": "Mantar Graten"
      },
      {
       "key": "f03644afc2",
@@ -3335,5 +3334,5 @@
   }
  },
  "university": "boun",
- "updated": "2026-10-18T20:38:40+03:00"
+ "updated": "2026-10-19T11:13:55+03:00"
 }

@@ -1,6 +1,6 @@
 {
  "days": {
-  "2026-10-12": {
+  "2026-10-19": {
    "lunch": {
     "items": [
      {
@@ -10,21 +10,22 @@
       "name": "Mercimek Çorbası"
      },
      {
-      "img": "dishes/17d2e9100f.jpg",
-      "kcal": 335,
-      "key": "17d2e9100f",
-      "name": "Tavuk Döner"
-     },
-     {
+      "img": "dishes/694df91308.jpg",
       "kcal": 340,
-      "key": "de29205d68",
-      "name": "Arnavut Köfte (Alternatif)"
+      "key": "694df91308",
+      "name": "İzmir Köfte"
      },
      {
-      "img": "dishes/2356abfde0.jpg",
-      "kcal": 320,
-      "key": "2356abfde0",
-      "name": "Sebzeli Bulgur Pilavı"
+      "img": "dishes/449f11945a.jpg",
+      "kcal": 305,
+      "key": "449f11945a",
+      "name": "Tavuk Baget (Alternatif)"
+     },
+     {
+      "img": "dishes/18ccb4d264.jpg",
+      "kcal": 270,
+      "key": "18ccb4d264",
+      "name": "Soslu Makarna"
      },
      {
       "img": "dishes/16b5c22561.jpg",
@@ -33,7 +34,7 @@
       "name": "Ayran"
      }
     ],
-    "kcal": 812
+    "kcal": 767
    },
    "vegetarian": {
     "items": [
@@ -44,16 +45,15 @@
       "name": "Mercimek Çorbası"
      },
      {
-      "img": "dishes/99bc13ed25.jpg",
-      "kcal": 180,
-      "key": "99bc13ed25",
-      "name": "Bamya Yemeği"
+      "kcal": 189,
+      "key": "102286d89e",
+      "name": "Soslu Fırın Sebze"
      },
      {
-      "img": "dishes/2356abfde0.jpg",
-      "kcal": 320,
-      "key": "2356abfde0",
-      "name": "Sebzeli Bulgur Pilavı"
+      "img": "dishes/18ccb4d264.jpg",
+      "kcal": 270,
+      "key": "18ccb4d264",
+      "name": "Soslu Makarna"
      },
      {
       "img": "dishes/16b5c22561.jpg",
@@ -62,136 +62,10 @@
       "name": "Ayran"
      }
     ],
-    "kcal": 657
+    "kcal": 616
    }
   },
-  "2026-10-13": {
-   "lunch": {
-    "items": [
-     {
-      "kcal": 125,
-      "key": "c76c2455e6",
-      "name": "Köy Çorbası"
-     },
-     {
-      "img": "dishes/df8e1e6b52.jpg",
-      "kcal": 385,
-      "key": "df8e1e6b52",
-      "name": "Karnıyarık"
-     },
-     {
-      "img": "dishes/352f128e7a.jpg",
-      "kcal": 335,
-      "key": "352f128e7a",
-      "name": "Etli Patates (Alternatif)"
-     },
-     {
-      "kcal": 230,
-      "key": "8636bfbc0a",
-      "name": "Pirinç Pilavı"
-     },
-     {
-      "img": "dishes/0c3e467fc2.jpg",
-      "kcal": 298,
-      "key": "0c3e467fc2",
-      "name": "Sütlü Nuriye"
-     }
-    ],
-    "kcal": 1038
-   },
-   "vegetarian": {
-    "items": [
-     {
-      "kcal": 125,
-      "key": "c76c2455e6",
-      "name": "Köy Çorbası"
-     },
-     {
-      "img": "dishes/2cb78fe7b6.jpg",
-      "kcal": 300,
-      "key": "2cb78fe7b6",
-      "name": "Patates Yemeği"
-     },
-     {
-      "kcal": 230,
-      "key": "8636bfbc0a",
-      "name": "Pirinç Pilavı"
-     },
-     {
-      "img": "dishes/0c3e467fc2.jpg",
-      "kcal": 298,
-      "key": "0c3e467fc2",
-      "name": "Sütlü Nuriye"
-     }
-    ],
-    "kcal": 953
-   }
-  },
-  "2026-10-14": {
-   "lunch": {
-    "items": [
-     {
-      "img": "dishes/0db619554a.jpg",
-      "kcal": 185,
-      "key": "0db619554a",
-      "name": "Brokoli Çorbası"
-     },
-     {
-      "img": "dishes/85b7944a41.jpg",
-      "kcal": 295,
-      "key": "85b7944a41",
-      "name": "Tas Kebabı"
-     },
-     {
-      "kcal": 385,
-      "key": "7eee0277a6",
-      "name": "Soslu Tavuk Fileto (Alternatif)"
-     },
-     {
-      "img": "dishes/7996503754.jpg",
-      "kcal": 270,
-      "key": "7996503754",
-      "name": "Peynirli Makarna"
-     },
-     {
-      "img": "dishes/ed17271d58.jpg",
-      "kcal": 100,
-      "key": "ed17271d58",
-      "name": "Meyve"
-     }
-    ],
-    "kcal": 850
-   },
-   "vegetarian": {
-    "items": [
-     {
-      "img": "dishes/0db619554a.jpg",
-      "kcal": 120,
-      "key": "0db619554a",
-      "name": "Brokoli Çorbası"
-     },
-     {
-      "kcal": 275,
-      "key": "9256d173ae",
-      "name": "Yeşil Mercimek Yemeği"
-     },
-     {
-      "img": "dishes/7996503754.jpg",
-      "kcal": 270,
-      "key": "7996503754",
-      "name": "Peynirli Makarna"
-     },
-     {
-      "img": "dishes/ed17271d58.jpg",
-      "kcal": 100,
-      "key": "ed17271d58",
-      "name": "Meyve"
-     }
-    ],
-    "kcal": 765
-   }
-  },
-  "2026-10-15": {
+  "2026-10-20": {
    "lunch": {
     "items": [
      {
@@ -201,16 +75,16 @@
       "name": "Tarhana Çorbası"
      },
      {
-      "img": "dishes/c1ece91243.jpg",
-      "kcal": 305,
-      "key": "c1ece91243",
-      "name": "Kuru Köfte Ve Domates, Biber"
+      "img": "dishes/890b8e3990.jpg",
+      "kcal": 285,
+      "key": "890b8e3990",
+      "name": "Etli Nohut"
      },
      {
-      "img": "dishes/cd63e43318.jpg",
-      "kcal": 255,
-      "key": "cd63e43318",
-      "name": "Izgara Köfte Domates Biber (Alternatif)"
+      "img": "dishes/301653a75a.jpg",
+      "kcal": 295,
+      "key": "301653a75a",
+      "name": "Patlıcan Musakka (Alternatif)"
      },
      {
       "kcal": 230,
@@ -218,12 +92,12 @@
       "name": "Pirinç Pilavı"
      },
      {
-      "kcal": 100,
-      "key": "3ddbc111d2",
-      "name": "Limonata"
+      "kcal": 235,
+      "key": "f7edb597fe",
+      "name": "Fındıklı Şekerpare"
      }
     ],
-    "kcal": 745
+    "kcal": 860
    },
    "vegetarian": {
     "items": [
@@ -245,15 +119,81 @@
       "name": "Pirinç Pilavı"
      },
      {
-      "kcal": 100,
-      "key": "3ddbc111d2",
-      "name": "Limonata"
+      "img": "dishes/8eb544916b.jpg",
+      "kcal": 235,
+      "key": "8eb544916b",
+      "name": "Şekerpare Tatlısı"
      }
     ],
-    "kcal": 690
+    "kcal": 825
    }
   },
-  "2026-10-16": {
+  "2026-10-21": {
+   "lunch": {
+    "items": [
+     {
+      "img": "dishes/ba380b9a95.jpg",
+      "kcal": 100,
+      "key": "ba380b9a95",
+      "name": "Sebze çorbası"
+     },
+     {
+      "img": "dishes/d151de6ce3.jpg",
+      "kcal": 345,
+      "key": "d151de6ce3",
+      "name": "Çoban Kavurma"
+     },
+     {
+      "kcal": 300,
+      "key": "b918fc5d48",
+      "name": "Rosto Köfte (Alternatif)"
+     },
+     {
+      "img": "dishes/ac109bce12.jpg",
+      "kcal": 270,
+      "key": "ac109bce12",
+      "name": "Erişte Makarna"
+     },
+     {
+      "img": "dishes/321b4fe3c9.jpg",
+      "kcal": 50,
+      "key": "321b4fe3c9",
+      "name": "Mevsim Salatası"
+     }
+    ],
+    "kcal": 765
+   },
+   "vegetarian": {
+    "items": [
+     {
+      "img": "dishes/ba380b9a95.jpg",
+      "kcal": 100,
+      "key": "ba380b9a95",
+      "name": "Sebze Çorbası"
+     },
+     {
+      "img": "dishes/99a67d4042.jpg",
+      "kcal": 50,
+      "key": "99a67d4042",
+      "name": "Mevsim Salata"
+     },
+     {
+      "img": "dishes/ac109bce12.jpg",
+      "kcal": 270,
+      "key": "ac109bce12",
+      "name": "Erişte Makarna"
+     },
+     {
+      "img": "dishes/99a67d4042.jpg",
+      "kcal": 50,
+      "key": "99a67d4042",
+      "name": "Mevsim Salata"
+     }
+    ],
+    "kcal": 470
+   }
+  },
+  "2026-10-22": {
    "lunch": {
     "items": [
      {
@@ -263,20 +203,20 @@
       "name": "Ezogelin Çorbası"
      },
      {
-      "kcal": 320,
-      "key": "f123b95158",
-      "name": "Tavuk Şinitzel"
+      "img": "dishes/5438925b4c.jpg",
+      "kcal": 285,
+      "key": "5438925b4c",
+      "name": "Etli Barbunya"
      },
      {
-      "kcal": 220,
-      "key": "282931e0b2",
-      "name": "Kıymalı Kabak Sandal (Alternatif)"
-     },
-     {
-      "img": "dishes/18ccb4d264.jpg",
       "kcal": 270,
-      "key": "18ccb4d264",
-      "name": "Soslu Makarna"
+      "key": "5a2fa01c62",
+      "name": "Etli Bezelye (Alternatif)"
+     },
+     {
+      "kcal": 230,
+      "key": "8636bfbc0a",
+      "name": "Pirinç Pilavı"
      },
      {
       "kcal": 245,
@@ -284,7 +224,7 @@
       "name": "Tavukgöğsü Tatlısı"
      }
     ],
-    "kcal": 950
+    "kcal": 875
    },
    "vegetarian": {
     "items": [
@@ -295,15 +235,15 @@
       "name": "Ezogelin Çorbası"
      },
      {
-      "kcal": 277,
-      "key": "4e43df1053",
-      "name": "Fellah Köfte"
+      "img": "dishes/e6a398f38f.jpg",
+      "kcal": 250,
+      "key": "e6a398f38f",
+      "name": "Bezelye Yemeği"
      },
      {
-      "img": "dishes/18ccb4d264.jpg",
-      "kcal": 270,
-      "key": "18ccb4d264",
-      "name": "Soslu Makarna"
+      "kcal": 230,
+      "key": "8636bfbc0a",
+      "name": "Pirinç Pilavı"
      },
      {
       "kcal": 245,
@@ -311,10 +251,73 @@
       "name": "Tavukgöğsü Tatlısı"
      }
     ],
-    "kcal": 907
+    "kcal": 840
+   }
+  },
+  "2026-10-23": {
+   "lunch": {
+    "items": [
+     {
+      "kcal": 130,
+      "key": "0afb69c78d",
+      "name": "Kaşarlı Domates Çorbası"
+     },
+     {
+      "img": "dishes/7e2a438be8.jpg",
+      "kcal": 345,
+      "key": "7e2a438be8",
+      "name": "Tavuk Haşlama"
+     },
+     {
+      "kcal": 345,
+      "key": "9f85215bd0",
+      "name": "Et Sote (Alternatif)"
+     },
+     {
+      "img": "dishes/25b07cf14e.jpg",
+      "kcal": 189,
+      "key": "25b07cf14e",
+      "name": "Bulgur Pilavı"
+     },
+     {
+      "img": "dishes/ed17271d58.jpg",
+      "kcal": 100,
+      "key": "ed17271d58",
+      "name": "Meyve"
+     }
+    ],
+    "kcal": 764
+   },
+   "vegetarian": {
+    "items": [
+     {
+      "kcal": 130,
+      "key": "0afb69c78d",
+      "name": "Kaşarlı Domates Çorbası"
+     },
+     {
+      "img": "dishes/99bc13ed25.jpg",
+      "kcal": 180,
+      "key": "99bc13ed25",
+      "name": "Bamya Yemeği"
+     },
+     {
+      "img": "dishes/25b07cf14e.jpg",
+      "kcal": 189,
+      "key": "25b07cf14e",
+      "name": "Bulgur Pilavı"
+     },
+     {
+      "img": "dishes/ed17271d58.jpg",
+      "kcal": 100,
+      "key": "ed17271d58",
+      "name": "Meyve"
+     }
+    ],
+    "kcal": 599
    }
   }
  },
  "university": "marmara",
- "updated": "2026-10-18T20:38:40+03:00"
+ "updated": "2026-10-19T11:13:55+03:00"
 }

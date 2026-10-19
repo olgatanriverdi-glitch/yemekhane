@@ -9,12 +9,14 @@
   "2026-10-12": "e12d07f13338",
   "2026-10-13": "f6784bbc19c2",
   "2026-10-14": "f74a9d748b67",
-  "2026-10-16": "e2956e24cd10"
+  "2026-10-16": "e2956e24cd10",
+  "2026-10-19": "cf00a176342e"
  },
  "main": {
   "025eacfe0c": "8f579a24b2f7",
   "04aa480c87": "e12d07f13338",
   "211964d15e": "41a246d21c3d",
+  "40082e8861": "cf00a176342e",
   "495c83bde2": "8fef1ef330d1",
   "5de18824bc": "e2956e24cd10",
   "613616e611": "cb1148062900",
@@ -92,6 +94,16 @@
     "Düğürcük Çorba",
     "Köri Soslu Tavuk/Salata",
     "Soslu Makarna",
+    "Ayran"
+   ]
+  },
+  "cf00a176342e": {
+   "added": "2026-10-19",
+   "hash": "7022819b1dc91c8677fb302f5fb793d89ce09f87",
+   "items": [
+    "Şehriye Çorba",
+    "Pilav Üstü Tavuk Döner",
+    "Menekşe Salata",
     "Ayran"
    ]
   },

@@ -81,11 +81,11 @@
   },
   {
    "city": "Ankara",
-   "firstDay": "2026-10-16",
+   "firstDay": "2026-10-17",
    "hours": {
     "breakfast": {
      "approx": false,
-     "t": "08:00–09:15"
+     "t": "09:00–10:00"
     },
     "dinner": {
      "approx": false,
@@ -93,11 +93,11 @@
     },
     "lunch": {
      "approx": false,
-     "t": "11:30–14:00"
+     "t": "12:00–13:30"
     },
     "vegetarian": {
      "approx": false,
-     "t": "11:30–14:00"
+     "t": "12:00–13:30"
     }
    },
    "id": "hacettepe",
@@ -254,7 +254,7 @@
   },
   {
    "city": "Eskişehir",
-   "firstDay": "2026-10-12",
+   "firstDay": "2026-10-19",
    "hours": {
     "dinner": {
      "approx": true,
@@ -299,7 +299,7 @@
   },
   {
    "city": "İstanbul",
-   "firstDay": "2026-10-16",
+   "firstDay": "2026-10-19",
    "hours": {
     "breakfast": {
      "approx": false,
@@ -329,7 +329,7 @@
   },
   {
    "city": "İstanbul",
-   "firstDay": "2026-10-17",
+   "firstDay": "2026-10-18",
    "hours": {
     "dinner": {
      "approx": false,
@@ -387,7 +387,7 @@
   },
   {
    "city": "İstanbul",
-   "firstDay": "2026-10-12",
+   "firstDay": "2026-10-19",
    "hours": {
     "lunch": {
      "approx": true,
@@ -395,7 +395,7 @@
     }
    },
    "id": "marmara",
-   "lastDay": "2026-10-16",
+   "lastDay": "2026-10-23",
    "meals": [
     "lunch",
     "vegetarian"
@@ -503,7 +503,7 @@
     }
    },
    "id": "ikcu",
-   "lastDay": "2026-10-19",
+   "lastDay": "2026-10-20",
    "meals": [
     "lunch",
     "vegetarian"
@@ -600,7 +600,7 @@
     }
    },
    "id": "atauni",
-   "lastDay": "2026-10-19",
+   "lastDay": "2026-10-20",
    "meals": [
     "lunch"
    ],
@@ -807,6 +807,6 @@
    "source": "https://www.gaziantep.edu.tr/yemek/"
   }
  ],
- "updated": "2026-10-18T20:38:40+03:00",
+ "updated": "2026-10-19T11:13:55+03:00",
  "version": 1
 }

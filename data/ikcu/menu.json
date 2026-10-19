@@ -519,8 +519,48 @@
      }
     ]
    }
+  },
+  "2026-10-20": {
+   "lunch": {
+    "items": [
+     {
+      "img": "dishes/22dd093862.jpg",
+      "key": "22dd093862",
+      "name": "Mercimek Çorba"
+     },
+     {
+      "key": "940a08a203",
+      "name": "Köri Soslu Tavuk"
+     },
+     {
+      "key": "8b893412cf",
+      "name": "Soslu Spagetti Meyve"
+     }
+    ]
+   },
+   "vegetarian": {
+    "items": [
+     {
+      "img": "dishes/22dd093862.jpg",
+      "key": "22dd093862",
+      "name": "Mercimek Çorba"
+     },
+     {
+      "key": "f22675b051",
+      "name": "Patates Graten"
+     },
+     {
+      "key": "8b893412cf",
+      "name": "Soslu Spagetti Meyve"
+     },
+     {
+      "key": "0f546cf295",
+      "name": "Biber Tarator"
+     }
+    ]
+   }
   }
  },
  "university": "ikcu",
- "updated": "2026-10-18T20:38:40+03:00"
+ "updated": "2026-10-19T11:13:55+03:00"
 }

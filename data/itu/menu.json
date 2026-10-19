@@ -1,63 +1,5 @@
 {
  "days": {
-  "2026-10-17": {
-   "dinner": {
-    "items": [
-     {
-      "img": "dishes/64ee8e0b3b.jpg",
-      "key": "64ee8e0b3b",
-      "name": "Düğün Çorbası"
-     },
-     {
-      "img": "dishes/5438925b4c.jpg",
-      "key": "5438925b4c",
-      "name": "Etli Barbunya"
-     },
-     {
-      "img": "dishes/25b07cf14e.jpg",
-      "key": "25b07cf14e",
-      "name": "Bulgur Pilavı"
-     },
-     {
-      "img": "dishes/ed47fcacda.jpg",
-      "key": "ed47fcacda",
-      "name": "Pembe Sultan"
-     },
-     {
-      "img": "dishes/3a38c0aebb.jpg",
-      "key": "3a38c0aebb",
-      "name": "Sütlaç"
-     }
-    ]
-   },
-   "lunch": {
-    "items": [
-     {
-      "key": "45b97d7ca7",
-      "name": "Yoğurtlu Buğday Çorbası"
-     },
-     {
-      "img": "dishes/575b59d6b6.jpg",
-      "key": "575b59d6b6",
-      "name": "Şehriyeli Güveç"
-     },
-     {
-      "img": "dishes/7637343502.jpg",
-      "key": "7637343502",
-      "name": "Zeytinyağlı Kereviz"
-     },
-     {
-      "key": "74b8be1351",
-      "name": "Yeşil Mercimek Salatası"
-     },
-     {
-      "img": "dishes/c195b508e6.jpg",
-      "key": "c195b508e6",
-      "name": "Erik"
-     }
-    ]
-   }
-  },
   "2026-10-18": {
    "dinner": {
     "items": [
@@ -950,5 +892,5 @@
   }
  },
  "university": "itu",
- "updated": "2026-10-18T20:38:40+03:00"
+ "updated": "2026-10-19T11:13:55+03:00"
 }
