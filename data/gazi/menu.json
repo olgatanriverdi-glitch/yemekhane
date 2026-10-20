@@ -473,6 +473,7 @@
       "name": "Domates Çorba"
      },
      {
+      "img": "dishes/fec7c66b50.jpg",
       "key": "fec7c66b50",
       "name": "Etsiz Patates"
      },
@@ -572,8 +573,9 @@
       "name": "Şehriye Çorba"
      },
      {
-      "key": "ecc20399ad",
-      "name": "Etsiz Karnabahar"
+      "img": "dishes/71363e5348.jpg",
+      "key": "71363e5348",
+      "name": "Etsiz Kabak"
      },
      {
       "img": "dishes/86493234ae.jpg",
@@ -718,8 +720,8 @@
       "name": "Mercimek Çorba"
      },
      {
-      "key": "bf461214db",
-      "name": "Etsiz Mevsim Türlü"
+      "key": "ecc20399ad",
+      "name": "Etsiz Karnabahar"
      },
      {
       "img": "dishes/7996503754.jpg",
@@ -894,5 +896,5 @@
   }
  },
  "university": "gazi",
- "updated": "2026-10-19T18:59:22+03:00"
+ "updated": "2026-10-20T11:00:12+03:00"
 }

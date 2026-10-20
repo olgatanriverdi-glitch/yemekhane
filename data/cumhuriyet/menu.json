@@ -322,9 +322,9 @@
       "name": "Yoğurtlu Dövme Çorba"
      },
      {
-      "img": "dishes/31f4cae590.jpg",
-      "key": "31f4cae590",
-      "name": "Etli Sebzeli Kebap"
+      "img": "dishes/1d61a72d2c.jpg",
+      "key": "1d61a72d2c",
+      "name": "Kadınbudu Köfte"
      },
      {
       "img": "dishes/40440fb845.jpg",
@@ -499,5 +499,5 @@
   }
  },
  "university": "cumhuriyet",
- "updated": "2026-10-19T18:59:22+03:00"
+ "updated": "2026-10-20T11:00:12+03:00"
 }

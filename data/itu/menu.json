@@ -1,59 +1,5 @@
 {
  "days": {
-  "2026-10-18": {
-   "dinner": {
-    "items": [
-     {
-      "key": "67b08c663c",
-      "name": "Kremalı Ispanak Çorbası"
-     },
-     {
-      "key": "2f47dfc743",
-      "name": "Sebzeli Piliç Kebap"
-     },
-     {
-      "key": "8636bfbc0a",
-      "name": "Pirinç Pilavı"
-     },
-     {
-      "key": "d14bc2ed6a",
-      "name": "Akdeniz Salatası"
-     },
-     {
-      "img": "dishes/a3d80c5897.jpg",
-      "key": "a3d80c5897",
-      "name": "Armut"
-     }
-    ]
-   },
-   "lunch": {
-    "items": [
-     {
-      "key": "a4976547e4",
-      "name": "Erzincan Çorbası"
-     },
-     {
-      "img": "dishes/1d49307d95.jpg",
-      "key": "1d49307d95",
-      "name": "Patates Oturtma"
-     },
-     {
-      "key": "0fddc05415",
-      "name": "Kabak Tarator"
-     },
-     {
-      "img": "dishes/aa2426d85c.jpg",
-      "key": "aa2426d85c",
-      "name": "Mozaik Pasta"
-     },
-     {
-      "img": "dishes/c3352ed568.jpg",
-      "key": "c3352ed568",
-      "name": "Kısır"
-     }
-    ]
-   }
-  },
   "2026-10-19": {
    "dinner": {
     "items": [
@@ -130,8 +76,9 @@
       "name": "Patlıcan Musakka"
      },
      {
-      "key": "57d2d2d906",
-      "name": "Mısırlı Pirinç Pilavı"
+      "img": "dishes/25b07cf14e.jpg",
+      "key": "25b07cf14e",
+      "name": "Bulgur Pilavı"
      },
      {
       "img": "dishes/2f58be7b7a.jpg",
@@ -191,9 +138,8 @@
       "name": "Etli Nohut"
      },
      {
-      "img": "dishes/25b07cf14e.jpg",
-      "key": "25b07cf14e",
-      "name": "Bulgur Pilavı"
+      "key": "8636bfbc0a",
+      "name": "Pirinç Pilavı"
      },
      {
       "img": "dishes/972686fca7.jpg",
@@ -892,5 +838,5 @@
   }
  },
  "university": "itu",
- "updated": "2026-10-19T18:59:22+03:00"
+ "updated": "2026-10-20T11:00:12+03:00"
 }

@@ -910,7 +910,8 @@
       "name": "Trileçe"
      }
     ],
-    "kcal": 1570
+    "kcal": 1570,
+    "photo": "photos/lib/5b1b2aea2001.jpg"
    },
    "vegetarian": {
     "items": [
@@ -1459,5 +1460,5 @@
   }
  },
  "university": "ankara",
- "updated": "2026-10-19T18:59:22+03:00"
+ "updated": "2026-10-20T11:00:12+03:00"
 }

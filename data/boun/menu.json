@@ -2974,6 +2974,40 @@
    "dinner": {
     "items": [
      {
+      "img": "dishes/d61d397136.jpg",
+      "key": "d61d397136",
+      "name": "Süzme Mercimek Çorba"
+     },
+     {
+      "key": "f464b3d103",
+      "name": "Etli Mantar Sote"
+     },
+     {
+      "key": "f03644afc2",
+      "name": "Melek Pilavı"
+     },
+     {
+      "img": "dishes/abad8aab8e.jpg",
+      "key": "abad8aab8e",
+      "name": "Napoliten Soslu Makarna"
+     },
+     {
+      "key": "ce072af2f7",
+      "name": "Portakallı Gazoz"
+     },
+     {
+      "key": "bce2805a8b",
+      "name": "Nohut Salatası"
+     },
+     {
+      "key": "52c7d1392a",
+      "name": "Ballı Balım Tatlısı"
+     }
+    ]
+   },
+   "lunch": {
+    "items": [
+     {
       "img": "dishes/2c0e163a7d.jpg",
       "key": "2c0e163a7d",
       "name": "Tarhana Çorba"
@@ -3008,71 +3042,40 @@
      }
     ]
    },
-   "lunch": {
-    "items": [
-     {
-      "img": "dishes/d61d397136.jpg",
-      "key": "d61d397136",
-      "name": "Süzme Mercimek Çorba"
-     },
-     {
-      "key": "f464b3d103",
-      "name": "Etli Mantar Sote"
-     },
-     {
-      "key": "f03644afc2",
-      "name": "Melek Pilavı"
-     },
-     {
-      "img": "dishes/abad8aab8e.jpg",
-      "key": "abad8aab8e",
-      "name": "Napoliten Soslu Makarna"
-     },
-     {
-      "key": "ce072af2f7",
-      "name": "Portakallı Gazoz"
-     },
-     {
-      "key": "bce2805a8b",
-      "name": "Nohut Salatası"
-     },
-     {
-      "key": "52c7d1392a",
-      "name": "Ballı Balım Tatlısı"
-     }
-    ]
-   },
    "vegetarian": {
     "items": [
      {
-      "img": "dishes/d61d397136.jpg",
-      "key": "d61d397136",
-      "name": "Süzme Mercimek Çorba"
+      "img": "dishes/2c0e163a7d.jpg",
+      "key": "2c0e163a7d",
+      "name": "Tarhana Çorba"
      },
      {
-      "key": "1a817ec3d4",
-      "name": "Mantar Sote"
+      "img": "dishes/a87b97551a.jpg",
+      "key": "a87b97551a",
+      "name": "Mercimek Yemeği"
      },
      {
-      "key": "f03644afc2",
-      "name": "Melek Pilavı"
+      "key": "8636bfbc0a",
+      "name": "Pirinç Pilavı"
      },
      {
-      "img": "dishes/abad8aab8e.jpg",
-      "key": "abad8aab8e",
-      "name": "Napoliten Soslu Makarna"
+      "img": "dishes/2356abfde0.jpg",
+      "key": "2356abfde0",
+      "name": "Sebzeli Bulgur Pilavı"
      },
      {
-      "key": "ce072af2f7",
-      "name": "Portakallı Gazoz"
+      "img": "dishes/2be1b1ba72.jpg",
+      "key": "2be1b1ba72",
+      "name": "Kola"
      },
      {
-      "key": "bce2805a8b",
-      "name": "Nohut Salatası"
+      "img": "dishes/ec0228f614.jpg",
+      "key": "ec0228f614",
+      "name": "Turşu"
      },
      {
-      "key": "52c7d1392a",
-      "name": "Ballı Balım Tatlısı"
+      "key": "ca69e8b904",
+      "name": "Fındıklı Supangle"
      }
     ]
    }
@@ -3334,5 +3337,5 @@
   }
  },
  "university": "boun",
- "updated": "2026-10-19T18:59:22+03:00"
+ "updated": "2026-10-20T11:00:12+03:00"
 }

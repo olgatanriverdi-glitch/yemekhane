@@ -673,13 +673,14 @@
       "name": "Yeşil Salata"
      },
      {
-      "img": "dishes/dc944fba4f.jpg",
-      "key": "dc944fba4f",
-      "name": "Kazandibi"
-     },
-     {
       "key": "3a7591c4a9",
       "name": "Zy'Lı Patlıcan"
+     },
+     {
+      "img": "dishes/3a38c0aebb.jpg",
+      "kcal": 266,
+      "key": "3a38c0aebb",
+      "name": "Sütlaç"
      }
     ]
    }
@@ -979,5 +980,5 @@
   }
  },
  "university": "pamukkale",
- "updated": "2026-10-19T18:59:22+03:00"
+ "updated": "2026-10-20T11:00:12+03:00"
 }

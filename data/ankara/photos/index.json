@@ -10,7 +10,8 @@
   "2026-10-13": "f6784bbc19c2",
   "2026-10-14": "f74a9d748b67",
   "2026-10-16": "e2956e24cd10",
-  "2026-10-19": "cf00a176342e"
+  "2026-10-19": "cf00a176342e",
+  "2026-10-20": "5b1b2aea2001"
  },
  "main": {
   "025eacfe0c": "8f579a24b2f7",
@@ -24,7 +25,8 @@
   "b7f7a0ca2b": "78be4bc465a4",
   "de62be9b48": "164fe8b5ccd4",
   "f029cd24e9": "f6784bbc19c2",
-  "fbb76e65c4": "f74a9d748b67"
+  "fbb76e65c4": "f74a9d748b67",
+  "ff8bf920a9": "5b1b2aea2001"
  },
  "menus": {
   "164fe8b5ccd4": {
@@ -45,6 +47,16 @@
     "Izgara Tavuk But/Patates Garnitür",
     "Soslu Makarna",
     "Meyve"
+   ]
+  },
+  "5b1b2aea2001": {
+   "added": "2026-10-20",
+   "hash": "3ada990dbfc672b01dd1e5921a1bf7197b0ddd65",
+   "items": [
+    "Köylüm Çorba",
+    "Kırkağaç Köfte",
+    "Soslu Spagetti",
+    "Trileçe"
    ]
   },
   "78be4bc465a4": {

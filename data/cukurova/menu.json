@@ -147,41 +147,6 @@
     "kcal": 726
    }
   },
-  "2026-10-19": {
-   "lunch": {
-    "items": [
-     {
-      "img": "dishes/6e704b8a1b.jpg",
-      "kcal": 460,
-      "key": "6e704b8a1b",
-      "name": "Sini Köfte"
-     },
-     {
-      "img": "dishes/94e7a0bac9.jpg",
-      "kcal": 444,
-      "key": "94e7a0bac9",
-      "name": "Patates Tava (Etsiz)"
-     },
-     {
-      "kcal": 341,
-      "key": "c9bf7aa111",
-      "name": "Meyhane Pilavı"
-     },
-     {
-      "img": "dishes/16b5c22561.jpg",
-      "kcal": 60,
-      "key": "16b5c22561",
-      "name": "Ayran"
-     },
-     {
-      "kcal": 105,
-      "key": "1268937c0d",
-      "name": "Havuç Salata"
-     }
-    ],
-    "kcal": 1410
-   }
-  },
   "2026-10-20": {
    "lunch": {
     "items": [
@@ -189,6 +154,11 @@
       "kcal": 620,
       "key": "f195f469a4",
       "name": "Fırın But Izgara"
+     },
+     {
+      "kcal": 184,
+      "key": "a67824c6a6",
+      "name": "Karnabahar Kızartma"
      },
      {
       "kcal": 310,
@@ -208,7 +178,7 @@
       "name": "Meyve (Armut)"
      }
     ],
-    "kcal": 1078
+    "kcal": 1262
    }
   },
   "2026-10-21": {
@@ -392,5 +362,5 @@
   }
  },
  "university": "cukurova",
- "updated": "2026-10-19T18:59:22+03:00"
+ "updated": "2026-10-20T11:00:12+03:00"
 }

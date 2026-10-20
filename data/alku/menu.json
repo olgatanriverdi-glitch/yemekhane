@@ -295,8 +295,125 @@
     ],
     "kcal": 1085
    }
+  },
+  "2026-10-20": {
+   "lunch": {
+    "items": [
+     {
+      "img": "dishes/0955218757.jpg",
+      "kcal": 166,
+      "key": "0955218757",
+      "name": "Mercimek Çorbası"
+     },
+     {
+      "kcal": 415,
+      "key": "dacaddbd00",
+      "name": "Ekmek Arası Tavuk Tantuni-Biber Turşusu"
+     },
+     {
+      "img": "dishes/d6b2b596ba.jpg",
+      "kcal": 312,
+      "key": "d6b2b596ba",
+      "name": "Lokma Tatlı"
+     },
+     {
+      "img": "dishes/16b5c22561.jpg",
+      "kcal": 74,
+      "key": "16b5c22561",
+      "name": "Ayran"
+     }
+    ],
+    "kcal": 967
+   }
+  },
+  "2026-10-21": {
+   "lunch": {
+    "items": [
+     {
+      "img": "dishes/5d3038c41b.jpg",
+      "kcal": 162,
+      "key": "5d3038c41b",
+      "name": "Yayla Çorbası"
+     },
+     {
+      "kcal": 240,
+      "key": "0e987c96cc",
+      "name": "Arap Tava"
+     },
+     {
+      "img": "dishes/25b07cf14e.jpg",
+      "kcal": 263,
+      "key": "25b07cf14e",
+      "name": "Bulgur Pilavı"
+     },
+     {
+      "kcal": 233,
+      "key": "1d44a2ec2c",
+      "name": "Muhallebi"
+     }
+    ],
+    "kcal": 898
+   }
+  },
+  "2026-10-22": {
+   "lunch": {
+    "items": [
+     {
+      "img": "dishes/4fb733faf2.jpg",
+      "kcal": 269,
+      "key": "4fb733faf2",
+      "name": "Ezogelin Çorbası"
+     },
+     {
+      "img": "dishes/0428d021a9.jpg",
+      "kcal": 313,
+      "key": "0428d021a9",
+      "name": "Hamburger"
+     },
+     {
+      "kcal": 200,
+      "key": "2912b07189",
+      "name": "Fırında Patates"
+     },
+     {
+      "kcal": 42,
+      "key": "f8275a5831",
+      "name": "İçecek"
+     }
+    ],
+    "kcal": 824
+   }
+  },
+  "2026-10-23": {
+   "lunch": {
+    "items": [
+     {
+      "kcal": 188,
+      "key": "ee75ab01ff",
+      "name": "Köylü Çorbası"
+     },
+     {
+      "kcal": 326,
+      "key": "b52e6853c1",
+      "name": "Kremalı Sebzeli Tavuk"
+     },
+     {
+      "img": "dishes/18ccb4d264.jpg",
+      "kcal": 265,
+      "key": "18ccb4d264",
+      "name": "Soslu Makarna"
+     },
+     {
+      "img": "dishes/ed17271d58.jpg",
+      "kcal": 75,
+      "key": "ed17271d58",
+      "name": "Meyve"
+     }
+    ],
+    "kcal": 854
+   }
   }
  },
  "university": "alku",
- "updated": "2026-10-16T21:30:21+03:00"
+ "updated": "2026-10-20T11:00:12+03:00"
 }
