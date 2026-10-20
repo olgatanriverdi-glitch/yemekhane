@@ -634,8 +634,9 @@
       "name": "Etsiz Pirinçli Ispanak (Merkez Yemekhanede)"
      },
      {
-      "key": "30132f9261",
-      "name": "Soya Soslu Tavuk Kavurma (Püre)"
+      "kcal": 285,
+      "key": "7790d02ea8",
+      "name": "Köri Soslu Tavuk Kavurma"
      },
      {
       "kcal": 336,
@@ -879,5 +880,5 @@
   }
  },
  "university": "sakarya",
- "updated": "2026-10-20T11:00:12+03:00"
+ "updated": "2026-10-20T16:57:06+03:00"
 }

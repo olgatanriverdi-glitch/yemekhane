@@ -265,10 +265,10 @@
       "name": "Tavuklu Şehriye Çorba"
      },
      {
-      "img": "dishes/75ed06864b.jpg",
+      "img": "dishes/95160c45d6.jpg",
       "kcal": 295,
-      "key": "75ed06864b",
-      "name": "Etli Biber Dolma"
+      "key": "95160c45d6",
+      "name": "Etli Kabak Dolma"
      },
      {
       "img": "dishes/2f47d03cf0.jpg",
@@ -293,10 +293,10 @@
       "name": "Tavuklu Şehriye Çorba"
      },
      {
-      "img": "dishes/75ed06864b.jpg",
+      "img": "dishes/95160c45d6.jpg",
       "kcal": 295,
-      "key": "75ed06864b",
-      "name": "Etli Biber Dolma"
+      "key": "95160c45d6",
+      "name": "Etli Kabak Dolma"
      },
      {
       "img": "dishes/2f47d03cf0.jpg",
@@ -321,10 +321,10 @@
       "name": "Domates Çorba"
      },
      {
-      "img": "dishes/e005889ac8.jpg",
-      "kcal": 205,
-      "key": "e005889ac8",
-      "name": "Etsiz Biber Dolma"
+      "img": "dishes/9f6b9d8ec6.jpg",
+      "kcal": 160,
+      "key": "9f6b9d8ec6",
+      "name": "Etsiz Kabak Dolma"
      },
      {
       "img": "dishes/2f47d03cf0.jpg",
@@ -338,7 +338,7 @@
       "name": "Karışık Meyve Komposto"
      }
     ],
-    "kcal": 657
+    "kcal": 612
    }
   },
   "2026-10-23": {
@@ -697,5 +697,5 @@
   }
  },
  "university": "esogu",
- "updated": "2026-10-20T11:00:12+03:00"
+ "updated": "2026-10-20T16:57:06+03:00"
 }

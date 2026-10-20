@@ -233,13 +233,13 @@
       "name": "Ayran"
      },
      {
-      "img": "dishes/cfca59afeb.jpg",
-      "kcal": 215,
-      "key": "cfca59afeb",
-      "name": "Puding"
+      "img": "dishes/1d44a2ec2c.jpg",
+      "kcal": 240,
+      "key": "1d44a2ec2c",
+      "name": "Muhallebi"
      }
     ],
-    "kcal": 1043
+    "kcal": 1068
    }
   },
   "2026-10-23": {
@@ -362,5 +362,5 @@
   }
  },
  "university": "cukurova",
- "updated": "2026-10-20T11:00:12+03:00"
+ "updated": "2026-10-20T16:57:06+03:00"
 }

@@ -462,7 +462,7 @@
     }
    },
    "id": "ege",
-   "lastDay": "2026-10-31",
+   "lastDay": "2026-11-30",
    "meals": [
     "dinner",
     "lunch",
@@ -807,6 +807,6 @@
    "source": "https://www.gaziantep.edu.tr/yemek/"
   }
  ],
- "updated": "2026-10-20T11:00:12+03:00",
+ "updated": "2026-10-20T16:57:06+03:00",
  "version": 1
 }

@@ -347,6 +347,7 @@
       "name": "Bulgur Pilavı"
      },
      {
+      "img": "dishes/1d44a2ec2c.jpg",
       "kcal": 233,
       "key": "1d44a2ec2c",
       "name": "Muhallebi"
@@ -415,5 +416,5 @@
   }
  },
  "university": "alku",
- "updated": "2026-10-20T11:00:12+03:00"
+ "updated": "2026-10-20T16:57:06+03:00"
 }
