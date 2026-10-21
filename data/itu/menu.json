@@ -369,8 +369,8 @@
       "name": "Mahluta Çorbası"
      },
      {
-      "key": "63eb4c61a8",
-      "name": "Çıtır Tavuk"
+      "key": "4d0676c683",
+      "name": "Fırın Köfte"
      },
      {
       "img": "dishes/f7b4cf4bd7.jpg",
@@ -386,8 +386,9 @@
       "name": "Havuçlu Kereviz"
      },
      {
-      "key": "124297d670",
-      "name": "Garnitür Patates Kızartması"
+      "img": "dishes/65dfdea3d4.jpg",
+      "key": "65dfdea3d4",
+      "name": "Garnitür Patates Püresi"
      }
     ]
    },
@@ -776,5 +777,5 @@
   }
  },
  "university": "itu",
- "updated": "2026-10-21T11:05:16+03:00"
+ "updated": "2026-10-21T17:13:14+03:00"
 }
