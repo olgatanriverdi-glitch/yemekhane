@@ -1156,10 +1156,6 @@
       "name": "Kremalı Mantar Çorba"
      },
      {
-      "key": "c50f221702",
-      "name": "Sebzeli Kuru Börülce"
-     },
-     {
       "key": "8ac31fd6b6",
       "name": "Zeytinyağlı Türlü"
      },
@@ -1174,6 +1170,10 @@
      {
       "key": "8c9922a2f8",
       "name": "Havuçlu Cevizli Kek"
+     },
+     {
+      "key": "4ae54410e9",
+      "name": "Kuru Börülce Salatası"
      }
     ]
    }
@@ -1651,5 +1651,5 @@
   }
  },
  "university": "uludag",
- "updated": "2026-10-20T21:48:58+03:00"
+ "updated": "2026-10-21T11:05:16+03:00"
 }

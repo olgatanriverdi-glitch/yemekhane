@@ -986,7 +986,8 @@
       "name": "Mısırlı Aysberg Salata"
      }
     ],
-    "kcal": 1149
+    "kcal": 1149,
+    "photo": "photos/lib/3d079491ea57.jpg"
    },
    "vegetarian": {
     "items": [
@@ -1460,5 +1461,5 @@
   }
  },
  "university": "ankara",
- "updated": "2026-10-20T21:48:58+03:00"
+ "updated": "2026-10-21T11:05:16+03:00"
 }

@@ -943,8 +943,113 @@
      }
     ]
    }
+  },
+  "2026-11-02": {
+   "breakfast": {
+    "items": [
+     {
+      "img": "dishes/22605468a2.jpg",
+      "key": "22605468a2",
+      "name": "Çay"
+     },
+     {
+      "key": "f7b84ad85a",
+      "name": "Meyve Suyu"
+     },
+     {
+      "img": "dishes/bff26db9ff.jpg",
+      "key": "bff26db9ff",
+      "name": "Süt"
+     },
+     {
+      "key": "bd44353672",
+      "name": "Bal-Tereyağı"
+     },
+     {
+      "key": "76c48c2a89",
+      "name": "Çeçil Peynir"
+     },
+     {
+      "img": "dishes/3375659158.jpg",
+      "key": "3375659158",
+      "name": "Patatesli Tepsi Böreği"
+     },
+     {
+      "key": "9e8512d0f7",
+      "name": "Siyah Zeytin"
+     }
+    ]
+   },
+   "dinner": {
+    "items": [
+     {
+      "img": "dishes/0955218757.jpg",
+      "key": "0955218757",
+      "name": "Mercimek Çorbası"
+     },
+     {
+      "img": "dishes/ea761be2c2.jpg",
+      "key": "ea761be2c2",
+      "name": "Tereyağlı Kuru Fasulye"
+     },
+     {
+      "key": "8636bfbc0a",
+      "name": "Pirinç Pilavı"
+     },
+     {
+      "img": "dishes/2f58be7b7a.jpg",
+      "key": "2f58be7b7a",
+      "name": "Cacık"
+     }
+    ]
+   },
+   "lunch": {
+    "items": [
+     {
+      "img": "dishes/0955218757.jpg",
+      "key": "0955218757",
+      "name": "Mercimek Çorbası"
+     },
+     {
+      "img": "dishes/ea761be2c2.jpg",
+      "key": "ea761be2c2",
+      "name": "Tereyağlı Kuru Fasulye"
+     },
+     {
+      "key": "8636bfbc0a",
+      "name": "Pirinç Pilavı"
+     },
+     {
+      "img": "dishes/2f58be7b7a.jpg",
+      "key": "2f58be7b7a",
+      "name": "Cacık"
+     }
+    ]
+   },
+   "vegetarian": {
+    "items": [
+     {
+      "img": "dishes/0955218757.jpg",
+      "key": "0955218757",
+      "name": "Mercimek Çorbası"
+     },
+     {
+      "img": "dishes/6a4adcf24e.jpg",
+      "key": "6a4adcf24e",
+      "name": "Etsiz Kuru Fasulye"
+     },
+     {
+      "key": "8636bfbc0a",
+      "name": "Pirinç Pilavı"
+     },
+     {
+      "key": "3ddbc111d2",
+      "name": "Limonata"
+     }
+    ]
+   }
   }
  },
  "university": "iu",
- "updated": "2026-10-20T21:48:58+03:00"
+ "updated": "2026-10-21T11:05:16+03:00"
 }

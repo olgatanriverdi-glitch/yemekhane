@@ -11,7 +11,8 @@
   "2026-10-14": "f74a9d748b67",
   "2026-10-16": "e2956e24cd10",
   "2026-10-19": "cf00a176342e",
-  "2026-10-20": "5b1b2aea2001"
+  "2026-10-20": "5b1b2aea2001",
+  "2026-10-21": "3d079491ea57"
  },
  "main": {
   "025eacfe0c": "8f579a24b2f7",
@@ -22,6 +23,7 @@
   "5de18824bc": "e2956e24cd10",
   "613616e611": "cb1148062900",
   "91d34270c6": "942c5a76c502",
+  "9bd36390ba": "3d079491ea57",
   "b7f7a0ca2b": "78be4bc465a4",
   "de62be9b48": "164fe8b5ccd4",
   "f029cd24e9": "f6784bbc19c2",
@@ -37,6 +39,16 @@
     "Ispanak Yatağında Izgara Tavuk",
     "Mısırlı Pirinç Pilavı",
     "Trileçe"
+   ]
+  },
+  "3d079491ea57": {
+   "added": "2026-10-21",
+   "hash": "2866529621aed1d243fe52466e61aaab8b3c25ee",
+   "items": [
+    "Mantar Çorba",
+    "Tavuk Fajita",
+    "Şehriyeli Pirinç Pilavı",
+    "Mısırlı Aysberg Salata"
    ]
   },
   "41a246d21c3d": {

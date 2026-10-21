@@ -328,8 +328,33 @@
      }
     ]
    }
+  },
+  "2026-10-22": {
+   "lunch": {
+    "items": [
+     {
+      "img": "dishes/41393d3b18.jpg",
+      "key": "41393d3b18",
+      "name": "Kremalı Mantar Çorba"
+     },
+     {
+      "key": "6bf903ef85",
+      "name": "Fırında Patates Oturtma"
+     },
+     {
+      "img": "dishes/c1cd803af6.jpg",
+      "key": "c1cd803af6",
+      "name": "Acılı Bulgur Pilavı"
+     },
+     {
+      "img": "dishes/2f58be7b7a.jpg",
+      "key": "2f58be7b7a",
+      "name": "Cacık"
+     }
+    ]
+   }
   }
  },
  "university": "atauni",
- "updated": "2026-10-20T21:48:58+03:00"
+ "updated": "2026-10-21T11:05:16+03:00"
 }

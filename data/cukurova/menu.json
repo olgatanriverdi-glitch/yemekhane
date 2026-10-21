@@ -147,40 +147,6 @@
     "kcal": 726
    }
   },
-  "2026-10-20": {
-   "lunch": {
-    "items": [
-     {
-      "kcal": 620,
-      "key": "f195f469a4",
-      "name": "Fırın But Izgara"
-     },
-     {
-      "kcal": 184,
-      "key": "a67824c6a6",
-      "name": "Karnabahar Kızartma"
-     },
-     {
-      "kcal": 310,
-      "key": "fc234c58bc",
-      "name": "Tel Şehriyeli Pirinç Pilavı"
-     },
-     {
-      "img": "dishes/2610f75ca2.jpg",
-      "kcal": 20,
-      "key": "2610f75ca2",
-      "name": "Şalgam"
-     },
-     {
-      "img": "dishes/fbaf022539.jpg",
-      "kcal": 128,
-      "key": "fbaf022539",
-      "name": "Meyve (Armut)"
-     }
-    ],
-    "kcal": 1262
-   }
-  },
   "2026-10-21": {
    "lunch": {
     "items": [
@@ -189,6 +155,12 @@
       "kcal": 340,
       "key": "fbb76e65c4",
       "name": "Etli Kuru Fasulye"
+     },
+     {
+      "img": "dishes/efb86b31df.jpg",
+      "kcal": 267,
+      "key": "efb86b31df",
+      "name": "Kuru Fasülye (Etsiz)"
      },
      {
       "img": "dishes/22402adbde.jpg",
@@ -209,7 +181,7 @@
       "name": "Meyve (Elma)"
      }
     ],
-    "kcal": 931
+    "kcal": 1198
    }
   },
   "2026-10-22": {
@@ -362,5 +334,5 @@
   }
  },
  "university": "cukurova",
- "updated": "2026-10-20T21:48:58+03:00"
+ "updated": "2026-10-21T11:05:16+03:00"
 }

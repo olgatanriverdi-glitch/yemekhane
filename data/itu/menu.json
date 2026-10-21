@@ -1,67 +1,5 @@
 {
  "days": {
-  "2026-10-19": {
-   "dinner": {
-    "items": [
-     {
-      "img": "dishes/4fb733faf2.jpg",
-      "key": "4fb733faf2",
-      "name": "Ezogelin Çorbası"
-     },
-     {
-      "key": "aea7ea71cd",
-      "name": "Rosto Köfte"
-     },
-     {
-      "img": "dishes/233687b1eb.jpg",
-      "key": "233687b1eb",
-      "name": "Mantarlı Makarna"
-     },
-     {
-      "img": "dishes/5b7bbc3ecc.jpg",
-      "key": "5b7bbc3ecc",
-      "name": "Portakal"
-     },
-     {
-      "key": "de84c155eb",
-      "name": "Rus Salatası"
-     },
-     {
-      "img": "dishes/65dfdea3d4.jpg",
-      "key": "65dfdea3d4",
-      "name": "Garnitür Patates Püresi"
-     }
-    ]
-   },
-   "lunch": {
-    "items": [
-     {
-      "key": "fce91b9059",
-      "name": "Alaca Çorbası"
-     },
-     {
-      "img": "dishes/fe966f7485.jpg",
-      "key": "fe966f7485",
-      "name": "Kıymalı Ispanak"
-     },
-     {
-      "img": "dishes/f296c2badf.jpg",
-      "key": "f296c2badf",
-      "name": "Patatesli Gül Böreği"
-     },
-     {
-      "img": "dishes/9c8d655ef5.jpg",
-      "key": "9c8d655ef5",
-      "name": "Yoğurt"
-     },
-     {
-      "img": "dishes/98ddf53138.jpg",
-      "key": "98ddf53138",
-      "name": "Fındıklı İrmik Helvası"
-     }
-    ]
-   }
-  },
   "2026-10-20": {
    "dinner": {
     "items": [
@@ -838,5 +776,5 @@
   }
  },
  "university": "itu",
- "updated": "2026-10-20T21:48:58+03:00"
+ "updated": "2026-10-21T11:05:16+03:00"
 }
