@@ -659,6 +659,7 @@
       "name": "Şehriyeli Bulgur Pilavı"
      },
      {
+      "img": "dishes/5e8dbc82ef.jpg",
       "kcal": 451,
       "key": "5e8dbc82ef",
       "name": "Saray Sarması"
@@ -1165,5 +1166,5 @@
   }
  },
  "university": "ktu",
- "updated": "2026-10-21T22:01:36+03:00"
+ "updated": "2026-10-22T11:04:17+03:00"
 }

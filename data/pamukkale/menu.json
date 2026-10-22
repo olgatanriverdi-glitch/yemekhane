@@ -819,11 +819,6 @@
       "name": "Tarhana Çorbası"
      },
      {
-      "kcal": 250,
-      "key": "8636bfbc0a",
-      "name": "Pirinç Pilavı"
-     },
-     {
       "img": "dishes/727ce256ef.jpg",
       "kcal": 316,
       "key": "727ce256ef",
@@ -834,17 +829,6 @@
       "kcal": 180,
       "key": "cd4fbb0aa2",
       "name": "Menemen"
-     },
-     {
-      "img": "dishes/98c92cbbd4.jpg",
-      "kcal": 1,
-      "key": "98c92cbbd4",
-      "name": "Makarna Salata"
-     },
-     {
-      "kcal": 115,
-      "key": "ab71f67fd4",
-      "name": "Ekşili Mantar"
      },
      {
       "img": "dishes/712effcf50.jpg",
@@ -874,9 +858,25 @@
       "kcal": 340,
       "key": "3acf2087fe",
       "name": "Kabak Tatlısı"
+     },
+     {
+      "img": "dishes/25b07cf14e.jpg",
+      "kcal": 291,
+      "key": "25b07cf14e",
+      "name": "Bulgur Pilavı"
+     },
+     {
+      "kcal": 150,
+      "key": "173fb393c8",
+      "name": "Ispanak Tarator"
+     },
+     {
+      "kcal": 150,
+      "key": "9f80e392df",
+      "name": "Börülce Salata"
      }
     ],
-    "kcal": 1984
+    "kcal": 2209
    }
   },
   "2026-10-23": {
@@ -975,5 +975,5 @@
   }
  },
  "university": "pamukkale",
- "updated": "2026-10-21T22:01:36+03:00"
+ "updated": "2026-10-22T11:04:17+03:00"
 }

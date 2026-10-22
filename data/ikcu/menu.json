@@ -666,8 +666,61 @@
      }
     ]
    }
+  },
+  "2026-10-23": {
+   "lunch": {
+    "items": [
+     {
+      "img": "dishes/aa33e149cf.jpg",
+      "key": "aa33e149cf",
+      "name": "Yoğurt Çorba"
+     },
+     {
+      "key": "2a387a1d28",
+      "name": "Bahçevan Kebabı"
+     },
+     {
+      "img": "dishes/943fe1113c.jpg",
+      "key": "943fe1113c",
+      "name": "Erişte"
+     },
+     {
+      "img": "dishes/ba50d196d7.jpg",
+      "key": "ba50d196d7",
+      "name": "Kemalpaşa Tatlısı"
+     }
+    ]
+   },
+   "vegetarian": {
+    "items": [
+     {
+      "img": "dishes/aa33e149cf.jpg",
+      "key": "aa33e149cf",
+      "name": "Yoğurt Çorba"
+     },
+     {
+      "key": "543929f646",
+      "name": "Zeytinyağlı Ispanak"
+     },
+     {
+      "img": "dishes/943fe1113c.jpg",
+      "key": "943fe1113c",
+      "name": "Erişte"
+     },
+     {
+      "img": "dishes/ba50d196d7.jpg",
+      "key": "ba50d196d7",
+      "name": "Kemalpaşa Tatlısı"
+     },
+     {
+      "img": "dishes/9c8d655ef5.jpg",
+      "key": "9c8d655ef5",
+      "name": "Yoğurt"
+     }
+    ]
+   }
   }
  },
  "university": "ikcu",
- "updated": "2026-10-21T22:01:36+03:00"
+ "updated": "2026-10-22T11:04:17+03:00"
 }

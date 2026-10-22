@@ -1,110 +1,5 @@
 {
  "days": {
-  "2026-10-19": {
-   "breakfast": {
-    "items": [
-     {
-      "img": "dishes/22605468a2.jpg",
-      "key": "22605468a2",
-      "name": "Çay"
-     },
-     {
-      "key": "f7b84ad85a",
-      "name": "Meyve Suyu"
-     },
-     {
-      "img": "dishes/bff26db9ff.jpg",
-      "key": "bff26db9ff",
-      "name": "Süt"
-     },
-     {
-      "key": "fdec71eec9",
-      "name": "Çilek Reçeli-Tereyağı"
-     },
-     {
-      "img": "dishes/e1d2dc967c.jpg",
-      "key": "e1d2dc967c",
-      "name": "Dil Peyniri"
-     },
-     {
-      "key": "eacd514ee0",
-      "name": "Kaşarlı Gözleme"
-     },
-     {
-      "img": "dishes/18ae4dd1e3.jpg",
-      "key": "18ae4dd1e3",
-      "name": "Salam"
-     }
-    ]
-   },
-   "dinner": {
-    "items": [
-     {
-      "key": "e9bd0907a9",
-      "name": "Salçalı Pirinç Çorbası"
-     },
-     {
-      "key": "ba7f211246",
-      "name": "Piliç Şinitzel (Sebze Garnili)"
-     },
-     {
-      "img": "dishes/18ccb4d264.jpg",
-      "key": "18ccb4d264",
-      "name": "Soslu Makarna"
-     },
-     {
-      "img": "dishes/9814c6dc58.jpg",
-      "key": "9814c6dc58",
-      "name": "Mandalina"
-     }
-    ]
-   },
-   "lunch": {
-    "items": [
-     {
-      "key": "e9bd0907a9",
-      "name": "Salçalı Pirinç Çorbası"
-     },
-     {
-      "key": "ba7f211246",
-      "name": "Piliç Şinitzel (Sebze Garnili)"
-     },
-     {
-      "img": "dishes/18ccb4d264.jpg",
-      "key": "18ccb4d264",
-      "name": "Soslu Makarna"
-     },
-     {
-      "img": "dishes/9814c6dc58.jpg",
-      "key": "9814c6dc58",
-      "name": "Mandalina"
-     }
-    ]
-   },
-   "vegetarian": {
-    "items": [
-     {
-      "key": "e9bd0907a9",
-      "name": "Salçalı Pirinç Çorbası"
-     },
-     {
-      "img": "dishes/1d16892cbf.jpg",
-      "key": "1d16892cbf",
-      "name": "Etsiz Taze Fasulye"
-     },
-     {
-      "img": "dishes/085e645d66.jpg",
-      "key": "085e645d66",
-      "name": "Çoban Salatası"
-     },
-     {
-      "img": "dishes/9814c6dc58.jpg",
-      "key": "9814c6dc58",
-      "name": "Mandalina"
-     }
-    ]
-   }
-  },
   "2026-10-20": {
    "breakfast": {
     "items": [
@@ -3206,5 +3101,5 @@
   }
  },
  "university": "iu",
- "updated": "2026-10-21T22:01:36+03:00"
+ "updated": "2026-10-22T11:04:17+03:00"
 }

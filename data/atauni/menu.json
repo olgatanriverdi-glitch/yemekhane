@@ -354,8 +354,31 @@
      }
     ]
    }
+  },
+  "2026-10-23": {
+   "lunch": {
+    "items": [
+     {
+      "key": "1b050f6542",
+      "name": "Erzincan Kesme Çorba"
+     },
+     {
+      "key": "a72a7569c9",
+      "name": "Püreli Dövme Kebap"
+     },
+     {
+      "img": "dishes/c62a7d497f.jpg",
+      "key": "c62a7d497f",
+      "name": "Alfredo Soslu Fettucini"
+     },
+     {
+      "key": "f7b84ad85a",
+      "name": "Meyve Suyu"
+     }
+    ]
+   }
   }
  },
  "university": "atauni",
- "updated": "2026-10-21T22:01:36+03:00"
+ "updated": "2026-10-22T11:04:17+03:00"
 }
