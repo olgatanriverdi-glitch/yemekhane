@@ -954,16 +954,15 @@
    "lunch": {
     "items": [
      {
-      "img": "dishes/609e4d1fa0.jpg",
-      "kcal": 141,
-      "key": "609e4d1fa0",
-      "name": "Kremalı Sebze Çorba"
+      "kcal": 180,
+      "key": "0d3db49270",
+      "name": "Kre.Tavuk Çorba"
      },
      {
-      "img": "dishes/20d4375808.jpg",
-      "kcal": 378,
-      "key": "20d4375808",
-      "name": "Sahan Köfte"
+      "img": "dishes/d020f94fc7.jpg",
+      "kcal": 220,
+      "key": "d020f94fc7",
+      "name": "Taze Fasülye"
      },
      {
       "kcal": 342,
@@ -977,7 +976,7 @@
       "name": "Revani"
      }
     ],
-    "kcal": 1279
+    "kcal": 1160
    },
    "vegetarian": {
     "items": [
@@ -1106,10 +1105,10 @@
       "name": "Köylüm Çorba"
      },
      {
-      "img": "dishes/2c4b997c75.jpg",
-      "kcal": 220,
-      "key": "2c4b997c75",
-      "name": "Taze Fasulye"
+      "img": "dishes/20d4375808.jpg",
+      "kcal": 378,
+      "key": "20d4375808",
+      "name": "Sahan köfte"
      },
      {
       "kcal": 324,
@@ -1123,7 +1122,7 @@
       "name": "Yoğurt"
      }
     ],
-    "kcal": 844
+    "kcal": 1002
    },
    "vegetarian": {
     "items": [
@@ -1154,5 +1153,5 @@
   }
  },
  "university": "aybu",
- "updated": "2026-10-22T11:04:17+03:00"
+ "updated": "2026-10-22T17:12:16+03:00"
 }

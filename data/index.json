@@ -101,7 +101,7 @@
     }
    },
    "id": "hacettepe",
-   "lastDay": "2026-11-01",
+   "lastDay": "2026-11-29",
    "meals": [
     "breakfast",
     "dinner",
@@ -147,12 +147,12 @@
    "firstDay": "2026-10-01",
    "hours": {
     "dinner": {
-     "approx": true,
-     "t": "17:00–19:00"
+     "approx": false,
+     "t": "17:00–18:30"
     },
     "lunch": {
-     "approx": true,
-     "t": "11:00–14:00"
+     "approx": false,
+     "t": "11:30–14:00"
     }
    },
    "id": "odtu",
@@ -162,7 +162,16 @@
     "lunch"
    ],
    "name": "Orta Doğu Teknik Üniversitesi",
-   "prices": [],
+   "prices": [
+    {
+     "label": "Öğrenci (Öğle Yemeği)",
+     "tl": 50
+    },
+    {
+     "label": "Öğrenci (Akşam Yemeği)",
+     "tl": 50
+    }
+   ],
    "short": "ODTÜ",
    "source": "https://kafeterya.metu.edu.tr/"
   },
@@ -798,6 +807,6 @@
    "source": "https://www.gaziantep.edu.tr/yemek/"
   }
  ],
- "updated": "2026-10-22T11:04:17+03:00",
+ "updated": "2026-10-22T17:12:16+03:00",
  "version": 1
 }

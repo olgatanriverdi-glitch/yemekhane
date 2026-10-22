@@ -2566,8 +2566,9 @@
       "name": "Meyve"
      },
      {
-      "key": "3e6d83f6be",
-      "name": "Mor Salata"
+      "img": "dishes/436c43d7ff.jpg",
+      "key": "436c43d7ff",
+      "name": "Halka Tatlısı"
      }
     ]
    },
@@ -2673,9 +2674,8 @@
       "name": "Meyve"
      },
      {
-      "img": "dishes/436c43d7ff.jpg",
-      "key": "436c43d7ff",
-      "name": "Halka Tatlısı"
+      "key": "3e6d83f6be",
+      "name": "Mor Salata"
      }
     ]
    },
@@ -3337,5 +3337,5 @@
   }
  },
  "university": "boun",
- "updated": "2026-10-22T11:04:17+03:00"
+ "updated": "2026-10-22T17:12:16+03:00"
 }

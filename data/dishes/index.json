@@ -2637,6 +2637,15 @@
    "sorgu": "Sosis",
    "yazar": "Wiwik P"
   },
+  "726d1be46a": {
+   "baslik": "Corn soup.jpg",
+   "kaynak": "Wikimedia Commons",
+   "lisans": "CC BY-SA 3.0",
+   "name": "Mısır Çorbası",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Corn_soup.jpg",
+   "sorgu": "Corn soup",
+   "yazar": "Laurier"
+  },
   "727ce256ef": {
    "baslik": "Kuru Fasulye pilav.jpg",
    "kaynak": "Wikimedia Commons",
@@ -3150,6 +3159,15 @@
    "sorgu": "Süzme Mercimek Çorbası",
    "yazar": "E4024"
   },
+  "8a77d1aebd": {
+   "baslik": "Kabak çiçeği dolma.jpg",
+   "kaynak": "Wikimedia Commons",
+   "lisans": "CC BY-SA 4.0",
+   "name": "Yoğ. Kabak Dolma",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Kabak_%C3%A7i%C3%A7e%C4%9Fi_dolma.jpg",
+   "sorgu": "Kabak Dolma",
+   "yazar": "E4024"
+  },
   "8ab26ad603": {
    "baslik": "Ev Mantisi.jpg",
    "kaynak": "Wikimedia Commons",
@@ -3645,6 +3663,15 @@
    "sorgu": "Şakşuka",
    "yazar": "E4024"
   },
+  "9d174a5157": {
+   "baslik": "Sulu kofte in Ankara.jpg",
+   "kaynak": "Wikimedia Commons",
+   "lisans": "CC BY-SA 4.0",
+   "name": "Sulu Köfte",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Sulu_kofte_in_Ankara.jpg",
+   "sorgu": "Sulu Köfte",
+   "yazar": "E4024"
+  },
   "9e0999f0d7": {
    "baslik": "Kıvırcık kuzu.JPG",
    "kaynak": "Wikimedia Commons",
@@ -4131,6 +4158,15 @@
    "sorgu": "Taze Fasulye Yemeği",
    "yazar": "E4024"
   },
+  "b06916b2d0": {
+   "baslik": "Kapuska.jpg",
+   "kaynak": "Wikimedia Commons",
+   "lisans": "CC BY-SA 4.0",
+   "name": "Etli Kapuska",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Kapuska.jpg",
+   "sorgu": "Kapuska",
+   "yazar": "E4024"
+  },
   "b20332bcf6": {
    "baslik": "Kaşar peyniri.jpg",
    "kaynak": "Wikimedia Commons",
@@ -4292,6 +4328,15 @@
    "sayfa": "https://commons.wikimedia.org/wiki/File:Su_b%C3%B6re%C4%9Fi_-_kol_b%C3%B6re%C4%9Fi.jpg",
    "sorgu": "Kol Böreği",
    "yazar": "E4024"
+  },
+  "bb3462648f": {
+   "baslik": "Pirasali börek.jpg",
+   "kaynak": "Wikimedia Commons",
+   "lisans": "CC BY-SA 4.0",
+   "name": "Pırasalı Börek",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Pirasali_b%C3%B6rek.jpg",
+   "sorgu": "Pırasalı Börek",
+   "yazar": "Samizambak"
   },
   "bcafe51e20": {
    "baslik": "Peynirli börek.jpg",
@@ -5949,6 +5994,15 @@
    "sorgu": "Lahmacun",
    "yazar": "No machine-readable author provided. Rainer Zenz assumed (based on copyright cla"
   },
+  "fd28caf687": {
+   "baslik": "Vegetable soup 8.jpg",
+   "kaynak": "Wikimedia Commons",
+   "lisans": "CC BY-SA 4.0",
+   "name": "Soslu Sebze Çorbası",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Vegetable_soup_8.jpg",
+   "sorgu": "Vegetable soup",
+   "yazar": "Gannu03"
+  },
   "fd6f1df9c8": {
    "baslik": "Sopa de Toyga.jpg",
    "kaynak": "Wikimedia Commons",
@@ -6036,7 +6090,10 @@
   "0bf17a9ce0": "2026-10-13",
   "0c1e4878c6": "2026-10-08",
   "0ce424ed1f": "2026-10-13",
+  "0d3a83fe46": "2026-10-22",
+  "0d3db49270": "2026-10-22",
   "0df0391a03": "2026-10-06",
+  "0e548ea5a8": "2026-10-22",
   "0e987c96cc": "2026-10-12",
   "0ebb9ea800": "2026-10-21",
   "0f546cf295": "2026-10-19",
@@ -6142,6 +6199,7 @@
   "2f47dfc743": "2026-10-19",
   "2f48dae569": "2026-10-18",
   "2f988021ae": "2026-10-05",
+  "2f9eb9730d": "2026-10-22",
   "2fb7c288ac": "2026-10-22",
   "2fbee265a2": "2026-10-13",
   "30132f9261": "2026-10-11",
@@ -6158,6 +6216,7 @@
   "33d28db351": "2026-10-03",
   "33f164fbd0": "2026-10-19",
   "347d0474b1": "2026-10-15",
+  "350e0136a1": "2026-10-22",
   "3697d86769": "2026-10-20",
   "3699057618": "2026-10-13",
   "36a84f5e2d": "2026-10-18",
@@ -6182,6 +6241,7 @@
   "3c2759e9e2": "2026-10-17",
   "3c5f731048": "2026-10-21",
   "3c7d3faa1d": "2026-10-21",
+  "3d0aa0d2b1": "2026-10-22",
   "3d1e6c0b39": "2026-10-08",
   "3d253903d7": "2026-10-22",
   "3ddbc111d2": "2026-10-18",
@@ -6229,7 +6289,7 @@
   "4c233ab9a6": "2026-10-21",
   "4cf396a308": "2026-10-17",
   "4d0676c683": "2026-10-20",
-  "4d4c7e8241": "2026-10-03",
+  "4d4c7e8241": "2026-10-22",
   "4db64a22b2": "2026-10-20",
   "4e43df1053": "2026-10-12",
   "4ec520b02b": "2026-10-22",
@@ -6273,7 +6333,7 @@
   "5f34f26545": "2026-10-19",
   "5f54f3a06f": "2026-10-20",
   "6025509e79": "2026-10-20",
-  "6056fa53c4": "2026-10-03",
+  "6056fa53c4": "2026-10-22",
   "613616e611": "2026-10-17",
   "614e901f2c": "2026-10-21",
   "61a2035b95": "2026-10-12",
@@ -6418,6 +6478,7 @@
   "8c8e8ca62a": "2026-10-19",
   "8c9922a2f8": "2026-10-13",
   "8cb878abe5": "2026-10-18",
+  "8cdb9b5d26": "2026-10-22",
   "8ce17e810c": "2026-10-21",
   "8ceb59372b": "2026-10-17",
   "8cfc089305": "2026-10-09",
@@ -6517,6 +6578,7 @@
   "ab367d3fd1": "2026-10-19",
   "ab4e88d156": "2026-10-09",
   "ab71f67fd4": "2026-10-13",
+  "ab8da6635b": "2026-10-22",
   "abab82fd36": "2026-10-20",
   "abacc4b254": "2026-10-18",
   "abf163c810": "2026-10-22",
@@ -6527,6 +6589,7 @@
   "ad6e113e72": "2026-10-05",
   "ad9e636233": "2026-10-13",
   "ade015c1f5": "2026-10-11",
+  "ae0254a8ae": "2026-10-22",
   "ae7f7aa639": "2026-10-18",
   "aea7ea71cd": "2026-10-18",
   "aebf5d06f9": "2026-10-21",
@@ -6604,6 +6667,7 @@
   "c61a9a3d54": "2026-10-11",
   "c6a123491c": "2026-10-18",
   "c76c2455e6": "2026-10-13",
+  "c76cc481c4": "2026-10-22",
   "c7a4568e2a": "2026-10-21",
   "c80a0db0d4": "2026-10-21",
   "c836feafa3": "2026-10-18",
@@ -6631,8 +6695,10 @@
   "cf595aeefc": "2026-10-22",
   "cfc8d5c66c": "2026-10-21",
   "d01d045022": "2026-10-20",
+  "d0453a59a6": "2026-10-22",
   "d0727bd32f": "2026-10-13",
   "d091fc8a70": "2026-10-20",
+  "d0a8617138": "2026-10-22",
   "d145f75c7a": "2026-10-21",
   "d14bc2ed6a": "2026-10-19",
   "d20d0b9931": "2026-10-19",

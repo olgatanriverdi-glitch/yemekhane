@@ -831,12 +831,6 @@
       "name": "Menemen"
      },
      {
-      "img": "dishes/712effcf50.jpg",
-      "kcal": 364,
-      "key": "712effcf50",
-      "name": "Patlıcan Kebabı"
-     },
-     {
       "img": "dishes/9c8d655ef5.jpg",
       "kcal": 118,
       "key": "9c8d655ef5",
@@ -876,7 +870,7 @@
       "name": "Börülce Salata"
      }
     ],
-    "kcal": 2209
+    "kcal": 1845
    }
   },
   "2026-10-23": {
@@ -975,5 +969,5 @@
   }
  },
  "university": "pamukkale",
- "updated": "2026-10-22T11:04:17+03:00"
+ "updated": "2026-10-22T17:12:16+03:00"
 }
