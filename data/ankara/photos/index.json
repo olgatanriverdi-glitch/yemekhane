@@ -13,7 +13,8 @@
   "2026-10-19": "cf00a176342e",
   "2026-10-20": "5b1b2aea2001",
   "2026-10-21": "3d079491ea57",
-  "2026-10-22": "c89c294984ba"
+  "2026-10-22": "c89c294984ba",
+  "2026-10-23": "1b48a108505e"
  },
  "main": {
   "025eacfe0c": "8f579a24b2f7",
@@ -29,6 +30,7 @@
   "de62be9b48": "164fe8b5ccd4",
   "f029cd24e9": "f6784bbc19c2",
   "fbb76e65c4": "f74a9d748b67",
+  "fc648efe4b": "1b48a108505e",
   "ff8bf920a9": "5b1b2aea2001"
  },
  "menus": {
@@ -40,6 +42,16 @@
     "Ispanak Yatağında Izgara Tavuk",
     "Mısırlı Pirinç Pilavı",
     "Trileçe"
+   ]
+  },
+  "1b48a108505e": {
+   "added": "2026-10-23",
+   "hash": "cd0969d23513c0f920cdaa5101da6678f3ec719e",
+   "items": [
+    "Kırmızı Mercimek Çorba",
+    "Lahmacun",
+    "Menekşe Salata",
+    "Ayran"
    ]
   },
   "3d079491ea57": {

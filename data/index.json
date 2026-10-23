@@ -81,7 +81,7 @@
   },
   {
    "city": "Ankara",
-   "firstDay": "2026-10-20",
+   "firstDay": "2026-10-21",
    "hours": {
     "breakfast": {
      "approx": false,
@@ -299,7 +299,7 @@
   },
   {
    "city": "İstanbul",
-   "firstDay": "2026-10-20",
+   "firstDay": "2026-10-21",
    "hours": {
     "breakfast": {
      "approx": false,
@@ -329,7 +329,7 @@
   },
   {
    "city": "İstanbul",
-   "firstDay": "2026-10-21",
+   "firstDay": "2026-10-22",
    "hours": {
     "dinner": {
      "approx": false,
@@ -714,7 +714,7 @@
     }
    },
    "id": "sakarya",
-   "lastDay": "2026-10-30",
+   "lastDay": "2026-11-02",
    "meals": [
     "lunch"
    ],
@@ -725,7 +725,7 @@
   },
   {
    "city": "Adana",
-   "firstDay": "2026-09-28",
+   "firstDay": "2026-09-29",
    "hours": {
     "lunch": {
      "approx": true,
@@ -807,6 +807,6 @@
    "source": "https://www.gaziantep.edu.tr/yemek/"
   }
  ],
- "updated": "2026-10-22T21:56:35+03:00",
+ "updated": "2026-10-23T11:03:08+03:00",
  "version": 1
 }

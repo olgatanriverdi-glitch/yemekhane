@@ -765,18 +765,6 @@
       "kcal": 118,
       "key": "9c8d655ef5",
       "name": "Yoğurt"
-     },
-     {
-      "img": "dishes/e205e270b9.jpg",
-      "kcal": 334,
-      "key": "e205e270b9",
-      "name": "Soslu Spagetti"
-     },
-     {
-      "img": "dishes/ea0310f0eb.jpg",
-      "kcal": 210,
-      "key": "ea0310f0eb",
-      "name": "Zeytinyağlı Bamya"
      }
     ]
    }
@@ -909,18 +897,6 @@
       "name": "Köylü Çorba"
      },
      {
-      "img": "dishes/e205e270b9.jpg",
-      "kcal": 334,
-      "key": "e205e270b9",
-      "name": "Soslu Spagetti"
-     },
-     {
-      "img": "dishes/ea0310f0eb.jpg",
-      "kcal": 210,
-      "key": "ea0310f0eb",
-      "name": "Zeytinyağlı Bamya"
-     },
-     {
       "img": "dishes/add3592632.jpg",
       "kcal": 254,
       "key": "add3592632",
@@ -963,11 +939,22 @@
       "kcal": 244,
       "key": "b6bfa358ce",
       "name": "Trileçe"
+     },
+     {
+      "img": "dishes/b933cbd8aa.jpg",
+      "kcal": 258,
+      "key": "b933cbd8aa",
+      "name": "Zeytinyağlı Bezelye"
+     },
+     {
+      "kcal": 250,
+      "key": "8636bfbc0a",
+      "name": "Pirinç Pilavı"
      }
     ]
    }
   }
  },
  "university": "pamukkale",
- "updated": "2026-10-22T21:56:35+03:00"
+ "updated": "2026-10-23T11:03:08+03:00"
 }

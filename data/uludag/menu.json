@@ -1298,9 +1298,9 @@
       "name": "Sade Pirinç Pilavı"
      },
      {
-      "img": "dishes/9c8d655ef5.jpg",
-      "key": "9c8d655ef5",
-      "name": "Yoğurt"
+      "img": "dishes/3ab5b14f23.jpg",
+      "key": "3ab5b14f23",
+      "name": "Kuru Cacık"
      }
     ]
    },
@@ -1330,9 +1330,9 @@
       "name": "Çiğ Köfte / Marul"
      },
      {
-      "img": "dishes/9c8d655ef5.jpg",
-      "key": "9c8d655ef5",
-      "name": "Yoğurt"
+      "img": "dishes/3ab5b14f23.jpg",
+      "key": "3ab5b14f23",
+      "name": "Kuru Cacık"
      }
     ]
    }
@@ -1651,5 +1651,5 @@
   }
  },
  "university": "uludag",
- "updated": "2026-10-22T21:56:35+03:00"
+ "updated": "2026-10-23T11:03:08+03:00"
 }

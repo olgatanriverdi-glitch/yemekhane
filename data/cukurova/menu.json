@@ -1,36 +1,5 @@
 {
  "days": {
-  "2026-09-28": {
-   "lunch": {
-    "items": [
-     {
-      "img": "dishes/e9977e6607.jpg",
-      "kcal": 294,
-      "key": "e9977e6607",
-      "name": "Ekşili Köfte"
-     },
-     {
-      "img": "dishes/18ccb4d264.jpg",
-      "kcal": 305,
-      "key": "18ccb4d264",
-      "name": "Soslu Makarna"
-     },
-     {
-      "img": "dishes/9c8d655ef5.jpg",
-      "kcal": 118,
-      "key": "9c8d655ef5",
-      "name": "Yoğurt"
-     },
-     {
-      "img": "dishes/13d6d14299.jpg",
-      "kcal": 93,
-      "key": "13d6d14299",
-      "name": "Meyve (Kavun)"
-     }
-    ],
-    "kcal": 810
-   }
-  },
   "2026-09-29": {
    "lunch": {
     "items": [
@@ -147,41 +116,6 @@
     "kcal": 726
    }
   },
-  "2026-10-22": {
-   "lunch": {
-    "items": [
-     {
-      "img": "dishes/694df91308.jpg",
-      "kcal": 391,
-      "key": "694df91308",
-      "name": "İzmir Köfte"
-     },
-     {
-      "kcal": 126,
-      "key": "8db13541fa",
-      "name": "Patates Kızartma"
-     },
-     {
-      "kcal": 377,
-      "key": "fef6adada3",
-      "name": "Nohutlu Pirinç Pilavı"
-     },
-     {
-      "img": "dishes/16b5c22561.jpg",
-      "kcal": 60,
-      "key": "16b5c22561",
-      "name": "Ayran"
-     },
-     {
-      "img": "dishes/1d44a2ec2c.jpg",
-      "kcal": 240,
-      "key": "1d44a2ec2c",
-      "name": "Muhallebi"
-     }
-    ],
-    "kcal": 1194
-   }
-  },
   "2026-10-23": {
    "lunch": {
     "items": [
@@ -189,6 +123,12 @@
       "kcal": 440,
       "key": "28f683f8a4",
       "name": "Kremalı Körili Tavuk"
+     },
+     {
+      "img": "dishes/feba5fe940.jpg",
+      "kcal": 371,
+      "key": "feba5fe940",
+      "name": "Zeytinyağlı Barbunya"
      },
      {
       "img": "dishes/18ccb4d264.jpg",
@@ -209,7 +149,7 @@
       "name": "Meyve (Armut)"
      }
     ],
-    "kcal": 893
+    "kcal": 1264
    }
   },
   "2026-10-26": {
@@ -302,5 +242,5 @@
   }
  },
  "university": "cukurova",
- "updated": "2026-10-22T21:56:35+03:00"
+ "updated": "2026-10-23T11:03:08+03:00"
 }

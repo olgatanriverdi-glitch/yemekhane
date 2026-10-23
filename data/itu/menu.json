@@ -1,65 +1,5 @@
 {
  "days": {
-  "2026-10-21": {
-   "dinner": {
-    "items": [
-     {
-      "img": "dishes/64ee8e0b3b.jpg",
-      "key": "64ee8e0b3b",
-      "name": "Düğün Çorbası"
-     },
-     {
-      "img": "dishes/890b8e3990.jpg",
-      "key": "890b8e3990",
-      "name": "Etli Nohut"
-     },
-     {
-      "key": "8636bfbc0a",
-      "name": "Pirinç Pilavı"
-     },
-     {
-      "img": "dishes/972686fca7.jpg",
-      "key": "972686fca7",
-      "name": "Kadayıflı Muhallebi"
-     },
-     {
-      "key": "5b5d73f5c8",
-      "name": "Kırmızı Pancar Turşusu"
-     }
-    ]
-   },
-   "lunch": {
-    "items": [
-     {
-      "img": "dishes/0955218757.jpg",
-      "key": "0955218757",
-      "name": "Mercimek Çorbası"
-     },
-     {
-      "key": "2ba4042d62",
-      "name": "Fırın Piliç Baget"
-     },
-     {
-      "img": "dishes/f79b284db7.jpg",
-      "key": "f79b284db7",
-      "name": "Sebzeli Makarna"
-     },
-     {
-      "key": "f7b84ad85a",
-      "name": "Meyve Suyu"
-     },
-     {
-      "img": "dishes/ed47fcacda.jpg",
-      "key": "ed47fcacda",
-      "name": "Pembe Sultan"
-     },
-     {
-      "key": "3ad9586e62",
-      "name": "Garnitür Patates Sote"
-     }
-    ]
-   }
-  },
   "2026-10-22": {
    "dinner": {
     "items": [
@@ -715,5 +655,5 @@
   }
  },
  "university": "itu",
- "updated": "2026-10-22T21:56:35+03:00"
+ "updated": "2026-10-23T11:03:08+03:00"
 }

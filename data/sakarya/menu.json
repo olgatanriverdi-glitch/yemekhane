@@ -878,8 +878,47 @@
      }
     ]
    }
+  },
+  "2026-11-02": {
+   "lunch": {
+    "items": [
+     {
+      "img": "dishes/5faf1b0081.jpg",
+      "kcal": 180,
+      "key": "5faf1b0081",
+      "name": "Kırmızı Mercimek Çorba"
+     },
+     {
+      "img": "dishes/fbb76e65c4.jpg",
+      "kcal": 345,
+      "key": "fbb76e65c4",
+      "name": "Etli Kuru Fasulye"
+     },
+     {
+      "img": "dishes/c86f396a72.jpg",
+      "key": "c86f396a72",
+      "name": "Etsiz Kuru Fasulye (Merkez Yemekhanede)"
+     },
+     {
+      "key": "410ef89b13",
+      "name": "Çıtır Tavuk (Coleslaw Garnitür)"
+     },
+     {
+      "img": "dishes/25b07cf14e.jpg",
+      "kcal": 281,
+      "key": "25b07cf14e",
+      "name": "Bulgur Pilavı"
+     },
+     {
+      "img": "dishes/c2cb7fa47d.jpg",
+      "kcal": 470,
+      "key": "c2cb7fa47d",
+      "name": "Şöbiyet"
+     }
+    ]
+   }
   }
  },
  "university": "sakarya",
- "updated": "2026-10-22T21:56:35+03:00"
+ "updated": "2026-10-23T11:03:08+03:00"
 }
