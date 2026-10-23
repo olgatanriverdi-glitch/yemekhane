@@ -239,8 +239,39 @@
     ],
     "kcal": 832
    }
+  },
+  "2026-11-02": {
+   "lunch": {
+    "items": [
+     {
+      "img": "dishes/daa5ce82dc.jpg",
+      "kcal": 246,
+      "key": "daa5ce82dc",
+      "name": "Soslu Dalyan Köfte + Patates Püresi"
+     },
+     {
+      "img": "dishes/7996503754.jpg",
+      "kcal": 341,
+      "key": "7996503754",
+      "name": "Peynirli Makarna"
+     },
+     {
+      "img": "dishes/2610f75ca2.jpg",
+      "kcal": 20,
+      "key": "2610f75ca2",
+      "name": "Şalgam"
+     },
+     {
+      "img": "dishes/c27879d4fd.jpg",
+      "kcal": 142,
+      "key": "c27879d4fd",
+      "name": "Meyve (Elma)"
+     }
+    ],
+    "kcal": 749
+   }
   }
  },
  "university": "cukurova",
- "updated": "2026-10-23T11:03:08+03:00"
+ "updated": "2026-10-23T16:55:17+03:00"
 }

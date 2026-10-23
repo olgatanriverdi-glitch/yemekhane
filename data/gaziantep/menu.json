@@ -573,15 +573,15 @@
       "name": "Mercimek Çorba"
      },
      {
+      "kcal": 490,
+      "key": "32161784d7",
+      "name": "Karışık Musakka"
+     },
+     {
       "img": "dishes/0428d021a9.jpg",
       "kcal": 685,
       "key": "0428d021a9",
       "name": "Hamburger"
-     },
-     {
-      "kcal": 490,
-      "key": "32161784d7",
-      "name": "Karışık Musakka"
      },
      {
       "img": "dishes/16b5c22561.jpg",
@@ -634,5 +634,5 @@
   }
  },
  "university": "gaziantep",
- "updated": "2026-10-23T11:03:08+03:00"
+ "updated": "2026-10-23T16:55:17+03:00"
 }
