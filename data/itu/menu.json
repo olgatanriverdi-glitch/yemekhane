@@ -1,69 +1,5 @@
 {
  "days": {
-  "2026-10-22": {
-   "dinner": {
-    "items": [
-     {
-      "img": "dishes/0955218757.jpg",
-      "key": "0955218757",
-      "name": "Mercimek Çorbası"
-     },
-     {
-      "img": "dishes/d151de6ce3.jpg",
-      "key": "d151de6ce3",
-      "name": "Çoban Kavurma"
-     },
-     {
-      "key": "8636bfbc0a",
-      "name": "Pirinç Pilavı"
-     },
-     {
-      "key": "2a57ab16da",
-      "name": "Havuç Lahana Salatası"
-     },
-     {
-      "img": "dishes/a3d80c5897.jpg",
-      "key": "a3d80c5897",
-      "name": "Armut"
-     },
-     {
-      "img": "dishes/65dfdea3d4.jpg",
-      "key": "65dfdea3d4",
-      "name": "Garnitür Patates Püresi"
-     }
-    ]
-   },
-   "lunch": {
-    "items": [
-     {
-      "img": "dishes/5d3038c41b.jpg",
-      "key": "5d3038c41b",
-      "name": "Yayla Çorbası"
-     },
-     {
-      "key": "b6e457a76c",
-      "name": "Hindi Sote"
-     },
-     {
-      "key": "0b23d10ca9",
-      "name": "Sebzeli Kuskus"
-     },
-     {
-      "key": "79ded7ea04",
-      "name": "Havuç Tarator"
-     },
-     {
-      "img": "dishes/2e9a9837b2.jpg",
-      "key": "2e9a9837b2",
-      "name": "Cevizli Baklava"
-     },
-     {
-      "key": "5377d60513",
-      "name": "Garnitür Buğday Risotto"
-     }
-    ]
-   }
-  },
   "2026-10-23": {
    "dinner": {
     "items": [
@@ -655,5 +591,5 @@
   }
  },
  "university": "itu",
- "updated": "2026-10-23T21:49:26+03:00"
+ "updated": "2026-10-24T10:42:12+03:00"
 }
