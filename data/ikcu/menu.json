@@ -719,8 +719,55 @@
      }
     ]
    }
+  },
+  "2026-10-26": {
+   "lunch": {
+    "items": [
+     {
+      "img": "dishes/22dd093862.jpg",
+      "key": "22dd093862",
+      "name": "Mercimek Çorba"
+     },
+     {
+      "key": "ee27927581",
+      "name": "Kıymalı Mengen Musakka"
+     },
+     {
+      "key": "8636bfbc0a",
+      "name": "Pirinç Pilavı"
+     },
+     {
+      "img": "dishes/9c8d655ef5.jpg",
+      "key": "9c8d655ef5",
+      "name": "Yoğurt"
+     }
+    ]
+   },
+   "vegetarian": {
+    "items": [
+     {
+      "img": "dishes/22dd093862.jpg",
+      "key": "22dd093862",
+      "name": "Mercimek Çorba"
+     },
+     {
+      "key": "022d458336",
+      "name": "Mevsim Türlü"
+     },
+     {
+      "img": "dishes/65ba09bbe9.jpg",
+      "key": "65ba09bbe9",
+      "name": "Pirinç Pilavı Yoğurt"
+     },
+     {
+      "img": "dishes/a765c7c985.jpg",
+      "key": "a765c7c985",
+      "name": "Komposto"
+     }
+    ]
+   }
   }
  },
  "university": "ikcu",
- "updated": "2026-10-23T21:49:26+03:00"
+ "updated": "2026-10-25T10:53:48+03:00"
 }

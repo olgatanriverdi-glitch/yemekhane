@@ -1,68 +1,5 @@
 {
  "days": {
-  "2026-10-23": {
-   "dinner": {
-    "items": [
-     {
-      "key": "b09bac10e9",
-      "name": "Mahluta Çorbası"
-     },
-     {
-      "key": "e222d067f6",
-      "name": "Soya Soslu Piliç Sote"
-     },
-     {
-      "img": "dishes/7996503754.jpg",
-      "key": "7996503754",
-      "name": "Peynirli Makarna"
-     },
-     {
-      "key": "8ebd6667e7",
-      "name": "Krem Şokola"
-     },
-     {
-      "img": "dishes/c47036e360.jpg",
-      "key": "c47036e360",
-      "name": "Elma"
-     },
-     {
-      "key": "1045cf4872",
-      "name": "Garnitür Küp Patates Kızartması"
-     }
-    ]
-   },
-   "lunch": {
-    "items": [
-     {
-      "img": "dishes/c79dd3c35d.jpg",
-      "key": "c79dd3c35d",
-      "name": "Kremalı Brokoli Çorbası"
-     },
-     {
-      "img": "dishes/694df91308.jpg",
-      "key": "694df91308",
-      "name": "İzmir Köfte"
-     },
-     {
-      "key": "8636bfbc0a",
-      "name": "Pirinç Pilavı"
-     },
-     {
-      "key": "de84c155eb",
-      "name": "Rus Salatası"
-     },
-     {
-      "img": "dishes/16b5c22561.jpg",
-      "key": "16b5c22561",
-      "name": "Ayran"
-     },
-     {
-      "key": "fc38f5c889",
-      "name": "Garnitür Elma Dilim Patates Kızartması"
-     }
-    ]
-   }
-  },
   "2026-10-24": {
    "dinner": {
     "items": [
@@ -591,5 +528,5 @@
   }
  },
  "university": "itu",
- "updated": "2026-10-24T20:43:08+03:00"
+ "updated": "2026-10-25T10:53:48+03:00"
 }

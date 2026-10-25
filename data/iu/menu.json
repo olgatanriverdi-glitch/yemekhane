@@ -1,110 +1,5 @@
 {
  "days": {
-  "2026-10-22": {
-   "breakfast": {
-    "items": [
-     {
-      "img": "dishes/22605468a2.jpg",
-      "key": "22605468a2",
-      "name": "Çay"
-     },
-     {
-      "key": "f7b84ad85a",
-      "name": "Meyve Suyu"
-     },
-     {
-      "img": "dishes/bff26db9ff.jpg",
-      "key": "bff26db9ff",
-      "name": "Süt"
-     },
-     {
-      "key": "a5700115ba",
-      "name": "Kakaolu Fındık Kreması"
-     },
-     {
-      "img": "dishes/b20332bcf6.jpg",
-      "key": "b20332bcf6",
-      "name": "Kaşar Peynir"
-     },
-     {
-      "img": "dishes/ebfeabaf2c.jpg",
-      "key": "ebfeabaf2c",
-      "name": "Poğaça"
-     },
-     {
-      "img": "dishes/61eeda5228.jpg",
-      "key": "61eeda5228",
-      "name": "Domates-Salatalık"
-     }
-    ]
-   },
-   "dinner": {
-    "items": [
-     {
-      "img": "dishes/0955218757.jpg",
-      "key": "0955218757",
-      "name": "Mercimek Çorbası"
-     },
-     {
-      "key": "86671ca64d",
-      "name": "Fırın Piliç But (Patates Garnili)"
-     },
-     {
-      "key": "99f4bc2075",
-      "name": "Cevizli Erişte"
-     },
-     {
-      "key": "a65801bdad",
-      "name": "Sütlü Tatlı"
-     }
-    ]
-   },
-   "lunch": {
-    "items": [
-     {
-      "img": "dishes/0955218757.jpg",
-      "key": "0955218757",
-      "name": "Mercimek Çorbası"
-     },
-     {
-      "key": "86671ca64d",
-      "name": "Fırın Piliç But (Patates Garnili)"
-     },
-     {
-      "key": "99f4bc2075",
-      "name": "Cevizli Erişte"
-     },
-     {
-      "key": "a65801bdad",
-      "name": "Sütlü Tatlı"
-     }
-    ]
-   },
-   "vegetarian": {
-    "items": [
-     {
-      "img": "dishes/0955218757.jpg",
-      "key": "0955218757",
-      "name": "Mercimek Çorbası"
-     },
-     {
-      "img": "dishes/2a86e68e94.jpg",
-      "key": "2a86e68e94",
-      "name": "Kabak Dolması"
-     },
-     {
-      "img": "dishes/321b4fe3c9.jpg",
-      "key": "321b4fe3c9",
-      "name": "Mevsim Salatası"
-     },
-     {
-      "img": "dishes/af4828c33f.jpg",
-      "key": "af4828c33f",
-      "name": "Un Helvası"
-     }
-    ]
-   }
-  },
   "2026-10-23": {
    "breakfast": {
     "items": [
@@ -2884,5 +2779,5 @@
   }
  },
  "university": "iu",
- "updated": "2026-10-24T20:43:08+03:00"
+ "updated": "2026-10-25T10:53:48+03:00"
 }
