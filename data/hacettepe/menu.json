@@ -1907,13 +1907,13 @@
       "name": "Şeh. Pirinç Pilavı"
      },
      {
-      "img": "dishes/ec0228f614.jpg",
-      "kcal": 20,
-      "key": "ec0228f614",
-      "name": "Turşu"
+      "img": "dishes/2f58be7b7a.jpg",
+      "kcal": 191,
+      "key": "2f58be7b7a",
+      "name": "Cacık"
      }
     ],
-    "kcal": 931
+    "kcal": 1102
    },
    "lunch": {
     "items": [
@@ -1935,13 +1935,13 @@
       "name": "Şeh. Pirinç Pilavı"
      },
      {
-      "img": "dishes/ec0228f614.jpg",
-      "kcal": 20,
-      "key": "ec0228f614",
-      "name": "Turşu"
+      "img": "dishes/2f58be7b7a.jpg",
+      "kcal": 191,
+      "key": "2f58be7b7a",
+      "name": "Cacık"
      }
     ],
-    "kcal": 931
+    "kcal": 1102
    },
    "vegetarian": {
     "items": [
@@ -2085,10 +2085,10 @@
       "name": "Mercimek Çorbası"
      },
      {
-      "img": "dishes/13df0d14f8.jpg",
-      "kcal": 282,
-      "key": "13df0d14f8",
-      "name": "Etsiz Kabak Kalye"
+      "img": "dishes/848c4f7aba.jpg",
+      "kcal": 308,
+      "key": "848c4f7aba",
+      "name": "Etsiz Ispanak"
      },
      {
       "kcal": 452,
@@ -2102,7 +2102,7 @@
       "name": "Meyve"
      }
     ],
-    "kcal": 1094
+    "kcal": 1120
    }
   },
   "2026-11-09": {
@@ -4870,5 +4870,5 @@
   }
  },
  "university": "hacettepe",
- "updated": "2026-10-26T11:14:30+03:00"
+ "updated": "2026-10-26T18:35:59+03:00"
 }

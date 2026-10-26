@@ -395,7 +395,7 @@
     }
    },
    "id": "marmara",
-   "lastDay": "2026-10-26",
+   "lastDay": "2026-10-30",
    "meals": [
     "lunch",
     "vegetarian"
@@ -807,6 +807,6 @@
    "source": "https://www.gaziantep.edu.tr/yemek/"
   }
  ],
- "updated": "2026-10-26T11:14:30+03:00",
+ "updated": "2026-10-26T18:35:59+03:00",
  "version": 1
 }

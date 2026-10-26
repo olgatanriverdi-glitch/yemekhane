@@ -1446,8 +1446,9 @@
    "lunch": {
     "items": [
      {
-      "key": "32db6b3712",
-      "name": "Çanak Köfte"
+      "img": "dishes/e85c211420.jpg",
+      "key": "e85c211420",
+      "name": "Tavuk Döner / Patates Kızartması"
      },
      {
       "img": "dishes/bf8474c8b9.jpg",
@@ -1651,5 +1652,5 @@
   }
  },
  "university": "uludag",
- "updated": "2026-10-26T11:14:30+03:00"
+ "updated": "2026-10-26T18:35:59+03:00"
 }

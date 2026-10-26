@@ -4239,6 +4239,15 @@
    "sorgu": "Etli Pilav",
    "yazar": "E4024"
   },
+  "acf28638f0": {
+   "baslik": "Cooking şehriye pilavı.jpg",
+   "kaynak": "Wikimedia Commons",
+   "lisans": "CC BY-SA 4.0",
+   "name": "Sebzeli Şehriye Pilavı",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Cooking_%C5%9Fehriye_pilav%C4%B1.jpg",
+   "sorgu": "Şehriye Pilavı",
+   "yazar": "E4024"
+  },
   "acfd9f660c": {
    "baslik": "Spaghetti (53257476437) (cropped).png",
    "kaynak": "Wikimedia Commons",
@@ -4283,6 +4292,15 @@
    "sayfa": "https://commons.wikimedia.org/wiki/File:Doner_Kebab,_sols_carn_i_lletuga..jpg",
    "sorgu": "Et Döner",
    "yazar": "Francesc Fort"
+  },
+  "ae13fe71dc": {
+   "baslik": "Kuru fasulye (etli).jpg",
+   "kaynak": "Wikimedia Commons",
+   "lisans": "CC BY-SA 4.0",
+   "name": "Etli Kuru Fasulye (Alternatif)",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Kuru_fasulye_(etli).jpg",
+   "sorgu": "Etli Kuru Fasulye",
+   "yazar": "E4024"
   },
   "aebf49cce6": {
    "baslik": "Nevzine tatlısı tabakta.jpg",
@@ -4669,6 +4687,15 @@
    "name": "Arpa Şehriye Pilavı",
    "sayfa": "https://commons.wikimedia.org/wiki/File:Cooking_%C5%9Fehriye_pilav%C4%B1.jpg",
    "sorgu": "Arpa Şehriye Pilavı",
+   "yazar": "E4024"
+  },
+  "c09e3b4b95": {
+   "baslik": "Tel kadayıf production.jpg",
+   "kaynak": "Wikimedia Commons",
+   "lisans": "CC BY-SA 4.0",
+   "name": "Cevizli Tel Kadayıfı",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Tel_kaday%C4%B1f_production.jpg",
+   "sorgu": "Tel Kadayıfı",
    "yazar": "E4024"
   },
   "c12508390a": {
@@ -5670,6 +5697,15 @@
    "sorgu": "Et Döner",
    "yazar": "Francesc Fort"
   },
+  "e85c211420": {
+   "baslik": "Tavuk döner (on pilav).jpg",
+   "kaynak": "Wikimedia Commons",
+   "lisans": "CC BY-SA 4.0",
+   "name": "Tavuk Döner / Patates Kızartması",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Tavuk_d%C3%B6ner_(on_pilav).jpg",
+   "sorgu": "Tavuk Döner",
+   "yazar": "E4024"
+  },
   "e8b8cd2e28": {
    "baslik": "Tavuk suyu çorba (tel şehriyeli).jpg",
    "kaynak": "Wikimedia Commons",
@@ -6246,6 +6282,15 @@
    "sorgu": "Lahmacun",
    "yazar": "No machine-readable author provided. Rainer Zenz assumed (based on copyright cla"
   },
+  "fcf48781d6": {
+   "baslik": "Şiş tavuk (or tavuk şiş).jpg",
+   "kaynak": "Wikimedia Commons",
+   "lisans": "CC BY-SA 4.0",
+   "name": "Tavuk Şiş/ Püreli Soslu Mitite Köfte (Alternatif)",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:%C5%9Ei%C5%9F_tavuk_(or_tavuk_%C5%9Fi%C5%9F).jpg",
+   "sorgu": "Tavuk Şiş",
+   "yazar": "E4024"
+  },
   "fd28caf687": {
    "baslik": "Vegetable soup 8.jpg",
    "kaynak": "Wikimedia Commons",
@@ -6290,6 +6335,15 @@
    "sayfa": "https://commons.wikimedia.org/wiki/File:Ravine_Patates_%C3%A0_Durand.JPG",
    "sorgu": "Patates",
    "yazar": "Chaoborus"
+  },
+  "fec80c98f8": {
+   "baslik": "Rote Linsensuppe (Kırmızı mercimek çorbası).jpg",
+   "kaynak": "Wikimedia Commons",
+   "lisans": "CC BY-SA 4.0",
+   "name": "Kırmızı Mercimek Çorbası",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Rote_Linsensuppe_(K%C4%B1rm%C4%B1z%C4%B1_mercimek_%C3%A7orbas%C4%B1).jpg",
+   "sorgu": "Kırmızı Mercimek Çorbası",
+   "yazar": "Conny"
   },
   "fed037687f": {
    "baslik": "Zeytinyağlı taze fasulye from Turkey.jpg",
@@ -6553,7 +6607,7 @@
   "4d0676c683": "2026-10-20",
   "4d4c7e8241": "2026-10-22",
   "4db64a22b2": "2026-10-20",
-  "4e43df1053": "2026-10-12",
+  "4e43df1053": "2026-10-26",
   "4ec520b02b": "2026-10-22",
   "512b0befa2": "2026-10-08",
   "51314b1266": "2026-10-22",
@@ -6622,9 +6676,11 @@
   "65cf22ffed": "2026-10-18",
   "65fc2a92ed": "2026-10-23",
   "672842b18c": "2026-10-20",
+  "675d0c2d95": "2026-10-26",
   "67b08c663c": "2026-10-19",
   "67d4cf6b38": "2026-10-22",
   "683f4fd8c6": "2026-10-20",
+  "684652805c": "2026-10-26",
   "68ad777da1": "2026-10-25",
   "68ea2f84d2": "2026-10-13",
   "691764876b": "2026-10-20",
@@ -6658,6 +6714,7 @@
   "717cbcb045": "2026-10-18",
   "7260178597": "2026-10-21",
   "72b59cf684": "2026-10-20",
+  "72d987bdb1": "2026-10-26",
   "72ee32990d": "2026-10-22",
   "7385672a3a": "2026-10-18",
   "73dd9b0857": "2026-10-18",
@@ -6676,6 +6733,7 @@
   "77c317eb2a": "2026-10-22",
   "77c8de72c8": "2026-10-20",
   "7837a3b150": "2026-10-21",
+  "783b2a9b05": "2026-10-26",
   "7896f84c22": "2026-10-25",
   "789e0e19e0": "2026-10-18",
   "79066e436c": "2026-10-18",
@@ -6735,6 +6793,7 @@
   "8760624f5a": "2026-10-12",
   "8780f22af6": "2026-10-18",
   "8781de9b33": "2026-10-19",
+  "87d38fda80": "2026-10-26",
   "881b698409": "2026-10-17",
   "8855d35d8d": "2026-10-13",
   "886baf1380": "2026-10-18",
@@ -7025,6 +7084,7 @@
   "df74becef0": "2026-10-22",
   "df906eb588": "2026-10-11",
   "dfb380c71f": "2026-10-21",
+  "e018ebc8f4": "2026-10-26",
   "e04fa62d86": "2026-10-21",
   "e05ede8c7b": "2026-10-18",
   "e080b39b61": "2026-10-17",
