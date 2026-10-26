@@ -1,111 +1,5 @@
 {
  "days": {
-  "2026-10-23": {
-   "breakfast": {
-    "items": [
-     {
-      "img": "dishes/22605468a2.jpg",
-      "key": "22605468a2",
-      "name": "Çay"
-     },
-     {
-      "key": "f7b84ad85a",
-      "name": "Meyve Suyu"
-     },
-     {
-      "img": "dishes/bff26db9ff.jpg",
-      "key": "bff26db9ff",
-      "name": "Süt"
-     },
-     {
-      "key": "b13c329917",
-      "name": "Vişne Reçeli-Tereyağı"
-     },
-     {
-      "key": "d55ffa8efc",
-      "name": "Labne Peynir"
-     },
-     {
-      "img": "dishes/ddc30ae037.jpg",
-      "key": "ddc30ae037",
-      "name": "Simit"
-     },
-     {
-      "key": "d57fd2c8c7",
-      "name": "Patatesli Yumurta"
-     }
-    ]
-   },
-   "dinner": {
-    "items": [
-     {
-      "img": "dishes/64ee8e0b3b.jpg",
-      "key": "64ee8e0b3b",
-      "name": "Düğün Çorbası"
-     },
-     {
-      "img": "dishes/415cd292c5.jpg",
-      "key": "415cd292c5",
-      "name": "Kıymalı Patates Oturtma"
-     },
-     {
-      "key": "fac2949f35",
-      "name": "Yoğurtlu Ispanak"
-     },
-     {
-      "img": "dishes/c47036e360.jpg",
-      "key": "c47036e360",
-      "name": "Elma"
-     }
-    ]
-   },
-   "lunch": {
-    "items": [
-     {
-      "img": "dishes/64ee8e0b3b.jpg",
-      "key": "64ee8e0b3b",
-      "name": "Düğün Çorbası"
-     },
-     {
-      "img": "dishes/415cd292c5.jpg",
-      "key": "415cd292c5",
-      "name": "Kıymalı Patates Oturtma"
-     },
-     {
-      "key": "fac2949f35",
-      "name": "Yoğurtlu Ispanak"
-     },
-     {
-      "img": "dishes/c47036e360.jpg",
-      "key": "c47036e360",
-      "name": "Elma"
-     }
-    ]
-   },
-   "vegetarian": {
-    "items": [
-     {
-      "img": "dishes/0db619554a.jpg",
-      "key": "0db619554a",
-      "name": "Brokoli Çorbası"
-     },
-     {
-      "img": "dishes/dbae728869.jpg",
-      "key": "dbae728869",
-      "name": "Etsiz Patates Yemeği"
-     },
-     {
-      "key": "543929f646",
-      "name": "Zeytinyağlı Ispanak"
-     },
-     {
-      "img": "dishes/9b0f8c8863.jpg",
-      "key": "9b0f8c8863",
-      "name": "Üzüm"
-     }
-    ]
-   }
-  },
   "2026-10-26": {
    "breakfast": {
     "items": [
@@ -2779,5 +2673,5 @@
   }
  },
  "university": "iu",
- "updated": "2026-10-25T20:57:39+03:00"
+ "updated": "2026-10-26T11:14:30+03:00"
 }

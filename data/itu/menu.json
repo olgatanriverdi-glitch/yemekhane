@@ -1,62 +1,5 @@
 {
  "days": {
-  "2026-10-24": {
-   "dinner": {
-    "items": [
-     {
-      "key": "45b97d7ca7",
-      "name": "Yoğurtlu Buğday Çorbası"
-     },
-     {
-      "key": "bf8fcaa99c",
-      "name": "Bahçıvan Köfte"
-     },
-     {
-      "img": "dishes/c0061c55f1.jpg",
-      "key": "c0061c55f1",
-      "name": "Kremalı Mantarlı Fesleğenli Makarna"
-     },
-     {
-      "img": "dishes/16b5c22561.jpg",
-      "key": "16b5c22561",
-      "name": "Ayran"
-     },
-     {
-      "key": "dea73a3f81",
-      "name": "Roka Salatası"
-     }
-    ]
-   },
-   "lunch": {
-    "items": [
-     {
-      "img": "dishes/4e30e73821.jpg",
-      "key": "4e30e73821",
-      "name": "Kremalı Mantar Çorbası"
-     },
-     {
-      "img": "dishes/fbb76e65c4.jpg",
-      "key": "fbb76e65c4",
-      "name": "Etli Kuru Fasulye"
-     },
-     {
-      "img": "dishes/2356abfde0.jpg",
-      "key": "2356abfde0",
-      "name": "Sebzeli Bulgur Pilavı"
-     },
-     {
-      "img": "dishes/e430bca6db.jpg",
-      "key": "e430bca6db",
-      "name": "Haydari"
-     },
-     {
-      "img": "dishes/b6bfa358ce.jpg",
-      "key": "b6bfa358ce",
-      "name": "Trileçe"
-     }
-    ]
-   }
-  },
   "2026-10-25": {
    "dinner": {
     "items": [
@@ -528,5 +471,5 @@
   }
  },
  "university": "itu",
- "updated": "2026-10-25T20:57:39+03:00"
+ "updated": "2026-10-26T11:14:30+03:00"
 }

@@ -1402,10 +1402,6 @@
       "name": "Zeytinyağlı Bamya"
      },
      {
-      "key": "819178651e",
-      "name": "Peynirli Kalem Böreği"
-     },
-     {
       "img": "dishes/e430bca6db.jpg",
       "key": "e430bca6db",
       "name": "Haydari"
@@ -1414,6 +1410,10 @@
       "img": "dishes/aa2426d85c.jpg",
       "key": "aa2426d85c",
       "name": "Mozaik Pasta"
+     },
+     {
+      "key": "8dcba4c0d5",
+      "name": "Peynirli Puf Böreği"
      }
     ]
    }
@@ -1651,5 +1651,5 @@
   }
  },
  "university": "uludag",
- "updated": "2026-10-25T20:57:39+03:00"
+ "updated": "2026-10-26T11:14:30+03:00"
 }

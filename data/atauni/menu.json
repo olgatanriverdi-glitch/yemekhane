@@ -401,8 +401,34 @@
      }
     ]
    }
+  },
+  "2026-10-27": {
+   "lunch": {
+    "items": [
+     {
+      "img": "dishes/2c0e163a7d.jpg",
+      "key": "2c0e163a7d",
+      "name": "Tarhana Çorba"
+     },
+     {
+      "img": "dishes/87f2f5b320.jpg",
+      "key": "87f2f5b320",
+      "name": "Fırında Tavuk"
+     },
+     {
+      "img": "dishes/943fe1113c.jpg",
+      "key": "943fe1113c",
+      "name": "Erişte"
+     },
+     {
+      "img": "dishes/92485508df.jpg",
+      "key": "92485508df",
+      "name": "Tatlı"
+     }
+    ]
+   }
   }
  },
  "university": "atauni",
- "updated": "2026-10-25T20:57:39+03:00"
+ "updated": "2026-10-26T11:14:30+03:00"
 }
