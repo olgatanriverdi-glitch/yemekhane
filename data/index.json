@@ -725,7 +725,7 @@
   },
   {
    "city": "Adana",
-   "firstDay": "2026-09-29",
+   "firstDay": "2026-10-27",
    "hours": {
     "lunch": {
      "approx": true,
@@ -733,7 +733,7 @@
     }
    },
    "id": "cukurova",
-   "lastDay": "2026-11-02",
+   "lastDay": "2026-11-06",
    "meals": [
     "lunch"
    ],
@@ -807,6 +807,6 @@
    "source": "https://www.gaziantep.edu.tr/yemek/"
   }
  ],
- "updated": "2026-10-27T11:31:55+03:00",
+ "updated": "2026-10-27T18:00:20+03:00",
  "version": 1
 }

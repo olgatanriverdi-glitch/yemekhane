@@ -686,35 +686,24 @@
    "lunch": {
     "items": [
      {
-      "kcal": 68,
-      "key": "e47540f7f5",
-      "name": "Domates Çorbası"
+      "key": "da39a3ee5e",
+      "name": "..."
      },
      {
-      "img": "dishes/17d2e9100f.jpg",
-      "kcal": 414,
-      "key": "17d2e9100f",
-      "name": "Tavuk Döner"
+      "key": "da39a3ee5e",
+      "name": "..."
      },
      {
-      "kcal": 283,
-      "key": "8636bfbc0a",
-      "name": "Pirinç Pilavı"
+      "key": "da39a3ee5e",
+      "name": "..."
      },
      {
-      "img": "dishes/c96fd73d5f.jpg",
-      "key": "c96fd73d5f",
-      "name": "Salata"
+      "key": "da39a3ee5e",
+      "name": "..."
      },
      {
-      "img": "dishes/16b5c22561.jpg",
-      "key": "16b5c22561",
-      "name": "Ayran"
-     },
-     {
-      "kcal": 128,
-      "key": "df74becef0",
-      "name": "Roll Ekmek"
+      "key": "da39a3ee5e",
+      "name": "..."
      }
     ]
    }
@@ -755,5 +744,5 @@
   }
  },
  "university": "sbtu",
- "updated": "2026-10-27T11:31:55+03:00"
+ "updated": "2026-10-27T18:00:20+03:00"
 }
