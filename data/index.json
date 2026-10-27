@@ -81,7 +81,7 @@
   },
   {
    "city": "Ankara",
-   "firstDay": "2026-10-24",
+   "firstDay": "2026-10-25",
    "hours": {
     "breakfast": {
      "approx": false,
@@ -329,7 +329,7 @@
   },
   {
    "city": "İstanbul",
-   "firstDay": "2026-10-25",
+   "firstDay": "2026-10-26",
    "hours": {
     "dinner": {
      "approx": false,
@@ -503,7 +503,7 @@
     }
    },
    "id": "ikcu",
-   "lastDay": "2026-10-27",
+   "lastDay": "2026-10-28",
    "meals": [
     "lunch",
     "vegetarian"
@@ -600,7 +600,7 @@
     }
    },
    "id": "atauni",
-   "lastDay": "2026-10-27",
+   "lastDay": "2026-10-28",
    "meals": [
     "lunch"
    ],
@@ -807,6 +807,6 @@
    "source": "https://www.gaziantep.edu.tr/yemek/"
   }
  ],
- "updated": "2026-10-26T18:35:59+03:00",
+ "updated": "2026-10-27T11:31:55+03:00",
  "version": 1
 }

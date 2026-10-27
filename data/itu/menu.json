@@ -1,60 +1,5 @@
 {
  "days": {
-  "2026-10-25": {
-   "dinner": {
-    "items": [
-     {
-      "key": "fce91b9059",
-      "name": "Alaca Çorbası"
-     },
-     {
-      "img": "dishes/05403cc507.jpg",
-      "key": "05403cc507",
-      "name": "Etli Güveç"
-     },
-     {
-      "key": "8636bfbc0a",
-      "name": "Pirinç Pilavı"
-     },
-     {
-      "img": "dishes/5d18931e0d.jpg",
-      "key": "5d18931e0d",
-      "name": "Cevizli Saray Sarma"
-     },
-     {
-      "img": "dishes/9c8d655ef5.jpg",
-      "key": "9c8d655ef5",
-      "name": "Yoğurt"
-     }
-    ]
-   },
-   "lunch": {
-    "items": [
-     {
-      "key": "fab279355e",
-      "name": "Kremalı Domates Çorbası"
-     },
-     {
-      "key": "ed740539b7",
-      "name": "Kıymalı Pırasa"
-     },
-     {
-      "img": "dishes/af6741872c.jpg",
-      "key": "af6741872c",
-      "name": "Fırın Makarna"
-     },
-     {
-      "key": "bce2805a8b",
-      "name": "Nohut Salatası"
-     },
-     {
-      "img": "dishes/aa2426d85c.jpg",
-      "key": "aa2426d85c",
-      "name": "Mozaik Pasta"
-     }
-    ]
-   }
-  },
   "2026-10-26": {
    "dinner": {
     "items": [
@@ -471,5 +416,5 @@
   }
  },
  "university": "itu",
- "updated": "2026-10-26T18:35:59+03:00"
+ "updated": "2026-10-27T11:31:55+03:00"
 }

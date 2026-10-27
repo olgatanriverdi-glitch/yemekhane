@@ -1226,7 +1226,8 @@
       "name": "Çikolatalı Brownie"
      }
     ],
-    "kcal": 1452
+    "kcal": 1452,
+    "photo": "photos/lib/5bf61878c47f.jpg"
    },
    "vegetarian": {
     "items": [
@@ -1424,5 +1425,5 @@
   }
  },
  "university": "ankara",
- "updated": "2026-10-26T18:35:59+03:00"
+ "updated": "2026-10-27T11:31:55+03:00"
 }

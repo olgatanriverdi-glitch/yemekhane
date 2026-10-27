@@ -427,8 +427,34 @@
      }
     ]
    }
+  },
+  "2026-10-28": {
+   "lunch": {
+    "items": [
+     {
+      "img": "dishes/bf8474c8b9.jpg",
+      "key": "bf8474c8b9",
+      "name": "Ezogelin Çorba"
+     },
+     {
+      "img": "dishes/d151de6ce3.jpg",
+      "key": "d151de6ce3",
+      "name": "Çoban Kavurma"
+     },
+     {
+      "img": "dishes/86493234ae.jpg",
+      "key": "86493234ae",
+      "name": "Mercimekli Bulgur Pilavı"
+     },
+     {
+      "img": "dishes/16b5c22561.jpg",
+      "key": "16b5c22561",
+      "name": "Ayran"
+     }
+    ]
+   }
   }
  },
  "university": "atauni",
- "updated": "2026-10-26T18:35:59+03:00"
+ "updated": "2026-10-27T11:31:55+03:00"
 }

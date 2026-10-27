@@ -984,11 +984,6 @@
       "name": "Zeytinyağlı Taze Fasulye"
      },
      {
-      "kcal": 200,
-      "key": "20d3652469",
-      "name": "Pembe Sultann"
-     },
-     {
       "img": "dishes/9cc15e97bd.jpg",
       "kcal": 235,
       "key": "9cc15e97bd",
@@ -1016,9 +1011,18 @@
       "kcal": 100,
       "key": "ea90a960e8",
       "name": "Islak Kek"
+     },
+     {
+      "kcal": 150,
+      "key": "173fb393c8",
+      "name": "Ispanak Tarator"
+     },
+     {
+      "img": "dishes/3c6ebdbdf8.jpg",
+      "key": "3c6ebdbdf8",
+      "name": "Makarna Salatası"
      }
-    ],
-    "kcal": 1883
+    ]
    }
   },
   "2026-10-28": {
@@ -1157,5 +1161,5 @@
   }
  },
  "university": "pamukkale",
- "updated": "2026-10-26T18:35:59+03:00"
+ "updated": "2026-10-27T11:31:55+03:00"
 }
