@@ -1,65 +1,5 @@
 {
  "days": {
-  "2026-10-26": {
-   "dinner": {
-    "items": [
-     {
-      "key": "b09bac10e9",
-      "name": "Mahluta Çorbası"
-     },
-     {
-      "key": "4d0676c683",
-      "name": "Fırın Köfte"
-     },
-     {
-      "img": "dishes/f7b4cf4bd7.jpg",
-      "key": "f7b4cf4bd7",
-      "name": "Arrabiata Soslu Makarna"
-     },
-     {
-      "key": "f7b84ad85a",
-      "name": "Meyve Suyu"
-     },
-     {
-      "key": "347d0474b1",
-      "name": "Havuçlu Kereviz"
-     },
-     {
-      "img": "dishes/65dfdea3d4.jpg",
-      "key": "65dfdea3d4",
-      "name": "Garnitür Patates Püresi"
-     }
-    ]
-   },
-   "lunch": {
-    "items": [
-     {
-      "img": "dishes/4fb733faf2.jpg",
-      "key": "4fb733faf2",
-      "name": "Ezogelin Çorbası"
-     },
-     {
-      "key": "52a050b2a9",
-      "name": "Yoğurtlu Etli Mantı"
-     },
-     {
-      "img": "dishes/e5a17617a9.jpg",
-      "key": "e5a17617a9",
-      "name": "Zeytinyağlı Karnabahar-Brokoli"
-     },
-     {
-      "img": "dishes/099956f884.jpg",
-      "key": "099956f884",
-      "name": "Cevizli Tel Kadayıf"
-     },
-     {
-      "img": "dishes/a3d80c5897.jpg",
-      "key": "a3d80c5897",
-      "name": "Armut"
-     }
-    ]
-   }
-  },
   "2026-10-27": {
    "dinner": {
     "items": [
@@ -416,5 +356,5 @@
   }
  },
  "university": "itu",
- "updated": "2026-10-27T22:58:03+03:00"
+ "updated": "2026-10-28T12:06:12+03:00"
 }

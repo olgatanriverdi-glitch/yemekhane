@@ -1,39 +1,5 @@
 {
  "days": {
-  "2026-10-27": {
-   "lunch": {
-    "items": [
-     {
-      "kcal": 620,
-      "key": "6b542d1597",
-      "name": "Soslu But Special"
-     },
-     {
-      "kcal": 220,
-      "key": "a15214336b",
-      "name": "Fırın Patates (Etsiz)"
-     },
-     {
-      "kcal": 377,
-      "key": "fef6adada3",
-      "name": "Nohutlu Pirinç Pilavı"
-     },
-     {
-      "img": "dishes/16b5c22561.jpg",
-      "kcal": 60,
-      "key": "16b5c22561",
-      "name": "Ayran"
-     },
-     {
-      "img": "dishes/c27879d4fd.jpg",
-      "kcal": 142,
-      "key": "c27879d4fd",
-      "name": "Meyve (Elma)"
-     }
-    ],
-    "kcal": 1419
-   }
-  },
   "2026-10-30": {
    "lunch": {
     "items": [
@@ -216,5 +182,5 @@
   }
  },
  "university": "cukurova",
- "updated": "2026-10-27T22:58:03+03:00"
+ "updated": "2026-10-28T12:06:12+03:00"
 }
