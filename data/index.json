@@ -341,7 +341,7 @@
     }
    },
    "id": "itu",
-   "lastDay": "2026-11-01",
+   "lastDay": "2026-11-08",
    "meals": [
     "dinner",
     "lunch"
@@ -807,6 +807,6 @@
    "source": "https://www.gaziantep.edu.tr/yemek/"
   }
  ],
- "updated": "2026-10-29T12:04:04+03:00",
+ "updated": "2026-10-29T22:55:59+03:00",
  "version": 1
 }
