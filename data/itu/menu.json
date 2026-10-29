@@ -1,62 +1,5 @@
 {
  "days": {
-  "2026-10-27": {
-   "dinner": {
-    "items": [
-     {
-      "img": "dishes/0955218757.jpg",
-      "key": "0955218757",
-      "name": "Mercimek Çorbası"
-     },
-     {
-      "img": "dishes/2c5a28d231.jpg",
-      "key": "2c5a28d231",
-      "name": "Etli Patates"
-     },
-     {
-      "img": "dishes/127bfefbec.jpg",
-      "key": "127bfefbec",
-      "name": "Yeşil Mercimekli Bulgur Pilavı"
-     },
-     {
-      "img": "dishes/e430bca6db.jpg",
-      "key": "e430bca6db",
-      "name": "Haydari"
-     },
-     {
-      "img": "dishes/3a38c0aebb.jpg",
-      "key": "3a38c0aebb",
-      "name": "Sütlaç"
-     }
-    ]
-   },
-   "lunch": {
-    "items": [
-     {
-      "key": "fce91b9059",
-      "name": "Alaca Çorbası"
-     },
-     {
-      "key": "804bb7b3f4",
-      "name": "Piliç Haşlama"
-     },
-     {
-      "img": "dishes/0b9e39c61a.jpg",
-      "key": "0b9e39c61a",
-      "name": "Salçalı Makarna"
-     },
-     {
-      "key": "d14bc2ed6a",
-      "name": "Akdeniz Salatası"
-     },
-     {
-      "img": "dishes/ed47fcacda.jpg",
-      "key": "ed47fcacda",
-      "name": "Pembe Sultan"
-     }
-    ]
-   }
-  },
   "2026-10-28": {
    "dinner": {
     "items": [
@@ -356,5 +299,5 @@
   }
  },
  "university": "itu",
- "updated": "2026-10-28T22:58:22+03:00"
+ "updated": "2026-10-29T12:04:04+03:00"
 }

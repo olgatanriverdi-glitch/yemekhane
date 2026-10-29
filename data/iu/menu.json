@@ -1,111 +1,5 @@
 {
  "days": {
-  "2026-10-26": {
-   "breakfast": {
-    "items": [
-     {
-      "img": "dishes/22605468a2.jpg",
-      "key": "22605468a2",
-      "name": "Çay"
-     },
-     {
-      "key": "f7b84ad85a",
-      "name": "Meyve Suyu"
-     },
-     {
-      "img": "dishes/bff26db9ff.jpg",
-      "key": "bff26db9ff",
-      "name": "Süt"
-     },
-     {
-      "key": "bd44353672",
-      "name": "Bal-Tereyağı"
-     },
-     {
-      "img": "dishes/8690d4fe86.jpg",
-      "key": "8690d4fe86",
-      "name": "Beyaz Peynir"
-     },
-     {
-      "key": "8c8e8ca62a",
-      "name": "Kaşarlı Poğaça"
-     },
-     {
-      "img": "dishes/a402a42c08.jpg",
-      "key": "a402a42c08",
-      "name": "Yeşil Zeytin"
-     }
-    ]
-   },
-   "dinner": {
-    "items": [
-     {
-      "img": "dishes/4fb733faf2.jpg",
-      "key": "4fb733faf2",
-      "name": "Ezogelin Çorbası"
-     },
-     {
-      "img": "dishes/d151de6ce3.jpg",
-      "key": "d151de6ce3",
-      "name": "Çoban Kavurma"
-     },
-     {
-      "key": "8780f22af6",
-      "name": "Yoğurtlu Havuç Tarator"
-     },
-     {
-      "img": "dishes/2e9a9837b2.jpg",
-      "key": "2e9a9837b2",
-      "name": "Cevizli Baklava"
-     }
-    ]
-   },
-   "lunch": {
-    "items": [
-     {
-      "img": "dishes/4fb733faf2.jpg",
-      "key": "4fb733faf2",
-      "name": "Ezogelin Çorbası"
-     },
-     {
-      "img": "dishes/d151de6ce3.jpg",
-      "key": "d151de6ce3",
-      "name": "Çoban Kavurma"
-     },
-     {
-      "key": "8780f22af6",
-      "name": "Yoğurtlu Havuç Tarator"
-     },
-     {
-      "img": "dishes/2e9a9837b2.jpg",
-      "key": "2e9a9837b2",
-      "name": "Cevizli Baklava"
-     }
-    ]
-   },
-   "vegetarian": {
-    "items": [
-     {
-      "img": "dishes/4fb733faf2.jpg",
-      "key": "4fb733faf2",
-      "name": "Ezogelin Çorbası"
-     },
-     {
-      "key": "c3679051de",
-      "name": "Etsiz Bezelye"
-     },
-     {
-      "img": "dishes/5175124eab.jpg",
-      "key": "5175124eab",
-      "name": "Karışık Kızartma Soslu"
-     },
-     {
-      "key": "fece5a0444",
-      "name": "Vişne Kompostosu"
-     }
-    ]
-   }
-  },
   "2026-10-27": {
    "breakfast": {
     "items": [
@@ -2673,5 +2567,5 @@
   }
  },
  "university": "iu",
- "updated": "2026-10-28T22:58:22+03:00"
+ "updated": "2026-10-29T12:04:04+03:00"
 }

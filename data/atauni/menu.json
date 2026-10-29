@@ -453,8 +453,32 @@
      }
     ]
    }
+  },
+  "2026-10-30": {
+   "lunch": {
+    "items": [
+     {
+      "key": "f9e3094533",
+      "name": "Toyga Çorba"
+     },
+     {
+      "img": "dishes/694df91308.jpg",
+      "key": "694df91308",
+      "name": "İzmir Köfte"
+     },
+     {
+      "key": "ccc329e06a",
+      "name": "Sebzeli Pirinç Pilavı"
+     },
+     {
+      "img": "dishes/92485508df.jpg",
+      "key": "92485508df",
+      "name": "Tatlı"
+     }
+    ]
+   }
   }
  },
  "university": "atauni",
- "updated": "2026-10-28T22:58:22+03:00"
+ "updated": "2026-10-29T12:04:04+03:00"
 }
