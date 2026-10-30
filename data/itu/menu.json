@@ -254,8 +254,9 @@
       "name": "Sebzeli Piliç Kebap"
      },
      {
-      "key": "fa4decda6a",
-      "name": "Şehriyeli Pirinç Pilavı"
+      "img": "dishes/7996503754.jpg",
+      "key": "7996503754",
+      "name": "Peynirli Makarna"
      },
      {
       "img": "dishes/aa2426d85c.jpg",
@@ -646,5 +647,5 @@
   }
  },
  "university": "itu",
- "updated": "2026-10-30T12:14:24+03:00"
+ "updated": "2026-10-30T22:46:48+03:00"
 }

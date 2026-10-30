@@ -56,7 +56,7 @@
   },
   {
    "city": "Ankara",
-   "firstDay": "2026-10-05",
+   "firstDay": "2026-11-02",
    "hours": {
     "lunch": {
      "approx": true,
@@ -64,7 +64,7 @@
     }
    },
    "id": "gazi",
-   "lastDay": "2026-10-30",
+   "lastDay": "2026-12-04",
    "meals": [
     "lunch",
     "vegetarian"
@@ -230,7 +230,7 @@
   },
   {
    "city": "Ankara",
-   "firstDay": "2026-10-26",
+   "firstDay": "2026-11-02",
    "hours": {
     "lunch": {
      "approx": false,
@@ -238,7 +238,7 @@
     }
    },
    "id": "mgu",
-   "lastDay": "2026-11-27",
+   "lastDay": "2026-11-30",
    "meals": [
     "lunch"
    ],
@@ -807,6 +807,6 @@
    "source": "https://www.gaziantep.edu.tr/yemek/"
   }
  ],
- "updated": "2026-10-30T12:14:24+03:00",
+ "updated": "2026-10-30T22:46:48+03:00",
  "version": 1
 }

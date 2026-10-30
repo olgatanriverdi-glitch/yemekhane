@@ -1,94 +1,5 @@
 {
  "days": {
-  "2026-10-26": {
-   "lunch": {
-    "items": [
-     {
-      "img": "dishes/22dd093862.jpg",
-      "key": "22dd093862",
-      "name": "Mercimek Çorba"
-     },
-     {
-      "img": "dishes/c94ea723fe.jpg",
-      "key": "c94ea723fe",
-      "name": "Etli Nohut Yemeği"
-     },
-     {
-      "key": "8636bfbc0a",
-      "name": "Pirinç Pilavı"
-     },
-     {
-      "img": "dishes/ed17271d58.jpg",
-      "key": "ed17271d58",
-      "name": "Meyve"
-     },
-     {
-      "img": "dishes/c96fd73d5f.jpg",
-      "key": "c96fd73d5f",
-      "name": "Salata"
-     }
-    ]
-   }
-  },
-  "2026-10-27": {
-   "lunch": {
-    "items": [
-     {
-      "img": "dishes/4782e4b30f.jpg",
-      "key": "4782e4b30f",
-      "name": "Şehriye Çorba"
-     },
-     {
-      "key": "f78936a6c7",
-      "name": "Sultan Kebabı"
-     },
-     {
-      "img": "dishes/cb4993d46f.jpg",
-      "key": "cb4993d46f",
-      "name": "Zeytinyağlı Brokoli"
-     },
-     {
-      "key": "d4985b51c8",
-      "name": "Şekerpare Tatlı"
-     },
-     {
-      "img": "dishes/c96fd73d5f.jpg",
-      "key": "c96fd73d5f",
-      "name": "Salata"
-     }
-    ]
-   }
-  },
-  "2026-10-30": {
-   "lunch": {
-    "items": [
-     {
-      "img": "dishes/bf8474c8b9.jpg",
-      "key": "bf8474c8b9",
-      "name": "Ezogelin Çorba"
-     },
-     {
-      "img": "dishes/0eb251f78d.jpg",
-      "key": "0eb251f78d",
-      "name": "Fırında Sebzeli Tavuk Baget"
-     },
-     {
-      "key": "8636bfbc0a",
-      "name": "Pirinç Pilavı"
-     },
-     {
-      "img": "dishes/ed17271d58.jpg",
-      "key": "ed17271d58",
-      "name": "Meyve"
-     },
-     {
-      "img": "dishes/c96fd73d5f.jpg",
-      "key": "c96fd73d5f",
-      "name": "Salata"
-     }
-    ]
-   }
-  },
   "2026-11-02": {
    "lunch": {
     "items": [
@@ -684,8 +595,38 @@
      }
     ]
    }
+  },
+  "2026-11-30": {
+   "lunch": {
+    "items": [
+     {
+      "img": "dishes/22dd093862.jpg",
+      "key": "22dd093862",
+      "name": "Mercimek Çorba"
+     },
+     {
+      "img": "dishes/c388a27fc7.jpg",
+      "key": "c388a27fc7",
+      "name": "Etli Kuru Fasulye Yemeği"
+     },
+     {
+      "key": "8636bfbc0a",
+      "name": "Pirinç Pilavı"
+     },
+     {
+      "img": "dishes/2f58be7b7a.jpg",
+      "key": "2f58be7b7a",
+      "name": "Cacık"
+     },
+     {
+      "img": "dishes/c96fd73d5f.jpg",
+      "key": "c96fd73d5f",
+      "name": "Salata"
+     }
+    ]
+   }
   }
  },
  "university": "mgu",
- "updated": "2026-10-30T12:14:24+03:00"
+ "updated": "2026-10-30T22:46:48+03:00"
 }
