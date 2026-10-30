@@ -16,11 +16,13 @@
   "2026-10-22": "c89c294984ba",
   "2026-10-23": "1b48a108505e",
   "2026-10-26": "776246ad8f8e",
-  "2026-10-27": "5bf61878c47f"
+  "2026-10-27": "5bf61878c47f",
+  "2026-10-30": "067df1baaa89"
  },
  "main": {
   "025eacfe0c": "8f579a24b2f7",
   "04aa480c87": "e12d07f13338",
+  "1da7bd5f6e": "067df1baaa89",
   "211964d15e": "41a246d21c3d",
   "40082e8861": "cf00a176342e",
   "495c83bde2": "c89c294984ba",
@@ -38,6 +40,16 @@
   "ff8bf920a9": "5b1b2aea2001"
  },
  "menus": {
+  "067df1baaa89": {
+   "added": "2026-10-30",
+   "hash": "09dcfda78f77c87b3aa1e6dd9f359cd232cddad7",
+   "items": [
+    "Kırmızı Mercimek Çorba",
+    "İçli Köfte",
+    "Zeytinyağlı Taze Fasulye",
+    "Halka Tatlı"
+   ]
+  },
   "164fe8b5ccd4": {
    "added": "2026-10-09",
    "hash": "4c76f839e3bc42bbefad0d2624956bbc43d6eed3",

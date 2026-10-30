@@ -10,6 +10,12 @@
       "name": "Sebzeli Dalyan Köfte"
      },
      {
+      "img": "dishes/31b89c15d9.jpg",
+      "kcal": 277,
+      "key": "31b89c15d9",
+      "name": "Etsiz Nohut Yahnisi"
+     },
+     {
       "img": "dishes/7996503754.jpg",
       "kcal": 341,
       "key": "7996503754",
@@ -28,7 +34,7 @@
       "name": "Meyve (Armut)"
      }
     ],
-    "kcal": 822
+    "kcal": 1099
    }
   },
   "2026-11-02": {
@@ -182,5 +188,5 @@
   }
  },
  "university": "cukurova",
- "updated": "2026-10-29T22:55:59+03:00"
+ "updated": "2026-10-30T12:14:24+03:00"
 }

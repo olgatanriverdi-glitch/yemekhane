@@ -1,110 +1,5 @@
 {
  "days": {
-  "2026-10-27": {
-   "breakfast": {
-    "items": [
-     {
-      "img": "dishes/22605468a2.jpg",
-      "key": "22605468a2",
-      "name": "Çay"
-     },
-     {
-      "key": "f7b84ad85a",
-      "name": "Meyve Suyu"
-     },
-     {
-      "img": "dishes/bff26db9ff.jpg",
-      "key": "bff26db9ff",
-      "name": "Süt"
-     },
-     {
-      "img": "dishes/dbab93961a.jpg",
-      "key": "dbab93961a",
-      "name": "Tahin Pekmez"
-     },
-     {
-      "key": "5e5b38bbfe",
-      "name": "Örgü Peynir"
-     },
-     {
-      "img": "dishes/58cbab5fdc.jpg",
-      "key": "58cbab5fdc",
-      "name": "Açma"
-     },
-     {
-      "img": "dishes/7144976785.jpg",
-      "key": "7144976785",
-      "name": "Soslu Sosis"
-     }
-    ]
-   },
-   "dinner": {
-    "items": [
-     {
-      "key": "0afb69c78d",
-      "name": "Kaşarlı Domates Çorbası"
-     },
-     {
-      "img": "dishes/025eacfe0c.jpg",
-      "key": "025eacfe0c",
-      "name": "Etli Taze Fasulye"
-     },
-     {
-      "key": "8636bfbc0a",
-      "name": "Pirinç Pilavı"
-     },
-     {
-      "img": "dishes/9814c6dc58.jpg",
-      "key": "9814c6dc58",
-      "name": "Mandalina"
-     }
-    ]
-   },
-   "lunch": {
-    "items": [
-     {
-      "key": "0afb69c78d",
-      "name": "Kaşarlı Domates Çorbası"
-     },
-     {
-      "img": "dishes/025eacfe0c.jpg",
-      "key": "025eacfe0c",
-      "name": "Etli Taze Fasulye"
-     },
-     {
-      "key": "8636bfbc0a",
-      "name": "Pirinç Pilavı"
-     },
-     {
-      "img": "dishes/9814c6dc58.jpg",
-      "key": "9814c6dc58",
-      "name": "Mandalina"
-     }
-    ]
-   },
-   "vegetarian": {
-    "items": [
-     {
-      "key": "e47540f7f5",
-      "name": "Domates Çorbası"
-     },
-     {
-      "img": "dishes/07539d3f17.jpg",
-      "key": "07539d3f17",
-      "name": "İmam Bayıldı"
-     },
-     {
-      "key": "8636bfbc0a",
-      "name": "Pirinç Pilavı"
-     },
-     {
-      "img": "dishes/c47036e360.jpg",
-      "key": "c47036e360",
-      "name": "Elma"
-     }
-    ]
-   }
-  },
   "2026-10-28": {
    "breakfast": {
     "items": [
@@ -2567,5 +2462,5 @@
   }
  },
  "university": "iu",
- "updated": "2026-10-29T22:55:59+03:00"
+ "updated": "2026-10-30T12:14:24+03:00"
 }

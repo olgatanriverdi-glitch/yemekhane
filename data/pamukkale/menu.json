@@ -1124,11 +1124,6 @@
       "name": "Havuç Tarator"
      },
      {
-      "kcal": 145,
-      "key": "dee414b079",
-      "name": "Ekşili Fasulye"
-     },
-     {
       "img": "dishes/79a315de5a.jpg",
       "key": "79a315de5a",
       "name": "Patlıcan Salata"
@@ -1155,11 +1150,16 @@
       "kcal": 359,
       "key": "d0dd99d58c",
       "name": "Kemal Paşa Tatlısı (Ekstra)"
+     },
+     {
+      "kcal": 120,
+      "key": "11c8df983e",
+      "name": "Barbunya Salatası"
      }
     ]
    }
   }
  },
  "university": "pamukkale",
- "updated": "2026-10-29T22:55:59+03:00"
+ "updated": "2026-10-30T12:14:24+03:00"
 }
