@@ -4,21 +4,25 @@
    "lunch": {
     "items": [
      {
+      "img": "dishes/ecb71f96f1.jpg",
       "kcal": 1,
       "key": "ecb71f96f1",
       "name": "Boş"
      },
      {
+      "img": "dishes/ecb71f96f1.jpg",
       "kcal": 1,
       "key": "ecb71f96f1",
       "name": "Boş"
      },
      {
+      "img": "dishes/ecb71f96f1.jpg",
       "kcal": 1,
       "key": "ecb71f96f1",
       "name": "Boş"
      },
      {
+      "img": "dishes/ecb71f96f1.jpg",
       "kcal": 1,
       "key": "ecb71f96f1",
       "name": "Boş"
@@ -684,5 +688,5 @@
   }
  },
  "university": "cukurova",
- "updated": "2026-10-31T12:02:51+03:00"
+ "updated": "2026-10-31T21:53:55+03:00"
 }

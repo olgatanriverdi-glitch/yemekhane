@@ -147,12 +147,12 @@
    "firstDay": "2026-10-01",
    "hours": {
     "dinner": {
-     "approx": false,
-     "t": "17:00–18:30"
+     "approx": true,
+     "t": "17:00–19:00"
     },
     "lunch": {
-     "approx": false,
-     "t": "11:30–14:00"
+     "approx": true,
+     "t": "11:00–14:00"
     }
    },
    "id": "odtu",
@@ -162,16 +162,7 @@
     "lunch"
    ],
    "name": "Orta Doğu Teknik Üniversitesi",
-   "prices": [
-    {
-     "label": "Öğrenci (Öğle Yemeği)",
-     "tl": 50
-    },
-    {
-     "label": "Öğrenci (Akşam Yemeği)",
-     "tl": 50
-    }
-   ],
+   "prices": [],
    "short": "ODTÜ",
    "source": "https://kafeterya.metu.edu.tr/"
   },
@@ -807,6 +798,6 @@
    "source": "https://www.gaziantep.edu.tr/yemek/"
   }
  ],
- "updated": "2026-10-31T12:02:51+03:00",
+ "updated": "2026-10-31T21:53:55+03:00",
  "version": 1
 }
