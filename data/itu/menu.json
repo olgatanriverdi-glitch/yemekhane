@@ -1,59 +1,5 @@
 {
  "days": {
-  "2026-10-29": {
-   "dinner": {
-    "items": [
-     {
-      "key": "a4976547e4",
-      "name": "Erzincan Çorbası"
-     },
-     {
-      "img": "dishes/fbb76e65c4.jpg",
-      "key": "fbb76e65c4",
-      "name": "Etli Kuru Fasulye"
-     },
-     {
-      "key": "8636bfbc0a",
-      "name": "Pirinç Pilavı"
-     },
-     {
-      "img": "dishes/0a95425edd.jpg",
-      "key": "0a95425edd",
-      "name": "Kıbrıs Tatlısı"
-     },
-     {
-      "key": "3ef45fb941",
-      "name": "Karışık Turşu"
-     }
-    ]
-   },
-   "lunch": {
-    "items": [
-     {
-      "img": "dishes/e73b79f7e6.jpg",
-      "key": "e73b79f7e6",
-      "name": "Tutmaç Çorbası"
-     },
-     {
-      "key": "a43c0db63b",
-      "name": "Beğendili Köfte"
-     },
-     {
-      "img": "dishes/25b07cf14e.jpg",
-      "key": "25b07cf14e",
-      "name": "Bulgur Pilavı"
-     },
-     {
-      "key": "f1db7bea12",
-      "name": "Havuç-Turp Salatası"
-     },
-     {
-      "key": "3ddbc111d2",
-      "name": "Limonata"
-     }
-    ]
-   }
-  },
   "2026-10-30": {
    "dinner": {
     "items": [
@@ -647,5 +593,5 @@
   }
  },
  "university": "itu",
- "updated": "2026-10-30T22:46:48+03:00"
+ "updated": "2026-10-31T12:02:51+03:00"
 }

@@ -1,64 +1,5 @@
 {
  "days": {
-  "2026-10-28": {
-   "breakfast": {
-    "items": [
-     {
-      "img": "dishes/22605468a2.jpg",
-      "key": "22605468a2",
-      "name": "Çay"
-     },
-     {
-      "key": "f7b84ad85a",
-      "name": "Meyve Suyu"
-     },
-     {
-      "img": "dishes/bff26db9ff.jpg",
-      "key": "bff26db9ff",
-      "name": "Süt"
-     },
-     {
-      "key": "fdec71eec9",
-      "name": "Çilek Reçeli-Tereyağı"
-     },
-     {
-      "key": "d55ffa8efc",
-      "name": "Labne Peynir"
-     },
-     {
-      "img": "dishes/ddc30ae037.jpg",
-      "key": "ddc30ae037",
-      "name": "Simit"
-     },
-     {
-      "img": "dishes/61eeda5228.jpg",
-      "key": "61eeda5228",
-      "name": "Domates-Salatalık"
-     }
-    ]
-   },
-   "dinner": {
-    "items": [
-     {
-      "name": "Resmi Tatil"
-     }
-    ]
-   },
-   "lunch": {
-    "items": [
-     {
-      "name": "Resmi Tatil"
-     }
-    ]
-   },
-   "vegetarian": {
-    "items": [
-     {
-      "name": "Resmi Tatil"
-     }
-    ]
-   }
-  },
   "2026-10-29": {
    "breakfast": {
     "items": [
@@ -2462,5 +2403,5 @@
   }
  },
  "university": "iu",
- "updated": "2026-10-30T22:46:48+03:00"
+ "updated": "2026-10-31T12:02:51+03:00"
 }
