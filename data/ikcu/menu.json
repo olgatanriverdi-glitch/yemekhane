@@ -920,8 +920,60 @@
      }
     ]
    }
+  },
+  "2026-11-02": {
+   "lunch": {
+    "items": [
+     {
+      "img": "dishes/22dd093862.jpg",
+      "key": "22dd093862",
+      "name": "Mercimek Çorba"
+     },
+     {
+      "img": "dishes/890b8e3990.jpg",
+      "key": "890b8e3990",
+      "name": "Etli Nohut"
+     },
+     {
+      "img": "dishes/25b07cf14e.jpg",
+      "key": "25b07cf14e",
+      "name": "Bulgur Pilavı"
+     },
+     {
+      "key": "3ef45fb941",
+      "name": "Karışık Turşu"
+     }
+    ]
+   },
+   "vegetarian": {
+    "items": [
+     {
+      "img": "dishes/22dd093862.jpg",
+      "key": "22dd093862",
+      "name": "Mercimek Çorba"
+     },
+     {
+      "img": "dishes/664bfec39c.jpg",
+      "key": "664bfec39c",
+      "name": "Nohut Yemeği"
+     },
+     {
+      "img": "dishes/25b07cf14e.jpg",
+      "key": "25b07cf14e",
+      "name": "Bulgur Pilavı"
+     },
+     {
+      "key": "0f52e5cfc0",
+      "name": "Yoğurtlu Biber"
+     },
+     {
+      "key": "03c91ce467",
+      "name": "Pancar +Havuç Salata"
+     }
+    ]
+   }
   }
  },
  "university": "ikcu",
- "updated": "2026-10-30T22:46:48+03:00"
+ "updated": "2026-11-01T12:52:12+03:00"
 }

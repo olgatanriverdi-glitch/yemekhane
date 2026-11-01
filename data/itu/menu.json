@@ -1,69 +1,5 @@
 {
  "days": {
-  "2026-10-30": {
-   "dinner": {
-    "items": [
-     {
-      "key": "fab279355e",
-      "name": "Kremalı Domates Çorbası"
-     },
-     {
-      "key": "d01d045022",
-      "name": "Fırın Balık (Uskumru)"
-     },
-     {
-      "img": "dishes/f7b4cf4bd7.jpg",
-      "key": "f7b4cf4bd7",
-      "name": "Arrabiata Soslu Makarna"
-     },
-     {
-      "img": "dishes/3d7b828baf.jpg",
-      "key": "3d7b828baf",
-      "name": "Şalgam Suyu"
-     },
-     {
-      "img": "dishes/cc4ac55a9e.jpg",
-      "key": "cc4ac55a9e",
-      "name": "Cevizli İrmik Helvası"
-     },
-     {
-      "key": "7deef2ea4e",
-      "name": "Garnitür Roka Salatası"
-     }
-    ]
-   },
-   "lunch": {
-    "items": [
-     {
-      "img": "dishes/78d4dad707.jpg",
-      "key": "78d4dad707",
-      "name": "Tarhana Çorbası"
-     },
-     {
-      "key": "552664a671",
-      "name": "Mantarlı Et Sote"
-     },
-     {
-      "key": "8f58a53982",
-      "name": "Sebze Graten"
-     },
-     {
-      "img": "dishes/16b5c22561.jpg",
-      "key": "16b5c22561",
-      "name": "Ayran"
-     },
-     {
-      "img": "dishes/c3352ed568.jpg",
-      "key": "c3352ed568",
-      "name": "Kısır"
-     },
-     {
-      "key": "96bf98863d",
-      "name": "Garnitür Pirinç Pilavı"
-     }
-    ]
-   }
-  },
   "2026-10-31": {
    "dinner": {
     "items": [
@@ -593,5 +529,5 @@
   }
  },
  "university": "itu",
- "updated": "2026-10-31T21:53:55+03:00"
+ "updated": "2026-11-01T12:52:12+03:00"
 }
