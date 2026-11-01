@@ -44,6 +44,7 @@
       "name": "Mercimek Çorbası"
      },
      {
+      "img": "dishes/d75c5b1ba7.jpg",
       "kcal": 389,
       "key": "d75c5b1ba7",
       "name": "Kıymalı Ali Nazik"
@@ -185,6 +186,7 @@
    "lunch": {
     "items": [
      {
+      "img": "dishes/eb58cf12f8.jpg",
       "kcal": 150,
       "key": "eb58cf12f8",
       "name": "Yarmalı Yoğurt Çorbası"
@@ -336,6 +338,7 @@
       "name": "Sebze Çorbası"
      },
      {
+      "img": "dishes/979243b46f.jpg",
       "kcal": 306,
       "key": "979243b46f",
       "name": "Fırın Tavuk Kanat- Domates Biber"
@@ -539,6 +542,7 @@
    "lunch": {
     "items": [
      {
+      "img": "dishes/eb58cf12f8.jpg",
       "kcal": 150,
       "key": "eb58cf12f8",
       "name": "Yarmalı Yoğurt Çorbası"
@@ -745,5 +749,5 @@
   }
  },
  "university": "sbtu",
- "updated": "2026-11-01T12:52:12+03:00"
+ "updated": "2026-11-01T22:16:31+03:00"
 }
