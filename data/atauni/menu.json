@@ -501,8 +501,33 @@
      }
     ]
    }
+  },
+  "2026-11-03": {
+   "lunch": {
+    "items": [
+     {
+      "img": "dishes/aa33e149cf.jpg",
+      "key": "aa33e149cf",
+      "name": "Yoğurt Çorba"
+     },
+     {
+      "key": "a72a7569c9",
+      "name": "Püreli Dövme Kebap"
+     },
+     {
+      "img": "dishes/18ccb4d264.jpg",
+      "key": "18ccb4d264",
+      "name": "Soslu Makarna"
+     },
+     {
+      "img": "dishes/ed17271d58.jpg",
+      "key": "ed17271d58",
+      "name": "Meyve"
+     }
+    ]
+   }
   }
  },
  "university": "atauni",
- "updated": "2026-11-01T22:16:31+03:00"
+ "updated": "2026-11-02T13:14:00+03:00"
 }

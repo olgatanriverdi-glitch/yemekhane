@@ -1,65 +1,5 @@
 {
  "days": {
-  "2026-10-31": {
-   "dinner": {
-    "items": [
-     {
-      "img": "dishes/4e30e73821.jpg",
-      "key": "4e30e73821",
-      "name": "Kremalı Mantar Çorbası"
-     },
-     {
-      "key": "5b155550f9",
-      "name": "Kıymalı Biber Dolması"
-     },
-     {
-      "img": "dishes/6481a77c76.jpg",
-      "key": "6481a77c76",
-      "name": "Barbunya Pilaki"
-     },
-     {
-      "img": "dishes/1087b76fa2.jpg",
-      "key": "1087b76fa2",
-      "name": "Revani"
-     },
-     {
-      "img": "dishes/9c8d655ef5.jpg",
-      "key": "9c8d655ef5",
-      "name": "Yoğurt"
-     }
-    ]
-   },
-   "lunch": {
-    "items": [
-     {
-      "img": "dishes/c79dd3c35d.jpg",
-      "key": "c79dd3c35d",
-      "name": "Kremalı Brokoli Çorbası"
-     },
-     {
-      "key": "f6e6cd518c",
-      "name": "Piliç Emense"
-     },
-     {
-      "img": "dishes/0b9e39c61a.jpg",
-      "key": "0b9e39c61a",
-      "name": "Salçalı Makarna"
-     },
-     {
-      "key": "79ded7ea04",
-      "name": "Havuç Tarator"
-     },
-     {
-      "key": "bce2805a8b",
-      "name": "Nohut Salatası"
-     },
-     {
-      "key": "124297d670",
-      "name": "Garnitür Patates Kızartması"
-     }
-    ]
-   }
-  },
   "2026-11-01": {
    "dinner": {
     "items": [
@@ -529,5 +469,5 @@
   }
  },
  "university": "itu",
- "updated": "2026-11-01T22:16:31+03:00"
+ "updated": "2026-11-02T13:14:00+03:00"
 }

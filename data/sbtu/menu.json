@@ -73,35 +73,38 @@
    "lunch": {
     "items": [
      {
-      "img": "dishes/da64dc8fd8.jpg",
-      "kcal": 132,
-      "key": "da64dc8fd8",
-      "name": "Mantar Çorbası"
+      "img": "dishes/78d4dad707.jpg",
+      "kcal": 150,
+      "key": "78d4dad707",
+      "name": "Tarhana Çorbası"
      },
      {
-      "kcal": 215,
-      "key": "2022863e61",
-      "name": "Çiftlik Kebabı"
+      "img": "dishes/17d2e9100f.jpg",
+      "kcal": 414,
+      "key": "17d2e9100f",
+      "name": "Tavuk Döner"
      },
      {
-      "img": "dishes/25b07cf14e.jpg",
-      "kcal": 286,
-      "key": "25b07cf14e",
-      "name": "Bulgur Pilavı"
+      "kcal": 283,
+      "key": "8636bfbc0a",
+      "name": "Pirinç Pilavı"
      },
      {
-      "img": "dishes/3acf2087fe.jpg",
-      "kcal": 120,
-      "key": "3acf2087fe",
-      "name": "Kabak Tatlısı"
+      "img": "dishes/99a67d4042.jpg",
+      "key": "99a67d4042",
+      "name": "Mevsim Salata"
+     },
+     {
+      "img": "dishes/16b5c22561.jpg",
+      "key": "16b5c22561",
+      "name": "Ayran"
      },
      {
       "kcal": 128,
       "key": "df74becef0",
       "name": "Roll Ekmek"
      }
-    ],
-    "kcal": 881
+    ]
    }
   },
   "2026-11-05": {
@@ -148,38 +151,35 @@
    "lunch": {
     "items": [
      {
-      "img": "dishes/78d4dad707.jpg",
-      "kcal": 150,
-      "key": "78d4dad707",
-      "name": "Tarhana Çorbası"
+      "img": "dishes/da64dc8fd8.jpg",
+      "kcal": 132,
+      "key": "da64dc8fd8",
+      "name": "Mantar Çorbası"
      },
      {
-      "img": "dishes/17d2e9100f.jpg",
-      "kcal": 414,
-      "key": "17d2e9100f",
-      "name": "Tavuk Döner"
+      "kcal": 215,
+      "key": "2022863e61",
+      "name": "Çiftlik Kebabı"
      },
      {
-      "kcal": 283,
-      "key": "8636bfbc0a",
-      "name": "Pirinç Pilavı"
+      "img": "dishes/25b07cf14e.jpg",
+      "kcal": 286,
+      "key": "25b07cf14e",
+      "name": "Bulgur Pilavı"
      },
      {
-      "img": "dishes/99a67d4042.jpg",
-      "key": "99a67d4042",
-      "name": "Mevsim Salata"
-     },
-     {
-      "img": "dishes/16b5c22561.jpg",
-      "key": "16b5c22561",
-      "name": "Ayran"
+      "img": "dishes/3acf2087fe.jpg",
+      "kcal": 120,
+      "key": "3acf2087fe",
+      "name": "Kabak Tatlısı"
      },
      {
       "kcal": 128,
       "key": "df74becef0",
       "name": "Roll Ekmek"
      }
-    ]
+    ],
+    "kcal": 881
    }
   },
   "2026-11-09": {
@@ -749,5 +749,5 @@
   }
  },
  "university": "sbtu",
- "updated": "2026-11-01T22:16:31+03:00"
+ "updated": "2026-11-02T13:14:00+03:00"
 }
