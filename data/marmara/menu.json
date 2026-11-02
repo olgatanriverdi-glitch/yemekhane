@@ -15,6 +15,7 @@
       "name": "Biberli Tavuk Kavurma"
      },
      {
+      "img": "dishes/2b3ac733b8.jpg",
       "kcal": 280,
       "key": "2b3ac733b8",
       "name": "Belen Tava (Alternatif)"
@@ -137,6 +138,7 @@
       "name": "Yayla Çorbası"
      },
      {
+      "img": "dishes/e60ccb6e9e.jpg",
       "kcal": 255,
       "key": "e60ccb6e9e",
       "name": "Izgara Köfte Domates Biber"
@@ -260,11 +262,13 @@
       "name": "Brokoli Çorbası"
      },
      {
+      "img": "dishes/6cf9e5a2fe.jpg",
       "kcal": 285,
       "key": "6cf9e5a2fe",
       "name": "Akçaabat Köfte (patates ile)"
      },
      {
+      "img": "dishes/2bbfbf5257.jpg",
       "kcal": 345,
       "key": "2bbfbf5257",
       "name": "Patlıcan Kebabı (Alternatif)"
@@ -316,5 +320,5 @@
   }
  },
  "university": "marmara",
- "updated": "2026-11-02T13:14:00+03:00"
+ "updated": "2026-11-03T01:56:13+03:00"
 }

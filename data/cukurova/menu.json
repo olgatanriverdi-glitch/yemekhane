@@ -1,40 +1,5 @@
 {
  "days": {
-  "2026-11-02": {
-   "lunch": {
-    "items": [
-     {
-      "kcal": 350,
-      "key": "024626c46d",
-      "name": "Izgara Fırın Baget"
-     },
-     {
-      "img": "dishes/efb86b31df.jpg",
-      "kcal": 267,
-      "key": "efb86b31df",
-      "name": "Kuru Fasülye (Etsiz)"
-     },
-     {
-      "kcal": 310,
-      "key": "fc234c58bc",
-      "name": "Tel Şehriyeli Pirinç Pilavı"
-     },
-     {
-      "img": "dishes/2610f75ca2.jpg",
-      "kcal": 20,
-      "key": "2610f75ca2",
-      "name": "Şalgam"
-     },
-     {
-      "img": "dishes/6c3bcaeded.jpg",
-      "kcal": 375,
-      "key": "6c3bcaeded",
-      "name": "Halka Tatlı"
-     }
-    ],
-    "kcal": 1322
-   }
-  },
   "2026-11-03": {
    "lunch": {
     "items": [
@@ -43,6 +8,12 @@
       "kcal": 376,
       "key": "32b33057f9",
       "name": "Patates Musakka"
+     },
+     {
+      "img": "dishes/94e7a0bac9.jpg",
+      "kcal": 444,
+      "key": "94e7a0bac9",
+      "name": "Patates Tava (Etsiz)"
      },
      {
       "img": "dishes/22402adbde.jpg",
@@ -63,7 +34,7 @@
       "name": "Meyve (Mandalina)"
      }
     ],
-    "kcal": 950
+    "kcal": 1394
    }
   },
   "2026-11-04": {
@@ -157,5 +128,5 @@
   }
  },
  "university": "cukurova",
- "updated": "2026-11-02T13:14:00+03:00"
+ "updated": "2026-11-03T01:56:13+03:00"
 }
