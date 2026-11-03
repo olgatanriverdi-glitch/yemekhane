@@ -38,6 +38,7 @@
       "name": "Yayla Çorba"
      },
      {
+      "img": "dishes/b513df0566.jpg",
       "kcal": 329,
       "key": "b513df0566",
       "name": "Tavuklu Belen Tava"
@@ -74,11 +75,13 @@
       "name": "İzmir Köfte"
      },
      {
+      "img": "dishes/92a452b98c.jpg",
       "kcal": 391,
       "key": "92a452b98c",
       "name": "Firik Pilavı"
      },
      {
+      "img": "dishes/b7a7d996b1.jpg",
       "kcal": 98,
       "key": "b7a7d996b1",
       "name": "Meyve (Portakal)"
@@ -97,6 +100,7 @@
       "name": "Yayla Çorba"
      },
      {
+      "img": "dishes/04ef6c6bc0.jpg",
       "kcal": 657,
       "key": "04ef6c6bc0",
       "name": "Garnitürlü Tavuk Baget"
@@ -218,6 +222,7 @@
       "name": "Yayla Çorba"
      },
      {
+      "img": "dishes/805bf6bdc6.jpg",
       "kcal": 554,
       "key": "805bf6bdc6",
       "name": "Bahçivan Kebabı"
@@ -368,6 +373,7 @@
       "name": "Mercimek Çorba"
      },
      {
+      "img": "dishes/a31c23f0c9.jpg",
       "kcal": 555,
       "key": "a31c23f0c9",
       "name": "Antep Yuvalama"
@@ -397,6 +403,7 @@
       "name": "Ezogelin Çorba"
      },
      {
+      "img": "dishes/2f8f8611f5.jpg",
       "kcal": 879,
       "key": "2f8f8611f5",
       "name": "Susamlı Tavuk Baget"
@@ -408,6 +415,7 @@
       "name": "Şehriyeli Bulgur Pilavı"
      },
      {
+      "img": "dishes/b7a7d996b1.jpg",
       "kcal": 98,
       "key": "b7a7d996b1",
       "name": "Meyve (Portakal)"
@@ -584,6 +592,7 @@
       "name": "Şehriyeli Pirinç Pilavı"
      },
      {
+      "img": "dishes/2c9424a394.jpg",
       "kcal": 430,
       "key": "2c9424a394",
       "name": "Kakaolu Muhallebi"
@@ -623,5 +632,5 @@
   }
  },
  "university": "gaziantep",
- "updated": "2026-11-03T13:14:59+03:00"
+ "updated": "2026-11-03T23:41:57+03:00"
 }

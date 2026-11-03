@@ -703,6 +703,7 @@
       "name": "Peynirli Börek"
      },
      {
+      "img": "dishes/8f135693c1.jpg",
       "kcal": 120,
       "key": "8f135693c1",
       "name": "Çikolatalı Islak Kek"
@@ -729,6 +730,7 @@
       "name": "Yoğurtlu Etli Mantı"
      },
      {
+      "img": "dishes/8254952b25.jpg",
       "kcal": 78,
       "key": "8254952b25",
       "name": "Zeytinyağlı Havuç-Karnabahar-Brokoli"
@@ -749,5 +751,5 @@
   }
  },
  "university": "sbtu",
- "updated": "2026-11-03T13:14:59+03:00"
+ "updated": "2026-11-03T23:41:57+03:00"
 }

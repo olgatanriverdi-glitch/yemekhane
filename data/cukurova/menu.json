@@ -41,6 +41,7 @@
    "lunch": {
     "items": [
      {
+      "img": "dishes/32645003e2.jpg",
       "kcal": 300,
       "key": "32645003e2",
       "name": "Püreli Piliç Izgara"
@@ -127,5 +128,5 @@
   }
  },
  "university": "cukurova",
- "updated": "2026-11-03T13:14:59+03:00"
+ "updated": "2026-11-03T23:41:57+03:00"
 }
