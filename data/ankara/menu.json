@@ -154,7 +154,8 @@
       "name": "Havuç Tarator"
      }
     ],
-    "kcal": 1458
+    "kcal": 1458,
+    "photo": "photos/lib/001da2fb49d8.jpg"
    },
    "vegetarian": {
     "items": [
@@ -1458,5 +1459,5 @@
   }
  },
  "university": "ankara",
- "updated": "2026-11-03T01:56:13+03:00"
+ "updated": "2026-11-03T13:14:59+03:00"
 }

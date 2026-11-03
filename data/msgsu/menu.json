@@ -366,6 +366,7 @@
       "name": "Pirinç Pilavı"
      },
      {
+      "img": "dishes/d4992cbb7a.jpg",
       "key": "d4992cbb7a",
       "name": "Mevsım Salata"
      }
@@ -460,6 +461,7 @@
       "name": "Domates Çorba"
      },
      {
+      "img": "dishes/f5aeddc954.jpg",
       "key": "f5aeddc954",
       "name": "Cordon Bleu"
      },
@@ -594,5 +596,5 @@
   }
  },
  "university": "msgsu",
- "updated": "2026-11-03T01:56:13+03:00"
+ "updated": "2026-11-03T13:14:59+03:00"
 }

@@ -41,10 +41,9 @@
    "lunch": {
     "items": [
      {
-      "img": "dishes/5dcd1aedbd.jpg",
-      "kcal": 535,
-      "key": "5dcd1aedbd",
-      "name": "Soslu Fırın Tavuk"
+      "kcal": 300,
+      "key": "32645003e2",
+      "name": "Püreli Piliç Izgara"
      },
      {
       "kcal": 310,
@@ -63,7 +62,7 @@
       "name": "Ayran"
      }
     ],
-    "kcal": 1025
+    "kcal": 790
    }
   },
   "2026-11-05": {
@@ -128,5 +127,5 @@
   }
  },
  "university": "cukurova",
- "updated": "2026-11-03T01:56:13+03:00"
+ "updated": "2026-11-03T13:14:59+03:00"
 }

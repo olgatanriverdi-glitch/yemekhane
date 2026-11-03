@@ -1,68 +1,5 @@
 {
  "days": {
-  "2026-11-01": {
-   "dinner": {
-    "items": [
-     {
-      "img": "dishes/4fb733faf2.jpg",
-      "key": "4fb733faf2",
-      "name": "Ezogelin Çorbası"
-     },
-     {
-      "img": "dishes/85b7944a41.jpg",
-      "key": "85b7944a41",
-      "name": "Tas Kebabı"
-     },
-     {
-      "img": "dishes/7637343502.jpg",
-      "key": "7637343502",
-      "name": "Zeytinyağlı Kereviz"
-     },
-     {
-      "img": "dishes/5b7bbc3ecc.jpg",
-      "key": "5b7bbc3ecc",
-      "name": "Portakal"
-     },
-     {
-      "key": "6d0ead057a",
-      "name": "Yoğurtlu Kuskus Salatası"
-     },
-     {
-      "img": "dishes/17acd2b4b1.jpg",
-      "key": "17acd2b4b1",
-      "name": "Garnitür Bulgur Pilavı"
-     }
-    ]
-   },
-   "lunch": {
-    "items": [
-     {
-      "img": "dishes/64ee8e0b3b.jpg",
-      "key": "64ee8e0b3b",
-      "name": "Düğün Çorbası"
-     },
-     {
-      "img": "dishes/c59b9eaa6e.jpg",
-      "key": "c59b9eaa6e",
-      "name": "Etli Bezelye"
-     },
-     {
-      "key": "57d2d2d906",
-      "name": "Mısırlı Pirinç Pilavı"
-     },
-     {
-      "img": "dishes/e430bca6db.jpg",
-      "key": "e430bca6db",
-      "name": "Haydari"
-     },
-     {
-      "img": "dishes/7f43705206.jpg",
-      "key": "7f43705206",
-      "name": "Osmanlı Tulumba Tatlısı"
-     }
-    ]
-   }
-  },
   "2026-11-02": {
    "dinner": {
     "items": [
@@ -469,5 +406,5 @@
   }
  },
  "university": "itu",
- "updated": "2026-11-03T01:56:13+03:00"
+ "updated": "2026-11-03T13:14:59+03:00"
 }

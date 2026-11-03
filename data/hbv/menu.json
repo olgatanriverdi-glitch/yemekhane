@@ -34,16 +34,16 @@
    "lunch": {
     "items": [
      {
-      "img": "dishes/2c0e163a7d.jpg",
+      "img": "dishes/609e4d1fa0.jpg",
       "kcal": 150,
-      "key": "2c0e163a7d",
-      "name": "Tarhana Çorba"
+      "key": "609e4d1fa0",
+      "name": "Kremalı Sebze Çorba"
      },
      {
-      "img": "dishes/c94ea723fe.jpg",
+      "img": "dishes/664bfec39c.jpg",
       "kcal": 390,
-      "key": "c94ea723fe",
-      "name": "Etli Nohut Yemeği"
+      "key": "664bfec39c",
+      "name": "Nohut Yemeği"
      },
      {
       "kcal": 265,
@@ -622,5 +622,5 @@
   }
  },
  "university": "hbv",
- "updated": "2026-11-03T01:56:13+03:00"
+ "updated": "2026-11-03T13:14:59+03:00"
 }

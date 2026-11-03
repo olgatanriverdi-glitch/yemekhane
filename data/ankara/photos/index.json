@@ -18,7 +18,8 @@
   "2026-10-26": "776246ad8f8e",
   "2026-10-27": "5bf61878c47f",
   "2026-10-30": "067df1baaa89",
-  "2026-11-02": "41ca78a13cd7"
+  "2026-11-02": "41ca78a13cd7",
+  "2026-11-03": "001da2fb49d8"
  },
  "main": {
   "025eacfe0c": "8f579a24b2f7",
@@ -28,6 +29,7 @@
   "211964d15e": "41a246d21c3d",
   "40082e8861": "cf00a176342e",
   "495c83bde2": "c89c294984ba",
+  "4b76564c9a": "001da2fb49d8",
   "5acb48cd86": "776246ad8f8e",
   "5de18824bc": "e2956e24cd10",
   "613616e611": "cb1148062900",
@@ -42,6 +44,16 @@
   "ff8bf920a9": "5b1b2aea2001"
  },
  "menus": {
+  "001da2fb49d8": {
+   "added": "2026-11-03",
+   "hash": "2887673fa5cf4de4007f823a60f64c7b36298ac0",
+   "items": [
+    "Şehriye Çorba",
+    "Rosto Köfte/Patates Kızartması",
+    "Bulgur Pilavı",
+    "Havuç Tarator"
+   ]
+  },
   "067df1baaa89": {
    "added": "2026-10-30",
    "hash": "09dcfda78f77c87b3aa1e6dd9f359cd232cddad7",

@@ -1034,6 +1034,7 @@
       "name": "Mercimek Çorba"
      },
      {
+      "img": "dishes/380dbc2f22.jpg",
       "key": "380dbc2f22",
       "name": "Et Güveç"
      },
@@ -1068,6 +1069,7 @@
       "name": "Üzüm Komposto"
      },
      {
+      "img": "dishes/a9037c1cff.jpg",
       "key": "a9037c1cff",
       "name": "Antep Ezme"
      }
@@ -1076,5 +1078,5 @@
   }
  },
  "university": "ikcu",
- "updated": "2026-11-03T01:56:13+03:00"
+ "updated": "2026-11-03T13:14:59+03:00"
 }
