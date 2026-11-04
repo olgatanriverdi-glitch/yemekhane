@@ -261,9 +261,9 @@
       "name": "Pirinç Pilavı"
      },
      {
-      "img": "dishes/de8670087d.jpg",
-      "key": "de8670087d",
-      "name": "Baklava"
+      "img": "dishes/9c2a89017d.jpg",
+      "key": "9c2a89017d",
+      "name": "Soğuk Baklava"
      }
     ],
     "kcal": 1200
@@ -284,9 +284,9 @@
       "name": "Pirinç Pilavı"
      },
      {
-      "img": "dishes/de8670087d.jpg",
-      "key": "de8670087d",
-      "name": "Baklava"
+      "img": "dishes/9c2a89017d.jpg",
+      "key": "9c2a89017d",
+      "name": "Soğuk Baklava"
      }
     ]
    }
@@ -405,8 +405,8 @@
       "name": "Pirinç Pilavı"
      },
      {
-      "key": "dc27d198c0",
-      "name": "Yoğ.lu Pancar Salatası"
+      "key": "082a3d645d",
+      "name": "Yoğurtlu Pancar Salatası"
      }
     ],
     "kcal": 1150
@@ -428,8 +428,8 @@
       "name": "Pirinç Pilavı"
      },
      {
-      "key": "dc27d198c0",
-      "name": "Yoğ.lu Pancar Salatası"
+      "key": "082a3d645d",
+      "name": "Yoğurtlu Pancar Salatası"
      }
     ]
    }
@@ -1212,5 +1212,5 @@
   }
  },
  "university": "gazi",
- "updated": "2026-11-03T23:41:57+03:00"
+ "updated": "2026-11-04T13:07:09+03:00"
 }

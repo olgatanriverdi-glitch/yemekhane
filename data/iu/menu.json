@@ -266,9 +266,9 @@
       "name": "Yoğurtlu Havuç Tarator"
      },
      {
-      "img": "dishes/2e9a9837b2.jpg",
-      "key": "2e9a9837b2",
-      "name": "Cevizli Baklava"
+      "img": "dishes/c914dabbd7.jpg",
+      "key": "c914dabbd7",
+      "name": "Tel Kadayıf"
      }
     ]
    },
@@ -288,9 +288,9 @@
       "name": "Yoğurtlu Havuç Tarator"
      },
      {
-      "img": "dishes/2e9a9837b2.jpg",
-      "key": "2e9a9837b2",
-      "name": "Cevizli Baklava"
+      "img": "dishes/c914dabbd7.jpg",
+      "key": "c914dabbd7",
+      "name": "Tel Kadayıf"
      }
     ]
    },
@@ -2262,5 +2262,5 @@
   }
  },
  "university": "iu",
- "updated": "2026-11-03T23:41:57+03:00"
+ "updated": "2026-11-04T13:07:09+03:00"
 }

@@ -1,61 +1,5 @@
 {
  "days": {
-  "2026-11-02": {
-   "dinner": {
-    "items": [
-     {
-      "img": "dishes/0955218757.jpg",
-      "key": "0955218757",
-      "name": "Mercimek Çorbası"
-     },
-     {
-      "key": "2f47dfc743",
-      "name": "Sebzeli Piliç Kebap"
-     },
-     {
-      "img": "dishes/7996503754.jpg",
-      "key": "7996503754",
-      "name": "Peynirli Makarna"
-     },
-     {
-      "img": "dishes/aa2426d85c.jpg",
-      "key": "aa2426d85c",
-      "name": "Mozaik Pasta"
-     },
-     {
-      "img": "dishes/2be1b1ba72.jpg",
-      "key": "2be1b1ba72",
-      "name": "Kola"
-     }
-    ]
-   },
-   "lunch": {
-    "items": [
-     {
-      "key": "67b08c663c",
-      "name": "Kremalı Ispanak Çorbası"
-     },
-     {
-      "key": "513cbb5ac4",
-      "name": "Harput Köfte"
-     },
-     {
-      "key": "8636bfbc0a",
-      "name": "Pirinç Pilavı"
-     },
-     {
-      "img": "dishes/2f58be7b7a.jpg",
-      "key": "2f58be7b7a",
-      "name": "Cacık"
-     },
-     {
-      "img": "dishes/23f8e27f8d.jpg",
-      "key": "23f8e27f8d",
-      "name": "Karnabahar-Brokoli Salatası"
-     }
-    ]
-   }
-  },
   "2026-11-03": {
    "dinner": {
     "items": [
@@ -406,5 +350,5 @@
   }
  },
  "university": "itu",
- "updated": "2026-11-03T23:41:57+03:00"
+ "updated": "2026-11-04T13:07:09+03:00"
 }

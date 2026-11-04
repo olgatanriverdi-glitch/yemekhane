@@ -1,50 +1,18 @@
 {
  "days": {
-  "2026-11-03": {
-   "lunch": {
-    "items": [
-     {
-      "img": "dishes/32b33057f9.jpg",
-      "kcal": 376,
-      "key": "32b33057f9",
-      "name": "Patates Musakka"
-     },
-     {
-      "img": "dishes/94e7a0bac9.jpg",
-      "kcal": 444,
-      "key": "94e7a0bac9",
-      "name": "Patates Tava (Etsiz)"
-     },
-     {
-      "img": "dishes/22402adbde.jpg",
-      "kcal": 352,
-      "key": "22402adbde",
-      "name": "Tel Şehriyeli Bulgur Pilavı"
-     },
-     {
-      "img": "dishes/2f58be7b7a.jpg",
-      "kcal": 97,
-      "key": "2f58be7b7a",
-      "name": "Cacık"
-     },
-     {
-      "img": "dishes/a24579c282.jpg",
-      "kcal": 125,
-      "key": "a24579c282",
-      "name": "Meyve (Mandalina)"
-     }
-    ],
-    "kcal": 1394
-   }
-  },
   "2026-11-04": {
    "lunch": {
     "items": [
      {
-      "img": "dishes/32645003e2.jpg",
+      "img": "dishes/23dba3bb85.jpg",
       "kcal": 300,
-      "key": "32645003e2",
-      "name": "Püreli Piliç Izgara"
+      "key": "23dba3bb85",
+      "name": "Piliç Izgara"
+     },
+     {
+      "kcal": 100,
+      "key": "b79321e9e3",
+      "name": "Mantar Kavurma"
      },
      {
       "kcal": 310,
@@ -63,7 +31,7 @@
       "name": "Ayran"
      }
     ],
-    "kcal": 790
+    "kcal": 890
    }
   },
   "2026-11-05": {
@@ -128,5 +96,5 @@
   }
  },
  "university": "cukurova",
- "updated": "2026-11-03T23:41:57+03:00"
+ "updated": "2026-11-04T13:07:09+03:00"
 }

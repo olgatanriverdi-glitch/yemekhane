@@ -552,8 +552,32 @@
      }
     ]
    }
+  },
+  "2026-11-05": {
+   "lunch": {
+    "items": [
+     {
+      "img": "dishes/e8b8cd2e28.jpg",
+      "key": "e8b8cd2e28",
+      "name": "Yoğurtlu Şehriye Çorba"
+     },
+     {
+      "img": "dishes/a4afe0f46b.jpg",
+      "key": "a4afe0f46b",
+      "name": "Sebzeli Kebap"
+     },
+     {
+      "key": "fa4decda6a",
+      "name": "Şehriyeli Pirinç Pilavı"
+     },
+     {
+      "key": "f7b84ad85a",
+      "name": "Meyve Suyu"
+     }
+    ]
+   }
   }
  },
  "university": "atauni",
- "updated": "2026-11-03T23:41:57+03:00"
+ "updated": "2026-11-04T13:07:09+03:00"
 }
