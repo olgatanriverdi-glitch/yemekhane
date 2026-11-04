@@ -866,8 +866,217 @@
      }
     ]
    }
+  },
+  "2026-10-30": {
+   "lunch": {
+    "items": [
+     {
+      "img": "dishes/bf8474c8b9.jpg",
+      "key": "bf8474c8b9",
+      "name": "Ezogelin Çorba"
+     },
+     {
+      "key": "67d4cf6b38",
+      "name": "Sebzeli Tavuk Sote"
+     },
+     {
+      "img": "dishes/bac7d91091.jpg",
+      "key": "bac7d91091",
+      "name": "Makarna"
+     },
+     {
+      "img": "dishes/ed17271d58.jpg",
+      "key": "ed17271d58",
+      "name": "Meyve"
+     }
+    ]
+   },
+   "vegetarian": {
+    "items": [
+     {
+      "img": "dishes/bf8474c8b9.jpg",
+      "key": "bf8474c8b9",
+      "name": "Ezogelin Çorba"
+     },
+     {
+      "img": "dishes/2f47d03cf0.jpg",
+      "key": "2f47d03cf0",
+      "name": "Zeytinyağlı Taze Fasulye"
+     },
+     {
+      "img": "dishes/bac7d91091.jpg",
+      "key": "bac7d91091",
+      "name": "Makarna"
+     },
+     {
+      "img": "dishes/ed17271d58.jpg",
+      "key": "ed17271d58",
+      "name": "Meyve"
+     },
+     {
+      "img": "dishes/e430bca6db.jpg",
+      "key": "e430bca6db",
+      "name": "Haydari"
+     }
+    ]
+   }
+  },
+  "2026-11-02": {
+   "lunch": {
+    "items": [
+     {
+      "img": "dishes/22dd093862.jpg",
+      "key": "22dd093862",
+      "name": "Mercimek Çorba"
+     },
+     {
+      "img": "dishes/890b8e3990.jpg",
+      "key": "890b8e3990",
+      "name": "Etli Nohut"
+     },
+     {
+      "img": "dishes/25b07cf14e.jpg",
+      "key": "25b07cf14e",
+      "name": "Bulgur Pilavı"
+     },
+     {
+      "key": "3ef45fb941",
+      "name": "Karışık Turşu"
+     }
+    ]
+   },
+   "vegetarian": {
+    "items": [
+     {
+      "img": "dishes/22dd093862.jpg",
+      "key": "22dd093862",
+      "name": "Mercimek Çorba"
+     },
+     {
+      "img": "dishes/664bfec39c.jpg",
+      "key": "664bfec39c",
+      "name": "Nohut Yemeği"
+     },
+     {
+      "img": "dishes/25b07cf14e.jpg",
+      "key": "25b07cf14e",
+      "name": "Bulgur Pilavı"
+     },
+     {
+      "key": "0f52e5cfc0",
+      "name": "Yoğurtlu Biber"
+     },
+     {
+      "key": "03c91ce467",
+      "name": "Pancar +Havuç Salata"
+     }
+    ]
+   }
+  },
+  "2026-11-03": {
+   "lunch": {
+    "items": [
+     {
+      "img": "dishes/2c0e163a7d.jpg",
+      "key": "2c0e163a7d",
+      "name": "Tarhana Çorba"
+     },
+     {
+      "key": "2d3437873e",
+      "name": "Kekikli Kremalı Tavuk"
+     },
+     {
+      "img": "dishes/18ccb4d264.jpg",
+      "key": "18ccb4d264",
+      "name": "Soslu Makarna"
+     },
+     {
+      "img": "dishes/ed47fcacda.jpg",
+      "key": "ed47fcacda",
+      "name": "Pembe Sultan"
+     }
+    ]
+   },
+   "vegetarian": {
+    "items": [
+     {
+      "img": "dishes/2c0e163a7d.jpg",
+      "key": "2c0e163a7d",
+      "name": "Tarhana Çorba"
+     },
+     {
+      "key": "18a194675e",
+      "name": "Z.Y. Kereviz"
+     },
+     {
+      "img": "dishes/18ccb4d264.jpg",
+      "key": "18ccb4d264",
+      "name": "Soslu Makarna"
+     },
+     {
+      "img": "dishes/59bb5b26e5.jpg",
+      "key": "59bb5b26e5",
+      "name": "Humus"
+     },
+     {
+      "key": "b81114965e",
+      "name": "Mor Lahana Mezesi"
+     }
+    ]
+   }
+  },
+  "2026-11-04": {
+   "lunch": {
+    "items": [
+     {
+      "img": "dishes/22dd093862.jpg",
+      "key": "22dd093862",
+      "name": "Mercimek Çorba"
+     },
+     {
+      "img": "dishes/380dbc2f22.jpg",
+      "key": "380dbc2f22",
+      "name": "Et Güveç"
+     },
+     {
+      "img": "dishes/defc88bfca.jpg",
+      "key": "defc88bfca",
+      "name": "Gül Böreği"
+     },
+     {
+      "key": "7bf4a7774b",
+      "name": "Üzüm Komposto"
+     }
+    ]
+   },
+   "vegetarian": {
+    "items": [
+     {
+      "img": "dishes/22dd093862.jpg",
+      "key": "22dd093862",
+      "name": "Mercimek Çorba"
+     },
+     {
+      "key": "022d458336",
+      "name": "Mevsim Türlü"
+     },
+     {
+      "key": "4e43df1053",
+      "name": "Fellah Köfte"
+     },
+     {
+      "key": "7bf4a7774b",
+      "name": "Üzüm Komposto"
+     },
+     {
+      "img": "dishes/a9037c1cff.jpg",
+      "key": "a9037c1cff",
+      "name": "Antep Ezme"
+     }
+    ]
+   }
   }
  },
  "university": "ikcu",
- "updated": "2026-10-27T11:31:55+03:00"
+ "updated": "2026-11-03T23:41:57+03:00"
 }
