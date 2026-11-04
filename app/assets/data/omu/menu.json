@@ -9,6 +9,7 @@
       "name": "Brokoli Çorba"
      },
      {
+      "img": "dishes/47f7f4a633.jpg",
       "key": "47f7f4a633",
       "name": "Kıymalı Nohut"
      },
@@ -68,6 +69,7 @@
       "name": "Fırın Makarna"
      },
      {
+      "img": "dishes/8bb2930cea.jpg",
       "key": "8bb2930cea",
       "name": "Cevizli Burma Kadayıf"
      }
@@ -107,6 +109,7 @@
       "name": "Sebze Çorba"
      },
      {
+      "img": "dishes/7cd7f2621e.jpg",
       "key": "7cd7f2621e",
       "name": "Kıymalı Kuru Fasulye"
      },
@@ -115,6 +118,7 @@
       "name": "Şehriyeli Pirinç Pilavı"
      },
      {
+      "img": "dishes/403a584ec3.jpg",
       "key": "403a584ec3",
       "name": "Turşu Kavurma"
      }
@@ -180,6 +184,7 @@
       "name": "Şehriye Çorba"
      },
      {
+      "img": "dishes/0e0e520868.jpg",
       "key": "0e0e520868",
       "name": "Hünkar Beğendi"
      },
@@ -205,10 +210,12 @@
       "name": "Düğün Çorba"
      },
      {
+      "img": "dishes/aa2ae41dc4.jpg",
       "key": "aa2ae41dc4",
       "name": "Pilavüstü Fırın Tavuk"
      },
      {
+      "img": "dishes/23ce7fb038.jpg",
       "key": "23ce7fb038",
       "name": "Zeytinyağlı Yoğurtlu Brokoli"
      },
@@ -232,6 +239,7 @@
       "name": "Yoğurtlu Köfte Kebabı"
      },
      {
+      "img": "dishes/97a7f04327.jpg",
       "key": "97a7f04327",
       "name": "Piyaz"
      },
@@ -251,10 +259,12 @@
       "name": "Mahluta Çorba"
      },
      {
+      "img": "dishes/11e519bd24.jpg",
       "key": "11e519bd24",
       "name": "Et Yahni"
      },
      {
+      "img": "dishes/2356abfde0.jpg",
       "key": "2356abfde0",
       "name": "Sebzeli Bulgur Pilavı"
      },
@@ -334,6 +344,7 @@
       "name": "Milföy Böreği"
      },
      {
+      "img": "dishes/058b95728b.jpg",
       "key": "058b95728b",
       "name": "Sütlü Muhallebi"
      }
@@ -373,6 +384,7 @@
       "name": "Mercimek Çorba"
      },
      {
+      "img": "dishes/4f24dc85f2.jpg",
       "key": "4f24dc85f2",
       "name": "Lavaş Pilavüstü Et Döner"
      },
@@ -393,6 +405,7 @@
    "lunch": {
     "items": [
      {
+      "img": "dishes/e3fefbc26e.jpg",
       "key": "e3fefbc26e",
       "name": "Tavuksuyu Çorba"
      },
@@ -405,6 +418,7 @@
       "name": "Cevizli Erişte Pilavı"
      },
      {
+      "img": "dishes/ed47fcacda.jpg",
       "key": "ed47fcacda",
       "name": "Pembe Sultan"
      }
@@ -442,6 +456,7 @@
       "name": "Mahluta Çorba"
      },
      {
+      "img": "dishes/feff2a6396.jpg",
       "key": "feff2a6396",
       "name": "Kıymalı Biber Dolma"
      },
@@ -486,5 +501,5 @@
   }
  },
  "university": "omu",
- "updated": "2026-10-05T09:44:44+03:00"
+ "updated": "2026-10-15T10:48:57+03:00"
 }

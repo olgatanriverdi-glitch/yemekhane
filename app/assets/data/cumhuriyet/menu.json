@@ -35,6 +35,7 @@
       "name": "Tavuk Rosto Köfte"
      },
      {
+      "img": "dishes/2356abfde0.jpg",
       "key": "2356abfde0",
       "name": "Sebzeli Bulgur Pilavı"
      },
@@ -88,6 +89,7 @@
       "name": "Mercimekli Bulgur Pilavı"
      },
      {
+      "img": "dishes/8eb544916b.jpg",
       "key": "8eb544916b",
       "name": "Şekerpare Tatlısı"
      }
@@ -131,6 +133,7 @@
       "name": "Sucuk İçi Köfte"
      },
      {
+      "img": "dishes/c1cd803af6.jpg",
       "key": "c1cd803af6",
       "name": "Acılı Bulgur Pilavı"
      },
@@ -154,6 +157,7 @@
       "name": "Sebzeli Tavuk Kızartma"
      },
      {
+      "img": "dishes/f06ea6287d.jpg",
       "key": "f06ea6287d",
       "name": "Yoğurtlu Karışık Kızartma"
      },
@@ -223,6 +227,7 @@
       "name": "İzmir Köfte"
      },
      {
+      "img": "dishes/7753ad8d4b.jpg",
       "key": "7753ad8d4b",
       "name": "Sebzeli Burgu Makarna"
      },
@@ -242,6 +247,7 @@
       "name": "Çeşminigar Çorba"
      },
      {
+      "img": "dishes/d7a96da313.jpg",
       "key": "d7a96da313",
       "name": "Patlıcan Kebap"
      },
@@ -266,6 +272,7 @@
       "name": "Ezogelin Çorba"
      },
      {
+      "img": "dishes/1a94898a31.jpg",
       "key": "1a94898a31",
       "name": "Tavuk Çökertme Kebap"
      },
@@ -274,6 +281,7 @@
       "name": "Özbek Pilavı"
      },
      {
+      "img": "dishes/c24df71363.jpg",
       "key": "c24df71363",
       "name": "Fındıklı Muhallebi"
      }
@@ -289,10 +297,12 @@
       "name": "Mercimek Çorba"
      },
      {
+      "img": "dishes/4186abfcb0.jpg",
       "key": "4186abfcb0",
       "name": "Tavuk Pirzola / Patates Kızartma"
      },
      {
+      "img": "dishes/d78dc7dace.jpg",
       "key": "d78dc7dace",
       "name": "Soslu Burgu Makarna"
      },
@@ -312,8 +322,9 @@
       "name": "Yoğurtlu Dövme Çorba"
      },
      {
-      "key": "31f4cae590",
-      "name": "Etli Sebzeli Kebap"
+      "img": "dishes/1d61a72d2c.jpg",
+      "key": "1d61a72d2c",
+      "name": "Kadınbudu Köfte"
      },
      {
       "img": "dishes/40440fb845.jpg",
@@ -383,10 +394,12 @@
       "name": "Etli Düğün Çorba"
      },
      {
+      "img": "dishes/9ae8362de2.jpg",
       "key": "9ae8362de2",
       "name": "Sebzeli Tavuk Sarma"
      },
      {
+      "img": "dishes/d78dc7dace.jpg",
       "key": "d78dc7dace",
       "name": "Soslu Burgu Makarna"
      },
@@ -401,6 +414,7 @@
    "lunch": {
     "items": [
      {
+      "img": "dishes/0a99b6aad1.jpg",
       "key": "0a99b6aad1",
       "name": "Sebzeli Tavuk Çorba"
      },
@@ -425,6 +439,7 @@
    "lunch": {
     "items": [
      {
+      "img": "dishes/b359c477cf.jpg",
       "key": "b359c477cf",
       "name": "Tavuk Çorba"
      },
@@ -470,10 +485,12 @@
       "name": "Patates Oturtma"
      },
      {
+      "img": "dishes/c1cd803af6.jpg",
       "key": "c1cd803af6",
       "name": "Acılı Bulgur Pilavı"
      },
      {
+      "img": "dishes/f3f84c9554.jpg",
       "key": "f3f84c9554",
       "name": "Browni"
      }
@@ -482,5 +499,5 @@
   }
  },
  "university": "cumhuriyet",
- "updated": "2026-10-05T09:44:44+03:00"
+ "updated": "2026-10-21T22:01:36+03:00"
 }

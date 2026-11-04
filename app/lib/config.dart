@@ -19,7 +19,7 @@ const String siteAdresi = 'https://olgatanriverdi-glitch.github.io/yemekhane';
 const String gizlilikAdresi = '$siteAdresi/gizlilik.html';
 const String hesapSilmeAdresi = '$siteAdresi/hesap-silme.html';
 
-/// Gizlilik ve veri silme sorularının gönderileceği e-posta. YAYINLAMADAN ÖNCE GERÇEK ADRESLE DEĞİŞTİR; aynı adres
+/// Gizlilik ve veri silme sorularının gönderileceği e-posta.
 const String iletisimEposta = 'uniyemek0@gmail.com';
 
 const List<String> ayAdlari = [

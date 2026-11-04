@@ -4,11 +4,8 @@ Sıra önemlidir: önce web sitesi ve gizlilik sayfaları yayında olmalı, çü
 
 ## 0. Başlamadan önce yapılacaklar (bir kez)
 
-1. **İletişim e-postası seç** (herkese açık görünecek; ayrı bir Gmail açmak iyi fikirdir).
-2. Bu e-postayı üç yere yaz:
-   * `app/lib/config.dart` içindeki `iletisimEposta` sabiti,
-   * `site/gizlilik.html` ve `site/hesap-silme.html` içindeki her `[ILETISIM_EPOSTA]` yazısı (ikisinde de var),
-   * `magaza/LISTE.md` içindeki `[ILETISIM_EPOSTA]` (Play'e girerken kullanacaksın).
+1. İletişim e-postası `uniyemek0@gmail.com` olarak uygulamaya, gizlilik sayfalarına ve `magaza/LISTE.md`ye işlendi. Bu kutuya bakmayı unutma: silme talepleri buraya gelir.
+2. Sürüm: `1.0.0+2`.
 3. Firebase kurallarını güncelle (aşağıda 1. adım). Bunu yapmazsan uygulamadaki "Bildir" düğmesi hata verir.
 
 ## 1. Firebase kuralları (5 dakika)
