@@ -68,6 +68,13 @@ class _SayacDepo implements GeriBildirimDeposu {
     _say('yorumSil');
     return _ic.yorumSil(y);
   }
+
+  @override
+  Future<void> yorumBildir(Yorum y, YorumBildirimNedeni neden) =>
+      _ic.yorumBildir(y, neden);
+
+  @override
+  Future<void> verilerimiSil() => _ic.verilerimiSil();
 }
 
 /// Ağa ve diske gitmeyen sahte veri deposu.

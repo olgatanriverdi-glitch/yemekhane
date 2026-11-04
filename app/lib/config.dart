@@ -14,6 +14,15 @@ const String uygulamaSurumu = '0.1.0';
 const String commonsKullaniciAjani =
     'UniYemek/$uygulamaSurumu (https://github.com/olgatanriverdi-glitch/yemekhane)';
 
+/// Tanıtım sitesi (GitHub Pages). Gizlilik politikası ve Google Play'in istediği hesap / veri silme sayfası burada.
+const String siteAdresi = 'https://olgatanriverdi-glitch.github.io/yemekhane';
+const String gizlilikAdresi = '$siteAdresi/gizlilik.html';
+const String hesapSilmeAdresi = '$siteAdresi/hesap-silme.html';
+
+/// Gizlilik ve veri silme sorularının gönderileceği e-posta. YAYINLAMADAN ÖNCE GERÇEK ADRESLE DEĞİŞTİR; aynı adres
+/// site/gizlilik.html ve site/hesap-silme.html içindeki [ILETISIM_EPOSTA] yer tutucularının yerine de yazılmalı.
+const String iletisimEposta = '[ILETISIM_EPOSTA]';
+
 const List<String> ayAdlari = [
   'Ocak',
   'Şubat',

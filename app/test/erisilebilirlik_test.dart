@@ -10,6 +10,7 @@ import 'package:yemekhane/paylasim.dart';
 import 'package:yemekhane/repository.dart';
 import 'package:yemekhane/screens/ayarlar.dart';
 import 'package:yemekhane/screens/favoriler.dart';
+import 'package:yemekhane/screens/geri_bildirim.dart';
 import 'package:yemekhane/screens/hafta.dart';
 import 'package:yemekhane/screens/home.dart';
 import 'package:yemekhane/screens/tema_secici.dart';
@@ -157,6 +158,20 @@ _SahteDepo _depo({bool kayitli = true, bool hata = false}) => _SahteDepo(
     [_ankara(), _gazi()], {'ankara': _ankaraMenusu(), 'gazi': _gaziMenusu()},
     secili: kayitli ? 'ankara' : null)
   ..hataAt = hata;
+
+/// Başka kullanıcıların yorumlarını döndüren yerel depo (yorum seçenekleri menüsü görünsün).
+class _BaskaYorumluDepo extends YerelDepo {
+  @override
+  Future<String> kullaniciId() async => 'ben';
+  @override
+  Future<List<Yorum>> yorumlar(String slot) async => [
+        Yorum('c1', 'u2', 'Ayşe', 'Çorba sıcaktı', DateTime(2026, 11, 2, 12),
+            slot: slot),
+        Yorum('c2', 'u3', 'Mehmet', 'Pilav lezzetliydi',
+            DateTime(2026, 11, 2, 11),
+            slot: slot),
+      ];
+}
 
 class _SahtePaylasim implements PaylasimServisi {
   @override
@@ -397,6 +412,48 @@ final _durumEkranlari = <_Ekran>[
         k));
     await t.pumpAndSettle();
     expect(find.textContaining('Fotoğraf: Ali Veli'), findsOneWidget);
+  }),
+  _Ekran('Ayarlar (silme ve gizlilik satırları)', (t, k) async {
+    SharedPreferences.setMockInitialValues({
+      'engellenen_kisiler': ['u2'],
+    });
+    await t.pumpWidget(_uygulama(
+        AyarlarSayfasi(
+            temaAyari: k.ayar,
+            depo: _depo(),
+            uniler: [_ankara(), _gazi()],
+            uni: _ankara(),
+            geriBildirim: YerelDepo(),
+            menuyuYenile: () async {}),
+        k));
+    await t.pumpAndSettle();
+  }),
+  _Ekran('Yorum seçenekleri menüsü', (t, k) async {
+    await t.pumpWidget(_uygulama(
+        Scaffold(
+            body: SingleChildScrollView(
+                child: GeriBildirimBolumu(
+                    depo: _BaskaYorumluDepo(), slot: 's1', puanGoster: false))),
+        k));
+    await t.pumpAndSettle();
+    await t.tap(find.byTooltip('Yorum seçenekleri').first);
+    await t.pumpAndSettle();
+    expect(find.text('Bildir'), findsOneWidget);
+    expect(find.text('Bu kişiyi engelle'), findsOneWidget);
+  }),
+  _Ekran('Yorum bildirme nedeni penceresi', (t, k) async {
+    await t.pumpWidget(_uygulama(
+        Scaffold(
+            body: SingleChildScrollView(
+                child: GeriBildirimBolumu(
+                    depo: _BaskaYorumluDepo(), slot: 's1', puanGoster: false))),
+        k));
+    await t.pumpAndSettle();
+    await t.tap(find.byTooltip('Yorum seçenekleri').first);
+    await t.pumpAndSettle();
+    await t.tap(find.text('Bildir'));
+    await t.pumpAndSettle();
+    expect(find.text('Hakaret / küfür'), findsOneWidget);
   }),
   _Ekran('Ayarlar (önbellek onay penceresi)', (t, k) async {
     await t.pumpWidget(_uygulama(

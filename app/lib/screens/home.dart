@@ -346,6 +346,7 @@ class _AnaSayfaState extends State<AnaSayfa> with WidgetsBindingObserver {
             yuklenenId: _yuklenenId,
             kaloriHedefi: _kalori,
             bildirim: _bildirim,
+            geriBildirim: _geriBildirim,
             menuyuYenile: () => _yukle())));
     if (secilen != null && secilen != _hedefId) _yukle(universiteId: secilen);
   }

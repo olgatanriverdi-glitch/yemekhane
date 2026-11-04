@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 import '../geri_bildirim.dart';
+import '../yorum_filtresi.dart';
+import '../yorum_moderasyon.dart';
 
 /// Bir öğünün altında: 1-5 yıldız puanı + yorumlar.
 class GeriBildirimBolumu extends StatefulWidget {
@@ -34,6 +36,16 @@ class _GeriBildirimBolumuState extends State<GeriBildirimBolumu> {
   // yarışmasın, başarısız olanın "önceki" değeri kaydedilmemiş bir puana dönmesin (yemek ayrıntısındaki puan kartı gibi).
   bool _kaydediyor = false;
   final _metin = TextEditingController();
+  final _moderasyon = const YorumModerasyonu();
+
+  /// Bu cihazda engellenen kişiler ve gizlenen (bildirilmiş) yorumlar; listede görünmezler.
+  Set<String> _engelli = {}, _gizli = {};
+
+  /// Engellenmemiş ve gizlenmemiş yorumlar (ekranda gösterilen).
+  List<Yorum> get _gorunen => [
+        for (final y in _yorumlar)
+          if (!_gizli.contains(y.id) && !_engelli.contains(y.uid)) y
+      ];
 
   @override
   void initState() {
@@ -61,10 +73,18 @@ class _GeriBildirimBolumuState extends State<GeriBildirimBolumu> {
           : Future.value(const PuanOzeti(null, 0));
       final benim =
           widget.puanGoster ? d.benimPuanim(widget.slot) : Future<int?>.value();
-      final sonuc = await Future.wait(
-          [ozet, benim, d.yorumlar(widget.slot), d.kullaniciId()]);
+      final sonuc = await Future.wait([
+        ozet,
+        benim,
+        d.yorumlar(widget.slot),
+        d.kullaniciId(),
+        _moderasyon.engellenenler(),
+        _moderasyon.gizlenenYorumlar(),
+      ]);
       if (!mounted) return;
       setState(() {
+        _engelli = sonuc[4] as Set<String>;
+        _gizli = sonuc[5] as Set<String>;
         _ozet = sonuc[0] as PuanOzeti;
         _benim = sonuc[1] as int?;
         _yorumlar = sonuc[2] as List<Yorum>;
@@ -134,8 +154,21 @@ class _GeriBildirimBolumuState extends State<GeriBildirimBolumu> {
   Future<void> _gonder() async {
     final metin = _metin.text.trim();
     if (metin.isEmpty || _gonderiliyor) return;
+    final sorun = yorumSorunu(metin);
+    if (sorun != null) {
+      _mesaj(sorun.mesaj);
+      return;
+    }
     final ad = await _adSor();
     if (ad == null || !mounted) return;
+    if (yorumSorunu(ad) != null) {
+      // uygunsuz takma ad hatırlanmasın: bir sonraki denemede yeniden sorulur
+      try {
+        await (await SharedPreferences.getInstance()).remove('yorum_adi');
+      } catch (_) {}
+      _mesaj('Takma adın uygun değil. Başka bir ad dene.');
+      return;
+    }
     setState(() => _gonderiliyor = true);
     try {
       await widget.depo.yorumEkle(widget.slot, ad, metin);
@@ -165,6 +198,54 @@ class _GeriBildirimBolumuState extends State<GeriBildirimBolumu> {
     }
   }
 
+  Future<void> _bildir(Yorum y) async {
+    final neden = await showDialog<YorumBildirimNedeni>(
+      context: context,
+      builder: (c) => SimpleDialog(
+        title: const Text('Bu yorumu neden bildiriyorsun?'),
+        children: [
+          for (final n in YorumBildirimNedeni.values)
+            SimpleDialogOption(
+                onPressed: () => Navigator.of(c).pop(n), child: Text(n.etiket)),
+        ],
+      ),
+    );
+    if (neden == null || !mounted) return;
+    try {
+      await widget.depo.yorumBildir(y, neden);
+    } catch (_) {
+      _mesaj('Bildirim gönderilemedi');
+      return;
+    }
+    // bildirilen yorum bu cihazda hemen gizlenir
+    await _moderasyon.yorumuGizle(y.id);
+    if (mounted) setState(() => _gizli = {..._gizli, y.id});
+    _mesaj('Teşekkürler, bildirimin alındı');
+  }
+
+  Future<void> _engelle(Yorum y) async {
+    final onay = await showDialog<bool>(
+      context: context,
+      builder: (c) => AlertDialog(
+        title: const Text('Bu kişi engellensin mi?'),
+        content: const Text(
+            'Bu kişinin yorumları bu cihazda hiçbir yerde görünmez. Engeli Ayarlar\'dan kaldırabilirsin.'),
+        actions: [
+          TextButton(
+              onPressed: () => Navigator.of(c).pop(false),
+              child: const Text('Vazgeç')),
+          FilledButton(
+              onPressed: () => Navigator.of(c).pop(true),
+              child: const Text('Engelle')),
+        ],
+      ),
+    );
+    if (onay != true || !mounted) return;
+    await _moderasyon.engelle(y.uid);
+    if (mounted) setState(() => _engelli = {..._engelli, y.uid});
+    _mesaj('Kişi engellendi');
+  }
+
   String _zaman(DateTime t) {
     final f = DateTime.now().difference(t);
     if (f.inMinutes < 1) return 'şimdi';
@@ -177,6 +258,7 @@ class _GeriBildirimBolumuState extends State<GeriBildirimBolumu> {
   Widget build(BuildContext context) {
     final tema = Theme.of(context);
     final renk = tema.colorScheme;
+    final yorumlar = _gorunen;
     return Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
       // --- puan
       if (widget.puanGoster)
@@ -242,7 +324,7 @@ class _GeriBildirimBolumuState extends State<GeriBildirimBolumu> {
           child:
               Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
             Text(
-                '${widget.baslik}${_yorumlar.isEmpty ? '' : ' (${_yorumlar.length})'}',
+                '${widget.baslik}${yorumlar.isEmpty ? '' : ' (${yorumlar.length})'}',
                 style: tema.textTheme.titleMedium
                     ?.copyWith(fontWeight: FontWeight.w700)),
             const SizedBox(height: 10),
@@ -275,6 +357,13 @@ class _GeriBildirimBolumuState extends State<GeriBildirimBolumu> {
                     tooltip: 'Gönder'),
               ),
             ]),
+            Padding(
+              padding: const EdgeInsets.only(top: 6),
+              child: Text(
+                  'Yorumlar herkese açıktır. Hakaret ve kişisel bilgi paylaşma.',
+                  style: tema.textTheme.bodySmall
+                      ?.copyWith(color: renk.onSurfaceVariant)),
+            ),
             if (_yukleniyor)
               const Padding(
                   padding: EdgeInsets.all(12),
@@ -288,14 +377,14 @@ class _GeriBildirimBolumuState extends State<GeriBildirimBolumu> {
                       onPressed: _yukle, child: const Text('Tekrar dene'))
                 ]),
               )
-            else if (_yorumlar.isEmpty)
+            else if (yorumlar.isEmpty)
               Padding(
                   padding: const EdgeInsets.symmetric(vertical: 8),
                   child: Text('İlk yorumu sen yaz.',
                       style: tema.textTheme.bodyMedium
                           ?.copyWith(color: renk.onSurfaceVariant)))
             else
-              for (final y in _yorumlar)
+              for (final y in yorumlar)
                 Padding(
                   padding: const EdgeInsets.only(top: 12),
                   child: Row(
@@ -322,7 +411,26 @@ class _GeriBildirimBolumuState extends State<GeriBildirimBolumu> {
                           IconButton(
                               onPressed: () => _sil(y),
                               icon: const Icon(Icons.delete_outline, size: 20),
-                              tooltip: 'Sil'),
+                              tooltip: 'Sil')
+                        else
+                          PopupMenuButton<_YorumIslemi>(
+                            tooltip: 'Yorum seçenekleri',
+                            icon: const Icon(Icons.more_vert, size: 20),
+                            style: IconButton.styleFrom(
+                                minimumSize: const Size(48, 48)),
+                            onSelected: (i) => switch (i) {
+                              _YorumIslemi.bildir => _bildir(y),
+                              _YorumIslemi.engelle => _engelle(y),
+                            },
+                            itemBuilder: (_) => const [
+                              PopupMenuItem(
+                                  value: _YorumIslemi.bildir,
+                                  child: Text('Bildir')),
+                              PopupMenuItem(
+                                  value: _YorumIslemi.engelle,
+                                  child: Text('Bu kişiyi engelle')),
+                            ],
+                          ),
                       ]),
                 ),
           ]),
@@ -332,6 +440,8 @@ class _GeriBildirimBolumuState extends State<GeriBildirimBolumu> {
     ]);
   }
 }
+
+enum _YorumIslemi { bildir, engelle }
 
 /// Takma ad sorusu. Metin denetleyicisi diyalogla birlikte (kapanış animasyonu bittikten sonra) atılır.
 class _AdSorDiyalogu extends StatefulWidget {

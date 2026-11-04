@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hesap ve veri silme – Üni Yemek</title>
+<meta name="description" content="Üni Yemek'te yorum, puan ve anonim hesabını nasıl sileceğin: uygulama içinden ya da e-postayla.">
+<meta name="color-scheme" content="dark light">
+<link rel="icon" href="app/favicon.png">
+<style>
+  :root { --bg:#16120d; --kart:#211a13; --yazi:#f3ece1; --soluk:#b9ab98; --vurgu:#e8892b; --vurgu2:#ffb766; --cizgi:#3a2e21; }
+  @media (prefers-color-scheme: light) {
+    :root { --bg:#f6f3ee; --kart:#ffffff; --yazi:#201a12; --soluk:#5f5446; --vurgu:#a85a0c; --vurgu2:#8a4807; --cizgi:#e2d9cb; }
+  }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--bg); color:var(--yazi); font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; line-height:1.65; }
+  a { color:var(--vurgu2); }
+  .kap { max-width:760px; margin:0 auto; padding:0 20px; }
+  nav { display:flex; align-items:center; justify-content:space-between; padding:18px 0; }
+  .logo { display:flex; align-items:center; gap:10px; font-weight:800; font-size:20px; color:var(--yazi); text-decoration:none; }
+  .logo img { width:34px; height:34px; border-radius:9px; }
+  nav .linkler a { margin-left:18px; color:var(--soluk); font-size:15px; text-decoration:none; }
+  nav .linkler a:hover { color:var(--yazi); }
+  h1 { font-size:clamp(30px,5vw,42px); line-height:1.1; margin:24px 0 8px; letter-spacing:-.02em; }
+  h2 { font-size:22px; margin:34px 0 8px; letter-spacing:-.01em; }
+  .soluk { color:var(--soluk); }
+  ol, ul { padding-left:22px; }
+  li { margin:6px 0; }
+  .kutu { background:var(--kart); border:1px solid var(--cizgi); border-radius:18px; padding:16px 20px; margin:14px 0; }
+  footer { border-top:1px solid var(--cizgi); margin-top:44px; padding:24px 0 44px; color:var(--soluk); font-size:14px; }
+</style>
+</head>
+<body>
+<div class="kap">
+  <nav>
+    <a class="logo" href="./"><img src="app/icons/Icon-192.png" alt=""> Üni Yemek</a>
+    <div class="linkler"><a href="./">Ana sayfa</a><a href="gizlilik.html">Gizlilik politikası</a></div>
+  </nav>
+
+  <main>
+    <h1>Hesap ve veri silme</h1>
+    <p class="soluk">Üni Yemek'te ad ya da e-posta ile hesap açılmaz; yalnızca puan ve yorum için rastgele bir anonim kimlik oluşturulur. Silmek istediğin veriler bu kimliğe bağlıdır.</p>
+
+    <h2>Uygulama içinden sil (önerilen)</h2>
+    <ol>
+      <li>Üni Yemek uygulamasını aç.</li>
+      <li>Üstteki <b>Diğer</b> (üç nokta) menüsünden <b>Ayarlar</b>'ı aç.</li>
+      <li><b>Hakkında</b> bölümünde <b>Yorum ve puanlarımı sil</b>'e dokun.</li>
+      <li>Onay penceresinde <b>Sil</b>'e dokun.</li>
+    </ol>
+    <div class="kutu">
+      <b>Silinenler:</b> verdiğin bütün puanlar, yazdığın bütün yorumlar ve anonim hesabın (Firebase kimliğin) sunucudan kalıcı olarak silinir. Telefondaki oturum kayıtların da temizlenir.<br>
+      <b>İşlem geri alınamaz.</b> Silmeden sonra uygulamayı kullanmaya devam edersen yeni bir anonim kimlik oluşur.
+    </div>
+    <p class="soluk">Tek bir yorumu silmek için yorumun yanındaki çöp kutusu simgesine dokunman yeterli. Seçili okul, favoriler ve ayarlar yalnızca telefonundadır; uygulamayı kaldırınca silinir.</p>
+
+    <h2>Uygulamaya erişemiyorsan e-postayla iste</h2>
+    <p>Uygulamayı artık kullanamıyorsan (telefonu kaybettin, uygulamayı kaldırdın vb.) <b>[ILETISIM_EPOSTA]</b> adresine yaz. Konu: <i>Üni Yemek veri silme</i>. İçine silmek istediğin yorumların metnini (ya da bir kısmını) ve yazdığın takma adı ekle; anonim hesapla seni ad ya da e-postayla eşleştiremediğimiz için yorumlarını bu bilgilerle bulabiliriz.</p>
+    <ul>
+      <li>İstekler en geç 30 gün içinde yanıtlanır ve ilgili yorumlar silinir.</li>
+      <li>Puanlar yalnızca anonim kimliğe bağlıdır; kimlik olmadan hangi puanın sana ait olduğu belirlenemez. Uygulamaya erişimin varsa yukarıdaki yolla sil.</li>
+    </ul>
+
+    <h2>Silinmeyen ya da sınırlı süre saklananlar</h2>
+    <ul>
+      <li>Başkasının yorumunu bildirdiysen, moderasyon kaydın (yorum kimliği, neden, anonim kimlik) kötüye kullanımı önlemek için kısa süre saklanabilir; hesabını sildiğinde kimlikle ilişkisi kopar.</li>
+      <li>Firebase yedekleri ve günlükleri Google tarafında sınırlı süre kalabilir (<a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener">Firebase gizlilik</a>).</li>
+    </ul>
+
+    <p>Ayrıntılar için <a href="gizlilik.html">gizlilik politikasına</a> bak.</p>
+  </main>
+
+  <footer>
+    <a href="./">Ana sayfa</a> · <a href="gizlilik.html">Gizlilik politikası</a> ·
+    <a href="https://github.com/olgatanriverdi-glitch/yemekhane" target="_blank" rel="noopener">GitHub</a>
+  </footer>
+</div>
+</body>
+</html>

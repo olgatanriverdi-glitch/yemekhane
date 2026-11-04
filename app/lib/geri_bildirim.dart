@@ -29,7 +29,21 @@ class PuanOzeti {
 class Yorum {
   final String id, uid, ad, metin;
   final DateTime zaman;
-  Yorum(this.id, this.uid, this.ad, this.metin, this.zaman);
+
+  /// Yorumun ait olduğu öğün / yemek kimliği (bildirirken gönderilir); bilinmiyorsa boş.
+  final String slot;
+  Yorum(this.id, this.uid, this.ad, this.metin, this.zaman, {this.slot = ''});
+}
+
+/// Bir yorumu bildirirken seçilen neden. [kod] Firestore'a yazılır (firestore.rules'taki liste ile aynı olmalı).
+enum YorumBildirimNedeni {
+  hakaret('hakaret', 'Hakaret / küfür'),
+  spam('spam', 'Spam'),
+  uygunsuz('uygunsuz', 'Uygunsuz içerik'),
+  diger('diger', 'Diğer');
+
+  final String kod, etiket;
+  const YorumBildirimNedeni(this.kod, this.etiket);
 }
 
 /// Puan ve yorum deposu. Firebase ayarı yoksa cihazda saklayan yerel sürüm kullanılır (önizleme / çevrimdışı deneme).
@@ -43,6 +57,13 @@ abstract class GeriBildirimDeposu {
   Future<List<Yorum>> yorumlar(String slot);
   Future<void> yorumEkle(String slot, String ad, String metin);
   Future<void> yorumSil(Yorum y);
+
+  /// Başkasının yorumunu moderasyon için bildirir (Firestore'da `reports` koleksiyonuna yazılır). Hata fırlatabilir.
+  Future<void> yorumBildir(Yorum y, YorumBildirimNedeni neden);
+
+  /// Kullanıcının kendi yorum ve puanlarını siler, anonim hesabı kapatır ve bu cihazdaki oturum kayıtlarını
+  /// temizler. Hata fırlatabilir (ağ, kural reddi...); o durumda yerel oturum bozulmaz, işlem yeniden denenebilir.
+  Future<void> verilerimiSil();
 
   /// Uygulamanın kullandığı depo: gerçek depo (Firebase ayarı yoksa [YerelDepo], varsa [FirestoreDepo]) her durumda
   /// [OnbellekliGeriBildirim] ile sarılır; okuma kotası aynı sorgularla boşa harcanmasın.
@@ -121,7 +142,8 @@ class YerelDepo implements GeriBildirimDeposu {
     return [
       for (final m in liste)
         Yorum(m['id'] as String, uid, m['ad'] as String, m['metin'] as String,
-            DateTime.parse(m['zaman'] as String))
+            DateTime.parse(m['zaman'] as String),
+            slot: slot)
     ]..sort((a, b) => b.zaman.compareTo(a.zaman));
   }
 
@@ -147,6 +169,23 @@ class YerelDepo implements GeriBildirimDeposu {
           .where((e) => (jsonDecode(e) as Map<String, dynamic>)['id'] != y.id)
           .toList();
       if (yeni.length != l.length) await p.setStringList(k, yeni);
+    }
+  }
+
+  /// Deneme modunda yorumlar yalnızca bu cihazdadır, bildirilecek bir sunucu yoktur: zararsız, hiçbir şey yapmaz.
+  @override
+  Future<void> yorumBildir(Yorum y, YorumBildirimNedeni neden) async {}
+
+  @override
+  Future<void> verilerimiSil() async {
+    final p = await _p;
+    for (final k in p.getKeys().toList()) {
+      if (k.startsWith('yp/') ||
+          k.startsWith('yy/') ||
+          k == 'yerel_uid' ||
+          k == 'yorum_adi') {
+        await p.remove(k);
+      }
     }
   }
 }
@@ -448,8 +487,8 @@ class FirestoreDepo implements GeriBildirimDeposu {
           f['uid']['stringValue'] as String,
           (f['name']?['stringValue'] ?? 'Anonim') as String,
           f['text']['stringValue'] as String,
-          DateTime.parse(f['createdAt']['timestampValue'] as String)
-              .toLocal()));
+          DateTime.parse(f['createdAt']['timestampValue'] as String).toLocal(),
+          slot: (f['slot']?['stringValue'] ?? slot) as String));
     }
     sonuc.sort((a, b) => b.zaman.compareTo(a.zaman));
     return sonuc;
@@ -482,6 +521,114 @@ class FirestoreDepo implements GeriBildirimDeposu {
         headers: await _baslik());
     if (r.statusCode != 200) {
       throw Exception('Yorum silinemedi (${r.statusCode})');
+    }
+  }
+
+  @override
+  Future<void> yorumBildir(Yorum y, YorumBildirimNedeni neden) async {
+    final uid = await kullaniciId();
+    final r = await _istek('POST', Uri.parse('$_kok/reports'),
+        headers: await _baslik(),
+        body: jsonEncode({
+          'fields': {
+            'uid': {'stringValue': uid},
+            'commentId': {'stringValue': y.id},
+            'slot': {'stringValue': y.slot},
+            'reason': {'stringValue': neden.kod},
+            'createdAt': {
+              'timestampValue': DateTime.now().toUtc().toIso8601String()
+            },
+          }
+        }));
+    if (r.statusCode != 200) {
+      throw Exception('Bildirim gönderilemedi (${r.statusCode})');
+    }
+  }
+
+  /// Bir sorguda silinecek en çok belge sayısı (tek `commit` isteği).
+  static const _silmeSayfasi = 100;
+
+  /// Sayfa sayısı üst sınırı: sunucu silmeyi onaylayıp belgeleri yine de döndürürse sonsuz döngüye girilmez.
+  static const _enCokSayfa = 200;
+
+  /// Kullanıcının kendi `comments` ve `ratings` belgelerini (uid == kullanıcı) sayfa sayfa siler, sonra anonim
+  /// hesabı `accounts:delete` ile kapatır ve yerel oturum kayıtlarını temizler. Hiç oturum açılmamışsa (cihazda
+  /// yenileme jetonu yok) sunucuda silinecek bir şey de yoktur: yalnızca yerel kayıtlar temizlenir. Herhangi bir
+  /// adım hata verirse hata fırlatılır ve yerel oturum KORUNUR (aynı kimlikle yeniden denenebilsin).
+  @override
+  Future<void> verilerimiSil() async {
+    final p = await SharedPreferences.getInstance();
+    if ((_yenile ?? p.getString('fb_yenile')) != null) {
+      final uid = await kullaniciId();
+      await _sahibininBelgeleriniSil('comments', uid);
+      await _sahibininBelgeleriniSil('ratings', uid);
+      await _hesabiSil();
+    }
+    _token = _yenile = _uid = null;
+    _bitis = DateTime.fromMillisecondsSinceEpoch(0);
+    await p.remove('fb_yenile');
+    await p.remove('fb_uid');
+    await p.remove('yorum_adi');
+  }
+
+  Future<void> _sahibininBelgeleriniSil(String koleksiyon, String uid) async {
+    for (var sayfa = 0; sayfa < _enCokSayfa; sayfa++) {
+      final r = await _istek('POST', Uri.parse('$_kok:runQuery'),
+          headers: await _baslik(),
+          body: jsonEncode({
+            'structuredQuery': {
+              'from': [
+                {'collectionId': koleksiyon}
+              ],
+              'select': {
+                'fields': [
+                  {'fieldPath': '__name__'}
+                ]
+              },
+              'where': {
+                'fieldFilter': {
+                  'field': {'fieldPath': 'uid'},
+                  'op': 'EQUAL',
+                  'value': {'stringValue': uid}
+                }
+              },
+              'limit': _silmeSayfasi,
+            }
+          }));
+      if (r.statusCode != 200) {
+        throw Exception('Veriler okunamadı (${r.statusCode})');
+      }
+      final adlar = <String>[];
+      for (final e in jsonDecode(r.body) as List) {
+        final ad = (e as Map<String, dynamic>)['document']?['name'];
+        if (ad is String) adlar.add(ad);
+      }
+      if (adlar.isEmpty) return;
+      final s = await _istek('POST', Uri.parse('$_kok:commit'),
+          headers: await _baslik(),
+          body: jsonEncode({
+            'writes': [
+              for (final ad in adlar) {'delete': ad}
+            ]
+          }));
+      if (s.statusCode != 200) {
+        throw Exception('Veriler silinemedi (${s.statusCode})');
+      }
+      if (adlar.length < _silmeSayfasi) return;
+    }
+  }
+
+  /// Anonim hesabı kapatır. Hesap zaten yoksa (USER_NOT_FOUND) iş görülmüş sayılır.
+  Future<void> _hesabiSil() async {
+    await _oturum();
+    final r = await _istek(
+        'POST',
+        Uri.parse(
+            'https://identitytoolkit.googleapis.com/v1/accounts:delete?key=$anahtar'),
+        headers: {'Content-Type': 'application/json'},
+        body: jsonEncode({'idToken': _token}));
+    if (r.statusCode != 200 && !r.body.contains('USER_NOT_FOUND')) {
+      throw Exception('Hesap silinemedi (${r.statusCode})');
     }
   }
 }
@@ -580,6 +727,20 @@ class OnbellekliGeriBildirim implements GeriBildirimDeposu {
       await _ic.yorumSil(y);
     } finally {
       _yorumlar.temizle();
+    }
+  }
+
+  @override
+  Future<void> yorumBildir(Yorum y, YorumBildirimNedeni neden) =>
+      _ic.yorumBildir(y, neden);
+
+  /// Silme bitince (başarısız olsa da: kısmen silinmiş olabilir) bütün önbellek boşaltılır.
+  @override
+  Future<void> verilerimiSil() async {
+    try {
+      await _ic.verilerimiSil();
+    } finally {
+      temizle();
     }
   }
 }

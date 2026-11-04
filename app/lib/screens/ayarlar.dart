@@ -4,10 +4,12 @@ import 'package:flutter/services.dart' show Clipboard, ClipboardData;
 import '../bildirim_ayari.dart';
 import '../bildirim_servisi.dart';
 import '../config.dart';
+import '../geri_bildirim.dart';
 import '../kalori_hedefi.dart';
 import '../models.dart';
 import '../repository.dart';
 import '../tema.dart';
+import '../yorum_moderasyon.dart';
 import '../widgets/bildirim_bolumu.dart';
 import '../widgets/kalori_ayari.dart';
 import 'tema_secici.dart';
@@ -36,6 +38,9 @@ class AyarlarSayfasi extends StatefulWidget {
 
   /// Günlük menü bildirimi ayarı; verilmezse (ya da platform bildirimi desteklemiyorsa) bu bölüm gösterilmez.
   final BildirimAyari? bildirim;
+
+  /// Puan / yorum deposu; "Yorum ve puanlarımı sil" bununla çalışır. Verilmezse o satır gösterilmez.
+  final GeriBildirimDeposu? geriBildirim;
   const AyarlarSayfasi(
       {super.key,
       required this.temaAyari,
@@ -45,14 +50,103 @@ class AyarlarSayfasi extends StatefulWidget {
       required this.menuyuYenile,
       this.yuklenenId,
       this.kaloriHedefi,
-      this.bildirim});
+      this.bildirim,
+      this.geriBildirim});
 
   @override
   State<AyarlarSayfasi> createState() => _AyarlarSayfasiState();
 }
 
 class _AyarlarSayfasiState extends State<AyarlarSayfasi> {
-  bool _temizleniyor = false;
+  bool _temizleniyor = false, _siliniyor = false;
+  final _moderasyon = const YorumModerasyonu();
+
+  /// Engellenen kişi sayısı (Genel bölümündeki satır).
+  int _engelSayisi = 0;
+
+  @override
+  void initState() {
+    super.initState();
+    _engelSayisiniOku();
+  }
+
+  Future<void> _engelSayisiniOku() async {
+    final n = (await _moderasyon.engellenenler()).length;
+    if (mounted) setState(() => _engelSayisi = n);
+  }
+
+  Future<void> _engelleriYonet() async {
+    final messenger = ScaffoldMessenger.of(context);
+    if (_engelSayisi == 0) {
+      messenger
+        ..hideCurrentSnackBar()
+        ..showSnackBar(const SnackBar(content: Text('Engellediğin kimse yok')));
+      return;
+    }
+    final onay = await showDialog<bool>(
+      context: context,
+      builder: (c) => AlertDialog(
+        title: const Text('Engeller kaldırılsın mı?'),
+        content: Text(
+            '$_engelSayisi kişinin engeli kalkar ve yorumları yeniden görünür.'),
+        actions: [
+          TextButton(
+              onPressed: () => Navigator.of(c).pop(false),
+              child: const Text('Vazgeç')),
+          FilledButton(
+              onPressed: () => Navigator.of(c).pop(true),
+              child: const Text('Engelleri kaldır')),
+        ],
+      ),
+    );
+    if (onay != true) return;
+    await _moderasyon.engelleriTemizle();
+    await _engelSayisiniOku();
+    messenger
+      ..hideCurrentSnackBar()
+      ..showSnackBar(const SnackBar(content: Text('Engeller kaldırıldı')));
+  }
+
+  Future<void> _verileriSil() async {
+    final depo = widget.geriBildirim;
+    if (depo == null || _siliniyor) return;
+    final onay = await showDialog<bool>(
+      context: context,
+      builder: (c) => AlertDialog(
+        title: const Text('Yorum ve puanların silinsin mi?'),
+        content: const Text(
+            'Verdiğin bütün puanlar ve yazdığın bütün yorumlar sunucudan kalıcı olarak silinir, anonim hesabın '
+            'kapatılır. Bu işlem geri alınamaz.'),
+        actions: [
+          TextButton(
+              onPressed: () => Navigator.of(c).pop(false),
+              child: const Text('Vazgeç')),
+          FilledButton(
+              onPressed: () => Navigator.of(c).pop(true),
+              child: const Text('Sil')),
+        ],
+      ),
+    );
+    if (onay != true || !mounted) return;
+    final messenger = ScaffoldMessenger.of(context);
+    setState(() => _siliniyor = true);
+    String mesaj;
+    var basarili = false;
+    try {
+      await depo.verilerimiSil();
+      mesaj = 'Yorum ve puanların silindi';
+      basarili = true;
+    } catch (_) {
+      mesaj =
+          'Veriler silinemedi. İnternet bağlantını kontrol edip tekrar dene.';
+    }
+    if (mounted) setState(() => _siliniyor = false);
+    messenger
+      ..hideCurrentSnackBar()
+      ..showSnackBar(SnackBar(content: Text(mesaj)));
+    // ekrandaki puan ve yorumlar silinenleri göstermesin
+    if (basarili && mounted) await widget.menuyuYenile();
+  }
 
   /// Sayfanın seçili saydığı okul: ana sayfa bir okulu yüklüyorsa (iskelet) kullanıcının son seçimi olan o,
   /// yoksa gösterilen okul. "Okul" satırı, veri kaynağı ve seçicideki işaret hep bunu izler; böylece B yüklenirken
@@ -187,6 +281,35 @@ class _AyarlarSayfasiState extends State<AyarlarSayfasi> {
                 'Yemek fotoğrafları örnektir (Wikimedia Commons, CC lisanslı); okuldaki yemek birebir aynı görünmeyebilir.'),
             const _Not(
                 Icons.visibility_off_outlined, 'Puan ve yorumlar anonimdir.'),
+            ListTile(
+              leading: const Icon(Icons.privacy_tip_outlined),
+              title: const Text('Gizlilik politikası'),
+              subtitle: const Text('Adresi panoya kopyalar'),
+              trailing: const Icon(Icons.copy),
+              onTap: () => _kaynagiKopyala(gizlilikAdresi),
+            ),
+            ListTile(
+              leading: const Icon(Icons.block),
+              title: Text('Engellenen kişiler ($_engelSayisi)'),
+              subtitle: const Text('Yorumları bu cihazda gizlenen kişiler'),
+              trailing: const Icon(Icons.chevron_right),
+              onTap: _engelleriYonet,
+            ),
+            if (widget.geriBildirim != null)
+              ListTile(
+                leading: const Icon(Icons.delete_forever_outlined),
+                title: const Text('Yorum ve puanlarımı sil'),
+                subtitle: const Text(
+                    'Verdiğin puanları ve yazdığın yorumları kalıcı olarak siler'),
+                trailing: _siliniyor
+                    ? const SizedBox(
+                        width: 24,
+                        height: 24,
+                        child: CircularProgressIndicator(strokeWidth: 2))
+                    : null,
+                enabled: !_siliniyor,
+                onTap: _verileriSil,
+              ),
             ListTile(
               leading: const Icon(Icons.description_outlined),
               title: const Text('Açık kaynak lisansları'),

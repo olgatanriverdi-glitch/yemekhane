@@ -119,6 +119,19 @@ class _Ic implements GeriBildirimDeposu {
       l.removeWhere((e) => e.id == y.id);
     }
   }
+
+  @override
+  Future<void> yorumBildir(Yorum y, YorumBildirimNedeni neden) async {
+    _say('yorumBildir');
+    if (yazmaHatasi != null) throw yazmaHatasi!;
+  }
+
+  @override
+  Future<void> verilerimiSil() async {
+    _say('verilerimiSil');
+    if (yazmaHatasi != null) throw yazmaHatasi!;
+    yorumDeposu.clear();
+  }
 }
 
 Yorum _yorum(String id, [String metin = 'Güzeldi']) =>

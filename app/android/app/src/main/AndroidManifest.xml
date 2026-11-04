@@ -4,7 +4,12 @@
          USE_EXACT_ALARM) kullanılmaz: bildirimler yaklaşık zamanlanır. -->
     <uses-permission android:name="android.permission.POST_NOTIFICATIONS"/>
     <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <!-- allowBackup kapalı: Firebase anonim oturum jetonu (fb_yenile / fb_uid), takma ad ve engel listesi Google
+         yedeğine girmesin. Aksi halde yedek başka bir cihaza geri yüklenince aynı anonim kimlik iki cihazda
+         çalışır, "Yorum ve puanlarımı sil" ile silinen hesabın jetonu geri gelebilir. Menü önbelleği zaten
+         yeniden indirilir; yedeklenecek kullanıcı verisi yoktur. -->
     <application
+        android:allowBackup="false"
         android:label="Üni Yemek"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher"

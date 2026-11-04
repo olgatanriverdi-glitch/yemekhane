@@ -90,6 +90,12 @@ class _BellekDepo implements GeriBildirimDeposu {
 
   @override
   Future<void> yorumSil(Yorum y) async {}
+
+  @override
+  Future<void> yorumBildir(Yorum y, YorumBildirimNedeni neden) async {}
+
+  @override
+  Future<void> verilerimiSil() async {}
 }
 
 Widget _sayfa(GeriBildirimDeposu depo) => MaterialApp(
