@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Android 12+ açılış ekranı (açık mod): marka zemini ve ortada tepsi ikonu.
+         Sistem açılış ekranı yalnızca values-v31 / values-night-v31 içinde tanımlanan bu öznitelikleri okur;
+         ikon animasyonsuz (statik) bir drawable'dır. -->
+    <style name="LaunchTheme" parent="@android:style/Theme.Light.NoTitleBar">
+        <item name="android:windowBackground">@drawable/launch_background</item>
+        <item name="android:windowSplashScreenBackground">@color/acilis_zemini</item>
+        <item name="android:windowSplashScreenAnimatedIcon">@drawable/splash_icon</item>
+    </style>
+</resources>

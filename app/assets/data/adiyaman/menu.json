@@ -1,0 +1,53 @@
+{
+ "days": {
+  "2026-11-02": {
+   "dinner": {
+    "items": [
+     {
+      "key": "71127d15c0",
+      "name": "Sebzeli Misket Köfte"
+     },
+     {
+      "key": "8636bfbc0a",
+      "name": "Pirinç Pilavı"
+     },
+     {
+      "img": "dishes/4782e4b30f.jpg",
+      "key": "4782e4b30f",
+      "name": "Şehriye Çorba"
+     },
+     {
+      "img": "dishes/1087b76fa2.jpg",
+      "key": "1087b76fa2",
+      "name": "Revani"
+     }
+    ]
+   },
+   "lunch": {
+    "items": [
+     {
+      "key": "71fa1d932e",
+      "name": "Pilav Üzeri Tavuk Döner"
+     },
+     {
+      "img": "dishes/d61d397136.jpg",
+      "key": "d61d397136",
+      "name": "Süzme Mercimek Çorba"
+     },
+     {
+      "img": "dishes/c96fd73d5f.jpg",
+      "key": "c96fd73d5f",
+      "name": "Salata"
+     },
+     {
+      "img": "dishes/16b5c22561.jpg",
+      "key": "16b5c22561",
+      "name": "Ayran"
+     }
+    ]
+   }
+  }
+ },
+ "university": "adiyaman",
+ "updated": "2026-11-01T19:26:18+03:00"
+}

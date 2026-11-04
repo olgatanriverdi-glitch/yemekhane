@@ -1,0 +1,124 @@
+{
+ "days": {
+  "2026-11-02": {
+   "lunch": {
+    "items": [
+     {
+      "kcal": 110,
+      "key": "aa07a5ea54",
+      "name": "Köy Çorba"
+     },
+     {
+      "img": "dishes/f71bbead41.jpg",
+      "kcal": 280,
+      "key": "f71bbead41",
+      "name": "Etli Kuru Fasülye"
+     },
+     {
+      "kcal": 247,
+      "key": "fa4decda6a",
+      "name": "Şehriyeli Pirinç Pilavı"
+     },
+     {
+      "img": "dishes/2f58be7b7a.jpg",
+      "kcal": 82,
+      "key": "2f58be7b7a",
+      "name": "Cacık"
+     }
+    ],
+    "kcal": 719
+   }
+  },
+  "2026-11-03": {
+   "lunch": {
+    "items": [
+     {
+      "img": "dishes/22dd093862.jpg",
+      "kcal": 135,
+      "key": "22dd093862",
+      "name": "Mercimek Çorba"
+     },
+     {
+      "kcal": 300,
+      "key": "88dd2b55e7",
+      "name": "Tavuk Tantuni/Yoğurt"
+     },
+     {
+      "img": "dishes/acfd9f660c.jpg",
+      "kcal": 254,
+      "key": "acfd9f660c",
+      "name": "Köri Soslu Makarna"
+     },
+     {
+      "img": "dishes/44abc36c0c.jpg",
+      "kcal": 400,
+      "key": "44abc36c0c",
+      "name": "İrmik Helvası"
+     }
+    ],
+    "kcal": 1089
+   }
+  },
+  "2026-11-04": {
+   "lunch": {
+    "items": [
+     {
+      "img": "dishes/495fb304f2.jpg",
+      "kcal": 174,
+      "key": "495fb304f2",
+      "name": "Şehriye Çorbası"
+     },
+     {
+      "img": "dishes/415cd292c5.jpg",
+      "kcal": 350,
+      "key": "415cd292c5",
+      "name": "Kıymalı Patates Oturtma"
+     },
+     {
+      "img": "dishes/25b07cf14e.jpg",
+      "kcal": 228,
+      "key": "25b07cf14e",
+      "name": "Bulgur Pilavı"
+     },
+     {
+      "img": "dishes/9c8d655ef5.jpg",
+      "kcal": 114,
+      "key": "9c8d655ef5",
+      "name": "Yoğurt"
+     }
+    ],
+    "kcal": 866
+   }
+  },
+  "2026-11-05": {
+   "lunch": {
+    "items": [
+     {
+      "kcal": 218,
+      "key": "b4d3033eb1",
+      "name": "Ayranaşı Çorba"
+     },
+     {
+      "kcal": 260,
+      "key": "b36a24e405",
+      "name": "Garnitörlü Rulo Köfte"
+     },
+     {
+      "kcal": 250,
+      "key": "57d2d2d906",
+      "name": "Mısırlı Pirinç Pilavı"
+     },
+     {
+      "img": "dishes/91cfb0a127.jpg",
+      "kcal": 76,
+      "key": "91cfb0a127",
+      "name": "Çoban Salata"
+     }
+    ],
+    "kcal": 804
+   }
+  }
+ },
+ "university": "yyu",
+ "updated": "2026-11-01T16:23:28+03:00"
+}

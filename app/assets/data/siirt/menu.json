@@ -1,0 +1,37 @@
+{
+ "days": {
+  "2026-11-02": {
+   "lunch": {
+    "items": [
+     {
+      "img": "dishes/ed17271d58.jpg",
+      "kcal": 90,
+      "key": "ed17271d58",
+      "name": "Meyve"
+     },
+     {
+      "img": "dishes/2f58be7b7a.jpg",
+      "kcal": 100,
+      "key": "2f58be7b7a",
+      "name": "Cacık"
+     },
+     {
+      "img": "dishes/85b7944a41.jpg",
+      "kcal": 380,
+      "key": "85b7944a41",
+      "name": "Tas Kebabı"
+     },
+     {
+      "img": "dishes/25b07cf14e.jpg",
+      "kcal": 280,
+      "key": "25b07cf14e",
+      "name": "Bulgur Pilavı"
+     }
+    ],
+    "kcal": 850
+   }
+  }
+ },
+ "university": "siirt",
+ "updated": "2026-11-01T19:21:05+03:00"
+}

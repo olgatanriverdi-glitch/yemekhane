@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Android 12+ açılış ekranı (koyu mod): Safran koyu yüzey zemini (values-night/colors.xml) ve aynı tepsi ikonu.
+         Gece modunun values-v31 yerine bu klasörü seçmesi için ayrı tanımlanır (gece niteleyicisi sürümden önce gelir). -->
+    <style name="LaunchTheme" parent="@android:style/Theme.Black.NoTitleBar">
+        <item name="android:windowBackground">@drawable/launch_background</item>
+        <item name="android:windowSplashScreenBackground">@color/acilis_zemini</item>
+        <item name="android:windowSplashScreenAnimatedIcon">@drawable/splash_icon</item>
+    </style>
+</resources>

@@ -1,0 +1,526 @@
+{
+ "days": {
+  "2026-11-02": {
+   "lunch": {
+    "items": [
+     {
+      "img": "dishes/d151de6ce3.jpg",
+      "key": "d151de6ce3",
+      "name": "Çoban Kavurma"
+     },
+     {
+      "key": "fa4decda6a",
+      "name": "Şehriyeli Pirinç Pilavı"
+     },
+     {
+      "img": "dishes/22dd093862.jpg",
+      "key": "22dd093862",
+      "name": "Mercimek Çorba"
+     },
+     {
+      "img": "dishes/16b5c22561.jpg",
+      "key": "16b5c22561",
+      "name": "Ayran"
+     }
+    ]
+   }
+  },
+  "2026-11-03": {
+   "lunch": {
+    "items": [
+     {
+      "key": "545f9a2a83",
+      "name": "Tavuk Pirzola/Sebze Garnitürlü"
+     },
+     {
+      "img": "dishes/2911af800f.jpg",
+      "key": "2911af800f",
+      "name": "Kremalı Makarna"
+     },
+     {
+      "img": "dishes/f98b465287.jpg",
+      "key": "f98b465287",
+      "name": "Yayla Çorba"
+     },
+     {
+      "img": "dishes/5b7bbc3ecc.jpg",
+      "key": "5b7bbc3ecc",
+      "name": "Portakal"
+     }
+    ]
+   }
+  },
+  "2026-11-04": {
+   "lunch": {
+    "items": [
+     {
+      "key": "2022863e61",
+      "name": "Çiftlik Kebabı"
+     },
+     {
+      "img": "dishes/9cc15e97bd.jpg",
+      "key": "9cc15e97bd",
+      "name": "Patates Salatası"
+     },
+     {
+      "img": "dishes/bf8474c8b9.jpg",
+      "key": "bf8474c8b9",
+      "name": "Ezogelin Çorba"
+     },
+     {
+      "img": "dishes/f3f84c9554.jpg",
+      "key": "f3f84c9554",
+      "name": "Browni"
+     }
+    ]
+   }
+  },
+  "2026-11-05": {
+   "lunch": {
+    "items": [
+     {
+      "img": "dishes/9d174a5157.jpg",
+      "key": "9d174a5157",
+      "name": "Sulu Köfte"
+     },
+     {
+      "img": "dishes/25b07cf14e.jpg",
+      "key": "25b07cf14e",
+      "name": "Bulgur Pilavı"
+     },
+     {
+      "key": "b20f2ffc14",
+      "name": "Havuçlu Tel Şehriye Çorbası"
+     },
+     {
+      "img": "dishes/99a67d4042.jpg",
+      "key": "99a67d4042",
+      "name": "Mevsim Salata"
+     }
+    ]
+   }
+  },
+  "2026-11-06": {
+   "lunch": {
+    "items": [
+     {
+      "img": "dishes/fbb76e65c4.jpg",
+      "key": "fbb76e65c4",
+      "name": "Etli Kuru Fasulye"
+     },
+     {
+      "key": "8636bfbc0a",
+      "name": "Pirinç Pilavı"
+     },
+     {
+      "key": "79ded7ea04",
+      "name": "Havuç Tarator"
+     },
+     {
+      "img": "dishes/ec0228f614.jpg",
+      "key": "ec0228f614",
+      "name": "Turşu"
+     }
+    ]
+   }
+  },
+  "2026-11-09": {
+   "lunch": {
+    "items": [
+     {
+      "img": "dishes/05403cc507.jpg",
+      "key": "05403cc507",
+      "name": "Etli Güveç"
+     },
+     {
+      "key": "b9498c0c6f",
+      "name": "Garnitürlü Pirinç Pilavı"
+     },
+     {
+      "img": "dishes/cf7cacfbec.jpg",
+      "key": "cf7cacfbec",
+      "name": "Osmanlı Çorbası"
+     },
+     {
+      "key": "7ee959db6f",
+      "name": "Havuç Kırmızı Lahana Salata"
+     }
+    ]
+   }
+  },
+  "2026-11-10": {
+   "lunch": {
+    "items": [
+     {
+      "kcal": 290,
+      "key": "4bbe63643b",
+      "name": "Kıymalı Pide"
+     },
+     {
+      "img": "dishes/c96fd73d5f.jpg",
+      "kcal": 40,
+      "key": "c96fd73d5f",
+      "name": "Salata"
+     },
+     {
+      "img": "dishes/64ee8e0b3b.jpg",
+      "kcal": 120,
+      "key": "64ee8e0b3b",
+      "name": "Düğün Çorbası"
+     },
+     {
+      "img": "dishes/16b5c22561.jpg",
+      "key": "16b5c22561",
+      "name": "Ayran"
+     }
+    ]
+   }
+  },
+  "2026-11-11": {
+   "lunch": {
+    "items": [
+     {
+      "img": "dishes/3ed346919a.jpg",
+      "key": "3ed346919a",
+      "name": "Dana Haşlama"
+     },
+     {
+      "img": "dishes/40440fb845.jpg",
+      "key": "40440fb845",
+      "name": "İç Pilav"
+     },
+     {
+      "img": "dishes/0955218757.jpg",
+      "key": "0955218757",
+      "name": "Mercimek Çorbası"
+     },
+     {
+      "img": "dishes/9c8d655ef5.jpg",
+      "key": "9c8d655ef5",
+      "name": "Yoğurt"
+     }
+    ]
+   }
+  },
+  "2026-11-12": {
+   "lunch": {
+    "items": [
+     {
+      "key": "136b0ebb19",
+      "name": "Köri Soslu Tavuk Kavurma/Küp Patates"
+     },
+     {
+      "key": "ba659427ad",
+      "name": "Kremalı Mantarlı Makarna"
+     },
+     {
+      "key": "e47540f7f5",
+      "name": "Domates Çorbası"
+     },
+     {
+      "img": "dishes/ce99022f02.jpg",
+      "key": "ce99022f02",
+      "name": "Hindistan Cevizli Muhallebi"
+     }
+    ]
+   }
+  },
+  "2026-11-13": {
+   "lunch": {
+    "items": [
+     {
+      "key": "f123b95158",
+      "name": "Tavuk Şinitzel"
+     },
+     {
+      "key": "99f4bc2075",
+      "name": "Cevizli Erişte"
+     },
+     {
+      "key": "e47540f7f5",
+      "name": "Domates Çorbası"
+     },
+     {
+      "key": "ecf9edfefa",
+      "name": "Yoğurtlu Halka Salatalık"
+     }
+    ]
+   }
+  },
+  "2026-11-16": {
+   "lunch": {
+    "items": [
+     {
+      "img": "dishes/890b8e3990.jpg",
+      "key": "890b8e3990",
+      "name": "Etli Nohut"
+     },
+     {
+      "img": "dishes/2356abfde0.jpg",
+      "key": "2356abfde0",
+      "name": "Sebzeli Bulgur Pilavı"
+     },
+     {
+      "img": "dishes/e430bca6db.jpg",
+      "key": "e430bca6db",
+      "name": "Haydari"
+     },
+     {
+      "img": "dishes/ec0228f614.jpg",
+      "key": "ec0228f614",
+      "name": "Turşu"
+     }
+    ]
+   }
+  },
+  "2026-11-17": {
+   "lunch": {
+    "items": [
+     {
+      "key": "c861610929",
+      "name": "Kuru Köfte/Turşu Garnitürlü"
+     },
+     {
+      "img": "dishes/2750c6f6c0.jpg",
+      "key": "2750c6f6c0",
+      "name": "Soslu Karışık Kızartma"
+     },
+     {
+      "img": "dishes/f98b465287.jpg",
+      "key": "f98b465287",
+      "name": "Yayla Çorba"
+     },
+     {
+      "img": "dishes/321b4fe3c9.jpg",
+      "key": "321b4fe3c9",
+      "name": "Mevsim Salatası"
+     }
+    ]
+   }
+  },
+  "2026-11-18": {
+   "lunch": {
+    "items": [
+     {
+      "key": "32161784d7",
+      "name": "Karışık Musakka"
+     },
+     {
+      "img": "dishes/25b07cf14e.jpg",
+      "key": "25b07cf14e",
+      "name": "Bulgur Pilavı"
+     },
+     {
+      "key": "3a540c79db",
+      "name": "Vitamin Çorba"
+     },
+     {
+      "img": "dishes/9814c6dc58.jpg",
+      "key": "9814c6dc58",
+      "name": "Mandalina"
+     }
+    ]
+   }
+  },
+  "2026-11-19": {
+   "lunch": {
+    "items": [
+     {
+      "key": "153994bca2",
+      "name": "Et Sote"
+     },
+     {
+      "key": "8636bfbc0a",
+      "name": "Pirinç Pilavı"
+     },
+     {
+      "img": "dishes/e2fac9b8dd.jpg",
+      "key": "e2fac9b8dd",
+      "name": "Tel Şehriye Çorbası"
+     },
+     {
+      "key": "00b727115e",
+      "name": "Triliçe"
+     }
+    ]
+   }
+  },
+  "2026-11-20": {
+   "lunch": {
+    "items": [
+     {
+      "key": "2f47dfc743",
+      "name": "Sebzeli Piliç Kebap"
+     },
+     {
+      "img": "dishes/7996503754.jpg",
+      "key": "7996503754",
+      "name": "Peynirli Makarna"
+     },
+     {
+      "key": "ba810116bb",
+      "name": "Andaloz Çorbası"
+     },
+     {
+      "img": "dishes/16b5c22561.jpg",
+      "key": "16b5c22561",
+      "name": "Ayran"
+     }
+    ]
+   }
+  },
+  "2026-11-23": {
+   "lunch": {
+    "items": [
+     {
+      "key": "ff961abc5d",
+      "name": "Tavuk But"
+     },
+     {
+      "kcal": 320,
+      "key": "07c7afbc19",
+      "name": "Arrabita Soslu Makarna"
+     },
+     {
+      "kcal": 130,
+      "key": "45d738bb6c",
+      "name": "Mahluta Çorba"
+     },
+     {
+      "img": "dishes/904e9c87e9.jpg",
+      "key": "904e9c87e9",
+      "name": "Şekerpare"
+     }
+    ]
+   }
+  },
+  "2026-11-24": {
+   "lunch": {
+    "items": [
+     {
+      "img": "dishes/e9977e6607.jpg",
+      "kcal": 320,
+      "key": "e9977e6607",
+      "name": "Ekşili Köfte"
+     },
+     {
+      "key": "99f4bc2075",
+      "name": "Cevizli Erişte"
+     },
+     {
+      "img": "dishes/4e30e73821.jpg",
+      "key": "4e30e73821",
+      "name": "Kremalı Mantar Çorbası"
+     },
+     {
+      "kcal": 40,
+      "key": "d14bc2ed6a",
+      "name": "Akdeniz Salatası"
+     }
+    ]
+   }
+  },
+  "2026-11-25": {
+   "lunch": {
+    "items": [
+     {
+      "kcal": 380,
+      "key": "295e9df934",
+      "name": "Piliç Külbastı"
+     },
+     {
+      "img": "dishes/c0403431e1.jpg",
+      "kcal": 320,
+      "key": "c0403431e1",
+      "name": "Arpa Şehriye Pilavı"
+     },
+     {
+      "kcal": 130,
+      "key": "f734542a51",
+      "name": "Saray Çorbası"
+     },
+     {
+      "img": "dishes/16b5c22561.jpg",
+      "key": "16b5c22561",
+      "name": "Ayran"
+     }
+    ],
+    "note": "Ayran: 60–70 kcal"
+   }
+  },
+  "2026-11-26": {
+   "lunch": {
+    "items": [
+     {
+      "img": "dishes/85b7944a41.jpg",
+      "key": "85b7944a41",
+      "name": "Tas Kebabı"
+     },
+     {
+      "key": "8636bfbc0a",
+      "name": "Pirinç Pilavı"
+     },
+     {
+      "key": "0afb69c78d",
+      "name": "Kaşarlı Domates Çorbası"
+     },
+     {
+      "key": "bcb3b987c1",
+      "name": "Pembe Güzeli Salatası"
+     }
+    ]
+   }
+  },
+  "2026-11-27": {
+   "lunch": {
+    "items": [
+     {
+      "img": "dishes/fbb76e65c4.jpg",
+      "key": "fbb76e65c4",
+      "name": "Etli Kuru Fasulye"
+     },
+     {
+      "img": "dishes/25b07cf14e.jpg",
+      "key": "25b07cf14e",
+      "name": "Bulgur Pilavı"
+     },
+     {
+      "key": "de84c155eb",
+      "name": "Rus Salatası"
+     },
+     {
+      "img": "dishes/ec0228f614.jpg",
+      "key": "ec0228f614",
+      "name": "Turşu"
+     }
+    ]
+   }
+  },
+  "2026-11-30": {
+   "lunch": {
+    "items": [
+     {
+      "key": "f123b95158",
+      "name": "Tavuk Şinitzel"
+     },
+     {
+      "key": "46bd021b04",
+      "name": "Yoğurtlu Mantı"
+     },
+     {
+      "img": "dishes/0955218757.jpg",
+      "key": "0955218757",
+      "name": "Mercimek Çorbası"
+     },
+     {
+      "img": "dishes/5b7bbc3ecc.jpg",
+      "key": "5b7bbc3ecc",
+      "name": "Portakal"
+     }
+    ]
+   }
+  }
+ },
+ "university": "bingol",
+ "updated": "2026-11-01T18:48:25+03:00"
+}

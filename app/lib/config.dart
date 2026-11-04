@@ -5,6 +5,15 @@ const String veriTabanUrl = String.fromEnvironment('VERI_URL',
     defaultValue:
         'https://raw.githubusercontent.com/olgatanriverdi-glitch/yemekhane/main/data');
 
+/// Uygulama sürümü (Ayarlar > Hakkında). pubspec.yaml'daki `version` değerinin '+' öncesiyle aynı olmalı
+/// (test/ilk_acilis_ayarlar_test.dart bunu denetler).
+const String uygulamaSurumu = '0.1.0';
+
+/// Wikimedia Commons'tan fotoğraf isteyen isteklerde (web dışında) gönderilen tanımlayıcı User-Agent; Wikimedia
+/// genel istemci kimliklerini sınırladığı için uygulamayı ve iletişim adresini bildirir.
+const String commonsKullaniciAjani =
+    'UniYemek/$uygulamaSurumu (https://github.com/olgatanriverdi-glitch/yemekhane)';
+
 const List<String> ayAdlari = [
   'Ocak',
   'Şubat',

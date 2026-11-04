@@ -1,0 +1,2 @@
+.mt-meals .item>div:nth-child(3n+2):before{content:"Öğle"}
+.mt-meals .item>div:nth-child(3n):before{content:"Akşam"}

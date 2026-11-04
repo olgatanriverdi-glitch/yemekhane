@@ -1363,6 +1363,1326 @@
     ],
     "kcal": 1020
    }
+  },
+  "2026-11-01": {
+   "dinner": {
+    "items": [
+     {
+      "kcal": 155,
+      "name": "Yarma Çorba"
+     },
+     {
+      "kcal": 390,
+      "name": "Piliç Grill (Yeşil Mercimek Yemeği)"
+     },
+     {
+      "kcal": 325,
+      "name": "Soslu Makarna"
+     },
+     {
+      "kcal": 116,
+      "name": "Meyve"
+     }
+    ],
+    "kcal": 986
+   },
+   "lunch": {
+    "items": [
+     {
+      "kcal": 155,
+      "name": "Yarma Çorba"
+     },
+     {
+      "kcal": 390,
+      "name": "Piliç Grill (Yeşil Mercimek Yemeği)"
+     },
+     {
+      "kcal": 325,
+      "name": "Soslu Makarna"
+     },
+     {
+      "kcal": 116,
+      "name": "Meyve"
+     }
+    ],
+    "kcal": 986
+   }
+  },
+  "2026-11-02": {
+   "dinner": {
+    "items": [
+     {
+      "kcal": 194,
+      "name": "Şehriye Çorba"
+     },
+     {
+      "kcal": 385,
+      "name": "İzmir Köfte (Vegan Köfte)"
+     },
+     {
+      "kcal": 466,
+      "name": "Pirinç Pilavı"
+     },
+     {
+      "kcal": 65,
+      "name": "Ayran"
+     }
+    ],
+    "kcal": 1110
+   },
+   "lunch": {
+    "items": [
+     {
+      "kcal": 194,
+      "name": "Şehriye Çorba"
+     },
+     {
+      "kcal": 385,
+      "name": "İzmir Köfte (Vegan Köfte)"
+     },
+     {
+      "kcal": 342,
+      "name": "Sebzeli Bulgur Pilavı"
+     },
+     {
+      "kcal": 124,
+      "name": "Kase Yoğurt"
+     }
+    ],
+    "kcal": 1045
+   }
+  },
+  "2026-11-03": {
+   "dinner": {
+    "items": [
+     {
+      "kcal": 185,
+      "name": "Sebze Çorba"
+     },
+     {
+      "kcal": 406,
+      "name": "Hindi Ç.Kavurma (Barbunya Yemeği)"
+     },
+     {
+      "kcal": 326,
+      "name": "Napoliten Soslu Makarna"
+     },
+     {
+      "kcal": 124,
+      "name": "Kase Yoğurt"
+     }
+    ],
+    "kcal": 1041
+   },
+   "lunch": {
+    "items": [
+     {
+      "kcal": 185,
+      "name": "Sebze Çorba"
+     },
+     {
+      "kcal": 403,
+      "name": "Kıymalı Yoğurtlu Mantı Makarna (Peynirli Makarna)"
+     },
+     {
+      "kcal": 332,
+      "name": "Zeytinyağlı Barbunya Pilaki"
+     },
+     {
+      "kcal": 243,
+      "name": "Supangle"
+     }
+    ],
+    "kcal": 1163
+   }
+  },
+  "2026-11-04": {
+   "dinner": {
+    "items": [
+     {
+      "kcal": 267,
+      "name": "Hanımağa Çorba"
+     },
+     {
+      "kcal": 225,
+      "name": "Akdeniz Güveci"
+     },
+     {
+      "kcal": 389,
+      "name": "Etli Bulgur Pilavı (Bulgur Pilavı)"
+     },
+     {
+      "kcal": 267,
+      "name": "Yellow Velvet"
+     }
+    ],
+    "kcal": 1148
+   },
+   "lunch": {
+    "items": [
+     {
+      "kcal": 267,
+      "name": "Hanımağa Çorba"
+     },
+     {
+      "kcal": 436,
+      "name": "Tas Kebap (Kabak Mücver)"
+     },
+     {
+      "kcal": 466,
+      "name": "Pirinç Pilavı"
+     },
+     {
+      "kcal": 65,
+      "name": "Ayran"
+     }
+    ],
+    "kcal": 1234
+   }
+  },
+  "2026-11-05": {
+   "dinner": {
+    "items": [
+     {
+      "kcal": 156,
+      "name": "Alaca Çorba"
+     },
+     {
+      "kcal": 294,
+      "name": "Tavuklu Çiftlik Kebap (Bezelye Yemeği)"
+     },
+     {
+      "kcal": 209,
+      "name": "Pancarlı Kuskus Salata"
+     },
+     {
+      "kcal": 96,
+      "name": "Meyve Suyu"
+     }
+    ],
+    "kcal": 755
+   },
+   "lunch": {
+    "items": [
+     {
+      "kcal": 156,
+      "name": "Alaca Çorba"
+     },
+     {
+      "kcal": 348,
+      "name": "Mantarlı But Izgara (Yumurtalı Ispanak)"
+     },
+     {
+      "kcal": 383,
+      "name": "Napoliten Soslu Makarna"
+     },
+     {
+      "kcal": 116,
+      "name": "Meyve"
+     }
+    ],
+    "kcal": 1003
+   }
+  },
+  "2026-11-06": {
+   "dinner": {
+    "items": [
+     {
+      "kcal": 176,
+      "name": "Mercimek Çorba"
+     },
+     {
+      "kcal": 267,
+      "name": "Kıymalı Sandal Sefası (K.Musakka)"
+     },
+     {
+      "kcal": 318,
+      "name": "Börek"
+     },
+     {
+      "kcal": 116,
+      "name": "Meyve"
+     }
+    ],
+    "kcal": 877
+   },
+   "lunch": {
+    "items": [
+     {
+      "kcal": 176,
+      "name": "Mercimek Çorba"
+     },
+     {
+      "kcal": 290,
+      "name": "Fırın Somon (Yeşillik Garnitür) (Türlü)"
+     },
+     {
+      "kcal": 148,
+      "name": "Patates Salatası (Bulgur Pilavı)"
+     },
+     {
+      "kcal": 310,
+      "name": "Tahin Helva"
+     }
+    ],
+    "kcal": 924
+   }
+  },
+  "2026-11-07": {
+   "dinner": {
+    "items": [
+     {
+      "kcal": 157,
+      "name": "Albiber Çorba"
+     },
+     {
+      "kcal": 354,
+      "name": "Etli Nohut (Nohut Yemeği)"
+     },
+     {
+      "kcal": 466,
+      "name": "Pirinç Pilavı"
+     },
+     {
+      "kcal": 65,
+      "name": "Ayran"
+     }
+    ],
+    "kcal": 1042
+   },
+   "lunch": {
+    "items": [
+     {
+      "kcal": 157,
+      "name": "Albiber Çorba"
+     },
+     {
+      "kcal": 354,
+      "name": "Etli Nohut (Nohut Yemeği)"
+     },
+     {
+      "kcal": 466,
+      "name": "Pirinç Pilavı"
+     },
+     {
+      "kcal": 65,
+      "name": "Ayran"
+     }
+    ],
+    "kcal": 1042
+   }
+  },
+  "2026-11-08": {
+   "dinner": {
+    "items": [
+     {
+      "kcal": 152,
+      "name": "Saray Çorba"
+     },
+     {
+      "kcal": 385,
+      "name": "Fırın Köfte (Mantar Sote)"
+     },
+     {
+      "kcal": 367,
+      "name": "Naneli Bulgur Pilavı"
+     },
+     {
+      "kcal": 116,
+      "name": "Meyve"
+     }
+    ],
+    "kcal": 1020
+   },
+   "lunch": {
+    "items": [
+     {
+      "kcal": 152,
+      "name": "Saray Çorba"
+     },
+     {
+      "kcal": 385,
+      "name": "Fırın Köfte (Mantar Sote)"
+     },
+     {
+      "kcal": 367,
+      "name": "Naneli Bulgur Pilavı"
+     },
+     {
+      "kcal": 116,
+      "name": "Meyve"
+     }
+    ],
+    "kcal": 1020
+   }
+  },
+  "2026-11-09": {
+   "dinner": {
+    "items": [
+     {
+      "kcal": 166,
+      "name": "Domates Çorba"
+     },
+     {
+      "kcal": 124,
+      "name": "Yeşil Mercimek Yemeği"
+     },
+     {
+      "kcal": 346,
+      "name": "Kıymalı Makarna (Peynirli Makarna)"
+     },
+     {
+      "kcal": 124,
+      "name": "Kase Yoğurt"
+     }
+    ],
+    "kcal": 760
+   },
+   "lunch": {
+    "items": [
+     {
+      "kcal": 166,
+      "name": "Domates Çorba"
+     },
+     {
+      "kcal": 593,
+      "name": "Hindi Şehriyeli Güveç (Şehriye Pilavı)"
+     },
+     {
+      "kcal": 172,
+      "name": "Yoğurtlu Pırasa Kavurma (P.Graten)"
+     },
+     {
+      "kcal": 223,
+      "name": "Tiramisu"
+     }
+    ],
+    "kcal": 1154
+   }
+  },
+  "2026-11-10": {
+   "dinner": {
+    "items": [
+     {
+      "kcal": 175,
+      "name": "Tarhana Çorba"
+     },
+     {
+      "kcal": 390,
+      "name": "Piliç Kızartma (Bezelye)"
+     },
+     {
+      "kcal": 367,
+      "name": "Bulgur Pilavı"
+     },
+     {
+      "kcal": 139,
+      "name": "Coleslaw"
+     }
+    ],
+    "kcal": 1071
+   },
+   "lunch": {
+    "items": [
+     {
+      "kcal": 175,
+      "name": "Tarhana Çorba"
+     },
+     {
+      "kcal": 329,
+      "name": "Kuru Fasulye Yemeği"
+     },
+     {
+      "kcal": 462,
+      "name": "Etli Pirinç Pilavı (Pirinç Pilavı)"
+     },
+     {
+      "kcal": 13,
+      "name": "Turşu"
+     }
+    ],
+    "kcal": 979
+   }
+  },
+  "2026-11-11": {
+   "dinner": {
+    "items": [
+     {
+      "kcal": 194,
+      "name": "Melek Çorba"
+     },
+     {
+      "kcal": 267,
+      "name": "Girit Usulü Musakka (Man.K.Yarık)"
+     },
+     {
+      "kcal": 466,
+      "name": "Pirinç Pilavı"
+     },
+     {
+      "kcal": 117,
+      "name": "Cacık"
+     }
+    ],
+    "kcal": 1044
+   },
+   "lunch": {
+    "items": [
+     {
+      "kcal": 194,
+      "name": "Melek Çorba"
+     },
+     {
+      "kcal": 405,
+      "name": "Sebzeli Köfte (Kabak Sandal)"
+     },
+     {
+      "kcal": 377,
+      "name": "Bulgur Pilavı"
+     },
+     {
+      "kcal": 65,
+      "name": "Ayran"
+     }
+    ],
+    "kcal": 1041
+   }
+  },
+  "2026-11-12": {
+   "dinner": {
+    "items": [
+     {
+      "kcal": 141,
+      "name": "Yayla Çorba"
+     },
+     {
+      "kcal": 403,
+      "name": "Akdeniz Köfte (Barbunya Yemeği)"
+     },
+     {
+      "kcal": 325,
+      "name": "Soslu Makarna"
+     },
+     {
+      "kcal": 116,
+      "name": "Meyve"
+     }
+    ],
+    "kcal": 985
+   },
+   "lunch": {
+    "items": [
+     {
+      "kcal": 141,
+      "name": "Yayla Çorba"
+     },
+     {
+      "kcal": 154,
+      "name": "Beğendili Baget (Su Böreği)"
+     },
+     {
+      "kcal": 349,
+      "name": "Taze Fasulye Diblesi (Taze Fasulye Yemeği)"
+     },
+     {
+      "kcal": 96,
+      "name": "Meyve Suyu"
+     }
+    ],
+    "kcal": 740
+   }
+  },
+  "2026-11-13": {
+   "dinner": {
+    "items": [
+     {
+      "kcal": 164,
+      "name": "Ezogelin Çorba"
+     },
+     {
+      "kcal": 290,
+      "name": "Fırın Somon (Yeşillik) (Pirinç Pilavı)"
+     },
+     {
+      "kcal": 185,
+      "name": "Baklagil Salatası (Nohut Yemeği)"
+     },
+     {
+      "kcal": 310,
+      "name": "Tahin Helva"
+     }
+    ],
+    "kcal": 949
+   },
+   "lunch": {
+    "items": [
+     {
+      "kcal": 164,
+      "name": "Ezogelin Çorba"
+     },
+     {
+      "kcal": 643,
+      "name": "Kafeterya Kebap (Bamya Yemeği)"
+     },
+     {
+      "kcal": 377,
+      "name": "Havuç Tarator (Bulgur Pilavı)"
+     },
+     {
+      "kcal": 116,
+      "name": "Meyve"
+     }
+    ],
+    "kcal": 1300
+   }
+  },
+  "2026-11-14": {
+   "dinner": {
+    "items": [
+     {
+      "kcal": 155,
+      "name": "Mantar Çorba"
+     },
+     {
+      "kcal": 201,
+      "name": "Etli Sebze Sote (Falafel Köfte)"
+     },
+     {
+      "kcal": 365,
+      "name": "Yoğurtlu Şehriye Salatası (Şehriye Pilavı)"
+     },
+     {
+      "kcal": 246,
+      "name": "Puding"
+     }
+    ],
+    "kcal": 967
+   },
+   "lunch": {
+    "items": [
+     {
+      "kcal": 155,
+      "name": "Mantar Çorba"
+     },
+     {
+      "kcal": 201,
+      "name": "Etli Sebze Sote (Falafel Köfte)"
+     },
+     {
+      "kcal": 365,
+      "name": "Yoğurtlu Şehriye Salatası (Şehriye Pilavı)"
+     },
+     {
+      "kcal": 246,
+      "name": "Puding"
+     }
+    ],
+    "kcal": 967
+   }
+  },
+  "2026-11-15": {
+   "dinner": {
+    "items": [
+     {
+      "kcal": 169,
+      "name": "Maraş Çorba"
+     },
+     {
+      "kcal": 390,
+      "name": "Soslu Fırın Baget (Mantar Sote)"
+     },
+     {
+      "kcal": 368,
+      "name": "Peynirli Makarna"
+     },
+     {
+      "kcal": 116,
+      "name": "Meyve"
+     }
+    ],
+    "kcal": 1043
+   },
+   "lunch": {
+    "items": [
+     {
+      "kcal": 169,
+      "name": "Maraş Çorba"
+     },
+     {
+      "kcal": 390,
+      "name": "Soslu Fırın Baget (Mantar Sote)"
+     },
+     {
+      "kcal": 368,
+      "name": "Peynirli Makarna"
+     },
+     {
+      "kcal": 116,
+      "name": "Meyve"
+     }
+    ],
+    "kcal": 1043
+   }
+  },
+  "2026-11-16": {
+   "dinner": {
+    "items": [
+     {
+      "kcal": 112,
+      "name": "Kafkas Çorba"
+     },
+     {
+      "kcal": 407,
+      "name": "Etli Kuru Fasulye (Kuru Fasulye Yemeği)"
+     },
+     {
+      "kcal": 466,
+      "name": "Pirinç Pilavı"
+     },
+     {
+      "kcal": 65,
+      "name": "Ayran"
+     }
+    ],
+    "kcal": 1050
+   },
+   "lunch": {
+    "items": [
+     {
+      "kcal": 112,
+      "name": "Kafkas Çorba"
+     },
+     {
+      "kcal": 407,
+      "name": "Püreli Tepsi Köfte (Vegan Köfte)"
+     },
+     {
+      "kcal": 377,
+      "name": "Bulgur Pilavı"
+     },
+     {
+      "kcal": 116,
+      "name": "Meyve"
+     }
+    ],
+    "kcal": 1012
+   }
+  },
+  "2026-11-17": {
+   "dinner": {
+    "items": [
+     {
+      "kcal": 138,
+      "name": "Köz Domates Çorba"
+     },
+     {
+      "kcal": 544,
+      "name": "İç Pilavlı Hindi Tandır (Börek)"
+     },
+     {
+      "kcal": 81,
+      "name": "Yoğurtlu Sebze Sote"
+     },
+     {
+      "kcal": 116,
+      "name": "Meyve"
+     }
+    ],
+    "kcal": 879
+   },
+   "lunch": {
+    "items": [
+     {
+      "kcal": 138,
+      "name": "Köz Domates Çorba"
+     },
+     {
+      "kcal": 650,
+      "name": "Yoğurt Soslu İçli Köfte (Patatesli İçli Köfte)"
+     },
+     {
+      "kcal": 157,
+      "name": "Zeytinyağlı Orbit Fasulye"
+     },
+     {
+      "kcal": 96,
+      "name": "Meyve Suyu"
+     }
+    ],
+    "kcal": 1041
+   }
+  },
+  "2026-11-18": {
+   "dinner": {
+    "items": [
+     {
+      "kcal": 138,
+      "name": "Mengen Çorba"
+     },
+     {
+      "kcal": 393,
+      "name": "Patates Lazanya (Fırın Patates)"
+     },
+     {
+      "kcal": 211,
+      "name": "Yoğurtlu Erişteli Yeşil Mercimek Salata"
+     },
+     {
+      "kcal": 246,
+      "name": "Puding"
+     }
+    ],
+    "kcal": 988
+   },
+   "lunch": {
+    "items": [
+     {
+      "kcal": 138,
+      "name": "Mengen Çorba"
+     },
+     {
+      "kcal": 477,
+      "name": "Portekiz Usulü Piliç (Bezelye Yemeği)"
+     },
+     {
+      "kcal": 368,
+      "name": "Peynirli Makarna"
+     },
+     {
+      "kcal": 124,
+      "name": "Kase Yoğurt"
+     }
+    ],
+    "kcal": 1107
+   }
+  },
+  "2026-11-19": {
+   "dinner": {
+    "items": [
+     {
+      "kcal": 185,
+      "name": "Sebze Çorba"
+     },
+     {
+      "kcal": 385,
+      "name": "Adana Köfte (Barbunya Yemeği)"
+     },
+     {
+      "kcal": 377,
+      "name": "Bulgur Pilavı"
+     },
+     {
+      "kcal": 124,
+      "name": "Kase Yoğurt"
+     }
+    ],
+    "kcal": 1071
+   },
+   "lunch": {
+    "items": [
+     {
+      "kcal": 185,
+      "name": "Sebze Çorba"
+     },
+     {
+      "kcal": 652,
+      "name": "Pilav Üstü Et Kavurma (Pirinç Pilavı)"
+     },
+     {
+      "kcal": 130,
+      "name": "Zeytinyağlı Mantar Pilaki"
+     },
+     {
+      "kcal": 65,
+      "name": "Ayran"
+     }
+    ],
+    "kcal": 1032
+   }
+  },
+  "2026-11-20": {
+   "dinner": {
+    "items": [
+     {
+      "kcal": 194,
+      "name": "Şehriye Çorba"
+     },
+     {
+      "kcal": 380,
+      "name": "Piliç Orman Kebap (Isp.Fellah K)"
+     },
+     {
+      "kcal": 318,
+      "name": "Su Böreği"
+     },
+     {
+      "kcal": 96,
+      "name": "Meyve Suyu"
+     }
+    ],
+    "kcal": 988
+   },
+   "lunch": {
+    "items": [
+     {
+      "kcal": 194,
+      "name": "Şehriye Çorba"
+     },
+     {
+      "kcal": 290,
+      "name": "Somon Buğulama (Karnabahar Kızartma)"
+     },
+     {
+      "kcal": 92,
+      "name": "Buğdaylı Akdeniz Salata (Cevizli Erişte)"
+     },
+     {
+      "kcal": 310,
+      "name": "Tahin Helva"
+     }
+    ],
+    "kcal": 886
+   }
+  },
+  "2026-11-21": {
+   "dinner": {
+    "items": [
+     {
+      "kcal": 176,
+      "name": "Mercimek Çorba"
+     },
+     {
+      "kcal": 586,
+      "name": "İç Pilavlı Dana Tandır (Taze Fasulye)"
+     },
+     {
+      "kcal": 76,
+      "name": "Mevsim Salata"
+     },
+     {
+      "kcal": 324,
+      "name": "Trileçe"
+     }
+    ],
+    "kcal": 1162
+   },
+   "lunch": {
+    "items": [
+     {
+      "kcal": 176,
+      "name": "Mercimek Çorba"
+     },
+     {
+      "kcal": 586,
+      "name": "İç Pilavlı Dana Tandır (Taze Fasulye)"
+     },
+     {
+      "kcal": 76,
+      "name": "Mevsim Salata"
+     },
+     {
+      "kcal": 324,
+      "name": "Trileçe"
+     }
+    ],
+    "kcal": 1162
+   }
+  },
+  "2026-11-22": {
+   "dinner": {
+    "items": [
+     {
+      "kcal": 152,
+      "name": "Saray Çorba"
+     },
+     {
+      "kcal": 354,
+      "name": "Etli Nohut (Nohut Yemeği)"
+     },
+     {
+      "kcal": 466,
+      "name": "Pirinç Pilavı"
+     },
+     {
+      "kcal": 124,
+      "name": "Kase Yoğurt"
+     }
+    ],
+    "kcal": 1096
+   },
+   "lunch": {
+    "items": [
+     {
+      "kcal": 152,
+      "name": "Saray Çorba"
+     },
+     {
+      "kcal": 354,
+      "name": "Etli Nohut (Nohut Yemeği)"
+     },
+     {
+      "kcal": 466,
+      "name": "Pirinç Pilavı"
+     },
+     {
+      "kcal": 124,
+      "name": "Kase Yoğurt"
+     }
+    ],
+    "kcal": 1096
+   }
+  },
+  "2026-11-23": {
+   "dinner": {
+    "items": [
+     {
+      "kcal": 175,
+      "name": "Tarhana Çorba"
+     },
+     {
+      "kcal": 570,
+      "name": "Talaş Kebabı (Vejetaryen Talaş Kebabı)"
+     },
+     {
+      "kcal": 158,
+      "name": "Kabak Şayan"
+     },
+     {
+      "kcal": 116,
+      "name": "Meyve"
+     }
+    ],
+    "kcal": 1019
+   },
+   "lunch": {
+    "items": [
+     {
+      "kcal": 175,
+      "name": "Tarhana Çorba"
+     },
+     {
+      "kcal": 426,
+      "name": "Akdeniz Usulü Piliç (Mantar Graten)"
+     },
+     {
+      "kcal": 377,
+      "name": "Bulgur Pilavı"
+     },
+     {
+      "kcal": 65,
+      "name": "Ayran"
+     }
+    ],
+    "kcal": 1043
+   }
+  },
+  "2026-11-24": {
+   "dinner": {
+    "items": [
+     {
+      "kcal": 155,
+      "name": "Mantar Çorba"
+     },
+     {
+      "kcal": 405,
+      "name": "Sebzeli Köfte (Falafel Köfte)"
+     },
+     {
+      "kcal": 466,
+      "name": "Pirinç Pilavı"
+     },
+     {
+      "kcal": 65,
+      "name": "Ayran"
+     }
+    ],
+    "kcal": 1091
+   },
+   "lunch": {
+    "items": [
+     {
+      "kcal": 155,
+      "name": "Mantar Çorba"
+     },
+     {
+      "kcal": 248,
+      "name": "Sebzeli Köfte (Bezelye Yemeği)"
+     },
+     {
+      "kcal": 326,
+      "name": "Soslu Makarna"
+     },
+     {
+      "kcal": 561,
+      "name": "Şekerpare"
+     }
+    ],
+    "kcal": 1290
+   }
+  },
+  "2026-11-25": {
+   "dinner": {
+    "items": [
+     {
+      "kcal": 156,
+      "name": "Alaca Çorba"
+     },
+     {
+      "kcal": 182,
+      "name": "Ispanak Yemeği"
+     },
+     {
+      "kcal": 318,
+      "name": "Kıymalı Börek (Börek)"
+     },
+     {
+      "kcal": 124,
+      "name": "Kase Yoğurt"
+     }
+    ],
+    "kcal": 780
+   },
+   "lunch": {
+    "items": [
+     {
+      "kcal": 156,
+      "name": "Alaca Çorba"
+     },
+     {
+      "kcal": 436,
+      "name": "Dana Kızartma (Kabak Mücver)"
+     },
+     {
+      "kcal": 333,
+      "name": "Şehriye Pilavı"
+     },
+     {
+      "kcal": 116,
+      "name": "Meyve"
+     }
+    ],
+    "kcal": 1041
+   }
+  },
+  "2026-11-26": {
+   "dinner": {
+    "items": [
+     {
+      "kcal": 154,
+      "name": "Brokoli Çorba"
+     },
+     {
+      "kcal": 348,
+      "name": "Tavuk Belen Tava (Vegan Köfte)"
+     },
+     {
+      "kcal": 328,
+      "name": "Erişte Makarna"
+     },
+     {
+      "kcal": 93,
+      "name": "Havuç Salata"
+     }
+    ],
+    "kcal": 923
+   },
+   "lunch": {
+    "items": [
+     {
+      "kcal": 154,
+      "name": "Brokoli Çorba"
+     },
+     {
+      "kcal": 329,
+      "name": "Kuru Fasulye"
+     },
+     {
+      "kcal": 486,
+      "name": "Mengen Pilavı (Pirinç Pilavı)"
+     },
+     {
+      "kcal": 124,
+      "name": "Kase Yoğurt"
+     }
+    ],
+    "kcal": 1093
+   }
+  },
+  "2026-11-27": {
+   "dinner": {
+    "items": [
+     {
+      "kcal": 210,
+      "name": "Erişteli Yeşil Mercimek Çorba"
+     },
+     {
+      "kcal": 290,
+      "name": "Fırın Somon (Yeşillik) (Bulgur Pilavı)"
+     },
+     {
+      "kcal": 148,
+      "name": "Patates Piyaz (Patates Oturtma)"
+     },
+     {
+      "kcal": 356,
+      "name": "Kemalpaşa Tatlısı"
+     }
+    ],
+    "kcal": 1004
+   },
+   "lunch": {
+    "items": [
+     {
+      "kcal": 210,
+      "name": "Erişteli Yeşil Mercimek Çorba"
+     },
+     {
+      "kcal": 556,
+      "name": "Köfteli Bulgurlu Alipaşa Pilavı (Bulgur Pilavı)"
+     },
+     {
+      "kcal": 142,
+      "name": "Zeytinyağlı Taze Fasulye"
+     },
+     {
+      "kcal": 356,
+      "name": "Kemalpaşa Tatlısı"
+     }
+    ],
+    "kcal": 1264
+   }
+  },
+  "2026-11-28": {
+   "dinner": {
+    "items": [
+     {
+      "kcal": 157,
+      "name": "Köz Biber Çorba"
+     },
+     {
+      "kcal": 341,
+      "name": "Domatesli Biberli Nohut"
+     },
+     {
+      "kcal": 485,
+      "name": "Çerkez Pilavı (Pirinç Pilavı)"
+     },
+     {
+      "kcal": 124,
+      "name": "Kase Yoğurt"
+     }
+    ],
+    "kcal": 1107
+   },
+   "lunch": {
+    "items": [
+     {
+      "kcal": 157,
+      "name": "Köz Biber Çorba"
+     },
+     {
+      "kcal": 341,
+      "name": "Domatesli Biberli Nohut"
+     },
+     {
+      "kcal": 485,
+      "name": "Çerkez Pilavı (Pirinç Pilavı)"
+     },
+     {
+      "kcal": 124,
+      "name": "Kase Yoğurt"
+     }
+    ],
+    "kcal": 1107
+   }
+  },
+  "2026-11-29": {
+   "dinner": {
+    "items": [
+     {
+      "kcal": 155,
+      "name": "Yarma Çorba"
+     },
+     {
+      "kcal": 449,
+      "name": "Mantarlı Hindi Sote (Falafel Köfte)"
+     },
+     {
+      "kcal": 318,
+      "name": "Börek"
+     },
+     {
+      "kcal": 96,
+      "name": "Meyve Suyu"
+     }
+    ],
+    "kcal": 1018
+   },
+   "lunch": {
+    "items": [
+     {
+      "kcal": 155,
+      "name": "Yarma Çorba"
+     },
+     {
+      "kcal": 449,
+      "name": "Mantarlı Hindi Sote (Falafel Köfte)"
+     },
+     {
+      "kcal": 318,
+      "name": "Börek"
+     },
+     {
+      "kcal": 96,
+      "name": "Meyve Suyu"
+     }
+    ],
+    "kcal": 1018
+   }
+  },
+  "2026-11-30": {
+   "dinner": {
+    "items": [
+     {
+      "kcal": 156,
+      "name": "Vitamin Çorba"
+     },
+     {
+      "kcal": 203,
+      "name": "Karnabahar Kızartma"
+     },
+     {
+      "kcal": 383,
+      "name": "Bolonez Soslu Makarna (S.Makarna)"
+     },
+     {
+      "kcal": 124,
+      "name": "Kase Yoğurt"
+     }
+    ],
+    "kcal": 866
+   },
+   "lunch": {
+    "items": [
+     {
+      "kcal": 156,
+      "name": "Vitamin Çorba"
+     },
+     {
+      "kcal": 507,
+      "name": "Bilecik Güveci (Yeşil Mercimek Yemeği)"
+     },
+     {
+      "kcal": 466,
+      "name": "Pirinç Pilavı"
+     },
+     {
+      "kcal": 65,
+      "name": "Meyve"
+     }
+    ],
+    "kcal": 1194
+   }
   }
  }
 }

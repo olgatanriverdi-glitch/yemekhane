@@ -368,12 +368,28 @@ class ElleOkullarTesti(unittest.TestCase):
 
     def test_deu(self):
         m = elle.yukle("deu")
-        self.assertEqual((min(m), max(m)), ("2026-09-28", "2026-10-30"))
+        self.assertEqual((min(m), max(m)), ("2026-09-28", "2026-12-04"))
         self.assertEqual(adlar(m["2026-10-06"]["lunch"]), ["Etli Mevsim Türlü", "Erişte", "Havuç Tarator", "Meyve"])
         self.assertEqual(m["2026-10-06"]["lunch"]["kcal"], 1119)
         self.assertEqual(adlar(m["2026-10-06"]["vegetarian"])[0], "Mevsim Türlü (Etsiz)")
         self.assertEqual(m["2026-10-29"]["lunch"], {"items": [], "note": "Cumhuriyet Bayramı (resmi tatil)"})
-        self.assertEqual(sum(1 for g in m.values() if g["lunch"]["items"]), 23)         # 23 öğle günü (hafta içi; 28 Ekim yarım gün, 29 Ekim tatil)
+        self.assertEqual(sum(1 for t, g in m.items() if t < "2026-11" and g["lunch"]["items"]), 23)         # 23 öğle günü (hafta içi; 28 Ekim yarım gün, 29 Ekim tatil)
+
+    def test_deu_kasim_listesi(self):
+        """Kasım resimleri 2 Kasım - 4 Aralık'ı kapsar: 25 hafta içi günü, normal liste -> öğle, vegan liste -> vejetaryen."""
+        m = {t: g for t, g in elle.yukle("deu").items() if t >= "2026-11"}
+        self.assertEqual((min(m), max(m), len(m)), ("2026-11-02", "2026-12-04", 25))
+        for tarih, gun in m.items():
+            self.assertEqual(set(gun), {"lunch", "vegetarian"}, tarih)
+            for ogun in gun.values():
+                self.assertIn(len(ogun["items"]), (4, 5), tarih)
+                self.assertGreater(ogun["kcal"], 0, tarih)                              # kalem kalorisi yok, günün toplamı var
+                self.assertFalse(any("kcal" in o for o in ogun["items"]), tarih)
+        self.assertEqual(adlar(m["2026-11-02"]["lunch"]), ["Kuru Fasulye", "Pirinç Pilavı", "Yoğurt", "Turşu", "Tatlı"])
+        self.assertEqual((m["2026-11-02"]["lunch"]["kcal"], m["2026-11-02"]["vegetarian"]["kcal"]), (1050, 950))
+        self.assertEqual(adlar(m["2026-11-11"]["lunch"])[2], "Domates Soslu Makarna")           # 'DOM.' açıldı
+        self.assertEqual(adlar(m["2026-11-17"]["vegetarian"])[0], "Orman Kebabı (Etsiz)")
+        self.assertEqual(adlar(m["2026-12-04"]["vegetarian"])[0], "Kırmızı Pancar Yemeği")       # okulun 'KIRMZI' yazım hatası düzeltildi
 
     def test_gtu(self):
         m = elle.yukle("gtu")
@@ -387,12 +403,15 @@ class ElleOkullarTesti(unittest.TestCase):
 
     def test_trabzon_gunluk_toplam_kalem_toplamina_esit(self):
         m = elle.yukle("trabzon")
-        self.assertEqual(len(m), 20)
+        self.assertEqual((min(m), max(m), len(m)), ("2026-10-01", "2026-11-30", 41))         # 20 Ekim + 21 Kasım günü
         for tarih, ogun in m.items():
             g = ogun["lunch"]
             self.assertEqual(g["kcal"], sum(o["kcal"] for o in g["items"]), tarih)
             self.assertEqual(len(g["items"]), 4, tarih)
         self.assertEqual(adlar(m["2026-10-06"]["lunch"]), ["Köylüm Çorba", "Tavuk Külbastı + Patates Kızartma", "Soslu Makarna", "Ayran"])
+        self.assertEqual(adlar(m["2026-11-10"]["lunch"]), ["Şehriye Çorba", "Tavuk Külbastı + Patates Kızartma", "Soslu Makarna", "Sütlaç"])      # 'PAT. KIZART.' açıldı
+        self.assertEqual(m["2026-11-03"]["lunch"]["kcal"], 1310)          # okul 1.370 yazmış; kalem toplamı kullanılır
+        self.assertEqual(adlar(m["2026-11-30"]["lunch"])[2], "Pirinç Pilavı")                    # okulun 'PİRİRNÇ' yazım hatası düzeltildi
 
     def test_siniflar_elle_veriyi_dondurur(self):
         from yemekhane.universities import deu, gtu, trabzon

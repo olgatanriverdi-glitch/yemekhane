@@ -1,0 +1,129 @@
+{
+ "days": {
+  "2026-11-02": {
+   "lunch": {
+    "items": [
+     {
+      "img": "dishes/4fb733faf2.jpg",
+      "key": "4fb733faf2",
+      "name": "Ezogelin Çorbası"
+     },
+     {
+      "img": "dishes/3543c91e67.jpg",
+      "key": "3543c91e67",
+      "name": "Hasanpaşa Köfte"
+     },
+     {
+      "key": "8636bfbc0a",
+      "name": "Pirinç Pilavı"
+     },
+     {
+      "img": "dishes/16b5c22561.jpg",
+      "key": "16b5c22561",
+      "name": "Ayran"
+     }
+    ]
+   }
+  },
+  "2026-11-03": {
+   "lunch": {
+    "items": [
+     {
+      "img": "dishes/495fb304f2.jpg",
+      "key": "495fb304f2",
+      "name": "Şehriye Çorbası"
+     },
+     {
+      "key": "6edbc664b7",
+      "name": "Piliç Spc But"
+     },
+     {
+      "img": "dishes/25b07cf14e.jpg",
+      "key": "25b07cf14e",
+      "name": "Bulgur Pilavı"
+     },
+     {
+      "img": "dishes/99a67d4042.jpg",
+      "key": "99a67d4042",
+      "name": "Mevsim Salata"
+     }
+    ]
+   }
+  },
+  "2026-11-04": {
+   "lunch": {
+    "items": [
+     {
+      "img": "dishes/5d3038c41b.jpg",
+      "key": "5d3038c41b",
+      "name": "Yayla Çorbası"
+     },
+     {
+      "key": "d621426267",
+      "name": "Et Kavurma"
+     },
+     {
+      "img": "dishes/943fe1113c.jpg",
+      "key": "943fe1113c",
+      "name": "Erişte"
+     },
+     {
+      "img": "dishes/92485508df.jpg",
+      "key": "92485508df",
+      "name": "Tatlı"
+     }
+    ]
+   }
+  },
+  "2026-11-05": {
+   "lunch": {
+    "items": [
+     {
+      "key": "e47540f7f5",
+      "name": "Domates Çorbası"
+     },
+     {
+      "img": "dishes/e2134501b4.jpg",
+      "key": "e2134501b4",
+      "name": "Nohut"
+     },
+     {
+      "key": "8636bfbc0a",
+      "name": "Pirinç Pilavı"
+     },
+     {
+      "key": "79ded7ea04",
+      "name": "Havuç Tarator"
+     }
+    ]
+   }
+  },
+  "2026-11-06": {
+   "lunch": {
+    "items": [
+     {
+      "img": "dishes/495fb304f2.jpg",
+      "key": "495fb304f2",
+      "name": "Şehriye Çorbası"
+     },
+     {
+      "img": "dishes/3ed346919a.jpg",
+      "key": "3ed346919a",
+      "name": "Dana Haşlama"
+     },
+     {
+      "key": "3b8121367c",
+      "name": "Brokoli Salatası"
+     },
+     {
+      "img": "dishes/ed17271d58.jpg",
+      "key": "ed17271d58",
+      "name": "Meyve"
+     }
+    ]
+   }
+  }
+ },
+ "university": "kayseri",
+ "updated": "2026-11-01T16:51:31+03:00"
+}

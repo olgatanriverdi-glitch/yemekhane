@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Bildirim simgesine eklenti ada göre (kodla) ulaşır; kaynak küçültme (R8) kullanılmıyor sanıp silmesin. -->
+<resources xmlns:tools="http://schemas.android.com/tools"
+    tools:keep="@drawable/ic_bildirim" />

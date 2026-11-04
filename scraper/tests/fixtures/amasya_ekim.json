@@ -1,0 +1,208 @@
+{
+ "yil": 2026,
+ "ay": 10,
+ "gunler": [
+  {
+   "tarih": "2026-10-01T00:00:00",
+   "aktifTakvimKayitSayisi": 11,
+   "corbaYemekAdi": "MERCİMEK ÇORBASI                                                                                    ",
+   "anaYemekAdi": "TAVUK SOTESİ                                                                                        ",
+   "diger1YemekAdi": "ŞEHRİYELİ PİRİNÇ PİLAVI                                                                             ",
+   "diger2YemekAdi": "AYRAN                                                                                               ",
+   "tamamMi": true,
+   "toplamKalori": 692
+  },
+  {
+   "tarih": "2026-10-02T00:00:00",
+   "aktifTakvimKayitSayisi": 11,
+   "corbaYemekAdi": "MAHLUTA ÇORBASI                                                                                     ",
+   "anaYemekAdi": "FIRIN TAVUK BUT                                                                                     ",
+   "diger1YemekAdi": "NOHUTLU PİRİNÇ PİLAVI                                                                               ",
+   "diger2YemekAdi": "MEVSİM SALATA                                                                                       ",
+   "tamamMi": true,
+   "toplamKalori": 945
+  },
+  {
+   "tarih": "2026-10-05T00:00:00",
+   "aktifTakvimKayitSayisi": 11,
+   "corbaYemekAdi": "YAYLA ÇORBASI                                                                                       ",
+   "anaYemekAdi": "ETLİ NOHUT                                                                                          ",
+   "diger1YemekAdi": "SEBZELİ BULGUR PİLAVI                                                                               ",
+   "diger2YemekAdi": "TAHİN HELVA                                                                                         ",
+   "tamamMi": true,
+   "toplamKalori": 820
+  },
+  {
+   "tarih": "2026-10-06T00:00:00",
+   "aktifTakvimKayitSayisi": 11,
+   "corbaYemekAdi": "TAVUKLU SARAY ÇORBA",
+   "anaYemekAdi": "SEBZELİ MİSKET KÖFTE",
+   "diger1YemekAdi": "PEYNİRLİ MAKARNA                                                                                    ",
+   "diger2YemekAdi": "MEYVE                                                                                               ",
+   "tamamMi": true,
+   "toplamKalori": 720
+  },
+  {
+   "tarih": "2026-10-07T00:00:00",
+   "aktifTakvimKayitSayisi": 11,
+   "corbaYemekAdi": "MERCİMEK ÇORBASI                                                                                    ",
+   "anaYemekAdi": "BAHÇEVAN KEBABI                                                                                     ",
+   "diger1YemekAdi": "ŞEHRİYELİ BULGUR PİLAVI                                                                             ",
+   "diger2YemekAdi": "SÜTLAÇ                                                                                              ",
+   "tamamMi": true,
+   "toplamKalori": 1022
+  },
+  {
+   "tarih": "2026-10-08T00:00:00",
+   "aktifTakvimKayitSayisi": 11,
+   "corbaYemekAdi": "ŞEHRİYE ÇORBASI                                                                                     ",
+   "anaYemekAdi": "TAVUK BUT BONFİLE",
+   "diger1YemekAdi": "BAHAR PİLAVI                                                                                        ",
+   "diger2YemekAdi": "PEMBE SULTAN                                                                                        ",
+   "tamamMi": true,
+   "toplamKalori": 986
+  },
+  {
+   "tarih": "2026-10-09T00:00:00",
+   "aktifTakvimKayitSayisi": 11,
+   "corbaYemekAdi": "MENGEN ÇORBA                                                                                        ",
+   "anaYemekAdi": "ET DÖNERİ                                                                                           ",
+   "diger1YemekAdi": "NOHUTLU PİRİNÇ PİLAVI                                                                               ",
+   "diger2YemekAdi": "AYRAN                                                                                               ",
+   "tamamMi": true,
+   "toplamKalori": 739
+  },
+  {
+   "tarih": "2026-10-12T00:00:00",
+   "aktifTakvimKayitSayisi": 11,
+   "corbaYemekAdi": "MERCİMEK ÇORBASI                                                                                    ",
+   "anaYemekAdi": "ET KAVURMA                                                                                          ",
+   "diger1YemekAdi": "ŞEHRİYELİ PİRİNÇ PİLAVI                                                                             ",
+   "diger2YemekAdi": "HAYDARİ                                                                                             ",
+   "tamamMi": true,
+   "toplamKalori": 1028
+  },
+  {
+   "tarih": "2026-10-13T00:00:00",
+   "aktifTakvimKayitSayisi": 11,
+   "corbaYemekAdi": "ŞEHRİYE ÇORBASI                                                                                     ",
+   "anaYemekAdi": "FIRIN TAVUK BUT                                                                                     ",
+   "diger1YemekAdi": "GARNİTÜRLÜ PİRİNÇ PİLAVI                                                                            ",
+   "diger2YemekAdi": "MEYVE                                                                                               ",
+   "tamamMi": true,
+   "toplamKalori": 926
+  },
+  {
+   "tarih": "2026-10-14T00:00:00",
+   "aktifTakvimKayitSayisi": 11,
+   "corbaYemekAdi": "DÜĞÜN ÇORBASI                                                                                       ",
+   "anaYemekAdi": "ŞEHZADE KEBABI                                                                                      ",
+   "diger1YemekAdi": "PENNE ARABİATA MAKARNA                                                                              ",
+   "diger2YemekAdi": "ŞEKERPARE                                                                                           ",
+   "tamamMi": true,
+   "toplamKalori": 1066
+  },
+  {
+   "tarih": "2026-10-15T00:00:00",
+   "aktifTakvimKayitSayisi": 11,
+   "corbaYemekAdi": "SOĞUK AYRAN AŞI ÇORBA                                                                               ",
+   "anaYemekAdi": "MACAR GULAŞ                                                                                         ",
+   "diger1YemekAdi": "NOHUTLU PİRİNÇ PİLAVI                                                                               ",
+   "diger2YemekAdi": "MEVSİM SALATA                                                                                       ",
+   "tamamMi": true,
+   "toplamKalori": 890
+  },
+  {
+   "tarih": "2026-10-16T00:00:00",
+   "aktifTakvimKayitSayisi": 11,
+   "corbaYemekAdi": "EZOGELİN ÇORBASI                                                                                    ",
+   "anaYemekAdi": "TAVUK DÖNERİ                                                                                        ",
+   "diger1YemekAdi": "SEBZELİ BULGUR PİLAVI                                                                               ",
+   "diger2YemekAdi": "AYRAN                                                                                               ",
+   "tamamMi": true,
+   "toplamKalori": 619
+  },
+  {
+   "tarih": "2026-10-19T00:00:00",
+   "aktifTakvimKayitSayisi": 11,
+   "corbaYemekAdi": "MERCİMEK ÇORBASI                                                                                    ",
+   "anaYemekAdi": "ETLİ KURU FASULYE                                                                                   ",
+   "diger1YemekAdi": "ŞEHRİYELİ PİRİNÇ PİLAVI                                                                             ",
+   "diger2YemekAdi": "HAYDARİ                                                                                             ",
+   "tamamMi": true,
+   "toplamKalori": 828
+  },
+  {
+   "tarih": "2026-10-20T00:00:00",
+   "aktifTakvimKayitSayisi": 11,
+   "corbaYemekAdi": "ŞEHRİYE ÇORBASI                                                                                     ",
+   "anaYemekAdi": "TERBİYELİ KÖFTE                                                                                     ",
+   "diger1YemekAdi": "MÜCEDDERE                                                                                           ",
+   "diger2YemekAdi": "MEYVE                                                                                               ",
+   "tamamMi": true,
+   "toplamKalori": 745
+  },
+  {
+   "tarih": "2026-10-21T00:00:00",
+   "aktifTakvimKayitSayisi": 11,
+   "corbaYemekAdi": "ÇATAL ÇORBA                                                                                         ",
+   "anaYemekAdi": "KREMALI KEKİKLİ TAVUK                                                                               ",
+   "diger1YemekAdi": "NOHUT TAVA                                                                                          ",
+   "diger2YemekAdi": "MEVSİM SALATA                                                                                       ",
+   "tamamMi": true,
+   "toplamKalori": 1070
+  },
+  {
+   "tarih": "2026-10-22T00:00:00",
+   "aktifTakvimKayitSayisi": 11,
+   "corbaYemekAdi": "EZOGELİN ÇORBASI                                                                                    ",
+   "anaYemekAdi": "ANKARA TAVA                                                                                         ",
+   "diger1YemekAdi": "ZEYTİNYAĞLI PIRASA                                                                                  ",
+   "diger2YemekAdi": "İNCİR UYUTMASI                                                                                      ",
+   "tamamMi": true,
+   "toplamKalori": 805
+  },
+  {
+   "tarih": "2026-10-23T00:00:00",
+   "aktifTakvimKayitSayisi": 11,
+   "corbaYemekAdi": "MENGEN ÇORBA                                                                                        ",
+   "anaYemekAdi": "TAVUK BUT BONFİLE",
+   "diger1YemekAdi": "ŞEHRİYELİ PİRİNÇ PİLAVI                                                                             ",
+   "diger2YemekAdi": "AYRAN                                                                                               ",
+   "tamamMi": true,
+   "toplamKalori": 649
+  },
+  {
+   "tarih": "2026-10-26T00:00:00",
+   "aktifTakvimKayitSayisi": 11,
+   "corbaYemekAdi": "YAYLA ÇORBASI                                                                                       ",
+   "anaYemekAdi": "ETLİ NOHUT                                                                                          ",
+   "diger1YemekAdi": "SEBZELİ BULGUR PİLAVI                                                                               ",
+   "diger2YemekAdi": "TAHİN HELVA                                                                                         ",
+   "tamamMi": true,
+   "toplamKalori": 820
+  },
+  {
+   "tarih": "2026-10-27T00:00:00",
+   "aktifTakvimKayitSayisi": 11,
+   "corbaYemekAdi": "ŞEHRİYE ÇORBASI                                                                                     ",
+   "anaYemekAdi": "FIRIN TAVUK BUT                                                                                     ",
+   "diger1YemekAdi": "GARNİTÜRLÜ PİRİNÇ PİLAVI                                                                            ",
+   "diger2YemekAdi": "MEYVE                                                                                               ",
+   "tamamMi": true,
+   "toplamKalori": 926
+  },
+  {
+   "tarih": "2026-10-30T00:00:00",
+   "aktifTakvimKayitSayisi": 11,
+   "corbaYemekAdi": "MERCİMEK ÇORBASI                                                                                    ",
+   "anaYemekAdi": "ET SOTESİ                                                                                           ",
+   "diger1YemekAdi": "NOHUTLU PİRİNÇ PİLAVI                                                                               ",
+   "diger2YemekAdi": "AYRAN                                                                                               ",
+   "tamamMi": true,
+   "toplamKalori": 982
+  }
+ ],
+ "tamamlananGunSayisi": 20,
+ "toplamGunSayisi": 20
+}

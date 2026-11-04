@@ -11,8 +11,11 @@
          Flutter UI initializes, as well as behind your Flutter UI while its
          running.
 
-         This Theme is only used starting with V2 of Flutter's Android embedding. -->
+         This Theme is only used starting with V2 of Flutter's Android embedding.
+
+         Zemin, açılış ekranından sonra ilk Flutter karesine dek görünür; beyaz parlama olmasın diye
+         uygulamanın varsayılan (Safran) açık yüzey rengidir. -->
     <style name="NormalTheme" parent="@android:style/Theme.Light.NoTitleBar">
-        <item name="android:windowBackground">?android:colorBackground</item>
+        <item name="android:windowBackground">@color/pencere_zemini</item>
     </style>
 </resources>

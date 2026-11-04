@@ -9,11 +9,16 @@ class GeriBildirimBolumu extends StatefulWidget {
   final String slot;
   final bool
       puanGoster; // false: yalnızca yorumlar (puanlar yemek bazlı verilir)
+
+  /// Yorumlar kartının başlığı. Yorumların neye ait olduğunu söylemek için ekrana göre değişir (ana ekranda
+  /// "Öğün yorumları", yemek ayrıntısında "Bu yemek hakkında"); sayı varsa sonuna " (3)" eklenir.
+  final String baslik;
   const GeriBildirimBolumu(
       {super.key,
       required this.depo,
       required this.slot,
-      this.puanGoster = true});
+      this.puanGoster = true,
+      this.baslik = 'Yorumlar'});
 
   @override
   State<GeriBildirimBolumu> createState() => _GeriBildirimBolumuState();
@@ -25,6 +30,9 @@ class _GeriBildirimBolumuState extends State<GeriBildirimBolumu> {
   List<Yorum> _yorumlar = [];
   String _uid = '';
   bool _yukleniyor = true, _hata = false, _gonderiliyor = false;
+  // Puan kaydı sürerken (kayıt + özetin yenilenmesi) yeni dokunuşlar yok sayılır: art arda hızlı dokunuşta iki istek
+  // yarışmasın, başarısız olanın "önceki" değeri kaydedilmemiş bir puana dönmesin (yemek ayrıntısındaki puan kartı gibi).
+  bool _kaydediyor = false;
   final _metin = TextEditingController();
 
   @override
@@ -46,12 +54,15 @@ class _GeriBildirimBolumuState extends State<GeriBildirimBolumu> {
     });
     try {
       final d = widget.depo;
-      final sonuc = await Future.wait([
-        d.puanOzeti(widget.slot),
-        d.benimPuanim(widget.slot),
-        d.yorumlar(widget.slot),
-        d.kullaniciId()
-      ]);
+      // puan kartı yalnızca puanGoster iken görünür; gizliyken (puanlar yemek bazlı verilir) görünmeyen sonuç için
+      // iki ağ isteği daha atılmaz
+      final ozet = widget.puanGoster
+          ? d.puanOzeti(widget.slot)
+          : Future.value(const PuanOzeti(null, 0));
+      final benim =
+          widget.puanGoster ? d.benimPuanim(widget.slot) : Future<int?>.value();
+      final sonuc = await Future.wait(
+          [ozet, benim, d.yorumlar(widget.slot), d.kullaniciId()]);
       if (!mounted) return;
       setState(() {
         _ozet = sonuc[0] as PuanOzeti;
@@ -65,48 +76,58 @@ class _GeriBildirimBolumuState extends State<GeriBildirimBolumu> {
     if (mounted) setState(() => _yukleniyor = false);
   }
 
-  void _mesaj(String m) =>
-      ScaffoldMessenger.of(context).showSnackBar(SnackBar(content: Text(m)));
-
-  Future<void> _puanVer(int y) async {
-    final onceki = _benim;
-    setState(() => _benim = y);
-    try {
-      await widget.depo.puanVer(widget.slot, y);
-      final o = await widget.depo.puanOzeti(widget.slot);
-      if (mounted) setState(() => _ozet = o);
-    } catch (_) {
-      if (mounted) setState(() => _benim = onceki);
-      _mesaj('Puan kaydedilemedi. İnternet bağlantını kontrol et.');
-    }
+  // Sayfa kapandıktan sonra biten isteklerin (puan, yorum, silme) hatası sessizce yutulur: kapanmış bir sayfanın
+  // context'i kullanılamaz.
+  void _mesaj(String m) {
+    if (!mounted) return;
+    ScaffoldMessenger.of(context).showSnackBar(SnackBar(content: Text(m)));
   }
 
+  Future<void> _puanVer(int y) async {
+    if (_kaydediyor) return;
+    final onceki = _benim;
+    setState(() {
+      _kaydediyor = true;
+      _benim = y;
+    });
+    try {
+      await widget.depo.puanVer(widget.slot, y);
+    } catch (_) {
+      if (mounted) {
+        setState(() {
+          _benim = onceki;
+          _kaydediyor = false;
+        });
+      }
+      _mesaj('Puan kaydedilemedi. İnternet bağlantını kontrol et.');
+      return;
+    }
+    // Puan kaydedildi: özet okunamazsa (ağ hatası, zaman aşımı) seçilen puan kalır, ortalama eskisi gibi görünür.
+    // Kaydedilmiş bir puanı "kaydedilemedi" diyerek geri almak yanlış olurdu (yemek ayrıntısındaki puan kartı gibi).
+    try {
+      final o = await widget.depo.puanOzeti(widget.slot);
+      if (mounted) setState(() => _ozet = o);
+    } catch (_) {}
+    if (mounted) setState(() => _kaydediyor = false);
+  }
+
+  /// Yorum için takma adı döndürür: kayıtlıysa o, değilse soru kutusundan. Cihaz depolaması okunamaz ya da
+  /// yazılamazsa hata yutulur: ad yine sorulur ve yorum gönderilir, yalnızca ad hatırlanmayabilir.
   Future<String?> _adSor() async {
-    final p = await SharedPreferences.getInstance();
-    final kayitli = p.getString('yorum_adi');
-    if (kayitli != null && kayitli.isNotEmpty) return kayitli;
+    try {
+      final p = await SharedPreferences.getInstance();
+      final kayitli = p.getString('yorum_adi');
+      if (kayitli != null && kayitli.isNotEmpty) return kayitli;
+    } catch (_) {}
     if (!mounted) return null;
-    final c = TextEditingController();
     final ad = await showDialog<String>(
-      context: context,
-      builder: (ctx) => AlertDialog(
-        title: const Text('Takma adın'),
-        content: TextField(
-            controller: c,
-            maxLength: 20,
-            autofocus: true,
-            decoration: const InputDecoration(hintText: 'Örn: Aç Öğrenci')),
-        actions: [
-          TextButton(
-              onPressed: () => Navigator.pop(ctx), child: const Text('Vazgeç')),
-          FilledButton(
-              onPressed: () => Navigator.pop(
-                  ctx, c.text.trim().isEmpty ? 'Anonim' : c.text.trim()),
-              child: const Text('Tamam')),
-        ],
-      ),
-    );
-    if (ad != null) await p.setString('yorum_adi', ad);
+        context: context, builder: (_) => const _AdSorDiyalogu());
+    if (ad != null) {
+      try {
+        await (await SharedPreferences.getInstance())
+            .setString('yorum_adi', ad);
+      } catch (_) {}
+    }
     return ad;
   }
 
@@ -114,13 +135,18 @@ class _GeriBildirimBolumuState extends State<GeriBildirimBolumu> {
     final metin = _metin.text.trim();
     if (metin.isEmpty || _gonderiliyor) return;
     final ad = await _adSor();
-    if (ad == null) return;
+    if (ad == null || !mounted) return;
     setState(() => _gonderiliyor = true);
     try {
       await widget.depo.yorumEkle(widget.slot, ad, metin);
-      _metin.clear();
-      final l = await widget.depo.yorumlar(widget.slot);
-      if (mounted) setState(() => _yorumlar = l);
+      if (mounted) _metin.clear();
+      try {
+        final l = await widget.depo.yorumlar(widget.slot);
+        if (mounted) setState(() => _yorumlar = l);
+      } catch (_) {
+        // yorum kaydedildi: "gönderilemedi" denirse kullanıcı aynı yorumu yeniden yazıp çift yorum bırakır
+        _mesaj('Yorumun gönderildi, liste şimdilik yenilenemedi.');
+      }
     } catch (_) {
       _mesaj('Yorum gönderilemedi. Daha sonra tekrar dene.');
     }
@@ -215,7 +241,8 @@ class _GeriBildirimBolumuState extends State<GeriBildirimBolumu> {
           padding: const EdgeInsets.all(18),
           child:
               Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
-            Text('Yorumlar${_yorumlar.isEmpty ? '' : ' (${_yorumlar.length})'}',
+            Text(
+                '${widget.baslik}${_yorumlar.isEmpty ? '' : ' (${_yorumlar.length})'}',
                 style: tema.textTheme.titleMedium
                     ?.copyWith(fontWeight: FontWeight.w700)),
             const SizedBox(height: 10),
@@ -291,8 +318,8 @@ class _GeriBildirimBolumuState extends State<GeriBildirimBolumu> {
                               ]),
                         ),
                         if (y.uid == _uid)
+                          // dokunma hedefi 48 dp (compact yoğunluk 40 dp bırakırdı)
                           IconButton(
-                              visualDensity: VisualDensity.compact,
                               onPressed: () => _sil(y),
                               icon: const Icon(Icons.delete_outline, size: 20),
                               tooltip: 'Sil'),
@@ -304,4 +331,41 @@ class _GeriBildirimBolumuState extends State<GeriBildirimBolumu> {
       const SizedBox(height: 24),
     ]);
   }
+}
+
+/// Takma ad sorusu. Metin denetleyicisi diyalogla birlikte (kapanış animasyonu bittikten sonra) atılır.
+class _AdSorDiyalogu extends StatefulWidget {
+  const _AdSorDiyalogu();
+
+  @override
+  State<_AdSorDiyalogu> createState() => _AdSorDiyalogusState();
+}
+
+class _AdSorDiyalogusState extends State<_AdSorDiyalogu> {
+  final _c = TextEditingController();
+
+  @override
+  void dispose() {
+    _c.dispose();
+    super.dispose();
+  }
+
+  @override
+  Widget build(BuildContext context) => AlertDialog(
+        title: const Text('Takma adın'),
+        content: TextField(
+            controller: _c,
+            maxLength: 20,
+            autofocus: true,
+            decoration: const InputDecoration(hintText: 'Örn: Aç Öğrenci')),
+        actions: [
+          TextButton(
+              onPressed: () => Navigator.pop(context),
+              child: const Text('Vazgeç')),
+          FilledButton(
+              onPressed: () => Navigator.pop(
+                  context, _c.text.trim().isEmpty ? 'Anonim' : _c.text.trim()),
+              child: const Text('Tamam')),
+        ],
+      );
 }
