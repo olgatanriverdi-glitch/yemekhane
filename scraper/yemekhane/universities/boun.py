@@ -1,16 +1,17 @@
-"""Boğaziçi Üniversitesi: aylık menü yemekhane.bogazici.edu.tr/aylik-menu/YYYY-AA adresinde takvim olarak yayınlanıyor (haftanın 7 günü).
-Her gün hücresinde (`<td data-date="2026-10-01">`) öğle ve akşam için ayrı bir kutu vardır; kutuda çorba, ana yemek, vejetaryen/vegan ana yemek,
-yardımcı yemekler (virgülle ayrılmış bağlantılar) ve seçmeliler bulunur. Takvim görünümünde kalori yok (günün sayfasında var, alınmıyor).
-Vejetaryen menü öğle yemeğinin vegan alternatifidir (akşam vegan alternatifi uygulamada ayrı bir öğün olarak gösterilemediği için alınmıyor).
+"""Boğaziçi: yeni tr/calendar görünümünün tr/json_calendar JSON kaynağı.
+Ayın tüm günleri, normal öğle/akşam kalemleri; JSON'da kalori/vegan alanı yok.
+Eski Drupal takvim ayrıştırıcısı tarihsel fixture denetimi için korunur.
 """
 import html
+import calendar
+import json
 import re
 from datetime import date
 
 from .base import Universite, indir, saat_duzenle
 
 BASE = "https://yemekhane.bogazici.edu.tr/"
-SERVIS_URL = BASE + "yemek-servislerimiz"
+SERVIS_URL = BASE + "tr/pages/yemek-servis-saatleri/10950"
 OGUNLER = {"öğle yemeği": "lunch", "akşam yemeği": "dinner"}
 ALANLAR = ("field-ccorba", "field-anaa-yemek", "field-yardimciyemek", "field-aperatiff")    # normal menü sırası
 VEJ_ALANLAR = ("field-ccorba", "field-vejetarien", "field-yardimciyemek", "field-aperatiff")
@@ -25,7 +26,27 @@ def temiz(h: str) -> str:
 
 
 def ay_url(yil: int, ay: int) -> str:
-    return "%saylik-menu/%04d-%02d" % (BASE, yil, ay)
+    return '%str/json_calendar?type=&date=%04d-%02d-01&last_date=%04d-%02d-%02d' % (BASE, yil, ay, yil, ay, calendar.monthrange(yil, ay)[1])
+
+
+def json_menu(veri, yil, ay):
+    """Yeni takvimin JSON'u yalnız normal öğle/akşam kalemlerini yayınlar."""
+    sonuc = {}
+    if not isinstance(veri, list):
+        return sonuc
+    for oge in veri:
+        tur = {'öğle': 'lunch', 'akşam': 'dinner'}.get(_kucuk(str(oge.get('ogun', ''))))
+        ad = temiz(str(oge.get('adi') or ''))
+        try:
+            tarih = date.fromisoformat(str(oge.get('start_date', ''))[:10])
+        except ValueError:
+            continue
+        if not tur or not ad or (tarih.year, tarih.month) != (yil, ay):
+            continue
+        items = sonuc.setdefault(tarih.isoformat(), {}).setdefault(tur, {'items': []})['items']
+        if {'name': ad} not in items:
+            items.append({'name': ad})
+    return sonuc
 
 
 def _alan_ogeleri(kutu: str, alan: str) -> list:
@@ -86,7 +107,7 @@ class BogaziciUniversitesi(Universite):
         yil, ay = bugun.year, bugun.month
         for _ in range(2):                                  # bu ay ve sonraki ay
             try:
-                sonuc.update(ay_menusu(self.indir(ay_url(yil, ay)).decode("utf-8", "ignore")))
+                sonuc.update(json_menu(json.loads(self.indir(ay_url(yil, ay)).decode('utf-8-sig')), yil, ay))
             except Exception as e:
                 print("UYARI: Boğaziçi %04d-%02d alınamadı: %s" % (yil, ay, e))
             yil, ay = (yil + 1, 1) if ay == 12 else (yil, ay + 1)

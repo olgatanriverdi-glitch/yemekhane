@@ -23,7 +23,7 @@ Site ve web uygulaması `.github/workflows/pages.yml` ile otomatik yayınlanır 
 
 1. GitHub'da depoya git → **Settings → Pages** → "Build and deployment" altında **Source: GitHub Actions** seç (bir kez).
 2. Değişiklikleri `main` dalına gönder (push). **Actions** sekmesinde "Siteyi yayınla" yeşil olunca site açılır.
-3. Şu adresleri tarayıcıda aç, ikisi de açılmalı ve `[ILETISIM_EPOSTA]` yazısı kalmamalı:
+3. Şu adresleri tarayıcıda aç, ikisi de açılmalı ve iletişim adresi `uniyemek0@gmail.com` görünmeli:
    * https://olgatanriverdi-glitch.github.io/yemekhane/gizlilik.html
    * https://olgatanriverdi-glitch.github.io/yemekhane/hesap-silme.html
 4. Flutter sürümü `pages.yml` içinde `3.47.6` olarak sabit (yerelde `flutter --version` ile aynı). Yerel Flutter'ı yükseltince oradaki sürümü de güncelle.
@@ -47,7 +47,7 @@ ANDROID_HOME=~/Library/Android/sdk ~/development/flutter/bin/flutter build appbu
 
 Çıktı: `app/build/app/outputs/bundle/release/app-release.aab` (Play'e bu yüklenir; ~56 MB). Test için doğrudan telefona kurulacak APK: `flutter build apk --release` → `app/build/app/outputs/flutter-apk/app-release.apk`.
 
-Her yeni yüklemede `app/pubspec.yaml` içindeki `version: 0.1.0+1` değerinin `+` sonrası (sürüm kodu) **artmalıdır** (`+2`, `+3`...). Aynı kodla ikinci yükleme reddedilir. `+` öncesi (0.1.0) kullanıcının gördüğü sürümdür; değiştirirsen `app/lib/config.dart` içindeki `uygulamaSurumu` ile aynı tut (test bunu denetler).
+Her yeni yüklemede `app/pubspec.yaml` içindeki `version: 1.0.0+2` değerinin `+` sonrası (sürüm kodu) **artmalıdır** (`+2`, `+3`...). Aynı kodla ikinci yükleme reddedilir. `+` öncesi (0.1.0) kullanıcının gördüğü sürümdür; değiştirirsen `app/lib/config.dart` içindeki `uygulamaSurumu` ile aynı tut (test bunu denetler).
 
 ## 5. Play Console hesabı
 

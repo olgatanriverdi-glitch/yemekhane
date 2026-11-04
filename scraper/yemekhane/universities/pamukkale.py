@@ -24,7 +24,7 @@ def yemek_ogesi(ad: str, kcal: str):
 
 
 def sayfa_menu(sayfa: str) -> dict:
-    tarihler = re.findall(r'class="thatDay">\s*(\d{2})\.(\d{2})\.(\d{4})\s*</span>', sayfa)
+    tarihler = re.findall(r'class="thatDay">\s*(\d{1,2})\.(\d{1,2})\.(\d{4})\s*</span>', sayfa)
     paneller = re.split(r'<div class="tab-pane[^"]*" id="day-\d+"', sayfa)[1:]
     sonuc = {}
     for t, panel in zip(tarihler, paneller):

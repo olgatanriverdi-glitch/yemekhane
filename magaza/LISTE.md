@@ -15,7 +15,7 @@ Her alan Play Console'a olduğu gibi yapıştırılabilir. Karakter sınırları
 | Kategori | Yemek ve İçecek (alternatif: Yaşam Tarzı) |
 | Etiketler (en çok 5) | Yemek ve İçecek, Eğitim, Yaşam Tarzı |
 | Reklam içeriyor mu | Hayır |
-| E-posta (herkese açık) | `[ILETISIM_EPOSTA]` (gizlilik sayfalarındaki adresle aynı olmalı) |
+| E-posta (herkese açık) | `uniyemek0@gmail.com` (gizlilik sayfalarındaki adresle aynı olmalı) |
 | Web sitesi | https://olgatanriverdi-glitch.github.io/yemekhane/ |
 | Gizlilik politikası | https://olgatanriverdi-glitch.github.io/yemekhane/gizlilik.html |
 | Hesap / veri silme adresi | https://olgatanriverdi-glitch.github.io/yemekhane/hesap-silme.html |

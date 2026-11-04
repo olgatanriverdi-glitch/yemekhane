@@ -118,9 +118,9 @@ def puan(sorgu: str, metin: str) -> int:
 
 
 def getir(url: str, zaman_asimi: int = 25) -> bytes:
+    from .universities.base import indir
     istek = urllib.request.Request(url, headers={"User-Agent": UA})
-    with urllib.request.urlopen(istek, timeout=zaman_asimi) as y:
-        return y.read()
+    return indir(istek, zaman_asimi)
 
 
 def _json(url: str, indir):

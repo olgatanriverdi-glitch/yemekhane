@@ -105,7 +105,7 @@ class BounTesti(unittest.TestCase):
 
     def test_saatler_ve_adres(self):
         self.assertEqual(boun.saat_ayikla(oku("boun_servis.html")), {"breakfast": "07:30–09:30", "lunch": "11:30–14:30", "dinner": "17:00–19:15"})
-        self.assertEqual(boun.ay_url(2026, 10), "https://yemekhane.bogazici.edu.tr/aylik-menu/2026-10")
+        self.assertEqual(boun.ay_url(2026, 10), "https://yemekhane.bogazici.edu.tr/tr/json_calendar?type=&date=2026-10-01&last_date=2026-10-31")
         u = boun.BogaziciUniversitesi(lambda url: oku("boun_servis.html").encode("utf-8"))
         self.assertEqual(u.saatler(), {"lunch": "11:30–14:30", "dinner": "17:00–19:15"})            # kahvaltı menüsü alınmıyor
 
@@ -114,9 +114,9 @@ class BounTesti(unittest.TestCase):
 
         def sahte(url):
             istekler.append(url)
-            return oku("boun_ay.html").encode("utf-8")
+            return b'[]'
         boun.BogaziciUniversitesi(sahte, bugun=date(2026, 12, 20)).menuler()
-        self.assertEqual([u.rsplit("/", 1)[1] for u in istekler], ["2026-12", "2027-01"])
+        self.assertEqual(istekler, [boun.ay_url(2026, 12), boun.ay_url(2027, 1)])
 
 
 class MarmaraTesti(unittest.TestCase):

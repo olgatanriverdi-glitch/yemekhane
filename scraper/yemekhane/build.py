@@ -13,6 +13,7 @@ from concurrent.futures import ThreadPoolExecutor, TimeoutError as ZamanAsimi
 from datetime import datetime, timedelta, timezone
 
 from .universities import KAYITLI
+from .temizle import menuleri_temizle
 
 GUN_SAKLA = 45     # bugünden bu kadar gün öncesine kadar menü tutulur
 OKUL_SURESI = 180  # sn: bir okulun menuler() çağrısı bu süreyi aşarsa hata sayılır (önceki kayıt korunur)
@@ -126,7 +127,9 @@ def calistir(cikti: str, uniler=None) -> int:
                 menuler = onceki_gunler(cikti, u.id, sinir, menuler)
             if not menuler:
                 raise RuntimeError("hiç menü bulunamadı")
+            menuler = menuleri_temizle(menuler)
             gunluk_isle(u, os.path.join(cikti, u.id), menuler, simdi, sinir)
+            menuler = menuleri_temizle(menuler)
             yemek_fotolari_ekle(yf, menuler, u.id)
             fiyatlar = u.fiyatlar()
             yaz(os.path.join(cikti, u.id, "menu.json"), {"university": u.id, "updated": simdi.isoformat(timespec="seconds"), "days": menuler})

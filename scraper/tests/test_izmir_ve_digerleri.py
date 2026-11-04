@@ -393,7 +393,7 @@ class ElleOkullarTesti(unittest.TestCase):
 
     def test_gtu(self):
         m = elle.yukle("gtu")
-        self.assertEqual((min(m), max(m)), ("2026-10-01", "2026-10-30"))
+        self.assertEqual((min(m), max(m), len(m)), ("2026-10-01", "2026-11-06", 27))
         g = m["2026-10-06"]["lunch"]
         self.assertEqual(len(g["items"]), 8)
         self.assertEqual(g["items"][0], {"name": "Yayla Çorba", "kcal": 192})

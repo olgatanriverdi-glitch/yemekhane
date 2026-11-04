@@ -1,10 +1,10 @@
 """İBTÜ: Angular CMS'nin girişsiz sayfa/yazı JSON'u; en güncel dolu ay."""
 import json
 from datetime import date
-from urllib.request import Request,urlopen
+from urllib.request import Request
 from ..model import bugun_tr
 from ._son_ortak import oge
-from .base import Universite,UA
+from .base import Universite,UA,indir
 
 SAYFA_URL='https://www.istiklal.edu.tr/sksdb/beslenme-ve-kafeterya'
 SAYFA_API='https://istiklal.edu.tr/api/pages/get'
@@ -14,8 +14,7 @@ AYLAR=('January','February','March','April','May','June','July','August','Septem
 
 def json_indir(url,veri):
     istek=Request(url,data=json.dumps(veri).encode('utf-8'),headers={'User-Agent':UA,'Content-Type':'application/json'})
-    with urlopen(istek,timeout=30) as yanit:
-        return yanit.read()
+    return indir(istek)
 
 
 def json_menu(yazi,bugun=None):

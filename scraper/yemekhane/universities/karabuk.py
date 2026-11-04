@@ -2,7 +2,7 @@
 PDF'tir (gerçek metin). Düzen: 5 sütunlu hafta tablosu; her hücrede başlık ('5 EKİM  2026 PAZARTESİ') ve altında 'YEMEK(kalori)' satırları. Sığmayan uzun
 adlar iki satıra bölünür (ilk satırda kalori yoktur; sonrakiyle birleştirilir), 'A(350)/B(435)' ve 'ÇİĞ KÖFTE (220)/TURŞU(50)' gibi satırlar birden çok kalemdir.
 Başlık metni sütunda ortalı, yemekler sola yaslı olduğundan sütunlar yemeklerin x konumundan çıkarılıp başlık en yakın sütuna atanır. 'RESMİ TATİL' hücresi tatil günüdür.
-Tek öğün (öğle). Yalnızca Ekim 2026 PDF'iyle denendi.
+Tek öğün (öğle). Ekim ve Kasım 2026 PDF'leriyle denendi; Kasım başlıkları GG.AA.YYYY biçimindedir.
 """
 import re
 from datetime import date
@@ -33,7 +33,7 @@ def _kalemler(satir: str) -> list:
     """'A(350)/B(435)' -> iki kalem; kalori yoksa yalnız ad."""
     ogeler = []
     for parca in re.split(r"(?<=\))\s*/\s*", satir):
-        m = re.match(r"^(.+?)\s*\((\d+)\)\s*$", parca.strip())
+        m = re.match(r"^(.+?)\s*\(\s*(\d+)\s*\)\s*$", parca.strip())
         ad = _ad(m.group(1) if m else parca)
         if ad:
             ogeler.append({"name": ad, "kcal": int(m.group(2))} if m else {"name": ad})
@@ -49,9 +49,11 @@ def pdf_menu(veri: bytes) -> dict:
     diger = []                                              # [(metin, x, y)]
     for metin, x0, x1, y, _ in satirlar:
         b = BASLIK.match(re.sub(r"\s+", " ", metin.strip()))
-        if b and ay_no(b.group(2)):
+        yeni = re.match(r'^(\d{1,2})\.(\d{1,2})\.(\d{4})\s+\S+$', metin.strip())
+        if yeni or (b and ay_no(b.group(2))):
             try:
-                basliklar.append((date(int(b.group(3)), ay_no(b.group(2)), int(b.group(1))), x0, y))
+                tarih = date(int(yeni.group(3)), int(yeni.group(2)), int(yeni.group(1))) if yeni else date(int(b.group(3)), ay_no(b.group(2)), int(b.group(1)))
+                basliklar.append((tarih, x0, y))
             except ValueError:
                 pass
         elif not re.search(r"[a-zçğıöşü]|YEMEK L[İI]STES[İI]", metin):          # imza satırları (Gıda Mühendisi, Daire Başkanı...) küçük harf içerir

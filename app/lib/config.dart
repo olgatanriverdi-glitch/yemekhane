@@ -7,7 +7,7 @@ const String veriTabanUrl = String.fromEnvironment('VERI_URL',
 
 /// Uygulama sürümü (Ayarlar > Hakkında). pubspec.yaml'daki `version` değerinin '+' öncesiyle aynı olmalı
 /// (test/ilk_acilis_ayarlar_test.dart bunu denetler).
-const String uygulamaSurumu = '0.1.0';
+const String uygulamaSurumu = '1.0.0';
 
 /// Wikimedia Commons'tan fotoğraf isteyen isteklerde (web dışında) gönderilen tanımlayıcı User-Agent; Wikimedia
 /// genel istemci kimliklerini sınırladığı için uygulamayı ve iletişim adresini bildirir.
@@ -20,8 +20,7 @@ const String gizlilikAdresi = '$siteAdresi/gizlilik.html';
 const String hesapSilmeAdresi = '$siteAdresi/hesap-silme.html';
 
 /// Gizlilik ve veri silme sorularının gönderileceği e-posta. YAYINLAMADAN ÖNCE GERÇEK ADRESLE DEĞİŞTİR; aynı adres
-/// site/gizlilik.html ve site/hesap-silme.html içindeki [ILETISIM_EPOSTA] yer tutucularının yerine de yazılmalı.
-const String iletisimEposta = '[ILETISIM_EPOSTA]';
+const String iletisimEposta = 'uniyemek0@gmail.com';
 
 const List<String> ayAdlari = [
   'Ocak',

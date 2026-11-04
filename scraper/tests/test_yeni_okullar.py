@@ -90,7 +90,7 @@ class AsbuTesti(unittest.TestCase):
         self.assertEqual(asbu.ucret_ayikla(oku("asbu_beslenme.html")), [{"label": "Öğrenci (Öğle Yemeği)", "tl": 45}])
 
     def test_elle_girilen_menu(self):
-        m = asbu.AnkaraSosyalBilimler().menuler()
+        m = asbu.AnkaraSosyalBilimler(lambda url: b'null').menuler()
         self.assertEqual(len(m), 22)
         g = m["2026-10-05"]
         self.assertEqual([o["name"] for o in g["lunch"]["items"]],

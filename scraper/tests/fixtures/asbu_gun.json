@@ -1,0 +1,35 @@
+{
+  "tarih": "2026-11-04T00:00:00",
+  "yemekIcerigi": [
+    {
+      "yemekAdi": "TARHANA ÇORBA",
+      "kalori": 184,
+      "aciklama": null
+    },
+    {
+      "yemekAdi": "FIRINDA BAGET",
+      "kalori": 350,
+      "aciklama": null
+    },
+    {
+      "yemekAdi": "DOMATESLİ BULGUR PİLAVI",
+      "kalori": 242,
+      "aciklama": null
+    },
+    {
+      "yemekAdi": "MEYVE",
+      "kalori": 60,
+      "aciklama": null
+    },
+    {
+      "yemekAdi": "AYRAN",
+      "kalori": 152,
+      "aciklama": null
+    },
+    {
+      "yemekAdi": "v-TÜRLÜ YEMEĞİ",
+      "kalori": 108,
+      "aciklama": null
+    }
+  ]
+}

@@ -1,6 +1,8 @@
 """Gebze Teknik Üniversitesi: aylık menü gtu.edu.tr 'Yemek Listesi ve Mobil Uygulama' sayfasında yalnızca resim olarak ('EKİM 2026 MENÜ.jpg') yayınlanıyor; her günde 7-8 kalem
 (çorba, ana yemek, pilav/makarna, tatlı, salata, turşu...) ve kalem kalorisi var. Menü `elle_veri/gtu.json` dosyasına resimden elle girilir. Her ay okul yeni resmi
 koyunca dosyaya o ayın günleri eklenmelidir.
+4 Kasım 2026: yayımlanan 2–6 Kasım haftalık görseli de eklidir. İki yan yemek
+seçeneğinin kalorileri toplanmaz; 6 Kasım sonrası yeni görsel elle eklenmelidir.
 """
 from .base import ElleUniversite
 

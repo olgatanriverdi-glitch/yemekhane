@@ -14,9 +14,27 @@ okul sitesi (XLSX/HTML) ──► scraper (Python) ──► data/*.json (GitHub
                               ▲ GitHub Actions günde 3 kez çalıştırır
 ```
 
-* `scraper/` — Python (yalnızca standart kütüphane). Her üniversite `scraper/yemekhane/universities/` altında bir eklentidir.
+* `scraper/` — ayrıştırıcılar Python standart kütüphanesini kullanır; robot güncel TLS kökleri için `certifi` de kurar. Her üniversite `scraper/yemekhane/universities/` altında bir eklentidir.
 * `data/` — üretilen statik JSON. Uygulama bunu `raw.githubusercontent.com` / GitHub Pages üzerinden okur.
 * `app/` — Flutter uygulaması (iOS + Android).
+
+### TLS doğrulaması ve canlı kontrol (4 Kasım 2026)
+Okul istekleri (POST kullanan Sakarya/İstiklal dahil) `universities/base.py::indir` üzerinden geçer. Sistem köklerine varsa `certifi` kökleri eklenir.
+Eksik zincirde TLS 1.2 Certificate iletisi yalnız sertifika/AIA keşfi için okunur; bu bağlantıda HTTP isteği gönderilmez. `caIssuers` adreslerinden DER/PEM/PKCS#7
+ara sertifikaları indirilir ve ana makine/port bazında bellekte tutulur. İndirme, ara sertifikalar `load_verify_locations(cadata=...)` ile eklenerek **tam TLS doğrulamasıyla** tekrarlanır.
+İndirilen öz imzalı kökler güven kaynağı yapılmaz; `PARTIAL_CHAIN` kapalıdır. Alan adı, süre ve imza zinciri kontrol edilir; zincir sistem veya certifi kökünde bitmelidir.
+Munzur'un sunucuda gönderdiği Sectigo R46 öz imzalı kökü bu kuralla eklenmez; güncel certifi köküyle doğrulama başarılıdır. Güvenilir kökte bitmeyen zincir hata olarak kalır.
+Yalnız `DH_KEY_TOO_SMALL` hatasında aynı isteğe özel `DEFAULT@SECLEVEL=1` denenir; sertifika doğrulaması açık kalır ve sonraki isteğe taşınmaz. Bu sözdizimi OpenSSL içindir;
+eski LibreSSL desteklemez. Keşif bağlantısı TLS 1.2 gerektirir; TLS 1.3 ile normal doğrulamalı indirmeler bundan etkilenmez.
+
+Son tam tarama: Python 3.15.0 / OpenSSL 3.5.9 ile **100/100**, Python 3.9.6 / LibreSSL 2.8.3 ile **99/100** okul veri üretti.
+İki taramada da `SSL_CERT_FILE` tanımlanmadı; certifi 2026.10.23 kullanıldı. Eski LibreSSL'de yalnız Batman `TLSV1_ALERT_PROTOCOL_VERSION` nedeniyle erişilemiyor;
+aynı okul güncel OpenSSL'de çalıştı. GitHub Actions / Ubuntu / Python 3.12 doğrudan çalıştırılmadı. Ağsız **497 test** her iki Python sürümünde geçti.
+Canlı sonuç ve kaynak kapsamı ayrıntıları `.claude/notlar/yemekhane-universite-durumu.md` sonundadır; deneme çıktıları yalnız geçici klasöre yazıldı.
+
+`build.py`, birikimli eski kayıtlar ve günlük eklenen kalemler dahil bütün menüleri `temizle.py` ile yayın öncesinde temizler. Yemek adındaki kalori/gramaj/tarih artıkları
+çıkarılır; tek ve açık kalori `kcal` alanına taşınır. Birden fazla seçenek/aralık tek kaloriye çevrilmez; bu durumda yanıltıcı öğün toplamı da kaldırılır.
+Bayram/tatil satırları ve KTÜ'nün dört hücreye bölünmüş kutlaması yemek yerine `note` olur. `Hamburger Menü` ve yemek karşılığı içeren parantezler korunur.
 
 ### Yemek fotoğrafları
 Her yemek adı için Wikimedia Commons'ta telifi serbest (CC) bir örnek görsel aranır (`scraper/yemekhane/dishes.py`), 320 px kare JPEG olarak
@@ -34,12 +52,15 @@ Menüdeki her yemek öğesine `key` eklenir (yemek adından türeyen kimlik). Uy
   her günün toplam kalorisiyle doğrulanmış günler) ve GitHub Actions'ta tesseract ile PDF'in okunması. OCR'ın okuduğu bir gün yalnızca kalemlerin kalorisi
   yazılı toplama eşitse kabul edilir; elle girilmiş günler önceliklidir, OCR yalnızca girilmemiş günleri doldurur. Actions logunda
   `ODTÜ OCR: ...` satırları OCR'ın kaç günü okuduğunu ve elle girilenle ne kadar örtüştüğünü gösterir.
-* **ASBÜ** aylık menüyü düşük çözünürlüklü bir resim olarak yayınlar, otomatik okunmaz: menü `elle_veri/asbu.json` dosyasına elle girilir.
-  Her ay okul yeni resmi koyunca bu dosyaya o ayın günleri eklenmelidir (aksi halde menü bitince ASBÜ uygulamadan düşer).
+* **ASBÜ** aylık görselin yanında `webapi.asbu.edu.tr/webapi/Yemekhane/getGununYemegi` günlük JSON'unu yayınlar. JSON elle veriye eklenir; `birikimli = True` önceki günleri korur.
+  `v-` önekli yemek normal ana yemeğin vejetaryen karşılığıdır. 4 Kasım canlı JSON'u aylık görselle karşılaştırıldı: normal 988, vejetaryen 746 kcal. Kasım görseli yayımlanmıştır;
+  elle dosyada Ekim korunur, Kasım otomatik birikimi 4 Kasım'dan başlar. Aylık görselin gelecek günleri otomatik okunmaz; API boş/hatalıysa elle veri korunur.
 * **DEÜ** (`sks.deu.edu.tr/yemek-menusu/`, normal liste -> öğle, vegan liste -> vejetaryen; kalem kalorisi yok, günün toplamı var), **GTÜ** (`gtu.edu.tr` 'Yemek Listesi' sayfasındaki `EKİM 2026 MENÜ.jpg`, 7-8 kalem ve
   kalem kalorisi) ve **Trabzon Üniversitesi** (`sks.trabzon.edu.tr/S/8978`, Excel ekran görüntüsü; her günün toplamı kalem toplamıyla doğrulandı) menüyü her ay yeni bir resim olarak koyar. Üçü de `ElleUniversite`
   sınıfından türer ve menüleri `elle_veri/deu.json`, `gtu.json`, `trabzon.json` dosyalarından okur. **Her ay başında** (Kasım, Aralık...) okul yeni resmi yayınlayınca bu dosyalara yeni ayın günleri eklenmelidir;
   aksi halde ay bitince okul uygulamada boş görünür. Tesseract'ın yerel olarak kurulu olmadığı bu üç okulda otomatik okuma denenmedi.
+  **GTÜ 4 Kasım güncellemesi:** tam aylık Kasım dosyası yerine 2–6 Kasım haftalık görseli yayımlanmış; beş gün `gtu.json`'a eklenmiştir. Dosya adı `03 - 06.11.2026 Haftalık Menü Güncel.png`
+  olsa da görsel 2 Kasım'ı da içerir. Seçenekli iki yan yemek ayrı kalemdir, toplam kalorileri üretilmez. 6 Kasım'dan sonrası için yeni görsel elle eklenmelidir.
 * `elle_veri/<id>.json` biçimi `data/<id>/menu.json` ile aynıdır (`{"days": {"2026-10-01": {"lunch": {...}}}}`).
 
 ### Metin tabanlı PDF yayınlayan okullar (ESTÜ, ÇOMÜ, Samsun Üniversitesi)
@@ -52,19 +73,21 @@ adı `*` ile biten satır etsiz alternatiftir. Taranmış (resim) PDF'lerde meti
 * **İÜ:** `sks.istanbul.edu.tr/meals-by-date?date=...&category=breakfast|lunch|dinner|vegan` JSON'u gün gün sorgulanır (`vegan` -> vejetaryen öğün). Ücret yalnızca taranmış karar olarak yayınlandığı için yok.
 * **İTÜ:** ana sayfadaki menü çerçevesinin kaynağı (`bilgiekrani.itu.edu.tr/.../yemek-menu.aspx?tip=itu-ogle-yemegi-genel&&value=6.10.2026`) gün gün sorgulanır; menü ~2 hafta ileriye yayınlanır.
   Bu adres okulun 'uzerinde-calisilan' (üzerinde çalışılan) klasöründedir: yer değiştirirse İTÜ okunamaz hale gelir. Saat ve ücret `sks.itu.edu.tr` tablolarından okunur.
-* **Boğaziçi:** `yemekhane.bogazici.edu.tr/aylik-menu/YYYY-AA` takvim sayfası (öğle, akşam, öğlenin vegan alternatifi). **Marmara:** `sks.marmara.edu.tr/yemek` haftalık tablolar (normal + alternatif ana yemek, vejetaryen).
+* **Boğaziçi:** eski `aylik-menu/YYYY-AA` adresi 404 verir. Yeni `tr/calendar` görünümünün `tr/json_calendar?type=&date=YYYY-AA-01&last_date=YYYY-AA-GG` JSON'u kullanılır; Kasım'da 30 gün öğle/akşam vardır.
+  Yeni aylık JSON vegan karşılığı ve kalori yayınlamaz; bunlar tahmin edilmez. **Marmara:** `sks.marmara.edu.tr/yemek` haftalık tablolar (normal + alternatif ana yemek, vejetaryen).
 * **GSÜ:** yalnızca öğlen PDF'i okunur (akşam PDF'inde harfler eksik, vegan PDF'lerinin düzeni farklı); satır girdi sayısı gün sayısına uymayan haftalar atlanır.
 * **MSGSÜ:** aylık PDF'in adresi WordPress medya API'sinden bulunur.
 
 ### İzmir, Antalya, Çanakkale, Sivas, Erzurum, Trabzon, Samsun ve Gebze okulları: veri kaynakları
-* **OMÜ:** her sayfada bulunan 'Günün Yemeği' penceresindeki aylık tablo (`www.omu.edu.tr/tr/omude-yasam/beslenme`, `<table class='gununyemegi'>`); 4 yemek, kalori yok. **SBTÜ:** `www.sivas.edu.tr/yemek-listesi`,
+* **OMÜ:** 'Günün Yemeği' penceresindeki `<table class='gununyemegi'>` artık tarih/yemek başlıklarını dikey verir; eski aylık biçim de desteklenir. Günlük kaynak nedeniyle `birikimli = True`; 4 yemek, kalori yok. **SBTÜ:** `www.sivas.edu.tr/yemek-listesi`,
   sekmeli (öğün türü) haftalık kartlar, kalemli kalori (seçmeli yemek `a/b` + `262/285 kal` ayrı öğe olur ve günün toplamı yazılmaz). **Sivas Cumhuriyet:** `cumhuriyet.edu.tr/yemeklistesi/index.php` takvim ızgarası; içinde
   bulunulan günün hücresi tarih yerine 'BUGÜN' yazar (tarih komşu hücrelerden çıkarılır), tatil hücresinde 'RESMİ TATİL' yazar.
 * **KTÜ:** `sks.ktu.edu.tr/yemeklistesi` (ktu.edu.tr bunu iframe ile gösterir) tablosu; hücrelerde kalori ve alerjen kodları (`(1,4)`) vardır, `/` ile ayrılan seçenekler ayrı öğe olur, 'Kalorisi' sütunu anlamsızdır (`-5000`).
 * **Ege:** `sksdb.ege.edu.tr/tr-8417/aylik_yemek_menuleri.html` her öğün için bir Word (.docx) dosyası listeler; dosya içinde Pazartesi-Pazar takvim tablosu vardır (hafta sonu da servis var). Dosyada ay/yıl yazmaz: ay bağlantı
   metninden, yıl ayın 1'inin düştüğü sütundan bulunur (tutmuyorsa dosya eski yıldandır, atlanır). Alınanlar: öğle, akşam, vejetaryen öğle; kahvaltı eski `.DOC` biçiminde olduğu için alınmıyor.
 * **ÇOMÜ:** `sks.comu.edu.tr/tr/sayfa/yemek-listesi-65.html` ekler listesindeki iki Canva PDF'i (normal ve vegan -> vejetaryen). Metin gerçek metindir ama her karakter ayrı konumlandığı için `pdf.sayfa_metinleri(ctm=True)` ile sayfa
-  koordinatları alınır; hücreler başlık sütunundan/satırından bulunur. Servis saati PDF'ten okunur. **Samsun Üniversitesi:** `sks.samsun.edu.tr/yemek-listesi/` sayfasının bağlandığı aylık Excel PDF'i (kalemli kalori ve toplam).
+  koordinatları alınır; hücreler başlık sütunundan/satırından bulunur. `KASIM - 2026` başlığı desteklenir; Kasım PDF'leri 2–27 Kasım'da 20 gün içerir (30 Kasım kaynakta yoktur).
+  Servis saati PDF'ten okunur. **Samsun Üniversitesi:** `sks.samsun.edu.tr/yemek-listesi/` sayfasının bağlandığı aylık Excel PDF'i (kalemli kalori ve toplam).
 * **ALKÜ** (`sksdb.alanya.edu.tr` carousel'i, yalnızca içinde bulunulan hafta), **İKÇÜ** (`ikcu.edu.tr/yemeklistesi`, yalnızca bugün+yarın, yılsız tarih) ve **Atatürk Üniversitesi** (SKS ana sayfasındaki 'Bugün/Yarın' kartları,
   yalnızca 'Merkez Yemekhane') geçmiş tutmaz: bu eklentiler `birikimli = True`'dur, `build.py` önceki çalıştırmalarda kaydedilen günleri (`data/<id>/menu.json`) yeni veriyle birleştirir. Robot günde 3 kez çalıştığı için
   her gün yakalanır; ilk çalıştırmada yalnızca o günler vardır.
@@ -81,7 +104,8 @@ adı `*` ile biten satır etsiz alternatiftir. Taranmış (resim) PDF'lerde meti
 * **Süleyman Demirel:** `w3.sdu.edu.tr/aylik-yemek-listesi` (`yemekhane.sdu.edu.tr` buraya yönlenir) 'Tarih / Öğle / Akşam' tablosu; öğle -> lunch, akşam -> dinner. Parantezdeki kalori öğünün toplamıdır (kalem kalorisi yok); '-' yazan günler (resmî tatil/yarım gün) atlanır.
 * **Aydın Adnan Menderes:** `www.adu.edu.tr/tr/yemek-listesi` 'Bu Hafta' + 'Önümüzdeki Hafta' kartları; tek öğün (öğle), kalori yok, yalnızca iki hafta göründüğü için `birikimli = True`.
 * **İnönü:** `www.inonu.edu.tr/yemek` Vue ile çizilir; veri `panel.inonu.edu.tr/servlet/food?type=list&date=YYYY-MM-DD` JSON'undan gelir (gün başına bir istek; bugünden 2 gün önce - 3 hafta sonra taranır, `birikimli = True`). Kalem kalorisi ('250 kalori') var; `food_type` 'G' dışındaki kayıtlar alınmaz. Bu, okulun site API'sidir: adres değişirse bozulur.
-* **Karabük:** `sks.karabuk.edu.tr` ana sayfasındaki 'Aylık Yemek Listesi' bağlantısı aylık tek sayfalık gerçek-metin PDF'ine gider (dosya adı ay değişince değişir, bağlantı sayfadan okunur). Sütun/başlık konumlarıyla ayrıştırılır; yalnızca Ekim 2026 PDF'iyle denendi, Kasım dosyası yayınlanınca kontrol et. Yerel Python 3.9'da `sks.karabuk.edu.tr` ara sertifikası doğrulanamadı (`CERTIFICATE_VERIFY_FAILED`; curl ve tarayıcıda sorun yok); robotun ortamında çalışıp çalışmadığı denenmedi, hata verirse robot logundan görülür (önceki kayıt korunur). Yerel veri bu yüzden `curl` ile indirilen dosyadan üretildi.
+* **Karabük:** `sks.karabuk.edu.tr` ana sayfasındaki 'Aylık Yemek Listesi' bağlantısı aylık tek sayfalık gerçek-metin PDF'ine gider (dosya adı ay değişince değişir, bağlantı sayfadan okunur).
+  Ekim'in sözcüklü tarihleri ve Kasım'ın `02.11.2026 PAZARTESİ` başlıkları, boşluklu kalorileri desteklenir. Kasım PDF'i 2–30 Kasım, 21 gün olarak iki Python sürümünde canlı doğrulandı; TLS ortak indiriciden geçer.
 
 ### P3 partisi okulları (1 Kasım 2026): veri kaynakları
 P3'te altı okul eklendi; tamamı tek liste yayınlar ve öğle (`lunch`) olarak alınır. Kaynakta ayrı akşam/vejetaryen öğün bulunmadığından bu öğünler üretilmez.

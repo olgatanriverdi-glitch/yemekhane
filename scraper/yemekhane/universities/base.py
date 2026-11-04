@@ -1,12 +1,36 @@
 import urllib.request
+from urllib.parse import urlsplit
+
+from . import _tls
 
 UA = "Mozilla/5.0 (yemekhane-uygulamasi; ogrenci projesi)"
 
 
-def indir(url: str, zaman_asimi: int = 30) -> bytes:
-    istek = urllib.request.Request(url, headers={"User-Agent": UA})
-    with urllib.request.urlopen(istek, timeout=zaman_asimi) as yanit:
-        return yanit.read()
+def indir(url, zaman_asimi: int = 30) -> bytes:
+    """GET veya Request (POST dahil); TLS kurtarmasında da tam doğrulama."""
+    istek = url if isinstance(url, urllib.request.Request) else urllib.request.Request(url, headers={"User-Agent": UA})
+    adres = urlsplit(istek.full_url)
+    anahtar = (adres.hostname, adres.port or 443)
+    ara = _tls._ONBELLEK.get(anahtar, ())
+    dusuk_dh = aia_denendi = False
+    for _ in range(3):
+        try:
+            with urllib.request.urlopen(istek, timeout=zaman_asimi, context=_tls.baglam(ara, dusuk_dh)) as yanit:
+                return yanit.read()
+        except OSError as hata:
+            ssl_hata = _tls.ssl_hatasi(hata)
+            neden = getattr(ssl_hata, 'reason', '')
+            if neden == 'DH_KEY_TOO_SMALL' and not dusuk_dh:
+                dusuk_dh = True
+            elif neden == 'CERTIFICATE_VERIFY_FAILED' and not aia_denendi:
+                aia_denendi = True
+                try:
+                    ara = _tls.ara_sertifikalar(*anahtar, zaman_asimi)
+                except (OSError, ValueError):
+                    raise hata
+            else:
+                raise
+    raise RuntimeError('TLS yeniden deneme sınırı aşıldı')
 
 
 class Universite:
