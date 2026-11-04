@@ -5,7 +5,7 @@
 Ankara Müzik ve Güzel Sanatlar (MGÜ), Eskişehir Osmangazi (ESOGÜ), Eskişehir Teknik (ESTÜ), İstanbul'dan İstanbul Üniversitesi (İÜ), İTÜ, Boğaziçi (BÜ), Marmara (MÜ), Galatasaray (GSÜ) ve
 Mimar Sinan Güzel Sanatlar (MSGSÜ), İzmir'den Ege (EÜ), Dokuz Eylül (DEÜ) ve İzmir Katip Çelebi (İKÇÜ), Antalya'dan Alanya Alaaddin Keykubat (ALKÜ), Çanakkale Onsekiz Mart (ÇOMÜ),
 Sivas'tan Sivas Bilim ve Teknoloji (SBTÜ) ve Sivas Cumhuriyet (CÜ), Erzurum'dan Atatürk Üniversitesi, Trabzon'dan Karadeniz Teknik (KTÜ) ve Trabzon Üniversitesi,
-Samsun'dan Ondokuz Mayıs (OMÜ) ve Samsun Üniversitesi, Gebze Teknik (GTÜ), Sakarya (SAÜ), Çukurova (ÇÜ), Bursa Uludağ (BUÜ), Pamukkale (PAÜ), Gaziantep (GAÜN), Süleyman Demirel (SDÜ), Aydın Adnan Menderes (ADÜ), İnönü (İnÜ), Karabük (KBÜ), Muğla Sıtkı Koçman (MSKÜ), Afyon Kocatepe (AKÜ), Trakya (TÜ), Harran (HRÜ), Van Yüzüncü Yıl (YYÜ), Düzce (DÜ), Sakarya Uygulamalı Bilimler (SUBÜ), Bursa Teknik (BTÜ), Necmettin Erbakan (NEÜ), Kayseri (KAYÜ), Nevşehir Hacı Bektaş Veli (NEVÜ), Kırşehir Ahi Evran (KAEÜ), Aksaray (ASÜ), Niğde Ömer Halisdemir (NÖHÜ), Çankırı Karatekin (ÇAKÜ), Kastamonu (KÜ), Sinop (SİNÜ), Amasya (AÜ), Tokat Gaziosmanpaşa (TOGÜ), Ordu (ODÜ), Giresun (GRÜ), Bayburt (BAYÜ), Kafkas (KAÜ), Ardahan (ARÜ), Muş Alparslan (MAUN), Bingöl (BÜ), Munzur (MÜ), Siirt (SİÜ), Şırnak (ŞÜ), Adıyaman (ADYÜ), Kilis 7 Aralık (KİYÜ) ve Hatay Mustafa Kemal (HMKÜ). **Toplam 70 okulun hepsi devlet üniversitesidir.** Başka üniversiteler eklenti olarak eklenir.
+Samsun'dan Ondokuz Mayıs (OMÜ) ve Samsun Üniversitesi, Gebze Teknik (GTÜ), Sakarya (SAÜ), Çukurova (ÇÜ), Bursa Uludağ (BUÜ), Pamukkale (PAÜ), Gaziantep (GAÜN), Süleyman Demirel (SDÜ), Aydın Adnan Menderes (ADÜ), İnönü (İnÜ), Karabük (KBÜ), Muğla Sıtkı Koçman (MSKÜ), Afyon Kocatepe (AKÜ), Trakya (TÜ), Harran (HRÜ), Van Yüzüncü Yıl (YYÜ), Düzce (DÜ), Sakarya Uygulamalı Bilimler (SUBÜ), Bursa Teknik (BTÜ), Necmettin Erbakan (NEÜ), Kayseri (KAYÜ), Nevşehir Hacı Bektaş Veli (NEVÜ), Kırşehir Ahi Evran (KAEÜ), Aksaray (ASÜ), Niğde Ömer Halisdemir (NÖHÜ), Çankırı Karatekin (ÇAKÜ), Kastamonu (KÜ), Sinop (SİNÜ), Amasya (AÜ), Tokat Gaziosmanpaşa (TOGÜ), Ordu (ODÜ), Giresun (GRÜ), Bayburt (BAYÜ), Kafkas (KAÜ), Ardahan (ARÜ), Muş Alparslan (MAUN), Bingöl (BÜ), Munzur (MÜ), Siirt (SİÜ), Şırnak (ŞÜ), Adıyaman (ADYÜ), Kilis 7 Aralık (KİYÜ) ve Hatay Mustafa Kemal (HMKÜ). **Toplam 100 okulun hepsi devlet üniversitesidir.** P9: Osmaniye Korkut Ata, Kahramanmaraş Sütçü İmam, Tarsus, Adana Alparslan Türkeş Bilim ve Teknoloji, Burdur Mehmet Akif Ersoy, Isparta Uygulamalı Bilimler ve Uşak da eklidir. Başka üniversiteler eklenti olarak eklenir.
 
 ## Mimari (sunucusuz, bedava)
 
@@ -157,24 +157,119 @@ Veriler gerçek `curl -L -A "Mozilla/5.0"` indirmelerinden, Python 3.9 ve `YEMEK
 
 Veriler gerçek `curl -L -A "Mozilla/5.0"` indirmelerinden, Python 3.9 ve `YEMEK_ARAMA_LIMIT=0` ile `scratchpad/codex-p8/uretilen39` altında üretildi. Yalnız yeni beş okulun `menu.json` ve boş `photos/index.json` dosyaları iki veri klasörüne kopyalandı; her üretimden hemen sonra `scratchpad/codex-p8/ilerleme.md` güncellendi. Mevcut okul menüleri ve `data/dishes` SHA-256 ile korundu. İndekslere yalnız yeni kayıtlar, pubspec'e yalnız klasörler hazırlandıktan sonra yeni asset satırları en son eklenir; diğer işçinin paketleri korunur. İndirmeleri okuyan yardımcı Python komutları `-I` ile çalıştırıldı. Flutter, fotoğraf araması/OCR ve GitHub Actions çalıştırılmadı; commit/push yapılmadı.
 
+### P9 partisi (4 Kasım 2026)
+
+Yedi okul, tamamı Kasım 2026; toplam 130 tarih. Menü türü aksi belirtilmedikçe öğle (`lunch`).
+
+| Okul / kimlik | Kaynak | Gün | Ayrıntı |
+|---|---|---:|---|
+| Osmaniye Korkut Ata / `osmaniye` | [Aylık HTML](https://www6.osmaniye.edu.tr/yemekmenu) | 21 | 2–30 Kasım; dört yemek, yazılı toplam kalori; Ekim arşivi karıştırılmaz. |
+| Kahramanmaraş Sütçü İmam / `ksu` | [Aylık HTML](https://yemeklistesi.ksu.edu.tr/) | 21 | 2–30 Kasım; dört kalem kalorisi; günlük kopya tekilleştirilir. |
+| Tarsus / `tarsus` | [Aylık HTML](https://sks.tarsus.edu.tr/tr/page/yemek-listesi/2581) | 21 | Beş yemek, kalori yok. “SENİN MENÜN” hücresindeki 4 Kasım ancak 3 ve 5 Kasım komşularıyla doğrulanır; seçenekler vejetaryen diye etiketlenmez. [Öğrenci ücreti](https://sks.tarsus.edu.tr/tr/page/yemekhane-ve-kantin/2687) 35 TL. |
+| Adana Alparslan Türkeş BTÜ / `atu` | [UBYS aylık HTML](https://ubys.atu.edu.tr/Yemekhane) | 21 | Dört yemek, kalem/toplam kalori; öğrenci karta yükleme 30 TL, günlük öğrenci 90 TL. |
+| Burdur Mehmet Akif Ersoy / `maku` | [İki haftalık HTML](https://mehmetakif.edu.tr/tr/content/10606/haftalik-yemek-listesi) | 10 | 2–13 Kasım; merkez/Bucak listesi, ilçe listesi hariç; toplam kalori, `birikimli`. |
+| Isparta Uygulamalı Bilimler / `isubu` | [Aylık HTML](https://yemek.isparta.edu.tr/menu) | 20 | 2–27 Kasım; merkez/100. Yıl yerleşkeleri ilk tablo, ilçe sekmesi hariç; “Bugün” komşu tarih ve sütundan bulunur; toplam kalori. |
+| Uşak / `usak` | [HTML menü penceresi](https://yemek.usak.edu.tr/yemekhane) | 16 | 4–25 Kasım; öğle + açıkça etiketlenmiş vejetaryen seçenek. Alerjen harfleri çıkarılır; İngilizce kopya alınmaz. Eksik kalori üretilmez; `birikimli`. 20 Kasım etiketsiz iki seçenek tek öğle kaleminde korunur; iki kalori ve iki toplam öğün notunda tutulur, tek kalem/toplam kalorisi sayılmaz. |
+
+Gerçek HTML kırpıntılarıyla 17 yeni ağsız test eklendi. Veriler Python 3.9, TLS doğrulaması açık curl indirmeleri ve `YEMEK_ARAMA_LIMIT=0` ile geçici klasörde üretildi; yalnız yeni okul klasörleri kopyalandı. Klasörler hazırlandıktan sonra iki index ve pubspec güncellendi. **415 test, OK** (Python 3.9 ve varsayılan Python). Flutter çalıştırılmadı.
+
+### P10 partisi (4 Kasım 2026)
+
+Yedi devlet üniversitesi, Kasım 2026'da 96 tarih eklendi. Tümü öğle; NKÜ'de açıkça etiketli vejetaryen ana yemek de vardır.
+
+| Okul / kimlik | Kaynak | Gün | Ayrıntı |
+|---|---|---:|---|
+| Balıkesir / `balikesir` | [Haftalık HTML](https://balikesir.edu.tr/yemek-listesi) | 5 | 2–6 Kasım; dört kalem ve toplam kalori. Yılsız başlık hafta günüyle doğrulanır, birikimli. |
+| Bandırma Onyedi Eylül / `bandirma` | [Dinamik aylık metin PDF](https://sksdb.bandirma.edu.tr/tr/sksdb/s/Yemek-Menusu-2725) | 21 | 2–30 Kasım; altı kalem, 125 kalemin kalorisi var, 12 Kasım sütlü irmik helvasının kalorisi boş. Seçenekler için toplam hesaplanmaz. PDF dipnotundan öğle 11:30–14:00, akşam 16:00–17:30; menü akşama çoğaltılmaz. Aynı sayfanın ücret kararı PDF'inden öğrenci 55 TL. |
+| Tekirdağ Namık Kemal / `nku` | [SKS HTML](https://sks.nku.edu.tr/YemekListesi/0/s/6200/7411) | 4 | 3–6 Kasım penceresi; birikimli, dört yemek ve varsa vejetaryen seçenek. [Saat](https://sks.nku.edu.tr/YemekSaatleri/0/s/14804/19073) öğle 11:00–14:00; [öğrenci ücreti](https://sks.nku.edu.tr/YemekFiyatlari_i%C3%A7erik/0/s/14798/19059) 37 TL. |
+| Kırklareli / `klu` | [Takvime gömülü JSON](https://sks.klu.edu.tr/Takvimler/73-yemek-takvimi.klu) | 21 | 2–30 Kasım; textarea güvenli JSON olarak çözülür, eski arşiv karıştırılmaz; kalori yok. |
+| Bilecik Şeyh Edebali / `bilecik` | [Dinamik aylık metin PDF](https://bilecik.edu.tr/sks/Icerik/Yemek_Men%C3%BCs%C3%BC_cc6e6) | 21 | 2–30 Kasım; dört yemek, kalori yok; parçalanmış tarih/sözcükler birleştirilir. [Saat](https://bilecik.edu.tr/sks/Icerik/Yemek_Saatleri) 11:00–14:00; [ön lisans/lisans 50, lisansüstü 60 TL](https://bilecik.edu.tr/sks/Icerik/Yemek_%C3%9Ccretleri_67696). |
+| Yalova / `yalova` | [Aylık öğle HTML](https://menu.yalova.edu.tr/Home/) | 21 | 2–30 Kasım; kalem ve yazılı toplam kalori; tooltip içindeki malzemeler yemek adına alınmaz. |
+| Hitit / `hitit` | [Merkez HTML](https://hitit.edu.tr/tr/hitit/yemek-listesi) | 3 | 4–6 Kasım; dört yemek, kalori yok; birikimli. [Servis saati](https://hitit.edu.tr/tr/shmyo/yemek-hizmeti-uygulamalari-hakkinda) 11:45–13:30. |
+
+**Kocaeli Sağlık ve Teknoloji Üniversitesi kapsam dışıdır:** [kurumun resmî sayfası](https://kocaelisaglik.edu.tr/universite) ve [YÖK'ün yayımladığı kuruluş hükmü](https://vakif.yok.gov.tr/files/5/VAKIF/Y%C3%BCksek%C3%B6%C4%9Fretim%20Kurumlar%C4%B1%20Te%C5%9Fkilat%20Kanunu.pdf) vakıf üniversitesi olduğunu doğrular. Menü araştırmasına/eklenti listesine alınmadı.
+
+17 yeni ağsız test ve gerçek kırpılmış kaynaklar (iki tek sayfalık PDF dahil); tam kaynak ile fixture çıktıları eşit. **432 test, OK**: varsayılan Python ve Python 3.9. Veri/iki index/pubspec tamamlandı; yalnız yeni okul verileri kopyalandı. PDF sütun sınırları yalnız Kasım 2026 düzeniyle denendi.
+
+### İş günü yeniden denemeleri (4 Kasım 2026)
+
+13 okul yeniden denendi; on okul, toplam 105 Kasım 2026 tarihi eklendi. Erciyes öğle ve akşam, diğerleri öğle menüsüdür. Eski boş menü/DNS/erişim notları aşağıdaki güncel sonuçlarla değiştirildi.
+
+| Okul / kimlik | Kaynak | Gün | Ayrıntı |
+|---|---|---:|---|
+| Yozgat Bozok / `bozok` | [HTML aylık özet](https://yemek.bozok.edu.tr/) | 12 | 2–17 Kasım; dört yemek ve toplam kalori, gluten yıldızları çıkarılır; kısa pencere birikimli. |
+| Bartın / `bartin` | [Form içindeki tarih/yemek sabitleri](https://form.bartin.edu.tr/rapor/form/yemek-menu.html) | 21 | 2–30 Kasım; JavaScript çalıştırılmaz. Kalem kalorileri, virgülle yan yemekler ve seçenekli içecekler; seçenekler toplanmaz. |
+| Recep Tayyip Erdoğan / `rte` | [Günlük HTML](https://erdogan.edu.tr/Website/Contents.aspx?LangID=1&PageID=1156) | 1 | 4 Kasım; dört kalem kalorisi, toplam 785; birikimli. |
+| Gümüşhane / `gumushane` | [Aylık JSON](https://www.gumushane.edu.tr/api/Page/130) | 21 | 2–30 Kasım; yıl/ay alanları ve gün başına beş yuvanın ilk dört yemeği, boş günler atılır; kalori yok. |
+| Bitlis Eren / `bitlis` | [Tarihli HTML](https://www.beu.edu.tr/YemekListesi) | 3 | 4–6 Kasım; dört yemek, seçenekler aynı kalemde; birikimli. |
+| Batman / `batman` | [HTML öğrenci listesi](https://batman.edu.tr/yemek-listesi) | 10 | 2–13 Kasım; dört kalem kalorisi. Bugün tarihinin div, diğerlerinin span olması desteklenir; birikimli. |
+| Erciyes / `erciyes` | [Öğrenci HTML menüsü](https://erciyes.edu.tr/tr/2/ogrenci-yemek-listesi) | 3 | 4–6 Kasım; 4 ve 5 Kasım öğle+akşam, 6 Kasım yalnız öğle. Boş akşam/0 toplam atılır; kalem ve toplam kalori; birikimli. |
+| Erzurum Teknik / `etu` | [Günün ve ilerleyen günlerin HTML'i](https://servis.erzurum.edu.tr/yemeklistesi/) | 10 | 4–17 Kasım; dört kalem kalorisi. Yılsız tarihler yakın yıl/hafta günüyle doğrulanır; gramajlar alınmaz; birikimli. |
+| Ağrı İbrahim Çeçen / `agri` | [Ana sayfa HTML menüsü](https://www.agri.edu.tr/) | 3 | 4–6 Kasım; son yemeğe bitişik toplam kalori ayrılır; protein/gram yemek değildir; birikimli. |
+| Hakkari / `hakkari` | [Merkezi Yemekhane aylık HTML](https://www.hakkari.edu.tr/yemek-listesi/1/merkezi-yemekhane) | 21 | 2–30 Kasım; dört yemek; tek kalori kaleme, iki seçenek kalorisi ve iki toplam öğün notuna yazılır, toplanmaz. |
+
+18 yeni ağsız test; tam kaynak ile kırpılmış fixture sonuçları eşit. **450 test, OK**: Python 3.9 ve varsayılan Python. Geçici build, iki index ve pubspec tamamlandı. Flutter, fotoğraf araması/OCR yapılmadı.
+
+### P11: YÖK karşılaştırması (4 Kasım 2026)
+
+[YÖK Devlet Üniversiteleri listesi](https://www.yok.gov.tr/tr/university?type=1) indirildi; **128 kurum** `data/index.json` ve önceki deneme notlarıyla ad bazında karşılaştırıldı. Hiç denenmemiş dokuz kurum bulundu; altısı eklendi, üçünde güncel okunabilir menü bulunamadı. Vakıflar karşılaştırmaya alınmadı. Yeni altı okulun tamamı öğle (`lunch`), toplam **104 Kasım 2026 tarihi**:
+
+| Okul / kimlik | Kaynak | Gün | Ayrıntı |
+|---|---|---:|---|
+| Gaziantep İslam Bilim ve Teknoloji / `gibtu` | [HTML](https://www.gibtu.edu.tr/yemeklistesi.aspx) | 19 | 4–30 Kasım; Windows-1254, dört yemek, kalori yok. Geçmiş günler kaybolduğu için birikimli. |
+| Karamanoğlu Mehmetbey / `kmu` | [Aylık HTML](https://kmu.edu.tr/yemekhane) | 21 | 2–30 Kasım; başlıkta yıl/ay, satırda gün; dört yemek ve yazılı toplam kalori. |
+| Malatya Turgut Özal / `mtu` | [Günlük SKS HTML](https://sksdb.ozal.edu.tr/tr/yemek_listesi) | 1 | 4 Kasım; dört yemek, kalori yok, birikimli. Aylık PNG otomatik okunmadı; günlük metin kaynağı kullanıldı. |
+| İskenderun Teknik / `iste` | [SKS duyurusundan aylık metin PDF](https://iste.edu.tr/sksdb) | 21 | 2–30 Kasım; dört kalem kalorisi. [Kasım PDF'i](https://iste.edu.tr/files/7149_files_1793080297.pdf) duyurudan dinamik bulunur; gramaj ve kalori sütunları ayrılır, parçalanmış rakamlar ve 0,9 birim yükselmiş uzun yemek adları birleştirilir. |
+| Kütahya Sağlık Bilimleri / `ksbu` | [SKS aylık metin PDF bağlantısı](https://sks.ksbu.edu.tr/defaultx/slide/5613/ksbu-yemek-listesi) | 21 | 2–30 Kasım; dört yemek ve tek günlük enerji toplamı. CID harf genişlikleri ve `.05` çizim ölçeğiyle sözcükler yeniden birleştirilir; sarılmış makarna/yoğurt satırları korunur. Çölyak menüsü alınmaz. |
+| İstiklal Bilim ve Teknoloji / `istiklal` | [Angular CMS'nin girişsiz JSON'u](https://www.istiklal.edu.tr/sksdb/beslenme-ve-kafeterya) | 21 | 2–30 Kasım; `https://istiklal.edu.tr/api/pages/get` ve `/posts/get` okuma POST'ları; `args-ahbv-food-list` içindeki gerçek tarihli arşivden güncel ay seçilir. Dört yemek ve toplam kalori; JavaScript çalıştırılmaz. YÖK'teki güncel ad kullanıldı (eski adı Kahramanmaraş İstiklal). |
+
+**P11'de eklenemeyen üç kurum:**
+
+* **Afyonkarahisar Sağlık Bilimleri — yalnız resim:** [SKS yemek listesi](https://skultur.afsu.edu.tr/yemek-listesi/) Kasım 2026'yı `kasim-yemek-2.jpg` olarak yayınlar; güncel öğrenci metin/PDF alternatifi bulunamadı. Hastane menüsü yerine alınmadı.
+* **Abdullah Gül — güncel menü yok:** [SKS menü sayfasının](https://sks-tr.agu.edu.tr/yemek-menuesue) en yeni bağlantısı Aralık 2025 PDF'idir; PDF'in içindeki başlık ve tarihler de 2025'tir. Ana site/SKS'de 2026 menüsü bulunamadı; 2025 listesi 2026'ya çevrilmedi.
+* **Türkiye Uluslararası İslam, Bilim ve Teknoloji — menü yok:** [ana site](https://tibu.edu.tr/) ve [SKS](https://sks.tibu.edu.tr/) incelendi; “Yemek Listesi” bağlantısı `#`, tarihli yemek içeriği yok.
+
+**Kapsam dışı:** Millî Savunma Üniversitesi, Polis Akademisi ve Jandarma ve Sahil Güvenlik Akademisi, özel kabul ve kurum hizmetine yönelik eğitim veren kurumlar oldukları için kullanıcının kapsam talebine göre atlandı; menüleri denenmedi. Türkiye dışındaki ortak üniversiteler ve vakıflar alınmadı. Türk-Japon, YÖK ana sayfasındaki ayrı kurum bağlantısında yer aldığından aşağıdaki durum tablosuna ek satırla dahil edildi; önceki “menü yok” tespiti bu görevde yeniden denenmedi.
+
+19 yeni ağsız test, gerçek kırpılmış HTML/JSON ve iki tek sayfalık PDF; tam kaynak/fixture çıktıları eşit. **469 test, OK** (varsayılan Python ve Python 3.9). PDF ayrıştırıcıları yalnız Kasım 2026 düzeniyle denendi. Altı okulun verisi geçici build ile üretildi; iki index ve pubspec okul klasörleri hazırlandıktan sonra güncellendi. Fotoğraf araması/OCR/Flutter çalıştırılmadı.
+
 ### Okunamayan okullar
 
-* **P8 partisinde eklenemeyenler (1 Kasım 2026):** **Mardin Artuklu** ([SKS](https://www.artuklu.edu.tr/saglik-kultur-spor-baskanligi), [Beslenme Hizmetleri](https://www.artuklu.edu.tr/saglik-kultur-spor-baskanligi/beslenme-hizmetleri)) Ekim 2026 menüsünü yalnız JPEG olarak yayınlar; ana sitenin aylık PDF bağlantısı Kasım 2025'tir, güncel değildir. **Hakkari** ([Merkezi Yemekhane aylık listesi](https://www.hakkari.edu.tr/yemek-listesi/1/merkezi-yemekhane)) `www` ve kök alan adında DNS çözümleme hatası verdi; bağımsız Google DNS sorgusu da iki yetkili ad sunucusunun yanıt vermediğini bildirdi (`SERVFAIL`). **Batman** ([resmî Yemek Listesi](https://batman.edu.tr/yemek-listesi)) canlı `www`/kök alan adı ve dil/tarih sorgulu okumalarında “böyle bir içerik kayıtlarımızda bulunamamıştır” döndürüyor; sondaki `/` ile HTTP 500, ay/yıl sorgusunda SSL bağlantı zaman aşımı alındı. Ana site ve SKS aynı adrese bağlanıyor; arama dizinindeki Ekim kayıtları canlı kaynaktan doğrulanamadı, alternatif aylık/haftalık kaynak bulunamadı. **Batman iş günü tekrar bakılmalı (2 Kasım Pazartesi).** Üç okul için eklenti/veri eklenmedi.
+**4 Kasım 2026 yeniden denemeleri:**
 
-* **P7 partisinde eklenemeyenler (1 Kasım 2026):** **Iğdır** ([SKS Aylık Yemek Listesi](https://sks.igdir.edu.tr/aylk-yemek-listsi)) Ekim 2026 menüsünü yalnız JPG yayınlar; ana site aynı kaynağa bağlıdır, eski alternatif aylık bağlantı 500 verdi. **Ağrı İbrahim Çeçen** ([resmî site](https://www.agri.edu.tr/)) `www` ve kök alan adında DNS çözümleme hatası verdi; resmî menü alt adresi de açılamadı. Bağımsız DNS sorgusu da yetkili ad sunucularının yanıt vermediğini bildirdi (`SERVFAIL`). **Bitlis Eren** ([10 Günlük Yemek Listesi](https://www.beu.edu.tr/YemekListesi)) tablosu boş; ana sitenin bağladığı [günlük çerçeve](https://www.beu.edu.tr/YemekListesi/Temasiz) de boş. SKS/beslenme sayfaları aynı kaynağa bağlanır; alternatif aylık/haftalık metin bulunamadı. **Bitlis Eren iş günü tekrar bakılmalı (2 Kasım Pazartesi).** Bu üç okul için eklenti/veri eklenmedi.
-* **P6 partisinde eklenemeyenler (1 Kasım 2026):** **Recep Tayyip Erdoğan** ([resmî Yemek Listesi](https://erdogan.edu.tr/Website/Contents.aspx?LangID=1&PageID=1156)) yalnız tarih seçilen günlük HTML verir; 1 Kasım Pazar tablosu boş, SKS aynı sayfaya bağlanır, aylık/haftalık metin bulunamadı. **Gümüşhane** ([resmî Aylık Yemek Listesi](https://www.gumushane.edu.tr/sayfa/130/yemek-listesi)) sayfasının `/api/Page/130` JSON'unda `yemekhanes: []`; [resmî arşiv](https://arsiv.gumushane.edu.tr/yemek-listesi) `Kayıt Yok` diyor. **Rize ve Gümüşhane iş günü tekrar bakılmalı (2 Kasım Pazartesi).** **Artvin Çoruh** ([resmî menü](https://www.artvin.edu.tr/tr/yemek)) yalnız `/storage/yemekMenuResimleri/menu.jpg` gösterir; eski SKS alan adı DNS ile çözülemedi, alternatif aylık metin bulunamadı. **Erzincan Binali Yıldırım** ([SKS Yemek Menüsü](https://sks.ebyu.edu.tr/yemek-menusu/)) yalnız Ekim 2026 yüklemeli `Yemek-Menusu.jpeg` yayınlar; ana site de bu sayfaya bağlanır. Resim menüler eklenmedi.
-* **Bu turda eklenemeyen devlet üniversiteleri:** Akdeniz (Antalya; merkezi yemekhane yalnızca haftalık bir resim yayınlıyor, her hafta elle girmek gerekir), Erzurum Teknik (`servis.erzurum.edu.tr/yemeklistesi` yalnızca günün menüsünü
-  gösteriyor ve şu an 'Hazırlanıyor' diyor), İYTE, İzmir Demokrasi ve İzmir Bakırçay (SKS sitelerinde herkese açık menü bulunamadı), Alanya Hamdullah Emin Paşa (siteye otomatik erişilemedi). Atatürk Üniversitesi eklendi ama yalnızca bugün+yarın yayınlandığı için aylık liste yok.
-* **İstanbul'da eklenmeyenler:** İstanbul Üniversitesi-Cerrahpaşa (SKS sitesi güvenlik doğrulamalı bir CMS), Yıldız Teknik (`sks.yildiz.edu.tr` bağlantı zaman aşımı veriyor, `beslenme.yildiz.edu.tr` güncel menüyü vermiyor),
-  İstanbul Medeniyet (menü sayfası boş), Türk-Alman (siteye otomatik erişim 403), Sağlık Bilimleri, İstanbul Sağlık ve Teknoloji, Türk-Japon (menü yayınlamıyor/bulunamadı).
-* **P1 partisinde eklenemeyenler (11 Ekim 2026):** Selçuk (`yemek.selcuk.edu.tr` Selçuk SSO girişi istiyor; herkese açık menü sayfası bulunamadı), Erciyes (`erciyes.edu.tr/tr/2/ogrenci-yemek-listesi` sayfasındaki 'Öğrenci Menüsü' şu an boş,
-  yalnızca 'Personel Menüsü' dolu; öğrenci menüsü dolunca tekrar bakılabilir), Kocaeli (`sksdb.kocaeli.edu.tr` istemci tarafında çizilen bir Next.js uygulaması; menü adresi/API'si bulunamadı).
-* **P2 partisinde eklenemeyenler (27 Ekim 2026):** Dicle (`dicle.edu.tr` SKS sayfasında öğrenci öğle menüsü yalnızca aylık JPG), Manisa Celal Bayar (`sks.mcbu.edu.tr/Sayfa/YemekListesiMerkez` yalnızca aylık JPG; ilçe listesi de resim olarak bekleniyor), Kırıkkale (`sks.kku.edu.tr` 'Yemek Listesi' sayfası yalnızca aylık JPG), Fırat (`sks.firat.edu.tr` 403 veriyor; `sksdab.firat.edu.tr` sayfasında öğrenci yemekhanesi menüsü bulunamadı, `unievi.firat.edu.tr` yalnızca Üniversite Evi'nin haftalık menüsünü gösteriyor, öğrenci yemekhanesi menüsü sayılmadı). Resim menüler elle girilirse (`elle_veri`) eklenebilir.
-* **P3 partisinde eklenemeyenler (1 Kasım 2026):** Bolu Abant İzzet Baysal (SKS'nin resmi bağlantısı `uyg.ibu.edu.tr/yemekListesi/`; HTTPS, HTTP ve IPv4 HTTPS denemeleri bağlantı zaman aşımı verdi; eski `ibu.edu.tr/yemek-listesi` adresi 404). Kütahya Dumlupınar (`www.dpu.edu.tr/index/yemek` günlük öğrenci menüsü 'Bu güne ait yemek bilgisi bulunamamıştır' diyor; SKS ve beslenme sayfasında güncel aylık menü bağlantısı bulunamadı). DPÜ'nün günlük sayfasına servis verilen bir iş günü tekrar bakılabilir; menü verisi alınamadığı için eklenti eklenmedi.
-* **P4 partisinde eklenemeyen (1 Kasım 2026):** Konya Teknik ([resmî Yemek Menüsü sayfası](https://www.ktun.edu.tr/tr/Birim/Index/?brm=0/ZiZm1h8DwpGheFpqAvXw==) yalnızca `/Dosyalar/1075/files/Ekim.png` resmine bağlanıyor; rezervasyon sitesi giriş istiyor). Resim menü otomatik metin kaynağı sayılmadı, eklenti eklenmedi. Bolu Abant İzzet Baysal'ın resmî HTTPS menü adresine yapılan kısa tekrar denemesi de bağlantı zaman aşımı verdi. DPÜ'ye bugün Pazar olduğu için P4'te yeniden bakılmadı; 2 Kasım Pazartesi kontrol edilebilir.
-* **P5 partisinde eklenemeyenler (1 Kasım 2026):** **Yozgat Bozok** ([resmî yemek sitesi](https://yemek.bozok.edu.tr/)) bugün, yarın ve “Aylık Menü Özeti” alanlarını boş döndürüyor; SKS beslenme sayfası da aynı adrese bağlanıyor, güncel alternatif aylık/haftalık metin bulunamadı. **Bartın** ([resmî Yemek Listesi](https://www.bartin.edu.tr/hizli-erisim/yemek-listesi.html)) [aylık form sayfasını](https://form.bartin.edu.tr/rapor/form/yemek-menu.html) gömüyor; güncel ayın takvimi var fakat `tabloverileriEkle()` fonksiyonu boş, tarihli yemek kaydı yok. SKS günlük sayfasındaki eski adres 404; duyuru arşivinde Kasım/Ekim 2026 menüsü bulunamadı. **Bozok ve Bartın iş günü tekrar bakılmalı (2 Kasım Pazartesi).** **Zonguldak Bülent Ecevit** ([resmî Yemek Listesi](https://w3.beun.edu.tr/hizmetler/yemek-listesi.html)) Kasım öğle ve akşam menülerini yalnız `kasimoglen.jpg` / `kasimaksam_tepW2FN.jpg` olarak yayınlıyor; erişilebilir metin kaynağı bulunamadı, resim menü eklenmedi.
-* **Anadolu Üniversitesi:** öğrenci yemekhanesinin menüsü yalnızca Anadolu hesabıyla girişten sonra görülüyor (yemekhane.anadolu.edu.tr); herkese açık sayfalarda yalnızca personel lokali, Akademik Kulüp ve Taşbina gibi à la carte restoranların menüleri var. Bu yüzden eklenmedi.
-* Bir okul geçici olarak okunamazsa (sunucu yavaş/kapalı) `build` onu listeden düşürmez: önceki `index.json` kaydı ve `menu.json` korunur, hata günlüğe yazılır.
+* **Kütahya Dumlupınar — menü yok:** [öğrenci listesi](https://www.dpu.edu.tr/index/yemek) iş gününde de “Bu güne ait yemek bilgisi bulunamamıştır” diyor; personel menüsü dolu. [SKS beslenme sayfası](https://sks.dpu.edu.tr/tr/index/sayfa/1798/beslenme-hizmetleri-sube-mudurlugu) güncel öğrenci aylık menüsüne bağlanmıyor.
+* **Bolu Abant İzzet Baysal — erişilemiyor:** [ana sitenin](https://www.ibu.edu.tr/) verdiği [resmî menü adresi](https://uyg.ibu.edu.tr/yemekListesi/) HTTPS ve HTTP'de bağlantı zaman aşımı verdi; eski SKS alan adı DNS hatası. Menü eklentisi eklenmedi.
+* **Kocaeli — menü bulunamadı:** [SKS Next.js](https://sksdb.kocaeli.edu.tr/) Flight metni çözüldü, kod parçaları (köşeli parantezli yollar URL kodlanarak) indirildi. Girişsiz `https://api.kocaeli.edu.tr/api/` API'si, `Admin/Isp/GetIspCodeByName`, `Menu/GetAll` ve `Page/GetBySlug` uçları doğrulandı; SKS'nin genel birim kodu 1086'dır. [Beslenme Hizmetleri](https://sksdb.kocaeli.edu.tr/sayfalar/beslenme-hizmetleri-birimi-3b6) JSON içeriği yalnız görevler/servis saatlerini veriyor; menü/PDF eki yok. SKS/ana site menü bağlantıları ve JS parçalarında öğrenci yemek menüsü uç noktası bulunamadı. Hastane personel PDF'leri öğrenci listesi yerine alınmadı.
+* **Mersin — yalnız resim:** [SKS Kurum Yemekhane Hizmetleri](https://sks.mersin.edu.tr/tr/idari/saglik-kultur-ve-spor-daire-baskanligi/hizmetlerimiz/kurum-yemekhane-hizmetleri/) Kasım 2026 merkez menüsünü WebP yayınlar; görselin ay/yılı gözle doğrulandı. Saat/ücret metinleri menü değildir, hastane/kreş listeleri alınmadı.
+
+**Önceki partilerdeki son tespitler (1 Kasım 2026 veya aşağıda belirtilen tarih; bu görevde yeniden denenmeyenler):**
+
+| Okul | Durum / son neden |
+|---|---|
+| Mardin Artuklu | Yalnız resim: [SKS](https://www.artuklu.edu.tr/saglik-kultur-spor-baskanligi) Ekim JPEG; ana sitedeki PDF Kasım 2025. |
+| Iğdır | Yalnız resim: [SKS aylık menü](https://sks.igdir.edu.tr/aylk-yemek-listsi) JPG; eski alternatif 500. |
+| Artvin Çoruh | Yalnız resim: [resmî menü](https://www.artvin.edu.tr/tr/yemek) `menu.jpg`; eski SKS DNS hatası. |
+| Erzincan Binali Yıldırım | Yalnız resim: [SKS](https://sks.ebyu.edu.tr/yemek-menusu/) `Yemek-Menusu.jpeg`. |
+| Zonguldak Bülent Ecevit | Yalnız resim: [Kasım öğle/akşam](https://w3.beun.edu.tr/hizmetler/yemek-listesi.html) JPG. |
+| Konya Teknik | Yalnız resim: [Yemek Menüsü](https://www.ktun.edu.tr/tr/Birim/Index/?brm=0/ZiZm1h8DwpGheFpqAvXw==) Ekim PNG; rezervasyon giriş ister. |
+| Dicle | Yalnız resim: SKS öğrenci aylık JPG (27 Ekim). |
+| Manisa Celal Bayar | Yalnız resim: [merkez menüsü](https://sks.mcbu.edu.tr/Sayfa/YemekListesiMerkez) JPG (27 Ekim). |
+| Kırıkkale | Yalnız resim: SKS aylık JPG (27 Ekim). |
+| Akdeniz | Yalnız resim: merkez yemekhane haftalık görsel. |
+| Fırat | Erişilemiyor: SKS 403; alternatif öğrenci menüsü bulunamadı, Üniversite Evi öğrenci menüsü sayılmadı (27 Ekim). |
+| Selçuk | Erişilemiyor: [yemek sitesi](https://yemek.selcuk.edu.tr/) SSO girişi ister (11 Ekim). |
+| Anadolu | Erişilemiyor: öğrenci menüsü Anadolu hesabı arkasında; à la carte restoran listeleri alınmadı. |
+| İstanbul Üniversitesi-Cerrahpaşa | Erişilemiyor: SKS güvenlik doğrulamalı CMS. |
+| Yıldız Teknik | Erişilemiyor: SKS zaman aşımı; beslenme sayfasında güncel menü yok. |
+| Türk-Alman | Erişilemiyor: otomatik istek 403. |
+| İstanbul Medeniyet | Menü yok: menü sayfası boş. |
+| Sağlık Bilimleri | Menü yok: herkese açık öğrenci menüsü bulunamadı. |
+| Türk-Japon Bilim ve Teknoloji | Menü yok: açık öğrenci menüsü bulunamadı. |
+| İzmir Yüksek Teknoloji Enstitüsü | Menü yok: açık menü bulunamadı. |
+| İzmir Demokrasi | Menü yok: açık menü bulunamadı. |
+| İzmir Bakırçay | Menü yok: açık menü bulunamadı. |
+
+Kocaeli Sağlık ve Teknoloji, İstanbul Sağlık ve Teknoloji, Alanya Hamdullah Emin Paşa ve Kapadokya vakıftır; devlet üniversitesi taramasına alınmaz. Geçici scraper hatasında `build` eski okul kaydını ve menüsünü korur.
 
 ### JSON biçimi
 `data/index.json`: üniversite listesi, her biri için `meals`, `prices`, `firstDay`, `lastDay`.
@@ -215,3 +310,147 @@ Release APK `app/android/key.properties` (git'e girmez) içindeki anahtarla imza
 Flutter kurulumundan sonra: `cd app && flutter create . --project-name yemekhane --org com.tolga && flutter pub get && flutter run`
 (`flutter create .` yalnızca eksik platform klasörlerini ekler; `lib/` ve `pubspec.yaml` korunur.)
 `app/lib/config.dart` içindeki `veriTabanUrl` değerini kendi GitHub deponun raw adresiyle değiştir.
+
+
+## Tüm devlet üniversitelerinin durumu (4 Kasım 2026)
+
+[YÖK devlet üniversiteleri sayfasındaki](https://www.yok.gov.tr/tr/university?type=1) 128 kurum ve YÖK ana sayfasının ayrı bağlantısında bulunan Türk-Japon ile 129 satır: **100 eklendi, 12 yalnız resim, 10 menü yok, 7 erişilemiyor**. “Menü yok”, güncel açık öğrenci metin kaynağı bulunamadığı anlamındadır; eski yıl menüsü de bu gruptadır. Giriş/güvenlik doğrulaması erişilemiyor grubundadır.
+
+Bu tabloda önceki partilerdeki tespitler de korunur: bu görevde P9/P10, belirtilen 13 yeniden deneme ve P11'in dokuz yeni adayı araştırıldı. Önceden başarısız olan diğer 22 okulun ağı bu görevde yeniden denenmedi; son neden/tarihleri “Okunamayan okullar” bölümündedir. Eski 70 ekli okulun menüleri yeniden üretilmedi. Kapsam dışında bırakılan MSÜ/Polis/Jandarma kurumları bu tablonun sayısına dahil değildir.
+
+| Devlet üniversitesi | Durum |
+|---|---|
+| Abdullah Gül Üniversitesi | menü yok |
+| Adana Alparslan Türkeş Bilim ve Teknoloji Üniversitesi | eklendi |
+| Adıyaman Üniversitesi | eklendi |
+| Afyon Kocatepe Üniversitesi | eklendi |
+| Afyonkarahisar Sağlık Bilimleri Üniversitesi | yalnız resim |
+| Akdeniz Üniversitesi | yalnız resim |
+| Aksaray Üniversitesi | eklendi |
+| Alanya Alaaddin Keykubat Üniversitesi | eklendi |
+| Amasya Üniversitesi | eklendi |
+| Anadolu Üniversitesi | erişilemiyor |
+| Ankara Hacı Bayram Veli Üniversitesi | eklendi |
+| Ankara Müzik ve Güzel Sanatlar Üniversitesi | eklendi |
+| Ankara Sosyal Bilimler Üniversitesi | eklendi |
+| Ankara Yıldırım Beyazıt Üniversitesi | eklendi |
+| Ankara Üniversitesi | eklendi |
+| Ardahan Üniversitesi | eklendi |
+| Artvin Çoruh Üniversitesi | yalnız resim |
+| Atatürk Üniversitesi | eklendi |
+| Aydın Adnan Menderes Üniversitesi | eklendi |
+| Ağrı İbrahim Çeçen Üniversitesi | eklendi |
+| Balıkesir Üniversitesi | eklendi |
+| Bandırma Onyedi Eylül Üniversitesi | eklendi |
+| Bartın Üniversitesi | eklendi |
+| Batman Üniversitesi | eklendi |
+| Bayburt Üniversitesi | eklendi |
+| Bolu Abant İzzet Baysal Üniversitesi | erişilemiyor |
+| Boğaziçi Üniversitesi | eklendi |
+| Burdur Mehmet Akif Ersoy Üniversitesi | eklendi |
+| Bursa Teknik Üniversitesi | eklendi |
+| Bursa Uludağ Üniversitesi | eklendi |
+| Bilecik Şeyh Edebali Üniversitesi | eklendi |
+| Bingöl Üniversitesi | eklendi |
+| Bitlis Eren Üniversitesi | eklendi |
+| Dokuz Eylül Üniversitesi | eklendi |
+| Düzce Üniversitesi | eklendi |
+| Dicle Üniversitesi | yalnız resim |
+| Ege Üniversitesi | eklendi |
+| Erciyes Üniversitesi | eklendi |
+| Erzurum Teknik Üniversitesi | eklendi |
+| Erzincan Binali Yıldırım Üniversitesi | yalnız resim |
+| Eskişehir Osmangazi Üniversitesi | eklendi |
+| Eskişehir Teknik Üniversitesi | eklendi |
+| Fırat Üniversitesi | erişilemiyor |
+| Galatasaray Üniversitesi | eklendi |
+| Gazi Üniversitesi | eklendi |
+| Gaziantep Üniversitesi | eklendi |
+| Gaziantep İslam Bilim ve Teknoloji Üniversitesi | eklendi |
+| Gebze Teknik Üniversitesi | eklendi |
+| Gümüşhane Üniversitesi | eklendi |
+| Giresun Üniversitesi | eklendi |
+| Hacettepe Üniversitesi | eklendi |
+| Hakkari Üniversitesi | eklendi |
+| Harran Üniversitesi | eklendi |
+| Hatay Mustafa Kemal Üniversitesi | eklendi |
+| Hitit Üniversitesi | eklendi |
+| Isparta Uygulamalı Bilimler Üniversitesi | eklendi |
+| Iğdır Üniversitesi | yalnız resim |
+| Kafkas Üniversitesi | eklendi |
+| Kahramanmaraş Sütçü İmam Üniversitesi | eklendi |
+| Karabük Üniversitesi | eklendi |
+| Karadeniz Teknik Üniversitesi | eklendi |
+| Karamanoğlu Mehmetbey Üniversitesi | eklendi |
+| Kastamonu Üniversitesi | eklendi |
+| Kayseri Üniversitesi | eklendi |
+| Kırıkkale Üniversitesi | yalnız resim |
+| Kırklareli Üniversitesi | eklendi |
+| Kırşehir Ahi Evran Üniversitesi | eklendi |
+| Kocaeli Üniversitesi | menü yok |
+| Konya Teknik Üniversitesi | yalnız resim |
+| Kütahya Dumlupınar Üniversitesi | menü yok |
+| Kütahya Sağlık Bilimleri Üniversitesi | eklendi |
+| Kilis 7 Aralık Üniversitesi | eklendi |
+| Malatya Turgut Özal Üniversitesi | eklendi |
+| Manisa Celal Bayar Üniversitesi | yalnız resim |
+| Mardin Artuklu Üniversitesi | yalnız resim |
+| Marmara Üniversitesi | eklendi |
+| Mersin Üniversitesi | yalnız resim |
+| Munzur Üniversitesi | eklendi |
+| Muğla Sıtkı Koçman Üniversitesi | eklendi |
+| Muş Alparslan Üniversitesi | eklendi |
+| Mimar Sinan Güzel Sanatlar Üniversitesi | eklendi |
+| Necmettin Erbakan Üniversitesi | eklendi |
+| Nevşehir Hacı Bektaş Veli Üniversitesi | eklendi |
+| Niğde Ömer Halisdemir Üniversitesi | eklendi |
+| Ondokuz Mayıs Üniversitesi | eklendi |
+| Ordu Üniversitesi | eklendi |
+| Orta Doğu Teknik Üniversitesi | eklendi |
+| Osmaniye Korkut Ata Üniversitesi | eklendi |
+| Pamukkale Üniversitesi | eklendi |
+| Recep Tayyip Erdoğan Üniversitesi | eklendi |
+| Sakarya Uygulamalı Bilimler Üniversitesi | eklendi |
+| Sakarya Üniversitesi | eklendi |
+| Samsun Üniversitesi | eklendi |
+| Sağlık Bilimleri Üniversitesi | menü yok |
+| Selçuk Üniversitesi | erişilemiyor |
+| Süleyman Demirel Üniversitesi | eklendi |
+| Sinop Üniversitesi | eklendi |
+| Sivas Bilim ve Teknoloji Üniversitesi | eklendi |
+| Sivas Cumhuriyet Üniversitesi | eklendi |
+| Siirt Üniversitesi | eklendi |
+| Tarsus Üniversitesi | eklendi |
+| Tekirdağ Namık Kemal Üniversitesi | eklendi |
+| Tokat Gaziosmanpaşa Üniversitesi | eklendi |
+| Trabzon Üniversitesi | eklendi |
+| Trakya Üniversitesi | eklendi |
+| Türk-Alman Üniversitesi | erişilemiyor |
+| Türkiye Uluslararası İslam, Bilim Ve Teknoloji Üniversitesi | menü yok |
+| Uşak Üniversitesi | eklendi |
+| Van Yüzüncü Yıl Üniversitesi | eklendi |
+| Yalova Üniversitesi | eklendi |
+| Yıldız Teknik Üniversitesi | erişilemiyor |
+| Yozgat Bozok Üniversitesi | eklendi |
+| Zonguldak Bülent Ecevit Üniversitesi | yalnız resim |
+| Çanakkale Onsekiz Mart Üniversitesi | eklendi |
+| Çankırı Karatekin Üniversitesi | eklendi |
+| Çukurova Üniversitesi | eklendi |
+| İnönü Üniversitesi | eklendi |
+| İskenderun Teknik Üniversitesi | eklendi |
+| İstanbul Medeniyet Üniversitesi | menü yok |
+| İstanbul Teknik Üniversitesi | eklendi |
+| İstanbul Üniversitesi | eklendi |
+| İstanbul Üniversitesi-Cerrahpaşa | erişilemiyor |
+| İstiklal Bilim ve Teknoloji Üniversitesi | eklendi |
+| İzmir Bakırçay Üniversitesi | menü yok |
+| İzmir Demokrasi Üniversitesi | menü yok |
+| İzmir Katip Çelebi Üniversitesi | eklendi |
+| İzmir Yüksek Teknoloji Enstitüsü | menü yok |
+| Şırnak Üniversitesi | eklendi |
+| Türk-Japon Bilim ve Teknoloji Üniversitesi | menü yok |
+
+
+Son doğrulama: **471 test, OK** (Python 3.9.6 ve 3.15.0). Tarsus'un 35 TL ve Bandırma'nın 55 TL öğrenci ücretleri için son kontrolde iki ağsız test daha eklendi; iki ücret canlı Python 3.9 okumasında da doğrulandı. Yeni 30 okulun 29'u `SSL_CERT_FILE=/etc/ssl/cert.pem` ile canlı Python 3.9 okumasında geçti. Batman, yerel 3.9'un LibreSSL 2.8.3 ortamında (`HAS_TLSv1_3=False`) hem kök hem www adresinde `TLSV1_ALERT_PROTOCOL_VERSION` verdi; OpenSSL 3.5.9 kullanan Python 3.15 ile canlı **10 gün** okundu. Veri TLS doğrulaması açık curl kaynağından üretildi; TLS doğrulaması kapatılmadı. GitHub Actions ortamı çalıştırılmadı. Kırılgan kaynaklara bu yerel TLS farkı da dahildir.
+
+SHA-256 kontrolünde **983 eski dosya değişmedi**; iki index'in her birindeki önceki 70 kayıt kendi eski haliyle korundu. İki index'in önceden farklı olan eski kayıtları eşitlenmedi; yeni 30 kayıt birbiriyle eşittir. Yeni menü/asset kopyaları eşit, 435 tarihin tamamı Kasım 2026; pubspec'teki bütün asset klasörleri mevcut. Dört yeni test dosyası, 43 kaynak fixture'ı, 30 eklenti ve iki küçük ortak yardımcı eklendi. Flutter, fotoğraf araması/OCR ve commit/push yapılmadı.

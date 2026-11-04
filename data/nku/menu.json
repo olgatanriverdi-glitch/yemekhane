@@ -1,0 +1,154 @@
+{
+ "days": {
+  "2026-11-03": {
+   "lunch": {
+    "items": [
+     {
+      "key": "7b5c558cf1",
+      "name": "Şefin Özel Çorbası"
+     },
+     {
+      "img": "dishes/f81a728d3a.jpg",
+      "key": "f81a728d3a",
+      "name": "Kuru Fasulye"
+     },
+     {
+      "img": "dishes/28b694241b.jpg",
+      "key": "28b694241b",
+      "name": "Şehriyeli Pilav"
+     },
+     {
+      "img": "dishes/9814c6dc58.jpg",
+      "key": "9814c6dc58",
+      "name": "Mandalina"
+     }
+    ]
+   }
+  },
+  "2026-11-04": {
+   "lunch": {
+    "items": [
+     {
+      "img": "dishes/7599097195.jpg",
+      "key": "7599097195",
+      "name": "Domates Çorba"
+     },
+     {
+      "key": "f44647b98b",
+      "name": "Tavuk Tandır"
+     },
+     {
+      "img": "dishes/73d1d2f278.jpg",
+      "key": "73d1d2f278",
+      "name": "Kuskus"
+     },
+     {
+      "img": "dishes/4b472db172.jpg",
+      "key": "4b472db172",
+      "name": "Hayrabolu Tatlısı"
+     }
+    ]
+   },
+   "vegetarian": {
+    "items": [
+     {
+      "img": "dishes/7599097195.jpg",
+      "key": "7599097195",
+      "name": "Domates Çorba"
+     },
+     {
+      "key": "6c2a316e47",
+      "name": "Sebze Haşlama"
+     },
+     {
+      "img": "dishes/73d1d2f278.jpg",
+      "key": "73d1d2f278",
+      "name": "Kuskus"
+     },
+     {
+      "img": "dishes/4b472db172.jpg",
+      "key": "4b472db172",
+      "name": "Hayrabolu Tatlısı"
+     }
+    ]
+   }
+  },
+  "2026-11-05": {
+   "lunch": {
+    "items": [
+     {
+      "img": "dishes/154f53ef81.jpg",
+      "key": "154f53ef81",
+      "name": "Düğün Çorba"
+     },
+     {
+      "img": "dishes/1b9c27cdb2.jpg",
+      "key": "1b9c27cdb2",
+      "name": "Yumurtalı Ispanak"
+     },
+     {
+      "img": "dishes/831b0f20cf.jpg",
+      "key": "831b0f20cf",
+      "name": "Su Böreği"
+     },
+     {
+      "img": "dishes/9c8d655ef5.jpg",
+      "key": "9c8d655ef5",
+      "name": "Yoğurt"
+     }
+    ]
+   }
+  },
+  "2026-11-06": {
+   "lunch": {
+    "items": [
+     {
+      "img": "dishes/d61d397136.jpg",
+      "key": "d61d397136",
+      "name": "Süzme Mercimek Çorba"
+     },
+     {
+      "key": "ab65328d1d",
+      "name": "Köfteli Patlıcan Kebabı"
+     },
+     {
+      "img": "dishes/28b694241b.jpg",
+      "key": "28b694241b",
+      "name": "Şehriyeli Pilav"
+     },
+     {
+      "img": "dishes/2f58be7b7a.jpg",
+      "key": "2f58be7b7a",
+      "name": "Cacık"
+     }
+    ]
+   },
+   "vegetarian": {
+    "items": [
+     {
+      "img": "dishes/d61d397136.jpg",
+      "key": "d61d397136",
+      "name": "Süzme Mercimek Çorba"
+     },
+     {
+      "img": "dishes/2cb78fe7b6.jpg",
+      "key": "2cb78fe7b6",
+      "name": "Patates Yemeği"
+     },
+     {
+      "img": "dishes/28b694241b.jpg",
+      "key": "28b694241b",
+      "name": "Şehriyeli Pilav"
+     },
+     {
+      "img": "dishes/2f58be7b7a.jpg",
+      "key": "2f58be7b7a",
+      "name": "Cacık"
+     }
+    ]
+   }
+  }
+ },
+ "university": "nku",
+ "updated": "2026-11-04T13:32:11+03:00"
+}

@@ -1,0 +1,76 @@
+{
+ "days": {
+  "2026-11-04": {
+   "lunch": {
+    "items": [
+     {
+      "img": "dishes/bf8474c8b9.jpg",
+      "key": "bf8474c8b9",
+      "name": "Ezogelin Çorba"
+     },
+     {
+      "key": "8fc6499313",
+      "name": "Tavuk Döner/Etli Nuhut/Karnıyarık"
+     },
+     {
+      "key": "0572b46cc3",
+      "name": "İç Pilavı/Salçalı Bulgur Pilavı"
+     },
+     {
+      "img": "dishes/16b5c22561.jpg",
+      "key": "16b5c22561",
+      "name": "Ayran"
+     }
+    ]
+   }
+  },
+  "2026-11-05": {
+   "lunch": {
+    "items": [
+     {
+      "key": "646360f3fe",
+      "name": "Tavuk Suyu Çorbası"
+     },
+     {
+      "key": "12aa2499bf",
+      "name": "Tavuk Roti/Patates Oturtma/Fırın Köfte"
+     },
+     {
+      "key": "39ede29ee8",
+      "name": "Spagetti/Şehriyeli Pirinç"
+     },
+     {
+      "img": "dishes/1f6a358896.jpg",
+      "key": "1f6a358896",
+      "name": "Kadayıf"
+     }
+    ]
+   }
+  },
+  "2026-11-06": {
+   "lunch": {
+    "items": [
+     {
+      "key": "8903c3124b",
+      "name": "Şehriyeli Çorba"
+     },
+     {
+      "key": "592b4a30da",
+      "name": "Körili Tavuk/Tas Kebap/Biber Dolma"
+     },
+     {
+      "key": "099965df21",
+      "name": "Pirinç(Garnitürlü)/Şehriyeli Bulgur Pilavı"
+     },
+     {
+      "img": "dishes/c96fd73d5f.jpg",
+      "key": "c96fd73d5f",
+      "name": "Salata"
+     }
+    ]
+   }
+  }
+ },
+ "university": "bitlis",
+ "updated": "2026-11-04T13:44:05+03:00"
+}

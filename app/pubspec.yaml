@@ -96,3 +96,33 @@ flutter:
     - assets/data/siirt/
     - assets/data/sirnak/
     - assets/data/adiyaman/
+    - assets/data/osmaniye/
+    - assets/data/ksu/
+    - assets/data/tarsus/
+    - assets/data/atu/
+    - assets/data/maku/
+    - assets/data/isubu/
+    - assets/data/usak/
+    - assets/data/balikesir/
+    - assets/data/bandirma/
+    - assets/data/nku/
+    - assets/data/klu/
+    - assets/data/bilecik/
+    - assets/data/yalova/
+    - assets/data/hitit/
+    - assets/data/bozok/
+    - assets/data/bartin/
+    - assets/data/rte/
+    - assets/data/gumushane/
+    - assets/data/bitlis/
+    - assets/data/batman/
+    - assets/data/erciyes/
+    - assets/data/etu/
+    - assets/data/agri/
+    - assets/data/hakkari/
+    - assets/data/gibtu/
+    - assets/data/kmu/
+    - assets/data/mtu/
+    - assets/data/iste/
+    - assets/data/ksbu/
+    - assets/data/istiklal/

@@ -1,0 +1,78 @@
+{
+ "days": {
+  "2026-11-04": {
+   "lunch": {
+    "items": [
+     {
+      "key": "5f0b267259",
+      "name": "Havuç Çorba"
+     },
+     {
+      "img": "dishes/fbb76e65c4.jpg",
+      "key": "fbb76e65c4",
+      "name": "Etli Kuru Fasulye"
+     },
+     {
+      "img": "dishes/25b07cf14e.jpg",
+      "key": "25b07cf14e",
+      "name": "Bulgur Pilavı"
+     },
+     {
+      "img": "dishes/997b4ad147.jpg",
+      "key": "997b4ad147",
+      "name": "Muz"
+     }
+    ]
+   }
+  },
+  "2026-11-05": {
+   "lunch": {
+    "items": [
+     {
+      "img": "dishes/a4b09633dc.jpg",
+      "key": "a4b09633dc",
+      "name": "Sebze Çorba (Kış)"
+     },
+     {
+      "key": "b62da8dbfb",
+      "name": "Püreli Kebap"
+     },
+     {
+      "key": "8636bfbc0a",
+      "name": "Pirinç Pilavı"
+     },
+     {
+      "key": "dcd801c5ff",
+      "name": "Cevizli Midye"
+     }
+    ]
+   }
+  },
+  "2026-11-06": {
+   "lunch": {
+    "items": [
+     {
+      "img": "dishes/5faf1b0081.jpg",
+      "key": "5faf1b0081",
+      "name": "Kırmızı Mercimek Çorba"
+     },
+     {
+      "key": "aea7ea71cd",
+      "name": "Rosto Köfte"
+     },
+     {
+      "key": "29adcf02fb",
+      "name": "Bulgur Pilavı (Salçalı)"
+     },
+     {
+      "img": "dishes/99a67d4042.jpg",
+      "key": "99a67d4042",
+      "name": "Mevsim Salata"
+     }
+    ]
+   }
+  }
+ },
+ "university": "hitit",
+ "updated": "2026-11-04T13:32:11+03:00"
+}

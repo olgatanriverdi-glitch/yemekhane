@@ -1,0 +1,32 @@
+{
+ "days": {
+  "2026-11-04": {
+   "lunch": {
+    "items": [
+     {
+      "img": "dishes/bd01ecb31b.jpg",
+      "key": "bd01ecb31b",
+      "name": "Kıymalı Kapuska"
+     },
+     {
+      "img": "dishes/921ad76222.jpg",
+      "key": "921ad76222",
+      "name": "Peynirli Tepsi Böreği"
+     },
+     {
+      "img": "dishes/4fb733faf2.jpg",
+      "key": "4fb733faf2",
+      "name": "Ezogelin Çorbası"
+     },
+     {
+      "img": "dishes/e430bca6db.jpg",
+      "key": "e430bca6db",
+      "name": "Haydari"
+     }
+    ]
+   }
+  }
+ },
+ "university": "mtu",
+ "updated": "2026-11-04T14:06:12+03:00"
+}

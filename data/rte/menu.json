@@ -1,0 +1,37 @@
+{
+ "days": {
+  "2026-11-04": {
+   "lunch": {
+    "items": [
+     {
+      "img": "dishes/bf8474c8b9.jpg",
+      "kcal": 173,
+      "key": "bf8474c8b9",
+      "name": "Ezogelin Çorba"
+     },
+     {
+      "img": "dishes/d0ee7d01d0.jpg",
+      "kcal": 250,
+      "key": "d0ee7d01d0",
+      "name": "Sebzeli Fırın Tavuk"
+     },
+     {
+      "img": "dishes/25b07cf14e.jpg",
+      "kcal": 290,
+      "key": "25b07cf14e",
+      "name": "Bulgur Pilavı"
+     },
+     {
+      "img": "dishes/16b5c22561.jpg",
+      "kcal": 72,
+      "key": "16b5c22561",
+      "name": "Ayran"
+     }
+    ],
+    "kcal": 785
+   }
+  }
+ },
+ "university": "rte",
+ "updated": "2026-11-04T13:44:05+03:00"
+}

@@ -69,6 +69,36 @@ from .sbtu import SivasBilimTeknoloji
 from .sdu import SuleymanDemirel
 from .trabzon import TrabzonUniversitesi
 from .uludag import BursaUludag
+from .osmaniye import OsmaniyeKorkutAta
+from .ksu import KahramanmarasSutcuImam
+from .tarsus import TarsusUniversitesi
+from .atu import AdanaAlparslanTurkes
+from .maku import BurdurMehmetAkifErsoy
+from .isubu import IspartaUygulamaliBilimler
+from .usak import UsakUniversitesi
+from .balikesir import BalikesirUniversitesi
+from .bandirma import BandirmaOnyediEylul
+from .nku import TekirdagNamikKemal
+from .klu import KirklareliUniversitesi
+from .bilecik import BilecikSeyhEdebali
+from .yalova import YalovaUniversitesi
+from .hitit import HititUniversitesi
+from .bozok import YozgatBozok
+from .bartin import BartinUniversitesi
+from .rte import RecepTayyipErdogan
+from .gumushane import GumushaneUniversitesi
+from .bitlis import BitlisEren
+from .batman import BatmanUniversitesi
+from .erciyes import ErciyesUniversitesi
+from .etu import ErzurumTeknik
+from .agri import AgriIbrahimCecen
+from .hakkari import HakkariUniversitesi
+from .gibtu import GaziantepIslamBilimTeknoloji
+from .kmu import KaramanogluMehmetbey
+from .mtu import MalatyaTurgutOzal
+from .iste import IskenderunTeknik
+from .ksbu import KutahyaSaglikBilimleri
+from .istiklal import IstiklalBilimTeknoloji
 
 KAYITLI = [AnkaraUniversitesi(), GaziUniversitesi(), HacettepeUniversitesi(), AnkaraYildirimBeyazit(),
            OrtaDoguTeknik(), HaciBayramVeli(), AnkaraSosyalBilimler(), AnkaraMuzikGuzelSanatlar(),
@@ -86,4 +116,13 @@ KAYITLI = [AnkaraUniversitesi(), GaziUniversitesi(), HacettepeUniversitesi(), An
            NigdeOmerHalisdemir(), CankiriKaratekin(), KastamonuUniversitesi(), SinopUniversitesi(), AmasyaUniversitesi(),
            TokatGaziosmanpasa(), OrduUniversitesi(), GiresunUniversitesi(), BayburtUniversitesi(),
            KafkasUniversitesi(), ArdahanUniversitesi(), MusAlparslan(), BingolUniversitesi(), MunzurUniversitesi(),
-           SiirtUniversitesi(), SirnakUniversitesi(), AdiyamanUniversitesi(), Kilis7Aralik(), HatayMustafaKemal()]
+           SiirtUniversitesi(), SirnakUniversitesi(), AdiyamanUniversitesi(), Kilis7Aralik(), HatayMustafaKemal(),
+           OsmaniyeKorkutAta(), KahramanmarasSutcuImam(), TarsusUniversitesi(), AdanaAlparslanTurkes(),
+           BurdurMehmetAkifErsoy(), IspartaUygulamaliBilimler(), UsakUniversitesi(),
+           BalikesirUniversitesi(), BandirmaOnyediEylul(), TekirdagNamikKemal(), KirklareliUniversitesi(),
+           BilecikSeyhEdebali(), YalovaUniversitesi(), HititUniversitesi(),
+           YozgatBozok(), BartinUniversitesi(), RecepTayyipErdogan(), GumushaneUniversitesi(),
+           BitlisEren(), BatmanUniversitesi(), ErciyesUniversitesi(), ErzurumTeknik(),
+           AgriIbrahimCecen(), HakkariUniversitesi(),
+           GaziantepIslamBilimTeknoloji(), KaramanogluMehmetbey(), MalatyaTurgutOzal(),
+           IskenderunTeknik(), KutahyaSaglikBilimleri(), IstiklalBilimTeknoloji()]
