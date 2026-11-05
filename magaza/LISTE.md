@@ -16,7 +16,7 @@ Her alan Play Console'a olduğu gibi yapıştırılabilir. Karakter sınırları
 | Etiketler (en çok 5) | Yemek ve İçecek, Eğitim, Yaşam Tarzı |
 | Reklam içeriyor mu | **Evet** (Google AdMob, tek yerel reklam kartı; ayrıntı `REKLAM.md`) |
 | E-posta (herkese açık) | `uniyemek0@gmail.com` (gizlilik sayfalarındaki adresle aynı olmalı) |
-| Web sitesi | https://olgatanriverdi-glitch.github.io/yemekhane/ |
+| Web sitesi | https://olgatanriverdi-glitch.github.io/yemekhane/ (app-ads.txt için Google yalnızca alan adına bakar; bkz. `REKLAM.md` bölüm 5) |
 | Gizlilik politikası | https://olgatanriverdi-glitch.github.io/yemekhane/gizlilik.html |
 | Hesap / veri silme adresi | https://olgatanriverdi-glitch.github.io/yemekhane/hesap-silme.html |
 
@@ -50,7 +50,7 @@ KİŞİSELLEŞTİR
 • İsteğe bağlı günlük menü bildirimi (varsayılan kapalı, saatini sen seçersin)
 
 REKLAM VE GİZLİLİK
-Uygulama ücretsizdir ve reklam içerir: ana ekranda öğün kartının altında, "Reklam" etiketli tek bir küçük kart (Google AdMob). Tam ekran, açılışta çıkan, videolu ya da sesli reklam yoktur; ilk günlerde reklam gösterilmez. Gerekli bölgelerde Google'ın rıza formu çıkar, tercihini Ayarlar'dan değiştirebilirsin. Konum ve kişi erişimi yok, ad ya da e-posta istenmez. Puan ve yorum için rastgele bir anonim kimlik kullanılır.
+Uygulama ücretsizdir ve reklam içerir: ana ekranda öğün kartının altında, "Reklam" etiketli tek bir küçük kart (Google AdMob). Tam ekran, açılışta çıkan, videolu ya da sesli reklam yoktur; ilk günlerde reklam gösterilmez. Gerekli bölgelerde Google'ın rıza formu çıkar ve reklamlar verdiğin tercihlere uygun istenir; tercihini Ayarlar'dan değiştirebilirsin. Reklam SDK'sı reklam isteği sırasında cihaz bilgilerini işler. Konum ve kişi erişimi yok, ad ya da e-posta istenmez. Puan ve yorum için rastgele bir anonim kimlik kullanılır.
 
 ÖNEMLİ NOT
 Üni Yemek resmî bir kurum uygulaması değildir. Menüler okulların kendi sitelerinden otomatik derlenir; hatalı ya da eksik olabilir, önemli bilgiler için okulun duyurularına bak. Yemek fotoğrafları örnektir, okuldaki yemek birebir aynı görünmeyebilir.

@@ -40,19 +40,27 @@ Gerçek kimlikli sürümde (release) **kendi reklamına asla tıklama**, arkada�
 1. AdMob > **Ayarlar > Test cihazları**: cihazının reklam kimliğini (logcat'te "Use RequestConfiguration.Builder().setTestDeviceIds" satırında yazar) ekle. (Bu kodda test cihazı listesi yoktur; elle eklemek istersen `gercek_reklam_servisi.dart` içindeki `RequestConfiguration`'a `testDeviceIds` ekle, yayına gitmeden çıkar.)
 2. Ya da hiç gerçek kimlikli sürüm denemeden debug derlemeyle (Google test reklamı) dene.
 
-## 5. app-ads.txt
+## 5. app-ads.txt (ZORUNLU: yeni AdMob uygulamaları için)
 
-AdMob, sahte uygulama reklamını önlemek için geliştirici sitesinde `app-ads.txt` dosyası ister. Kısıt: Google bu dosyayı **alan adı kökünde** (`https://alanadi.com/app-ads.txt`) arar; Play mağaza girişindeki "Web sitesi" adresinin alan adından türetir. Bu proje `olgatanriverdi-glitch.github.io/yemekhane/` alt yolundadır, kök alan adı (`olgatanriverdi-glitch.github.io`) bir depoya değil kullanıcı sitesine aittir. Seçenekler:
+Google'ın belgesine göre (https://support.google.com/admob/answer/14538460) Ocak 2025'ten beri AdMob'da yeni kurulan uygulamalar `app-ads.txt` ile **doğrulanmalıdır**; doğrulanmadan uygulama "tam reklam sunamaz" ve hazırlık incelemesine (app readiness review) geçmez. İstisna yalnızca Play / App Store dışındaki mağazalardır. Yani bu adım atlanamaz.
 
-* **Kolay çözüm:** `olgatanriverdi-glitch.github.io` adlı bir kullanıcı sitesi deposu aç; kökünde `app-ads.txt` dosyası olsun. İçerik (AdMob > Uygulamalar > app-ads.txt bölümü sana hazır satırı verir): `google.com, pub-XXXXXXXXXXXXXXXX, DIRECT, f08c47fec0942fa0`. Play mağaza girişindeki web sitesini bu kök alan adı yapman gerekir.
-* **Daha sağlam:** kendi alan adını al (yılda birkaç yüz TL), GitHub Pages'e bağla, kökünde `app-ads.txt` yayınla ve Play'deki web sitesini ona çevir.
-* app-ads.txt olmadan da reklam gelir; fakat AdMob "app-ads.txt bulunamadı" uyarısı verir ve doluluk/gelir düşebilir. Zorunlu değildir.
+**Google dosyayı nerede arar?** (https://support.google.com/admob/answer/9363762) Play'deki "Web sitesi" adresinden yalnızca **alan adını** (hostname) alır ve `https://<alan-adı>/app-ads.txt` adresine bakar; adresteki alt yol (`/yemekhane`) dikkate alınmaz. `www.` ve `m.` önekleri atılır; bir alt alan adı seviyesi denenir, sonra üst alan adı.
 
-Bu dosya `site/` klasörüne konamaz (alt yola yayınlanır, Google bulmaz).
+Bu projenin sitesi `https://olgatanriverdi-glitch.github.io/yemekhane/` alt yolundadır. Alan adı `olgatanriverdi-glitch.github.io` olduğundan Google `https://olgatanriverdi-glitch.github.io/app-ads.txt` adresine bakar. Bu adres bu depodaki (`yemekhane`) siteden DEĞİL, **kullanıcı sitesi deposundan** gelir. Dosyayı `site/` klasörüne koymak işe yaramaz.
+
+**Adımlar (yeni başlayan için):**
+
+1. AdMob'da Android uygulamasını ekledikten sonra **Uygulamalar > Tüm uygulamalar > app-ads.txt > AdMob'da app-ads.txt nasıl kurulur** sayfasından kendi satırını kopyala. Biçim `google.com, pub-XXXXXXXXXXXXXXXX, DIRECT, f08c47fec0942fa0`; `pub-` kimliği AdMob hesabının yayıncı kimliğidir (uygulama kimliğindeki `~` öncesi sayılar ile aynı). Örnek dosya: `magaza/app-ads.txt.ornek` (yer tutuculu; gerçek kimliği AdMob'dan al, tahmin etme).
+2. GitHub'da `olgatanriverdi-glitch.github.io` adlı **herkese açık** yeni bir depo aç (Settings > Pages kaynağı: `main` dalı, `/ (root)`). Deponun kökünde `app-ads.txt` adıyla düz metin dosyasını oluştur (içine yalnızca o satır/satırlar; HTML değil).
+3. Tarayıcıda `https://olgatanriverdi-glitch.github.io/app-ads.txt` adresini aç; satırı düz metin olarak görmelisin. Yayına girmesi birkaç dakika sürebilir.
+4. **Play Console > Mağazada yer alma (Grow users > Store presence) > Mağaza ayarları > Mağaza girişi iletişim bilgileri > Web sitesi** alanına aynı alan adını yaz: `https://olgatanriverdi-glitch.github.io` (alt yolun bir önemi yok ama alan adı aynı olmalı; `/yemekhane` eklesen de çalışır). Google değişikliği algılaması için 24 saate kadar süre tanır.
+5. AdMob > **Uygulamalar > uygulama > Uygulama ayarları > Uygulamayı doğrula > Güncellemeleri denetle**. Doğrulanınca hazırlık incelemesi başlar; bitene dek reklam tam açılmaz.
+
+**Doğrulanmadı:** Bu çözümün (`github.io` kullanıcı sitesi alt alanında dosya) AdMob tarafından kabul edildiği bir panelde denenmedi. Belgeye göre alan adı kökündeki dosya yeterlidir, ancak Google'ın taramasının `github.io` alt alanları için ek kısıt koyup koymadığını belgeden doğrulayamadık. AdMob "Güncellemeleri denetle" adımı reddederse **kendi alan adı** al (yılda birkaç yüz TL), GitHub Pages'e bağla (depo Settings > Pages > Custom domain), kökünde `app-ads.txt` yayınla ve Play'deki web sitesini ona çevir; bu en sağlam yoldur.
 
 ## 6. Rıza (AB / Birleşik Krallık) ve gizlilik
 
-Uygulama Google'ın rıza aracını (UMP) kullanır: ilk reklam isteğinden önce rıza bilgisi güncellenir; rıza gereken bölgelerde Google'ın formu bir kez çıkar, rıza yoksa istek atılmaz. Rıza gerekiyorsa Ayarlar > Hakkında'da "Reklam tercihleri" satırı görünür. **AdMob > Gizlilik ve mesajlaşma** bölümünden bir **Avrupa düzenlemeleri** mesajı oluşturup uygulamaya bağlaman gerekir; mesaj yoksa form çıkmaz. Türkiye'de rıza zorunlu değildir; uygulama reklamı kişiselleştirmeyi ayrıca kapatmaz (gizlilik sayfası bunu söyler). Sayfa: https://olgatanriverdi-glitch.github.io/yemekhane/gizlilik.html
+Uygulama Google'ın rıza aracını (UMP) kullanır: ilk reklam isteğinden önce rıza bilgisi güncellenir; rıza gereken bölgelerde Google'ın formu bir kez çıkar. Kod yalnızca Google'ın `canRequestAds` sonucuna bakar: false ise istek atılmaz; true ise (ör. rıza verilmedi ama sınırlı reklam uygun) yalnızca UMP tercihlerine uygun türde reklam istenir. Bu, kullanıcının kişiselleştirmeyi onayladığı anlamına gelmez. Rıza gerekiyorsa Ayarlar > Hakkında'da "Reklam tercihleri" satırı görünür. **AdMob > Gizlilik ve mesajlaşma** bölümünden bir **Avrupa düzenlemeleri** mesajı oluşturup uygulamaya bağlaman gerekir; mesaj yoksa form çıkmaz. Türkiye'de rıza zorunlu değildir; uygulama reklamı kişiselleştirmeyi ayrıca kapatmaz (gizlilik sayfası bunu söyler). Sayfa: https://olgatanriverdi-glitch.github.io/yemekhane/gizlilik.html
 
 iOS: reklam kimliği (IDFA) için App Tracking Transparency istemi bu sürümde yoktur; iOS yayını yapacaksan `NSUserTrackingUsageDescription` ve ATT isteği eklenmelidir. SKAdNetwork: Info.plist'e yalnızca Google'ın kendi kimliği (`cstr6suwn9.skadnetwork`) konuldu; Google'ın yayımladığı güncel tam listeyi (AdMob belgeleri > iOS > Başlarken) iOS yayınından önce ekle.
 

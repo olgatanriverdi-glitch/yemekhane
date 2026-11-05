@@ -7,6 +7,7 @@ import 'package:flutter_test/flutter_test.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:yemekhane/geri_bildirim.dart';
 import 'package:yemekhane/models.dart';
+import 'package:yemekhane/reklam/gec_yukleme.dart';
 import 'package:yemekhane/reklam/gercek_reklam_servisi.dart';
 import 'package:yemekhane/reklam/reklam_ayari.dart';
 import 'package:yemekhane/reklam/reklam_karti.dart';
@@ -406,6 +407,36 @@ void main() {
       y.dispose();
     });
 
+    test('bayat reklam gösterim yolunda da verilmez: taze() ve sahiplen()',
+        () async {
+      var an = _sabah();
+      final s = SahteReklamServisi();
+      final y = _yonetici(s, simdi: () => an);
+      await y.iste('a', _stil());
+      expect(y.taze('a'), isNotNull);
+      an = an.add(const Duration(minutes: 56));
+      // kimse göstermiyor: önbellekteki 56 dk'lık reklam sahiplenilemez, serbest bırakılır
+      expect(y.sahiplen('a', Object()), isFalse);
+      expect(s.yuklenenler[0].kapandi, isTrue);
+      expect(y.taze('a'), isNull);
+      // gösteren varsa (zaten ekranda) dokunulmaz
+      await y.iste('b', _stil());
+      final sahip = Object();
+      expect(y.sahiplen('b', sahip), isTrue);
+      an = an.add(const Duration(minutes: 56));
+      expect(y.taze('b'), isNotNull);
+      expect(y.sahiplen('b', sahip), isTrue);
+      y.dispose();
+    });
+
+    test('rıza bilgisi güncellenince rizaSurumu artar', () async {
+      final y = _yonetici(SahteReklamServisi());
+      final surum = y.rizaSurumu.value;
+      await y.iste('a', _stil());
+      expect(y.rizaSurumu.value, greaterThan(surum));
+      y.dispose();
+    });
+
     test('servis hata atarsa yönetici hata atmaz', () async {
       final y = ReklamYoneticisi(servis: _Bozuk(), simdi: _sabah);
       expect(await y.iste('a', _stil()), isNull);
@@ -422,7 +453,84 @@ void main() {
     });
   });
 
+  group('GecYuklemeKorumasi (zaman aşımından sonra gelen reklam)', () {
+    test('zamanında gelen reklam teslim edilir, dispose edilmez', () async {
+      final k = GecYuklemeKorumasi();
+      final r = SahteReklamNesnesi(1);
+      k.yuklendi(r);
+      expect(await k.bekle(const Duration(seconds: 1)), same(r));
+      expect(r.kapandi, isFalse);
+    });
+
+    test('zaman aşımında null döner; geç gelen reklam hemen dispose edilir',
+        () async {
+      final k = GecYuklemeKorumasi();
+      final sonuc = await k.bekle(const Duration(milliseconds: 10));
+      expect(sonuc, isNull);
+      expect(k.zamanAsimiOldu, isTrue);
+      final gec = SahteReklamNesnesi(2);
+      k.yuklendi(gec);
+      expect(gec.kapandi, isTrue);
+    });
+
+    test('başarısızlık null verir; sonradan gelen reklam yine dispose edilir',
+        () async {
+      final k = GecYuklemeKorumasi()..basarisiz();
+      expect(await k.bekle(const Duration(seconds: 1)), isNull);
+      final r = SahteReklamNesnesi(3);
+      k.yuklendi(r);
+      expect(r.kapandi, isTrue);
+    });
+  });
+
   group('ReklamKarti', () {
+    testWidgets(
+        'tema değişince reklam alt ağacı yenilenir (AdWidget eski reklamı tutmaz)',
+        (t) async {
+      final s = _SayacliServis();
+      final y = _yonetici(s);
+      await _kartAc(t, y);
+      await t.pump(const Duration(seconds: 3));
+      await t.pump(const Duration(seconds: 1));
+      expect(s.kurulan, 1);
+      await _kartAc(t, y, tema: TemaAyari().tema(Brightness.dark));
+      await t.pump(const Duration(milliseconds: 400));
+      await t.pump(const Duration(seconds: 3));
+      await t.pump(const Duration(seconds: 1));
+      await t.pumpAndSettle();
+      // ikinci reklam için YENİ durum nesnesi kuruldu (aynı öğe yeniden kullanılmadı)
+      expect(s.kurulan, 2);
+      expect(t.takeException(), isNull);
+      await t.pumpWidget(const SizedBox());
+      y.dispose();
+    });
+
+    testWidgets(
+        '55 dk sonra aynı öğüne dönülünce eski reklam gösterilmez, yenisi yüklenir',
+        (t) async {
+      var an = _sabah();
+      final s = SahteReklamServisi();
+      final y = _yonetici(s, simdi: () => an);
+      await _kartAc(t, y, anahtar: 'a');
+      await t.pump(const Duration(seconds: 3));
+      await t.pump(const Duration(seconds: 1));
+      expect(s.yukleSayisi, 1);
+      await _kartAc(t, y, anahtar: 'b'); // 'a' bırakılır, bellekte kalır
+      await t.pump(const Duration(milliseconds: 100));
+      an = an.add(const Duration(minutes: 56));
+      await _kartAc(t, y, anahtar: 'a');
+      await t.pump(const Duration(milliseconds: 100));
+      expect(_sahteReklam, findsNothing); // bayat reklam hemen çizilmedi
+      expect(s.yuklenenler[0].kapandi, isTrue);
+      await t.pump(const Duration(seconds: 3));
+      await t.pump(const Duration(seconds: 1));
+      expect(s.yukleSayisi, 2);
+      expect(_sahteReklam, findsOneWidget);
+      expect(t.takeException(), isNull);
+      await t.pumpWidget(const SizedBox());
+      y.dispose();
+    });
+
     testWidgets('2 sn dolmadan istek yok; dolunca bir istek, reklam açılır',
         (t) async {
       final s = SahteReklamServisi();
@@ -815,6 +923,25 @@ void main() {
       y.dispose();
     });
 
+    testWidgets('UMP durumu Ayarlar açıkken değişirse satır sonradan çıkar',
+        (t) async {
+      final s = SahteReklamServisi(tercih: false);
+      final y = _yonetici(s);
+      await ac(t, y);
+      await t.scrollUntilVisible(find.text('Açık kaynak lisansları'), 200,
+          scrollable: find.byType(Scrollable).first);
+      expect(find.text('Reklam tercihleri'), findsNothing);
+      // rıza bilgisi sonradan güncellendi ve gerekli çıktı
+      s.tercih = true;
+      await y.iste('a', _stil());
+      await t.pumpAndSettle();
+      await t.scrollUntilVisible(find.text('Reklam tercihleri'), 200,
+          scrollable: find.byType(Scrollable).first);
+      expect(find.text('Reklam tercihleri'), findsOneWidget);
+      await t.pumpWidget(const SizedBox());
+      y.dispose();
+    });
+
     testWidgets('gerekmiyorsa ya da reklam yoksa satır görünmez', (t) async {
       final y = _yonetici(SahteReklamServisi());
       await ac(t, y);
@@ -839,4 +966,41 @@ class _Bozuk implements ReklamServisi {
   Future<bool> tercihGerekli() => throw StateError('tercih');
   @override
   Future<void> tercihleriAc() => throw StateError('ac');
+}
+
+/// Her kurulan alt ağaç durumunu sayan sahte servis (AdWidget'ın initState'ini taklit eder).
+class _SayacliServis extends SahteReklamServisi {
+  int kurulan = 0;
+  @override
+  Future<ReklamNesnesi?> yukle(ReklamStili stil) async {
+    yukleSayisi++;
+    return _SayacliNesne(this);
+  }
+}
+
+class _SayacliNesne implements ReklamNesnesi {
+  _SayacliNesne(this.servis);
+  final _SayacliServis servis;
+  @override
+  Widget olustur(BuildContext context) => _Prob(servis);
+  @override
+  void dispose() {}
+}
+
+class _Prob extends StatefulWidget {
+  const _Prob(this.servis);
+  final _SayacliServis servis;
+  @override
+  State<_Prob> createState() => _ProbState();
+}
+
+class _ProbState extends State<_Prob> {
+  @override
+  void initState() {
+    super.initState();
+    widget.servis.kurulan++;
+  }
+
+  @override
+  Widget build(BuildContext context) => const SizedBox(height: 91);
 }

@@ -47,6 +47,10 @@ class ReklamYoneticisi extends ChangeNotifier {
   final Map<String, Future<ReklamNesnesi?>> _devam = {};
   final Map<String, DateTime> _hatalar = {};
   final Map<String, Object> _sahipler = {};
+
+  /// Rıza bilgisi her güncellendiğinde (istek hazırlığı bitince) bir artar; Ayarlar "Reklam tercihleri" satırını
+  /// bununla yeniden değerlendirir (UMP yanıtı Ayarlar açıkken gelebilir).
+  final ValueNotifier<int> rizaSurumu = ValueNotifier<int>(0);
   Future<bool>? _hazir;
   DateTime? _hazirHatasi;
   int _yuklemeSayisi = 0;
@@ -125,6 +129,7 @@ class ReklamYoneticisi extends ChangeNotifier {
         return null;
       }
       final hazir = await (_hazir ??= _hazirla());
+      if (!_kapandi) rizaSurumu.value++;
       if (!hazir) {
         // rıza yok / SDK açılamadı: bir süre sonra yeniden denenebilir, o zamana dek hiç istek atılmaz
         _hazir = null;
@@ -165,6 +170,11 @@ class ReklamYoneticisi extends ChangeNotifier {
     return kayit.nesne;
   }
 
+  /// [anahtar]ın reklamı bellekte varsa ve gösterim için hâlâ geçerliyse (55 dk dolmamış ya da şu an biri
+  /// gösteriyor) döndürür; süresi dolmuş, kimsenin göstermediği reklamı serbest bırakıp null döner. Yeni
+  /// gösterim / sahiplenme yolları [nesne] yerine bunu kullanmalı.
+  ReklamNesnesi? taze(String anahtar) => _bak(anahtar);
+
   void _at(String anahtar) {
     final kayit = _onbellek.remove(anahtar);
     kayit?.nesne.dispose();
@@ -192,6 +202,8 @@ class ReklamYoneticisi extends ChangeNotifier {
     if (!_onbellek.containsKey(anahtar)) return false;
     final mevcut = _sahipler[anahtar];
     if (mevcut != null && !identical(mevcut, sahip)) return false;
+    // süresi dolmuş (55 dk+) ve kimsenin göstermediği reklam yeni gösterime verilmez
+    if (mevcut == null && _bak(anahtar) == null) return false;
     _sahipler[anahtar] = sahip;
     return true;
   }
@@ -233,6 +245,7 @@ class ReklamYoneticisi extends ChangeNotifier {
   void dispose() {
     if (_kapandi) return;
     _kapandi = true;
+    rizaSurumu.dispose();
     for (final k in _onbellek.values) {
       k.nesne.dispose();
     }

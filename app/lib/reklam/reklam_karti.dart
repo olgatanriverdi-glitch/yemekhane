@@ -86,7 +86,7 @@ class _ReklamKartiState extends State<ReklamKarti> {
     _istenen = tam;
     _stil = stil;
     _zaman?.cancel();
-    if (y.nesne(tam) != null) {
+    if (y.taze(tam) != null) {
       // bellekteki reklam: ağ isteği yok, bekleme gerekmez
       _zaman = null;
       _devral();
@@ -120,7 +120,7 @@ class _ReklamKartiState extends State<ReklamKarti> {
   void _sahipDegisti() {
     final y = widget.yonetici, tam = _istenen;
     if (!mounted || y == null || tam == null || _sahipAnahtar == tam) return;
-    if (y.nesne(tam) != null) _devral();
+    if (y.taze(tam) != null) _devral();
   }
 
   @override
@@ -171,7 +171,9 @@ class _ReklamKartiState extends State<ReklamKarti> {
                 // Google'ın küçük şablon boyutu: en az 90, en çok 200 dp
                 constraints:
                     const BoxConstraints(minHeight: 90, maxHeight: 200),
-                child: nesne.olustur(context)),
+                // anahtar: reklam nesnesi değişince (ör. tema) alt ağaç yenilenir; platform görünümü eski reklamda kalmaz
+                child: KeyedSubtree(
+                    key: ObjectKey(nesne), child: nesne.olustur(context))),
           ),
         ]),
       ),

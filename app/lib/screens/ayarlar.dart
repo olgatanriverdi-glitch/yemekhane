@@ -78,11 +78,23 @@ class _AyarlarSayfasiState extends State<AyarlarSayfasi> {
     super.initState();
     _engelSayisiniOku();
     _reklamTercihiniOku();
+    // UMP yanıtı Ayarlar açıkken gelirse satır yeniden değerlendirilir
+    widget.reklam?.rizaSurumu.addListener(_reklamTercihiniOku);
+  }
+
+  @override
+  void dispose() {
+    try {
+      widget.reklam?.rizaSurumu.removeListener(_reklamTercihiniOku);
+    } catch (_) {}
+    super.dispose();
   }
 
   Future<void> _reklamTercihiniOku() async {
     final gerekli = await widget.reklam?.tercihGerekli() ?? false;
-    if (mounted && gerekli) setState(() => _reklamTercihi = true);
+    if (mounted && gerekli != _reklamTercihi) {
+      setState(() => _reklamTercihi = gerekli);
+    }
   }
 
   Future<void> _engelSayisiniOku() async {

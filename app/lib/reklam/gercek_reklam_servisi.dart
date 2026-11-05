@@ -3,6 +3,7 @@ import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:google_mobile_ads/google_mobile_ads.dart';
 
+import 'gec_yukleme.dart';
 import 'reklam_ayari.dart';
 import 'reklam_servisi.dart';
 
@@ -13,7 +14,10 @@ class _GercekReklam implements ReklamNesnesi {
   _GercekReklam(this.reklam);
   final NativeAd reklam;
   @override
-  Widget olustur(BuildContext context) => AdWidget(ad: reklam);
+  // Anahtar: aynı AdWidget öğesi başka bir reklamla yeniden kullanılırsa (ör. tema değişimi) paket reklam kaydını
+  // yalnızca initState/dispose içinde yönettiğinden platform görünümü eski reklamda kalır. Anahtar öğeyi yeniler.
+  Widget olustur(BuildContext context) =>
+      AdWidget(key: ObjectKey(reklam), ad: reklam);
   @override
   void dispose() => reklam.dispose();
 }
@@ -68,13 +72,12 @@ class GercekReklamServisi implements ReklamServisi {
   Future<ReklamNesnesi?> yukle(ReklamStili stil) async {
     final birim = _birim;
     if (birim == null) return null;
-    final sonuc = Completer<ReklamNesnesi?>();
-    NativeAd? reklam;
+    final koruma = GecYuklemeKorumasi();
     NativeTemplateTextStyle yazi(Color renk, double boyut,
             [NativeTemplateFontStyle? kalin]) =>
         NativeTemplateTextStyle(textColor: renk, size: boyut, style: kalin);
     try {
-      reklam = NativeAd(
+      final reklam = NativeAd(
         adUnitId: birim,
         request: const AdRequest(),
         nativeTemplateStyle: NativeTemplateStyle(
@@ -93,26 +96,20 @@ class GercekReklamServisi implements ReklamServisi {
         ),
         listener: NativeAdListener(
           onAdLoaded: (ad) {
-            if (!sonuc.isCompleted) {
-              sonuc.complete(_GercekReklam(ad as NativeAd));
-            }
+            koruma.yuklendi(_GercekReklam(ad as NativeAd));
           },
           onAdFailedToLoad: (ad, hata) {
             ad.dispose();
-            if (!sonuc.isCompleted) sonuc.complete(null);
+            koruma.basarisiz();
           },
         ),
       );
       await reklam.load();
     } catch (_) {
-      if (!sonuc.isCompleted) sonuc.complete(null);
+      koruma.basarisiz();
     }
-    // ağ yanıt vermezse sonsuza dek beklenmesin
-    return sonuc.future.timeout(const Duration(seconds: 20), onTimeout: () {
-      // geç gelen reklam sızmasın
-      reklam?.dispose();
-      return null;
-    });
+    // ağ yanıt vermezse sonsuza dek beklenmesin; geç gelen reklam dinleyicide serbest bırakılır (bkz. GecYuklemeKorumasi)
+    return koruma.bekle(const Duration(seconds: 20));
   }
 
   @override
