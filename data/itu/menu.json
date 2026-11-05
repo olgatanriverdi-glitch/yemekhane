@@ -1,62 +1,5 @@
 {
  "days": {
-  "2026-11-03": {
-   "dinner": {
-    "items": [
-     {
-      "img": "dishes/78d4dad707.jpg",
-      "key": "78d4dad707",
-      "name": "Tarhana Çorbası"
-     },
-     {
-      "img": "dishes/575b59d6b6.jpg",
-      "key": "575b59d6b6",
-      "name": "Şehriyeli Güveç"
-     },
-     {
-      "key": "8f58a53982",
-      "name": "Sebze Graten"
-     },
-     {
-      "img": "dishes/a3d80c5897.jpg",
-      "key": "a3d80c5897",
-      "name": "Armut"
-     },
-     {
-      "key": "d14bc2ed6a",
-      "name": "Akdeniz Salatası"
-     }
-    ]
-   },
-   "lunch": {
-    "items": [
-     {
-      "img": "dishes/64ee8e0b3b.jpg",
-      "key": "64ee8e0b3b",
-      "name": "Düğün Çorbası"
-     },
-     {
-      "img": "dishes/1d49307d95.jpg",
-      "key": "1d49307d95",
-      "name": "Patates Oturtma"
-     },
-     {
-      "img": "dishes/127bfefbec.jpg",
-      "key": "127bfefbec",
-      "name": "Yeşil Mercimekli Bulgur Pilavı"
-     },
-     {
-      "img": "dishes/904e9c87e9.jpg",
-      "key": "904e9c87e9",
-      "name": "Şekerpare"
-     },
-     {
-      "key": "79ded7ea04",
-      "name": "Havuç Tarator"
-     }
-    ]
-   }
-  },
   "2026-11-04": {
    "dinner": {
     "items": [
@@ -155,14 +98,14 @@
       "name": "Salçalı Makarna"
      },
      {
-      "img": "dishes/16b5c22561.jpg",
-      "key": "16b5c22561",
-      "name": "Ayran"
-     },
-     {
       "img": "dishes/ed47fcacda.jpg",
       "key": "ed47fcacda",
       "name": "Pembe Sultan"
+     },
+     {
+      "img": "dishes/2be1b1ba72.jpg",
+      "key": "2be1b1ba72",
+      "name": "Kola"
      }
     ]
    }
@@ -350,5 +293,5 @@
   }
  },
  "university": "itu",
- "updated": "2026-11-04T23:59:15+03:00"
+ "updated": "2026-11-05T13:00:25+03:00"
 }

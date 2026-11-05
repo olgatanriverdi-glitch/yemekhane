@@ -576,8 +576,33 @@
      }
     ]
    }
+  },
+  "2026-11-06": {
+   "lunch": {
+    "items": [
+     {
+      "img": "dishes/7599097195.jpg",
+      "key": "7599097195",
+      "name": "Domates Çorba"
+     },
+     {
+      "key": "d2c5cd7cbe",
+      "name": "Tavuk Çökertme"
+     },
+     {
+      "img": "dishes/5b853e51e0.jpg",
+      "key": "5b853e51e0",
+      "name": "Şehriye Pilavı"
+     },
+     {
+      "img": "dishes/92485508df.jpg",
+      "key": "92485508df",
+      "name": "Tatlı"
+     }
+    ]
+   }
   }
  },
  "university": "atauni",
- "updated": "2026-11-04T23:59:15+03:00"
+ "updated": "2026-11-05T13:00:25+03:00"
 }

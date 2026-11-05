@@ -1127,8 +1127,59 @@
      }
     ]
    }
+  },
+  "2026-11-06": {
+   "lunch": {
+    "items": [
+     {
+      "img": "dishes/bf8474c8b9.jpg",
+      "key": "bf8474c8b9",
+      "name": "Ezogelin Çorba"
+     },
+     {
+      "key": "aa7693cadb",
+      "name": "Püreli Köfte"
+     },
+     {
+      "key": "3c5f731048",
+      "name": "Bahar Pilavı"
+     },
+     {
+      "img": "dishes/997b4ad147.jpg",
+      "key": "997b4ad147",
+      "name": "Muz"
+     }
+    ]
+   },
+   "vegetarian": {
+    "items": [
+     {
+      "img": "dishes/bf8474c8b9.jpg",
+      "key": "bf8474c8b9",
+      "name": "Ezogelin Çorba"
+     },
+     {
+      "key": "003099ee9f",
+      "name": "Ispanak Graten"
+     },
+     {
+      "img": "dishes/f155434b4e.jpg",
+      "key": "f155434b4e",
+      "name": "Sigara Böreği"
+     },
+     {
+      "img": "dishes/997b4ad147.jpg",
+      "key": "997b4ad147",
+      "name": "Muz"
+     },
+     {
+      "key": "79ded7ea04",
+      "name": "Havuç Tarator"
+     }
+    ]
+   }
   }
  },
  "university": "ikcu",
- "updated": "2026-11-04T23:59:15+03:00"
+ "updated": "2026-11-05T13:00:25+03:00"
 }

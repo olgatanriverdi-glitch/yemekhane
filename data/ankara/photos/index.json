@@ -20,7 +20,8 @@
   "2026-10-30": "067df1baaa89",
   "2026-11-02": "41ca78a13cd7",
   "2026-11-03": "001da2fb49d8",
-  "2026-11-04": "54ed738c6836"
+  "2026-11-04": "54ed738c6836",
+  "2026-11-05": "2d412b1b6c47"
  },
  "main": {
   "025eacfe0c": "8f579a24b2f7",
@@ -38,6 +39,7 @@
   "890b8e3990": "5bf61878c47f",
   "91d34270c6": "942c5a76c502",
   "9bd36390ba": "3d079491ea57",
+  "9f0828ef41": "2d412b1b6c47",
   "b7f7a0ca2b": "78be4bc465a4",
   "de62be9b48": "164fe8b5ccd4",
   "f029cd24e9": "f6784bbc19c2",
@@ -82,6 +84,16 @@
    "items": [
     "Kırmızı Mercimek Çorba",
     "Lahmacun",
+    "Menekşe Salata",
+    "Ayran"
+   ]
+  },
+  "2d412b1b6c47": {
+   "added": "2026-11-05",
+   "hash": "2adec9986b69937c70983b1bc956d383bdccd3e7",
+   "items": [
+    "Düğürcük Çorba",
+    "Pilav Üstü Et Döner",
     "Menekşe Salata",
     "Ayran"
    ]

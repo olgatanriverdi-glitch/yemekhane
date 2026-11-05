@@ -1,39 +1,5 @@
 {
  "days": {
-  "2026-11-04": {
-   "lunch": {
-    "items": [
-     {
-      "img": "dishes/23dba3bb85.jpg",
-      "kcal": 300,
-      "key": "23dba3bb85",
-      "name": "Piliç Izgara"
-     },
-     {
-      "kcal": 100,
-      "key": "b79321e9e3",
-      "name": "Mantar Kavurma"
-     },
-     {
-      "kcal": 310,
-      "key": "fc234c58bc",
-      "name": "Tel Şehriyeli Pirinç Pilavı"
-     },
-     {
-      "kcal": 120,
-      "key": "1454800b91",
-      "name": "Pancarlı Havuç Salatası"
-     },
-     {
-      "img": "dishes/16b5c22561.jpg",
-      "kcal": 60,
-      "key": "16b5c22561",
-      "name": "Ayran"
-     }
-    ],
-    "kcal": 890
-   }
-  },
   "2026-11-05": {
    "lunch": {
     "items": [
@@ -42,6 +8,12 @@
       "kcal": 373,
       "key": "890b8e3990",
       "name": "Etli Nohut"
+     },
+     {
+      "img": "dishes/31b89c15d9.jpg",
+      "kcal": 277,
+      "key": "31b89c15d9",
+      "name": "Etsiz Nohut Yahnisi"
      },
      {
       "img": "dishes/22402adbde.jpg",
@@ -61,7 +33,7 @@
       "name": "Salatalık Turşusu"
      }
     ],
-    "kcal": 850
+    "kcal": 1127
    }
   },
   "2026-11-06": {
@@ -96,5 +68,5 @@
   }
  },
  "university": "cukurova",
- "updated": "2026-11-04T23:59:15+03:00"
+ "updated": "2026-11-05T13:00:25+03:00"
 }
