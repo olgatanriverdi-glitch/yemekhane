@@ -6,7 +6,7 @@ Tanımlayıcı olmadan alınan **release** derlemede reklam tamamen kapalıdır 
 
 ## 1. AdMob hesabı
 
-1. https://admob.google.com adresine **uniyemek0@gmail.com** ile gir, hesabı aç (ülke Türkiye, saat dilimi Istanbul, para birimi TRY ya da USD; sonradan DEĞİŞTİRİLEMEZ).
+1. https://admob.google.com adresine Play Console hesabındaki Google hesabınla gir, hesabı aç (ülke Türkiye, saat dilimi Istanbul, para birimi TRY ya da USD; sonradan DEĞİŞTİRİLEMEZ).
 2. **Uygulamalar > Uygulama ekle**: platform Android, "Uygulama Google Play'de yayında mı?": henüz değilse **Hayır** (yayından sonra Play'e bağlarsın). Ad: `Üni Yemek`.
 3. Oluşan **Uygulama kimliği** `ca-app-pub-XXXXXXXXXXXXXXXX~YYYYYYYYYY` biçimindedir (`~` işaretli). Not al.
 4. **Reklam birimi ekle > Yerel gelişmiş (Native advanced)**: ad `ana-ekran-yerel`. Oluşan **Reklam birimi kimliği** `ca-app-pub-XXXXXXXXXXXXXXXX/ZZZZZZZZZZ` biçimindedir (`/` işaretli). Not al. Uygulama kimliği ile birim kimliğini karıştırma.
