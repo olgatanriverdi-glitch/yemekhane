@@ -4,6 +4,7 @@ import '../favoriler.dart';
 import '../geri_bildirim.dart';
 import '../kalori_hedefi.dart';
 import '../models.dart';
+import '../reklam/reklam_yoneticisi.dart';
 import '../repository.dart';
 import '../screens/yemek_detay.dart';
 import 'durum_ekranlari.dart';
@@ -33,6 +34,9 @@ class GunGovdesi extends StatelessWidget {
 
   /// Günlük kalori hedefi ayarı; verilmezse öğün kartında hedef gösterilmez.
   final KaloriHedefi? kaloriHedefi;
+
+  /// Verilirse yalnızca dolu öğün kartının altında reklam olabilir (yemek yok / tatil ekranlarında asla).
+  final ReklamYoneticisi? reklam;
   const GunGovdesi(
       {super.key,
       required this.gun,
@@ -45,7 +49,8 @@ class GunGovdesi extends StatelessWidget {
       required this.menu,
       required this.bugun,
       required this.git,
-      this.kaloriHedefi});
+      this.kaloriHedefi,
+      this.reklam});
 
   /// Yemeğin ayrıntı sayfasını açar. Sayfa bir gün ve öğünle kapanırsa [git] çağrılır.
   Future<void> _yemekAc(BuildContext context, YemekOgesi yemek) async {
@@ -121,6 +126,8 @@ class GunGovdesi extends StatelessWidget {
         ogleAksamKcal: aktif == 'lunch' || aktif == 'dinner'
             ? ogleAksamKalorisi(gun)
             : null,
-        slot: slotKimligi(uni.id, tarih, aktif));
+        slot: slotKimligi(uni.id, tarih, aktif),
+        reklam: reklam,
+        reklamAnahtari: '$tarih|$aktif');
   }
 }

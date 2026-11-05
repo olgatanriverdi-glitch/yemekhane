@@ -7,6 +7,7 @@ import '../config.dart';
 import '../geri_bildirim.dart';
 import '../kalori_hedefi.dart';
 import '../models.dart';
+import '../reklam/reklam_yoneticisi.dart';
 import '../repository.dart';
 import '../tema.dart';
 import '../yorum_moderasyon.dart';
@@ -41,6 +42,10 @@ class AyarlarSayfasi extends StatefulWidget {
 
   /// Puan / yorum deposu; "Yorum ve puanlarımı sil" bununla çalışır. Verilmezse o satır gösterilmez.
   final GeriBildirimDeposu? geriBildirim;
+
+  /// Reklam yöneticisi; Google'ın rıza kuralı gerektiriyorsa (AB / Birleşik Krallık...) Hakkında'da "Reklam
+  /// tercihleri" satırı çıkar. Verilmezse ya da gerekmiyorsa satır gösterilmez.
+  final ReklamYoneticisi? reklam;
   const AyarlarSayfasi(
       {super.key,
       required this.temaAyari,
@@ -51,7 +56,8 @@ class AyarlarSayfasi extends StatefulWidget {
       this.yuklenenId,
       this.kaloriHedefi,
       this.bildirim,
-      this.geriBildirim});
+      this.geriBildirim,
+      this.reklam});
 
   @override
   State<AyarlarSayfasi> createState() => _AyarlarSayfasiState();
@@ -64,10 +70,19 @@ class _AyarlarSayfasiState extends State<AyarlarSayfasi> {
   /// Engellenen kişi sayısı (Genel bölümündeki satır).
   int _engelSayisi = 0;
 
+  /// "Reklam tercihleri" satırı gösterilsin mi (rıza kuralı gerektiriyorsa).
+  bool _reklamTercihi = false;
+
   @override
   void initState() {
     super.initState();
     _engelSayisiniOku();
+    _reklamTercihiniOku();
+  }
+
+  Future<void> _reklamTercihiniOku() async {
+    final gerekli = await widget.reklam?.tercihGerekli() ?? false;
+    if (mounted && gerekli) setState(() => _reklamTercihi = true);
   }
 
   Future<void> _engelSayisiniOku() async {
@@ -288,6 +303,14 @@ class _AyarlarSayfasiState extends State<AyarlarSayfasi> {
               trailing: const Icon(Icons.copy),
               onTap: () => _kaynagiKopyala(gizlilikAdresi),
             ),
+            if (_reklamTercihi)
+              ListTile(
+                leading: const Icon(Icons.ads_click_outlined),
+                title: const Text('Reklam tercihleri'),
+                subtitle: const Text('Reklam için verdiğin rızayı değiştir'),
+                trailing: const Icon(Icons.chevron_right),
+                onTap: () => widget.reklam?.tercihleriAc(),
+              ),
             ListTile(
               leading: const Icon(Icons.block),
               title: Text('Engellenen kişiler ($_engelSayisi)'),

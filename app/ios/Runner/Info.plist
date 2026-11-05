@@ -28,6 +28,20 @@
 	<string>????</string>
 	<key>CFBundleVersion</key>
 	<string>$(FLUTTER_BUILD_NUMBER)</string>
+	<!-- Google AdMob uygulama kimliği (ZORUNLU, yoksa uygulama çöker). Aşağıdaki değer Google'ın herkese açık TEST
+	     kimliğidir; iOS'ta yayınlamadan önce AdMob'daki gerçek iOS uygulama kimliğiyle değiştir (magaza/REKLAM.md).
+	     Gerçek reklam birimi kimliği kodda değil, derleme sırasında dart-define bayrağıyla (ADMOB_NATIVE_IOS) verilir. -->
+	<key>GADApplicationIdentifier</key>
+	<string>ca-app-pub-3940256099942544~1458002511</string>
+	<!-- SKAdNetwork: Google'ın yayımladığı tam liste çok uzundur; reklam kazancını etkileyen kısa liste ve güncel
+	     tam liste için magaza/REKLAM.md'ye bak. Yalnızca Google'ın kendi kimliği burada. -->
+	<key>SKAdNetworkItems</key>
+	<array>
+		<dict>
+			<key>SKAdNetworkIdentifier</key>
+			<string>cstr6suwn9.skadnetwork</string>
+		</dict>
+	</array>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>UIApplicationSceneManifest</key>

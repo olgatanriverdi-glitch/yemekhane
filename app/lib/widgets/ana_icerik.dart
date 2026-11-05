@@ -5,6 +5,7 @@ import '../geri_bildirim.dart';
 import '../gun_secimi.dart';
 import '../kalori_hedefi.dart';
 import '../models.dart';
+import '../reklam/reklam_yoneticisi.dart';
 import '../repository.dart';
 import 'favori_seridi.dart';
 import 'gun_gecisi.dart';
@@ -44,6 +45,9 @@ class AnaIcerik extends StatelessWidget {
 
   /// Aşağı çekip yenileme.
   final Future<void> Function() yenile;
+
+  /// Öğün kartının altındaki tek reklam yeri; boşsa reklam yok.
+  final ReklamYoneticisi? reklam;
   const AnaIcerik(
       {super.key,
       required this.uni,
@@ -60,7 +64,8 @@ class AnaIcerik extends StatelessWidget {
       required this.gunSec,
       required this.eslesmeyeGit,
       required this.ogunSec,
-      required this.yenile});
+      required this.yenile,
+      this.reklam});
 
   @override
   Widget build(BuildContext context) {
@@ -112,7 +117,8 @@ class AnaIcerik extends StatelessWidget {
                   menu: menu,
                   bugun: bugun,
                   git: eslesmeyeGit,
-                  kaloriHedefi: kaloriHedefi),
+                  kaloriHedefi: kaloriHedefi,
+                  reklam: reklam),
             ),
           ),
         ),

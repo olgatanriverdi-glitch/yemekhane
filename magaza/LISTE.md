@@ -1,6 +1,6 @@
 # Google Play mağaza listesi: Üni Yemek
 
-Her alan Play Console'a olduğu gibi yapıştırılabilir. Karakter sınırları denetlendi. Metinler yalnızca uygulamada gerçekten olan özellikleri anlatır (4 Kasım 2026 sürümü, 0.1.0).
+Her alan Play Console'a olduğu gibi yapıştırılabilir. Karakter sınırları denetlendi. Metinler yalnızca uygulamada gerçekten olan özellikleri anlatır (5 Kasım 2026, reklamlı sürüm).
 
 ## Temel bilgiler
 
@@ -11,10 +11,10 @@ Her alan Play Console'a olduğu gibi yapıştırılabilir. Karakter sınırları
 | Paket adı | `com.tolga.yemekhane` (yayınlandıktan sonra DEĞİŞTİRİLEMEZ) |
 | Varsayılan dil | Türkçe (tr-TR) |
 | Uygulama türü | Uygulama (oyun değil) |
-| Ücretsiz / ücretli | Ücretsiz (reklamsız, uygulama içi satın alma yok) |
+| Ücretsiz / ücretli | Ücretsiz (reklam destekli: tek, küçük yerel reklam; uygulama içi satın alma yok) |
 | Kategori | Yemek ve İçecek (alternatif: Yaşam Tarzı) |
 | Etiketler (en çok 5) | Yemek ve İçecek, Eğitim, Yaşam Tarzı |
-| Reklam içeriyor mu | Hayır |
+| Reklam içeriyor mu | **Evet** (Google AdMob, tek yerel reklam kartı; ayrıntı `REKLAM.md`) |
 | E-posta (herkese açık) | `uniyemek0@gmail.com` (gizlilik sayfalarındaki adresle aynı olmalı) |
 | Web sitesi | https://olgatanriverdi-glitch.github.io/yemekhane/ |
 | Gizlilik politikası | https://olgatanriverdi-glitch.github.io/yemekhane/gizlilik.html |
@@ -49,8 +49,8 @@ KİŞİSELLEŞTİR
 • İsteğe bağlı günlük kalori hedefi: öğünün hedefine oranını gösterir
 • İsteğe bağlı günlük menü bildirimi (varsayılan kapalı, saatini sen seçersin)
 
-GİZLİLİK
-Reklam yok, konum ve kişi erişimi yok, ad ya da e-posta istenmez. Puan ve yorum için rastgele bir anonim kimlik kullanılır.
+REKLAM VE GİZLİLİK
+Uygulama ücretsizdir ve reklam içerir: ana ekranda öğün kartının altında, "Reklam" etiketli tek bir küçük kart (Google AdMob). Tam ekran, açılışta çıkan, videolu ya da sesli reklam yoktur; ilk günlerde reklam gösterilmez. Gerekli bölgelerde Google'ın rıza formu çıkar, tercihini Ayarlar'dan değiştirebilirsin. Konum ve kişi erişimi yok, ad ya da e-posta istenmez. Puan ve yorum için rastgele bir anonim kimlik kullanılır.
 
 ÖNEMLİ NOT
 Üni Yemek resmî bir kurum uygulaması değildir. Menüler okulların kendi sitelerinden otomatik derlenir; hatalı ya da eksik olabilir, önemli bilgiler için okulun duyurularına bak. Yemek fotoğrafları örnektir, okuldaki yemek birebir aynı görünmeyebilir.
@@ -84,13 +84,15 @@ Kategori: "Yardımcı program, üretkenlik, iletişim veya diğer" (oyun değil)
 | Dijital satın alma | Hayır |
 | Kullanıcı içeriği için moderasyon | Evet: gönderim öncesi küfür/bağlantı süzgeci, yorum bildirme, kişi engelleme, bildirimlerin konsoldan incelenip silinmesi |
 
+Reklam notu: anketteki "Uygulama reklam gösteriyor mu" benzeri sorulara **Evet**. Reklamlar yalnızca genel izleyiciye uygun (en çok "T" içerik derecesi) istenir ve AdMob'da alkol, kumar, flört, siyaset, din kategorileri engellenir (`REKLAM.md`); bu yüzden derecelendirme sonucu değişmemelidir, ama reklam SDK'sı "dijital satın alma/reklam" etiketi ekleyebilir.
+
 Beklenen sonuç: kullanıcı içeriği nedeniyle genel olarak "PEGI 3 / Everyone" olup "Kullanıcılar etkileşime girer" notu çıkar. Anket sonucunu Play'in verdiği şekilde kabul et.
 
 Kullanıcı içeriği politikası için hazır olanlar: bildir menüsü, kişi engelleme, yorum süzgeci, kurallar notu, bildirilenleri konsoldan silme (bkz. `FIREBASE.md`). Bildirimleri en az haftada bir kontrol et.
 
 ## Veri güvenliği formu (kodla doğrulanmış)
 
-Doğrulama: `app/lib/geri_bildirim.dart` (Firebase REST: anonim giriş, `ratings`, `comments`, `reports`, hesap silme), `app/lib/repository.dart` (GitHub'dan menü indirme), `app/android/.../AndroidManifest.xml` (izinler: internet, bildirim, yeniden başlatma sonrası bildirimi kurma, titreşim), `app/pubspec.yaml` (analitik, reklam ya da çökme raporu paketi yok).
+Doğrulama: `app/lib/geri_bildirim.dart` (Firebase REST: anonim giriş, `ratings`, `comments`, `reports`, hesap silme), `app/lib/repository.dart` (GitHub'dan menü indirme), `app/android/.../AndroidManifest.xml` (izinler: internet, bildirim, yeniden başlatma sonrası bildirimi kurma, titreşim), `app/pubspec.yaml` (`google_mobile_ads` = Google AdMob reklam SDK'sı; analitik ya da çökme raporu paketi yok), birleşik manifest (`com.google.android.gms.permission.AD_ID` izni reklam SDK'sından gelir).
 
 Genel sorular:
 * Uygulama veri topluyor mu / paylaşıyor mu: **Evet, topluyor.**
@@ -107,14 +109,27 @@ Toplanan veri türleri (yalnızca bunlar işaretlenir):
 
 "Paylaşılıyor" için: Firebase (Google) veriyi bizim adımıza işleyen hizmet sağlayıcıdır; Play tanımına göre bu "paylaşım" sayılmaz. Yorumlar uygulamayı kullanan herkese gösterilir; bu, kullanıcının kendi başlattığı herkese açık yayındır. Gizlilik politikası bunu açıkça söyler.
 
-İşaretlenmeyecekler (kodda yok): konum, kişiler, finansal bilgi, sağlık, mesajlar (SMS/e-posta), fotoğraf/video, ses, dosyalar, takvim, web geçmişi, uygulama performansı (çökme günlüğü yok), cihaz ya da diğer kimlikler (reklam kimliği yok), arama geçmişi (aramalar cihazda kalır).
+İşaretlenmeyecekler (kodda yok): kesin konum, kişiler, finansal bilgi, sağlık, mesajlar (SMS/e-posta), fotoğraf/video, ses, dosyalar, takvim, web geçmişi, arama geçmişi (aramalar cihazda kalır). Reklam SDK'sı nedeniyle işaretlenecekler yukarıdaki reklam tablosundadır (cihaz kimlikleri, uygulama etkileşimleri, tanılama, IP).
+
+**Reklam SDK'sı (Google Mobile Ads) için ek işaretlemeler.** Google'ın "Play veri güvenliği formu rehberi" (https://developers.google.com/admob/android/privacy/play-data-disclosure, Android SDK 25.x) SDK'nın şu verileri otomatik **topladığını ve paylaştığını** söyler; amaçlar: **Reklamcılık veya pazarlama, Analiz, Sahtekârlığı önleme ve güvenlik**:
+
+| Play veri türü | Toplanıyor | Paylaşılıyor | Zorunlu mu | Amaç |
+|---|---|---|---|---|
+| Cihaz veya diğer kimlikler (reklam kimliği, cihaz/hesap tanımlayıcıları) | Evet | **Evet** (Google) | Zorunlu (SDK otomatik) | Reklamcılık, analiz, sahtekârlığı önleme |
+| Uygulama etkinliği > Uygulama etkileşimleri (reklam gösterimi, tıklama) | Evet | **Evet** | Zorunlu | Reklamcılık, analiz, sahtekârlığı önleme |
+| Uygulama bilgisi ve performansı > Tanılama (ve çökme günlükleri) | Evet | **Evet** | Zorunlu | Analiz, sahtekârlığı önleme |
+| IP adresi (Google rehberinde ayrı satırdır; Play formunda ayrı seçenek yoktur, formdaki en yakın karşılık "Konum > Yaklaşık konum" işaretlenir; Console'daki güncel rehbere bak) | Evet | **Evet** | Zorunlu | Reklamcılık, analiz, sahtekârlığı önleme |
+
+Bu satırlar yukarıdaki iki Firebase satırının ÜSTÜNE eklenir. "Veri paylaşılıyor" bu kez **Evet** (reklam ağı üçüncü taraftır). Şifreleme: Evet. Silme isteği: Firebase verisi için uygulama içi yol geçerli; reklam verisi Google'ın elindedir (kullanıcı cihaz Ayarlar > Google > Reklamlar'dan sıfırlar). Rehber SDK sürümüne göre değişebilir: yayın öncesi sayfayı yeniden kontrol et. Aşağıdaki "işaretlenmeyecekler" listesinde "cihaz ya da diğer kimlikler" ve "uygulama performansı" artık işaretlenir.
+
+**Reklam kimliği beyanı (Panel > Uygulama içeriği > Reklam kimliği):** "Uygulaman reklam kimliği kullanıyor mu: **Evet**"; amaç: **Reklamcılık veya pazarlama** (+ Analiz, Sahtekârlığı önleme). Manifest tarafı: Android 13+ için `com.google.android.gms.permission.AD_ID` izni gerekir; reklam SDK'sı bunu birleşik manifeste kendisi ekler (derleme sonrası `build/app/intermediates/merged_manifests/release/` altında doğrulandı, bkz. `REKLAM.md`). İzin yoksa reklam kimliği sıfır döner, reklam gelirini düşürür.
 
 Not: İstek sırasında IP adresi Google, GitHub ve Wikimedia sunucularında doğal olarak görünür; bu üçüncü taraf altyapı günlükleridir, uygulama IP'yi kendisi toplamaz ya da saklamaz. Play ile uyumlu olması için gizlilik politikasında bu üç hizmet adıyla belirtildi.
 
 ## Hedef kitle ve içerik
 
 * Hedef yaş: **18 ve üzeri** (üniversite öğrencileri ve yetişkinler). 13 yaş altı seçme; "Aileler" programına girme. Gerekçe: uygulama kullanıcı içeriği barındırır ve çocuklara yönelik değildir. (Üniversite öğrencisi 17 yaşında olabilir; 18+ seçmek Play'in çocuk politikalarını tetiklemeden güvenli seçenektir. 16-17 yaşı da dahil etmek istersen "13+" yerine "16 ve üzeri" aralığını seç ama o zaman kullanıcı içeriği moderasyonunu daha sıkı sorgularlar.)
-* Çocukları çekecek görsel/dil yok; reklam yok.
+* Çocukları çekecek görsel/dil yok. Reklam var: hedef kitle 18+ olduğundan Play "Aileler" reklam kuralları (yalnızca onaylı reklam SDK'ları) uygulanmaz; yine de AdMob'da içerik derecelendirmesi en çok T ve hassas kategoriler engelli.
 * Haber, sağlık, finans, devlet uygulaması beyanı: Hayır. Uygulama resmî bir kurum adına değil; ekranda ve açıklamada "resmî uygulama değildir" yazar. Kalori bilgisi okul menüsünden alınır, tıbbi tavsiye değildir (kalori hedefi ekranında uyarı var); "Sağlık" beyanı gerekmez.
 
 ## Kapalı test zorunluluğu (yeni kişisel geliştirici hesapları)

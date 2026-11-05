@@ -36,6 +36,11 @@ android {
         // flag during build.
         versionCode = flutter.versionCode
         versionName = flutter.versionName
+        // AdMob uygulama kimliği: android/key.properties içindeki `admobAppId`; yoksa Google'ın herkese açık TEST
+        // uygulama kimliği (yalnız manifestin zorunlu alanı için; kimliksiz release'te reklam isteği zaten atılmaz).
+        manifestPlaceholders["admobAppId"] =
+            (anahtar["admobAppId"] as String?)?.takeIf { it.isNotBlank() }
+                ?: "ca-app-pub-3940256099942544~3347511713"
     }
 
     signingConfigs {

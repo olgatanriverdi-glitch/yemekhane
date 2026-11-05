@@ -4,6 +4,8 @@ import '../favoriler.dart';
 import '../geri_bildirim.dart';
 import '../kalori_hedefi.dart';
 import '../models.dart';
+import '../reklam/reklam_karti.dart';
+import '../reklam/reklam_yoneticisi.dart';
 import '../screens/geri_bildirim.dart';
 
 /// Bir öğünün kartı: toplam kalori, servis saati, yemek satırları (puanlı) ve yorumlar.
@@ -30,6 +32,11 @@ class OgunKarti extends StatefulWidget {
 
   /// Aynı günün öğle + akşam toplam kalorisi ([ogleAksamKalorisi]); hedef açıkken özette ayrı satır olur.
   final int? ogleAksamKcal;
+
+  /// Verilirse öğün kartının altında, "Öğün yorumları"ndan önce tek bir yerel reklam kartı olabilir (kapalıysa
+  /// ya da yüklenemezse hiç yer kaplamaz). [reklamAnahtari] gün + öğündür (ör. '2026-11-05|lunch').
+  final ReklamYoneticisi? reklam;
+  final String? reklamAnahtari;
   const OgunKarti(
       {super.key,
       required this.ogun,
@@ -44,7 +51,9 @@ class OgunKarti extends StatefulWidget {
       this.favoriler,
       this.yemekAc,
       this.kaloriHedefi,
-      this.ogleAksamKcal});
+      this.ogleAksamKcal,
+      this.reklam,
+      this.reklamAnahtari});
 
   @override
   State<OgunKarti> createState() => _OgunKartiState();
@@ -300,6 +309,10 @@ class _OgunKartiState extends State<OgunKarti> {
             ]),
           ),
         ),
+        if (widget.reklam != null)
+          ReklamKarti(
+              anahtar: widget.reklamAnahtari ?? widget.slot,
+              yonetici: widget.reklam),
         const SizedBox(height: 12),
         GeriBildirimBolumu(
             key: ValueKey(widget.slot),

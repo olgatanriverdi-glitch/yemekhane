@@ -12,6 +12,7 @@ dependencies:
   flutter_local_notifications: ^22.3.3
   flutter_localizations:
     sdk: flutter
+  google_mobile_ads: ^9.2.0
   http: ^1.2.0
   share_plus: ^13.3.1
   shared_preferences: ^2.2.0

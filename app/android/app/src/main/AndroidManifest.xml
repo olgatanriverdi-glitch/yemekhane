@@ -47,6 +47,19 @@
                 <action android:name="com.htc.intent.action.QUICKBOOT_POWERON"/>
             </intent-filter>
         </receiver>
+        <!-- Google AdMob uygulama kimliği (ZORUNLU: yoksa uygulama açılışta çöker). Değer build.gradle.kts'teki
+             manifestPlaceholders["admobAppId"]: android/key.properties `admobAppId`, yoksa Google test kimliği.
+             Gerçek reklam birimi kimliği kodda değil, derleme sırasında dart-define bayrağıyla (ADMOB_NATIVE_ANDROID) verilir. -->
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="${admobAppId}"/>
+        <!-- Reklam SDK'sının daha hafif başlatma ve yükleme yolları (Google'ın önerdiği bayraklar). -->
+        <meta-data
+            android:name="com.google.android.gms.ads.flag.OPTIMIZE_INITIALIZATION"
+            android:value="true"/>
+        <meta-data
+            android:name="com.google.android.gms.ads.flag.OPTIMIZE_AD_LOADING"
+            android:value="true"/>
         <!-- Don't delete the meta-data below.
              This is used by the Flutter tool to generate GeneratedPluginRegistrant.java -->
         <meta-data

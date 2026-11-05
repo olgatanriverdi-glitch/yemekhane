@@ -8,6 +8,8 @@ import '../gun_secimi.dart';
 import '../kalori_hedefi.dart';
 import '../models.dart';
 import '../paylasim.dart';
+import '../reklam/reklam_servisi_olustur.dart';
+import '../reklam/reklam_yoneticisi.dart';
 import '../repository.dart';
 import '../tema.dart';
 import '../widgets/ana_icerik.dart';
@@ -50,6 +52,10 @@ class AnaSayfa extends StatefulWidget {
 
   /// Günlük menü bildirimi ayarı; boşsa kendi [BildirimAyari]'nı kurar (varsayılan kapalı: servise dokunmaz).
   final BildirimAyari? bildirim;
+
+  /// Testlerde sahte reklam yöneticisi verilebilir; boşsa gerçek servisle kendi [ReklamYoneticisi]'ni kurar
+  /// (kimliksiz release ve web'de reklam tamamen kapalıdır).
+  final ReklamYoneticisi? reklam;
   const AnaSayfa(
       {super.key,
       required this.temaAyari,
@@ -59,7 +65,8 @@ class AnaSayfa extends StatefulWidget {
       this.favoriler,
       this.paylasim,
       this.kaloriHedefi,
-      this.bildirim});
+      this.bildirim,
+      this.reklam});
   @override
   State<AnaSayfa> createState() => _AnaSayfaState();
 }
@@ -73,6 +80,10 @@ class _AnaSayfaState extends State<AnaSayfa> with WidgetsBindingObserver {
       widget.paylasim ?? const SharePlusServisi();
   late final KaloriHedefi _kalori = widget.kaloriHedefi ?? KaloriHedefi();
   late final BildirimAyari _bildirim = widget.bildirim ?? BildirimAyari();
+  late final ReklamYoneticisi _reklam = widget.reklam ??
+      ReklamYoneticisi(
+          servis: gercekReklamServisiOlustur(),
+          simdi: widget.simdi ?? turkiyeSimdi);
   List<Universite> _uniler = [];
   Universite? _uni;
   Menu? _menu;
@@ -112,6 +123,8 @@ class _AnaSayfaState extends State<AnaSayfa> with WidgetsBindingObserver {
     _favoriler.yukle();
     _kalori.yukle();
     _bildirim.yukle();
+    // ilk açılış günü saklanır (yeni kullanıcıya ilk günlerde reklam gösterilmez); reklam kapalı olsa da
+    _reklam.ilkAcilisiKaydet();
     _favoriler.addListener(_favorileriBildir);
     _yukle();
   }
@@ -123,6 +136,7 @@ class _AnaSayfaState extends State<AnaSayfa> with WidgetsBindingObserver {
     if (widget.favoriler == null) _favoriler.dispose();
     if (widget.kaloriHedefi == null) _kalori.dispose();
     if (widget.bildirim == null) _bildirim.dispose();
+    if (widget.reklam == null) _reklam.dispose();
     super.dispose();
   }
 
@@ -347,6 +361,7 @@ class _AnaSayfaState extends State<AnaSayfa> with WidgetsBindingObserver {
             kaloriHedefi: _kalori,
             bildirim: _bildirim,
             geriBildirim: _geriBildirim,
+            reklam: _reklam,
             menuyuYenile: () => _yukle())));
     if (secilen != null && secilen != _hedefId) _yukle(universiteId: secilen);
   }
@@ -409,6 +424,7 @@ class _AnaSayfaState extends State<AnaSayfa> with WidgetsBindingObserver {
       favoriler: _favoriler,
       kaloriHedefi: _kalori,
       simdi: _simdi,
+      reklam: _reklam,
       gunSec: _gunSec,
       eslesmeyeGit: _eslesmeyeGit,
       ogunSec: (t) => setState(() {

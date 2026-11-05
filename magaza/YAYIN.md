@@ -56,7 +56,7 @@ Her yeni yüklemede `app/pubspec.yaml` içindeki `version: 1.0.0+2` değerinin `
 Hepsi için hazır yanıtlar `magaza/LISTE.md` içinde:
 
 1. **Gizlilik politikası:** gizlilik.html adresi.
-2. **Reklamlar:** Hayır.
+2. **Reklamlar:** **Evet** (Google AdMob). Reklam kimliği beyanı: Evet (reklamcılık). Gerçek reklam kimlikleriyle derleme adımı: `REKLAM.md`; kimlik verilmeden alınan release'te reklam kapalıdır ve test reklamı çıkmaz.
 3. **Uygulama erişimi:** Tüm işlevler özel erişim olmadan kullanılabilir.
 4. **İçerik derecelendirme:** anket (kullanıcı içeriği: Evet).
 5. **Hedef kitle:** 18 ve üzeri.

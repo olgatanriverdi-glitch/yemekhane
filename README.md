@@ -327,6 +327,7 @@ Flutter uygulaması (`app/`), Android APK olarak dağıtılır. Özellikler:
 * **Kalori hedefi (isteğe bağlı):** öğünün günlük hedefin yüzde kaçı olduğunu gösterir (genel bilgidir, tıbbi tavsiye değildir).
 * **Görünüm:** 8 elle ayarlanmış palet (Safran varsayılan) ve Sistem/Açık/Koyu/Siyah mod; tüm paletler WCAG AA kontrast testinden geçer. Arayüz ve sistem metinleri Türkçedir.
 * **Puan ve yorumlar:** Firebase (anonim oturum); okumalar 5 dakika bellekte tutulur (kota), yenileme önbelleği boşaltır.
+* **Reklam (Google AdMob, rahatsız etmeyen):** yalnızca ana ekranda öğün kartının altında tek, "Reklam" etiketli yerel kart; tam ekran / video / yapışkan banner yok, ilk 3 gün reklamsız, aynı öğünde 2 sn kalınca yüklenir, oturumda en çok 10 yükleme, Google rıza formu (UMP). Gerçek birim kimliği `--dart-define=ADMOB_NATIVE_ANDROID=...` ile verilmezse release'te reklam tamamen kapalıdır (debug'da Google test reklamı). Web'de reklam yok. Kurulum ve politikalar: `magaza/REKLAM.md`.
 
 Testler: `cd app && flutter analyze && flutter test`. Uygulama ikonu `app/tool/ikon_uret_test.dart` ile çizilir (`flutter test tool/ikon_uret_test.dart`).
 Release APK `app/android/key.properties` (git'e girmez) içindeki anahtarla imzalanır; anahtar yoksa debug anahtarı kullanılır. Aynı anahtarla imzalanan yeni APK eskisinin üzerine kurulabilir.
