@@ -1,44 +1,14 @@
 {
  "days": {
-  "2026-11-05": {
-   "lunch": {
-    "items": [
-     {
-      "img": "dishes/890b8e3990.jpg",
-      "kcal": 373,
-      "key": "890b8e3990",
-      "name": "Etli Nohut"
-     },
-     {
-      "img": "dishes/31b89c15d9.jpg",
-      "kcal": 277,
-      "key": "31b89c15d9",
-      "name": "Etsiz Nohut Yahnisi"
-     },
-     {
-      "img": "dishes/22402adbde.jpg",
-      "kcal": 352,
-      "key": "22402adbde",
-      "name": "Tel Şehriyeli Bulgur Pilavı"
-     },
-     {
-      "img": "dishes/9c8d655ef5.jpg",
-      "kcal": 118,
-      "key": "9c8d655ef5",
-      "name": "Yoğurt"
-     },
-     {
-      "kcal": 7,
-      "key": "d7528dbe47",
-      "name": "Salatalık Turşusu"
-     }
-    ],
-    "kcal": 1127
-   }
-  },
   "2026-11-06": {
    "lunch": {
     "items": [
+     {
+      "img": "dishes/bcafe51e20.jpg",
+      "kcal": 362,
+      "key": "bcafe51e20",
+      "name": "Peynirli Börek"
+     },
      {
       "img": "dishes/bcafe51e20.jpg",
       "kcal": 362,
@@ -63,10 +33,10 @@
       "name": "Muhallebi"
      }
     ],
-    "kcal": 951
+    "kcal": 1313
    }
   }
  },
  "university": "cukurova",
- "updated": "2026-11-05T13:00:25+03:00"
+ "updated": "2026-11-06T00:16:23+03:00"
 }

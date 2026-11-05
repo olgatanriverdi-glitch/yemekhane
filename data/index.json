@@ -725,7 +725,7 @@
   },
   {
    "city": "Adana",
-   "firstDay": "2026-11-05",
+   "firstDay": "2026-11-06",
    "hours": {
     "lunch": {
      "approx": true,
@@ -807,6 +807,6 @@
    "source": "https://www.gaziantep.edu.tr/yemek/"
   }
  ],
- "updated": "2026-11-05T13:00:25+03:00",
+ "updated": "2026-11-06T00:16:23+03:00",
  "version": 1
 }

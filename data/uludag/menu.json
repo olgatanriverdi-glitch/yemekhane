@@ -249,14 +249,14 @@
       "name": "Ezogelin Çorba"
      },
      {
-      "img": "dishes/abad8aab8e.jpg",
-      "key": "abad8aab8e",
-      "name": "Napoliten Soslu Makarna"
-     },
-     {
       "img": "dishes/16b5c22561.jpg",
       "key": "16b5c22561",
       "name": "Ayran"
+     },
+     {
+      "img": "dishes/7996503754.jpg",
+      "key": "7996503754",
+      "name": "Peynirli Makarna"
      }
     ]
    },
@@ -1667,5 +1667,5 @@
   }
  },
  "university": "uludag",
- "updated": "2026-11-05T13:00:25+03:00"
+ "updated": "2026-11-06T00:16:23+03:00"
 }
