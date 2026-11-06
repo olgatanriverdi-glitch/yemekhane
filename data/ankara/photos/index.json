@@ -21,7 +21,8 @@
   "2026-11-02": "41ca78a13cd7",
   "2026-11-03": "001da2fb49d8",
   "2026-11-04": "54ed738c6836",
-  "2026-11-05": "2d412b1b6c47"
+  "2026-11-05": "2d412b1b6c47",
+  "2026-11-06": "7b746a136ea2"
  },
  "main": {
   "025eacfe0c": "8f579a24b2f7",
@@ -43,7 +44,7 @@
   "b7f7a0ca2b": "78be4bc465a4",
   "de62be9b48": "164fe8b5ccd4",
   "f029cd24e9": "f6784bbc19c2",
-  "fbb76e65c4": "f74a9d748b67",
+  "fbb76e65c4": "7b746a136ea2",
   "fc648efe4b": "1b48a108505e",
   "ff8bf920a9": "5b1b2aea2001"
  },
@@ -176,6 +177,16 @@
     "Tavuk Taleks",
     "Soslu Makarna",
     "Ayran"
+   ]
+  },
+  "7b746a136ea2": {
+   "added": "2026-11-06",
+   "hash": "9c7c32235f2e6bc505ea474cc4fb5c8c69f0af5a",
+   "items": [
+    "Sebze Çorba",
+    "Etli Kuru Fasulye",
+    "Şehriyeli Pirinç Pilavı/Turşu",
+    "Frambuaz Rüyası"
    ]
   },
   "8f579a24b2f7": {

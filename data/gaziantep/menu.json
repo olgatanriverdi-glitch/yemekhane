@@ -281,16 +281,16 @@
       "name": "Mercimek Çorba"
      },
      {
-      "img": "dishes/add3592632.jpg",
-      "kcal": 376,
-      "key": "add3592632",
-      "name": "Karışık Kızartma"
-     },
-     {
       "img": "dishes/0428d021a9.jpg",
       "kcal": 685,
       "key": "0428d021a9",
       "name": "Hamburger"
+     },
+     {
+      "img": "dishes/add3592632.jpg",
+      "kcal": 376,
+      "key": "add3592632",
+      "name": "Karışık Kızartma"
      },
      {
       "img": "dishes/16b5c22561.jpg",
@@ -632,5 +632,5 @@
   }
  },
  "university": "gaziantep",
- "updated": "2026-11-06T00:16:23+03:00"
+ "updated": "2026-11-06T13:04:07+03:00"
 }
