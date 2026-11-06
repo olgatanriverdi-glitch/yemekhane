@@ -935,12 +935,13 @@
       "name": "Pirinç Pilavı"
      },
      {
-      "kcal": 105,
-      "key": "2f48dae569",
-      "name": "Meşrubat"
+      "img": "dishes/16b5c22561.jpg",
+      "kcal": 67,
+      "key": "16b5c22561",
+      "name": "Ayran"
      }
     ],
-    "kcal": 901
+    "kcal": 863
    }
   },
   "2026-11-17": {
@@ -1787,5 +1788,5 @@
   }
  },
  "university": "esogu",
- "updated": "2026-11-06T13:04:07+03:00"
+ "updated": "2026-11-06T23:39:17+03:00"
 }

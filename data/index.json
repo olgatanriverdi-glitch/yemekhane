@@ -341,7 +341,7 @@
     }
    },
    "id": "itu",
-   "lastDay": "2026-11-15",
+   "lastDay": "2026-11-17",
    "meals": [
     "dinner",
     "lunch"
@@ -777,7 +777,7 @@
     }
    },
    "id": "pamukkale",
-   "lastDay": "2026-10-30",
+   "lastDay": "2026-11-13",
    "meals": [
     "lunch",
     "vegetarian"
@@ -807,6 +807,6 @@
    "source": "https://www.gaziantep.edu.tr/yemek/"
   }
  ],
- "updated": "2026-11-06T13:04:07+03:00",
+ "updated": "2026-11-06T23:39:17+03:00",
  "version": 1
 }

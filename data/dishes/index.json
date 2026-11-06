@@ -3231,6 +3231,15 @@
    "sorgu": "Lavaş",
    "yazar": "Alessandro Bezzi"
   },
+  "77d56586cd": {
+   "baslik": "Kuru Fasulye pilav.jpg",
+   "kaynak": "Wikimedia Commons",
+   "lisans": "CC BY-SA 4.0",
+   "name": "Sucuklu Kuru Fasülye",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Kuru_Fasulye_pilav.jpg",
+   "sorgu": "Kuru Fasülye",
+   "yazar": "Satirdan kahraman"
+  },
   "7819d0a412": {
    "baslik": "Spaghetti (53257476437) (cropped).png",
    "kaynak": "Wikimedia Commons",
@@ -3410,6 +3419,15 @@
    "sayfa": "https://commons.wikimedia.org/wiki/File:Spaghetti_(53257476437)_(cropped).png",
    "sorgu": "Spaghetti",
    "yazar": "Choo Yut Shing"
+  },
+  "7f2c077fca": {
+   "baslik": "Fırın helva ve dondurma.jpg",
+   "kaynak": "Wikimedia Commons",
+   "lisans": "CC BY-SA 4.0",
+   "name": "Fırın Helva",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:F%C4%B1r%C4%B1n_helva_ve_dondurma.jpg",
+   "sorgu": "Fırın Helva",
+   "yazar": "E4024"
   },
   "7f43705206": {
    "baslik": "Tulumba tatlısı.JPG",
@@ -3634,6 +3652,15 @@
    "name": "Etli Nohut",
    "sayfa": "https://commons.wikimedia.org/wiki/File:Nohut_yahni.jpg",
    "sorgu": "Etli Nohut",
+   "yazar": "E4024"
+  },
+  "89d6602b74": {
+   "baslik": "Un helva.jpg",
+   "kaynak": "Wikimedia Commons",
+   "lisans": "CC BY-SA 4.0",
+   "name": "Yer Fıstıklı Un Helvası",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Un_helva.jpg",
+   "sorgu": "Un Helvası",
    "yazar": "E4024"
   },
   "8a1d66ed2e": {
@@ -4184,6 +4211,15 @@
    "sayfa": "https://commons.wikimedia.org/wiki/File:Chicken_fajitas_-_La_Hacienda_-_Sarah_Stierch.jpg",
    "sorgu": "Chicken fajita",
    "yazar": "Missvain"
+  },
+  "9bff99051f": {
+   "baslik": "Kumpir2.jpg",
+   "kaynak": "Wikimedia Commons",
+   "lisans": "CC BY-SA 3.0",
+   "name": "Kumpir",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Kumpir2.jpg",
+   "sorgu": "Kumpir",
+   "yazar": "Atilim Gunes Baydin"
   },
   "9c2a89017d": {
    "baslik": "Soğuk baklava.jpg",
@@ -7107,7 +7143,7 @@
   "13185755a3": "2026-11-04",
   "13484fcf29": "2026-10-08",
   "13bf16cbf8": "2026-10-26",
-  "13d4ff06bd": "2026-10-23",
+  "13d4ff06bd": "2026-11-06",
   "140cc9bb4c": "2026-10-19",
   "1454800b91": "2026-10-27",
   "14a0312744": "2026-10-18",
@@ -7152,6 +7188,7 @@
   "1fe0ace611": "2026-10-26",
   "1ff73f45dc": "2026-10-31",
   "2022863e61": "2026-11-03",
+  "20247f6aa5": "2026-11-06",
   "2065409b8b": "2026-10-26",
   "20754d757a": "2026-10-20",
   "20a36296ca": "2026-11-01",
@@ -7387,6 +7424,7 @@
   "61a2035b95": "2026-10-26",
   "61f62beb30": "2026-11-05",
   "620474c4b0": "2026-10-26",
+  "622b862cdd": "2026-11-06",
   "62824fdcfe": "2026-10-31",
   "62e46b22b3": "2026-11-02",
   "6372961d01": "2026-10-25",
@@ -7497,7 +7535,7 @@
   "7d2a55879a": "2026-10-21",
   "7d82f88f08": "2026-10-31",
   "7dbcb4c1e3": "2026-11-02",
-  "7deef2ea4e": "2026-10-20",
+  "7deef2ea4e": "2026-11-06",
   "7e12664045": "2026-10-27",
   "7e1fde7585": "2026-10-26",
   "7e342f900f": "2026-11-04",
@@ -7543,8 +7581,9 @@
   "895724ac24": "2026-11-06",
   "89ba3d1507": "2026-11-01",
   "89f74b9ea7": "2026-10-31",
+  "8a86844e43": "2026-11-06",
   "8ac31fd6b6": "2026-10-27",
-  "8af969815a": "2026-10-17",
+  "8af969815a": "2026-11-06",
   "8b63ed2f01": "2026-11-06",
   "8be3cd8c65": "2026-11-04",
   "8bef5e2efa": "2026-10-31",
@@ -7700,6 +7739,7 @@
   "b0193ed2fd": "2026-11-03",
   "b03d77d041": "2026-10-05",
   "b09bac10e9": "2026-11-03",
+  "b0f36ddea2": "2026-11-06",
   "b13c329917": "2026-11-01",
   "b15955da0c": "2026-10-20",
   "b178752b58": "2026-10-19",
@@ -7731,6 +7771,7 @@
   "b8acd80288": "2026-10-08",
   "b8ed14dda9": "2026-11-06",
   "b918fc5d48": "2026-10-19",
+  "b921c83771": "2026-11-06",
   "b947faf326": "2026-11-03",
   "b9498c0c6f": "2026-10-18",
   "b951b62963": "2026-11-01",
@@ -7803,6 +7844,7 @@
   "ccc329e06a": "2026-10-31",
   "ccddc81b59": "2026-10-27",
   "cd47a2faec": "2026-10-30",
+  "cd4a5f68cd": "2026-11-06",
   "cd89c57b2b": "2026-10-20",
   "cdbbaa4cff": "2026-10-31",
   "ce072af2f7": "2026-10-20",
@@ -7951,6 +7993,7 @@
   "f3113a340b": "2026-10-08",
   "f330887b0f": "2026-11-06",
   "f337c8d4b6": "2026-10-20",
+  "f3474ec030": "2026-11-06",
   "f44c8a2284": "2026-11-04",
   "f464b3d103": "2026-10-21",
   "f4ed5ad2ac": "2026-10-20",
