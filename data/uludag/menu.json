@@ -330,8 +330,9 @@
       "name": "Özbek Pilavı"
      },
      {
-      "key": "3ef45fb941",
-      "name": "Karışık Turşu"
+      "img": "dishes/ca846fdc8d.jpg",
+      "key": "ca846fdc8d",
+      "name": "Karışık Salata"
      }
     ]
    },
@@ -1667,5 +1668,5 @@
   }
  },
  "university": "uludag",
- "updated": "2026-11-06T13:04:07+03:00"
+ "updated": "2026-11-07T12:23:55+03:00"
 }

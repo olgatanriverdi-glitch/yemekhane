@@ -1,61 +1,5 @@
 {
  "days": {
-  "2026-11-05": {
-   "dinner": {
-    "items": [
-     {
-      "key": "a4976547e4",
-      "name": "Erzincan Çorbası"
-     },
-     {
-      "img": "dishes/fbb76e65c4.jpg",
-      "key": "fbb76e65c4",
-      "name": "Etli Kuru Fasulye"
-     },
-     {
-      "key": "8636bfbc0a",
-      "name": "Pirinç Pilavı"
-     },
-     {
-      "img": "dishes/099956f884.jpg",
-      "key": "099956f884",
-      "name": "Cevizli Tel Kadayıf"
-     },
-     {
-      "key": "3ef45fb941",
-      "name": "Karışık Turşu"
-     }
-    ]
-   },
-   "lunch": {
-    "items": [
-     {
-      "key": "ba810116bb",
-      "name": "Andaloz Çorbası"
-     },
-     {
-      "img": "dishes/e9977e6607.jpg",
-      "key": "e9977e6607",
-      "name": "Ekşili Köfte"
-     },
-     {
-      "img": "dishes/0b9e39c61a.jpg",
-      "key": "0b9e39c61a",
-      "name": "Salçalı Makarna"
-     },
-     {
-      "img": "dishes/ed47fcacda.jpg",
-      "key": "ed47fcacda",
-      "name": "Pembe Sultan"
-     },
-     {
-      "img": "dishes/2be1b1ba72.jpg",
-      "key": "2be1b1ba72",
-      "name": "Kola"
-     }
-    ]
-   }
-  },
   "2026-11-06": {
    "dinner": {
     "items": [
@@ -728,5 +672,5 @@
   }
  },
  "university": "itu",
- "updated": "2026-11-06T23:39:17+03:00"
+ "updated": "2026-11-07T12:23:55+03:00"
 }
