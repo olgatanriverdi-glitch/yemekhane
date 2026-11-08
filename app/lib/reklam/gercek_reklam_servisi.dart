@@ -25,15 +25,22 @@ class _GercekReklam implements ReklamNesnesi {
 /// Google AdMob yerel (native) reklam servisi. Kimlik yoksa (kimliksiz release, web) [kullanilabilir] false'tur ve
 /// SDK'ya hiç dokunulmaz. Rıza: Google UMP; rıza alınamazsa (canRequestAds false) istek atılmaz.
 class GercekReklamServisi implements ReklamServisi {
-  GercekReklamServisi() : _birim = gecerliReklamBirimi();
+  GercekReklamServisi()
+      : _birim = gecerliReklamBirimi(),
+        _odulluBirim = gecerliOdulluBirimi();
 
   /// Birimi elle verir (testler); null reklamın kapalı olduğu anlamına gelir.
-  GercekReklamServisi.birimle(this._birim);
+  GercekReklamServisi.birimle(this._birim, [this._odulluBirim]);
   final String? _birim;
+  final String? _odulluBirim;
   bool _baslatildi = false;
 
   @override
   bool get kullanilabilir => _birim != null;
+
+  // Ödüllü özellik yalnızca reklam da mümkünse (rıza + SDK hazırlığı aynı yoldan geçer) açıktır.
+  @override
+  bool get odulluKullanilabilir => kullanilabilir && _odulluBirim != null;
 
   @override
   Future<bool> hazirla() async {
@@ -81,18 +88,18 @@ class GercekReklamServisi implements ReklamServisi {
         adUnitId: birim,
         request: const AdRequest(),
         nativeTemplateStyle: NativeTemplateStyle(
-          templateType: TemplateType.small,
+          templateType: stil.buyuk ? TemplateType.medium : TemplateType.small,
           mainBackgroundColor: stil.arkaPlan,
           cornerRadius: stil.kose,
-          primaryTextStyle:
-              yazi(stil.birincilYazi, 15, NativeTemplateFontStyle.bold),
-          secondaryTextStyle: yazi(stil.ikincilYazi, 13),
-          tertiaryTextStyle: yazi(stil.ikincilYazi, 12),
+          primaryTextStyle: yazi(stil.birincilYazi, stil.baslikBoyutu,
+              NativeTemplateFontStyle.bold),
+          secondaryTextStyle: yazi(stil.ikincilYazi, stil.govdeBoyutu),
+          tertiaryTextStyle: yazi(stil.ikincilYazi, stil.kucukBoyut),
           callToActionTextStyle: NativeTemplateTextStyle(
               textColor: stil.dugmeYazisi,
               backgroundColor: stil.dugme,
               style: NativeTemplateFontStyle.bold,
-              size: 14),
+              size: stil.dugmeBoyutu),
         ),
         listener: NativeAdListener(
           onAdLoaded: (ad) {
@@ -110,6 +117,61 @@ class GercekReklamServisi implements ReklamServisi {
     }
     // ağ yanıt vermezse sonsuza dek beklenmesin; geç gelen reklam dinleyicide serbest bırakılır (bkz. GecYuklemeKorumasi)
     return koruma.bekle(const Duration(seconds: 20));
+  }
+
+  @override
+  Future<OdulluSonuc> odulluIzle() async {
+    final birim = _odulluBirim;
+    if (!odulluKullanilabilir || birim == null) return OdulluSonuc.yuklenemedi;
+    final bitti = Completer<OdulluSonuc>();
+    var zamanAsimi = false;
+    var odulVerildi = false;
+    var gosterimde = false;
+    void bitir(OdulluSonuc s) {
+      if (!bitti.isCompleted) bitti.complete(s);
+    }
+
+    try {
+      await RewardedAd.load(
+        adUnitId: birim,
+        request: const AdRequest(),
+        rewardedAdLoadCallback: RewardedAdLoadCallback(
+          onAdLoaded: (ad) {
+            if (zamanAsimi || bitti.isCompleted) {
+              // geç gelen reklam gösterilmez, serbest bırakılır
+              ad.dispose();
+              return;
+            }
+            ad.fullScreenContentCallback = FullScreenContentCallback(
+              onAdDismissedFullScreenContent: (a) {
+                a.dispose();
+                // ödül yalnızca onUserEarnedReward gelmişse; kapatma ödül değildir
+                bitir(odulVerildi ? OdulluSonuc.odul : OdulluSonuc.kapatildi);
+              },
+              onAdFailedToShowFullScreenContent: (a, _) {
+                a.dispose();
+                bitir(OdulluSonuc.yuklenemedi);
+              },
+            );
+            gosterimde = true;
+            ad.show(onUserEarnedReward: (_, __) => odulVerildi = true);
+          },
+          onAdFailedToLoad: (_) => bitir(OdulluSonuc.yuklenemedi),
+        ),
+      );
+    } catch (_) {
+      bitir(OdulluSonuc.yuklenemedi);
+    }
+    // yükleme 20 sn içinde bitmezse vazgeçilir; reklam sonradan gelirse yukarıda serbest bırakılır. Reklam
+    // gösterilmeye başlandıysa kullanıcı izlerken süre sayılmaz (kapanışı beklenir).
+    final sayac = Timer(const Duration(seconds: 20), () {
+      if (gosterimde) return;
+      zamanAsimi = true;
+      bitir(OdulluSonuc.yuklenemedi);
+    });
+    final sonuc = await bitti.future;
+    sayac.cancel();
+    return sonuc;
   }
 
   @override

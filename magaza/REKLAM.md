@@ -1,16 +1,30 @@
 # Reklam rehberi (Google AdMob): yeni başlayanlar için
 
-Üni Yemek'te tek bir reklam yeri vardır: ana ekranda, öğün kartının altında ve "Öğün yorumları"ndan önce, "Reklam" etiketli küçük bir yerel (native) kart. Tam ekran, açılışta çıkan, videolu, sesli, yapışkan alt bannerlı reklam yoktur; yemek listesinin içinde reklam yoktur. İlk açılıştan sonraki 3 gün (ilk gün dahil 4 gün) reklam çıkmaz. Aynı gün ve öğünde 2 saniye kalmadan istek atılmaz. Bir oturumda en çok 10 reklam yüklenir. Web sürümünde reklam yoktur.
+Üni Yemek'te reklamlar içerikle birlikte kayan, "Reklam" etiketli ve "Üni Yemek'i ücretsiz tutar" açıklamalı yerel (native) kartlardır. Renk, köşe ve yazı boyutu etkin temadan gelir (açık, koyu, siyah ve bütün renk paletleri). **Her ekranda en fazla 1 reklam** vardır. Tam ekran (geçiş), açılış reklamı, otomatik oynayan sesli video, yapışkan banner ve yemek satırlarının arasında reklam yoktur. Web sürümünde reklam yoktur.
 
-Tanımlayıcı olmadan alınan **release** derlemede reklam tamamen kapalıdır (SDK başlatılmaz, istek atılmaz, yer ayrılmaz). Yani kimlik vermeden yaptığın bir `.aab` / `.apk` asla test reklamı göstermez; reklamlı sürüm için aşağıdaki adımları yap.
+**Yerleşimler (4 tane):**
+
+| Yerleşim | Nerede | Boyut / koşul |
+|---|---|---|
+| `ana` | Ana ekran, öğün kartının altı, "Öğün yorumları"ndan önce | Uzun ekranda (kullanılabilir yükseklik en az 700 dp ve yazı ölçeği en çok 1,3) görselli **orta** şablon (daha yüksek getiri); değilse **küçük** şablon. Aynı gün ve öğünde 2 sn kalınca yüklenir. |
+| `hafta` | Haftalık menü, 3. gün kartından sonra | Küçük. Haftada 3'ten az kart varsa yok. |
+| `arama` | Yemek arama, 5. sonuçtan sonra | Küçük. En az 8 sonuç varsa; sonuçlar 1 sn sabit kalınca yüklenir (yazarken istek atılmaz). |
+| `detay` | Yemek ayrıntısı, yorumlardan sonra, sayfanın en altı | Küçük. |
+
+Favoriler, ayarlar, tema seçici, ilk açılış karşılaması ve hata / boş / iskelet durumlarında reklam yoktur. İlk açılış günü ve sonraki **2 gün** reklam çıkmaz (uzaktan ayarlanabilir). Bir oturumda en çok 20 reklam yüklenir. Bellekte en çok 5 reklam tutulur. Reklamla komşu dokunulabilir öğeler arasında en az 16 dp boşluk vardır (yanlışlıkla tıklama olmasın).
+
+**Reklamsız gün (isteğe bağlı, ödüllü reklam):** Kullanıcı Ayarlar'daki "Reklamsız gün kazan" satırından ya da reklam kartının altındaki "Reklamları 24 saat kapat" düğmesinden, kısa bir ödüllü reklam izleyerek **24 saat** hiç reklam görmemeyi seçebilir. Zorlama yoktur: ödül yalnızca izleme tamamlanınca verilir, vazgeçilirse ya da ödül gelmeden kapatılırsa hiçbir şey değişmez. Reklam yüklenemezse "Şu an reklam yok, sonra tekrar dene." yazar.
+
+Tanımlayıcı olmadan alınan **release** derlemede reklam tamamen kapalıdır (SDK başlatılmaz, istek atılmaz, yer ayrılmaz); ödüllü özellik de gizlidir. Yani kimlik vermeden yaptığın bir `.aab` / `.apk` asla test reklamı göstermez; reklamlı sürüm için aşağıdaki adımları yap.
 
 ## 1. AdMob hesabı
 
 1. https://admob.google.com adresine Play Console hesabındaki Google hesabınla gir, hesabı aç (ülke Türkiye, saat dilimi Istanbul, para birimi TRY ya da USD; sonradan DEĞİŞTİRİLEMEZ).
 2. **Uygulamalar > Uygulama ekle**: platform Android, "Uygulama Google Play'de yayında mı?": henüz değilse **Hayır** (yayından sonra Play'e bağlarsın). Ad: `Üni Yemek`.
 3. Oluşan **Uygulama kimliği** `ca-app-pub-XXXXXXXXXXXXXXXX~YYYYYYYYYY` biçimindedir (`~` işaretli). Not al.
-4. **Reklam birimi ekle > Yerel gelişmiş (Native advanced)**: ad `ana-ekran-yerel`. Oluşan **Reklam birimi kimliği** `ca-app-pub-XXXXXXXXXXXXXXXX/ZZZZZZZZZZ` biçimindedir (`/` işaretli). Not al. Uygulama kimliği ile birim kimliğini karıştırma.
-5. iOS de yapacaksan aynı adımları iOS uygulaması için ayrıca tekrarla.
+4. **Reklam birimi ekle > Yerel gelişmiş (Native advanced)**: ad `yerel-satir-ici`. Oluşan **Reklam birimi kimliği** `ca-app-pub-XXXXXXXXXXXXXXXX/ZZZZZZZZZZ` biçimindedir (`/` işaretli). Not al. Dört yerleşimin hepsi bu **tek** yerel birimi kullanır (şablon boyutu kodda seçilir). Uygulama kimliği ile birim kimliğini karıştırma.
+5. **Reklam birimi ekle > Ödüllü (Rewarded)**: ad `reklamsiz-gun`. Ödül ayarı: 1 adet, ad "Reklamsız gün" (uygulama ödül değerini kullanmaz, bir şey fark etmez; "Ödül miktarı ve türü" alanını boş bırakmak yerine varsayılanı bırak). Kimliği not al (`/` işaretli).
+6. iOS de yapacaksan aynı adımları iOS uygulaması için ayrıca tekrarla (yerel + ödüllü).
 
 ## 2. Kimlikler nereye yazılır
 
@@ -18,8 +32,10 @@ Tanımlayıcı olmadan alınan **release** derlemede reklam tamamen kapalıdır 
 |---|---|---|
 | Android **uygulama** kimliği (`~`) | `app/android/key.properties` | `admobAppId=ca-app-pub-XXXX~YYYY` satırı ekle (dosya git'e girmez). Yoksa Google'ın test uygulama kimliği kullanılır. |
 | Android **birim** kimliği (`/`) | derleme komutu | `--dart-define=ADMOB_NATIVE_ANDROID=ca-app-pub-XXXX/ZZZZ` |
+| Android **ödüllü** birim kimliği (`/`) | derleme komutu | `--dart-define=ADMOB_ODULLU_ANDROID=ca-app-pub-XXXX/WWWW` |
 | iOS uygulama kimliği | `app/ios/Runner/Info.plist` | `GADApplicationIdentifier` değerini değiştir (şu an Google test kimliği). |
 | iOS birim kimliği | derleme komutu | `--dart-define=ADMOB_NATIVE_IOS=ca-app-pub-XXXX/ZZZZ` |
+| iOS ödüllü birim kimliği | derleme komutu | `--dart-define=ADMOB_ODULLU_IOS=ca-app-pub-XXXX/WWWW` |
 
 Birim kimlikleri koda yazılmaz, git'e girmez: yalnızca derleme komutunda verilir.
 
@@ -28,10 +44,11 @@ Birim kimlikleri koda yazılmaz, git'e girmez: yalnızca derleme komutunda veril
 ```bash
 cd app
 ANDROID_HOME=~/Library/Android/sdk ~/development/flutter/bin/flutter build appbundle --release \
-  --dart-define=ADMOB_NATIVE_ANDROID=ca-app-pub-XXXXXXXXXXXXXXXX/ZZZZZZZZZZ
+  --dart-define=ADMOB_NATIVE_ANDROID=ca-app-pub-XXXXXXXXXXXXXXXX/ZZZZZZZZZZ \
+  --dart-define=ADMOB_ODULLU_ANDROID=ca-app-pub-XXXXXXXXXXXXXXXX/WWWWWWWWWW
 ```
 
-Aynı bayrak `flutter build apk --release` için de geçerlidir. `--dart-define` vermezsen release'te reklam kapalı olur (güvenli varsayılan). `flutter run` (debug) ile kimlik vermeden çalıştırırsan Google'ın herkese açık TEST reklamları görünür; test reklamlarına tıklamak güvenlidir.
+Aynı bayraklar `flutter build apk --release` için de geçerlidir. Yerel birim kimliğini vermezsen release'te reklam kapalı olur (güvenli varsayılan). Yalnızca ödüllü kimliği vermezsen reklamlar çalışır ama "Reklamsız gün" özelliği gizlenir. `flutter run` (debug) ile kimlik vermeden çalıştırırsan Google'ın herkese açık TEST reklamları (yerel ve ödüllü) görünür; test reklamlarına tıklamak güvenlidir.
 
 ## 4. Kendi reklamına tıklama (HESAP KAPANIR)
 
@@ -71,7 +88,7 @@ iOS: reklam kimliği (IDFA) için App Tracking Transparency istemi bu sürümde 
 ## 8. Ödeme eşikleri ve gelir beklentisi
 
 * AdMob ödeme eşiği genel olarak (ülkeye göre değişir; AdMob > Ödemeler sayfasında gör) yaklaşık 70 USD'dir; bakiye eşiğe ulaşınca ödeme sonraki ay yapılır. Ayrıca adres PIN'i (posta ile gelir) ve vergi bilgileri doldurulmalıdır, aksi halde ödeme bekler.
-* **Gelir beklentisi (kesin rakam değil, TAHMİN):** Tek yerel reklam, günde birkaç kez görülen bir yemek uygulamasında, Türkiye'de 1000 gösterim başına gelir (eCPM) genelde çok düşüktür (kabaca 0,1-1 USD). Örneğin günlük 1000 aktif kullanıcı ve kullanıcı başı ortalama 2 reklam gösterimiyle ayda yaklaşık 60 bin gösterim olur; bu yaklaşık 6-60 USD/ay eder, yani eşiğe aylar sürebilir. İlk günlerdeki reklamsız süre, 2 sn bekleme ve kaydırılmayan reklamlar gösterimi daha da azaltır. Gerçek rakamlar AdMob panelinde görünür; buradakiler yalnızca büyüklük fikri verir.
+* **Gelir beklentisi (kesin rakam değil, TAHMİN):** Tek yerel reklam, günde birkaç kez görülen bir yemek uygulamasında, Türkiye'de 1000 gösterim başına gelir (eCPM) genelde çok düşüktür (kabaca 0,1-1 USD). Örneğin günlük 1000 aktif kullanıcı ve kullanıcı başı ortalama 2 reklam gösterimiyle ayda yaklaşık 60 bin gösterim olur; bu yaklaşık 6-60 USD/ay eder, yani eşiğe aylar sürebilir. İlk günlerdeki reklamsız süre, 2 sn bekleme ve kaydırılmayan reklamlar gösterimi daha da azaltır. v2'de dört yerleşim ve uzun ekranda görselli (orta) şablon gösterim başına geliri artırabilir, ödüllü reklam ise izleyen kullanıcıdan genelde tek gösterimde yerel karttan daha yüksek gelir getirir; ancak ödüllü reklamı izleyen kullanıcı 24 saat yerel reklam görmez, yani net etki belirsizdir. Bunlar tahmindir: kesin kazanç vaadi değildir, gerçek etkiyi AdMob'da yerleşim ve birim bazında izle. Gerçek rakamlar AdMob panelinde görünür; buradakiler yalnızca büyüklük fikri verir.
 
 ## 9. Doğrulama listesi (yayından önce)
 
@@ -79,3 +96,32 @@ iOS: reklam kimliği (IDFA) için App Tracking Transparency istemi bu sürümde 
 2. Birleşik manifestte `com.google.android.gms.ads.APPLICATION_ID` ve `com.google.android.gms.permission.AD_ID` olduğunu kontrol et: `app/build/app/intermediates/merged_manifests/release/` altındaki `AndroidManifest.xml`.
 3. Play Console > Uygulama içeriği: **Reklamlar: Evet**, **Reklam kimliği: Evet (reklamcılık)**, Veri güvenliği tablosuna reklam satırlarını ekle (`LISTE.md`).
 4. Kapalı testte gerçek bir cihazda reklamın "Reklam" etiketiyle öğün kartının altında açıldığını, yer ayırmadan yumuşakça belirdiğini gör. Bu görünüm gerçek cihazda henüz denenmedi: reklam şablonu Google'ın yerel kodudur ve test ortamında çalışmaz.
+
+## 10. Uzaktan ayar: yayından sonra reklamları açıp kapatma
+
+Uygulama güncellemesi yayınlamadan reklamları yönetmek için depodaki **`data/ayarlar.json`** dosyası kullanılır (uygulamayla gelen yedeği `app/assets/data/ayarlar.json`). Bu dosyayı veri robotu (scraper) **değiştirmez ve silmez**; yalnızca sen GitHub'da düzenlersin. Uygulama dosyayı menüler gibi okur (internet, önbellek, uygulamayla gelen kopya) ve ilk açılış gününden sonra, reklam gösterilmeden önce bir kez bakar. Dosya yoksa ya da bozuksa uygulama güvenli varsayılanı kullanır (aşağıdaki değerler) ve hiç çökmez.
+
+```json
+{
+  "reklam": {
+    "aktif": true,
+    "lutufGun": 2,
+    "oturumSiniri": 20,
+    "yerlesimler": { "ana": true, "hafta": true, "arama": true, "detay": true },
+    "anaBuyuk": true,
+    "odullu": true
+  },
+  "updated": "2026-11-08T12:00:00+03:00"
+}
+```
+
+| Alan | Anlamı | Varsayılan |
+|---|---|---|
+| `aktif` | `false` yaparsan tüm reklamlar kapanır, Google SDK'sı hiç başlatılmaz. Acil durum düğmesidir. | `true` |
+| `lutufGun` | İlk açılış gününden sonra kaç gün reklamsız (0-30). | `2` |
+| `oturumSiniri` | Uygulama açıkken en çok kaç reklam yüklensin (0-200). | `20` |
+| `yerlesimler` | `ana`, `hafta`, `arama`, `detay` tek tek `false` yapılarak kapatılır; yazılmayan yerleşim açık sayılır. | hepsi `true` |
+| `anaBuyuk` | `false` yaparsan ana ekranda görselli orta şablon kullanılmaz, hep küçük şablon olur. | `true` |
+| `odullu` | `false` yaparsan "Reklamsız gün" özelliği gizlenir. | `true` |
+
+Değişiklik, kullanıcıların cihazındaki önbelleğe bağlı olarak bir sonraki açılışlarında yürürlüğe girer. Anlık değildir. Bozuk bir alan (yanlış tür, aralık dışı sayı) yalnızca o alanın varsayılana dönmesine yol açar. Dosya adındaki `updated` alanı uygulamanın yeni kopyayı eski paket kopyasına tercih etmesi içindir: dosyayı değiştirince `updated` tarihini de güncelle.

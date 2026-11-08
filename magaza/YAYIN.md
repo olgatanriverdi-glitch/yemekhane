@@ -56,7 +56,7 @@ Her yeni yüklemede `app/pubspec.yaml` içindeki `version: 1.0.0+2` değerinin `
 Hepsi için hazır yanıtlar `magaza/LISTE.md` içinde:
 
 1. **Gizlilik politikası:** gizlilik.html adresi.
-2. **Reklamlar:** **Evet** (Google AdMob). Reklam kimliği beyanı: Evet (reklamcılık). Gerçek reklam kimlikleriyle derleme adımı: `REKLAM.md`; kimlik verilmeden alınan release'te reklam kapalıdır ve test reklamı çıkmaz.
+2. **Reklamlar:** **Evet** (Google AdMob). Reklam kimliği beyanı: Evet (reklamcılık). Gerçek reklam kimlikleriyle derleme adımı (yerel + ödüllü birim, iki `--dart-define`): `REKLAM.md`; kimlik verilmeden alınan release'te reklam kapalıdır ve test reklamı çıkmaz. Yayından sonra reklamı kapatıp açmak için `data/ayarlar.json` (`REKLAM.md` bölüm 10).
    **app-ads.txt ZORUNLU** (yeni AdMob uygulamaları, Ocak 2025'ten beri): `olgatanriverdi-glitch.github.io` adlı herkese açık bir depo aç, kökünde `app-ads.txt` yayınla (örnek: `magaza/app-ads.txt.ornek`, `pub-` kimliğini AdMob'dan al), Play Console'da geliştirici **Web sitesi** alanına aynı alan adını (`https://olgatanriverdi-glitch.github.io`) yaz, AdMob'da **Uygulamayı doğrula > Güncellemeleri denetle** de. Doğrulanmadan reklam tam açılmaz. Ayrıntı ve "doğrulanmadı" notu: `REKLAM.md` bölüm 5.
 3. **Uygulama erişimi:** Tüm işlevler özel erişim olmadan kullanılabilir.
 4. **İçerik derecelendirme:** anket (kullanıcı içeriği: Evet).

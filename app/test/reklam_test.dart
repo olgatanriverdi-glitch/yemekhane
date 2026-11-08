@@ -208,16 +208,17 @@ void main() {
     });
   });
 
-  group('yeni kullanıcı nezaketi (3 gün)', () {
+  group('yeni kullanıcı nezaketi (ilk gün + 2 gün)', () {
     const ilk = '2026-10-30';
-    test('sınır: üçüncü gün hâlâ reklamsız, dördüncü gün reklam', () {
+    test('sınır: ilk gün ve sonraki 2 gün reklamsız, ondan sonra reklam', () {
       expect(reklamsizSureBitti(ilk, DateTime.utc(2026, 10, 30, 9)), isFalse);
       expect(
-          reklamsizSureBitti(ilk, DateTime.utc(2026, 11, 1, 23, 59)), isFalse);
+          reklamsizSureBitti(ilk, DateTime.utc(2026, 10, 31, 23, 59)), isFalse);
       expect(
-          reklamsizSureBitti(ilk, DateTime.utc(2026, 11, 2, 23, 59)), isFalse);
-      expect(reklamsizSureBitti(ilk, DateTime.utc(2026, 11, 3, 0, 1)), isTrue);
+          reklamsizSureBitti(ilk, DateTime.utc(2026, 11, 1, 23, 59)), isFalse);
+      expect(reklamsizSureBitti(ilk, DateTime.utc(2026, 11, 2, 0, 1)), isTrue);
       expect(reklamsizSureBitti(ilk, DateTime.utc(2027, 3, 1)), isTrue);
+      expect(reklamsizGunSayisi, 2);
     });
 
     test('bozuk, eksik ve gelecekteki kayıt reklamsız sayılır ve geçersizdir',
@@ -299,32 +300,34 @@ void main() {
     });
 
     test(
-        'oturum sınırı: en çok 10 yükleme, sonrası eldekiler yeniden kullanılır',
+        'oturum sınırı: en çok 20 yükleme, sonrası eldekiler yeniden kullanılır',
         () async {
       final s = SahteReklamServisi();
       final y = _yonetici(s);
-      for (var i = 0; i < 12; i++) {
+      expect(oturumYuklemeSiniri, 20);
+      for (var i = 0; i < 22; i++) {
         final n = await y.iste('k$i', _stil());
-        expect(n == null, i >= 10, reason: 'k$i');
+        expect(n == null, i >= 20, reason: 'k$i');
       }
-      expect(s.yukleSayisi, 10);
-      expect(y.yuklemeSayisi, 10);
+      expect(s.yukleSayisi, 20);
+      expect(y.yuklemeSayisi, 20);
       // bellekteki son reklam sınır dolunca da verilir, yeni yükleme olmaz
-      expect(await y.iste('k9', _stil()), isNotNull);
-      expect(s.yukleSayisi, 10);
+      expect(await y.iste('k19', _stil()), isNotNull);
+      expect(s.yukleSayisi, 20);
       y.dispose();
     });
 
-    test('LRU: en çok 3 reklam bellekte kalır, çıkan dispose edilir', () async {
+    test('LRU: en çok 5 reklam bellekte kalır, çıkan dispose edilir', () async {
       final s = SahteReklamServisi();
       final y = _yonetici(s);
-      for (final k in ['a', 'b', 'c']) {
+      expect(reklamOnbellekSiniri, 5);
+      for (final k in ['a', 'b', 'c', 'd', 'e']) {
         await y.iste(k, _stil());
       }
       await y.iste('a', _stil()); // a yeniden kullanıldı: en eski artık b
-      await y.iste('d', _stil());
-      expect(y.onbellekAdedi, 3);
-      expect(s.acikReklam, 3);
+      await y.iste('f', _stil());
+      expect(y.onbellekAdedi, 5);
+      expect(s.acikReklam, 5);
       expect(y.nesne('b'), isNull);
       expect(y.nesne('a'), isNotNull);
       expect(s.yuklenenler[1].kapandi, isTrue); // b
@@ -340,16 +343,16 @@ void main() {
       final sahip = Object();
       await y.iste('a', _stil());
       expect(y.sahiplen('a', sahip), isTrue);
-      for (final k in ['b', 'c', 'd']) {
+      for (final k in ['b', 'c', 'd', 'e', 'f']) {
         await y.iste(k, _stil());
       }
       expect(y.nesne('a'), isNotNull);
       expect(s.yuklenenler[0].kapandi, isFalse);
-      expect(y.onbellekAdedi, 3);
+      expect(y.onbellekAdedi, 5);
       y.birak('a', sahip);
-      await y.iste('e', _stil());
-      expect(y.onbellekAdedi, 3);
-      expect(s.acikReklam, 3);
+      await y.iste('g', _stil());
+      expect(y.onbellekAdedi, 5);
+      expect(s.acikReklam, 5);
       y.dispose();
     });
 
@@ -958,6 +961,10 @@ void main() {
 class _Bozuk implements ReklamServisi {
   @override
   bool get kullanilabilir => true;
+  @override
+  bool get odulluKullanilabilir => true;
+  @override
+  Future<OdulluSonuc> odulluIzle() => throw StateError('odulluIzle');
   @override
   Future<bool> hazirla() => throw StateError('hazirla');
   @override

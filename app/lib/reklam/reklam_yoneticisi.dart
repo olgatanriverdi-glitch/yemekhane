@@ -6,6 +6,7 @@ import 'package:shared_preferences/shared_preferences.dart';
 import '../models.dart';
 import 'reklam_ayari.dart';
 import 'reklam_servisi.dart';
+import 'uzak_ayar.dart';
 
 class _Kayit {
   _Kayit(this.nesne, this.zaman);
@@ -15,8 +16,12 @@ class _Kayit {
 
 /// Reklamların yaşam döngüsü: ne zaman istek atılır, kaç reklam bellekte tutulur, hangi widget hangisini gösterir.
 ///
-/// - Yeni kullanıcıya nezaket: [gosterilebilir] ilk açılıştan sonraki 3 gün false döner ([reklamsizSureBitti]).
-/// - Oturum sınırı: en çok [oturumSiniri] yükleme; sonrası yalnızca bellektekiler yeniden kullanılır.
+/// - Yeni kullanıcıya nezaket: [gosterilebilir] ilk açılıştan sonraki [UzakReklamAyari.lutufGun] (2) gün false döner
+///   ([reklamsizSureBitti]).
+/// - Uzaktan ayar ([ayarGetir], `ayarlar.json`): reklam kapatılabilir (SDK hiç başlatılmaz), yerleşimler tek tek
+///   kapatılabilir; okunamazsa güvenli varsayılan ([UzakReklamAyari.varsayilan]).
+/// - Reklamsız gün: ödüllü reklam izlenince 24 saat hiçbir reklam gösterilmez ([reklamsizMi]).
+/// - Oturum sınırı: en çok [oturumSiniri] yükleme (varsayılan 20); sonrası yalnızca bellektekiler yeniden kullanılır.
 /// - Küçük LRU: en çok [onbellekSiniri] reklam; fazlası (kimse göstermiyorsa) serbest bırakılır. Yüklenemeyen
 ///   anahtar [reklamHataBeklemesi] boyunca yeniden denenmez; aynı anahtara eşzamanlı istekler tek yüklemeyi paylaşır.
 /// - Sahiplik: AdWidget aynı reklamla ağaçta iki kez durursa istisna atar. Gün geçişinde (AnimatedSwitcher) eski
@@ -30,17 +35,63 @@ class ReklamYoneticisi extends ChangeNotifier {
       {required this.servis,
       DateTime Function()? simdi,
       this.bekleme = reklamBeklemesi,
-      this.oturumSiniri = oturumYuklemeSiniri,
-      this.onbellekSiniri = reklamOnbellekSiniri})
-      : _simdi = simdi ?? turkiyeSimdi;
+      int? oturumSiniri,
+      this.onbellekSiniri = reklamOnbellekSiniri,
+      this.ayarGetir})
+      : _oturumZorla = oturumSiniri,
+        _simdi = simdi ?? turkiyeSimdi;
 
   final ReklamServisi servis;
   final DateTime Function() _simdi;
 
   /// Aynı gün + öğünde istek atmadan önce beklenen süre.
   final Duration bekleme;
-  final int oturumSiniri;
+  final int? _oturumZorla;
   final int onbellekSiniri;
+
+  /// Uzaktan ayarı getirir (`Depo.reklamAyari`); boşsa ya da hata verirse [UzakReklamAyari.varsayilan].
+  final Future<UzakReklamAyari> Function()? ayarGetir;
+  UzakReklamAyari _ayar = UzakReklamAyari.varsayilan;
+  Future<void>? _baslangic;
+  bool _lutufBitti = false;
+  bool _ilkGunGecti = false;
+  Future<void>? _ayarOkuma;
+  DateTime? _reklamsizBitisi;
+  Timer? _reklamsizZamani;
+
+  /// Oturumda en çok yükleme: yapıcıda verilmişse o (testler), yoksa uzaktan ayar (varsayılan 20).
+  int get oturumSiniri => _oturumZorla ?? _ayar.oturumSiniri;
+
+  /// Yöneticinin saati (Türkiye duvar saati).
+  DateTime simdi() => _simdi();
+
+  /// Etkin uzaktan ayar (yüklenene dek varsayılan).
+  UzakReklamAyari get ayar => _ayar;
+
+  /// Yeni kullanıcı nezaket süresi bitti mi ([baslat] / [gosterilebilir] günceller)?
+  bool get lutufBitti => _lutufBitti;
+
+  /// Ödüllü "Reklamsız gün" şu an etkin mi?
+  bool get reklamsizMi {
+    final b = _reklamsizBitisi;
+    return b != null && _simdi().isBefore(b);
+  }
+
+  /// Reklamsız sürenin bitişi (Türkiye duvar saati); etkin değilse null.
+  DateTime? get reklamsizBitis => reklamsizMi ? _reklamsizBitisi : null;
+
+  /// "Reklamsız gün kazan" önerilebilir mi: reklam mümkün, ödüllü birim var, uzaktan açık, nezaket süresi bitmiş
+  /// ve zaten reklamsız değil.
+  bool get odulluAcik =>
+      acik &&
+      servis.odulluKullanilabilir &&
+      _ayar.odullu &&
+      _lutufBitti &&
+      !reklamsizMi;
+
+  /// [yer] yerleşiminde şu an reklam çizilebilir mi (reklam açık, uzaktan açık, reklamsız gün değil)?
+  bool yerlesimIzinli(String yer) =>
+      acik && !reklamsizMi && _ayar.yerlesimAcik(yer);
 
   // ekleme sırası = kullanım sırası (en eski başta)
   final Map<String, _Kayit> _onbellek = {};
@@ -57,7 +108,7 @@ class ReklamYoneticisi extends ChangeNotifier {
   bool _kapandi = false;
 
   /// Reklam bu derlemede ve platformda mümkün mü?
-  bool get acik => !_kapandi && servis.kullanilabilir;
+  bool get acik => !_kapandi && servis.kullanilabilir && _ayar.aktif;
 
   /// Bu oturumda servise gönderilen yükleme sayısı.
   int get yuklemeSayisi => _yuklemeSayisi;
@@ -79,21 +130,134 @@ class ReklamYoneticisi extends ChangeNotifier {
       final kayit = p.get(ilkAcilisAnahtari);
       if (!ilkAcilisKaydiGecerli(kayit, simdi)) {
         await p.setString(ilkAcilisAnahtari, isoTarih(simdi));
-        return false;
+        _ilkGunGecti = false;
+        return _lutufBitti = false;
       }
-      return reklamsizSureBitti(kayit, simdi);
+      _ilkGunGecti = reklamsizSureBitti(kayit, simdi, gun: 0);
+      return _lutufBitti =
+          reklamsizSureBitti(kayit, simdi, gun: _ayar.lutufGun);
     } catch (_) {
-      return false;
+      _ilkGunGecti = false;
+      return _lutufBitti = false;
     }
   }
 
-  /// İlk açılış gününü saklar (reklam kapalı olsa da; sonradan açılırsa nezaket süresi doğru işlesin).
-  Future<void> ilkAcilisiKaydet() => _ilkAcilisKontrol();
+  /// İlk açılış gününü saklar (reklam kapalı olsa da; sonradan açılırsa nezaket süresi doğru işlesin) ve reklamsız
+  /// gün kaydını okur. Bir kez çalışır; sonraki çağrılar aynı işi bekler. Ağa çıkmaz.
+  Future<void> ilkAcilisiKaydet() => baslat();
 
-  /// Reklam şu an gösterilebilir mi: servis mümkün ve yeni kullanıcı nezaket süresi bitti.
-  Future<bool> gosterilebilir() async {
-    if (!acik) return false;
+  /// [ilkAcilisiKaydet] ile aynı.
+  Future<void> baslat() => _baslangic ??= _baslat();
+
+  Future<void> _baslat() async {
+    await _ilkAcilisKontrol();
+    await _reklamsizOku();
+    if (!_kapandi) notifyListeners();
+  }
+
+  /// Uzaktan ayarı bir kez okur ([ayarGetir]). Yalnızca reklam mümkünse ve ilk açılış günü geçmişse ağa çıkılır:
+  /// ilk açılış gününde hiçbir nezaket ayarı reklamı açamaz (lütuf en az 0 gün), o yüzden ayar da gerekmez.
+  /// Hata fırlatmaz; ayar okunamazsa güvenli varsayılan kalır.
+  Future<void> ayarYukle() async {
+    await baslat();
+    if (_kapandi || !servis.kullanilabilir || ayarGetir == null) return;
+    if (!_ilkGunGecti) return;
+    return _ayarOkuma ??= _ayarOku();
+  }
+
+  Future<void> _ayarOku() async {
+    try {
+      _ayar = await ayarGetir!().timeout(const Duration(seconds: 12));
+    } catch (_) {
+      _ayar = UzakReklamAyari.varsayilan;
+    }
+    await _ilkAcilisKontrol(); // lütuf süresi uzaktan değişmiş olabilir
+    if (!_kapandi) notifyListeners();
+  }
+
+  /// Reklam şu an gösterilebilir mi: servis mümkün, uzaktan açık, reklamsız gün değil, [yerlesim] (verilirse)
+  /// uzaktan açık ve yeni kullanıcı nezaket süresi bitti.
+  Future<bool> gosterilebilir({String? yerlesim}) async {
+    if (!servis.kullanilabilir || _kapandi) return false;
+    await baslat();
+    if (!acik || reklamsizMi) return false;
+    // ilk açılış gününde ayar bile okunmaz
+    await _ilkAcilisKontrol();
+    if (!_ilkGunGecti) return false;
+    await ayarYukle();
+    if (!acik || reklamsizMi) return false;
+    if (yerlesim != null && !_ayar.yerlesimAcik(yerlesim)) return false;
     return _ilkAcilisKontrol();
+  }
+
+  // ---- reklamsız gün (ödüllü) ----------------------------------------------------------------------------------
+
+  Future<void> _reklamsizOku() async {
+    try {
+      final p = await SharedPreferences.getInstance();
+      final kayit = p.get(reklamsizBitisAnahtari);
+      final b = kayit is String ? DateTime.tryParse(kayit) : null;
+      final simdi = _simdi();
+      // geçmiş, çözülemeyen ya da (saat oynamasına karşı) 24 saatten uzak gelecekteki kayıt geçersizdir
+      if (b == null ||
+          !b.isAfter(simdi) ||
+          b.isAfter(
+              simdi.add(reklamsizGunSuresi + const Duration(minutes: 5)))) {
+        return;
+      }
+      _reklamsizBitisi = b;
+      _reklamsizZamaniKur();
+    } catch (_) {}
+  }
+
+  void _reklamsizZamaniKur() {
+    _reklamsizZamani?.cancel();
+    final b = _reklamsizBitisi;
+    if (b == null || _kapandi) return;
+    final kalan = b.difference(_simdi());
+    if (kalan <= Duration.zero) {
+      _reklamsizBitisi = null;
+      return;
+    }
+    // süre dolunca kartlar geri gelir (dinleyiciler yeniden değerlendirir)
+    _reklamsizZamani = Timer(kalan, () {
+      _reklamsizBitisi = null;
+      if (!_kapandi) notifyListeners();
+    });
+  }
+
+  /// Ödül kazanıldı: bugünden itibaren [reklamsizGunSuresi] boyunca reklam gösterilmez. Saklama yazılamazsa
+  /// bile bu oturumda geçerlidir.
+  Future<void> reklamsizBaslat() async {
+    final b = _simdi().add(reklamsizGunSuresi);
+    _reklamsizBitisi = b;
+    _reklamsizZamaniKur();
+    // gösterilen kartlar hemen bırakılır, kimsenin göstermediği bellekteki reklamlar serbest kalır
+    notifyListeners();
+    _fazlayiAt();
+    try {
+      final p = await SharedPreferences.getInstance();
+      await p.setString(reklamsizBitisAnahtari, b.toIso8601String());
+    } catch (_) {}
+  }
+
+  /// "Reklamsız gün": rıza/SDK hazırlığından sonra ödüllü reklamı yükleyip gösterir. Ödül yalnızca izleme
+  /// tamamlanınca gelir; o zaman reklamsız süre başlar. Ödül gelmezse hiçbir şey değişmez.
+  Future<OdulluSonuc> odulluIzle() async {
+    if (!odulluAcik) return OdulluSonuc.yuklenemedi;
+    try {
+      final hazir = await (_hazir ??= _hazirla());
+      if (!_kapandi) rizaSurumu.value++;
+      if (!hazir) {
+        _hazir = null;
+        return OdulluSonuc.yuklenemedi;
+      }
+      final sonuc = await servis.odulluIzle();
+      if (sonuc == OdulluSonuc.odul && !_kapandi) await reklamsizBaslat();
+      return sonuc;
+    } catch (_) {
+      return OdulluSonuc.yuklenemedi;
+    }
   }
 
   // ---- yükleme -------------------------------------------------------------------------------------------------
@@ -101,7 +265,7 @@ class ReklamYoneticisi extends ChangeNotifier {
   /// [anahtar] ([anahtarOlustur]) için bir reklam döndürür: bellekte varsa o, yoksa yükler. Yüklenemezse, rıza yoksa,
   /// oturum sınırı dolduysa ya da reklam kapalıysa null. Hata fırlatmaz.
   Future<ReklamNesnesi?> iste(String anahtar, ReklamStili stil) {
-    if (!acik) return Future.value(null);
+    if (!acik || reklamsizMi) return Future.value(null);
     final var_ = _bak(anahtar);
     if (var_ != null) return Future.value(var_);
     final hata = _hatalar[anahtar];
@@ -182,7 +346,9 @@ class ReklamYoneticisi extends ChangeNotifier {
 
   // Sınırı aşan en eski reklamı (kimse göstermiyorsa) serbest bırakır.
   void _fazlayiAt() {
-    while (_onbellek.length > onbellekSiniri) {
+    // reklamsız günde kimsenin göstermediği hiçbir reklam bellekte tutulmaz
+    final sinir = reklamsizMi ? 0 : onbellekSiniri;
+    while (_onbellek.length > sinir) {
       String? aday;
       for (final k in _onbellek.keys) {
         if (!_sahipler.containsKey(k)) {
@@ -245,6 +411,7 @@ class ReklamYoneticisi extends ChangeNotifier {
   void dispose() {
     if (_kapandi) return;
     _kapandi = true;
+    _reklamsizZamani?.cancel();
     rizaSurumu.dispose();
     for (final k in _onbellek.values) {
       k.nesne.dispose();

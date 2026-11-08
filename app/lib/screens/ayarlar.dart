@@ -8,6 +8,7 @@ import '../geri_bildirim.dart';
 import '../kalori_hedefi.dart';
 import '../models.dart';
 import '../reklam/reklam_yoneticisi.dart';
+import '../reklam/reklamsiz_gun.dart';
 import '../repository.dart';
 import '../tema.dart';
 import '../yorum_moderasyon.dart';
@@ -78,6 +79,8 @@ class _AyarlarSayfasiState extends State<AyarlarSayfasi> {
     super.initState();
     _engelSayisiniOku();
     _reklamTercihiniOku();
+    // "Reklamsız gün" satırı uzaktan ayara bağlıdır (ilk açılış gününde ağa çıkılmaz)
+    widget.reklam?.ayarYukle();
     // UMP yanıtı Ayarlar açıkken gelirse satır yeniden değerlendirilir
     widget.reklam?.rizaSurumu.addListener(_reklamTercihiniOku);
   }
@@ -96,6 +99,29 @@ class _AyarlarSayfasiState extends State<AyarlarSayfasi> {
       setState(() => _reklamTercihi = gerekli);
     }
   }
+
+  /// "Reklamsız gün kazan" (ödüllü reklam) ya da etkinse kalan süre; özellik yoksa görünmez.
+  Widget _reklamsizGunSatiri(ReklamYoneticisi y) => ListenableBuilder(
+        listenable: y,
+        builder: (context, _) {
+          final bitis = y.reklamsizBitis;
+          if (bitis != null) {
+            return ListTile(
+              leading: const Icon(Icons.timer_outlined),
+              title: const Text('Reklamsız gün'),
+              subtitle: Text(reklamsizKalanMetni(bitis, y.simdi())),
+            );
+          }
+          if (!y.odulluAcik) return const SizedBox.shrink();
+          return ListTile(
+            leading: const Icon(Icons.card_giftcard_outlined),
+            title: const Text('Reklamsız gün kazan'),
+            subtitle: const Text('Kısa bir reklam izle, 24 saat reklam görme'),
+            trailing: const Icon(Icons.chevron_right),
+            onTap: () => reklamsizGunIste(context, y),
+          );
+        },
+      );
 
   Future<void> _engelSayisiniOku() async {
     final n = (await _moderasyon.engellenenler()).length;
@@ -323,6 +349,7 @@ class _AyarlarSayfasiState extends State<AyarlarSayfasi> {
                 trailing: const Icon(Icons.chevron_right),
                 onTap: () => widget.reklam?.tercihleriAc(),
               ),
+            if (widget.reklam != null) _reklamsizGunSatiri(widget.reklam!),
             ListTile(
               leading: const Icon(Icons.block),
               title: Text('Engellenen kişiler ($_engelSayisi)'),

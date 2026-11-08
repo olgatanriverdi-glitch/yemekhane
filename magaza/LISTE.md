@@ -11,10 +11,10 @@ Her alan Play Console'a olduğu gibi yapıştırılabilir. Karakter sınırları
 | Paket adı | `com.tolga.yemekhane` (yayınlandıktan sonra DEĞİŞTİRİLEMEZ) |
 | Varsayılan dil | Türkçe (tr-TR) |
 | Uygulama türü | Uygulama (oyun değil) |
-| Ücretsiz / ücretli | Ücretsiz (reklam destekli: tek, küçük yerel reklam; uygulama içi satın alma yok) |
+| Ücretsiz / ücretli | Ücretsiz (reklam destekli: ekran başına en çok bir yerel reklam, isteğe bağlı ödüllü "Reklamsız gün"; uygulama içi satın alma yok) |
 | Kategori | Yemek ve İçecek (alternatif: Yaşam Tarzı) |
 | Etiketler (en çok 5) | Yemek ve İçecek, Eğitim, Yaşam Tarzı |
-| Reklam içeriyor mu | **Evet** (Google AdMob, tek yerel reklam kartı; ayrıntı `REKLAM.md`) |
+| Reklam içeriyor mu | **Evet** (Google AdMob, satır içi yerel reklam kartları ve isteğe bağlı ödüllü reklam; ayrıntı `REKLAM.md`) |
 | E-posta (herkese açık) | `uniyemek0@gmail.com` (gizlilik sayfalarındaki adresle aynı olmalı) |
 | Web sitesi | https://olgatanriverdi-glitch.github.io/yemekhane/ (app-ads.txt için Google yalnızca alan adına bakar; bkz. `REKLAM.md` bölüm 5) |
 | Gizlilik politikası | https://olgatanriverdi-glitch.github.io/yemekhane/gizlilik.html |
@@ -50,7 +50,7 @@ KİŞİSELLEŞTİR
 • İsteğe bağlı günlük menü bildirimi (varsayılan kapalı, saatini sen seçersin)
 
 REKLAM VE GİZLİLİK
-Uygulama ücretsizdir ve reklam içerir: ana ekranda öğün kartının altında, "Reklam" etiketli tek bir küçük kart (Google AdMob). Tam ekran, açılışta çıkan, videolu ya da sesli reklam yoktur; ilk günlerde reklam gösterilmez. Gerekli bölgelerde Google'ın rıza formu çıkar ve reklamlar verdiğin tercihlere uygun istenir; tercihini Ayarlar'dan değiştirebilirsin. Reklam SDK'sı reklam isteği sırasında cihaz bilgilerini işler. Konum ve kişi erişimi yok, ad ya da e-posta istenmez. Puan ve yorum için rastgele bir anonim kimlik kullanılır.
+Uygulama ücretsizdir ve reklam içerir: ana ekranda öğün kartının altında, haftalık menüde, yemek aramada ve yemek ayrıntısında içerikle birlikte kayan, "Reklam" etiketli küçük kartlar (Google AdMob); bir ekranda en çok bir tane. Tam ekran, açılışta çıkan, otomatik oynayan sesli ya da videolu reklam yoktur; ilk günlerde reklam gösterilmez. İstersen kısa bir reklam izleyerek 24 saat reklamsız kullanabilirsin (isteğe bağlı, zorunlu değil). Gerekli bölgelerde Google'ın rıza formu çıkar ve reklamlar verdiğin tercihlere uygun istenir; tercihini Ayarlar'dan değiştirebilirsin. Reklam SDK'sı reklam isteği sırasında cihaz bilgilerini işler. Konum ve kişi erişimi yok, ad ya da e-posta istenmez. Puan ve yorum için rastgele bir anonim kimlik kullanılır.
 
 ÖNEMLİ NOT
 Üni Yemek resmî bir kurum uygulaması değildir. Menüler okulların kendi sitelerinden otomatik derlenir; hatalı ya da eksik olabilir, önemli bilgiler için okulun duyurularına bak. Yemek fotoğrafları örnektir, okuldaki yemek birebir aynı görünmeyebilir.
@@ -129,7 +129,7 @@ Not: İstek sırasında IP adresi Google, GitHub ve Wikimedia sunucularında do�
 ## Hedef kitle ve içerik
 
 * Hedef yaş: **18 ve üzeri** (üniversite öğrencileri ve yetişkinler). 13 yaş altı seçme; "Aileler" programına girme. Gerekçe: uygulama kullanıcı içeriği barındırır ve çocuklara yönelik değildir. (Üniversite öğrencisi 17 yaşında olabilir; 18+ seçmek Play'in çocuk politikalarını tetiklemeden güvenli seçenektir. 16-17 yaşı da dahil etmek istersen "13+" yerine "16 ve üzeri" aralığını seç ama o zaman kullanıcı içeriği moderasyonunu daha sıkı sorgularlar.)
-* Çocukları çekecek görsel/dil yok. Reklam var: hedef kitle 18+ olduğundan Play "Aileler" reklam kuralları (yalnızca onaylı reklam SDK'ları) uygulanmaz; yine de AdMob'da içerik derecelendirmesi en çok T ve hassas kategoriler engelli.
+* Çocukları çekecek görsel/dil yok. Ödüllü reklam ("Reklamsız gün") yalnızca kullanıcı isteyince açılır; Veri Güvenliği tablosu değişmez (aynı Google Mobile Ads SDK'sı, aynı veri türleri). Reklam var: hedef kitle 18+ olduğundan Play "Aileler" reklam kuralları (yalnızca onaylı reklam SDK'ları) uygulanmaz; yine de AdMob'da içerik derecelendirmesi en çok T ve hassas kategoriler engelli.
 * Haber, sağlık, finans, devlet uygulaması beyanı: Hayır. Uygulama resmî bir kurum adına değil; ekranda ve açıklamada "resmî uygulama değildir" yazar. Kalori bilgisi okul menüsünden alınır, tıbbi tavsiye değildir (kalori hedefi ekranında uyarı var); "Sağlık" beyanı gerekmez.
 
 ## Kapalı test zorunluluğu (yeni kişisel geliştirici hesapları)

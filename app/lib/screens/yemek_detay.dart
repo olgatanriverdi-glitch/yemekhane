@@ -8,6 +8,9 @@ import '../config.dart';
 import '../favoriler.dart';
 import '../geri_bildirim.dart';
 import '../models.dart';
+import '../reklam/reklam_karti.dart';
+import '../reklam/reklam_yoneticisi.dart';
+import '../reklam/uzak_ayar.dart' show yerlesimDetay;
 import '../widgets/ogun_bilgi.dart';
 import '../widgets/ogun_karti.dart' show yemekIkonu;
 import 'geri_bildirim.dart';
@@ -50,6 +53,9 @@ class YemekDetaySayfasi extends StatefulWidget {
   /// Yüksek çözünürlüklü fotoğrafın adresinden görüntü sağlayıcı üretir; boşsa [commonsFotoSaglayici]
   /// (testlerde ağsız sahte sağlayıcı verilir).
   final ImageProvider Function(String adres)? buyukFotoOlustur;
+
+  /// Verilirse sayfanın en altında (yorumlardan sonra) tek bir küçük yerel reklam olabilir.
+  final ReklamYoneticisi? reklam;
   const YemekDetaySayfasi(
       {super.key,
       required this.yemek,
@@ -60,7 +66,8 @@ class YemekDetaySayfasi extends StatefulWidget {
       this.foto,
       this.favoriler,
       this.fotoBilgisi,
-      this.buyukFotoOlustur});
+      this.buyukFotoOlustur,
+      this.reklam});
 
   @override
   State<YemekDetaySayfasi> createState() => _YemekDetaySayfasiState();
@@ -327,6 +334,12 @@ class _YemekDetaySayfasiState extends State<YemekDetaySayfasi> {
                     puanGoster: false,
                     baslik: 'Bu yemek hakkında'),
               ],
+              // yorumlardan sonra, sayfanın en altında
+              if (widget.reklam != null)
+                ReklamKarti(
+                    anahtar: slot ?? y.ad,
+                    yonetici: widget.reklam,
+                    yerlesim: yerlesimDetay),
             ]),
           ),
         ],

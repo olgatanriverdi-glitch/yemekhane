@@ -69,7 +69,8 @@ class GunGovdesi extends StatelessWidget {
                     ? null
                     : () => depo.yemekBilgisi(anahtar),
                 geriBildirim: geriBildirim,
-                favoriler: favoriler)));
+                favoriler: favoriler,
+                reklam: reklam)));
     if (secilen != null && context.mounted) git(secilen.tarih, secilen.ogun);
   }
 

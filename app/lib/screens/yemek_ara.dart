@@ -5,10 +5,32 @@ import 'package:flutter/material.dart';
 import '../arama.dart';
 import '../favoriler.dart' show favoriGunEtiketi;
 import '../models.dart';
+import '../reklam/reklam_karti.dart';
+import '../reklam/reklam_yoneticisi.dart';
+import '../reklam/uzak_ayar.dart' show yerlesimArama;
 import '../repository.dart';
 import '../widgets/ogun_bilgi.dart';
 
 enum _Kapsam { sehir, tumu }
+
+/// Arama sonuçlarında reklam için gereken en az sonuç sayısı ve hangi sonuçtan sonra konacağı.
+const int aramaReklamEnAzSonuc = 8;
+const int aramaReklamSonucSirasi = 5;
+
+/// Sonuçlar bu süre sabit kalınca reklam istenir (yazarken ya da sonuçlar gelirken istek atılmaz).
+const Duration aramaReklamBeklemesi = Duration(seconds: 1);
+
+/// Arama listesinde reklamın gireceği satır sırası (0 tabanlı, reklam satırının kendi sırası) ya da reklam yoksa null.
+/// [sonucMu]: listedeki her satır için o satırın sonuç satırı (başlık değil) olup olmadığı; reklam 5. sonuç satırından
+/// hemen sonra gelir. En az [aramaReklamEnAzSonuc] sonuç yoksa null.
+int? aramaReklamSirasi(List<bool> sonucMu, int sonucSayisi) {
+  if (sonucSayisi < aramaReklamEnAzSonuc) return null;
+  var sonuc = 0;
+  for (var i = 0; i < sonucMu.length; i++) {
+    if (sonucMu[i] && ++sonuc == aramaReklamSonucSirasi) return i + 1;
+  }
+  return null;
+}
 
 /// Tam ekran yemek arama: seçili okulun şehrindeki okulların (ya da tüm okulların) bugünden sonraki
 /// menülerinde arar. Bir sonuca dokununca sayfa o [AramaSonucu] ile kapanır; ana sayfa o okula,
@@ -25,13 +47,17 @@ class YemekAraSayfasi extends StatefulWidget {
 
   /// 'yyyy-MM-dd'; bu günden öncesi aranmaz.
   final String bugun;
+
+  /// Verilirse yeterli sonuç varsa 5. sonuçtan sonra tek bir küçük yerel reklam olabilir.
+  final ReklamYoneticisi? reklam;
   const YemekAraSayfasi(
       {super.key,
       required this.depo,
       required this.uniler,
       required this.uni,
       required this.bugun,
-      this.menu});
+      this.menu,
+      this.reklam});
 
   @override
   State<YemekAraSayfasi> createState() => _YemekAraSayfasiState();
@@ -318,10 +344,26 @@ class _YemekAraSayfasiState extends State<YemekAraSayfasi> {
       ];
     }
     final sinirda = _sonuclar.length >= aramaEnCok;
+    final reklamSirasi = widget.reklam == null
+        ? null
+        : aramaReklamSirasi(
+            [for (final s in _satirlar) s.sonuc != null], _sonuclar.length);
     return [
       SliverList.builder(
-        itemCount: _satirlar.length + (sinirda ? 1 : 0),
-        itemBuilder: (context, i) {
+        itemCount: _satirlar.length +
+            (sinirda ? 1 : 0) +
+            (reklamSirasi == null ? 0 : 1),
+        itemBuilder: (context, i0) {
+          if (reklamSirasi != null && i0 == reklamSirasi) {
+            // sonuçlar (ve sorgu) 1 sn sabit kalınca istenir; sonuç değişirse bekleme yeniden başlar
+            return ReklamKarti(
+                anahtar: 'arama',
+                yonetici: widget.reklam,
+                yerlesim: yerlesimArama,
+                bekleme: aramaReklamBeklemesi,
+                tetik: '$_sorgu|${_sonuclar.length}');
+          }
+          final i = reklamSirasi != null && i0 > reklamSirasi ? i0 - 1 : i0;
           if (i >= _satirlar.length) {
             return Padding(
               padding: const EdgeInsets.all(16),

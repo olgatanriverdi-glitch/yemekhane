@@ -5,6 +5,9 @@ import '../hafta.dart';
 import '../models.dart';
 import '../paylas.dart';
 import '../paylasim.dart';
+import '../reklam/reklam_karti.dart';
+import '../reklam/reklam_yoneticisi.dart';
+import '../reklam/uzak_ayar.dart' show yerlesimHafta;
 import '../widgets/ogun_bilgi.dart';
 
 /// Haftalık menü: seçili öğün türü için haftanın (pazartesiden pazara) 7 günü, her gün bir kart.
@@ -28,6 +31,9 @@ class HaftaSayfasi extends StatefulWidget {
   /// Verilirse favori yemekler kalp ve kalın yazıyla öne çıkar.
   final FavoriDeposu? favoriler;
   final PaylasimServisi paylasim;
+
+  /// Verilirse 3. gün kartından sonra tek bir küçük yerel reklam olabilir (kapalıysa ya da yüklenemezse yer kaplamaz).
+  final ReklamYoneticisi? reklam;
   const HaftaSayfasi(
       {super.key,
       required this.uni,
@@ -36,7 +42,8 @@ class HaftaSayfasi extends StatefulWidget {
       required this.tarih,
       required this.ogun,
       required this.paylasim,
-      this.favoriler});
+      this.favoriler,
+      this.reklam});
 
   @override
   State<HaftaSayfasi> createState() => _HaftaSayfasiState();
@@ -97,18 +104,28 @@ class _HaftaSayfasiState extends State<HaftaSayfasi> {
                     key: ValueKey(_pazartesi),
                     padding: const EdgeInsets.fromLTRB(16, 4, 16, 16),
                     children: [
-                      for (final g in gunler)
+                      for (var i = 0; i < gunler.length; i++) ...[
                         _GunKarti(
-                            key: ValueKey('hafta-${g.tarih}'),
-                            gun: g,
-                            bugun: g.tarih == widget.bugun,
+                            key: ValueKey('hafta-${gunler[i].tarih}'),
+                            gun: gunler[i],
+                            bugun: gunler[i].tarih == widget.bugun,
                             favoriler: favoriler,
                             // menü aralığının dışındaki gün ana sayfada açılamaz
                             sec: ilk != null &&
-                                    g.tarih.compareTo(ilk) >= 0 &&
-                                    g.tarih.compareTo(son!) <= 0
-                                ? () => Navigator.of(context).pop(g.tarih)
+                                    gunler[i].tarih.compareTo(ilk) >= 0 &&
+                                    gunler[i].tarih.compareTo(son!) <= 0
+                                ? () =>
+                                    Navigator.of(context).pop(gunler[i].tarih)
                                 : null),
+                        // haftada en az 3 kart varsa 3. kartın altına tek reklam (kartlar arası boşluk 10 dp, reklam
+                        // kendi 16 dp boşluğunu getirir)
+                        if (haftaReklamVarMi(gunler.length, i) &&
+                            widget.reklam != null)
+                          ReklamKarti(
+                              anahtar: 'hafta',
+                              yonetici: widget.reklam,
+                              yerlesim: yerlesimHafta),
+                      ],
                     ],
                   ),
                 );
@@ -120,6 +137,10 @@ class _HaftaSayfasiState extends State<HaftaSayfasi> {
     );
   }
 }
+
+/// Haftalık menüde reklam [sira]'ıncı (0 tabanlı) kartın altına mı konur? Kart sayısı 3'ten azsa hiç konmaz; konursa
+/// 3. kartın (sira 2) altına.
+bool haftaReklamVarMi(int kartSayisi, int sira) => kartSayisi >= 3 && sira == 2;
 
 /// Üstte "2 – 8 Kasım" aralığı, altında öğün ve okul; yanlarda önceki / sonraki hafta okları
 /// (ana sayfadaki gün başlığıyla aynı görünüm). Menü aralığının dışına çıkılamayan ok pasiftir.

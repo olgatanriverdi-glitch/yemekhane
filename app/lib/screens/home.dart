@@ -83,6 +83,7 @@ class _AnaSayfaState extends State<AnaSayfa> with WidgetsBindingObserver {
   late final ReklamYoneticisi _reklam = widget.reklam ??
       ReklamYoneticisi(
           servis: gercekReklamServisiOlustur(),
+          ayarGetir: _depo.reklamAyari,
           simdi: widget.simdi ?? turkiyeSimdi);
   List<Universite> _uniler = [];
   Universite? _uni;
@@ -123,8 +124,9 @@ class _AnaSayfaState extends State<AnaSayfa> with WidgetsBindingObserver {
     _favoriler.yukle();
     _kalori.yukle();
     _bildirim.yukle();
-    // ilk açılış günü saklanır (yeni kullanıcıya ilk günlerde reklam gösterilmez); reklam kapalı olsa da
-    _reklam.ilkAcilisiKaydet();
+    // ilk açılış günü saklanır (yeni kullanıcıya ilk günlerde reklam gösterilmez), uzaktan ayar ve reklamsız gün
+    // kaydı okunur; reklam kapalı olsa da kayıt yazılır
+    _reklam.baslat();
     _favoriler.addListener(_favorileriBildir);
     _yukle();
   }
@@ -303,7 +305,8 @@ class _AnaSayfaState extends State<AnaSayfa> with WidgetsBindingObserver {
                 uniler: _uniler,
                 uni: uni,
                 menu: _menu,
-                bugun: _bugun)));
+                bugun: _bugun,
+                reklam: _reklam)));
     if (sonuc == null || !mounted) return;
     // "Aynı okul" hedefe göre: B yüklenirken ekrandaki A'dan sonuç seçilirse A'ya dönülür, B'nin yanıtı elenir.
     if (sonuc.okul.id == _hedefId) {
@@ -326,7 +329,8 @@ class _AnaSayfaState extends State<AnaSayfa> with WidgetsBindingObserver {
             tarih: _tarih,
             ogun: _aktifOgun,
             favoriler: _favoriler,
-            paylasim: _paylasim)));
+            paylasim: _paylasim,
+            reklam: _reklam)));
     if (tarih != null && mounted) _gunSec(tarih);
   }
 

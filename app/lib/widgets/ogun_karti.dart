@@ -6,6 +6,7 @@ import '../kalori_hedefi.dart';
 import '../models.dart';
 import '../reklam/reklam_karti.dart';
 import '../reklam/reklam_yoneticisi.dart';
+import '../reklam/uzak_ayar.dart' show yerlesimAna;
 import '../screens/geri_bildirim.dart';
 
 /// Bir öğünün kartı: toplam kalori, servis saati, yemek satırları (puanlı) ve yorumlar.
@@ -312,7 +313,10 @@ class _OgunKartiState extends State<OgunKarti> {
         if (widget.reklam != null)
           ReklamKarti(
               anahtar: widget.reklamAnahtari ?? widget.slot,
-              yonetici: widget.reklam),
+              yonetici: widget.reklam,
+              yerlesim: yerlesimAna,
+              // uzun ekranda görselli (medium), değilse küçük şablon
+              buyukOlabilir: true),
         const SizedBox(height: 12),
         GeriBildirimBolumu(
             key: ValueKey(widget.slot),

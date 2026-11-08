@@ -7,6 +7,7 @@ import 'package:shared_preferences/shared_preferences.dart';
 
 import 'config.dart';
 import 'models.dart';
+import 'reklam/uzak_ayar.dart';
 
 /// Veriyi sırayla dener: internet -> önbellek -> uygulamayla gelen kopya. Böylece çevrimdışıyken de menü görünür.
 class Depo {
@@ -245,6 +246,17 @@ class Depo {
     if (anahtar.isEmpty) return null;
     final tablo = await _yemekTablosunuAl();
     return YemekBilgisi.fromJson(tablo?[anahtar]);
+  }
+
+  /// Uzaktan reklam ayarı (`ayarlar.json` > "reklam"): ağ -> önbellek -> uygulamayla gelen kopya sırasıyla okunur.
+  /// Dosya yoksa, bozuksa ya da okunamazsa güvenli varsayılan döner; hata fırlatmaz ve [cevrimdisi] değişmez.
+  Future<UzakReklamAyari> reklamAyari() async {
+    try {
+      return UzakReklamAyari.fromJson(
+          jsonDecode(await _oku('ayarlar.json', durumuBildir: false)));
+    } catch (_) {
+      return UzakReklamAyari.varsayilan;
+    }
   }
 
   /// Cihazda kayıtlı okulun kimliği; kayıt yoksa ya da depolama okunamazsa null (okul seçilmemiş sayılır).

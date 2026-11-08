@@ -18,7 +18,7 @@ class SahteReklamNesnesi implements ReklamNesnesi {
     final r = Theme.of(context).colorScheme;
     return Container(
       key: ValueKey('sahte-reklam-$no'),
-      height: 91,
+      height: stil?.buyuk == true ? 360 : 91,
       color: stil?.arkaPlan,
       padding: const EdgeInsets.all(12),
       child: Row(children: [
@@ -63,6 +63,8 @@ class SahteReklamServisi implements ReklamServisi {
       this.rizaVar = true,
       this.basarili = true,
       this.tercih = false,
+      this.odulluVar = true,
+      this.odulluSonucu = OdulluSonuc.odul,
       this.gecikme = Duration.zero});
   @override
   bool kullanilabilir;
@@ -71,7 +73,15 @@ class SahteReklamServisi implements ReklamServisi {
   /// false ise [yukle] null döner (yüklenemedi / dolu reklam yok).
   bool basarili;
   bool tercih;
+
+  /// Ödüllü reklam bu derlemede mümkün mü?
+  bool odulluVar;
+
+  /// [odulluIzle]nin döneceği sonuç.
+  OdulluSonuc odulluSonucu;
   Duration gecikme;
+  int odulluSayisi = 0;
+  final List<ReklamStili> istenenStiller = [];
 
   int hazirlaSayisi = 0;
   int yukleSayisi = 0;
@@ -90,11 +100,22 @@ class SahteReklamServisi implements ReklamServisi {
   @override
   Future<ReklamNesnesi?> yukle(ReklamStili stil) async {
     yukleSayisi++;
+    istenenStiller.add(stil);
     if (gecikme > Duration.zero) await Future<void>.delayed(gecikme);
     if (!basarili) return null;
     final r = SahteReklamNesnesi(yukleSayisi, stil: stil);
     yuklenenler.add(r);
     return r;
+  }
+
+  @override
+  bool get odulluKullanilabilir => odulluVar;
+
+  @override
+  Future<OdulluSonuc> odulluIzle() async {
+    odulluSayisi++;
+    if (gecikme > Duration.zero) await Future<void>.delayed(gecikme);
+    return odulluSonucu;
   }
 
   @override

@@ -11,6 +11,18 @@ abstract class ReklamNesnesi {
   void dispose();
 }
 
+/// Ödüllü reklam ("Reklamsız gün") denemesinin sonucu.
+enum OdulluSonuc {
+  /// İzleme tamamlandı, ödül kazanıldı.
+  odul,
+
+  /// Reklam yüklenemedi ya da gösterilemedi (ödül yok).
+  yuklenemedi,
+
+  /// Kullanıcı ödül gelmeden kapattı (ödül yok).
+  kapatildi,
+}
+
 /// Reklam SDK'sının arkasındaki soyutlama. Gerçek uygulama Google Mobile Ads'i, testler sahte servisi kullanır;
 /// testte platform kanalına hiç dokunulmaz.
 abstract class ReklamServisi {
@@ -25,6 +37,13 @@ abstract class ReklamServisi {
   /// Verilen görünümle bir yerel reklam yükler; yüklenemezse null (hata fırlatmaz).
   Future<ReklamNesnesi?> yukle(ReklamStili stil);
 
+  /// Ödüllü reklam (Reklamsız gün) bu derlemede mümkün mü? false ise özellik gizlenir (kimliksiz release, web).
+  bool get odulluKullanilabilir;
+
+  /// Ödüllü bir reklam yükler ve gösterir. Ödül yalnızca izleme tamamlanınca ([OdulluSonuc.odul]) verilir.
+  /// Hata fırlatmaz. Rıza ve SDK hazırlığı çağıran tarafından ([hazirla]) yapılmış olmalıdır.
+  Future<OdulluSonuc> odulluIzle();
+
   /// Ayarlar > Hakkında'da "Reklam tercihleri" gösterilmeli mi (AB / Birleşik Krallık gibi yerlerde zorunlu)?
   Future<bool> tercihGerekli();
 
@@ -37,6 +56,10 @@ class KapaliReklamServisi implements ReklamServisi {
   const KapaliReklamServisi();
   @override
   bool get kullanilabilir => false;
+  @override
+  bool get odulluKullanilabilir => false;
+  @override
+  Future<OdulluSonuc> odulluIzle() async => OdulluSonuc.yuklenemedi;
   @override
   Future<bool> hazirla() async => false;
   @override
