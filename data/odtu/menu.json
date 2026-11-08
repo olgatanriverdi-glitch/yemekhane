@@ -2356,6 +2356,7 @@
       "name": "Melek Çorba"
      },
      {
+      "img": "dishes/ac7971afb0.jpg",
       "kcal": 405,
       "key": "ac7971afb0",
       "name": "Sebzeli Köfte (Kabak Sandal)"
@@ -2609,6 +2610,7 @@
       "name": "Kafkas Çorba"
      },
      {
+      "img": "dishes/70d03ebb5e.jpg",
       "kcal": 407,
       "key": "70d03ebb5e",
       "name": "Etli Kuru Fasulye (Kuru Fasulye Yemeği)"
@@ -2690,6 +2692,7 @@
       "name": "Köz Domates Çorba"
      },
      {
+      "img": "dishes/8d23d87120.jpg",
       "kcal": 650,
       "key": "8d23d87120",
       "name": "Yoğurt Soslu İçli Köfte (Patatesli İçli Köfte)"
@@ -3440,5 +3443,5 @@
   }
  },
  "university": "odtu",
- "updated": "2026-11-08T19:52:27+03:00"
+ "updated": "2026-11-08T22:14:00+03:00"
 }

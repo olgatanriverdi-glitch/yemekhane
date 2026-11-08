@@ -849,6 +849,7 @@
       "name": "Domates Çorba"
      },
      {
+      "img": "dishes/421b1fb4aa.jpg",
       "key": "421b1fb4aa",
       "name": "Etli Sinop Mantı"
      },
@@ -931,6 +932,7 @@
       "name": "Domatesli Bulgur Pilavı"
      },
      {
+      "img": "dishes/4b7c62336b.jpg",
       "key": "4b7c62336b",
       "name": "İç Pilavı"
      },
@@ -1181,6 +1183,7 @@
       "name": "Köylü Çorba"
      },
      {
+      "img": "dishes/3a3c3813b7.jpg",
       "key": "3a3c3813b7",
       "name": "Etli Sebze Türlü"
      },
@@ -2142,5 +2145,5 @@
   }
  },
  "university": "boun",
- "updated": "2026-11-08T19:52:27+03:00"
+ "updated": "2026-11-08T22:14:00+03:00"
 }
