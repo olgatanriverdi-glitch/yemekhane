@@ -127,3 +127,7 @@ flutter:
     - assets/data/iste/
     - assets/data/ksbu/
     - assets/data/istiklal/
+  fonts:
+    - family: Manrope
+      fonts:
+        - asset: assets/fonts/Manrope-Variable.ttf
