@@ -4,6 +4,7 @@ import '../favoriler.dart';
 import '../geri_bildirim.dart';
 import '../kalori_hedefi.dart';
 import '../models.dart';
+import '../tema.dart' show TemaImzasi;
 import '../reklam/reklam_karti.dart';
 import '../reklam/reklam_yoneticisi.dart';
 import '../reklam/uzak_ayar.dart' show yerlesimAna;
@@ -423,7 +424,8 @@ class OgunOzeti extends StatelessWidget {
       return const SizedBox.shrink();
     }
     final tema = Theme.of(context);
-    final on = tema.colorScheme.onPrimaryContainer;
+    final imza = TemaImzasi.of(context);
+    final on = imza.zeminUstu;
     final hedefli = hedef != null && hedef! > 0 && (kcal ?? 0) > 0;
     Widget kucuk(IconData ikon, String metin) =>
         Row(mainAxisSize: MainAxisSize.min, children: [
@@ -440,7 +442,8 @@ class OgunOzeti extends StatelessWidget {
       margin: const EdgeInsets.only(bottom: 4),
       padding: const EdgeInsets.all(16),
       decoration: BoxDecoration(
-          color: tema.colorScheme.primaryContainer,
+          color: imza.zemin,
+          gradient: imza.degrade,
           borderRadius: BorderRadius.circular(20)),
       child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
         if (kcal != null)

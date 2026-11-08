@@ -45,7 +45,7 @@ PUAN VE YORUM
 • Başkasının yorumunu ve yazarını bildir ya da kişiyi engelle; yorum ve puanlarını tek dokunuşla sil
 
 KİŞİSELLEŞTİR
-• Açık, koyu ve siyah tema; 8 renk paleti
+• Açık, koyu ve siyah mod; 13 tema: 8 temel renk paleti ve Aşk, Lokum, Kahve, Bahar, Gece Yarısı gibi özel temalar (her birinin kendi küçük simgesi var)
 • İsteğe bağlı günlük kalori hedefi: öğünün hedefine oranını gösterir
 • İsteğe bağlı günlük menü bildirimi (varsayılan kapalı, saatini sen seçersin)
 
@@ -58,7 +58,7 @@ Uygulama ücretsizdir ve reklam içerir: ana ekranda öğün kartının altında
 Okulun listede yok mu? Tanıtım sitesindeki yorumlardan iste.
 ```
 
-Karakter sayımı (8 Kasım 2026): kısa açıklama 78/80; tam açıklama 4000 sınırının çok altında. Eklemeden önce denetle: "8 renk paleti", "Siyah tema", "tüm okullar araması", "bildirim" ve "paylaş" özelliklerinin sürümde olduğu doğrulandı (kod ve testler). Okul sayısı bilerek yazılmadı: liste büyüyor.
+Karakter sayımı (8 Kasım 2026): kısa açıklama 78/80; tam açıklama 4000 sınırının çok altında. Eklemeden önce denetle: "13 tema", "Siyah mod", "tüm okullar araması", "bildirim" ve "paylaş" özelliklerinin sürümde olduğu doğrulandı (kod ve testler). Okul sayısı bilerek yazılmadı: liste büyüyor.
 
 ## Görseller (magaza/ klasöründe)
 
@@ -68,7 +68,7 @@ Karakter sayımı (8 Kasım 2026): kısa açıklama 78/80; tam açıklama 4000 s
 | Öne çıkan görsel | `gorseller/one-cikan-gorsel-1024x500.png` | 1024x500, alfasız 24 bit PNG |
 | Telefon ekran görüntüleri (en az 2, en çok 8) | `ekranlar/01-...` ile `07-...` | 1170x2340 (oran 2:1), alfasız 24 bit PNG |
 
-Ekran görüntüleri ve öne çıkan görsel **alfa kanalsız 24 bit PNG** (RGB, IHDR renk tipi 2) olmalıdır; Google bu alanlarda JPEG ya da alfasız 24 bit PNG ister (https://support.google.com/googleplay/android-developer/answer/9866151). Üreticiler (`app/tool/magaza_ekranlari_test.dart`, `app/tool/magaza_gorseli_test.dart`) artık beyaz opak zemine birleştirilmiş RGB yazar (`app/tool/opak_png.dart`); `app/test/yayin_duzeltme_test.dart` bütün mağaza PNG'lerinin renk tipini denetler. Simge (`ikon-512x512.png`) 32 bit PNG olabilir (alfa serbest). Ekran görüntüleri gerçek uygulamanın gerçek verisiyle (Ankara Üniversitesi, 4 Kasım 2026 menüsü) çizildi; `app/tool/magaza_ekranlari_test.dart` ile yeniden üretilir. Her kenar 320-3840 px ve uzun kenar kısa kenarın en çok 2 katı olmalı: 1170x2340 tam 2:1 olduğu için sınırda ve geçerli. Önerilen sıra: 01 ana ekran, 02 yemek ayrıntısı, 04 haftalık menü, 03 yemek arama, 07 ana ekran (koyu), 05 tema, 06 ayarlar.
+Ekran görüntüleri ve öne çıkan görsel **alfa kanalsız 24 bit PNG** (RGB, IHDR renk tipi 2) olmalıdır; Google bu alanlarda JPEG ya da alfasız 24 bit PNG ister (https://support.google.com/googleplay/android-developer/answer/9866151). Üreticiler (`app/tool/magaza_ekranlari_test.dart`, `app/tool/magaza_gorseli_test.dart`) artık beyaz opak zemine birleştirilmiş RGB yazar (`app/tool/opak_png.dart`); `app/test/yayin_duzeltme_test.dart` bütün mağaza PNG'lerinin renk tipini denetler. Simge (`ikon-512x512.png`) 32 bit PNG olabilir (alfa serbest). Ekran görüntüleri gerçek uygulamanın gerçek verisiyle (Ankara Üniversitesi, 4 Kasım 2026 menüsü) çizildi; `app/tool/magaza_ekranlari_test.dart` ile yeniden üretilir. Her kenar 320-3840 px ve uzun kenar kısa kenarın en çok 2 katı olmalı: 1170x2340 tam 2:1 olduğu için sınırda ve geçerli. Ekranlar (8 Kasım 2026, yeni Manrope yazı tipi ve temalarla): 01 ana ekran (Safran, açık), 02 yemek ayrıntısı, 03 yemek arama, 04 haftalık menü, 05 tema seçici ("Özel temalar", Aşk seçili), 06 ayarlar, 07 ana ekran (Gece Yarısı, koyu). Ekranlarda reklam kartı ve DEBUG şeridi yoktur. Önerilen sıra: 01, 02, 04, 03, 07, 05, 06.
 7 inç / 10 inç tablet ekran görüntüsü zorunlu değildir (tablet desteği isteğe bağlıdır).
 
 ## İçerik derecelendirme anketi (IARC) önerilen yanıtlar

@@ -1,7 +1,7 @@
 // Google Play 1024x500 öne çıkan görsel üreticisi. `flutter test` bunu çalıştırmaz (tool/ klasörü); yenilemek için
 // app klasöründe: ~/development/flutter/bin/flutter test tool/magaza_gorseli_test.dart
 // Safran zemin, uygulama ikonu (web/icons/Icon-512.png, tool/ikon_uret_test.dart üretir), ad ve slogan.
-// Test ortamının varsayılan yazı tipi (Ahem) kutu çizdiğinden Roboto, Flutter önbelleğindeki dosyalardan yüklenir.
+// Test ortamının varsayılan yazı tipi (Ahem) kutu çizdiğinden Manrope uygulama varlıklarından dosyalardan yüklenir.
 // Çıktı: ../magaza/gorseller/one-cikan-gorsel-1024x500.png
 import 'dart:io';
 import 'dart:ui' as ui;
@@ -13,9 +13,6 @@ import 'package:yemekhane/tema.dart';
 
 import 'opak_png.dart';
 
-final _fontlar =
-    '${Platform.environment['HOME']}/development/flutter/bin/cache/artifacts/material_fonts';
-
 Color _ton(double ton, double doygunluk, double aciklik) =>
     HSLColor.fromAHSL(1, ton % 360, doygunluk, aciklik).toColor();
 
@@ -25,7 +22,7 @@ void _yaz(Canvas c, String metin, Offset yer, double boyut, FontWeight kalinlik,
       text: TextSpan(
           text: metin,
           style: TextStyle(
-              fontFamily: 'Roboto',
+              fontFamily: 'Manrope',
               fontSize: boyut,
               fontWeight: kalinlik,
               color: renk,
@@ -37,12 +34,11 @@ void _yaz(Canvas c, String metin, Offset yer, double boyut, FontWeight kalinlik,
 
 void main() {
   testWidgets('öne çıkan görsel 1024x500', (t) async {
-    final roboto = FontLoader('Roboto');
-    for (final ad in ['Regular', 'Medium', 'Bold']) {
-      roboto.addFont(Future.value(ByteData.sublistView(
-          File('$_fontlar/Roboto-$ad.ttf').readAsBytesSync())));
-    }
-    await roboto.load();
+    // uygulamanın kendi yazı tipi (Manrope)
+    final manrope = FontLoader('Manrope')
+      ..addFont(Future.value(ByteData.sublistView(
+          File('assets/fonts/Manrope-Variable.ttf').readAsBytesSync())));
+    await manrope.load();
     await t.runAsync(() async {
       final palet = temaRenkleri.first;
       final marka = _ton(palet.ton, palet.doygunluk, 0.50);

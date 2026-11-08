@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 
 import '../config.dart';
 import '../favoriler.dart' show favoriGunEtiketi;
+import '../tema.dart' show TemaImzasi;
 
 /// Üstte büyük "Bugün / Cuma" başlığı, altında tek satırlık tarih ("2 Ekim 2026 · Cuma") ve yanlarda önceki /
 /// sonraki gün okları. Dar ekranda (320 dp) ya da büyük yazıda iki satır da sarmaz, sığacak kadar küçülür;
@@ -36,10 +37,20 @@ class GunBasligi extends StatelessWidget {
             FittedBox(
               fit: BoxFit.scaleDown,
               // "Bugün" / "Yarın" / gün adı; fark UTC takvim günleriyle hesaplanır (yaz saati geçişinde sapmaz)
-              child: Text(favoriGunEtiketi(secili, bugun),
-                  maxLines: 1,
-                  style: tema.textTheme.headlineSmall
-                      ?.copyWith(fontWeight: FontWeight.w800)),
+              child: Row(mainAxisSize: MainAxisSize.min, children: [
+                // temanın küçük imzası: süs, ekran okuyucuya görünmez
+                ExcludeSemantics(
+                  child: Icon(TemaImzasi.of(context).simge,
+                      key: const ValueKey('gun-imza'),
+                      size: 20,
+                      color: TemaImzasi.of(context).renk),
+                ),
+                const SizedBox(width: 8),
+                Text(favoriGunEtiketi(secili, bugun),
+                    maxLines: 1,
+                    style: tema.textTheme.headlineSmall
+                        ?.copyWith(fontWeight: FontWeight.w800)),
+              ]),
             ),
             FittedBox(
               fit: BoxFit.scaleDown,

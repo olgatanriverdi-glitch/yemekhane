@@ -48,6 +48,13 @@ File? _yerelDosya(Uri adres) {
   return f.existsSync() ? f : null;
 }
 
+/// Mağaza görüntülerinde "Deneme modu" notu görünmesin: yerel depo, ama çevrimiçi gibi davranır.
+/// Uydurma puan ya da yorum göstermez (ekranda "Henüz oy yok" görünür).
+class _MagazaDepo extends YerelDepo {
+  @override
+  bool get cevrimici => true;
+}
+
 class _Cevap extends Stream<List<int>> implements HttpClientResponse {
   _Cevap(this._bayt, this.statusCode);
   final Uint8List _bayt;
@@ -118,6 +125,11 @@ Future<void> _fontlariYukle() async {
     ..addFont(Future.value(ByteData.sublistView(
         File('$_fontlar/MaterialIcons-Regular.otf').readAsBytesSync())));
   await ikon.load();
+  // uygulamanın kendi yazı tipi (Manrope); testte rootBundle yerine doğrudan dosyadan yüklenir
+  final manrope = FontLoader('Manrope')
+    ..addFont(Future.value(ByteData.sublistView(
+        File('assets/fonts/Manrope-Variable.ttf').readAsBytesSync())));
+  await manrope.load();
 }
 
 /// Ağdan gelmesi gereken her şey (menü, fotoğraf) yerel ../data dosyalarından.
@@ -154,11 +166,13 @@ Future<void> _kaydet(WidgetTester t, String ad) async {
   });
 }
 
-Future<void> _ac(WidgetTester t, {required bool koyu, Widget? ana}) async {
+Future<void> _ac(WidgetTester t,
+    {required bool koyu, Widget? ana, String palet = 'safran'}) async {
   t.view.physicalSize = const Size(390, 780);
   t.view.devicePixelRatio = 1;
   _kok = GlobalKey();
-  final ayar = TemaAyari(mod: koyu ? ThemeMode.dark : ThemeMode.light);
+  final ayar = TemaAyari(
+      mod: koyu ? ThemeMode.dark : ThemeMode.light, renk: temaRengiBul(palet));
   final depo = Depo(istemci: _yerelIstemci());
   await depo.universiteSec('ankara');
   final favoriler = FavoriDeposu();
@@ -172,7 +186,7 @@ Future<void> _ac(WidgetTester t, {required bool koyu, Widget? ana}) async {
               AnaSayfa(
                   temaAyari: ayar,
                   depo: depo,
-                  geriBildirim: YerelDepo(),
+                  geriBildirim: _MagazaDepo(),
                   favoriler: favoriler,
                   kaloriHedefi: KaloriHedefi(),
                   simdi: () => DateTime.utc(2026, 11, 4, 11, 20)))));
@@ -229,10 +243,12 @@ void main() {
     await _kaydet(t, '04-haftalik-menu');
   });
 
-  testWidgets('05 tema (koyu)', (t) async {
-    await _ac(t, koyu: true);
+  testWidgets('05 tema seçici (özel temalar)', (t) async {
+    await _ac(t, koyu: false, palet: 'ask');
     await _menuden(t, 'Tema');
-    await _kaydet(t, '05-tema-secici-koyu');
+    await t.ensureVisible(find.text('Özel temalar'));
+    await _bekle(t, 4);
+    await _kaydet(t, '05-tema-secici-ozel');
   });
 
   testWidgets('06 ayarlar', (t) async {
@@ -242,7 +258,7 @@ void main() {
   });
 
   testWidgets('07 ana ekran koyu', (t) async {
-    await _ac(t, koyu: true);
-    await _kaydet(t, '07-ana-ekran-koyu');
+    await _ac(t, koyu: true, palet: 'gece_yarisi');
+    await _kaydet(t, '07-ana-ekran-gece-yarisi');
   });
 }

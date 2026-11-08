@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import '../models.dart';
+import '../tema.dart' show TemaImzasi;
 import 'ogun_bilgi.dart';
 
 /// Yemek verilmeyen gün / öğün için sade bilgi ekranı.
@@ -13,6 +14,7 @@ class YemekYok extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final tema = Theme.of(context);
+    final imza = TemaImzasi.of(context);
     return ListView(
       // kısa içerikte de aşağı çekip yenilenebilsin
       physics: const AlwaysScrollableScrollPhysics(),
@@ -24,9 +26,9 @@ class YemekYok extends StatelessWidget {
             height: 112,
             decoration: BoxDecoration(
                 shape: BoxShape.circle,
-                color: tema.colorScheme.primaryContainer),
-            child: Icon(ikon,
-                size: 52, color: tema.colorScheme.onPrimaryContainer),
+                color: imza.degrade == null ? imza.zemin : null,
+                gradient: imza.degrade),
+            child: Icon(ikon, size: 52, color: imza.zeminUstu),
           ),
         ),
         const SizedBox(height: 24),
