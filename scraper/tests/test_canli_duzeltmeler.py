@@ -139,8 +139,10 @@ class YemekTemizligiTesti(unittest.TestCase):
             def gunluk(u, klasor, m, *args):
                 m['2999-01-03'] = {'lunch': {'items': [{'name': 'Tutmaç Çorba Kcal'}]}}
             with patch.object(build, 'gunluk_isle', side_effect=gunluk), patch.object(build, 'yemek_fotolari_ekle'):
-                self.assertEqual(build.calistir(d, [Okul()]), 0)
-            m = json.loads((Path(d) / 'temiztest/menu.json').read_text())['days']
+                # Yerel mock'lar başka bir Python sürecine taşınmaz; sürecin çağırdığı hazırlığı doğrudan sınar.
+                simdi = build.datetime.now(build.TURKIYE)
+                build.okul_hazirla(Okul(), d, str(Path(d) / 'hazir'), simdi, '2026-01-01')
+            m = json.loads((Path(d) / 'hazir/temiztest/menu.json').read_text())['days']
             self.assertEqual(m['2999-01-01']['lunch']['items'], [])
             self.assertEqual(m['2999-01-02']['lunch']['items'], [{'name': 'Meyve', 'kcal': 80}])
             self.assertEqual(m['2999-01-03']['lunch']['items'], [{'name': 'Tutmaç Çorba'}])

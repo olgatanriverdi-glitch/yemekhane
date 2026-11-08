@@ -8,6 +8,8 @@ import tempfile
 
 from .model import yemek_ogesi
 
+OCR_SURESI = 30  # sn; iki dil denemesi de okulun toplam süreç bütçesi içindedir
+
 
 def kullanilabilir() -> bool:
     return shutil.which("tesseract") is not None
@@ -21,7 +23,7 @@ def oku(png: bytes, psm: int = 6):
         with open(yol, "wb") as f:
             f.write(png)
         for dil in ("tur", "eng"):
-            r = subprocess.run(["tesseract", yol, "stdout", "-l", dil, "--psm", str(psm)], capture_output=True, text=True)
+            r = subprocess.run(["tesseract", yol, "stdout", "-l", dil, "--psm", str(psm)], capture_output=True, text=True, timeout=OCR_SURESI)
             if r.returncode == 0 and r.stdout.strip():
                 return r.stdout
     return None
@@ -70,7 +72,7 @@ def kelimeler(resim: bytes, psm: int = 6, uzanti: str = ".jpg"):
         with open(yol, "wb") as f:
             f.write(resim)
         for dil in ("tur", "eng"):
-            r = subprocess.run(["tesseract", yol, "stdout", "-l", dil, "--psm", str(psm), "tsv"], capture_output=True, text=True)
+            r = subprocess.run(["tesseract", yol, "stdout", "-l", dil, "--psm", str(psm), "tsv"], capture_output=True, text=True, timeout=OCR_SURESI)
             if r.returncode == 0 and r.stdout.strip():
                 return tsv_kelimeler(r.stdout)
     return None

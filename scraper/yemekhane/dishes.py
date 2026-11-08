@@ -185,14 +185,18 @@ def foto_bul(ad: str, indir=getir, saglayicilar=None, bekle=0.4):
 
 
 class YemekFotolari:
-    def __init__(self, klasor: str, indir=getir, saglayicilar=None, bekle=0.4, bugun=None):
+    def __init__(self, klasor: str, indir=getir, saglayicilar=None, bekle=0.4, bugun=None,
+                 onbellek=None, arama_butcesi=None):
         self.dir = klasor
         self.yol = os.path.join(klasor, "index.json")
+        # Okul süreçleri ortak kütüphaneyi yalnız okur, yeni dosyalarını kendi geçici alanına yazar.
+        self.onbellek, self.arama_butcesi = onbellek, arama_butcesi
         self.indir, self.saglayicilar, self.bekle = indir, saglayicilar, bekle
         self.bugun = bugun or date.today()
         self.idx = {"dishes": {}, "miss": {}}
-        if os.path.exists(self.yol):
-            with open(self.yol, encoding="utf-8") as f:
+        kaynak = os.path.join(onbellek, "index.json") if onbellek else self.yol
+        if os.path.exists(kaynak):
+            with open(kaynak, encoding="utf-8") as f:
                 self.idx.update(json.load(f))
         self.aranan = 0
 
@@ -202,13 +206,18 @@ class YemekFotolari:
             return None
         k = anahtar(ad)
         yol = os.path.join(self.dir, k + ".jpg")
-        if k in self.idx["dishes"] and os.path.exists(yol):
+        if k in self.idx["dishes"] and (os.path.exists(yol) or
+                (self.onbellek and os.path.exists(os.path.join(self.onbellek, k + ".jpg")))):
             return "dishes/%s.jpg" % k
         son = self.idx["miss"].get(k)
         if son and date.fromisoformat(son) > self.bugun - timedelta(days=BASARISIZ_BEKLE):
             return None
         if self.aranan >= RUN_LIMIT:
             return None
+        if self.arama_butcesi is not None:
+            # Kilit tutarken öldürülen bir okul diğer okulları kilitlemesin.
+            if not self.arama_butcesi.acquire(block=False):
+                return None
         self.aranan += 1
         bulunan = foto_bul(ad, self.indir, self.saglayicilar, self.bekle)
         if not bulunan:

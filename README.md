@@ -36,6 +36,29 @@ Canlı sonuç ve kaynak kapsamı ayrıntıları `.claude/notlar/yemekhane-univer
 çıkarılır; tek ve açık kalori `kcal` alanına taşınır. Birden fazla seçenek/aralık tek kaloriye çevrilmez; bu durumda yanıltıcı öğün toplamı da kaldırılır.
 Bayram/tatil satırları ve KTÜ'nün dört hücreye bölünmüş kutlaması yemek yerine `note` olur. `Hamburger Menü` ve yemek karşılığı içeren parantezler korunur.
 
+### Robot süre sınırları ve paket eşitleme (8 Kasım 2026)
+`build.py` en fazla altı okulu ayrı `spawn` süreçlerinde çalıştırır. Süreç açılışı en fazla 30 saniye, okulun tüm işi en fazla 180 saniyedir:
+menü, birikimli kayıtlar, günlük görsel/OCR, yemek fotoğrafları, fiyat, saat ve geçici dosya hazırlığı bu bütçenin içindedir.
+Süre dolunca okul ve OCR alt süreçlerinin grubu sonlandırılır; gerekirse bir saniyelik beklemeden sonra zorla kapatılır.
+Tesseract çağrılarının ayrıca 30 saniyelik sınırı vardır. Fotoğraf aramasının çalıştırma başına limiti süreçler arasında ortaktır;
+okullar ortak fotoğraf önbelleğine doğrudan yazmaz. Python 3.9/macOS'ta süreçlerin saat başlangıçları karşılaştırılmaz.
+
+Okulun menüsü ve indeks kaydı bütün işlemler başarıyla tamamlanınca hazırlanır. Dosyalar önce geçici dosyalara yazılır,
+`os.replace` ile tek tek değiştirilir, indeks en son yayımlanır; yakalanan yazma hatasında önceki dosyalar geri konur.
+Başarısız okulun eski menüsü, görsel indeksi ve üniversite kaydı aynen korunur; JSON şemasına alan eklenmez.
+Bütün okullar başarısızsa robot hata koduyla çıkar. Başarısızlık oranı **%30'u aşarsa** Actions uyarısı ve özetinde belirgin uyarı oluşur.
+Özet ayrıca Türkiye tarihine göre **son menü günü en az üç gün geride kalan okulları** ve son günü bilinmeyen okulları listeler
+(`GITHUB_STEP_SUMMARY` yoksa güncellik listesi terminalde de görülür).
+
+`update.yml` işi 75 dakika ile sınırlıdır. Veri çekildikten sonra `cd scraper && python -m yemekhane.esitle` çalışır:
+yalnız kaynak `data/index.json` içindeki ve `app/pubspec.yaml` dosyasının `flutter/assets` listesinde kendi klasörü kayıtlı okulların
+`menu.json` ve varsa `photos/index.json` dosyaları `app/assets/data` altına eşitlenir. Paket indeksi bu okullarla oluşturulur.
+Kaydı olmayan yeni okul uyarıyla atlanır; pubspec değiştirilmez. JPEG'ler, `dishes/` ve diğer JSON dosyaları kopyalanmaz.
+Eksik/bozuk zorunlu menüde eşitleme eski paketi değiştirmeden hata verir. Başka hedefte denemek için `--veri <kaynak> --app <geçici-uygulama>` kullanılabilir.
+Robot hem `data` hem `app/assets/data` değişikliklerini yayına alır. `pages.yml`, normal `app/**` push tetikleyicisine ek olarak başarılı
+robot çalışmasının ardından `workflow_run` ile güncel `main` dalını derler; [GitHub'ın token davranışı](https://docs.github.com/en/actions/reference/workflows-and-actions/events-that-trigger-workflows)
+nedeniyle robotun `GITHUB_TOKEN` ile yaptığı push tek başına başka bir push işini başlatmaz.
+
 ### Yemek fotoğrafları
 Her yemek adı için Wikimedia Commons'ta telifi serbest (CC) bir örnek görsel aranır (`scraper/yemekhane/dishes.py`), 320 px kare JPEG olarak
 `data/dishes/` altında saklanır; aynı adlı yemek tekrar aranmaz, bulunamayan 14 günde bir yeniden denenir. Kaynak/yazar/lisans `data/dishes/index.json`'dadır.

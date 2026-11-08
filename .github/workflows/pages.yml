@@ -3,6 +3,11 @@ on:
   push:
     branches: [main]
     paths: ["app/**", "site/**", ".github/workflows/pages.yml"]
+  # GITHUB_TOKEN ile yapılan robot push'u başka bir push işini tetiklemez.
+  workflow_run:
+    workflows: ["Menüleri güncelle"]
+    types: [completed]
+    branches: [main]
   workflow_dispatch: {}
 permissions:
   contents: read
@@ -13,9 +18,13 @@ concurrency:
   cancel-in-progress: true
 jobs:
   derle:
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          # workflow_run.head_sha robotun veri commit'inden öncedir; güncel main'i al.
+          ref: ${{ github.event_name == 'workflow_run' && 'main' || github.ref }}
       # Flutter sürümü sabit: "stable" kanalı kendiliğinden yükselince web derlemesi habersiz değişmesin. Yerelde
       # `flutter --version` ile aynı olmalı; yükseltirken yerelde `flutter build web` deneyip sonra burayı güncelle.
       - uses: subosito/flutter-action@v2

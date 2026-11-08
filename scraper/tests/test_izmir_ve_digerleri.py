@@ -431,7 +431,7 @@ class BirikimliBuildTesti(unittest.TestCase):
             self.birikimli = birikimli
 
         def menuler(self):
-            return {self.gun: {"lunch": {"items": [{"name": "Çorba " + self.gun}]}}}
+            return {self.gun: {"lunch": {"items": [{"name": getattr(self, "yeni_ad", "Çorba " + self.gun)}]}}}
 
     def calistir(self, klasor, uni):
         with mock.patch.object(dishes, "RUN_LIMIT", 0):
@@ -453,7 +453,7 @@ class BirikimliBuildTesti(unittest.TestCase):
         with tempfile.TemporaryDirectory() as k:
             self.calistir(k, self.Gunluk("2999-01-01"))
             u = self.Gunluk("2999-01-01")
-            u.menuler = lambda: {"2999-01-01": {"lunch": {"items": [{"name": "Yeni"}]}}}
+            u.yeni_ad = "Yeni"       # spawn'a taşınabilen test verisi; yerel lambda pickle edilemez
             self.calistir(k, u)
             with open(os.path.join(k, "g", "menu.json"), encoding="utf-8") as f:
                 self.assertEqual(json.load(f)["days"]["2999-01-01"]["lunch"]["items"][0]["name"], "Yeni")

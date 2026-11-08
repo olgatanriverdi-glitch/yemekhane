@@ -8,6 +8,7 @@ permissions:
 jobs:
   guncelle:
     runs-on: ubuntu-latest
+    timeout-minutes: 75
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -21,11 +22,13 @@ jobs:
         run: cd scraper && python -m unittest discover -s tests -t .
       - name: Menüleri çek
         run: cd scraper && python -m yemekhane.build
+      - name: Uygulamanın çevrimdışı paket verisini eşitle
+        run: cd scraper && python -m yemekhane.esitle
       - name: Değişiklik varsa yayınla
         run: |
           git config user.name "yemekhane-bot"
           git config user.email "bot@users.noreply.github.com"
-          git add data
+          git add data app/assets/data
           if git diff --cached --quiet; then echo "Değişiklik yok"; exit 0; fi
           git commit -m "Menüler güncellendi"
           for i in 1 2 3; do
