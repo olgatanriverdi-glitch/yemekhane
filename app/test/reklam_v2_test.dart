@@ -611,7 +611,23 @@ void main() {
       expect(reklamsizKalanMetni(DateTime.utc(2026, 11, 2, 14, 30), simdi),
           "Reklamsız: 14:30'a kadar");
       expect(reklamsizKalanMetni(DateTime.utc(2026, 11, 3, 9, 5), simdi),
-          "Reklamsız: yarın 09:05'a kadar");
+          "Reklamsız: yarın 09:05'e kadar");
+    });
+
+    test('kalan süre metni: yönelme eki saatin okunuşuna uyar', () {
+      final simdi = DateTime.utc(2026, 11, 2, 0, 0);
+      String m(int s, int d) =>
+          reklamsizKalanMetni(DateTime.utc(2026, 11, 2, s, d), simdi);
+      expect(m(12, 12), "Reklamsız: 12:12'ye kadar"); // on iki-ye
+      expect(m(12, 0), "Reklamsız: 12:00'ye kadar"); // on iki-ye
+      expect(m(6, 0), "Reklamsız: 06:00'ya kadar"); // altı-ya
+      expect(m(10, 0), "Reklamsız: 10:00'a kadar"); // on-a
+      expect(m(20, 0), "Reklamsız: 20:00'ye kadar"); // yirmi-ye
+      expect(m(18, 40), "Reklamsız: 18:40'a kadar"); // kırk-a
+      expect(m(9, 50), "Reklamsız: 09:50'ye kadar"); // elli-ye
+      expect(m(9, 7), "Reklamsız: 09:07'ye kadar"); // yedi-ye
+      expect(m(9, 3), "Reklamsız: 09:03'e kadar"); // üç-e
+      expect(m(23, 59), "Reklamsız: 23:59'a kadar"); // dokuz-a
     });
   });
 

@@ -57,6 +57,8 @@ android {
     buildTypes {
         release {
             signingConfig = signingConfigs.getByName(if (anahtarDosyasi.exists()) "release" else "debug")
+            // Flutter'ın R8 kurallarına ek: WorkManager/Room yansıma sınıfları (bkz. proguard-rules.pro)
+            proguardFiles(getDefaultProguardFile("proguard-android-optimize.txt"), "proguard-rules.pro")
         }
     }
 }

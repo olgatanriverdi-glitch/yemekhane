@@ -70,5 +70,27 @@ String reklamsizKalanMetni(DateTime bitis, DateTime simdi) {
   final ayniGun = bitis.year == simdi.year &&
       bitis.month == simdi.month &&
       bitis.day == simdi.day;
-  return "Reklamsız: ${ayniGun ? '' : 'yarın '}$s:$d'a kadar";
+  // yönelme eki saatin okunuşuna uyar: "14:30'a", "12:12'ye", "06:00'ya", "09:05'e"
+  final ek = _yonelmeEki(bitis.minute == 0 ? bitis.hour : bitis.minute);
+  return "Reklamsız: ${ayniGun ? '' : 'yarın '}$s:$d'$ek kadar";
 }
+
+const _birlerYonelme = {
+  1: 'e',
+  2: 'ye',
+  3: 'e',
+  4: 'e',
+  5: 'e',
+  6: 'ya',
+  7: 'ye',
+  8: 'e',
+  9: 'a'
+};
+const _onlarYonelme = {1: 'a', 2: 'ye', 3: 'a', 4: 'a', 5: 'ye'};
+
+/// Sayının okunuşunun son sözcüğüne göre yönelme (-e hâli) eki: 0 "sıfır"a, 12 "on iki"ye, 20 "yirmi"ye.
+String _yonelmeEki(int n) => n == 0
+    ? 'a'
+    : n % 10 != 0
+        ? _birlerYonelme[n % 10]!
+        : (_onlarYonelme[n ~/ 10] ?? 'a');

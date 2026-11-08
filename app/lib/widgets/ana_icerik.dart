@@ -94,7 +94,8 @@ class AnaIcerik extends StatelessWidget {
       SimdiSeridi(
           ogun: aktif,
           saat: uni.saat(aktif),
-          bugunMu: tarih == bugun,
+          // menüsü olmayan günde (hafta sonu, yayınlanmamış gün) "yemeğe 25 dk" gibi geri sayım yanıltır
+          bugunMu: tarih == bugun && !(gun[aktif]?.bos ?? true),
           simdi: simdi),
       Expanded(
         child: RefreshIndicator(

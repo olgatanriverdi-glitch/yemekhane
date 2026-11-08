@@ -527,6 +527,18 @@ void main() {
       expect(_seritMetni(t), 'Öğle servisi bitti');
     });
 
+    testWidgets('bugünün menüsü yoksa (hafta sonu) geri sayım şeridi yok',
+        (t) async {
+      // menü Cuma 6 ve Pazartesi 9 Kasım'da var; bugün Pazar 8 Kasım (aralığın içinde ama menüsüz)
+      await _ac(
+          t,
+          SahteDepo(
+              _uni(saatler: _saatli), _menu(['2026-11-06', '2026-11-09'])),
+          simdi: () => DateTime.utc(2026, 11, 8, 12, 0));
+      expect(find.text('Bu gün yemek yok'), findsOneWidget);
+      expect(_seritMetni(t), isNull);
+    });
+
     testWidgets('servis saati olmayan okulda şerit yok', (t) async {
       await _ac(t, saatliDepo(saatler: const {}), simdi: () => _an(10, 35));
       expect(find.text('Mercimek Çorbası'), findsOneWidget);
