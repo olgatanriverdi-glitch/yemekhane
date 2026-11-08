@@ -86,38 +86,56 @@ class TemaSecici extends StatelessWidget {
                 const SizedBox(height: 28),
                 Text('Renk paleti', style: tema.textTheme.titleSmall),
                 const SizedBox(height: 12),
-                LayoutBuilder(builder: (context, kisit) {
-                  const bosluk = 12.0;
-                  // Etiketler kesilmez. Büyük yazıda / dar ekranda tek sütuna geçer.
-                  final enAz = math.max(142.0,
-                      _etiketEni(context, temaRenkleri.map((p) => p.ad)) + 52);
-                  final sutun = kisit.maxWidth >= enAz * 2 + bosluk ? 2 : 1;
-                  final genislik =
-                      (kisit.maxWidth - bosluk * (sutun - 1)) / sutun;
-                  return Wrap(
-                    spacing: bosluk,
-                    runSpacing: bosluk,
-                    children: [
-                      for (final p in temaRenkleri)
-                        SizedBox(
-                          width: genislik,
-                          child: _PaletKarti(
-                            palet: p,
-                            parlaklik: tema.brightness,
-                            siyah: ayar.siyah,
-                            secili: p.kimlik == ayar.renk.kimlik,
-                            onTap: () => ayar.renkSec(p),
-                          ),
-                        ),
-                    ],
-                  );
-                }),
+                _PaletGrubu(
+                  paletler: temaRenkleri.where((p) => !p.ozel).toList(),
+                  ayar: ayar,
+                ),
+                const SizedBox(height: 28),
+                Text('Özel temalar',
+                    key: const ValueKey('ozel-temalar'),
+                    style: tema.textTheme.titleSmall),
+                const SizedBox(height: 12),
+                _PaletGrubu(
+                  paletler: temaRenkleri.where((p) => p.ozel).toList(),
+                  ayar: ayar,
+                ),
               ],
             ),
           );
         },
       ),
     );
+  }
+}
+
+class _PaletGrubu extends StatelessWidget {
+  final List<TemaRengi> paletler;
+  final TemaAyari ayar;
+  const _PaletGrubu({required this.paletler, required this.ayar});
+
+  @override
+  Widget build(BuildContext context) {
+    return LayoutBuilder(builder: (context, kisit) {
+      const bosluk = 12.0;
+      // Etiketler kesilmez. Büyük yazıda / dar ekranda tek sütuna geçer.
+      final enAz =
+          math.max(142.0, _etiketEni(context, paletler.map((p) => p.ad)) + 52);
+      final sutun = kisit.maxWidth >= enAz * 2 + bosluk ? 2 : 1;
+      final genislik = (kisit.maxWidth - bosluk * (sutun - 1)) / sutun;
+      return Wrap(spacing: bosluk, runSpacing: bosluk, children: [
+        for (final p in paletler)
+          SizedBox(
+            width: genislik,
+            child: _PaletKarti(
+              palet: p,
+              parlaklik: Theme.of(context).brightness,
+              siyah: ayar.siyah,
+              secili: p.kimlik == ayar.renk.kimlik,
+              onTap: () => ayar.renkSec(p),
+            ),
+          ),
+      ]);
+    });
   }
 }
 
@@ -199,12 +217,14 @@ class _SecimAlani extends StatelessWidget {
   final String etiket;
   final bool secili;
   final bool tonal;
+  final String? ipucu;
   final VoidCallback onTap;
   final Widget child;
   const _SecimAlani(
       {required this.etiket,
       required this.secili,
       this.tonal = false,
+      this.ipucu,
       required this.onTap,
       required this.child});
 
@@ -216,6 +236,7 @@ class _SecimAlani extends StatelessWidget {
       selected: secili,
       inMutuallyExclusiveGroup: true,
       label: etiket,
+      hint: ipucu,
       onTap: onTap,
       excludeSemantics: true,
       child: Material(
@@ -253,8 +274,10 @@ class _PaletKarti extends StatelessWidget {
   Widget build(BuildContext context) {
     final tema = Theme.of(context);
     final r = renkSemasiUret(palet, parlaklik, amoled: siyah);
+    final imza = temaImzasiUret(palet, r);
     return _SecimAlani(
       etiket: palet.ad,
+      ipucu: palet.aciklama,
       secili: secili,
       onTap: onTap,
       child: Padding(
@@ -263,7 +286,7 @@ class _PaletKarti extends StatelessWidget {
           // Küçük maket dekoratiftir; asıl palet adı aşağıda tam ölçeklenir.
           ExcludeSemantics(
               child: MediaQuery.withNoTextScaling(
-                  child: _PaletOnizlemesi(renk: r))),
+                  child: _PaletOnizlemesi(renk: r, imza: imza))),
           const SizedBox(height: 10),
           Padding(
             padding: const EdgeInsets.fromLTRB(2, 0, 2, 2),
@@ -279,6 +302,15 @@ class _PaletKarti extends StatelessWidget {
                       : null),
             ]),
           ),
+          if (palet.aciklama != null) ...[
+            const SizedBox(height: 4),
+            Padding(
+              padding: const EdgeInsets.symmetric(horizontal: 2),
+              child: Text(palet.aciklama!,
+                  style: tema.textTheme.bodySmall
+                      ?.copyWith(color: tema.colorScheme.onSurfaceVariant)),
+            ),
+          ],
         ]),
       ),
     );
@@ -288,7 +320,8 @@ class _PaletKarti extends StatelessWidget {
 /// Seçilen ekran modunda gerçek zemin, kart ve vurgu ilişkisini gösterir.
 class _PaletOnizlemesi extends StatelessWidget {
   final ColorScheme renk;
-  const _PaletOnizlemesi({required this.renk});
+  final TemaImzasi imza;
+  const _PaletOnizlemesi({required this.renk, required this.imza});
 
   Widget _cizgi(double pay, Color renk) => FractionallySizedBox(
         widthFactor: pay,
@@ -319,7 +352,19 @@ class _PaletOnizlemesi extends StatelessWidget {
                       color: r.onSurface,
                       fontSize: 11,
                       fontWeight: FontWeight.w800))),
-          Icon(Icons.restaurant_rounded, size: 14, color: r.primary),
+          if (imza.degrade != null)
+            Container(
+              width: 22,
+              height: 22,
+              decoration: BoxDecoration(
+                color: imza.zemin,
+                gradient: imza.degrade,
+                borderRadius: BorderRadius.circular(6),
+              ),
+              child: Icon(imza.simge, size: 14, color: imza.zeminUstu),
+            )
+          else
+            Icon(imza.simge, size: 14, color: imza.renk),
         ]),
         const SizedBox(height: 8),
         Row(children: [
@@ -328,7 +373,11 @@ class _PaletOnizlemesi extends StatelessWidget {
                 width: 19,
                 height: 12,
                 decoration: BoxDecoration(
-                    color: i == 0 ? r.primary : r.surfaceContainerHighest,
+                    color: i == 0
+                        ? r.primary
+                        : i == 3 && imza.degrade != null
+                            ? r.secondaryContainer
+                            : r.surfaceContainerHighest,
                     borderRadius: BorderRadius.circular(4))),
             if (i < 3) const SizedBox(width: 4),
           ],

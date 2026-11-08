@@ -53,8 +53,10 @@ void main() {
     }
   });
 
-  test('8–12 palet; eski kimlikler ve tüm mod kayıtları korunur', () async {
-    expect(temaRenkleri.length, inInclusiveRange(8, 12));
+  test('sekiz temel palet ve 4–6 özel tema; eski kimlikler ve modlar korunur',
+      () async {
+    expect(temaRenkleri.where((p) => !p.ozel), hasLength(8));
+    expect(temaRenkleri.where((p) => p.ozel).length, inInclusiveRange(4, 6));
     for (final (eski, yeni) in [
       ('turuncu', 'safran'),
       ('kirmizi', 'domates'),

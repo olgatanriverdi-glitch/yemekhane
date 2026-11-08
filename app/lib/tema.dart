@@ -13,6 +13,11 @@ class TemaRengi {
   final double ucuncuTon;
   final double yuzeyTon;
   final double yuzeyDoygunluk;
+  final double? ikinciDoygunluk;
+  final double? ucuncuDoygunluk;
+  final bool ozel;
+  final IconData imzaSimgesi;
+  final String? aciklama;
   const TemaRengi(
     this.kimlik,
     this.ad, {
@@ -22,6 +27,11 @@ class TemaRengi {
     required this.ucuncuTon,
     required this.yuzeyTon,
     required this.yuzeyDoygunluk,
+    this.ikinciDoygunluk,
+    this.ucuncuDoygunluk,
+    this.ozel = false,
+    this.imzaSimgesi = Icons.restaurant_rounded,
+    this.aciklama,
   });
 
   /// Örnek renk (seçicide ve önizlemede görünen vurgu): açık moddaki birincil renk.
@@ -87,7 +97,142 @@ const List<TemaRengi> temaRenkleri = [
       ucuncuTon: 32,
       yuzeyTon: 218,
       yuzeyDoygunluk: 0.04),
+  TemaRengi('ask', 'Aşk',
+      ton: 353,
+      doygunluk: 0.86,
+      ikinciTon: 327,
+      ikinciDoygunluk: 0.72,
+      ucuncuTon: 24,
+      ucuncuDoygunluk: 0.58,
+      yuzeyTon: 350,
+      yuzeyDoygunluk: 0.60,
+      ozel: true,
+      imzaSimgesi: Icons.favorite_rounded,
+      aciklama: 'Allık ve bordo'),
+  TemaRengi('lokum', 'Lokum',
+      ton: 86,
+      doygunluk: 0.44,
+      ikinciTon: 337,
+      ikinciDoygunluk: 0.58,
+      ucuncuTon: 38,
+      ucuncuDoygunluk: 0.52,
+      yuzeyTon: 340,
+      yuzeyDoygunluk: 0.42,
+      ozel: true,
+      imzaSimgesi: Icons.cake_outlined,
+      aciklama: 'Pudra ve fıstık'),
+  TemaRengi('kahve', 'Kahve',
+      ton: 23,
+      doygunluk: 0.52,
+      ikinciTon: 37,
+      ikinciDoygunluk: 0.64,
+      ucuncuTon: 164,
+      ucuncuDoygunluk: 0.28,
+      yuzeyTon: 30,
+      yuzeyDoygunluk: 0.40,
+      ozel: true,
+      imzaSimgesi: Icons.local_cafe_outlined,
+      aciklama: 'Latte ve espresso'),
+  TemaRengi('bahar', 'Bahar',
+      ton: 146,
+      doygunluk: 0.58,
+      ikinciTon: 291,
+      ikinciDoygunluk: 0.56,
+      ucuncuTon: 48,
+      ucuncuDoygunluk: 0.68,
+      yuzeyTon: 136,
+      yuzeyDoygunluk: 0.34,
+      ozel: true,
+      imzaSimgesi: Icons.local_florist_outlined,
+      aciklama: 'Yeşil ve çiçek'),
+  TemaRengi('gece_yarisi', 'Gece Yarısı',
+      ton: 188,
+      doygunluk: 0.88,
+      ikinciTon: 235,
+      ikinciDoygunluk: 0.74,
+      ucuncuTon: 43,
+      ucuncuDoygunluk: 0.76,
+      yuzeyTon: 232,
+      yuzeyDoygunluk: 0.54,
+      ozel: true,
+      imzaSimgesi: Icons.nights_stay_outlined,
+      aciklama: 'Lacivert ve ışık'),
 ];
+
+/// Ekranların palet kimliğine bakmadan kullanabileceği küçük görsel imza.
+/// [renk] düz yüzeyde; [zeminUstu], [zemin] veya [degrade] üzerinde kullanılır.
+@immutable
+class TemaImzasi extends ThemeExtension<TemaImzasi> {
+  final IconData simge;
+  final Color renk;
+  final Color zemin;
+  final Color zeminUstu;
+  final LinearGradient? degrade;
+
+  const TemaImzasi({
+    required this.simge,
+    required this.renk,
+    required this.zemin,
+    required this.zeminUstu,
+    this.degrade,
+  });
+
+  /// Extension eklenmemiş bir ThemeData altında da güvenle kullanılabilir.
+  static TemaImzasi of(BuildContext context) {
+    final tema = Theme.of(context);
+    final r = tema.colorScheme;
+    return tema.extension<TemaImzasi>() ??
+        TemaImzasi(
+          simge: Icons.restaurant_rounded,
+          renk: r.primary,
+          zemin: r.primaryContainer,
+          zeminUstu: r.onPrimaryContainer,
+        );
+  }
+
+  @override
+  TemaImzasi copyWith({
+    IconData? simge,
+    Color? renk,
+    Color? zemin,
+    Color? zeminUstu,
+    LinearGradient? degrade,
+  }) =>
+      TemaImzasi(
+        simge: simge ?? this.simge,
+        renk: renk ?? this.renk,
+        zemin: zemin ?? this.zemin,
+        zeminUstu: zeminUstu ?? this.zeminUstu,
+        degrade: degrade ?? this.degrade,
+      );
+
+  @override
+  TemaImzasi lerp(covariant TemaImzasi? other, double t) {
+    if (other == null) return this;
+    return TemaImzasi(
+      simge: t < 0.5 ? simge : other.simge,
+      renk: Color.lerp(renk, other.renk, t)!,
+      zemin: Color.lerp(zemin, other.zemin, t)!,
+      zeminUstu: Color.lerp(zeminUstu, other.zeminUstu, t)!,
+      degrade: LinearGradient.lerp(degrade, other.degrade, t),
+    );
+  }
+}
+
+/// Seçici önizlemesi de uygulamayla aynı imza renklerini kullanır.
+TemaImzasi temaImzasiUret(TemaRengi palet, ColorScheme r) => TemaImzasi(
+      simge: palet.imzaSimgesi,
+      renk: r.primary,
+      zemin: r.primaryContainer,
+      zeminUstu: r.onPrimaryContainer,
+      degrade: palet.ozel
+          ? LinearGradient(
+              begin: Alignment.topLeft,
+              end: Alignment.bottomRight,
+              colors: [r.primaryContainer, r.secondaryContainer],
+            )
+          : null,
+    );
 
 /// Sürümler arası uyumluluk: eski renk kimlikleri yeni paletlere gider.
 const Map<String, String> _eskiKimlikler = {
@@ -154,14 +299,16 @@ ColorScheme renkSemasiUret(TemaRengi p, Brightness parlaklik,
     {bool amoled = false}) {
   final acik = parlaklik == Brightness.light;
   final b = _aile(p.ton, p.doygunluk, acik);
-  final i = _aile(p.ikinciTon, p.doygunluk * 0.40, acik);
-  final u = _aile(p.ucuncuTon, p.doygunluk * 0.70, acik);
+  final i = _aile(p.ikinciTon, p.ikinciDoygunluk ?? p.doygunluk * 0.40, acik);
+  final u = _aile(p.ucuncuTon, p.ucuncuDoygunluk ?? p.doygunluk * 0.70, acik);
   final h = p.yuzeyTon, ys = p.yuzeyDoygunluk;
   final hata = _aile(4, 0.70, acik);
 
   // Yalnızca ana zemin paletin tam yüzey tonunu taşır. Diğer yüzeylerde ve
   // metinde azaltılmış doygunluk, özellikle koyu modda renk yığılmasını önler.
-  Color yuzey(double l, [double carpan = 0.32]) => _hsl(h, ys * carpan, l);
+  // Özel temalarda ara katmanlar daha renkli: Aşk'ta bordo, Gece Yarısı'nda lacivert.
+  Color yuzey(double l, [double? carpan]) =>
+      _hsl(h, ys * (carpan ?? (p.ozel ? 0.65 : 0.32)), l);
 
   late final Color zemin,
       enAlcak,
@@ -389,6 +536,7 @@ ThemeData temaUret(TemaRengi palet, Brightness parlaklik,
   const dugmeDolgusu = EdgeInsets.symmetric(horizontal: 20, vertical: 14);
 
   return taban.copyWith(
+    extensions: [temaImzasiUret(palet, r)],
     visualDensity: VisualDensity.standard,
     materialTapTargetSize: MaterialTapTargetSize.padded,
     scaffoldBackgroundColor: r.surface,
