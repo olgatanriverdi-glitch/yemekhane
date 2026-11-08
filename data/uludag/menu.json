@@ -249,14 +249,14 @@
       "name": "Ezogelin Çorba"
      },
      {
-      "img": "dishes/abad8aab8e.jpg",
-      "key": "abad8aab8e",
-      "name": "Napoliten Soslu Makarna"
-     },
-     {
       "img": "dishes/16b5c22561.jpg",
       "key": "16b5c22561",
       "name": "Ayran"
+     },
+     {
+      "img": "dishes/7996503754.jpg",
+      "key": "7996503754",
+      "name": "Peynirli Makarna"
      }
     ]
    },
@@ -330,8 +330,9 @@
       "name": "Özbek Pilavı"
      },
      {
-      "key": "3ef45fb941",
-      "name": "Karışık Turşu"
+      "img": "dishes/ca846fdc8d.jpg",
+      "key": "ca846fdc8d",
+      "name": "Karışık Salata"
      }
     ]
    },
@@ -1476,6 +1477,38 @@
       "name": "Kuru Cacık"
      }
     ]
+   },
+   "vegetarian": {
+    "items": [
+     {
+      "key": "5a3a0bfe26",
+      "name": "Minestrone Çorba"
+     },
+     {
+      "img": "dishes/0aa8292b7e.jpg",
+      "key": "0aa8292b7e",
+      "name": "Sebzeli Kuru Fasülye"
+     },
+     {
+      "img": "dishes/39ea22d2c7.jpg",
+      "key": "39ea22d2c7",
+      "name": "Zeytinyağlı Brokoli - Havuç"
+     },
+     {
+      "key": "70ddba17c0",
+      "name": "Arpa Şehriyeli Pirinç Pilavı"
+     },
+     {
+      "img": "dishes/3ab5b14f23.jpg",
+      "key": "3ab5b14f23",
+      "name": "Kuru Cacık"
+     },
+     {
+      "img": "dishes/ed17271d58.jpg",
+      "key": "ed17271d58",
+      "name": "Meyve"
+     }
+    ]
    }
   },
   "2026-11-27": {
@@ -1516,6 +1549,35 @@
      {
       "key": "fef6adada3",
       "name": "Nohutlu Pirinç Pilavı"
+     },
+     {
+      "key": "61a2035b95",
+      "name": "Karışık Komposto"
+     }
+    ]
+   },
+   "vegetarian": {
+    "items": [
+     {
+      "key": "37b33e28c3",
+      "name": "Abant Çorba"
+     },
+     {
+      "key": "9d011bc356",
+      "name": "Sebzeli Barbunya"
+     },
+     {
+      "key": "de548fc550",
+      "name": "Zerdeçallı Karnabahar - Havuç"
+     },
+     {
+      "key": "fef6adada3",
+      "name": "Nohutlu Pirinç Pilavı"
+     },
+     {
+      "img": "dishes/073c89ab04.jpg",
+      "key": "073c89ab04",
+      "name": "Kabak Mücver"
      },
      {
       "key": "61a2035b95",
@@ -1606,5 +1668,5 @@
   }
  },
  "university": "uludag",
- "updated": "2026-11-04T13:07:09+03:00"
+ "updated": "2026-11-08T12:40:23+03:00"
 }

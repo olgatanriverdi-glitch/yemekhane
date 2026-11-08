@@ -116,10 +116,10 @@
       "name": "Domates Çorbası"
      },
      {
-      "img": "dishes/1b9c27cdb2.jpg",
+      "img": "dishes/6ffd8ba7f2.jpg",
       "kcal": 143,
-      "key": "1b9c27cdb2",
-      "name": "Yumurtalı Ispanak"
+      "key": "6ffd8ba7f2",
+      "name": "Yeşil Fasulye"
      },
      {
       "img": "dishes/df8e1e6b52.jpg",
@@ -751,5 +751,5 @@
   }
  },
  "university": "sbtu",
- "updated": "2026-11-04T13:07:09+03:00"
+ "updated": "2026-11-08T12:40:23+03:00"
 }
