@@ -12,7 +12,7 @@ enum HaftaDurumu {
   /// O gün başka öğünler var ama seçili öğün yok.
   ogunYok,
 
-  /// Menü verisi yok ve gün hafta sonu: hizmet verilmiyor.
+  /// Menü verisi yok ve gün hafta sonu (okul yayınlamamış; "hizmet verilmiyor" diye kesin söylenmez).
   hizmetYok,
 
   /// Menü verisi yok ve gün hafta içi: okul menüyü yayınlamamış.
@@ -42,9 +42,9 @@ class HaftaGunu {
   /// Menü yokken kartta ve paylaşım metninde yazan kısa açıklama (menü varsa boş).
   String get mesaj => switch (durum) {
         HaftaDurumu.menu => '',
-        HaftaDurumu.tatil => not ?? 'Hizmet yok',
+        HaftaDurumu.tatil => not ?? 'Menü yok',
         HaftaDurumu.ogunYok => not ?? 'Bu öğün için menü yok',
-        HaftaDurumu.hizmetYok => 'Hizmet yok',
+        HaftaDurumu.hizmetYok => 'Menü yok',
         HaftaDurumu.yayinlanmadi => 'Menü yayınlanmadı',
       };
 }

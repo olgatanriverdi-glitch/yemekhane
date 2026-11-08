@@ -82,18 +82,19 @@ class GunGovdesi extends StatelessWidget {
     if (gun.isEmpty) {
       return YemekYok(
           baslik: 'Bu gün yemek yok',
-          alt: haftaSonu
-              ? 'Hafta sonu yemekhane hizmeti verilmiyor.'
-              : 'Okul bu gün için menü yayınlamadı.',
+          // veri yokluğundan "hizmet verilmiyor" sonucu çıkmaz (hafta sonu da olsa okul menü yayınlamamış olabilir)
+          alt: 'Bu gün için menü yayınlanmamış.',
           ikon: haftaSonu ? Icons.weekend_outlined : Icons.no_meals_outlined);
     }
     if (gun.values.every((o) => o.bos)) {
       // o gün hiçbir öğünde yemek yok (örn. tatil): tek, net bir mesaj
+      // okul bir not verdiyse (tatil vb.) o gösterilir; not yoksa "hizmet verilmiyor" denmez
+      final not = gun.values.map((o) => o.not).whereType<String>().firstOrNull;
       return YemekYok(
-          baslik:
-              gun.values.map((o) => o.not).whereType<String>().firstOrNull ??
-                  'Bu gün yemek yok',
-          alt: 'Bu gün yemekhane hizmeti verilmiyor.',
+          baslik: not ?? 'Bu gün yemek yok',
+          alt: not != null
+              ? 'Bu gün yemekhane hizmeti verilmiyor.'
+              : 'Bu gün için menü yayınlanmamış.',
           ikon: Icons.celebration_outlined);
     }
     if (ogun == null || ogun.bos) {
@@ -106,9 +107,7 @@ class GunGovdesi extends StatelessWidget {
       if (aktif == 'vegetarian') return EtsizOneri(gun: gun);
       return YemekYok(
           baslik: 'Bu gün $ogunAd yemeği yok',
-          alt: haftaSonu
-              ? 'Hafta sonu bu öğün verilmiyor.'
-              : 'Okul bu öğün için menü yayınlamadı.',
+          alt: 'Okul bu öğün için menü yayınlamadı.',
           ikon: Icons.no_meals_outlined);
     }
     return OgunKarti(

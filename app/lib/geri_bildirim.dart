@@ -35,6 +35,9 @@ class Yorum {
   Yorum(this.id, this.uid, this.ad, this.metin, this.zaman, {this.slot = ''});
 }
 
+/// Şikâyete kopyalanan yorum metninin en çok uzunluğu (yorum sınırıyla aynı).
+const bildirimMetinSiniri = 300;
+
 /// Bir yorumu bildirirken seçilen neden. [kod] Firestore'a yazılır (firestore.rules'taki liste ile aynı olmalı).
 enum YorumBildirimNedeni {
   hakaret('hakaret', 'Hakaret / küfür'),
@@ -447,21 +450,33 @@ class FirestoreDepo implements GeriBildirimDeposu {
     return v == null ? null : int.parse('$v');
   }
 
+  /// Belge adı (commit isteklerinde tam yol gerekir).
+  String get _belgeKok => 'projects/$proje/databases/(default)/documents';
+
+  /// Sunucu zamanı gerektiren yazmalar (`updatedAt == request.time` gibi kurallar) tek `:commit` isteğiyle yapılır;
+  /// zaman alanı istemci saatiyle değil `REQUEST_TIME` dönüşümüyle yazılır.
+  Future<http.Response> _commit(List<Map<String, dynamic>> yazmalar) async =>
+      _istek('POST', Uri.parse('$_kok:commit'),
+          headers: await _baslik(), body: jsonEncode({'writes': yazmalar}));
+
   @override
   Future<void> puanVer(String slot, int yildiz) async {
     final uid = await kullaniciId();
-    final r = await _istek('PATCH', Uri.parse('$_kok/ratings/${slot}_$uid'),
-        headers: await _baslik(),
-        body: jsonEncode({
+    final r = await _commit([
+      {
+        'update': {
+          'name': '$_belgeKok/ratings/${slot}_$uid',
           'fields': {
             'uid': {'stringValue': uid},
             'slot': {'stringValue': slot},
             'stars': {'integerValue': '$yildiz'},
-            'updatedAt': {
-              'timestampValue': DateTime.now().toUtc().toIso8601String()
-            },
           }
-        }));
+        },
+        'updateTransforms': [
+          {'fieldPath': 'updatedAt', 'setToServerValue': 'REQUEST_TIME'}
+        ],
+      }
+    ]);
     if (r.statusCode != 200) {
       throw Exception('Puan kaydedilemedi (${r.statusCode})');
     }
@@ -494,22 +509,44 @@ class FirestoreDepo implements GeriBildirimDeposu {
     return sonuc;
   }
 
+  static final _rastgele = Random.secure();
+
+  /// Firestore otomatik kimliği gibi 20 karakterlik rastgele belge kimliği.
+  static String _yeniBelgeKimligi() {
+    const harf =
+        'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
+    return String.fromCharCodes(
+        [for (var i = 0; i < 20; i++) harf.codeUnitAt(_rastgele.nextInt(62))]);
+  }
+
+  /// Yorum ve kullanıcının `limits/{uid}` belgesi (son yorum zamanı) AYNI `:commit` isteğinde yazılır: kurallar
+  /// oran sınırını (son yorumdan en az 20 sn) bu iki yazmanın birlikte gelmesine bağlar.
   @override
   Future<void> yorumEkle(String slot, String ad, String metin) async {
     final uid = await kullaniciId();
-    final r = await _istek('POST', Uri.parse('$_kok/comments'),
-        headers: await _baslik(),
-        body: jsonEncode({
+    final r = await _commit([
+      {
+        'update': {
+          'name': '$_belgeKok/comments/${_yeniBelgeKimligi()}',
           'fields': {
             'uid': {'stringValue': uid},
             'slot': {'stringValue': slot},
             'name': {'stringValue': ad},
             'text': {'stringValue': metin},
-            'createdAt': {
-              'timestampValue': DateTime.now().toUtc().toIso8601String()
-            },
           }
-        }));
+        },
+        'updateTransforms': [
+          {'fieldPath': 'createdAt', 'setToServerValue': 'REQUEST_TIME'}
+        ],
+        'currentDocument': {'exists': false},
+      },
+      {
+        'update': {'name': '$_belgeKok/limits/$uid', 'fields': {}},
+        'updateTransforms': [
+          {'fieldPath': 'lastCommentAt', 'setToServerValue': 'REQUEST_TIME'}
+        ],
+      },
+    ]);
     if (r.statusCode != 200) {
       throw Exception('Yorum gönderilemedi (${r.statusCode})');
     }
@@ -524,22 +561,35 @@ class FirestoreDepo implements GeriBildirimDeposu {
     }
   }
 
+  /// Şikâyet belgesi `reports/<bildirenUid>_<yorumId>` kimliğiyle yazılır: aynı kişi aynı yorumu iki kez
+  /// bildiremez (ikincisi 409 döner ve "zaten bildirilmiş" sayılır). Yorumun yazarının uid'i ve yorum metninin kopyası
+  /// (en çok [bildirimMetinSiniri] karakter) şikâyete eklenir: yorum silinse de inceleme yapılabilir.
   @override
   Future<void> yorumBildir(Yorum y, YorumBildirimNedeni neden) async {
     final uid = await kullaniciId();
-    final r = await _istek('POST', Uri.parse('$_kok/reports'),
-        headers: await _baslik(),
-        body: jsonEncode({
+    final metin = y.metin.length > bildirimMetinSiniri
+        ? y.metin.substring(0, bildirimMetinSiniri)
+        : y.metin;
+    final r = await _commit([
+      {
+        'update': {
+          'name': '$_belgeKok/reports/${uid}_${y.id}',
           'fields': {
             'uid': {'stringValue': uid},
             'commentId': {'stringValue': y.id},
             'slot': {'stringValue': y.slot},
             'reason': {'stringValue': neden.kod},
-            'createdAt': {
-              'timestampValue': DateTime.now().toUtc().toIso8601String()
-            },
+            'targetUid': {'stringValue': y.uid},
+            'targetText': {'stringValue': metin},
           }
-        }));
+        },
+        'updateTransforms': [
+          {'fieldPath': 'createdAt', 'setToServerValue': 'REQUEST_TIME'}
+        ],
+        'currentDocument': {'exists': false},
+      }
+    ]);
+    if (r.statusCode == 409) return; // bu yorum zaten bildirilmiş
     if (r.statusCode != 200) {
       throw Exception('Bildirim gönderilemedi (${r.statusCode})');
     }
@@ -562,6 +612,10 @@ class FirestoreDepo implements GeriBildirimDeposu {
       final uid = await kullaniciId();
       await _sahibininBelgeleriniSil('comments', uid);
       await _sahibininBelgeleriniSil('ratings', uid);
+      // kullanıcının KENDİ gönderdiği şikâyetler de silinir; başkalarının onun hakkındaki şikâyetleri moderasyon için
+      // saklanır (bkz. site/hesap-silme.html)
+      await _sahibininBelgeleriniSil('reports', uid);
+      await _oranSiniriniSil(uid);
       await _hesabiSil();
     }
     _token = _yenile = _uid = null;
@@ -569,6 +623,16 @@ class FirestoreDepo implements GeriBildirimDeposu {
     await p.remove('fb_yenile');
     await p.remove('fb_uid');
     await p.remove('yorum_adi');
+  }
+
+  /// Oran sınırı belgesi (`limits/<uid>`, yalnızca son yorum zamanı). Kurallar, son yorumdan 20 sn geçmeden silmeye
+  /// izin vermez (sınırı silerek aşmayı önlemek için); bu yüzden hata sessizce yutulur: belge kişisel veri
+  /// içermez (anonim kimlik + zaman) ve hesap kapatılınca hiçbir kimliğe bağlı kalmaz.
+  Future<void> _oranSiniriniSil(String uid) async {
+    try {
+      await _istek('DELETE', Uri.parse('$_kok/limits/$uid'),
+          headers: await _baslik());
+    } catch (_) {}
   }
 
   Future<void> _sahibininBelgeleriniSil(String koleksiyon, String uid) async {

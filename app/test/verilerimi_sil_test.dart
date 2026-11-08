@@ -28,7 +28,7 @@ class _Sunucu {
   final istekler = <String>[];
   final commitGovdeleri = <Map<String, dynamic>>[];
   final raporlar = <Map<String, dynamic>>[];
-  final belgeler = <String, int>{'comments': 0, 'ratings': 0};
+  final belgeler = <String, int>{'comments': 0, 'ratings': 0, 'reports': 0};
   int commitKodu = 200;
   int hesapSilmeKodu = 200;
   String hesapSilmeGovdesi = '{}';
@@ -87,9 +87,14 @@ class _Sunucu {
     }
     if (u.contains(':commit')) {
       final govde = jsonDecode(r.body) as Map<String, dynamic>;
+      final writes = govde['writes'] as List;
+      if ((writes.first as Map).containsKey('update')) {
+        // şikâyet yazımı (sunucu zamanlı commit): silme sayaçlarına karışmaz
+        raporlar.add((writes.first as Map)['update'] as Map<String, dynamic>);
+        return http.Response('{}', raporKodu);
+      }
       commitGovdeleri.add(govde);
       if (commitKodu != 200) return http.Response('{}', commitKodu);
-      final writes = govde['writes'] as List;
       final ad = (writes.first as Map)['delete'] as String;
       final koleksiyon = ad.split('/').reversed.elementAt(1);
       belgeler[koleksiyon] = belgeler[koleksiyon]! - writes.length;
@@ -126,7 +131,7 @@ void main() {
       final depo = await _girisYapmis(s);
       await depo.verilerimiSil();
 
-      expect(s.belgeler, {'comments': 0, 'ratings': 0});
+      expect(s.belgeler, {'comments': 0, 'ratings': 0, 'reports': 0});
       expect(s.commitGovdeleri, hasLength(2));
       expect(
           (s.commitGovdeleri[0]['writes'] as List)
@@ -146,7 +151,7 @@ void main() {
       final s = _Sunucu()..belgeler['comments'] = 1;
       final depo = await _girisYapmis(s);
       await depo.verilerimiSil();
-      expect(s.sayi(':runQuery'), 2); // comments + ratings
+      expect(s.sayi(':runQuery'), 3); // comments + ratings + reports
     });
 
     test('100\'den fazla belge sayfa sayfa silinir', () async {
@@ -155,7 +160,7 @@ void main() {
         ..belgeler['ratings'] = 100;
       final depo = await _girisYapmis(s);
       await depo.verilerimiSil();
-      expect(s.belgeler, {'comments': 0, 'ratings': 0});
+      expect(s.belgeler, {'comments': 0, 'ratings': 0, 'reports': 0});
       // yorumlar: 100 + 100 + 50; puanlar: 100 (tam sayfa) + boş sorgu
       expect(s.commitGovdeleri.map((g) => (g['writes'] as List).length),
           [100, 100, 50, 100]);
@@ -224,13 +229,16 @@ void main() {
       await depo.yorumBildir(y, YorumBildirimNedeni.hakaret);
       expect(s.raporlar, hasLength(1));
       final f = s.raporlar.single['fields'] as Map;
-      expect(
-          f.keys.toSet(), {'uid', 'commentId', 'slot', 'reason', 'createdAt'});
+      // createdAt istemci saatiyle değil sunucu zamanıyla (REQUEST_TIME dönüşümü) yazılır
+      expect(f.keys.toSet(),
+          {'uid', 'commentId', 'slot', 'reason', 'targetUid', 'targetText'});
+      expect(f['targetUid'], {'stringValue': 'baska'});
+      expect(f['targetText'], {'stringValue': 'Metin'});
+      expect(s.raporlar.single['name'], endsWith('/reports/U1_abc123'));
       expect(f['uid'], {'stringValue': 'U1'});
       expect(f['commentId'], {'stringValue': 'abc123'});
       expect(f['slot'], {'stringValue': 'y_ankara_manti'});
       expect(f['reason'], {'stringValue': 'hakaret'});
-      expect((f['createdAt'] as Map).keys, ['timestampValue']);
     });
 
     test('kurallar reddederse (403) hata fırlatır', () async {
@@ -468,8 +476,13 @@ void main() {
       expect(
           bolum,
           contains(
-              "keys().hasOnly(['uid', 'commentId', 'slot', 'reason', 'createdAt'])"));
-      expect(bolum, contains('allow read, update, delete: if false;'));
+              "keys().hasOnly(['uid', 'commentId', 'slot', 'reason', 'targetUid', 'targetText', 'createdAt'])"));
+      // bildiren yalnızca KENDİ bildirimini okuyabilir / silebilir; güncelleme yok; herkese açık okuma yok
+      expect(
+          bolum,
+          contains(
+              'allow read, delete: if request.auth != null && resource.data.uid == request.auth.uid;'));
+      expect(bolum, contains('allow update: if false;'));
       expect(bolum, isNot(contains('allow read: if true')));
     });
 

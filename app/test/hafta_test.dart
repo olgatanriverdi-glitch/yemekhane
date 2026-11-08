@@ -270,7 +270,7 @@ void main() {
       expect(g[3].not, 'Tatil');
       expect(g[3].mesaj, 'Tatil');
       expect(g[4].mesaj, 'Bu öğün için menü yok');
-      expect(g[5].mesaj, 'Hizmet yok');
+      expect(g[5].mesaj, 'Menü yok');
       expect(g.map((x) => x.veriVar).toList(),
           [true, true, true, true, true, false, false]);
     });
@@ -287,7 +287,7 @@ void main() {
     });
 
     test(
-        'haftaGunleri: hafta sonu verisi varsa gösterilir; notsuz boş gün "Hizmet yok"',
+        'haftaGunleri: hafta sonu verisi varsa gösterilir; notsuz boş gün "Menü yok"',
         () {
       final m = Menu('x', null, {
         '2026-11-07': {
@@ -298,7 +298,7 @@ void main() {
       final g = haftaGunleri(m, '2026-11-02', 'lunch');
       expect(g[5].durum, HaftaDurumu.menu); // cumartesi yemekli
       expect(g[1].durum, HaftaDurumu.tatil);
-      expect(g[1].mesaj, 'Hizmet yok');
+      expect(g[1].mesaj, 'Menü yok');
       expect(g[0].durum, HaftaDurumu.yayinlanmadi);
     });
 
@@ -381,16 +381,15 @@ void main() {
           _kartta('2026-11-04', find.text('Toplam 530 kkal')), findsOneWidget);
     });
 
-    testWidgets(
-        'tatil notu, "Bu öğün için menü yok" ve hafta sonu "Hizmet yok"',
+    testWidgets('tatil notu, "Bu öğün için menü yok" ve hafta sonu "Menü yok"',
         (t) async {
       await _ac(t);
       expect(_kartta('2026-11-05', find.text('Tatil')), findsOneWidget);
       expect(_kartta('2026-11-06', find.text('Bu öğün için menü yok')),
           findsOneWidget);
-      expect(find.text('Hizmet yok'), findsNWidgets(2));
-      expect(_kartta('2026-11-07', find.text('Hizmet yok')), findsOneWidget);
-      expect(_kartta('2026-11-08', find.text('Hizmet yok')), findsOneWidget);
+      expect(find.text('Menü yok'), findsNWidgets(2));
+      expect(_kartta('2026-11-07', find.text('Menü yok')), findsOneWidget);
+      expect(_kartta('2026-11-08', find.text('Menü yok')), findsOneWidget);
     });
 
     testWidgets('favori yemek kalp ve kalın yazıyla öne çıkar', (t) async {
@@ -479,7 +478,7 @@ void main() {
       expect(_kartta('2026-10-29', find.text('29 Ekim Cumhuriyet Bayramı')),
           findsOneWidget);
       expect(_yemekMetni(t, '2026-10-30'), 'Pilav');
-      expect(find.text('Hizmet yok'), findsNWidgets(2)); // 31 Ekim, 1 Kasım
+      expect(find.text('Menü yok'), findsNWidgets(2)); // 31 Ekim, 1 Kasım
     });
 
     testWidgets(
@@ -540,7 +539,7 @@ void main() {
       });
       await _ac(t, menu: menu);
       expect(_yemekMetni(t, '2026-11-07'), 'Cumartesi Çorbası');
-      expect(find.text('Hizmet yok'), findsOneWidget); // yalnızca pazar
+      expect(find.text('Menü yok'), findsOneWidget); // yalnızca pazar
     });
 
     testWidgets('Haftayı paylaş açık haftanın metnini servise verir',
@@ -598,7 +597,7 @@ void main() {
       expect(_acik(t, Icons.chevron_left), isTrue); // menü daha önce başlıyor
       expect(_acik(t, Icons.chevron_right), isFalse);
       expect(find.text('Menü yayınlanmadı'), findsNWidgets(5));
-      expect(find.text('Hizmet yok'), findsNWidgets(2));
+      expect(find.text('Menü yok'), findsNWidgets(2));
     });
 
     testWidgets('hafta değişince eski liste solarak çıkar', (t) async {

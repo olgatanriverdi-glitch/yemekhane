@@ -49,16 +49,16 @@ List<String> _ogunSatirlari(Universite uni, String tur, Ogun o) {
 /// Günde hiç yemek yokken yazılacak satırlar (ana ekrandaki "yemek yok" açıklamalarıyla aynı).
 List<String> _gunYokSatirlari(String tarih, Map<String, Ogun> gun) {
   if (gun.isEmpty) {
-    final haftaSonu = (DateTime.tryParse(tarih)?.weekday ?? 1) >= 6;
-    return [
-      haftaSonu
-          ? 'Hafta sonu yemekhane hizmeti verilmiyor.'
-          : 'Okul bu gün için menü yayınlamadı.'
-    ];
+    return ['Bu gün için menü yayınlanmamış.'];
   }
   final not =
       gun.values.map((o) => temizNot(o.not)).whereType<String>().firstOrNull;
-  return [if (not != null) not, 'Bu gün yemekhane hizmeti verilmiyor.'];
+  return [
+    if (not != null) not,
+    not != null
+        ? 'Bu gün yemekhane hizmeti verilmiyor.'
+        : 'Bu gün için menü yayınlanmamış.'
+  ];
 }
 
 /// Bu gün / öğün için paylaşılacak bir şey (yemek ya da not) var mı? [ogun] verilmezse günün herhangi

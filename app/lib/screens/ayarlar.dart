@@ -11,6 +11,7 @@ import '../reklam/reklam_yoneticisi.dart';
 import '../reklam/reklamsiz_gun.dart';
 import '../repository.dart';
 import '../tema.dart';
+import '../topluluk_kurallari.dart';
 import '../yorum_moderasyon.dart';
 import '../widgets/bildirim_bolumu.dart';
 import '../widgets/kalori_ayari.dart';
@@ -340,6 +341,13 @@ class _AyarlarSayfasiState extends State<AyarlarSayfasi> {
               subtitle: const Text('Adresi panoya kopyalar'),
               trailing: const Icon(Icons.copy),
               onTap: () => _kaynagiKopyala(gizlilikAdresi),
+            ),
+            ListTile(
+              leading: const Icon(Icons.gavel_outlined),
+              title: const Text(toplulukKurallariBaslik),
+              subtitle: const Text('Yorum yazarken uyulacak kurallar'),
+              trailing: const Icon(Icons.chevron_right),
+              onTap: () => toplulukKurallariniGoster(context),
             ),
             if (_reklamTercihi)
               ListTile(

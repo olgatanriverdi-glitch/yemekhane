@@ -653,7 +653,8 @@ void main() {
       final gb = YerelDepo();
       await _ac(t, _sayfa(gb: gb));
       await t.enterText(find.byType(TextField), 'Çok güzeldi');
-      SharedPreferences.setMockInitialValues({'yorum_adi': 'Ali'});
+      SharedPreferences.setMockInitialValues(
+          {'yorum_adi': 'Ali', 'topluluk_kurallari_surum': 1});
       await t.tap(find.byTooltip('Gönder'));
       await t.pumpAndSettle();
       final yorumlar = await gb.yorumlar(_slot('manti'));

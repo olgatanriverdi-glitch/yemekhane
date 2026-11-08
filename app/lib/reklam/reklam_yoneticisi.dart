@@ -11,7 +11,7 @@ import 'uzak_ayar.dart';
 class _Kayit {
   _Kayit(this.nesne, this.zaman);
   final ReklamNesnesi nesne;
-  final DateTime zaman;
+  DateTime zaman;
 }
 
 /// Reklamların yaşam döngüsü: ne zaman istek atılır, kaç reklam bellekte tutulur, hangi widget hangisini gösterir.
@@ -104,6 +104,9 @@ class ReklamYoneticisi extends ChangeNotifier {
   final ValueNotifier<int> rizaSurumu = ValueNotifier<int>(0);
   Future<bool>? _hazir;
   DateTime? _hazirHatasi;
+
+  /// Rıza tercihi her değiştiğinde artar; eski nesilde başlayan yüklemelerin sonucu atılır.
+  int _nesil = 0;
   int _yuklemeSayisi = 0;
   bool _kapandi = false;
 
@@ -280,6 +283,10 @@ class ReklamYoneticisi extends ChangeNotifier {
 
   Future<bool> _hazirla() async {
     try {
+      final s = servis;
+      if (s is IcerikDerecesiAyarlanabilir) {
+        (s as IcerikDerecesiAyarlanabilir).maxIcerik = _ayar.maxIcerik;
+      }
       return await servis.hazirla();
     } catch (_) {
       return false;
@@ -287,6 +294,7 @@ class ReklamYoneticisi extends ChangeNotifier {
   }
 
   Future<ReklamNesnesi?> _yukle(String anahtar, ReklamStili stil) async {
+    final nesil = _nesil;
     try {
       final hata = _hazirHatasi;
       if (hata != null && _simdi().difference(hata) < reklamHataBeklemesi) {
@@ -300,6 +308,7 @@ class ReklamYoneticisi extends ChangeNotifier {
         _hazirHatasi = _simdi();
         return null;
       }
+      if (nesil != _nesil) return null; // hazırlık beklenirken tercih değişti
       if (_kapandi || _yuklemeSayisi >= oturumSiniri) return null;
       _yuklemeSayisi++;
       final nesne = await servis.yukle(stil);
@@ -308,6 +317,11 @@ class ReklamYoneticisi extends ChangeNotifier {
         return null;
       }
       if (_kapandi) {
+        nesne.dispose();
+        return null;
+      }
+      if (nesil != _nesil) {
+        // yükleme sürerken rıza tercihi değişti: eski rızayla istenen reklam kullanılmaz
         nesne.dispose();
         return null;
       }
@@ -400,10 +414,37 @@ class ReklamYoneticisi extends ChangeNotifier {
     }
   }
 
+  /// Rıza tercihleri formunu açar. Form kapanınca rıza değişmiş olabilir: [tercihDegisti] ile hazırlık sonucu
+  /// sıfırlanır, bellekteki ve bekleyen reklamlar geçersiz kılınır, bir sonraki istekten önce rıza (canRequestAds)
+  /// yeniden kontrol edilir.
   Future<void> tercihleriAc() async {
     try {
       await servis.tercihleriAc();
     } catch (_) {}
+    tercihDegisti();
+  }
+
+  /// Rıza tercihi değişti (form kapandı ya da rıza bilgisi güncellendi). Hazırlık sonucu ve hata beklemeleri
+  /// sıfırlanır; sonraki reklam isteği `hazirla` ile rızayı yeniden denetler (rıza geri alındıysa istek atılmaz).
+  /// Bellekteki reklamlar eski rızayla istenmiş olabilir: kimsenin göstermediği reklamlar hemen serbest bırakılır,
+  /// gösterilenler bırakılır bırakılmaz (süresi doldu sayılır) ve bekleyen yüklemelerin sonucu atılır.
+  void tercihDegisti() {
+    if (_kapandi) return;
+    _nesil++;
+    _hazir = null;
+    _hazirHatasi = null;
+    _hatalar.clear();
+    _devam.clear();
+    final eski = DateTime.fromMillisecondsSinceEpoch(0);
+    for (final k in _onbellek.keys.toList()) {
+      if (_sahipler.containsKey(k)) {
+        _onbellek[k]!.zaman = eski; // gösterilen: bırakılınca atılır
+      } else {
+        _at(k);
+      }
+    }
+    rizaSurumu.value++;
+    notifyListeners();
   }
 
   /// Tüm reklamları serbest bırakır (uygulama / ana sayfa kapanırken).

@@ -495,7 +495,8 @@ void main() {
         (t) async {
       genis(t);
       final depo = FirestoreDepo('p', 'k', _SahteSunucu().istemci);
-      SharedPreferences.setMockInitialValues({'yorum_adi': 'Ali'});
+      SharedPreferences.setMockInitialValues(
+          {'yorum_adi': 'Ali', 'topluluk_kurallari_surum': 1});
       await t.pumpWidget(uygulama(
           GeriBildirimBolumu(depo: depo, slot: 's', puanGoster: false)));
       await t.pump(const Duration(seconds: 16));

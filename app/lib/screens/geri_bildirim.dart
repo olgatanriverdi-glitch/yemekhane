@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 import '../geri_bildirim.dart';
+import '../topluluk_kurallari.dart';
 import '../yorum_filtresi.dart';
 import '../yorum_moderasyon.dart';
 
@@ -159,6 +160,9 @@ class _GeriBildirimBolumuState extends State<GeriBildirimBolumu> {
       _mesaj(sorun.mesaj);
       return;
     }
+    // kullanıcı içeriği politikası: ilk yorumdan (ve takma ad seçiminden) önce topluluk kuralları kabul edilir
+    if (!await toplulukKurallariniOnayla(context)) return;
+    if (!mounted) return;
     final ad = await _adSor();
     if (ad == null || !mounted) return;
     if (yorumSorunu(ad) != null) {
@@ -202,7 +206,7 @@ class _GeriBildirimBolumuState extends State<GeriBildirimBolumu> {
     final neden = await showDialog<YorumBildirimNedeni>(
       context: context,
       builder: (c) => SimpleDialog(
-        title: const Text('Bu yorumu neden bildiriyorsun?'),
+        title: const Text('Bu yorumu ve yazarını neden bildiriyorsun?'),
         children: [
           for (final n in YorumBildirimNedeni.values)
             SimpleDialogOption(
@@ -425,7 +429,15 @@ class _GeriBildirimBolumuState extends State<GeriBildirimBolumu> {
                             itemBuilder: (_) => const [
                               PopupMenuItem(
                                   value: _YorumIslemi.bildir,
-                                  child: Text('Bildir')),
+                                  child: Column(
+                                      crossAxisAlignment:
+                                          CrossAxisAlignment.start,
+                                      mainAxisSize: MainAxisSize.min,
+                                      children: [
+                                        Text('Bildir'),
+                                        Text('Yorumu ve yazarını',
+                                            style: TextStyle(fontSize: 12)),
+                                      ])),
                               PopupMenuItem(
                                   value: _YorumIslemi.engelle,
                                   child: Text('Bu kişiyi engelle')),

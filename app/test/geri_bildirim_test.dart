@@ -120,16 +120,16 @@ void main() {
       if (u.contains('/ratings/') && r.method == 'GET') {
         return http.Response('{}', 404);
       }
-      if (r.method == 'PATCH') {
-        final f = (jsonDecode(r.body) as Map)['fields'] as Map;
-        expect(f['stars']['integerValue'], '5');
-        expect(f['uid']['stringValue'], 'U1');
-        expect(u.contains('/ratings/s_U1'), true);
-        return http.Response('{}', 200);
-      }
-      if (r.method == 'POST' && u.endsWith('/comments')) {
-        final f = (jsonDecode(r.body) as Map)['fields'] as Map;
-        expect(f['text']['stringValue'], 'Merhaba');
+      if (u.contains(':commit')) {
+        final w = ((jsonDecode(r.body) as Map)['writes'] as List).first as Map;
+        final f = (w['update'] as Map)['fields'] as Map;
+        if (f.containsKey('stars')) {
+          expect(f['stars']['integerValue'], '5');
+          expect(f['uid']['stringValue'], 'U1');
+          expect((w['update'] as Map)['name'], endsWith('/ratings/s_U1'));
+        } else {
+          expect(f['text']['stringValue'], 'Merhaba');
+        }
         return http.Response('{}', 200);
       }
       return http.Response('{}', 200);

@@ -656,7 +656,7 @@ void main() {
               ]),
               200);
         }
-        if (r.method == 'PATCH') {
+        if (r.method == 'PATCH' || u.contains(':commit')) {
           yazma++;
           return http.Response('{}', 200);
         }

@@ -31,6 +31,8 @@ import 'package:yemekhane/screens/home.dart';
 import 'package:yemekhane/tema.dart';
 import 'package:yemekhane/widgets/durum_ekranlari.dart';
 
+import 'opak_png.dart';
+
 const _veri = '../data';
 const _cikti = '../magaza/ekranlar';
 final _fontlar =
@@ -143,10 +145,11 @@ Future<void> _kaydet(WidgetTester t, String ad) async {
     final sinir =
         _kok.currentContext!.findRenderObject()! as RenderRepaintBoundary;
     final resim = await sinir.toImage(pixelRatio: 3);
-    final bayt = (await resim.toByteData(format: ui.ImageByteFormat.png))!;
+    // Google Play alfasız 24 bit PNG ister: RGBA yerine beyaz zemine birleştirilmiş RGB yazılır
+    final ham = (await resim.toByteData(format: ui.ImageByteFormat.rawRgba))!;
     File('$_cikti/$ad.png')
       ..createSync(recursive: true)
-      ..writeAsBytesSync(bayt.buffer.asUint8List());
+      ..writeAsBytesSync(opakPng(resim.width, resim.height, ham));
     stdout.writeln('yazıldı: $ad.png ${resim.width}x${resim.height}');
   });
 }

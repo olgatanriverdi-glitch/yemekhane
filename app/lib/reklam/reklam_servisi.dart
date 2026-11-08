@@ -51,6 +51,12 @@ abstract class ReklamServisi {
   Future<void> tercihleriAc();
 }
 
+/// İstenen reklamların içerik derecesi uzaktan ayarlanabilen servisler bunu uygular (bkz. `UzakReklamAyari.maxIcerik`).
+/// Yönetici [hazirla]dan önce değeri verir; geçersiz değer 'G' sayılır.
+abstract interface class IcerikDerecesiAyarlanabilir {
+  set maxIcerik(String derece);
+}
+
 /// Reklamın kapalı olduğu yerlerde (web, kimliksiz release) kullanılan servis: hiçbir şey yapmaz.
 class KapaliReklamServisi implements ReklamServisi {
   const KapaliReklamServisi();

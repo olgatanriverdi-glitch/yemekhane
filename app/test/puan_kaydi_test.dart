@@ -83,6 +83,7 @@ Widget _bos() => const MaterialApp(home: Scaffold(body: SizedBox()));
 /// Cihazda 2 yıldızlık (tek oylu) bir puan ve kayıtlı takma ad olan başlangıç durumu.
 void _ikiYildizli() => SharedPreferences.setMockInitialValues({
       'yorum_adi': 'Ali',
+      'topluluk_kurallari_surum': 1,
       'yp/s1': 2,
     });
 
@@ -166,6 +167,7 @@ void main() {
         (t) async {
       SharedPreferences.setMockInitialValues({
         'yorum_adi': 'Ali',
+        'topluluk_kurallari_surum': 1,
         'yy/s1': [
           jsonEncode({
             'id': '1',

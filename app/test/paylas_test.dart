@@ -239,7 +239,7 @@ void main() {
 
     test('seçili öğün yok ve gün tamamen boş: gün açıklaması', () {
       expect(gunMetni(_uni(), '2026-11-03', {}, ogun: 'lunch'),
-          'Ankara Üniversitesi · Salı 3 Kasım\nOkul bu gün için menü yayınlamadı.');
+          'Ankara Üniversitesi · Salı 3 Kasım\nBu gün için menü yayınlanmamış.');
     });
   });
 
@@ -286,14 +286,15 @@ void main() {
       expect(
           gunMetni(_uni(), '2026-11-03', gun),
           'Ankara Üniversitesi · Salı 3 Kasım\n'
-          'Bu gün yemekhane hizmeti verilmiyor.');
+          'Bu gün için menü yayınlanmamış.');
     });
 
     test('menü yayınlanmamış gün ve hafta sonu açıklamaları', () {
       expect(gunMetni(_uni(), '2026-11-03', {}),
-          'Ankara Üniversitesi · Salı 3 Kasım\nOkul bu gün için menü yayınlamadı.');
+          'Ankara Üniversitesi · Salı 3 Kasım\nBu gün için menü yayınlanmamış.');
+      // hafta sonu da olsa veri yokluğundan "hizmet verilmiyor" sonucu çıkmaz
       expect(gunMetni(_uni(), '2026-11-07', {}),
-          'Ankara Üniversitesi · Cumartesi 7 Kasım\nHafta sonu yemekhane hizmeti verilmiyor.');
+          'Ankara Üniversitesi · Cumartesi 7 Kasım\nBu gün için menü yayınlanmamış.');
     });
 
     test('okulun öğün listesi boşsa (bilinmiyor) gündeki bütün öğünler yazılır',
@@ -390,10 +391,10 @@ void main() {
             'Menü yayınlanmadı',
             '',
             'Cumartesi 7 Kasım',
-            'Hizmet yok',
+            'Menü yok',
             '',
             'Pazar 8 Kasım',
-            'Hizmet yok',
+            'Menü yok',
           ].join('\n'));
     });
 

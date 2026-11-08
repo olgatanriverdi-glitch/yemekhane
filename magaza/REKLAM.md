@@ -1,6 +1,6 @@
 # Reklam rehberi (Google AdMob): yeni başlayanlar için
 
-Üni Yemek'te reklamlar içerikle birlikte kayan, "Reklam" etiketli ve "Üni Yemek'i ücretsiz tutar" açıklamalı yerel (native) kartlardır. Renk, köşe ve yazı boyutu etkin temadan gelir (açık, koyu, siyah ve bütün renk paletleri). **Her ekranda en fazla 1 reklam** vardır. Tam ekran (geçiş), açılış reklamı, otomatik oynayan sesli video, yapışkan banner ve yemek satırlarının arasında reklam yoktur. Web sürümünde reklam yoktur.
+Üni Yemek'te reklamlar içerikle birlikte kayan, "Reklam" etiketli ve "Üni Yemek'i ücretsiz tutar" açıklamalı yerel (native) kartlardır. Renk, köşe ve yazı boyutu etkin temadan gelir (açık, koyu, siyah ve bütün renk paletleri). **Her ekranda en fazla 1 reklam** vardır. Zorla gösterilen tam ekran (geçiş) reklamı, açılış reklamı, otomatik oynayan sesli video, yapışkan banner ve yemek satırlarının arasında reklam yoktur. Tek tam ekran reklam, kullanıcının kendi isteğiyle açtığı ödüllü "Reklamsız gün" reklamıdır. Orta boy yerel şablonda reklamverenin görseli ya da sessiz başlayan videosu bulunabilir. Web sürümünde reklam yoktur.
 
 **Yerleşimler (4 tane):**
 
@@ -77,13 +77,13 @@ Bu projenin sitesi `https://olgatanriverdi-glitch.github.io/yemekhane/` alt yolu
 
 ## 6. Rıza (AB / Birleşik Krallık) ve gizlilik
 
-Uygulama Google'ın rıza aracını (UMP) kullanır: ilk reklam isteğinden önce rıza bilgisi güncellenir; rıza gereken bölgelerde Google'ın formu bir kez çıkar. Kod yalnızca Google'ın `canRequestAds` sonucuna bakar: false ise istek atılmaz; true ise (ör. rıza verilmedi ama sınırlı reklam uygun) yalnızca UMP tercihlerine uygun türde reklam istenir. Bu, kullanıcının kişiselleştirmeyi onayladığı anlamına gelmez. Rıza gerekiyorsa Ayarlar > Hakkında'da "Reklam tercihleri" satırı görünür. **AdMob > Gizlilik ve mesajlaşma** bölümünden bir **Avrupa düzenlemeleri** mesajı oluşturup uygulamaya bağlaman gerekir; mesaj yoksa form çıkmaz. Türkiye'de rıza zorunlu değildir; uygulama reklamı kişiselleştirmeyi ayrıca kapatmaz (gizlilik sayfası bunu söyler). Sayfa: https://olgatanriverdi-glitch.github.io/yemekhane/gizlilik.html
+Uygulama Google'ın rıza aracını (UMP) kullanır: ilk reklam isteğinden önce rıza bilgisi güncellenir; rıza gereken bölgelerde Google'ın formu bir kez çıkar. Kullanıcı Ayarlar > "Reklam tercihleri" formunu kapattığında rıza değişmiş olabilir: uygulama hazırlık sonucunu sıfırlar, bellekteki ve yüklenmekte olan reklamları geçersiz kılar ve bir sonraki reklam isteğinden önce rızayı yeniden denetler (rıza geri alındıysa reklam istenmez). Kod yalnızca Google'ın `canRequestAds` sonucuna bakar: false ise istek atılmaz; true ise (ör. rıza verilmedi ama sınırlı reklam uygun) yalnızca UMP tercihlerine uygun türde reklam istenir. Bu, kullanıcının kişiselleştirmeyi onayladığı anlamına gelmez. Rıza gerekiyorsa Ayarlar > Hakkında'da "Reklam tercihleri" satırı görünür. **AdMob > Gizlilik ve mesajlaşma** bölümünden bir **Avrupa düzenlemeleri** mesajı oluşturup uygulamaya bağlaman gerekir; mesaj yoksa form çıkmaz. Türkiye'de rıza zorunlu değildir; uygulama reklamı kişiselleştirmeyi ayrıca kapatmaz (gizlilik sayfası bunu söyler). Sayfa: https://olgatanriverdi-glitch.github.io/yemekhane/gizlilik.html
 
 iOS: reklam kimliği (IDFA) için App Tracking Transparency istemi bu sürümde yoktur; iOS yayını yapacaksan `NSUserTrackingUsageDescription` ve ATT isteği eklenmelidir. SKAdNetwork: Info.plist'e yalnızca Google'ın kendi kimliği (`cstr6suwn9.skadnetwork`) konuldu; Google'ın yayımladığı güncel tam listeyi (AdMob belgeleri > iOS > Başlarken) iOS yayınından önce ekle.
 
 ## 7. Engellenecek kategoriler (AdMob > Engelleme denetimleri > Genel kategoriler)
 
-Öğrencilere yönelik bir uygulama olduğundan şu kategorileri engelle: **Alkol, Kumar ve bahis, Flört, Siyaset ve seçim, Din ve ruhani, Cinsel içerik / yetişkin, Dini ve siyasi kampanyalar, Mali hizmetler (ödünç para/kripto) ve sağlık/diyet vaatleri** isteğe bağlı. Uygulama ayrıca kod tarafında en çok "T" içerik derecesi ister (`maxAdContentRating`). Hassas kategori engelleri hesapta bir kez yapılır; doluluğu biraz düşürür.
+Öğrencilere yönelik bir uygulama olduğundan şu kategorileri engelle: **Alkol, Kumar ve bahis, Flört, Siyaset ve seçim, Din ve ruhani, Cinsel içerik / yetişkin, Dini ve siyasi kampanyalar, Mali hizmetler (ödünç para/kripto) ve sağlık/diyet vaatleri** isteğe bağlı. Uygulama ayrıca kod tarafında varsayılan olarak yalnızca "G" içerik derecesi ister (`maxAdContentRating = G`; `data/ayarlar.json` > `reklam.maxIcerik` ile `PG`/`T`ye çıkarılabilir). Hassas kategori engelleri hesapta bir kez yapılır; doluluğu biraz düşürür.
 
 ## 8. Ödeme eşikleri ve gelir beklentisi
 
@@ -109,7 +109,8 @@ Uygulama güncellemesi yayınlamadan reklamları yönetmek için depodaki **`dat
     "oturumSiniri": 20,
     "yerlesimler": { "ana": true, "hafta": true, "arama": true, "detay": true },
     "anaBuyuk": true,
-    "odullu": true
+    "odullu": true,
+    "maxIcerik": "G"
   },
   "updated": "2026-11-08T12:00:00+03:00"
 }
@@ -123,5 +124,6 @@ Uygulama güncellemesi yayınlamadan reklamları yönetmek için depodaki **`dat
 | `yerlesimler` | `ana`, `hafta`, `arama`, `detay` tek tek `false` yapılarak kapatılır; yazılmayan yerleşim açık sayılır. | hepsi `true` |
 | `anaBuyuk` | `false` yaparsan ana ekranda görselli orta şablon kullanılmaz, hep küçük şablon olur. | `true` |
 | `odullu` | `false` yaparsan "Reklamsız gün" özelliği gizlenir. | `true` |
+| `maxIcerik` | İstenen reklamların en yüksek içerik derecesi: `"G"` (herkese uygun; PEGI 3 / Everyone hedefi), `"PG"` ya da `"T"`. Bozuk ya da bilinmeyen değer `G` sayılır. Play'in içerik derecelendirmesi (IARC) sonucu G'den yüksek çıkarsa buradan yükseltirsin. **Hedef kitle yaşı (18+) bu ayardan bağımsızdır:** reklamlar uygulamanın içerik derecesine uygun olmalıdır; 18+ seçmek bunu kaldırmaz. | `"G"` |
 
 Değişiklik, kullanıcıların cihazındaki önbelleğe bağlı olarak bir sonraki açılışlarında yürürlüğe girer. Anlık değildir. Bozuk bir alan (yanlış tür, aralık dışı sayı) yalnızca o alanın varsayılana dönmesine yol açar. Dosya adındaki `updated` alanı uygulamanın yeni kopyayı eski paket kopyasına tercih etmesi içindir: dosyayı değiştirince `updated` tarihini de güncelle.

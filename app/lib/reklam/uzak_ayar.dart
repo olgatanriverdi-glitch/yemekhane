@@ -12,6 +12,10 @@ const List<String> reklamYerlesimleri = [
   yerlesimDetay
 ];
 
+/// Geçerli reklam içerik dereceleri ve varsayılan (en sıkı olan).
+const List<String> reklamIcerikDereceleri = ['G', 'PG', 'T'];
+const String varsayilanIcerikDerecesi = 'G';
+
 /// Uzaktan reklam ayarı (`ayarlar.json` içindeki "reklam" nesnesi): uygulama güncellemesi yayınlamadan reklamları
 /// kapatıp açmaya, yerleşim seçmeye yarar. Bozuk, eksik ya da türü yanlış her alan varsayılana düşer; bu sınıf
 /// asla hata atmaz.
@@ -30,13 +34,18 @@ class UzakReklamAyari {
 
   /// "Reklamsız gün" (ödüllü reklam) özelliği açık mı?
   final bool odullu;
+
+  /// İstenen reklamların en yüksek içerik derecesi: 'G' (herkes, PEGI 3 hedefi; varsayılan), 'PG' ya da 'T'.
+  /// Play Console'daki gerçek içerik derecelendirmesi (IARC) farklı çıkarsa uygulama güncellemesi olmadan değiştirilir.
+  final String maxIcerik;
   const UzakReklamAyari(
       {this.aktif = true,
       this.lutufGun = reklamsizGunSayisi,
       this.oturumSiniri = oturumYuklemeSiniri,
       this.yerlesimler = const {},
       this.anaBuyuk = true,
-      this.odullu = true});
+      this.odullu = true,
+      this.maxIcerik = varsayilanIcerikDerecesi});
 
   /// Güvenli varsayılan: her şey açık, 2 gün lütuf, oturumda 20 yükleme.
   static const UzakReklamAyari varsayilan = UzakReklamAyari();
@@ -45,6 +54,14 @@ class UzakReklamAyari {
   bool yerlesimAcik(String yer) => yerlesimler[yer] ?? true;
 
   static bool _mantik(Object? v, bool varsayilan) => v is bool ? v : varsayilan;
+
+  static String _derece(Object? v) {
+    if (v is String) {
+      final b = v.trim().toUpperCase();
+      if (reklamIcerikDereceleri.contains(b)) return b;
+    }
+    return varsayilanIcerikDerecesi;
+  }
 
   static int _tamsayi(Object? v, int varsayilan, int en, int cok) {
     if (v is int && v >= en && v <= cok) return v;
@@ -78,7 +95,8 @@ class UzakReklamAyari {
               _tamsayi(r['oturumSiniri'], oturumYuklemeSiniri, 0, 200),
           yerlesimler: Map.unmodifiable(yer),
           anaBuyuk: _mantik(r['anaBuyuk'], true),
-          odullu: _mantik(r['odullu'], true));
+          odullu: _mantik(r['odullu'], true),
+          maxIcerik: _derece(r['maxIcerik']));
     } catch (_) {
       return varsayilan;
     }

@@ -11,6 +11,8 @@ import 'package:flutter/services.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:yemekhane/tema.dart';
 
+import 'opak_png.dart';
+
 final _fontlar =
     '${Platform.environment['HOME']}/development/flutter/bin/cache/artifacts/material_fonts';
 
@@ -81,10 +83,11 @@ void main() {
           FontWeight.w400, krem.withValues(alpha: 0.9), 540);
 
       final resim = await kayit.endRecording().toImage(1024, 500);
-      final bayt = (await resim.toByteData(format: ui.ImageByteFormat.png))!;
+      // Google Play alfasız 24 bit PNG ister (tool/opak_png.dart)
+      final ham = (await resim.toByteData(format: ui.ImageByteFormat.rawRgba))!;
       File('../magaza/gorseller/one-cikan-gorsel-1024x500.png')
         ..createSync(recursive: true)
-        ..writeAsBytesSync(bayt.buffer.asUint8List());
+        ..writeAsBytesSync(opakPng(resim.width, resim.height, ham));
     });
   });
 }

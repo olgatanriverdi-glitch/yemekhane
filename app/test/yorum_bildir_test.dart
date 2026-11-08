@@ -56,7 +56,8 @@ Future<void> _menuAc(WidgetTester t, [int sira = 0]) async {
 }
 
 void main() {
-  setUp(() => SharedPreferences.setMockInitialValues({'yorum_adi': 'Ali'}));
+  setUp(() => SharedPreferences.setMockInitialValues(
+      {'yorum_adi': 'Ali', 'topluluk_kurallari_surum': 1}));
 
   group('yorum menüsü', () {
     testWidgets('başkasının yorumunda "..." menüsü, kendi yorumunda Sil',
@@ -130,7 +131,8 @@ void main() {
         ('Uygunsuz içerik', YorumBildirimNedeni.uygunsuz),
         ('Diğer', YorumBildirimNedeni.diger),
       ]) {
-        SharedPreferences.setMockInitialValues({'yorum_adi': 'Ali'});
+        SharedPreferences.setMockInitialValues(
+            {'yorum_adi': 'Ali', 'topluluk_kurallari_surum': 1});
         final depo = _BaskaYorumluDepo();
         await t.pumpWidget(const SizedBox());
         await _ac(t, depo);
@@ -212,6 +214,7 @@ void main() {
         (t) async {
       SharedPreferences.setMockInitialValues({
         'yorum_adi': 'Ali',
+        'topluluk_kurallari_surum': 1,
         YorumModerasyonu.engellenenAnahtari: ['u3'],
       });
       await _ac(t, _BaskaYorumluDepo());
@@ -280,7 +283,8 @@ void main() {
 
     testWidgets('uygunsuz takma ad ile yorum gönderilmez ve ad hatırlanmaz',
         (t) async {
-      SharedPreferences.setMockInitialValues({'yorum_adi': 'Siktir'});
+      SharedPreferences.setMockInitialValues(
+          {'yorum_adi': 'Siktir', 'topluluk_kurallari_surum': 1});
       final depo = _BaskaYorumluDepo();
       await _ac(t, depo);
       await t.enterText(find.byType(TextField), 'Güzeldi');

@@ -6,6 +6,7 @@ import 'package:google_mobile_ads/google_mobile_ads.dart';
 import 'gec_yukleme.dart';
 import 'reklam_ayari.dart';
 import 'reklam_servisi.dart';
+import 'uzak_ayar.dart';
 
 /// Gerçek servisi kurar (mobil). Hiçbir şey başlatılmaz: SDK ilk [ReklamServisi.hazirla] çağrısında açılır.
 ReklamServisi gercekReklamServisiOlustur() => GercekReklamServisi();
@@ -24,7 +25,8 @@ class _GercekReklam implements ReklamNesnesi {
 
 /// Google AdMob yerel (native) reklam servisi. Kimlik yoksa (kimliksiz release, web) [kullanilabilir] false'tur ve
 /// SDK'ya hiç dokunulmaz. Rıza: Google UMP; rıza alınamazsa (canRequestAds false) istek atılmaz.
-class GercekReklamServisi implements ReklamServisi {
+class GercekReklamServisi
+    implements ReklamServisi, IcerikDerecesiAyarlanabilir {
   GercekReklamServisi()
       : _birim = gecerliReklamBirimi(),
         _odulluBirim = gecerliOdulluBirimi();
@@ -34,6 +36,17 @@ class GercekReklamServisi implements ReklamServisi {
   final String? _birim;
   final String? _odulluBirim;
   bool _baslatildi = false;
+  String _maxIcerik = varsayilanIcerikDerecesi;
+
+  @override
+  set maxIcerik(String derece) => _maxIcerik = derece;
+
+  /// Uzaktan ayardaki derece -> SDK sabiti. Bilinmeyen değer en sıkı dereceye (G) düşer.
+  static String icerikDerecesiSabiti(String derece) => switch (derece) {
+        'T' => MaxAdContentRating.t,
+        'PG' => MaxAdContentRating.pg,
+        _ => MaxAdContentRating.g,
+      };
 
   @override
   bool get kullanilabilir => _birim != null;
@@ -60,12 +73,11 @@ class GercekReklamServisi implements ReklamServisi {
       });
       await form.future;
       if (!await ConsentInformation.instance.canRequestAds()) return false;
-      // 2) SDK yalnızca rıza uygunsa başlatılır
+      // 2) içerik derecesi (her hazırlıkta; uzaktan değişmiş olabilir) ve SDK yalnızca rıza uygunsa başlatılır
+      await MobileAds.instance.updateRequestConfiguration(RequestConfiguration(
+          // varsayılan G (herkes / PEGI 3 hedefi); uzaktan PG ya da T'ye çıkarılabilir
+          maxAdContentRating: icerikDerecesiSabiti(_maxIcerik)));
       if (!_baslatildi) {
-        await MobileAds.instance
-            .updateRequestConfiguration(RequestConfiguration(
-                // genel izleyici: T (genç) ya da daha sıkı içerik
-                maxAdContentRating: MaxAdContentRating.t));
         await MobileAds.instance.initialize();
         _baslatildi = true;
       }
@@ -189,7 +201,12 @@ class GercekReklamServisi implements ReklamServisi {
   @override
   Future<void> tercihleriAc() async {
     try {
-      await ConsentForm.showPrivacyOptionsForm((_) {});
+      // form kapanınca (kullanıcı tercihi kaydedip döndüğünde) tamamlanır; yönetici o zaman hazırlığı yeniler
+      final bitti = Completer<void>();
+      await ConsentForm.showPrivacyOptionsForm((_) {
+        if (!bitti.isCompleted) bitti.complete();
+      });
+      await bitti.future;
     } catch (_) {}
   }
 }

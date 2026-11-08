@@ -57,7 +57,7 @@ class SahteReklamNesnesi implements ReklamNesnesi {
 }
 
 /// Sahte servis; çağrı sayaçları testlerde doğrulanır. [gecikme] verilirse yükleme o kadar sürer.
-class SahteReklamServisi implements ReklamServisi {
+class SahteReklamServisi implements ReklamServisi, IcerikDerecesiAyarlanabilir {
   SahteReklamServisi(
       {this.kullanilabilir = true,
       this.rizaVar = true,
@@ -83,6 +83,13 @@ class SahteReklamServisi implements ReklamServisi {
   int odulluSayisi = 0;
   final List<ReklamStili> istenenStiller = [];
 
+  /// Yöneticinin verdiği içerik derecesi.
+  @override
+  String maxIcerik = 'G';
+
+  /// [hazirla] her çağrıldığında sırayla bu sonuçlar kullanılır (boşalınca [rizaVar]); tercih değişimi testleri için.
+  final List<bool> hazirlaSonuclari = [];
+  final List<String> hazirlaDereceleri = [];
   int hazirlaSayisi = 0;
   int yukleSayisi = 0;
   int tercihAcSayisi = 0;
@@ -94,7 +101,8 @@ class SahteReklamServisi implements ReklamServisi {
   @override
   Future<bool> hazirla() async {
     hazirlaSayisi++;
-    return rizaVar;
+    hazirlaDereceleri.add(maxIcerik);
+    return hazirlaSonuclari.isNotEmpty ? hazirlaSonuclari.removeAt(0) : rizaVar;
   }
 
   @override

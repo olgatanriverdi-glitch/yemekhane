@@ -40,12 +40,12 @@
 <div class="kap">
   <nav>
     <a class="logo" href="./"><img src="app/icons/Icon-192.png" alt=""> Üni Yemek</a>
-    <div class="linkler"><a href="./">Ana sayfa</a><a href="hesap-silme.html">Hesap ve veri silme</a></div>
+    <div class="linkler"><a href="./">Ana sayfa</a><a href="hesap-silme.html">Hesap ve veri silme</a><a href="kurallar.html">Topluluk kuralları</a></div>
   </nav>
 
   <main>
     <h1>Gizlilik politikası</h1>
-    <p class="soluk">Son güncelleme: 5 Kasım 2026. Bu sayfa Türkiye'deki üniversite yemekhane menülerini gösteren Üni Yemek uygulaması (Android, iOS ve web) için geçerlidir.</p>
+    <p class="soluk">Son güncelleme: 8 Kasım 2026. Bu sayfa Türkiye'deki üniversite yemekhane menülerini gösteren Üni Yemek uygulaması (Android, iOS ve web) için geçerlidir.</p>
 
     <p>Üni Yemek'te hesap açmazsın, ad ya da e-posta vermezsin. Uygulama puan ve yorum özelliği için birkaç veri toplar; ayrıca Android ve iOS sürümünde reklam gösterebilmek için Google'ın reklam SDK'sı reklam isteği sırasında cihaz bilgilerini işler (aşağıdaki "Reklamlar" bölümü). Hepsi açıkça yazılı.</p>
 
@@ -58,7 +58,8 @@
         <tr><td>Anonim Firebase kimliği (rastgele bir kod)</td><td>Uygulama puan ve yorum özelliğini ilk kullandığında oluşturulur. Puan ve yorumun sana ait olduğunu bilmek: kendi puanını göstermek, yorumunu silebilmeni ve bir yemeğe birden fazla oy verilmesini önlemek. Ad, e-posta ya da telefon ile ilişkilendirilmez.</td></tr>
         <tr><td>Yemeklere verdiğin puanlar (1-5)</td><td>Yemeğin ortalama puanını herkese göstermek.</td></tr>
         <tr><td>Yazdığın yorumlar ve seçtiğin takma ad</td><td>Yorumları aynı öğüne ya da yemeğe bakan herkese göstermek. Yorumlar herkese açıktır; takma adın ve yorumun herkes tarafından okunabilir.</td></tr>
-        <tr><td>Bildirdiğin yorumlar (varsa)</td><td>Başkasının yorumunu "Bildir" ile işaretlersen yorumun kimliği, bildirme nedeni ve anonim kimliğin moderasyon için kaydedilir.</td></tr>
+        <tr><td>Bildirdiğin yorumlar ve kişiler (varsa)</td><td>Başkasının yorumunu "Bildir" ile işaretlersen (bildirim hem yorumu hem yazarını kapsar) yorumun kimliği, bildirme nedeni, yorumun yazarının anonim kimliği, yorumun kısa bir kopyası (en çok 300 karakter; yorum silinse de inceleme yapılabilsin diye) ve senin anonim kimliğin moderasyon için kaydedilir. Aynı yorumu bir kez bildirebilirsin.</td></tr>
+        <tr><td>Son yorum zamanı</td><td>Art arda çok sık yorum yazılmasını önlemek için anonim kimliğinle birlikte son yorumunun zamanı saklanır (yorumlar arasında en az 20 saniye olmalıdır).</td></tr>
       </tbody>
     </table>
     </div>
@@ -75,10 +76,10 @@
     <p>Bunlar sunucuya gönderilmez, başka kimseyle paylaşılmaz. Uygulamayı kaldırdığında silinir.</p>
 
     <h2>Reklamlar (Google AdMob)</h2>
-    <p>Android ve iOS uygulamasında içerikle birlikte kayan, "Reklam" etiketli küçük reklam kartları gösterilebilir: ana ekranda öğün kartının altında, haftalık menüde, yemek aramada ve yemek ayrıntısı sayfasının altında. Bir ekranda en çok bir reklam olur. Tam ekran, açılışta çıkan, otomatik oynayan videolu ya da sesli reklam yoktur; yemek listesinin içinde ya da menü satırları arasında reklam gösterilmez. İlk açılıştan sonraki ilk günlerde reklam gösterilmez. Web sürümünde reklam yoktur.</p>
+    <p>Android ve iOS uygulamasında içerikle birlikte kayan, "Reklam" etiketli küçük reklam kartları gösterilebilir: ana ekranda öğün kartının altında, haftalık menüde, yemek aramada ve yemek ayrıntısı sayfasının altında. Bir ekranda en çok bir reklam olur. Ana ekranda uzun ekranlarda görselli, daha büyük bir kart çıkabilir (bu kartta reklamverenin görseli ya da sessiz başlayan videosu bulunabilir). Sen istemeden gösterilen tam ekran reklam, açılışta çıkan reklam ve otomatik oynayan sesli reklam yoktur; yemek listesinin içinde ya da menü satırları arasında reklam gösterilmez. İlk açılıştan sonraki ilk günlerde reklam gösterilmez. Web sürümünde reklam yoktur.</p>
     <p><b>Reklamsız gün (isteğe bağlı).</b> İstersen Ayarlar'dan ya da reklam kartının altındaki düğmeden kısa bir ödüllü reklam izleyerek 24 saat boyunca reklam görmemeyi seçebilirsin. Bu reklam yalnızca sen istediğinde gösterilir; izlemek zorunda değilsin. Ödüllü reklam da aynı Google AdMob hizmetiyle sunulur ve aşağıdaki veri işleme kuralları ona da geçerlidir. Süre bitişi yalnızca cihazında saklanır. Ayrıca reklamların açık olup olmadığı, hangi ekranlarda gösterileceği gibi ayarlar uygulamanın veri deposundan (GitHub'daki bir ayar dosyası) okunur; bu istek kişisel bilgi içermez.</p>
     <p>Reklamlar <b>Google AdMob</b> ile sunulur. Reklam isteği gönderildiğinde (puan ya da yorum yazmasan da, reklam sonunda gösterilmese ya da yüklenemese de) Google'ın reklam SDK'sı, cihazından şu bilgileri alıp işleyebilir: reklam kimliği (Android'de Reklam Kimliği, iOS'ta IDFA), IP adresi, cihaz ve uygulama bilgileri (cihaz modeli, işletim sistemi sürümü, dil, ekran), reklamla etkileşimler (gösterim, tıklama) ve tanı verileri (çökme ve performans bilgisi). Bu bilgiler reklam göstermek, reklam performansını ölçmek, sahtekârlığı önlemek ve reklamları ilgi alanına göre uyarlamak (kişiselleştirme) için kullanılır; Google ile paylaşılır ve Google tarafından kendi gizlilik politikasına göre işlenir. Üni Yemek bu bilgileri kendi sunucusunda toplamaz ya da saklamaz.</p>
-    <p><b>Rıza ve tercihlerin.</b> Avrupa Ekonomik Alanı ve Birleşik Krallık gibi rıza gereken yerlerde, ilk reklam isteğinden önce Google'ın rıza formu gösterilir. Google'ın rıza durumu reklam isteğine izin vermiyorsa istek gönderilmez; izin veriyorsa yalnızca bu formdaki tercihlerine uygun türde reklam istenir (rıza vermediysen kişiselleştirilmemiş ya da sınırlı reklam istenebilir; bu, kişiselleştirmeye onay verdiğin anlamına gelmez). Ayarlar &rarr; Hakkında bölümünde (yalnızca rıza kuralı geçerliyse) <i>Reklam tercihleri</i> satırından seçimini istediğin zaman değiştirebilirsin. Rıza gerekmeyen yerlerde (Türkiye dahil) uygulama reklamı kişiselleştirmeyi ayrıca kapatmaz; kişiselleştirmeyi cihazının ayarlarından yönetebilirsin: Android'de <i>Ayarlar &rarr; Google &rarr; Reklamlar</i> (reklam kimliğini sıfırla ya da sil, kişiselleştirmeyi kapat), iOS'ta <i>Ayarlar &rarr; Gizlilik ve Güvenlik &rarr; İzleme</i>. Reklamlarda yalnızca genel izleyiciye uygun içerik (olgun olmayan, en çok "T" derecesi) istenir. Daha fazla bilgi: <a href="https://policies.google.com/technologies/ads" target="_blank" rel="noopener">Google reklam teknolojileri</a>, <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google gizlilik politikası</a>.</p>
+    <p><b>Rıza ve tercihlerin.</b> Avrupa Ekonomik Alanı ve Birleşik Krallık gibi rıza gereken yerlerde, ilk reklam isteğinden önce Google'ın rıza formu gösterilir. Google'ın rıza durumu reklam isteğine izin vermiyorsa istek gönderilmez; izin veriyorsa yalnızca bu formdaki tercihlerine uygun türde reklam istenir (rıza vermediysen kişiselleştirilmemiş ya da sınırlı reklam istenebilir; bu, kişiselleştirmeye onay verdiğin anlamına gelmez). Ayarlar &rarr; Hakkında bölümünde (yalnızca rıza kuralı geçerliyse) <i>Reklam tercihleri</i> satırından seçimini istediğin zaman değiştirebilirsin. Rıza gerekmeyen yerlerde (Türkiye dahil) uygulama reklamı kişiselleştirmeyi ayrıca kapatmaz; kişiselleştirmeyi cihazının ayarlarından yönetebilirsin: Android'de <i>Ayarlar &rarr; Google &rarr; Reklamlar</i> (reklam kimliğini sıfırla ya da sil, kişiselleştirmeyi kapat), iOS'ta <i>Ayarlar &rarr; Gizlilik ve Güvenlik &rarr; İzleme</i>. Reklamlarda yalnızca herkese uygun içerik ("G" derecesi) istenir; bu derece gerekirse uygulamanın ayar dosyasından değiştirilebilir. Daha fazla bilgi: <a href="https://policies.google.com/technologies/ads" target="_blank" rel="noopener">Google reklam teknolojileri</a>, <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google gizlilik politikası</a>.</p>
 
     <h2>Toplamadığımız veriler</h2>
     <div class="kutu">
@@ -98,13 +99,14 @@
     <p>Puanların ve yorumların sen silene kadar saklanır. İstediğin zaman silebilirsin:</p>
     <ul>
       <li><b>Tek yorum:</b> kendi yorumunun yanındaki çöp kutusu simgesi.</li>
-      <li><b>Hepsi:</b> Uygulamada <i>Ayarlar → Hakkında → Yorum ve puanlarımı sil</i>. Bu işlem bütün yorum ve puanlarını sunucudan kalıcı siler ve anonim hesabını kapatır.</li>
+      <li><b>Hepsi:</b> Uygulamada <i>Ayarlar → Hakkında → Yorum ve puanlarımı sil</i>. Bu işlem bütün yorum ve puanlarını ve başkalarının yorumları için sen gönderdiğin şikâyetleri sunucudan kalıcı siler ve anonim hesabını kapatır.</li>
       <li><b>Uygulamaya erişemiyorsan:</b> <a href="hesap-silme.html">Hesap ve veri silme</a> sayfasındaki e-posta yolunu kullan.</li>
     </ul>
-    <p>Yorumunu şikayet etmek ya da kaldırtmak istersen uygulamadaki "Bildir" menüsünü kullanabilirsin. Uygunsuz içerik kaldırılır.</p>
+    <p><b>Hakkında yapılan şikâyetler:</b> başkaları bir yorumunu ya da seni bildirdiyse, bu şikâyetler (bildirilen yorumun kısa kopyası ve anonim kimliğin dahil) diğer kullanıcıları korumak için hesabını ya da yorumlarını silsen de inceleme bitene kadar, en çok 90 gün saklanır ve sonra silinir. Bu kayıt seni ad ya da e-postayla tanımlamaz.</p>
+    <p>Bir yorumu şikâyet etmek ya da kaldırtmak istersen uygulamadaki "Bildir" menüsünü kullanabilirsin. Uygunsuz içerik kaldırılır.</p>
 
     <h2>Kullanıcı içeriği ve moderasyon</h2>
-    <p>Yorumlar herkese açıktır. Hakaret, küfür, spam, bağlantı ve kişisel bilgi (telefon, adres vb.) paylaşmamalısın. Uygulama bazı uygunsuz ifadeleri göndermeden önce engeller; başkasının yorumunu "Bildir" ile bildirebilir veya kişiyi engelleyebilirsin. Bildirilen içerik incelenir ve gerekirse silinir.</p>
+    <p>Yorumlar herkese açıktır. İlk yorumunu yazmadan önce <a href="kurallar.html">topluluk kurallarını</a> kabul etmen istenir: hakaret, küfür, nefret, taciz, spam, reklam ve bağlantı, kişisel bilgi (telefon, adres vb.) ve yasa dışı içerik paylaşılamaz. Uygulama bazı uygunsuz ifadeleri göndermeden önce engeller; başkasının yorumunu ve yazarını "Bildir" ile bildirebilir veya kişiyi bu cihazda engelleyebilirsin. Bildirilen içerik incelenir; kurallara uymayan yorumlar kaldırılır, tekrar eden ihlallerde yorum yazma engellenebilir.</p>
 
     <h2>Çocuklar</h2>
     <p>Üni Yemek üniversite öğrencilerine yöneliktir ve 18 yaşın altındaki çocuklara yönelik değildir. Bilerek 13 yaşın altındaki çocuklardan veri toplamayız. Böyle bir durumdan haberdar olursan aşağıdaki adrese yaz, ilgili veriler silinir.</p>
@@ -118,7 +120,7 @@
   </main>
 
   <footer>
-    <a href="./">Ana sayfa</a> · <a href="hesap-silme.html">Hesap ve veri silme</a> ·
+    <a href="./">Ana sayfa</a> · <a href="hesap-silme.html">Hesap ve veri silme</a> · <a href="kurallar.html">Topluluk kuralları</a> ·
     <a href="https://github.com/olgatanriverdi-glitch/yemekhane" target="_blank" rel="noopener">GitHub</a>
   </footer>
 </div>

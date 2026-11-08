@@ -109,6 +109,11 @@ Future<void> _gonderAdKutusunaKadar(WidgetTester t, String metin) async {
   await t.enterText(find.byType(TextField), metin);
   await t.tap(find.byTooltip('Gönder'));
   await t.pumpAndSettle();
+  // depolama okunamadığında topluluk kuralları her seferinde yeniden sorulur: kabul edilir
+  if (find.text('Kabul ediyorum').evaluate().isNotEmpty) {
+    await t.tap(find.text('Kabul ediyorum'));
+    await t.pumpAndSettle();
+  }
 }
 
 final _adKutusu = find.descendant(

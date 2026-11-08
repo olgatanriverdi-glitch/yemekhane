@@ -35,7 +35,8 @@ Widget _sayfa(GeriBildirimDeposu depo) => MaterialApp(
                 depo: depo, slot: 's1', puanGoster: false))));
 
 void main() {
-  setUp(() => SharedPreferences.setMockInitialValues({'yorum_adi': 'Ali'}));
+  setUp(() => SharedPreferences.setMockInitialValues(
+      {'yorum_adi': 'Ali', 'topluluk_kurallari_surum': 1}));
 
   testWidgets(
       'yorum kaydedildi ama liste yenilenemediyse "gönderilemedi" denmez',

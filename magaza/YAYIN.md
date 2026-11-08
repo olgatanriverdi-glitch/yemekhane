@@ -6,7 +6,7 @@ Sıra önemlidir: önce web sitesi ve gizlilik sayfaları yayında olmalı, çü
 
 1. İletişim e-postası `uniyemek0@gmail.com` olarak uygulamaya, gizlilik sayfalarına ve `magaza/LISTE.md`ye işlendi. Bu kutuya bakmayı unutma: silme talepleri buraya gelir.
 2. Sürüm: `1.0.0+2`.
-3. Firebase kurallarını güncelle (aşağıda 1. adım). Bunu yapmazsan uygulamadaki "Bildir" düğmesi hata verir.
+3. Firebase kurallarını güncelle (aşağıda 1. adım). Bunu yapmazsan uygulamadaki yorum yazma, puan verme ve "Bildir" düğmeleri hata verir: yeni uygulama bu yazmaları sunucu zamanıyla yapar ve kurallar bunu bekler. Kuralları uygulamadan ÖNCE yayınla ve 5 senaryoyu dene (`FIREBASE.md`).
 
 ## 1. Firebase kuralları (5 dakika)
 
@@ -23,6 +23,7 @@ Site ve web uygulaması `.github/workflows/pages.yml` ile otomatik yayınlanır 
 3. Şu adresleri tarayıcıda aç, ikisi de açılmalı ve iletişim adresi `uniyemek0@gmail.com` görünmeli:
    * https://olgatanriverdi-glitch.github.io/yemekhane/gizlilik.html
    * https://olgatanriverdi-glitch.github.io/yemekhane/hesap-silme.html
+   * https://olgatanriverdi-glitch.github.io/yemekhane/kurallar.html (topluluk kuralları; uygulamadaki metinle aynı)
 4. Flutter sürümü `pages.yml` içinde `3.47.6` olarak sabit (yerelde `flutter --version` ile aynı). Yerel Flutter'ı yükseltince oradaki sürümü de güncelle.
 
 ## 3. İmza anahtarı (EN ÖNEMLİ UYARI)
@@ -59,18 +60,18 @@ Hepsi için hazır yanıtlar `magaza/LISTE.md` içinde:
 2. **Reklamlar:** **Evet** (Google AdMob). Reklam kimliği beyanı: Evet (reklamcılık). Gerçek reklam kimlikleriyle derleme adımı (yerel + ödüllü birim, iki `--dart-define`): `REKLAM.md`; kimlik verilmeden alınan release'te reklam kapalıdır ve test reklamı çıkmaz. Yayından sonra reklamı kapatıp açmak için `data/ayarlar.json` (`REKLAM.md` bölüm 10).
    **app-ads.txt ZORUNLU** (yeni AdMob uygulamaları, Ocak 2025'ten beri): `olgatanriverdi-glitch.github.io` adlı herkese açık bir depo aç, kökünde `app-ads.txt` yayınla (örnek: `magaza/app-ads.txt.ornek`, `pub-` kimliğini AdMob'dan al), Play Console'da geliştirici **Web sitesi** alanına aynı alan adını (`https://olgatanriverdi-glitch.github.io`) yaz, AdMob'da **Uygulamayı doğrula > Güncellemeleri denetle** de. Doğrulanmadan reklam tam açılmaz. Ayrıntı ve "doğrulanmadı" notu: `REKLAM.md` bölüm 5.
 3. **Uygulama erişimi:** Tüm işlevler özel erişim olmadan kullanılabilir.
-4. **İçerik derecelendirme:** anket (kullanıcı içeriği: Evet).
-5. **Hedef kitle:** 18 ve üzeri.
+4. **İçerik derecelendirme:** anket (kullanıcı içeriği: Evet). Sonuç, reklam içerik filtresiyle uyumlu olmalı (varsayılan G; farklıysa `data/ayarlar.json` > `reklam.maxIcerik`).
+5. **Hedef kitle:** 18 ve üzeri (içerik derecesinden ayrı bir seçimdir; reklamlar yine uygulamanın içerik derecesine uymalıdır).
 6. **Veri güvenliği:** LISTE.md tablosu; silme adresi `hesap-silme.html`.
-7. **Haber / COVID / Devlet / Finans / Sağlık beyanları:** Hayır.
-8. **Kullanıcı tarafından oluşturulan içerik:** Play sorarsa moderasyon yolları (bildir, engelle, süzgeç, konsoldan silme) yazılı.
+7. **Haber / COVID / Devlet / Finans beyanları:** Hayır. **Sağlık uygulamaları beyanı:** formu DOLDUR (sağlık özelliği olmayan uygulamalar da doldurur); günlük kalori hedefi özelliği nedeniyle "Beslenme ve kilo yönetimi" sorusunu `LISTE.md` "Hedef kitle ve içerik" bölümündeki yönlendirmeye göre yanıtla. **İzinler:** Reklam kimliği Evet; ön plan hizmeti kullanımı yok (`LISTE.md` "İzin beyanları").
+8. **Kullanıcı tarafından oluşturulan içerik:** Play sorarsa moderasyon yolları yazılı: ilk yorumdan önce topluluk kuralları kabulü, yorumu ve yazarını bildir, kişiyi engelle, süzgeç, sunucuda oran sınırı, konsoldan silme.
 
 ## 7. Mağaza girişi (Büyüyüp gelişme → Mağaza varlığı → Ana mağaza girişi)
 
 * Ad, kısa ve tam açıklama: `LISTE.md`.
 * Simge: `magaza/gorseller/ikon-512x512.png`.
-* Öne çıkan görsel: `magaza/gorseller/one-cikan-gorsel-1024x500.png`.
-* Telefon ekran görüntüleri: `magaza/ekranlar/*.png` (1170x2340, en az 2; önerilen sıra `LISTE.md`'de).
+* Öne çıkan görsel: `magaza/gorseller/one-cikan-gorsel-1024x500.png` (alfasız 24 bit PNG).
+* Telefon ekran görüntüleri: `magaza/ekranlar/*.png` (1170x2340, alfasız 24 bit PNG, en az 2; önerilen sıra `LISTE.md`'de).
 * Kategori: Yemek ve İçecek; iletişim e-postası, web sitesi.
 
 ## 8. Test ve üretim
