@@ -1,40 +1,5 @@
 {
  "days": {
-  "2026-11-02": {
-   "lunch": {
-    "items": [
-     {
-      "img": "dishes/025eacfe0c.jpg",
-      "kcal": 320,
-      "key": "025eacfe0c",
-      "name": "Etli Taze Fasulye"
-     },
-     {
-      "kcal": 280,
-      "key": "eb1c80f88c",
-      "name": "Nohut Yahni"
-     },
-     {
-      "img": "dishes/25b07cf14e.jpg",
-      "kcal": 290,
-      "key": "25b07cf14e",
-      "name": "Bulgur Pilavı"
-     },
-     {
-      "img": "dishes/bf8474c8b9.jpg",
-      "kcal": 290,
-      "key": "bf8474c8b9",
-      "name": "Ezogelin Çorba"
-     },
-     {
-      "img": "dishes/ed17271d58.jpg",
-      "kcal": 100,
-      "key": "ed17271d58",
-      "name": "Meyve"
-     }
-    ]
-   }
-  },
   "2026-11-03": {
    "lunch": {
     "items": [
@@ -57,7 +22,7 @@
      },
      {
       "img": "dishes/22dd093862.jpg",
-      "kcal": 290,
+      "kcal": 200,
       "key": "22dd093862",
       "name": "Mercimek Çorba"
      },
@@ -110,29 +75,26 @@
     "items": [
      {
       "kcal": 320,
-      "key": "6890184534",
-      "name": "Siverek Tava"
+      "key": "85f4d2dee4",
+      "name": "Etli Pide"
      },
      {
-      "kcal": 320,
-      "key": "32161784d7",
-      "name": "Karışık Musakka"
+      "img": "dishes/22dd093862.jpg",
+      "kcal": 200,
+      "key": "22dd093862",
+      "name": "Mercimek Çorba"
      },
      {
-      "kcal": 290,
-      "key": "8636bfbc0a",
-      "name": "Pirinç Pilavı"
+      "img": "dishes/16b5c22561.jpg",
+      "kcal": 100,
+      "key": "16b5c22561",
+      "name": "Ayran"
      },
      {
-      "img": "dishes/f98b465287.jpg",
-      "kcal": 130,
-      "key": "f98b465287",
-      "name": "Yayla Çorba"
-     },
-     {
-      "kcal": 150,
-      "key": "3ddbc111d2",
-      "name": "Limonata"
+      "img": "dishes/1087b76fa2.jpg",
+      "kcal": 400,
+      "key": "1087b76fa2",
+      "name": "Revani"
      }
     ]
    }
@@ -147,9 +109,10 @@
       "name": "Sebzeli Çoban Kavurma"
      },
      {
+      "img": "dishes/dcd4b17d0f.jpg",
       "kcal": 280,
-      "key": "88e988f47f",
-      "name": "Tavuk Biftek"
+      "key": "dcd4b17d0f",
+      "name": "Tavuk Baget"
      },
      {
       "img": "dishes/25b07cf14e.jpg",
@@ -158,10 +121,10 @@
       "name": "Bulgur Pilavı"
      },
      {
-      "img": "dishes/22dd093862.jpg",
-      "kcal": 130,
-      "key": "22dd093862",
-      "name": "Mercimek Çorba"
+      "img": "dishes/bf8474c8b9.jpg",
+      "kcal": 200,
+      "key": "bf8474c8b9",
+      "name": "Ezogelin Çorba"
      },
      {
       "kcal": 300,
@@ -262,7 +225,7 @@
      },
      {
       "img": "dishes/bf8474c8b9.jpg",
-      "kcal": 290,
+      "kcal": 200,
       "key": "bf8474c8b9",
       "name": "Ezogelin Çorba"
      },
@@ -301,7 +264,7 @@
       "name": "Yayla Çorba"
      },
      {
-      "kcal": 100,
+      "kcal": 300,
       "key": "91545ef038",
       "name": "Muzlu Puding"
      }
@@ -498,7 +461,7 @@
      },
      {
       "img": "dishes/bf8474c8b9.jpg",
-      "kcal": 290,
+      "kcal": 200,
       "key": "bf8474c8b9",
       "name": "Ezogelin Çorba"
      },
@@ -718,5 +681,5 @@
   }
  },
  "university": "harran",
- "updated": "2026-11-01T16:23:28+03:00"
+ "updated": "2026-11-08T19:52:27+03:00"
 }

@@ -1,6 +1,81 @@
 {
  "days": {
-  "2026-10-01": {
+  "2026-11-02": {
+   "lunch": {
+    "items": [
+     {
+      "img": "dishes/4fb733faf2.jpg",
+      "key": "4fb733faf2",
+      "name": "Ezogelin Çorbası"
+     },
+     {
+      "key": "15490eddac",
+      "name": "Fırında Balık+Yeşillik/Tavuk Kavurma"
+     },
+     {
+      "key": "8636bfbc0a",
+      "name": "Pirinç Pilavı"
+     },
+     {
+      "img": "dishes/ed17271d58.jpg",
+      "key": "ed17271d58",
+      "name": "Meyve"
+     }
+    ],
+    "note": "Ana yemek seçimine göre toplam kalori: 703/793 kcal"
+   }
+  },
+  "2026-11-03": {
+   "lunch": {
+    "items": [
+     {
+      "img": "dishes/0955218757.jpg",
+      "key": "0955218757",
+      "name": "Mercimek Çorbası"
+     },
+     {
+      "key": "dd170ac784",
+      "name": "Çoban Kavurma/Fırında Tavuk"
+     },
+     {
+      "key": "c9bf7aa111",
+      "name": "Meyhane Pilavı"
+     },
+     {
+      "img": "dishes/99a67d4042.jpg",
+      "key": "99a67d4042",
+      "name": "Mevsim Salata"
+     }
+    ],
+    "note": "Ana yemek seçimine göre toplam kalori: 1082/915 kcal"
+   }
+  },
+  "2026-11-04": {
+   "lunch": {
+    "items": [
+     {
+      "key": "646360f3fe",
+      "name": "Tavuk Suyu Çorbası"
+     },
+     {
+      "key": "423d9d349e",
+      "name": "İzmir Köfte/Sebzeli Kebap"
+     },
+     {
+      "img": "dishes/18ccb4d264.jpg",
+      "key": "18ccb4d264",
+      "name": "Soslu Makarna"
+     },
+     {
+      "img": "dishes/ed47fcacda.jpg",
+      "key": "ed47fcacda",
+      "name": "Pembe Sultan"
+     }
+    ],
+    "note": "Ana yemek seçimine göre toplam kalori: 979/931 kcal"
+   }
+  },
+  "2026-11-05": {
    "lunch": {
     "items": [
      {
@@ -9,24 +84,23 @@
       "name": "Şehriye Çorbası"
      },
      {
-      "key": "20c2ad0c7a",
-      "name": "Tavuk Haşlama/Et Haşlama"
+      "key": "0277fb6d24",
+      "name": "Tavuk Haşlama/Patates Oturtma"
      },
      {
-      "img": "dishes/2356abfde0.jpg",
-      "key": "2356abfde0",
-      "name": "Sebzeli Bulgur Pilavı"
+      "img": "dishes/25b07cf14e.jpg",
+      "key": "25b07cf14e",
+      "name": "Bulgur Pilavı"
      },
      {
-      "img": "dishes/3b140d6d1c.jpg",
-      "key": "3b140d6d1c",
-      "name": "Tulumba Tatlısı"
+      "key": "852471b0b8",
+      "name": "Kremalı Kemal Paşa Tatlısı"
      }
     ],
-    "note": "Ana yemek seçimine göre toplam kalori: 1118/1171 kcal"
+    "note": "Ana yemek seçimine göre toplam kalori: 1154/1199 kcal"
    }
   },
-  "2026-10-02": {
+  "2026-11-06": {
    "lunch": {
     "items": [
      {
@@ -51,7 +125,7 @@
     "kcal": 891
    }
   },
-  "2026-10-05": {
+  "2026-11-09": {
    "lunch": {
     "items": [
      {
@@ -75,7 +149,7 @@
     "note": "Ana yemek seçimine göre toplam kalori: 696/882 kcal"
    }
   },
-  "2026-10-06": {
+  "2026-11-10": {
    "lunch": {
     "items": [
      {
@@ -84,8 +158,8 @@
       "name": "Ezogelin Çorbası"
      },
      {
-      "key": "ecf2f67832",
-      "name": "Tas Kebabı/Kıymalı Taze Fasulye"
+      "key": "db4ca12f9a",
+      "name": "Arap Tava/Kabak Kalye"
      },
      {
       "img": "dishes/a3b92ec497.jpg",
@@ -98,16 +172,16 @@
       "name": "Meyve"
      }
     ],
-    "note": "Ana yemek seçimine göre toplam kalori: 982/848 kcal"
+    "note": "Ana yemek seçimine göre toplam kalori: 1002/820 kcal"
    }
   },
-  "2026-10-07": {
+  "2026-11-11": {
    "lunch": {
     "items": [
      {
-      "img": "dishes/64ee8e0b3b.jpg",
-      "key": "64ee8e0b3b",
-      "name": "Düğün Çorbası"
+      "img": "dishes/495fb304f2.jpg",
+      "key": "495fb304f2",
+      "name": "Şehriye Çorbası"
      },
      {
       "key": "3364ae083c",
@@ -123,10 +197,10 @@
       "name": "Mevsim Salata"
      }
     ],
-    "note": "Ana yemek seçimine göre toplam kalori: 993/1222 kcal"
+    "note": "Ana yemek seçimine göre toplam kalori: 980/1209 kcal"
    }
   },
-  "2026-10-08": {
+  "2026-11-12": {
    "lunch": {
     "items": [
      {
@@ -134,23 +208,23 @@
       "name": "Tavuk Suyu Çorbası"
      },
      {
-      "key": "71199d114e",
-      "name": "Patlıcan Musakka/Arap Tava"
+      "key": "e3fe7a378a",
+      "name": "Patlıcan Musakka/Bahçıvan Kebabı"
      },
      {
-      "key": "c9bf7aa111",
-      "name": "Meyhane Pilavı"
+      "key": "714581af8d",
+      "name": "Sade Bulgur Pilavı"
      },
      {
-      "img": "dishes/2e9a9837b2.jpg",
-      "key": "2e9a9837b2",
-      "name": "Cevizli Baklava"
+      "img": "dishes/3acf2087fe.jpg",
+      "key": "3acf2087fe",
+      "name": "Kabak Tatlısı"
      }
     ],
-    "note": "Ana yemek seçimine göre toplam kalori: 1025/1190 kcal"
+    "note": "Ana yemek seçimine göre toplam kalori: 1031/1169 kcal"
    }
   },
-  "2026-10-09": {
+  "2026-11-13": {
    "lunch": {
     "items": [
      {
@@ -159,9 +233,8 @@
       "name": "Süzme Mercimek Çorbası"
      },
      {
-      "img": "dishes/d262447f9d.jpg",
-      "key": "d262447f9d",
-      "name": "Fırın Köfte+Patates"
+      "key": "16b8e49161",
+      "name": "Fırın Köfte+Patates Kızartması"
      },
      {
       "img": "dishes/e205e270b9.jpg",
@@ -177,13 +250,13 @@
     "kcal": 972
    }
   },
-  "2026-10-12": {
+  "2026-11-16": {
    "lunch": {
     "items": [
      {
-      "img": "dishes/0955218757.jpg",
-      "key": "0955218757",
-      "name": "Mercimek Çorbası"
+      "img": "dishes/8a1d66ed2e.jpg",
+      "key": "8a1d66ed2e",
+      "name": "Süzme Mercimek Çorbası"
      },
      {
       "key": "dec71925ed",
@@ -199,20 +272,44 @@
       "name": "Mevsim Salata"
      }
     ],
-    "note": "Ana yemek seçimine göre toplam kalori: 884/909 kcal"
+    "note": "Ana yemek seçimine göre toplam kalori: 892/917 kcal"
    }
   },
-  "2026-10-13": {
+  "2026-11-17": {
    "lunch": {
     "items": [
      {
-      "img": "dishes/64ee8e0b3b.jpg",
-      "key": "64ee8e0b3b",
-      "name": "Düğün Çorbası"
+      "key": "646360f3fe",
+      "name": "Tavuk Suyu Çorbası"
      },
      {
-      "key": "f6133b1c12",
-      "name": "Çıtır Tavuk Baget+Patates Kızartması"
+      "key": "1c367ddfce",
+      "name": "İzmir Köfte/Kabak Kalye"
+     },
+     {
+      "img": "dishes/7996503754.jpg",
+      "key": "7996503754",
+      "name": "Peynirli Makarna"
+     },
+     {
+      "key": "b3743cd135",
+      "name": "Kakaolu Puding"
+     }
+    ],
+    "note": "Ana yemek seçimine göre toplam kalori: 1097/947 kcal"
+   }
+  },
+  "2026-11-18": {
+   "lunch": {
+    "items": [
+     {
+      "img": "dishes/4fb733faf2.jpg",
+      "key": "4fb733faf2",
+      "name": "Ezogelin Çorbası"
+     },
+     {
+      "key": "e4c9ca848c",
+      "name": "Et Tantuni/Tavuk Tantuni+Patates Kızartması"
      },
      {
       "img": "dishes/99a67d4042.jpg",
@@ -225,49 +322,50 @@
       "name": "Ayran"
      }
     ],
-    "kcal": 782
+    "note": "Ana yemek seçimine göre toplam kalori: 1040/898 kcal"
    }
   },
-  "2026-10-14": {
+  "2026-11-19": {
    "lunch": {
     "items": [
      {
-      "key": "646360f3fe",
-      "name": "Tavuk Suyu Çorbası"
+      "img": "dishes/0955218757.jpg",
+      "key": "0955218757",
+      "name": "Mercimek Çorbası"
      },
      {
-      "key": "573c662941",
-      "name": "İzmir Köfte/Soslu Karışık Kızartma"
+      "key": "0eed10102b",
+      "name": "Sebzeli Kebap/Etli Bezelye"
      },
      {
-      "img": "dishes/7996503754.jpg",
-      "key": "7996503754",
-      "name": "Peynirli Makarna"
+      "img": "dishes/22402adbde.jpg",
+      "key": "22402adbde",
+      "name": "Tel Şehriyeli Bulgur Pilavı"
      },
      {
-      "key": "b3743cd135",
-      "name": "Kakaolu Puding"
+      "img": "dishes/ed47fcacda.jpg",
+      "key": "ed47fcacda",
+      "name": "Pembe Sultan"
      }
     ],
-    "note": "Ana yemek seçimine göre toplam kalori: 1097/1002 kcal"
+    "note": "Ana yemek seçimine göre toplam kalori: 975/815 kcal"
    }
   },
-  "2026-10-15": {
+  "2026-11-20": {
    "lunch": {
     "items": [
      {
-      "img": "dishes/5d3038c41b.jpg",
-      "key": "5d3038c41b",
-      "name": "Yayla Çorbası"
+      "img": "dishes/495fb304f2.jpg",
+      "key": "495fb304f2",
+      "name": "Şehriye Çorbası"
      },
      {
-      "key": "c29547afb1",
-      "name": "Piliç Pirzola/Et Haşlama"
+      "key": "7f9db4b029",
+      "name": "Mantı/Çıtır Baget+Patates Kızartması"
      },
      {
-      "img": "dishes/2356abfde0.jpg",
-      "key": "2356abfde0",
-      "name": "Sebzeli Bulgur Pilavı"
+      "key": "07d67ed7f0",
+      "name": "Kış Salatası"
      },
      {
       "img": "dishes/ed17271d58.jpg",
@@ -275,36 +373,60 @@
       "name": "Meyve"
      }
     ],
-    "note": "Ana yemek seçimine göre toplam kalori: 994/1059 kcal"
+    "note": "Ana yemek seçimine göre toplam kalori: 779/853 kcal"
    }
   },
-  "2026-10-16": {
+  "2026-11-23": {
    "lunch": {
     "items": [
      {
-      "img": "dishes/8a1d66ed2e.jpg",
-      "key": "8a1d66ed2e",
-      "name": "Süzme Mercimek Çorbası"
+      "img": "dishes/0955218757.jpg",
+      "key": "0955218757",
+      "name": "Mercimek Çorbası"
      },
      {
-      "key": "5b155550f9",
-      "name": "Kıymalı Biber Dolması"
+      "key": "5ed3852466",
+      "name": "Fırında Balık+Yeşillik/Tavuk Sote"
      },
      {
-      "img": "dishes/18ccb4d264.jpg",
-      "key": "18ccb4d264",
-      "name": "Soslu Makarna"
+      "key": "57d2d2d906",
+      "name": "Mısırlı Pirinç Pilavı"
      },
      {
-      "img": "dishes/9c8d655ef5.jpg",
-      "key": "9c8d655ef5",
-      "name": "Yoğurt"
+      "key": "7bb0a212fe",
+      "name": "Tahin Soslu İrmik Tatlısı"
      }
     ],
-    "kcal": 654
+    "note": "Ana yemek seçimine göre toplam kalori: 861/965 kcal"
    }
   },
-  "2026-10-19": {
+  "2026-11-24": {
+   "lunch": {
+    "items": [
+     {
+      "img": "dishes/4fb733faf2.jpg",
+      "key": "4fb733faf2",
+      "name": "Ezogelin Çorbası"
+     },
+     {
+      "key": "1da1058622",
+      "name": "Et Fajita/Köri Soslu Tavuk"
+     },
+     {
+      "img": "dishes/af6741872c.jpg",
+      "key": "af6741872c",
+      "name": "Fırın Makarna"
+     },
+     {
+      "img": "dishes/99a67d4042.jpg",
+      "key": "99a67d4042",
+      "name": "Mevsim Salata"
+     }
+    ],
+    "note": "Ana yemek seçimine göre toplam kalori: 1165/936 kcal"
+   }
+  },
+  "2026-11-25": {
    "lunch": {
     "items": [
      {
@@ -328,164 +450,13 @@
     "note": "Ana yemek seçimine göre toplam kalori: 733/880 kcal"
    }
   },
-  "2026-10-20": {
+  "2026-11-26": {
    "lunch": {
     "items": [
      {
-      "img": "dishes/4fb733faf2.jpg",
-      "key": "4fb733faf2",
-      "name": "Ezogelin Çorbası"
-     },
-     {
-      "key": "29bf959e1d",
-      "name": "Patlıcan Kebabı/Tavuk Sote"
-     },
-     {
-      "key": "8636bfbc0a",
-      "name": "Pirinç Pilavı"
-     },
-     {
-      "img": "dishes/ed17271d58.jpg",
-      "key": "ed17271d58",
-      "name": "Meyve"
-     }
-    ],
-    "note": "Ana yemek seçimine göre toplam kalori: 963/807 kcal"
-   }
-  },
-  "2026-10-21": {
-   "lunch": {
-    "items": [
-     {
-      "img": "dishes/5d3038c41b.jpg",
-      "key": "5d3038c41b",
-      "name": "Yayla Çorbası"
-     },
-     {
-      "key": "1cd27780b3",
-      "name": "Arap Tava/Kıymalı Kabak Graten"
-     },
-     {
-      "key": "4c198b4b53",
-      "name": "Patatesli Milföy Böreği"
-     },
-     {
-      "img": "dishes/a765c7c985.jpg",
-      "key": "a765c7c985",
-      "name": "Komposto"
-     }
-    ],
-    "note": "Ana yemek seçimine göre toplam kalori: 1216/1056 kcal"
-   }
-  },
-  "2026-10-22": {
-   "lunch": {
-    "items": [
-     {
-      "img": "dishes/64ee8e0b3b.jpg",
-      "key": "64ee8e0b3b",
-      "name": "Düğün Çorbası"
-     },
-     {
-      "key": "920c9a6b62",
-      "name": "Sebzeli Kebap/Tavuk Kavurma"
-     },
-     {
-      "img": "dishes/18ccb4d264.jpg",
-      "key": "18ccb4d264",
-      "name": "Soslu Makarna"
-     },
-     {
-      "key": "3fc8e5f139",
-      "name": "Kuş Üzümlü İrmik Helvası"
-     }
-    ],
-    "note": "Ana yemek seçimine göre toplam kalori: 1053/941 kcal"
-   }
-  },
-  "2026-10-23": {
-   "lunch": {
-    "items": [
-     {
-      "img": "dishes/8a1d66ed2e.jpg",
-      "key": "8a1d66ed2e",
-      "name": "Süzme Mercimek Çorbası"
-     },
-     {
-      "key": "4bbe63643b",
-      "name": "Kıymalı Pide"
-     },
-     {
-      "img": "dishes/99a67d4042.jpg",
-      "key": "99a67d4042",
-      "name": "Mevsim Salata"
-     },
-     {
-      "img": "dishes/16b5c22561.jpg",
-      "key": "16b5c22561",
-      "name": "Ayran"
-     }
-    ],
-    "kcal": 945
-   }
-  },
-  "2026-10-26": {
-   "lunch": {
-    "items": [
-     {
-      "img": "dishes/0955218757.jpg",
-      "key": "0955218757",
-      "name": "Mercimek Çorbası"
-     },
-     {
-      "key": "e4c9ca848c",
-      "name": "Et Tantuni/Tavuk Tantuni+Patates Kızartması"
-     },
-     {
-      "img": "dishes/99a67d4042.jpg",
-      "key": "99a67d4042",
-      "name": "Mevsim Salata"
-     },
-     {
-      "img": "dishes/16b5c22561.jpg",
-      "key": "16b5c22561",
-      "name": "Ayran"
-     }
-    ],
-    "note": "Ana yemek seçimine göre toplam kalori: 1040/898 kcal"
-   }
-  },
-  "2026-10-27": {
-   "lunch": {
-    "items": [
-     {
-      "key": "646360f3fe",
-      "name": "Tavuk Suyu Çorbası"
-     },
-     {
-      "key": "9a1c5a23ae",
-      "name": "Bahçıvan Kebabı/Kabak Kalye"
-     },
-     {
-      "key": "c9bf7aa111",
-      "name": "Meyhane Pilavı"
-     },
-     {
-      "img": "dishes/ed17271d58.jpg",
-      "key": "ed17271d58",
-      "name": "Meyve"
-     }
-    ],
-    "note": "Ana yemek seçimine göre toplam kalori: 971/816 kcal"
-   }
-  },
-  "2026-10-28": {
-   "lunch": {
-    "items": [
-     {
-      "img": "dishes/4fb733faf2.jpg",
-      "key": "4fb733faf2",
-      "name": "Ezogelin Çorbası"
+      "img": "dishes/495fb304f2.jpg",
+      "key": "495fb304f2",
+      "name": "Şehriye Çorbası"
      },
      {
       "key": "1a287f95a7",
@@ -497,21 +468,15 @@
       "name": "Mevsim Salata"
      },
      {
-      "img": "dishes/3a38c0aebb.jpg",
-      "key": "3a38c0aebb",
-      "name": "Sütlaç"
+      "img": "dishes/f79a4f7b9e.jpg",
+      "key": "f79a4f7b9e",
+      "name": "Süt Helvası"
      }
     ],
-    "kcal": 1139
+    "kcal": 1005
    }
   },
-  "2026-10-29": {
-   "lunch": {
-    "items": [],
-    "note": "Resmi tatil"
-   }
-  },
-  "2026-10-30": {
+  "2026-11-27": {
    "lunch": {
     "items": [
      {
@@ -520,24 +485,50 @@
       "name": "Süzme Mercimek Çorbası"
      },
      {
-      "img": "dishes/df8e1e6b52.jpg",
-      "key": "df8e1e6b52",
-      "name": "Karnıyarık"
+      "img": "dishes/6b106383ab.jpg",
+      "key": "6b106383ab",
+      "name": "Etli Biber Dolması"
+     },
+     {
+      "img": "dishes/18ccb4d264.jpg",
+      "key": "18ccb4d264",
+      "name": "Soslu Makarna"
+     },
+     {
+      "img": "dishes/9c8d655ef5.jpg",
+      "key": "9c8d655ef5",
+      "name": "Yoğurt"
+     }
+    ],
+    "kcal": 654
+   }
+  },
+  "2026-11-30": {
+   "lunch": {
+    "items": [
+     {
+      "img": "dishes/0955218757.jpg",
+      "key": "0955218757",
+      "name": "Mercimek Çorbası"
+     },
+     {
+      "key": "b9480d40ee",
+      "name": "Patlıcan Kebabı/Tavuk Kavurma"
      },
      {
       "key": "8636bfbc0a",
       "name": "Pirinç Pilavı"
      },
      {
-      "img": "dishes/2f58be7b7a.jpg",
-      "key": "2f58be7b7a",
-      "name": "Cacık"
+      "img": "dishes/16b5c22561.jpg",
+      "key": "16b5c22561",
+      "name": "Ayran"
      }
     ],
-    "kcal": 841
+    "note": "Ana yemek seçimine göre toplam kalori: 899/768 kcal"
    }
   }
  },
  "university": "sirnak",
- "updated": "2026-11-01T19:26:16+03:00"
+ "updated": "2026-11-08T19:52:27+03:00"
 }

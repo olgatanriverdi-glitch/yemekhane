@@ -156,6 +156,7 @@
    "lunch": {
     "items": [
      {
+      "img": "dishes/1af7fb57ae.jpg",
       "key": "1af7fb57ae",
       "name": "Arpa Şehriye Çorbası"
      },
@@ -460,6 +461,7 @@
    "lunch": {
     "items": [
      {
+      "img": "dishes/1af7fb57ae.jpg",
       "key": "1af7fb57ae",
       "name": "Arpa Şehriye Çorbası"
      },
@@ -508,5 +510,5 @@
   }
  },
  "university": "isubu",
- "updated": "2026-11-04T11:56:06+03:00"
+ "updated": "2026-11-08T19:52:27+03:00"
 }

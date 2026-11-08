@@ -76,8 +76,32 @@
     ],
     "kcal": 918
    }
+  },
+  "2026-11-10": {
+   "lunch": {
+    "items": [
+     {
+      "img": "dishes/bf8474c8b9.jpg",
+      "key": "bf8474c8b9",
+      "name": "Ezogelin Çorba"
+     },
+     {
+      "img": "dishes/f81a728d3a.jpg",
+      "key": "f81a728d3a",
+      "name": "Kuru Fasulye"
+     },
+     {
+      "key": "8383bb3fac",
+      "name": "Özbek Pilavı"
+     },
+     {
+      "key": "3ef45fb941",
+      "name": "Karışık Turşu"
+     }
+    ]
+   }
   }
  },
  "university": "agri",
- "updated": "2026-11-04T13:44:05+03:00"
+ "updated": "2026-11-08T19:52:27+03:00"
 }

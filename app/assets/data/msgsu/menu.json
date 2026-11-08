@@ -240,7 +240,7 @@
      },
      {
       "key": "fbeb8c1234",
-      "name": "Bezelye Garn."
+      "name": "Bezelye Garn"
      },
      {
       "img": "dishes/943fe1113c.jpg",
@@ -523,7 +523,7 @@
      },
      {
       "key": "fbeb8c1234",
-      "name": "Bezelye Garn."
+      "name": "Bezelye Garn"
      },
      {
       "img": "dishes/bac7d91091.jpg",
@@ -596,5 +596,5 @@
   }
  },
  "university": "msgsu",
- "updated": "2026-11-04T13:07:09+03:00"
+ "updated": "2026-11-08T19:52:27+03:00"
 }

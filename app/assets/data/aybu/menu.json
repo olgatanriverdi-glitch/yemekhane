@@ -554,8 +554,10 @@
       "name": "Nohutlu Bulgur Pilavı"
      },
      {
-      "key": "53e029a8ea",
-      "name": "Meyve 80 kkal12.10.2026 - 16.10.2026"
+      "img": "dishes/ed17271d58.jpg",
+      "kcal": 80,
+      "key": "ed17271d58",
+      "name": "Meyve"
      }
     ]
    }
@@ -988,5 +990,5 @@
   }
  },
  "university": "aybu",
- "updated": "2026-11-04T13:07:09+03:00"
+ "updated": "2026-11-08T19:52:27+03:00"
 }

@@ -677,8 +677,9 @@
    "lunch": {
     "items": [
      {
-      "key": "61f62beb30",
-      "name": "Tutmaç Çorba Kcal"
+      "img": "dishes/cf51175f35.jpg",
+      "key": "cf51175f35",
+      "name": "Tutmaç Çorba"
      },
      {
       "kcal": 364,
@@ -910,24 +911,8 @@
   },
   "2026-10-29": {
    "lunch": {
-    "items": [
-     {
-      "name": "29 Ekim"
-     },
-     {
-      "name": "Cumhuriyet Bayramımız"
-     },
-     {
-      "img": "dishes/6970883cf4.jpg",
-      "key": "6970883cf4",
-      "name": "Kutlu"
-     },
-     {
-      "img": "dishes/8061cb163e.jpg",
-      "key": "8061cb163e",
-      "name": "Olsun"
-     }
-    ]
+    "items": [],
+    "note": "29 Ekim Cumhuriyet Bayramımız Kutlu Olsun"
    }
   },
   "2026-10-30": {
@@ -1555,5 +1540,5 @@
   }
  },
  "university": "ktu",
- "updated": "2026-11-08T12:40:23+03:00"
+ "updated": "2026-11-08T19:52:27+03:00"
 }

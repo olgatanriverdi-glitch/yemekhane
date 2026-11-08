@@ -576,8 +576,56 @@
      }
     ]
    }
+  },
+  "2026-11-06": {
+   "lunch": {
+    "items": [
+     {
+      "img": "dishes/7599097195.jpg",
+      "key": "7599097195",
+      "name": "Domates Çorba"
+     },
+     {
+      "key": "d2c5cd7cbe",
+      "name": "Tavuk Çökertme"
+     },
+     {
+      "img": "dishes/5b853e51e0.jpg",
+      "key": "5b853e51e0",
+      "name": "Şehriye Pilavı"
+     },
+     {
+      "img": "dishes/92485508df.jpg",
+      "key": "92485508df",
+      "name": "Tatlı"
+     }
+    ]
+   }
+  },
+  "2026-11-09": {
+   "lunch": {
+    "items": [
+     {
+      "key": "171b394fab",
+      "name": "Ezogeli Çorba"
+     },
+     {
+      "img": "dishes/fbb76e65c4.jpg",
+      "key": "fbb76e65c4",
+      "name": "Etli Kuru Fasulye"
+     },
+     {
+      "key": "fa4decda6a",
+      "name": "Şehriyeli Pirinç Pilavı"
+     },
+     {
+      "key": "3ef45fb941",
+      "name": "Karışık Turşu"
+     }
+    ]
+   }
   }
  },
  "university": "atauni",
- "updated": "2026-11-04T13:07:09+03:00"
+ "updated": "2026-11-08T19:52:27+03:00"
 }

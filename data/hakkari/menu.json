@@ -208,30 +208,29 @@
    "lunch": {
     "items": [
      {
-      "kcal": 363,
-      "key": "3179133f07",
-      "name": "Doğaba"
+      "img": "dishes/22dd093862.jpg",
+      "kcal": 183,
+      "key": "22dd093862",
+      "name": "Mercimek Çorba"
      },
      {
-      "img": "dishes/18ccb4d264.jpg",
-      "kcal": 337,
-      "key": "18ccb4d264",
-      "name": "Soslu Makarna"
+      "kcal": 310,
+      "key": "518598d844",
+      "name": "Tavuk Talaş"
      },
      {
-      "img": "dishes/321b4fe3c9.jpg",
-      "kcal": 123,
-      "key": "321b4fe3c9",
-      "name": "Mevsim Salatası"
+      "kcal": 333,
+      "key": "fa4decda6a",
+      "name": "Şehriyeli Pirinç Pilavı"
      },
      {
-      "img": "dishes/de8670087d.jpg",
-      "kcal": 400,
-      "key": "de8670087d",
-      "name": "Baklava"
+      "img": "dishes/2f58be7b7a.jpg",
+      "kcal": 130,
+      "key": "2f58be7b7a",
+      "name": "Cacık"
      }
     ],
-    "kcal": 1223
+    "kcal": 956
    }
   },
   "2026-11-12": {
@@ -620,5 +619,5 @@
   }
  },
  "university": "hakkari",
- "updated": "2026-11-04T13:44:05+03:00"
+ "updated": "2026-11-08T19:52:27+03:00"
 }

@@ -19,6 +19,7 @@
       "name": "Süzme Çorba"
      },
      {
+      "img": "dishes/9c8d655ef5.jpg",
       "kcal": 150,
       "key": "9c8d655ef5",
       "name": "Yoğurt"
@@ -36,16 +37,19 @@
       "name": "Tavuk İncik"
      },
      {
+      "img": "dishes/0b9e39c61a.jpg",
       "kcal": 335,
       "key": "0b9e39c61a",
       "name": "Salçalı Makarna"
      },
      {
+      "img": "dishes/16b5c22561.jpg",
       "kcal": 75,
       "key": "16b5c22561",
       "name": "Ayran"
      },
      {
+      "img": "dishes/904e9c87e9.jpg",
       "kcal": 540,
       "key": "904e9c87e9",
       "name": "Şekerpare"
@@ -68,11 +72,13 @@
       "name": "Bulgur Pilavı (Şehriyeli)"
      },
      {
+      "img": "dishes/bf8474c8b9.jpg",
       "kcal": 150,
       "key": "bf8474c8b9",
       "name": "Ezogelin Çorba"
      },
      {
+      "img": "dishes/a3d80c5897.jpg",
       "kcal": 100,
       "key": "a3d80c5897",
       "name": "Armut"
@@ -80,8 +86,178 @@
     ],
     "kcal": 961
    }
+  },
+  "2026-11-06": {
+   "lunch": {
+    "items": [
+     {
+      "img": "dishes/7dd7cc65d7.jpg",
+      "kcal": 200,
+      "key": "7dd7cc65d7",
+      "name": "Patlıcan Tava"
+     },
+     {
+      "kcal": 325,
+      "key": "4d9417b964",
+      "name": "Pirinç Pilavı (Zerdeçallı)"
+     },
+     {
+      "kcal": 160,
+      "key": "e47540f7f5",
+      "name": "Domates Çorbası"
+     },
+     {
+      "img": "dishes/faa2e9e4f2.jpg",
+      "kcal": 184,
+      "key": "faa2e9e4f2",
+      "name": "Supangle"
+     }
+    ],
+    "kcal": 869
+   }
+  },
+  "2026-11-09": {
+   "lunch": {
+    "items": [
+     {
+      "kcal": 240,
+      "key": "e8059f5d1b",
+      "name": "Domatesli Kebap"
+     },
+     {
+      "kcal": 290,
+      "key": "8fbf02cc35",
+      "name": "Bulgur Pilavı (Şehriyeli)"
+     },
+     {
+      "kcal": 180,
+      "key": "eee882522c",
+      "name": "Süzme Çorba"
+     },
+     {
+      "img": "dishes/9c8d655ef5.jpg",
+      "kcal": 150,
+      "key": "9c8d655ef5",
+      "name": "Yoğurt"
+     }
+    ],
+    "kcal": 860
+   }
+  },
+  "2026-11-10": {
+   "lunch": {
+    "items": [
+     {
+      "kcal": 180,
+      "key": "39935d4a76",
+      "name": "Kuru Fasulye (Etli)"
+     },
+     {
+      "kcal": 325,
+      "key": "8636bfbc0a",
+      "name": "Pirinç Pilavı"
+     },
+     {
+      "key": "3ef45fb941",
+      "name": "Karışık Turşu"
+     },
+     {
+      "img": "dishes/2f58be7b7a.jpg",
+      "kcal": 115,
+      "key": "2f58be7b7a",
+      "name": "Cacık"
+     }
+    ]
+   }
+  },
+  "2026-11-11": {
+   "lunch": {
+    "items": [
+     {
+      "kcal": 250,
+      "key": "a0a40d0f87",
+      "name": "Tavuk İncik"
+     },
+     {
+      "img": "dishes/7996503754.jpg",
+      "kcal": 350,
+      "key": "7996503754",
+      "name": "Peynirli Makarna"
+     },
+     {
+      "img": "dishes/5d3038c41b.jpg",
+      "kcal": 115,
+      "key": "5d3038c41b",
+      "name": "Yayla Çorbası"
+     },
+     {
+      "img": "dishes/9814c6dc58.jpg",
+      "kcal": 1,
+      "key": "9814c6dc58",
+      "name": "Mandalina"
+     }
+    ],
+    "kcal": 716
+   }
+  },
+  "2026-11-12": {
+   "lunch": {
+    "items": [
+     {
+      "kcal": 210,
+      "key": "0e987c96cc",
+      "name": "Arap Tava"
+     },
+     {
+      "img": "dishes/25b07cf14e.jpg",
+      "kcal": 290,
+      "key": "25b07cf14e",
+      "name": "Bulgur Pilavı"
+     },
+     {
+      "img": "dishes/0955218757.jpg",
+      "kcal": 180,
+      "key": "0955218757",
+      "name": "Mercimek Çorbası"
+     },
+     {
+      "img": "dishes/faa2e9e4f2.jpg",
+      "kcal": 184,
+      "key": "faa2e9e4f2",
+      "name": "Supangle"
+     }
+    ],
+    "kcal": 864
+   }
+  },
+  "2026-11-13": {
+   "lunch": {
+    "items": [
+     {
+      "img": "dishes/9d174a5157.jpg",
+      "kcal": 267,
+      "key": "9d174a5157",
+      "name": "Sulu Köfte"
+     },
+     {
+      "kcal": 210,
+      "key": "72ed8d7896",
+      "name": "Domatesli Pilav"
+     },
+     {
+      "key": "fac2949f35",
+      "name": "Yoğurtlu Ispanak"
+     },
+     {
+      "img": "dishes/2be1b1ba72.jpg",
+      "kcal": 138,
+      "key": "2be1b1ba72",
+      "name": "Kola"
+     }
+    ]
+   }
   }
  },
  "university": "inonu",
- "updated": "2026-10-27T17:44:48+03:00"
+ "updated": "2026-11-08T19:52:27+03:00"
 }

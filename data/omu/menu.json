@@ -498,8 +498,34 @@
      }
     ]
    }
+  },
+  "2026-11-06": {
+   "lunch": {
+    "items": [
+     {
+      "img": "dishes/7d5322c037.jpg",
+      "key": "7d5322c037",
+      "name": "Kremalı Brokoli Çorba"
+     },
+     {
+      "img": "dishes/1d61a72d2c.jpg",
+      "key": "1d61a72d2c",
+      "name": "Kadınbudu Köfte"
+     },
+     {
+      "img": "dishes/9cc15e97bd.jpg",
+      "key": "9cc15e97bd",
+      "name": "Patates Salatası"
+     },
+     {
+      "img": "dishes/ed47fcacda.jpg",
+      "key": "ed47fcacda",
+      "name": "Pembe Sultan"
+     }
+    ]
+   }
   }
  },
  "university": "omu",
- "updated": "2026-10-15T10:48:57+03:00"
+ "updated": "2026-11-08T19:52:27+03:00"
 }

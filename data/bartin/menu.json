@@ -92,16 +92,14 @@
    "lunch": {
     "items": [
      {
-      "img": "dishes/e73b79f7e6.jpg",
-      "kcal": 175,
-      "key": "e73b79f7e6",
-      "name": "Tutmaç Çorbası"
+      "img": "dishes/4fb733faf2.jpg",
+      "kcal": 185,
+      "key": "4fb733faf2",
+      "name": "Ezogelin Çorbası"
      },
      {
-      "img": "dishes/d151de6ce3.jpg",
-      "kcal": 370,
-      "key": "d151de6ce3",
-      "name": "Çoban Kavurma"
+      "key": "c37c783b5c",
+      "name": "Çoban Kavurma / Nugget"
      },
      {
       "kcal": 303,
@@ -114,8 +112,7 @@
       "key": "ed17271d58",
       "name": "Meyve"
      }
-    ],
-    "kcal": 908
+    ]
    }
   },
   "2026-11-06": {
@@ -158,8 +155,8 @@
      },
      {
       "kcal": 476,
-      "key": "e857ab2a52",
-      "name": "Et/Tavuk İskender Kebap (Yoğurtla)"
+      "key": "85dc8742be",
+      "name": "İskender Kebap (Yoğurtla)"
      },
      {
       "img": "dishes/25b07cf14e.jpg",
@@ -641,5 +638,5 @@
   }
  },
  "university": "bartin",
- "updated": "2026-11-04T13:44:05+03:00"
+ "updated": "2026-11-08T19:52:27+03:00"
 }

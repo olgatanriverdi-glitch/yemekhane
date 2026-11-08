@@ -81,8 +81,8 @@
    "lunch": {
     "items": [
      {
-      "key": "ddd265d4e1",
-      "name": "Köri Soslu Tavuk Sote"
+      "key": "7bae814a67",
+      "name": "Tavuk Sote"
      },
      {
       "img": "dishes/18ccb4d264.jpg",
@@ -538,5 +538,5 @@
   }
  },
  "university": "istiklal",
- "updated": "2026-11-04T14:06:12+03:00"
+ "updated": "2026-11-08T19:52:27+03:00"
 }

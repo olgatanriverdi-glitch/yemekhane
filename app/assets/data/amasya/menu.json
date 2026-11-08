@@ -437,6 +437,7 @@
       "name": "Şehriye Çorbası"
      },
      {
+      "img": "dishes/d359bab6ba.jpg",
       "key": "d359bab6ba",
       "name": "Kıymalı Ispanak/Yoğurt"
      },
@@ -534,5 +535,5 @@
   }
  },
  "university": "amasya",
- "updated": "2026-11-01T17:11:30+03:00"
+ "updated": "2026-11-08T19:52:27+03:00"
 }

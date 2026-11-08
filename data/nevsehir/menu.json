@@ -262,9 +262,9 @@
       "name": "Makarna"
      },
      {
-      "img": "dishes/ed17271d58.jpg",
-      "key": "ed17271d58",
-      "name": "Meyve"
+      "img": "dishes/c96fd73d5f.jpg",
+      "key": "c96fd73d5f",
+      "name": "Salata"
      }
     ],
     "kcal": 902
@@ -349,5 +349,5 @@
   }
  },
  "university": "nevsehir",
- "updated": "2026-11-01T16:51:31+03:00"
+ "updated": "2026-11-08T19:52:27+03:00"
 }

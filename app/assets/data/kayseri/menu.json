@@ -112,6 +112,7 @@
       "name": "Dana Haşlama"
      },
      {
+      "img": "dishes/3b8121367c.jpg",
       "key": "3b8121367c",
       "name": "Brokoli Salatası"
      },
@@ -122,8 +123,130 @@
      }
     ]
    }
+  },
+  "2026-11-09": {
+   "lunch": {
+    "items": [
+     {
+      "img": "dishes/0955218757.jpg",
+      "key": "0955218757",
+      "name": "Mercimek Çorbası"
+     },
+     {
+      "key": "1229022705",
+      "name": "Barbunya"
+     },
+     {
+      "key": "8636bfbc0a",
+      "name": "Pirinç Pilavı"
+     },
+     {
+      "key": "eb24a662e7",
+      "name": "Yoğurtlu Semizotu"
+     }
+    ]
+   }
+  },
+  "2026-11-10": {
+   "lunch": {
+    "items": [
+     {
+      "key": "e47540f7f5",
+      "name": "Domates Çorbası"
+     },
+     {
+      "key": "3edc3d70e5",
+      "name": "Püreli Rosto Köfte"
+     },
+     {
+      "img": "dishes/bac7d91091.jpg",
+      "key": "bac7d91091",
+      "name": "Makarna"
+     },
+     {
+      "img": "dishes/ed17271d58.jpg",
+      "key": "ed17271d58",
+      "name": "Meyve"
+     }
+    ]
+   }
+  },
+  "2026-11-11": {
+   "lunch": {
+    "items": [
+     {
+      "img": "dishes/4fb733faf2.jpg",
+      "key": "4fb733faf2",
+      "name": "Ezogelin Çorbası"
+     },
+     {
+      "img": "dishes/b7593804b8.jpg",
+      "key": "b7593804b8",
+      "name": "Biber Dolması"
+     },
+     {
+      "img": "dishes/831b0f20cf.jpg",
+      "key": "831b0f20cf",
+      "name": "Su Böreği"
+     },
+     {
+      "img": "dishes/9c8d655ef5.jpg",
+      "key": "9c8d655ef5",
+      "name": "Yoğurt"
+     }
+    ]
+   }
+  },
+  "2026-11-12": {
+   "lunch": {
+    "items": [
+     {
+      "key": "00c1fbe7ac",
+      "name": "Çeşm-İ Nigar Çorbası"
+     },
+     {
+      "img": "dishes/456e786836.jpg",
+      "key": "456e786836",
+      "name": "Et Tantuni"
+     },
+     {
+      "key": "0938f4c8ed",
+      "name": "Söğüş"
+     },
+     {
+      "img": "dishes/16b5c22561.jpg",
+      "key": "16b5c22561",
+      "name": "Ayran"
+     }
+    ]
+   }
+  },
+  "2026-11-13": {
+   "lunch": {
+    "items": [
+     {
+      "img": "dishes/5d3038c41b.jpg",
+      "key": "5d3038c41b",
+      "name": "Yayla Çorbası"
+     },
+     {
+      "key": "6edbc664b7",
+      "name": "Piliç Spc But"
+     },
+     {
+      "img": "dishes/25b07cf14e.jpg",
+      "key": "25b07cf14e",
+      "name": "Bulgur Pilavı"
+     },
+     {
+      "img": "dishes/92485508df.jpg",
+      "key": "92485508df",
+      "name": "Tatlı"
+     }
+    ]
+   }
   }
  },
  "university": "kayseri",
- "updated": "2026-11-01T16:51:31+03:00"
+ "updated": "2026-11-08T19:52:27+03:00"
 }

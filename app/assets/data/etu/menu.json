@@ -123,28 +123,29 @@
    "lunch": {
     "items": [
      {
-      "kcal": 258,
-      "key": "e47540f7f5",
-      "name": "Domates Çorbası"
+      "img": "dishes/4e30e73821.jpg",
+      "kcal": 250,
+      "key": "4e30e73821",
+      "name": "Kremalı Mantar Çorbası"
      },
      {
-      "img": "dishes/0428d021a9.jpg",
-      "kcal": 400,
-      "key": "0428d021a9",
-      "name": "Hamburger"
+      "kcal": 720,
+      "key": "47f30776fa",
+      "name": "Sebzeli Tavuk"
      },
      {
-      "kcal": 150,
-      "key": "966398214d",
-      "name": "Patates Kızartması"
+      "kcal": 315,
+      "key": "fb3ce6b538",
+      "name": "Sade Erişte"
      },
      {
-      "kcal": 95,
-      "key": "f7b84ad85a",
-      "name": "Meyve Suyu"
+      "img": "dishes/b6bfa358ce.jpg",
+      "kcal": 300,
+      "key": "b6bfa358ce",
+      "name": "Trileçe"
      }
     ],
-    "kcal": 903
+    "kcal": 1585
    }
   },
   "2026-11-11": {
@@ -181,30 +182,28 @@
    "lunch": {
     "items": [
      {
-      "img": "dishes/4e30e73821.jpg",
-      "kcal": 250,
-      "key": "4e30e73821",
-      "name": "Kremalı Mantar Çorbası"
+      "kcal": 258,
+      "key": "e47540f7f5",
+      "name": "Domates Çorbası"
      },
      {
-      "img": "dishes/4280b45688.jpg",
-      "kcal": 350,
-      "key": "4280b45688",
-      "name": "Tavuk Pirzola"
+      "img": "dishes/0428d021a9.jpg",
+      "kcal": 400,
+      "key": "0428d021a9",
+      "name": "Hamburger"
      },
      {
-      "kcal": 315,
-      "key": "fb3ce6b538",
-      "name": "Sade Erişte"
+      "kcal": 150,
+      "key": "966398214d",
+      "name": "Patates Kızartması"
      },
      {
-      "img": "dishes/b6bfa358ce.jpg",
-      "kcal": 300,
-      "key": "b6bfa358ce",
-      "name": "Trileçe"
+      "kcal": 95,
+      "key": "f7b84ad85a",
+      "name": "Meyve Suyu"
      }
     ],
-    "kcal": 1215
+    "kcal": 903
    }
   },
   "2026-11-13": {
@@ -296,5 +295,5 @@
   }
  },
  "university": "etu",
- "updated": "2026-11-04T13:44:05+03:00"
+ "updated": "2026-11-08T19:52:27+03:00"
 }

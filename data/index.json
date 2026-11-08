@@ -156,7 +156,7 @@
     }
    },
    "id": "odtu",
-   "lastDay": "2026-10-31",
+   "lastDay": "2026-11-30",
    "meals": [
     "dinner",
     "lunch"
@@ -362,7 +362,7 @@
   },
   {
    "city": "İstanbul",
-   "firstDay": "2026-10-01",
+   "firstDay": "2026-11-01",
    "hours": {
     "dinner": {
      "approx": false,
@@ -374,11 +374,10 @@
     }
    },
    "id": "boun",
-   "lastDay": "2026-10-31",
+   "lastDay": "2026-11-30",
    "meals": [
     "dinner",
-    "lunch",
-    "vegetarian"
+    "lunch"
    ],
    "name": "Boğaziçi Üniversitesi",
    "prices": [],
@@ -483,7 +482,7 @@
     }
    },
    "id": "deu",
-   "lastDay": "2026-10-30",
+   "lastDay": "2026-12-04",
    "meals": [
     "lunch",
     "vegetarian"
@@ -534,7 +533,7 @@
   },
   {
    "city": "Çanakkale",
-   "firstDay": "2026-10-01",
+   "firstDay": "2026-11-02",
    "hours": {
     "lunch": {
      "approx": false,
@@ -542,7 +541,7 @@
     }
    },
    "id": "comu",
-   "lastDay": "2026-10-30",
+   "lastDay": "2026-11-27",
    "meals": [
     "lunch",
     "vegetarian"
@@ -638,7 +637,7 @@
     }
    },
    "id": "trabzon",
-   "lastDay": "2026-10-30",
+   "lastDay": "2026-11-30",
    "meals": [
     "lunch"
    ],
@@ -657,7 +656,7 @@
     }
    },
    "id": "omu",
-   "lastDay": "2026-10-30",
+   "lastDay": "2026-11-06",
    "meals": [
     "lunch"
    ],
@@ -695,7 +694,7 @@
     }
    },
    "id": "gtu",
-   "lastDay": "2026-10-30",
+   "lastDay": "2026-11-06",
    "meals": [
     "lunch"
    ],
@@ -808,7 +807,7 @@
   },
   {
    "city": "Isparta",
-   "firstDay": "2026-10-01",
+   "firstDay": "2026-11-02",
    "hours": {
     "dinner": {
      "approx": true,
@@ -820,7 +819,7 @@
     }
    },
    "id": "sdu",
-   "lastDay": "2026-10-30",
+   "lastDay": "2026-11-30",
    "meals": [
     "dinner",
     "lunch"
@@ -840,7 +839,7 @@
     }
    },
    "id": "adu",
-   "lastDay": "2026-10-30",
+   "lastDay": "2026-11-13",
    "meals": [
     "lunch"
    ],
@@ -859,7 +858,7 @@
     }
    },
    "id": "inonu",
-   "lastDay": "2026-10-30",
+   "lastDay": "2026-11-13",
    "meals": [
     "lunch"
    ],
@@ -889,7 +888,7 @@
   },
   {
    "city": "Muğla",
-   "firstDay": "2026-11-02",
+   "firstDay": "2026-11-09",
    "hours": {
     "lunch": {
      "approx": true,
@@ -946,7 +945,7 @@
   },
   {
    "city": "Şanlıurfa",
-   "firstDay": "2026-11-02",
+   "firstDay": "2026-11-03",
    "hours": {
     "lunch": {
      "approx": true,
@@ -973,7 +972,7 @@
     }
    },
    "id": "yyu",
-   "lastDay": "2026-11-05",
+   "lastDay": "2026-11-11",
    "meals": [
     "lunch"
    ],
@@ -984,7 +983,7 @@
   },
   {
    "city": "Düzce",
-   "firstDay": "2026-10-01",
+   "firstDay": "2026-11-02",
    "hours": {
     "lunch": {
      "approx": true,
@@ -992,7 +991,7 @@
     }
    },
    "id": "duzce",
-   "lastDay": "2026-10-30",
+   "lastDay": "2026-11-30",
    "meals": [
     "lunch"
    ],
@@ -1003,7 +1002,7 @@
   },
   {
    "city": "Sakarya",
-   "firstDay": "2026-10-01",
+   "firstDay": "2026-11-02",
    "hours": {
     "lunch": {
      "approx": true,
@@ -1011,7 +1010,7 @@
     }
    },
    "id": "subu",
-   "lastDay": "2026-10-30",
+   "lastDay": "2026-11-30",
    "meals": [
     "lunch"
    ],
@@ -1022,7 +1021,7 @@
   },
   {
    "city": "Bursa",
-   "firstDay": "2026-10-01",
+   "firstDay": "2026-11-02",
    "hours": {
     "lunch": {
      "approx": false,
@@ -1030,7 +1029,7 @@
     }
    },
    "id": "btu",
-   "lastDay": "2026-10-30",
+   "lastDay": "2026-11-30",
    "meals": [
     "lunch"
    ],
@@ -1081,7 +1080,7 @@
     }
    },
    "id": "kayseri",
-   "lastDay": "2026-11-06",
+   "lastDay": "2026-11-13",
    "meals": [
     "lunch"
    ],
@@ -1152,7 +1151,7 @@
   },
   {
    "city": "Aksaray",
-   "firstDay": "2026-10-01",
+   "firstDay": "2026-11-02",
    "hours": {
     "lunch": {
      "approx": true,
@@ -1160,7 +1159,7 @@
     }
    },
    "id": "aksaray",
-   "lastDay": "2026-10-30",
+   "lastDay": "2026-11-30",
    "meals": [
     "lunch"
    ],
@@ -1190,7 +1189,7 @@
   },
   {
    "city": "Çankırı",
-   "firstDay": "2026-10-01",
+   "firstDay": "2026-11-02",
    "hours": {
     "lunch": {
      "approx": true,
@@ -1198,7 +1197,7 @@
     }
    },
    "id": "karatekin",
-   "lastDay": "2026-10-30",
+   "lastDay": "2026-11-30",
    "meals": [
     "lunch"
    ],
@@ -1209,7 +1208,7 @@
   },
   {
    "city": "Kastamonu",
-   "firstDay": "2026-11-02",
+   "firstDay": "2026-11-09",
    "hours": {
     "lunch": {
      "approx": false,
@@ -1217,7 +1216,7 @@
     }
    },
    "id": "kastamonu",
-   "lastDay": "2026-11-27",
+   "lastDay": "2026-11-30",
    "meals": [
     "lunch"
    ],
@@ -1328,7 +1327,7 @@
   },
   {
    "city": "Bayburt",
-   "firstDay": "2026-10-01",
+   "firstDay": "2026-11-02",
    "hours": {
     "lunch": {
      "approx": true,
@@ -1336,7 +1335,7 @@
     }
    },
    "id": "bayburt",
-   "lastDay": "2026-10-30",
+   "lastDay": "2026-11-30",
    "meals": [
     "lunch"
    ],
@@ -1374,7 +1373,7 @@
     }
    },
    "id": "ardahan",
-   "lastDay": "2026-11-04",
+   "lastDay": "2026-11-30",
    "meals": [
     "lunch"
    ],
@@ -1393,7 +1392,7 @@
     }
    },
    "id": "alparslan",
-   "lastDay": "2026-10-30",
+   "lastDay": "2026-11-06",
    "meals": [
     "lunch"
    ],
@@ -1428,25 +1427,6 @@
   },
   {
    "city": "Tunceli",
-   "firstDay": "2026-10-01",
-   "hours": {
-    "lunch": {
-     "approx": true,
-     "t": "11:00–14:00"
-    }
-   },
-   "id": "munzur",
-   "lastDay": "2026-10-30",
-   "meals": [
-    "lunch"
-   ],
-   "name": "Munzur Üniversitesi",
-   "prices": [],
-   "short": "MÜ",
-   "source": "https://sks.munzur.edu.tr/yemek-listesi"
-  },
-  {
-   "city": "Hatay",
    "firstDay": "2026-11-02",
    "hours": {
     "lunch": {
@@ -1454,34 +1434,15 @@
      "t": "11:00–14:00"
     }
    },
-   "id": "mku",
+   "id": "munzur",
    "lastDay": "2026-11-30",
    "meals": [
     "lunch"
    ],
-   "name": "Hatay Mustafa Kemal Üniversitesi",
+   "name": "Munzur Üniversitesi",
    "prices": [],
-   "short": "HMKÜ",
-   "source": "https://yemekgosterim.mku.edu.tr/home/yemekhane"
-  },
-  {
-   "city": "Kilis",
-   "firstDay": "2026-10-01",
-   "hours": {
-    "lunch": {
-     "approx": false,
-     "t": "11:00–13:00"
-    }
-   },
-   "id": "kilis",
-   "lastDay": "2026-10-30",
-   "meals": [
-    "lunch"
-   ],
-   "name": "Kilis 7 Aralık Üniversitesi",
-   "prices": [],
-   "short": "KİYÜ",
-   "source": "https://sks.kilis.edu.tr/tr/page/5088"
+   "short": "MÜ",
+   "source": "https://sks.munzur.edu.tr/yemek-listesi"
   },
   {
    "city": "Siirt",
@@ -1493,7 +1454,7 @@
     }
    },
    "id": "siirt",
-   "lastDay": "2026-11-02",
+   "lastDay": "2026-11-20",
    "meals": [
     "lunch"
    ],
@@ -1504,7 +1465,7 @@
   },
   {
    "city": "Şırnak",
-   "firstDay": "2026-10-01",
+   "firstDay": "2026-11-02",
    "hours": {
     "lunch": {
      "approx": true,
@@ -1512,7 +1473,7 @@
     }
    },
    "id": "sirnak",
-   "lastDay": "2026-10-30",
+   "lastDay": "2026-11-30",
    "meals": [
     "lunch"
    ],
@@ -1540,7 +1501,7 @@
     }
    },
    "id": "adiyaman",
-   "lastDay": "2026-11-02",
+   "lastDay": "2026-11-30",
    "meals": [
     "dinner",
     "lunch"
@@ -1549,6 +1510,44 @@
    "prices": [],
    "short": "ADYÜ",
    "source": "https://sksdb.adiyaman.edu.tr/tr/yemekhane/yemek-menusu"
+  },
+  {
+   "city": "Kilis",
+   "firstDay": "2026-11-02",
+   "hours": {
+    "lunch": {
+     "approx": false,
+     "t": "11:00–13:00"
+    }
+   },
+   "id": "kilis",
+   "lastDay": "2026-11-30",
+   "meals": [
+    "lunch"
+   ],
+   "name": "Kilis 7 Aralık Üniversitesi",
+   "prices": [],
+   "short": "KİYÜ",
+   "source": "https://sks.kilis.edu.tr/tr/page/5088"
+  },
+  {
+   "city": "Hatay",
+   "firstDay": "2026-11-02",
+   "hours": {
+    "lunch": {
+     "approx": true,
+     "t": "11:00–14:00"
+    }
+   },
+   "id": "mku",
+   "lastDay": "2026-11-30",
+   "meals": [
+    "lunch"
+   ],
+   "name": "Hatay Mustafa Kemal Üniversitesi",
+   "prices": [],
+   "short": "HMKÜ",
+   "source": "https://yemekgosterim.mku.edu.tr/home/yemekhane"
   },
   {
    "city": "Osmaniye",
@@ -1650,7 +1649,7 @@
     }
    },
    "id": "maku",
-   "lastDay": "2026-11-13",
+   "lastDay": "2026-11-27",
    "meals": [
     "lunch"
    ],
@@ -2018,7 +2017,7 @@
     }
    },
    "id": "agri",
-   "lastDay": "2026-11-06",
+   "lastDay": "2026-11-10",
    "meals": [
     "lunch"
    ],
@@ -2161,6 +2160,6 @@
    "source": "https://www.istiklal.edu.tr/sksdb/beslenme-ve-kafeterya"
   }
  ],
- "updated": "2026-11-08T12:40:23+03:00",
+ "updated": "2026-11-08T19:52:27+03:00",
  "version": 1
 }

@@ -49,10 +49,10 @@
       "name": "Soslu Makarna"
      },
      {
-      "img": "dishes/3a38c0aebb.jpg",
-      "kcal": 198,
-      "key": "3a38c0aebb",
-      "name": "Sütlaç"
+      "img": "dishes/cfca59afeb.jpg",
+      "kcal": 190,
+      "key": "cfca59afeb",
+      "name": "Puding"
      }
     ]
    }
@@ -61,22 +61,15 @@
    "lunch": {
     "items": [
      {
-      "img": "dishes/5d3038c41b.jpg",
-      "kcal": 129,
-      "key": "5d3038c41b",
-      "name": "Yayla Çorbası"
+      "img": "dishes/7599097195.jpg",
+      "kcal": 181,
+      "key": "7599097195",
+      "name": "Domates Çorba"
      },
      {
-      "img": "dishes/4280b45688.jpg",
-      "kcal": 200,
-      "key": "4280b45688",
-      "name": "Tavuk Pirzola"
-     },
-     {
-      "img": "dishes/2356abfde0.jpg",
-      "kcal": 241,
-      "key": "2356abfde0",
-      "name": "Sebzeli Bulgur Pilavı"
+      "kcal": 450,
+      "key": "26886ee087",
+      "name": "Pilavüstü Tavuk Döner"
      },
      {
       "kcal": 76,
@@ -84,7 +77,7 @@
       "name": "Kış Salata"
      }
     ],
-    "kcal": 646
+    "kcal": 707
    }
   },
   "2026-11-05": {
@@ -103,9 +96,10 @@
       "name": "Patlıcan Kebabı"
      },
      {
-      "kcal": 314,
-      "key": "5ba52e9f13",
-      "name": "Kuş Üzümlü Nohutlu Pirinç Pilavı"
+      "img": "dishes/2356abfde0.jpg",
+      "kcal": 241,
+      "key": "2356abfde0",
+      "name": "Sebzeli Bulgur Pilavı"
      },
      {
       "img": "dishes/16b5c22561.jpg",
@@ -114,7 +108,7 @@
       "name": "Ayran"
      }
     ],
-    "kcal": 1226
+    "kcal": 1153
    }
   },
   "2026-11-06": {
@@ -127,14 +121,8 @@
       "name": "Ezogelin Çorbası"
      },
      {
-      "key": "fdeb28c5b8",
-      "name": "Alabalık Kızartma Roka Marul Salata"
-     },
-     {
-      "img": "dishes/97a7f04327.jpg",
-      "kcal": 331,
-      "key": "97a7f04327",
-      "name": "Piyaz"
+      "key": "8dab575f46",
+      "name": "Palamut"
      },
      {
       "img": "dishes/cc9b620496.jpg",
@@ -693,5 +681,5 @@
   }
  },
  "university": "neu",
- "updated": "2026-11-01T16:51:31+03:00"
+ "updated": "2026-11-08T19:52:27+03:00"
 }

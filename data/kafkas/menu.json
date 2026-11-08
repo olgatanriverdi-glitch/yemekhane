@@ -249,6 +249,34 @@
    "lunch": {
     "items": [
      {
+      "kcal": 188,
+      "key": "158deb1010",
+      "name": "Kesme Aşı Çorbası"
+     },
+     {
+      "kcal": 226,
+      "key": "edbc433fe1",
+      "name": "Soslu Tavuk"
+     },
+     {
+      "img": "dishes/25b07cf14e.jpg",
+      "kcal": 149,
+      "key": "25b07cf14e",
+      "name": "Bulgur Pilavı"
+     },
+     {
+      "kcal": 125,
+      "key": "61a2035b95",
+      "name": "Karışık Komposto"
+     }
+    ],
+    "kcal": 688
+   }
+  },
+  "2026-11-03": {
+   "lunch": {
+    "items": [
+     {
       "img": "dishes/0955218757.jpg",
       "kcal": 136,
       "key": "0955218757",
@@ -274,63 +302,7 @@
     "kcal": 725
    }
   },
-  "2026-11-03": {
-   "lunch": {
-    "items": [
-     {
-      "kcal": 188,
-      "key": "158deb1010",
-      "name": "Kesme Aşı Çorbası"
-     },
-     {
-      "kcal": 226,
-      "key": "edbc433fe1",
-      "name": "Soslu Tavuk"
-     },
-     {
-      "img": "dishes/25b07cf14e.jpg",
-      "kcal": 149,
-      "key": "25b07cf14e",
-      "name": "Bulgur Pilavı"
-     },
-     {
-      "kcal": 125,
-      "key": "61a2035b95",
-      "name": "Karışık Komposto"
-     }
-    ],
-    "kcal": 688
-   }
-  },
   "2026-11-04": {
-   "lunch": {
-    "items": [
-     {
-      "kcal": 132,
-      "key": "45483a17b3",
-      "name": "Tavuk Çorbası"
-     },
-     {
-      "kcal": 150,
-      "key": "fd1a7475ad",
-      "name": "Et Haşlama"
-     },
-     {
-      "kcal": 303,
-      "key": "57d2d2d906",
-      "name": "Mısırlı Pirinç Pilavı"
-     },
-     {
-      "img": "dishes/904e9c87e9.jpg",
-      "kcal": 272,
-      "key": "904e9c87e9",
-      "name": "Şekerpare"
-     }
-    ],
-    "kcal": 857
-   }
-  },
-  "2026-11-05": {
    "lunch": {
     "items": [
      {
@@ -357,6 +329,34 @@
      }
     ],
     "kcal": 581
+   }
+  },
+  "2026-11-05": {
+   "lunch": {
+    "items": [
+     {
+      "kcal": 122,
+      "key": "fa3f156c55",
+      "name": "Sütlü Ispanak Çorbası"
+     },
+     {
+      "kcal": 251,
+      "key": "0757ae33fc",
+      "name": "Püreli Tas Kebap"
+     },
+     {
+      "kcal": 280,
+      "key": "8636bfbc0a",
+      "name": "Pirinç Pilavı"
+     },
+     {
+      "img": "dishes/ba50d196d7.jpg",
+      "kcal": 252,
+      "key": "ba50d196d7",
+      "name": "Kemalpaşa Tatlısı"
+     }
+    ],
+    "kcal": 905
    }
   },
   "2026-11-06": {
@@ -531,16 +531,16 @@
       "name": "Şehriyeli Pirinç Pilavı"
      },
      {
-      "img": "dishes/1087b76fa2.jpg",
-      "kcal": 209,
-      "key": "1087b76fa2",
-      "name": "Revani"
+      "img": "dishes/904e9c87e9.jpg",
+      "kcal": 125,
+      "key": "904e9c87e9",
+      "name": "Şekerpare"
      }
     ],
-    "kcal": 862
+    "kcal": 778
    }
   }
  },
  "university": "kafkas",
- "updated": "2026-11-01T18:58:52+03:00"
+ "updated": "2026-11-08T19:52:27+03:00"
 }

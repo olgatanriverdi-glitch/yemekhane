@@ -195,6 +195,7 @@
       "name": "Ezogelin Çorba"
      },
      {
+      "img": "dishes/456e786836.jpg",
       "key": "456e786836",
       "name": "Et Tantuni"
      },
@@ -551,5 +552,5 @@
   }
  },
  "university": "trakya",
- "updated": "2026-11-01T16:23:28+03:00"
+ "updated": "2026-11-08T19:52:27+03:00"
 }
