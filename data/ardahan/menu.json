@@ -1,0 +1,78 @@
+{
+ "days": {
+  "2026-11-02": {
+   "lunch": {
+    "items": [
+     {
+      "key": "646360f3fe",
+      "name": "Tavuk Suyu Çorbası"
+     },
+     {
+      "img": "dishes/fbb76e65c4.jpg",
+      "key": "fbb76e65c4",
+      "name": "Etli Kuru Fasulye"
+     },
+     {
+      "key": "8636bfbc0a",
+      "name": "Pirinç Pilavı"
+     },
+     {
+      "img": "dishes/ec0228f614.jpg",
+      "key": "ec0228f614",
+      "name": "Turşu"
+     }
+    ]
+   }
+  },
+  "2026-11-03": {
+   "lunch": {
+    "items": [
+     {
+      "img": "dishes/5d3038c41b.jpg",
+      "key": "5d3038c41b",
+      "name": "Yayla Çorbası"
+     },
+     {
+      "key": "68bd27006d",
+      "name": "Kaşar Ve Sebzeli Dolgulu Tavuk"
+     },
+     {
+      "key": "8f46085762",
+      "name": "Kuskus Pilavı"
+     },
+     {
+      "key": "914c3097ea",
+      "name": "Muzlu Lotus Kremalı Kup"
+     }
+    ]
+   }
+  },
+  "2026-11-04": {
+   "lunch": {
+    "items": [
+     {
+      "img": "dishes/ba380b9a95.jpg",
+      "key": "ba380b9a95",
+      "name": "Sebze Çorbası"
+     },
+     {
+      "key": "9db8ac82fd",
+      "name": "Kıymalı İskender"
+     },
+     {
+      "img": "dishes/25b07cf14e.jpg",
+      "key": "25b07cf14e",
+      "name": "Bulgur Pilavı"
+     },
+     {
+      "img": "dishes/9814c6dc58.jpg",
+      "key": "9814c6dc58",
+      "name": "Mandalina"
+     }
+    ]
+   }
+  }
+ },
+ "university": "ardahan",
+ "updated": "2026-11-01T18:58:54+03:00"
+}

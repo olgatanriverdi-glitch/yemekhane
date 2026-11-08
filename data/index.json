@@ -805,6 +805,1360 @@
    "prices": [],
    "short": "GAÜN",
    "source": "https://www.gaziantep.edu.tr/yemek/"
+  },
+  {
+   "city": "Isparta",
+   "firstDay": "2026-10-01",
+   "hours": {
+    "dinner": {
+     "approx": true,
+     "t": "17:00–19:00"
+    },
+    "lunch": {
+     "approx": true,
+     "t": "11:00–14:00"
+    }
+   },
+   "id": "sdu",
+   "lastDay": "2026-10-30",
+   "meals": [
+    "dinner",
+    "lunch"
+   ],
+   "name": "Süleyman Demirel Üniversitesi",
+   "prices": [],
+   "short": "SDÜ",
+   "source": "https://w3.sdu.edu.tr/aylik-yemek-listesi"
+  },
+  {
+   "city": "Aydın",
+   "firstDay": "2026-10-26",
+   "hours": {
+    "lunch": {
+     "approx": true,
+     "t": "11:00–14:00"
+    }
+   },
+   "id": "adu",
+   "lastDay": "2026-10-30",
+   "meals": [
+    "lunch"
+   ],
+   "name": "Aydın Adnan Menderes Üniversitesi",
+   "prices": [],
+   "short": "ADÜ",
+   "source": "https://www.adu.edu.tr/tr/yemek-listesi"
+  },
+  {
+   "city": "Malatya",
+   "firstDay": "2026-10-26",
+   "hours": {
+    "lunch": {
+     "approx": true,
+     "t": "11:00–14:00"
+    }
+   },
+   "id": "inonu",
+   "lastDay": "2026-10-30",
+   "meals": [
+    "lunch"
+   ],
+   "name": "İnönü Üniversitesi",
+   "prices": [],
+   "short": "İnÜ",
+   "source": "https://www.inonu.edu.tr/yemek"
+  },
+  {
+   "city": "Karabük",
+   "firstDay": "2026-10-01",
+   "hours": {
+    "lunch": {
+     "approx": true,
+     "t": "11:00–14:00"
+    }
+   },
+   "id": "karabuk",
+   "lastDay": "2026-10-30",
+   "meals": [
+    "lunch"
+   ],
+   "name": "Karabük Üniversitesi",
+   "prices": [],
+   "short": "KBÜ",
+   "source": "https://sks.karabuk.edu.tr/index.aspx"
+  },
+  {
+   "city": "Muğla",
+   "firstDay": "2026-11-02",
+   "hours": {
+    "lunch": {
+     "approx": true,
+     "t": "11:00–14:00"
+    }
+   },
+   "id": "mugla",
+   "lastDay": "2026-11-30",
+   "meals": [
+    "lunch"
+   ],
+   "name": "Muğla Sıtkı Koçman Üniversitesi",
+   "prices": [],
+   "short": "MSKÜ",
+   "source": "https://www.mu.edu.tr/tr/yemek"
+  },
+  {
+   "city": "Afyonkarahisar",
+   "firstDay": "2026-11-02",
+   "hours": {
+    "lunch": {
+     "approx": true,
+     "t": "11:00–14:00"
+    }
+   },
+   "id": "aku",
+   "lastDay": "2026-11-27",
+   "meals": [
+    "lunch"
+   ],
+   "name": "Afyon Kocatepe Üniversitesi",
+   "prices": [],
+   "short": "AKÜ",
+   "source": "https://skultur.aku.edu.tr/2025/08/29/yemek-listesi/"
+  },
+  {
+   "city": "Edirne",
+   "firstDay": "2026-11-02",
+   "hours": {
+    "lunch": {
+     "approx": true,
+     "t": "11:00–14:00"
+    }
+   },
+   "id": "trakya",
+   "lastDay": "2026-11-30",
+   "meals": [
+    "lunch"
+   ],
+   "name": "Trakya Üniversitesi",
+   "prices": [],
+   "short": "TÜ",
+   "source": "https://www.trakya.edu.tr/yemeklistesi"
+  },
+  {
+   "city": "Şanlıurfa",
+   "firstDay": "2026-11-02",
+   "hours": {
+    "lunch": {
+     "approx": true,
+     "t": "11:00–14:00"
+    }
+   },
+   "id": "harran",
+   "lastDay": "2026-11-30",
+   "meals": [
+    "lunch"
+   ],
+   "name": "Harran Üniversitesi",
+   "prices": [],
+   "short": "HRÜ",
+   "source": "https://www.harran.edu.tr/idari/daire-baskanliklari/saglik-kultur-ve-spor-daire-baskanligi/baglantilar/yemek-menusu"
+  },
+  {
+   "city": "Van",
+   "firstDay": "2026-11-02",
+   "hours": {
+    "lunch": {
+     "approx": true,
+     "t": "11:00–14:00"
+    }
+   },
+   "id": "yyu",
+   "lastDay": "2026-11-05",
+   "meals": [
+    "lunch"
+   ],
+   "name": "Van Yüzüncü Yıl Üniversitesi",
+   "prices": [],
+   "short": "YYÜ",
+   "source": "https://www.yyu.edu.tr/yemek-listesi"
+  },
+  {
+   "city": "Düzce",
+   "firstDay": "2026-10-01",
+   "hours": {
+    "lunch": {
+     "approx": true,
+     "t": "11:00–14:00"
+    }
+   },
+   "id": "duzce",
+   "lastDay": "2026-10-30",
+   "meals": [
+    "lunch"
+   ],
+   "name": "Düzce Üniversitesi",
+   "prices": [],
+   "short": "DÜ",
+   "source": "https://duzce.edu.tr/sayfa/1B29/yemek-menusu"
+  },
+  {
+   "city": "Sakarya",
+   "firstDay": "2026-10-01",
+   "hours": {
+    "lunch": {
+     "approx": true,
+     "t": "11:00–14:00"
+    }
+   },
+   "id": "subu",
+   "lastDay": "2026-10-30",
+   "meals": [
+    "lunch"
+   ],
+   "name": "Sakarya Uygulamalı Bilimler Üniversitesi",
+   "prices": [],
+   "short": "SUBÜ",
+   "source": "https://sks.subu.edu.tr/tr/merkez-yemek-menusu"
+  },
+  {
+   "city": "Bursa",
+   "firstDay": "2026-10-01",
+   "hours": {
+    "lunch": {
+     "approx": false,
+     "t": "11:05–14:00"
+    }
+   },
+   "id": "btu",
+   "lastDay": "2026-10-30",
+   "meals": [
+    "lunch"
+   ],
+   "name": "Bursa Teknik Üniversitesi",
+   "prices": [
+    {
+     "label": "Personel",
+     "tl": 130.0
+    },
+    {
+     "label": "Öğrenci",
+     "tl": 50.0
+    },
+    {
+     "label": "Diğer",
+     "tl": 255.0
+    }
+   ],
+   "short": "BTÜ",
+   "source": "https://sks.btu.edu.tr/tr"
+  },
+  {
+   "city": "Konya",
+   "firstDay": "2026-11-02",
+   "hours": {
+    "lunch": {
+     "approx": true,
+     "t": "11:00–14:00"
+    }
+   },
+   "id": "neu",
+   "lastDay": "2026-12-04",
+   "meals": [
+    "lunch"
+   ],
+   "name": "Necmettin Erbakan Üniversitesi",
+   "prices": [],
+   "short": "NEÜ",
+   "source": "https://kampuskart.erbakan.edu.tr/"
+  },
+  {
+   "city": "Kayseri",
+   "firstDay": "2026-11-02",
+   "hours": {
+    "lunch": {
+     "approx": false,
+     "t": "11:30–13:30"
+    }
+   },
+   "id": "kayseri",
+   "lastDay": "2026-11-06",
+   "meals": [
+    "lunch"
+   ],
+   "name": "Kayseri Üniversitesi",
+   "prices": [],
+   "short": "KAYÜ",
+   "source": "https://sksd.kayseri.edu.tr/tr/i/1-2/yemek-listesi"
+  },
+  {
+   "city": "Nevşehir",
+   "firstDay": "2026-10-26",
+   "hours": {
+    "lunch": {
+     "approx": true,
+     "t": "11:00–14:00"
+    }
+   },
+   "id": "nevsehir",
+   "lastDay": "2026-11-13",
+   "meals": [
+    "lunch"
+   ],
+   "name": "Nevşehir Hacı Bektaş Veli Üniversitesi",
+   "prices": [
+    {
+     "label": "Öğrenci Aylık Ve Haftalık",
+     "tl": 37.0
+    },
+    {
+     "label": "Öğrenci İkinci Öğün Günlük",
+     "tl": 102.5
+    }
+   ],
+   "short": "NEVÜ",
+   "source": "https://sks.nevsehir.edu.tr/tr/aylik-menu"
+  },
+  {
+   "city": "Kırşehir",
+   "firstDay": "2026-10-23",
+   "hours": {
+    "lunch": {
+     "approx": true,
+     "t": "11:00–14:00"
+    }
+   },
+   "id": "ahievran",
+   "lastDay": "2026-11-06",
+   "meals": [
+    "lunch"
+   ],
+   "name": "Kırşehir Ahi Evran Üniversitesi",
+   "prices": [
+    {
+     "label": "Öğrenci (Rezervasyonlu)",
+     "tl": 28.0
+    },
+    {
+     "label": "Öğrenci (Rezervasyonsuz)",
+     "tl": 50.0
+    },
+    {
+     "label": "Öğrenci (İkinci Yemek)",
+     "tl": 94.0
+    }
+   ],
+   "short": "KAEÜ",
+   "source": "https://idari.ahievran.edu.tr/sksdb/yemek/yemek-listesi/tr/118"
+  },
+  {
+   "city": "Aksaray",
+   "firstDay": "2026-10-01",
+   "hours": {
+    "lunch": {
+     "approx": true,
+     "t": "11:00–14:00"
+    }
+   },
+   "id": "aksaray",
+   "lastDay": "2026-10-30",
+   "meals": [
+    "lunch"
+   ],
+   "name": "Aksaray Üniversitesi",
+   "prices": [],
+   "short": "ASÜ",
+   "source": "https://sks.aksaray.edu.tr/yemek-listesi"
+  },
+  {
+   "city": "Niğde",
+   "firstDay": "2026-11-02",
+   "hours": {
+    "lunch": {
+     "approx": true,
+     "t": "11:00–14:00"
+    }
+   },
+   "id": "ohu",
+   "lastDay": "2026-11-30",
+   "meals": [
+    "lunch"
+   ],
+   "name": "Niğde Ömer Halisdemir Üniversitesi",
+   "prices": [],
+   "short": "NÖHÜ",
+   "source": "https://www.ohu.edu.tr/yemekmenu"
+  },
+  {
+   "city": "Çankırı",
+   "firstDay": "2026-10-01",
+   "hours": {
+    "lunch": {
+     "approx": true,
+     "t": "11:00–14:00"
+    }
+   },
+   "id": "karatekin",
+   "lastDay": "2026-10-30",
+   "meals": [
+    "lunch"
+   ],
+   "name": "Çankırı Karatekin Üniversitesi",
+   "prices": [],
+   "short": "ÇAKÜ",
+   "source": "https://www.karatekin.edu.tr/yemek-listesi"
+  },
+  {
+   "city": "Kastamonu",
+   "firstDay": "2026-11-02",
+   "hours": {
+    "lunch": {
+     "approx": false,
+     "t": "11:30–13:30"
+    }
+   },
+   "id": "kastamonu",
+   "lastDay": "2026-11-27",
+   "meals": [
+    "lunch"
+   ],
+   "name": "Kastamonu Üniversitesi",
+   "prices": [
+    {
+     "label": "Öğrenci",
+     "tl": 50.0
+    }
+   ],
+   "short": "KÜ",
+   "source": "https://www.kastamonu.edu.tr/tr/yemeklistesi"
+  },
+  {
+   "city": "Sinop",
+   "firstDay": "2026-11-02",
+   "hours": {
+    "lunch": {
+     "approx": true,
+     "t": "11:00–14:00"
+    }
+   },
+   "id": "sinop",
+   "lastDay": "2026-11-30",
+   "meals": [
+    "lunch"
+   ],
+   "name": "Sinop Üniversitesi",
+   "prices": [],
+   "short": "SİNÜ",
+   "source": "https://sksdb.sinop.edu.tr/yemek-listesi/"
+  },
+  {
+   "city": "Amasya",
+   "firstDay": "2026-11-02",
+   "hours": {
+    "lunch": {
+     "approx": true,
+     "t": "11:00–14:00"
+    }
+   },
+   "id": "amasya",
+   "lastDay": "2026-11-30",
+   "meals": [
+    "lunch"
+   ],
+   "name": "Amasya Üniversitesi",
+   "prices": [],
+   "short": "AÜ",
+   "source": "https://yemek.amasya.edu.tr/yemek-listesi-public"
+  },
+  {
+   "city": "Tokat",
+   "firstDay": "2026-11-02",
+   "hours": {
+    "lunch": {
+     "approx": true,
+     "t": "11:00–14:00"
+    }
+   },
+   "id": "gop",
+   "lastDay": "2026-11-30",
+   "meals": [
+    "lunch"
+   ],
+   "name": "Tokat Gaziosmanpaşa Üniversitesi",
+   "prices": [],
+   "short": "TOGÜ",
+   "source": "https://sosyaltesisler.gop.edu.tr/arasayfa_detay.aspx?arasayfaID=16"
+  },
+  {
+   "city": "Ordu",
+   "firstDay": "2026-10-01",
+   "hours": {
+    "lunch": {
+     "approx": false,
+     "t": "11:30–13:00"
+    }
+   },
+   "id": "odu",
+   "lastDay": "2026-10-30",
+   "meals": [
+    "lunch"
+   ],
+   "name": "Ordu Üniversitesi",
+   "prices": [],
+   "short": "ODÜ",
+   "source": "https://sksdb.odu.edu.tr/"
+  },
+  {
+   "city": "Giresun",
+   "firstDay": "2026-11-02",
+   "hours": {
+    "lunch": {
+     "approx": true,
+     "t": "11:00–14:00"
+    }
+   },
+   "id": "giresun",
+   "lastDay": "2026-11-30",
+   "meals": [
+    "lunch"
+   ],
+   "name": "Giresun Üniversitesi",
+   "prices": [],
+   "short": "GRÜ",
+   "source": "https://sksdb.giresun.edu.tr/"
+  },
+  {
+   "city": "Bayburt",
+   "firstDay": "2026-10-01",
+   "hours": {
+    "lunch": {
+     "approx": true,
+     "t": "11:00–14:00"
+    }
+   },
+   "id": "bayburt",
+   "lastDay": "2026-10-30",
+   "meals": [
+    "lunch"
+   ],
+   "name": "Bayburt Üniversitesi",
+   "prices": [],
+   "short": "BAYÜ",
+   "source": "https://bayburt.edu.tr/tr/food-menu"
+  },
+  {
+   "city": "Kars",
+   "firstDay": "2026-10-19",
+   "hours": {
+    "lunch": {
+     "approx": true,
+     "t": "11:00–14:00"
+    }
+   },
+   "id": "kafkas",
+   "lastDay": "2026-11-13",
+   "meals": [
+    "lunch"
+   ],
+   "name": "Kafkas Üniversitesi",
+   "prices": [],
+   "short": "KAÜ",
+   "source": "https://www.kafkas.edu.tr/skdb"
+  },
+  {
+   "city": "Ardahan",
+   "firstDay": "2026-11-02",
+   "hours": {
+    "lunch": {
+     "approx": true,
+     "t": "11:00–14:00"
+    }
+   },
+   "id": "ardahan",
+   "lastDay": "2026-11-04",
+   "meals": [
+    "lunch"
+   ],
+   "name": "Ardahan Üniversitesi",
+   "prices": [],
+   "short": "ARÜ",
+   "source": "https://yemek.ardahan.edu.tr/"
+  },
+  {
+   "city": "Muş",
+   "firstDay": "2026-10-26",
+   "hours": {
+    "lunch": {
+     "approx": true,
+     "t": "11:00–14:00"
+    }
+   },
+   "id": "alparslan",
+   "lastDay": "2026-10-30",
+   "meals": [
+    "lunch"
+   ],
+   "name": "Muş Alparslan Üniversitesi",
+   "prices": [
+    {
+     "label": "Öğrenci",
+     "tl": 35.0
+    }
+   ],
+   "short": "MAUN",
+   "source": "https://nsks.alparslan.edu.tr/sayfa/50/haftalik-yemek-menusu"
+  },
+  {
+   "city": "Bingöl",
+   "firstDay": "2026-11-02",
+   "hours": {
+    "lunch": {
+     "approx": true,
+     "t": "11:00–14:00"
+    }
+   },
+   "id": "bingol",
+   "lastDay": "2026-11-30",
+   "meals": [
+    "lunch"
+   ],
+   "name": "Bingöl Üniversitesi",
+   "prices": [],
+   "short": "BÜ",
+   "source": "https://sks.bingol.edu.tr/yemek-listesi"
+  },
+  {
+   "city": "Tunceli",
+   "firstDay": "2026-10-01",
+   "hours": {
+    "lunch": {
+     "approx": true,
+     "t": "11:00–14:00"
+    }
+   },
+   "id": "munzur",
+   "lastDay": "2026-10-30",
+   "meals": [
+    "lunch"
+   ],
+   "name": "Munzur Üniversitesi",
+   "prices": [],
+   "short": "MÜ",
+   "source": "https://sks.munzur.edu.tr/yemek-listesi"
+  },
+  {
+   "city": "Hatay",
+   "firstDay": "2026-11-02",
+   "hours": {
+    "lunch": {
+     "approx": true,
+     "t": "11:00–14:00"
+    }
+   },
+   "id": "mku",
+   "lastDay": "2026-11-30",
+   "meals": [
+    "lunch"
+   ],
+   "name": "Hatay Mustafa Kemal Üniversitesi",
+   "prices": [],
+   "short": "HMKÜ",
+   "source": "https://yemekgosterim.mku.edu.tr/home/yemekhane"
+  },
+  {
+   "city": "Kilis",
+   "firstDay": "2026-10-01",
+   "hours": {
+    "lunch": {
+     "approx": false,
+     "t": "11:00–13:00"
+    }
+   },
+   "id": "kilis",
+   "lastDay": "2026-10-30",
+   "meals": [
+    "lunch"
+   ],
+   "name": "Kilis 7 Aralık Üniversitesi",
+   "prices": [],
+   "short": "KİYÜ",
+   "source": "https://sks.kilis.edu.tr/tr/page/5088"
+  },
+  {
+   "city": "Siirt",
+   "firstDay": "2026-11-02",
+   "hours": {
+    "lunch": {
+     "approx": true,
+     "t": "11:00–14:00"
+    }
+   },
+   "id": "siirt",
+   "lastDay": "2026-11-02",
+   "meals": [
+    "lunch"
+   ],
+   "name": "Siirt Üniversitesi",
+   "prices": [],
+   "short": "SİÜ",
+   "source": "https://www.siirt.edu.tr/yemeklistesi.html"
+  },
+  {
+   "city": "Şırnak",
+   "firstDay": "2026-10-01",
+   "hours": {
+    "lunch": {
+     "approx": true,
+     "t": "11:00–14:00"
+    }
+   },
+   "id": "sirnak",
+   "lastDay": "2026-10-30",
+   "meals": [
+    "lunch"
+   ],
+   "name": "Şırnak Üniversitesi",
+   "prices": [
+    {
+     "label": "Öğrenci",
+     "tl": 30.0
+    }
+   ],
+   "short": "ŞÜ",
+   "source": "https://sks.sirnak.edu.tr/tr/menu/yemek-listesi/4533"
+  },
+  {
+   "city": "Adıyaman",
+   "firstDay": "2026-11-02",
+   "hours": {
+    "dinner": {
+     "approx": true,
+     "t": "17:00–19:00"
+    },
+    "lunch": {
+     "approx": true,
+     "t": "11:00–14:00"
+    }
+   },
+   "id": "adiyaman",
+   "lastDay": "2026-11-02",
+   "meals": [
+    "dinner",
+    "lunch"
+   ],
+   "name": "Adıyaman Üniversitesi",
+   "prices": [],
+   "short": "ADYÜ",
+   "source": "https://sksdb.adiyaman.edu.tr/tr/yemekhane/yemek-menusu"
+  },
+  {
+   "city": "Osmaniye",
+   "firstDay": "2026-11-02",
+   "hours": {
+    "lunch": {
+     "approx": true,
+     "t": "11:00–14:00"
+    }
+   },
+   "id": "osmaniye",
+   "lastDay": "2026-11-30",
+   "meals": [
+    "lunch"
+   ],
+   "name": "Osmaniye Korkut Ata Üniversitesi",
+   "prices": [],
+   "short": "OKÜ",
+   "source": "https://www6.osmaniye.edu.tr/yemekmenu"
+  },
+  {
+   "city": "Kahramanmaraş",
+   "firstDay": "2026-11-02",
+   "hours": {
+    "lunch": {
+     "approx": true,
+     "t": "11:00–14:00"
+    }
+   },
+   "id": "ksu",
+   "lastDay": "2026-11-30",
+   "meals": [
+    "lunch"
+   ],
+   "name": "Kahramanmaraş Sütçü İmam Üniversitesi",
+   "prices": [],
+   "short": "KSÜ",
+   "source": "https://yemeklistesi.ksu.edu.tr/"
+  },
+  {
+   "city": "Mersin",
+   "firstDay": "2026-11-02",
+   "hours": {
+    "lunch": {
+     "approx": true,
+     "t": "11:00–14:00"
+    }
+   },
+   "id": "tarsus",
+   "lastDay": "2026-11-30",
+   "meals": [
+    "lunch"
+   ],
+   "name": "Tarsus Üniversitesi",
+   "prices": [
+    {
+     "label": "Öğrenci",
+     "tl": 35
+    }
+   ],
+   "short": "Tarsus Ü",
+   "source": "https://sks.tarsus.edu.tr/tr/page/yemek-listesi/2581"
+  },
+  {
+   "city": "Adana",
+   "firstDay": "2026-11-02",
+   "hours": {
+    "lunch": {
+     "approx": true,
+     "t": "11:00–14:00"
+    }
+   },
+   "id": "atu",
+   "lastDay": "2026-11-30",
+   "meals": [
+    "lunch"
+   ],
+   "name": "Adana Alparslan Türkeş Bilim ve Teknoloji Üniversitesi",
+   "prices": [
+    {
+     "label": "Öğrenci (karta yükleme)",
+     "tl": 30
+    },
+    {
+     "label": "Günlük öğrenci",
+     "tl": 90
+    }
+   ],
+   "short": "ATÜ",
+   "source": "https://ubys.atu.edu.tr/Yemekhane"
+  },
+  {
+   "city": "Burdur",
+   "firstDay": "2026-11-02",
+   "hours": {
+    "lunch": {
+     "approx": true,
+     "t": "11:00–14:00"
+    }
+   },
+   "id": "maku",
+   "lastDay": "2026-11-13",
+   "meals": [
+    "lunch"
+   ],
+   "name": "Burdur Mehmet Akif Ersoy Üniversitesi",
+   "prices": [],
+   "short": "MAKÜ",
+   "source": "https://mehmetakif.edu.tr/tr/content/10606/haftalik-yemek-listesi"
+  },
+  {
+   "city": "Isparta",
+   "firstDay": "2026-11-02",
+   "hours": {
+    "lunch": {
+     "approx": true,
+     "t": "11:00–14:00"
+    }
+   },
+   "id": "isubu",
+   "lastDay": "2026-11-27",
+   "meals": [
+    "lunch"
+   ],
+   "name": "Isparta Uygulamalı Bilimler Üniversitesi",
+   "prices": [],
+   "short": "İSUBÜ",
+   "source": "https://yemek.isparta.edu.tr/menu"
+  },
+  {
+   "city": "Uşak",
+   "firstDay": "2026-11-04",
+   "hours": {
+    "lunch": {
+     "approx": true,
+     "t": "11:00–14:00"
+    }
+   },
+   "id": "usak",
+   "lastDay": "2026-11-25",
+   "meals": [
+    "lunch",
+    "vegetarian"
+   ],
+   "name": "Uşak Üniversitesi",
+   "prices": [],
+   "short": "UÜ",
+   "source": "https://yemek.usak.edu.tr/yemekhane"
+  },
+  {
+   "city": "Balıkesir",
+   "firstDay": "2026-11-02",
+   "hours": {
+    "lunch": {
+     "approx": true,
+     "t": "11:00–14:00"
+    }
+   },
+   "id": "balikesir",
+   "lastDay": "2026-11-06",
+   "meals": [
+    "lunch"
+   ],
+   "name": "Balıkesir Üniversitesi",
+   "prices": [],
+   "short": "BAÜN",
+   "source": "https://balikesir.edu.tr/yemek-listesi"
+  },
+  {
+   "city": "Balıkesir",
+   "firstDay": "2026-11-02",
+   "hours": {
+    "lunch": {
+     "approx": false,
+     "t": "11:30–14:00"
+    }
+   },
+   "id": "bandirma",
+   "lastDay": "2026-11-30",
+   "meals": [
+    "lunch"
+   ],
+   "name": "Bandırma Onyedi Eylül Üniversitesi",
+   "prices": [
+    {
+     "label": "Öğrenci",
+     "tl": 55
+    }
+   ],
+   "short": "BANÜ",
+   "source": "https://sksdb.bandirma.edu.tr/tr/sksdb/s/Yemek-Menusu-2725"
+  },
+  {
+   "city": "Tekirdağ",
+   "firstDay": "2026-11-03",
+   "hours": {
+    "lunch": {
+     "approx": false,
+     "t": "11:00–14:00"
+    }
+   },
+   "id": "nku",
+   "lastDay": "2026-11-06",
+   "meals": [
+    "lunch",
+    "vegetarian"
+   ],
+   "name": "Tekirdağ Namık Kemal Üniversitesi",
+   "prices": [
+    {
+     "label": "Öğrenci",
+     "tl": 37
+    }
+   ],
+   "short": "NKÜ",
+   "source": "https://sks.nku.edu.tr/YemekListesi/0/s/6200/7411"
+  },
+  {
+   "city": "Kırklareli",
+   "firstDay": "2026-11-02",
+   "hours": {
+    "lunch": {
+     "approx": true,
+     "t": "11:00–14:00"
+    }
+   },
+   "id": "klu",
+   "lastDay": "2026-11-30",
+   "meals": [
+    "lunch"
+   ],
+   "name": "Kırklareli Üniversitesi",
+   "prices": [],
+   "short": "KLÜ",
+   "source": "https://sks.klu.edu.tr/Takvimler/73-yemek-takvimi.klu"
+  },
+  {
+   "city": "Bilecik",
+   "firstDay": "2026-11-02",
+   "hours": {
+    "lunch": {
+     "approx": false,
+     "t": "11:00–14:00"
+    }
+   },
+   "id": "bilecik",
+   "lastDay": "2026-11-30",
+   "meals": [
+    "lunch"
+   ],
+   "name": "Bilecik Şeyh Edebali Üniversitesi",
+   "prices": [
+    {
+     "label": "Lisans ve Ön Lisans Öğrencisi",
+     "tl": 50
+    },
+    {
+     "label": "Yüksek Lisans ve Doktora Öğrencisi",
+     "tl": 60
+    }
+   ],
+   "short": "BŞEÜ",
+   "source": "https://bilecik.edu.tr/sks/Icerik/Yemek_Men%C3%BCs%C3%BC_cc6e6"
+  },
+  {
+   "city": "Yalova",
+   "firstDay": "2026-11-02",
+   "hours": {
+    "lunch": {
+     "approx": true,
+     "t": "11:00–14:00"
+    }
+   },
+   "id": "yalova",
+   "lastDay": "2026-11-30",
+   "meals": [
+    "lunch"
+   ],
+   "name": "Yalova Üniversitesi",
+   "prices": [],
+   "short": "YÜ",
+   "source": "https://menu.yalova.edu.tr/Home/"
+  },
+  {
+   "city": "Çorum",
+   "firstDay": "2026-11-04",
+   "hours": {
+    "lunch": {
+     "approx": false,
+     "t": "11:45–13:30"
+    }
+   },
+   "id": "hitit",
+   "lastDay": "2026-11-06",
+   "meals": [
+    "lunch"
+   ],
+   "name": "Hitit Üniversitesi",
+   "prices": [],
+   "short": "HİTÜ",
+   "source": "https://hitit.edu.tr/tr/hitit/yemek-listesi"
+  },
+  {
+   "city": "Yozgat",
+   "firstDay": "2026-11-02",
+   "hours": {
+    "lunch": {
+     "approx": true,
+     "t": "11:00–14:00"
+    }
+   },
+   "id": "bozok",
+   "lastDay": "2026-11-17",
+   "meals": [
+    "lunch"
+   ],
+   "name": "Yozgat Bozok Üniversitesi",
+   "prices": [],
+   "short": "YOBÜ",
+   "source": "https://yemek.bozok.edu.tr/"
+  },
+  {
+   "city": "Bartın",
+   "firstDay": "2026-11-02",
+   "hours": {
+    "lunch": {
+     "approx": true,
+     "t": "11:00–14:00"
+    }
+   },
+   "id": "bartin",
+   "lastDay": "2026-11-30",
+   "meals": [
+    "lunch"
+   ],
+   "name": "Bartın Üniversitesi",
+   "prices": [],
+   "short": "BARÜ",
+   "source": "https://form.bartin.edu.tr/rapor/form/yemek-menu.html"
+  },
+  {
+   "city": "Rize",
+   "firstDay": "2026-11-04",
+   "hours": {
+    "lunch": {
+     "approx": true,
+     "t": "11:00–14:00"
+    }
+   },
+   "id": "rte",
+   "lastDay": "2026-11-04",
+   "meals": [
+    "lunch"
+   ],
+   "name": "Recep Tayyip Erdoğan Üniversitesi",
+   "prices": [],
+   "short": "RTEÜ",
+   "source": "https://erdogan.edu.tr/Website/Contents.aspx?LangID=1&PageID=1156"
+  },
+  {
+   "city": "Gümüşhane",
+   "firstDay": "2026-11-02",
+   "hours": {
+    "lunch": {
+     "approx": true,
+     "t": "11:00–14:00"
+    }
+   },
+   "id": "gumushane",
+   "lastDay": "2026-11-30",
+   "meals": [
+    "lunch"
+   ],
+   "name": "Gümüşhane Üniversitesi",
+   "prices": [],
+   "short": "GŞÜ",
+   "source": "https://www.gumushane.edu.tr/sayfa/130/yemek-listesi"
+  },
+  {
+   "city": "Bitlis",
+   "firstDay": "2026-11-04",
+   "hours": {
+    "lunch": {
+     "approx": true,
+     "t": "11:00–14:00"
+    }
+   },
+   "id": "bitlis",
+   "lastDay": "2026-11-06",
+   "meals": [
+    "lunch"
+   ],
+   "name": "Bitlis Eren Üniversitesi",
+   "prices": [],
+   "short": "BEÜ",
+   "source": "https://www.beu.edu.tr/YemekListesi"
+  },
+  {
+   "city": "Batman",
+   "firstDay": "2026-11-02",
+   "hours": {
+    "lunch": {
+     "approx": true,
+     "t": "11:00–14:00"
+    }
+   },
+   "id": "batman",
+   "lastDay": "2026-11-13",
+   "meals": [
+    "lunch"
+   ],
+   "name": "Batman Üniversitesi",
+   "prices": [],
+   "short": "BATÜ",
+   "source": "https://batman.edu.tr/yemek-listesi"
+  },
+  {
+   "city": "Kayseri",
+   "firstDay": "2026-11-04",
+   "hours": {
+    "dinner": {
+     "approx": true,
+     "t": "17:00–19:00"
+    },
+    "lunch": {
+     "approx": true,
+     "t": "11:00–14:00"
+    }
+   },
+   "id": "erciyes",
+   "lastDay": "2026-11-06",
+   "meals": [
+    "dinner",
+    "lunch"
+   ],
+   "name": "Erciyes Üniversitesi",
+   "prices": [],
+   "short": "ERÜ",
+   "source": "https://erciyes.edu.tr/tr/2/ogrenci-yemek-listesi"
+  },
+  {
+   "city": "Erzurum",
+   "firstDay": "2026-11-04",
+   "hours": {
+    "lunch": {
+     "approx": true,
+     "t": "11:00–14:00"
+    }
+   },
+   "id": "etu",
+   "lastDay": "2026-11-17",
+   "meals": [
+    "lunch"
+   ],
+   "name": "Erzurum Teknik Üniversitesi",
+   "prices": [],
+   "short": "ETÜ",
+   "source": "https://servis.erzurum.edu.tr/yemeklistesi/"
+  },
+  {
+   "city": "Ağrı",
+   "firstDay": "2026-11-04",
+   "hours": {
+    "lunch": {
+     "approx": true,
+     "t": "11:00–14:00"
+    }
+   },
+   "id": "agri",
+   "lastDay": "2026-11-06",
+   "meals": [
+    "lunch"
+   ],
+   "name": "Ağrı İbrahim Çeçen Üniversitesi",
+   "prices": [],
+   "short": "AİÇÜ",
+   "source": "https://www.agri.edu.tr/"
+  },
+  {
+   "city": "Hakkâri",
+   "firstDay": "2026-11-02",
+   "hours": {
+    "lunch": {
+     "approx": true,
+     "t": "11:00–14:00"
+    }
+   },
+   "id": "hakkari",
+   "lastDay": "2026-11-30",
+   "meals": [
+    "lunch"
+   ],
+   "name": "Hakkari Üniversitesi",
+   "prices": [],
+   "short": "HKÜ",
+   "source": "https://www.hakkari.edu.tr/yemek-listesi/1/merkezi-yemekhane"
+  },
+  {
+   "city": "Gaziantep",
+   "firstDay": "2026-11-04",
+   "hours": {
+    "lunch": {
+     "approx": true,
+     "t": "11:00–14:00"
+    }
+   },
+   "id": "gibtu",
+   "lastDay": "2026-11-30",
+   "meals": [
+    "lunch"
+   ],
+   "name": "Gaziantep İslam Bilim ve Teknoloji Üniversitesi",
+   "prices": [],
+   "short": "GİBTÜ",
+   "source": "https://www.gibtu.edu.tr/yemeklistesi.aspx"
+  },
+  {
+   "city": "Karaman",
+   "firstDay": "2026-11-02",
+   "hours": {
+    "lunch": {
+     "approx": true,
+     "t": "11:00–14:00"
+    }
+   },
+   "id": "kmu",
+   "lastDay": "2026-11-30",
+   "meals": [
+    "lunch"
+   ],
+   "name": "Karamanoğlu Mehmetbey Üniversitesi",
+   "prices": [],
+   "short": "KMÜ",
+   "source": "https://kmu.edu.tr/yemekhane"
+  },
+  {
+   "city": "Malatya",
+   "firstDay": "2026-11-04",
+   "hours": {
+    "lunch": {
+     "approx": true,
+     "t": "11:00–14:00"
+    }
+   },
+   "id": "mtu",
+   "lastDay": "2026-11-04",
+   "meals": [
+    "lunch"
+   ],
+   "name": "Malatya Turgut Özal Üniversitesi",
+   "prices": [],
+   "short": "MTÜ",
+   "source": "https://sksdb.ozal.edu.tr/tr/yemek_listesi"
+  },
+  {
+   "city": "Hatay",
+   "firstDay": "2026-11-02",
+   "hours": {
+    "lunch": {
+     "approx": true,
+     "t": "11:00–14:00"
+    }
+   },
+   "id": "iste",
+   "lastDay": "2026-11-30",
+   "meals": [
+    "lunch"
+   ],
+   "name": "İskenderun Teknik Üniversitesi",
+   "prices": [],
+   "short": "İSTE",
+   "source": "https://iste.edu.tr/sksdb"
+  },
+  {
+   "city": "Kütahya",
+   "firstDay": "2026-11-02",
+   "hours": {
+    "lunch": {
+     "approx": true,
+     "t": "11:00–14:00"
+    }
+   },
+   "id": "ksbu",
+   "lastDay": "2026-11-30",
+   "meals": [
+    "lunch"
+   ],
+   "name": "Kütahya Sağlık Bilimleri Üniversitesi",
+   "prices": [],
+   "short": "KSBÜ",
+   "source": "https://sks.ksbu.edu.tr/defaultx/slide/5613/ksbu-yemek-listesi"
+  },
+  {
+   "city": "Kahramanmaraş",
+   "firstDay": "2026-11-02",
+   "hours": {
+    "lunch": {
+     "approx": true,
+     "t": "11:00–14:00"
+    }
+   },
+   "id": "istiklal",
+   "lastDay": "2026-11-30",
+   "meals": [
+    "lunch"
+   ],
+   "name": "İstiklal Bilim ve Teknoloji Üniversitesi",
+   "prices": [],
+   "short": "İBTÜ",
+   "source": "https://www.istiklal.edu.tr/sksdb/beslenme-ve-kafeterya"
   }
  ],
  "updated": "2026-11-08T12:40:23+03:00",

@@ -1,0 +1,17 @@
+{
+  "reklam": {
+    "aktif": true,
+    "lutufGun": 2,
+    "oturumSiniri": 20,
+    "yerlesimler": {
+      "ana": true,
+      "hafta": true,
+      "arama": true,
+      "detay": true
+    },
+    "anaBuyuk": true,
+    "odullu": true,
+    "maxIcerik": "G"
+  },
+  "updated": "2026-11-08T12:00:00+03:00"
+}

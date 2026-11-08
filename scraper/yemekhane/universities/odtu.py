@@ -184,10 +184,11 @@ class OrtaDoguTeknik(Universite):
 
     def __init__(self, indirici=indir, okuyucu=None):
         self.indir = indirici
-        self.okuyucu = okuyucu or ocr          # testte sahte OCR verilebilir
+        self.okuyucu = okuyucu                # modül nesnesi spawn/pickle ile taşınamaz
 
     def pdf_menusu(self) -> dict:
-        if not self.okuyucu.kullanilabilir():
+        okuyucu = self.okuyucu or ocr          # varsayılan OCR okulun kendi sürecinde seçilir
+        if not okuyucu.kullanilabilir():
             print("UYARI: tesseract kurulu değil; ODTÜ menüsü yalnızca elle girilmiş verilerden alınıyor")
             return {}
         baglanti = pdf_baglantisi(self.indir(ANA_SAYFA).decode("utf-8", "ignore"))
@@ -198,7 +199,7 @@ class OrtaDoguTeknik(Universite):
         sonuc = {}
         for resim in gorseller:
             for psm in (6, 11):            # iki farklı sayfa çözümleme kipi; ilk geçerli okuma kazanır
-                okunan = self.okuyucu.kelimeler(resim, psm)
+                okunan = okuyucu.kelimeler(resim, psm)
                 if okunan:
                     genislik, _, kelimeler = okunan
                     for tarih, gun in tablo_ayikla(kelimeler, genislik).items():

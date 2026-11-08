@@ -29,7 +29,7 @@ def pdf_menu(veri: bytes) -> tuple:
         return {}, None
     satirlar = pdfmod.satirlari_birlestir(max(sayfalar, key=len), bosluk=1.0)
     baslik = next((s[0] for s in satirlar if "MENÜSÜ" in s[0]), "")
-    m = re.match(r"(\S+)\s+(\d{4})", baslik)
+    m = re.match(r"\s*(\S+)\s*[-–]?\s+(\d{4})", baslik)
     ay, yil = (ay_no(m.group(1)), int(m.group(2))) if m else (None, None)
     if not ay:
         return {}, None

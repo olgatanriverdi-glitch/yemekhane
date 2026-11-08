@@ -1,8 +1,19 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <!-- Günlük menü bildirimi (isteğe bağlı, varsayılan kapalı). Tam alarm izni (SCHEDULE_EXACT_ALARM /
+         USE_EXACT_ALARM) kullanılmaz: bildirimler yaklaşık zamanlanır. -->
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <!-- allowBackup kapalı: Firebase anonim oturum jetonu (fb_yenile / fb_uid), takma ad ve engel listesi Google
+         yedeğine girmesin. Aksi halde yedek başka bir cihaza geri yüklenince aynı anonim kimlik iki cihazda
+         çalışır, "Yorum ve puanlarımı sil" ile silinen hesabın jetonu geri gelebilir. Menü önbelleği zaten
+         yeniden indirilir; yedeklenecek kullanıcı verisi yoktur. -->
     <application
+        android:allowBackup="false"
         android:label="Üni Yemek"
         android:name="${applicationName}"
-        android:icon="@mipmap/ic_launcher">
+        android:icon="@mipmap/ic_launcher"
+        android:roundIcon="@mipmap/ic_launcher_round">
         <activity
             android:name=".MainActivity"
             android:exported="true"
@@ -25,6 +36,30 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
+        <!-- flutter_local_notifications: zamanlanmış bildirimi gösterir ve cihaz yeniden başlayınca / uygulama
+             güncellenince bildirimleri yeniden kurar. -->
+        <receiver android:exported="false" android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationReceiver" />
+        <receiver android:exported="false" android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationBootReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+                <action android:name="android.intent.action.MY_PACKAGE_REPLACED"/>
+                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON"/>
+            </intent-filter>
+        </receiver>
+        <!-- Google AdMob uygulama kimliği (ZORUNLU: yoksa uygulama açılışta çöker). Değer build.gradle.kts'teki
+             manifestPlaceholders["admobAppId"]: android/key.properties `admobAppId`, yoksa Google test kimliği.
+             Gerçek reklam birimi kimliği kodda değil, derleme sırasında dart-define bayrağıyla (ADMOB_NATIVE_ANDROID) verilir. -->
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="${admobAppId}"/>
+        <!-- Reklam SDK'sının daha hafif başlatma ve yükleme yolları (Google'ın önerdiği bayraklar). -->
+        <meta-data
+            android:name="com.google.android.gms.ads.flag.OPTIMIZE_INITIALIZATION"
+            android:value="true"/>
+        <meta-data
+            android:name="com.google.android.gms.ads.flag.OPTIMIZE_AD_LOADING"
+            android:value="true"/>
         <!-- Don't delete the meta-data below.
              This is used by the Flutter tool to generate GeneratedPluginRegistrant.java -->
         <meta-data

@@ -1,0 +1,87 @@
+{
+ "2026-10-27": [
+  {
+   "food_name": "Tavuk İncik",
+   "path": "FOOD/194",
+   "extension": "JPG",
+   "food_date": "2026-10-27 00:00:00",
+   "name": "22-05-2025_112110879",
+   "food_desc": "250 kalori",
+   "food_type": "G",
+   "type": "image/jpeg"
+  },
+  {
+   "food_name": "Salçalı Makarna",
+   "path": "FOOD/170",
+   "extension": "JPG",
+   "food_date": "2026-10-27 00:00:00",
+   "name": "17-09-2021_020510157",
+   "food_desc": "335 kalori",
+   "food_type": "G",
+   "type": "image/jpeg"
+  },
+  {
+   "food_name": "Ayran",
+   "path": "FOOD/154",
+   "extension": "jpeg",
+   "food_date": "2026-10-27 00:00:00",
+   "name": "22-05-2025_111051206",
+   "food_desc": "75 kalori",
+   "food_type": "G",
+   "type": "image/jpeg"
+  },
+  {
+   "food_name": "Şekerpare",
+   "path": "FOOD/180",
+   "extension": "JPG",
+   "food_date": "2026-10-27 00:00:00",
+   "name": "17-09-2021_020440139",
+   "food_desc": "540 kalori",
+   "food_type": "G",
+   "type": "image/jpeg"
+  }
+ ],
+ "2026-10-28": [],
+ "2026-10-30": [
+  {
+   "food_name": "Domates Soslu Köfte+Elma Dilim Patates",
+   "path": "FOOD/342",
+   "extension": "jpeg",
+   "food_date": "2026-10-30 00:00:00",
+   "name": "29-04-2025_113753796",
+   "food_desc": "421 Kalori",
+   "food_type": "G",
+   "type": "image/jpeg"
+  },
+  {
+   "food_name": "Bulgur Pilavı (Şehriyeli)",
+   "path": "FOOD/84",
+   "extension": "JPG",
+   "food_date": "2026-10-30 00:00:00",
+   "name": "15-09-2021_114216537",
+   "food_desc": "290 kalori",
+   "food_type": "G",
+   "type": "image/jpeg"
+  },
+  {
+   "food_name": "Ezogelin Çorba",
+   "path": "FOOD/175",
+   "extension": "JPG",
+   "food_date": "2026-10-30 00:00:00",
+   "name": "17-09-2021_015957513",
+   "food_desc": "150 kalori",
+   "food_type": "G",
+   "type": "image/jpeg"
+  },
+  {
+   "food_name": "Armut",
+   "path": "FOOD/276",
+   "extension": "JPG",
+   "food_date": "2026-10-30 00:00:00",
+   "name": "29-09-2025_113537326",
+   "food_desc": "100 kalori",
+   "food_type": "G",
+   "type": "image/jpeg"
+  }
+ ]
+}

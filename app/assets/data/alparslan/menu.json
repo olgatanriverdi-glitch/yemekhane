@@ -1,0 +1,150 @@
+{
+ "days": {
+  "2026-10-26": {
+   "lunch": {
+    "items": [
+     {
+      "img": "dishes/d151de6ce3.jpg",
+      "kcal": 340,
+      "key": "d151de6ce3",
+      "name": "Çoban Kavurma"
+     },
+     {
+      "kcal": 320,
+      "key": "fb9312288a",
+      "name": "Köri Tavuk Sote"
+     },
+     {
+      "img": "dishes/25b07cf14e.jpg",
+      "kcal": 230,
+      "key": "25b07cf14e",
+      "name": "Bulgur Pilavı"
+     },
+     {
+      "img": "dishes/8a1d66ed2e.jpg",
+      "kcal": 130,
+      "key": "8a1d66ed2e",
+      "name": "Süzme Mercimek Çorbası"
+     },
+     {
+      "kcal": 300,
+      "key": "35b0e8b136",
+      "name": "Kemal Paşa Tatlısı"
+     }
+    ],
+    "note": "Ana yemek seçmelidir."
+   }
+  },
+  "2026-10-27": {
+   "lunch": {
+    "items": [
+     {
+      "img": "dishes/85b7944a41.jpg",
+      "kcal": 320,
+      "key": "85b7944a41",
+      "name": "Tas Kebabı"
+     },
+     {
+      "kcal": 380,
+      "key": "1ed35c7e66",
+      "name": "Tavuk Şinitzel/Garnitür"
+     },
+     {
+      "kcal": 300,
+      "key": "8636bfbc0a",
+      "name": "Pirinç Pilavı"
+     },
+     {
+      "kcal": 180,
+      "key": "bd5a2fd1c7",
+      "name": "Analı Kızlı Çorbası"
+     },
+     {
+      "img": "dishes/ed17271d58.jpg",
+      "kcal": 90,
+      "key": "ed17271d58",
+      "name": "Meyve"
+     }
+    ],
+    "note": "Ana yemek seçmelidir."
+   }
+  },
+  "2026-10-28": {
+   "lunch": {
+    "items": [
+     {
+      "kcal": 340,
+      "key": "394c686977",
+      "name": "Kasap Köfte/Püre"
+     },
+     {
+      "kcal": 350,
+      "key": "60edd8f45c",
+      "name": "Sebzeli Tavuk But"
+     },
+     {
+      "img": "dishes/18ccb4d264.jpg",
+      "kcal": 240,
+      "key": "18ccb4d264",
+      "name": "Soslu Makarna"
+     },
+     {
+      "kcal": 180,
+      "key": "d1badd9a8b",
+      "name": "Sultan Çorbası"
+     },
+     {
+      "img": "dishes/99a67d4042.jpg",
+      "key": "99a67d4042",
+      "name": "Mevsim Salata"
+     }
+    ],
+    "note": "Ana yemek seçmelidir."
+   }
+  },
+  "2026-10-29": {
+   "lunch": {
+    "items": [],
+    "note": "Cumhuriyet Bayramı"
+   }
+  },
+  "2026-10-30": {
+   "lunch": {
+    "items": [
+     {
+      "img": "dishes/1e0a78e916.jpg",
+      "kcal": 320,
+      "key": "1e0a78e916",
+      "name": "Orman Kebabı"
+     },
+     {
+      "kcal": 400,
+      "key": "faae39a260",
+      "name": "Tava Çupra"
+     },
+     {
+      "img": "dishes/2356abfde0.jpg",
+      "kcal": 230,
+      "key": "2356abfde0",
+      "name": "Sebzeli Bulgur Pilavı"
+     },
+     {
+      "img": "dishes/4fb733faf2.jpg",
+      "kcal": 130,
+      "key": "4fb733faf2",
+      "name": "Ezogelin Çorbası"
+     },
+     {
+      "img": "dishes/44abc36c0c.jpg",
+      "kcal": 200,
+      "key": "44abc36c0c",
+      "name": "İrmik Helvası"
+     }
+    ],
+    "note": "Ana yemek seçmelidir."
+   }
+  }
+ },
+ "university": "alparslan",
+ "updated": "2026-11-01T19:02:09+03:00"
+}

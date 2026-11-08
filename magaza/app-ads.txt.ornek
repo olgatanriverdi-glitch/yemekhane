@@ -1,0 +1,4 @@
+# YER TUTUCU: bu dosyayı oluşturup "app-ads.txt" adıyla olgatanriverdi-glitch.github.io deposunun köküne koy.
+# pub-XXXXXXXXXXXXXXXX yerine AdMob hesabının yayıncı kimliğini yaz; AdMob > Uygulamalar > app-ads.txt
+# bölümündeki hazır satırı kopyalamak en güvenlisidir. Bu # satırlarını silebilirsin.
+google.com, pub-XXXXXXXXXXXXXXXX, DIRECT, f08c47fec0942fa0

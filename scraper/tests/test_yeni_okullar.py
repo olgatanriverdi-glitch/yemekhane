@@ -90,7 +90,7 @@ class AsbuTesti(unittest.TestCase):
         self.assertEqual(asbu.ucret_ayikla(oku("asbu_beslenme.html")), [{"label": "Öğrenci (Öğle Yemeği)", "tl": 45}])
 
     def test_elle_girilen_menu(self):
-        m = asbu.AnkaraSosyalBilimler().menuler()
+        m = asbu.AnkaraSosyalBilimler(lambda url: b'null').menuler()
         self.assertEqual(len(m), 22)
         g = m["2026-10-05"]
         self.assertEqual([o["name"] for o in g["lunch"]["items"]],
@@ -241,7 +241,7 @@ class OdtuTesti(unittest.TestCase):
 
     def test_elle_girilen_menu_tutarli(self):
         gunler = elle.yukle("odtu")
-        self.assertEqual(len(gunler), 31)
+        self.assertEqual(len(gunler), 61)            # 31 Ekim + 30 Kasım günü (hafta sonları dahil)
         for tarih, gun in gunler.items():
             self.assertEqual(set(gun), {"lunch", "dinner"}, tarih)
             for ogun in gun.values():
@@ -249,6 +249,17 @@ class OdtuTesti(unittest.TestCase):
                 self.assertEqual(len(ogun["items"]), 4, tarih)
         self.assertEqual([o["name"] for o in gunler["2026-10-16"]["dinner"]["items"]],
                          ["Melek Çorba", "Orman Kebabı", "Yoğurtlu Yeşil Mercimek Erişte Salatası", "Meyve"])
+
+    def test_kasim_menusu(self):
+        """Kasım PDF'inde etsiz/vegan karşılıklar parantez içinde yazıyor; okulun yazdığı gibi korunur (kalori ana kaleme aittir)."""
+        gunler = {t: g for t, g in elle.yukle("odtu").items() if t >= "2026-11"}
+        self.assertEqual((min(gunler), max(gunler), len(gunler)), ("2026-11-01", "2026-11-30", 30))
+        self.assertEqual([(o["name"], o["kcal"]) for o in gunler["2026-11-02"]["lunch"]["items"]],
+                         [("Şehriye Çorba", 194), ("İzmir Köfte (Vegan Köfte)", 385), ("Sebzeli Bulgur Pilavı", 342), ("Kase Yoğurt", 124)])
+        self.assertEqual([o["name"] for o in gunler["2026-11-03"]["lunch"]["items"]][1:3],
+                         ["Kıymalı Yoğurtlu Mantı Makarna (Peynirli Makarna)", "Zeytinyağlı Barbunya Pilaki"])        # 'Kıy.yoğ. mantı mak.(pey.makarna)', 'Z.Y.' açıldı
+        self.assertEqual(gunler["2026-11-01"]["lunch"], gunler["2026-11-01"]["dinner"])                              # hafta sonu: öğle = akşam
+        self.assertEqual((gunler["2026-11-30"]["lunch"]["kcal"], gunler["2026-11-30"]["dinner"]["kcal"]), (1194, 866))
 
     def _universite(self, okuyucu):
         pdf = sahte_pdf((b"DCTDecode", b"\xff\xd8JPEG\xff\xd9"))
@@ -262,12 +273,13 @@ class OdtuTesti(unittest.TestCase):
     def test_tesseract_yoksa_yalniz_elle_veri(self):
         class Yok:
             kullanilabilir = staticmethod(lambda: False)
-        self.assertEqual(len(self._universite(Yok).menuler()), 31)
+        self.assertEqual(len(self._universite(Yok).menuler()), 61)
 
     def test_ocr_eksik_gunleri_doldurur_elle_girileni_ezmez(self):
-        kasim = ("02.11.2026", "PAZARTESİ", GUN2[2], GUN2[3], GUN2[4], GUN2[5])
+        kasim = ("02.11.2026", "PAZARTESİ", GUN2[2], GUN2[3], GUN2[4], GUN2[5])          # elle girilmiş gün: OCR okuması yok sayılır
+        aralik = ("01.12.2026", "SALI", GUN2[2], GUN2[3], GUN2[4], GUN2[5])             # elle girilmemiş gün: OCR doldurur
         degisik = ("01.10.2026", "PERŞEMBE", [("Başka Çorba", 100), ("Başka Yemek", 200), ("Pilav", 300), ("Meyve", 100)], 700) + GUN1[4:]
-        sayfa = sahte_sayfa([degisik, kasim])
+        sayfa = sahte_sayfa([degisik, kasim, aralik])
 
         class Sahte:
             kullanilabilir = staticmethod(lambda: True)
@@ -276,10 +288,11 @@ class OdtuTesti(unittest.TestCase):
             def kelimeler(resim, psm):
                 return (GEN, 3507, sayfa)
         m = self._universite(Sahte).menuler()
-        self.assertEqual(len(m), 32)
-        self.assertIn("2026-11-02", m)
+        self.assertEqual(len(m), 62)
+        self.assertIn("2026-12-01", m)
         self.assertEqual(m["2026-10-01"]["lunch"]["items"][0]["name"], "Tarhana Çorba")      # elle girilen korunur
-        self.assertEqual([o["name"] for o in m["2026-11-02"]["dinner"]["items"]][-1], "Zeytinyağlı Barbunya")
+        self.assertEqual(m["2026-11-02"]["lunch"]["items"][0]["name"], "Şehriye Çorba")      # Kasım'da da elle girilen korunur
+        self.assertEqual([o["name"] for o in m["2026-12-01"]["dinner"]["items"]][-1], "Zeytinyağlı Barbunya")
 
     def test_ocr_hatasi_menuyu_bozmaz(self):
         class Bozuk:
@@ -288,11 +301,11 @@ class OdtuTesti(unittest.TestCase):
             @staticmethod
             def kelimeler(resim, psm):
                 raise RuntimeError("tesseract çöktü")
-        self.assertEqual(len(self._universite(Bozuk).menuler()), 31)
+        self.assertEqual(len(self._universite(Bozuk).menuler()), 61)
 
     def test_karsilastirma(self):
         elle_gunler = elle.yukle("odtu")
-        ayni, ortak = odtu.karsilastir({"2026-10-01": elle_gunler["2026-10-01"], "2026-10-02": elle_gunler["2026-10-01"], "2026-11-01": {}}, elle_gunler)
+        ayni, ortak = odtu.karsilastir({"2026-10-01": elle_gunler["2026-10-01"], "2026-10-02": elle_gunler["2026-10-01"], "2026-12-01": {}}, elle_gunler)
         self.assertEqual((ayni, ortak), (1, 2))
 
 

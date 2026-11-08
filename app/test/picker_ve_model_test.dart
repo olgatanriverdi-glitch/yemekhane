@@ -23,18 +23,23 @@ void main() {
   Future<void> ac(WidgetTester t, {String? secili}) => t.pumpWidget(
       MaterialApp(home: UniversitePicker(uniler: uniler, secili: secili)));
 
-  testWidgets('Türkçe sıralama, seçili okul en üstte', (t) async {
+  testWidgets(
+      'seçili okul (ve şehri) en üstte, diğer şehirler Türkçe alfabetik',
+      (t) async {
     await ac(t, secili: 'odtu');
     final basliklar = t
         .widgetList<ListTile>(find.byType(ListTile))
         .map((e) => (e.title as Text).data)
         .toList();
+    // Ankara (seçili) başta; sonra Adana < İstanbul < İzmir
     expect(basliklar, [
       'Orta Doğu Teknik Üniversitesi',
       'Çukurova Üniversitesi',
-      'Ege Üniversitesi',
       'İstanbul Teknik Üniversitesi',
+      'Ege Üniversitesi',
     ]);
+    expect(find.text('Ankara (1)'), findsOneWidget);
+    expect(find.text('İzmir (1)'), findsOneWidget);
     expect(find.textContaining('Yakında'), findsOneWidget);
   });
 

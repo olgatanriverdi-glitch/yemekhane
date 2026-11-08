@@ -1,0 +1,270 @@
+{
+ "dates": {
+  "2026-10-02": "41a246d21c3d",
+  "2026-10-05": "8f579a24b2f7",
+  "2026-10-06": "78be4bc465a4",
+  "2026-10-07": "8fef1ef330d1",
+  "2026-10-08": "942c5a76c502",
+  "2026-10-09": "164fe8b5ccd4",
+  "2026-10-12": "e12d07f13338",
+  "2026-10-13": "f6784bbc19c2",
+  "2026-10-14": "f74a9d748b67",
+  "2026-10-16": "e2956e24cd10",
+  "2026-10-19": "cf00a176342e",
+  "2026-10-20": "5b1b2aea2001",
+  "2026-10-21": "3d079491ea57",
+  "2026-10-22": "c89c294984ba",
+  "2026-10-23": "1b48a108505e",
+  "2026-10-26": "776246ad8f8e",
+  "2026-10-27": "5bf61878c47f",
+  "2026-10-30": "067df1baaa89",
+  "2026-11-02": "41ca78a13cd7",
+  "2026-11-03": "001da2fb49d8",
+  "2026-11-04": "54ed738c6836"
+ },
+ "main": {
+  "025eacfe0c": "8f579a24b2f7",
+  "04aa480c87": "e12d07f13338",
+  "0d239a15f0": "41ca78a13cd7",
+  "1da7bd5f6e": "067df1baaa89",
+  "211964d15e": "41a246d21c3d",
+  "40082e8861": "cf00a176342e",
+  "495c83bde2": "c89c294984ba",
+  "4b76564c9a": "001da2fb49d8",
+  "5acb48cd86": "776246ad8f8e",
+  "5de18824bc": "e2956e24cd10",
+  "613616e611": "cb1148062900",
+  "7bae814a67": "54ed738c6836",
+  "890b8e3990": "5bf61878c47f",
+  "91d34270c6": "942c5a76c502",
+  "9bd36390ba": "3d079491ea57",
+  "b7f7a0ca2b": "78be4bc465a4",
+  "de62be9b48": "164fe8b5ccd4",
+  "f029cd24e9": "f6784bbc19c2",
+  "fbb76e65c4": "f74a9d748b67",
+  "fc648efe4b": "1b48a108505e",
+  "ff8bf920a9": "5b1b2aea2001"
+ },
+ "menus": {
+  "001da2fb49d8": {
+   "added": "2026-11-03",
+   "hash": "2887673fa5cf4de4007f823a60f64c7b36298ac0",
+   "items": [
+    "Şehriye Çorba",
+    "Rosto Köfte/Patates Kızartması",
+    "Bulgur Pilavı",
+    "Havuç Tarator"
+   ]
+  },
+  "067df1baaa89": {
+   "added": "2026-10-30",
+   "hash": "09dcfda78f77c87b3aa1e6dd9f359cd232cddad7",
+   "items": [
+    "Kırmızı Mercimek Çorba",
+    "İçli Köfte",
+    "Zeytinyağlı Taze Fasulye",
+    "Halka Tatlı"
+   ]
+  },
+  "164fe8b5ccd4": {
+   "added": "2026-10-09",
+   "hash": "4c76f839e3bc42bbefad0d2624956bbc43d6eed3",
+   "items": [
+    "Anadolu Çorba",
+    "Ispanak Yatağında Izgara Tavuk",
+    "Mısırlı Pirinç Pilavı",
+    "Trileçe"
+   ]
+  },
+  "1b48a108505e": {
+   "added": "2026-10-23",
+   "hash": "cd0969d23513c0f920cdaa5101da6678f3ec719e",
+   "items": [
+    "Kırmızı Mercimek Çorba",
+    "Lahmacun",
+    "Menekşe Salata",
+    "Ayran"
+   ]
+  },
+  "3d079491ea57": {
+   "added": "2026-10-21",
+   "hash": "2866529621aed1d243fe52466e61aaab8b3c25ee",
+   "items": [
+    "Mantar Çorba",
+    "Tavuk Fajita",
+    "Şehriyeli Pirinç Pilavı",
+    "Mısırlı Aysberg Salata"
+   ]
+  },
+  "41a246d21c3d": {
+   "added": "2026-10-02",
+   "hash": "cbc1f630ff30a5f211844686af4dd9195aac2141",
+   "items": [
+    "Tarhana Çorba",
+    "Izgara Tavuk But/Patates Garnitür",
+    "Soslu Makarna",
+    "Meyve"
+   ]
+  },
+  "41ca78a13cd7": {
+   "added": "2026-11-02",
+   "hash": "e325f9f8110315e5f84d8ac1adbdbbc0ba27ddb4",
+   "items": [
+    "Yeşil Mercimek Çorba",
+    "Barbekü Soslu Tavuk",
+    "Soslu Makarna",
+    "Coleslaw"
+   ]
+  },
+  "54ed738c6836": {
+   "added": "2026-11-04",
+   "hash": "3573841f31842a5eb2bb559fc22b72c9da88d9f1",
+   "items": [
+    "Kırmızı Mercimek Çorba",
+    "Tavuk Sote",
+    "Bahar Pilavı",
+    "Trileçe"
+   ]
+  },
+  "5b1b2aea2001": {
+   "added": "2026-10-20",
+   "hash": "3ada990dbfc672b01dd1e5921a1bf7197b0ddd65",
+   "items": [
+    "Köylüm Çorba",
+    "Kırkağaç Köfte",
+    "Soslu Spagetti",
+    "Trileçe"
+   ]
+  },
+  "5bf61878c47f": {
+   "added": "2026-10-27",
+   "hash": "00167f7f2040495ed31f1561da496e33ca5f4b8d",
+   "items": [
+    "Sebze Çorba",
+    "Etli Nohut",
+    "Şehriyeli Pirinç Pilavı/Turşu",
+    "Çikolatalı Brownie"
+   ]
+  },
+  "776246ad8f8e": {
+   "added": "2026-10-26",
+   "hash": "837278385d10d750f8a97f5eaf013cebb7dcd108",
+   "items": [
+    "Alaca Çorba",
+    "Tavuklu Çökertme",
+    "Cevizli Erişte",
+    "Meyve"
+   ]
+  },
+  "78be4bc465a4": {
+   "added": "2026-10-06",
+   "hash": "74aaedebec8582e858d830bb6e721215bc3c4c5d",
+   "items": [
+    "Tarhana Çorba",
+    "Tavuk Taleks",
+    "Soslu Makarna",
+    "Ayran"
+   ]
+  },
+  "8f579a24b2f7": {
+   "added": "2026-10-05",
+   "hash": "625c1d5214eb666fbeae54b90298f22449b50e59",
+   "items": [
+    "Yeşil Mercimek Çorba",
+    "Etli Taze Fasulye",
+    "Sade Pirinç Pilavı",
+    "Yoğurt"
+   ]
+  },
+  "8fef1ef330d1": {
+   "added": "2026-10-07",
+   "hash": "9f232159be8096b75a380c04506cb523a8a6172c",
+   "items": [
+    "Kırmızı Mercimek Çorba",
+    "İskender Kebap",
+    "Şakşuka",
+    "Red Velvet"
+   ]
+  },
+  "942c5a76c502": {
+   "added": "2026-10-08",
+   "hash": "d150ad5a21f2a776223de8696b645e99d52d1218",
+   "items": [
+    "Alaca Çorba",
+    "İsveç Köfte/Sebze Garnitür",
+    "Cevizli Erişte",
+    "Meyve"
+   ]
+  },
+  "c89c294984ba": {
+   "added": "2026-10-22",
+   "hash": "69daada7705e5d1c85454b978456078946baf8fa",
+   "items": [
+    "Domates Çorba",
+    "İskender Kebap",
+    "Şakşuka",
+    "Tiramisu"
+   ]
+  },
+  "cb1148062900": {
+   "added": "2025-10-15",
+   "hash": "c74bb6aacbf47dbd0faffdfb77fed4ba393d920a",
+   "items": [
+    "Düğürcük Çorba",
+    "Köri Soslu Tavuk/Salata",
+    "Soslu Makarna",
+    "Ayran"
+   ]
+  },
+  "cf00a176342e": {
+   "added": "2026-10-19",
+   "hash": "7022819b1dc91c8677fb302f5fb793d89ce09f87",
+   "items": [
+    "Şehriye Çorba",
+    "Pilav Üstü Tavuk Döner",
+    "Menekşe Salata",
+    "Ayran"
+   ]
+  },
+  "e12d07f13338": {
+   "added": "2026-10-12",
+   "hash": "cb76d2b4d9937ca27cc13dddd564f51d1e80f8cc",
+   "items": [
+    "Ezogelin Çorba",
+    "Kadınbudu Köfte/Patates Salata",
+    "Arpa Şehriye Pilavı",
+    "Cacık"
+   ]
+  },
+  "e2956e24cd10": {
+   "added": "2026-10-16",
+   "hash": "350a8f88f06b62cb50cab23e7afc3de464fc7703",
+   "items": [
+    "Mahluta Çorba",
+    "Çökertme Kebap",
+    "Sade Pirinç Pilavı",
+    "Kakaolu Puding"
+   ]
+  },
+  "f6784bbc19c2": {
+   "added": "2026-10-13",
+   "hash": "c854aa1c3b36c9811d7729f831c144bb8d822549",
+   "items": [
+    "Kırmızı Mercimek Çorba",
+    "Izgara Tavuk But/Sebze Garnitür",
+    "Yoğurtlu Makarna",
+    "Meyve"
+   ]
+  },
+  "f74a9d748b67": {
+   "added": "2026-10-14",
+   "hash": "0468ef56a3c99dfbc35fcef110b41dff0d1e5ce0",
+   "items": [
+    "Mısır Çorba",
+    "Etli Kuru Fasulye",
+    "Şehriyeli Pirinç Pilavı/Turşu",
+    "Love Bombıng"
+   ]
+  }
+ }
+}

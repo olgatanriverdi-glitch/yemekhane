@@ -1,19 +1,50 @@
-"""Ankara Sosyal Bilimler Üniversitesi: aylık menü sksdb.asbu.edu.tr/tr/aylik-menu-0 sayfasında yalnızca düşük çözünürlüklü bir resim
-(Excel tablosunun ekran görüntüsü) olarak yayınlanıyor; bu yüzden güvenle otomatik okunamıyor. Menü `elle_veri/asbu.json` dosyasına
-resimden elle girilir (her ay, okul yeni resmi koyunca güncellenmeli). Saat ve öğrenci ücreti okulun sayfalarından otomatik okunur.
+"""ASBÜ: aylık düşük çözünürlüklü görselden girilmiş elle veri + günlük resmi JSON.
+Günlük okumalar build tarafından biriktirilir. Saat/ücret okul sayfalarındandır.
 
 Resimdeki liste 'Normal ve Vejetaryen Yemek Menüsü'dür: her günde çorba, ana yemek, yan yemek, salata/ayran ve tatlı vardır; günün altında
 '***' ile başlayan satır ana yemeğin etsiz karşılığıdır. Okulun 'Toplam Kalori' satırı bazı günlerde kalemlerin toplamıyla uyuşmuyor
 (5 Ekim'de 1057 yazmış, kalemler 1159); bu yüzden günün kalorisi kalemlerin toplamı olarak hesaplanır.
 """
 import html
+import json
 import re
+from datetime import date
 
 from .. import elle
+from ..model import baslik_yap_serbest, kisaltma_ac, gun_icerigi
 from .base import Universite, indir, saat_duzenle
 
 MENU_URL = "https://sksdb.asbu.edu.tr/tr/aylik-menu-0"
 BESLENME_URL = "https://uo.asbu.edu.tr/tr/beslenme"
+GUNLUK_URL = "https://webapi.asbu.edu.tr/webapi/Yemekhane/getGununYemegi"
+
+
+def gunluk_menu(veri):
+    """Günlük JSON: v- ana yemek, normal ana yemeğin vejetaryen karşılığıdır."""
+    if not isinstance(veri, dict):
+        return {}
+    try:
+        tarih = date.fromisoformat(str(veri.get('tarih', ''))[:10]).isoformat()
+    except ValueError:
+        return {}
+    normal, vegan = [], []
+    for yemek in veri.get('yemekIcerigi') or []:
+        ad = str(yemek.get('yemekAdi') or '').strip()
+        vej = bool(re.match(r'^v\s*-', ad, re.I))
+        ad = re.sub(r'^v\s*-\s*', '', ad, flags=re.I)
+        if not ad:
+            continue
+        oge = {'name': baslik_yap_serbest(kisaltma_ac(ad))}
+        kalori = yemek.get('kalori')
+        if isinstance(kalori, (int, float)) and kalori > 0:
+            oge['kcal'] = kalori
+        (vegan if vej else normal).append(oge)
+    if not normal:
+        return {}
+    gun = {'lunch': gun_icerigi(normal)}
+    if vegan and len(normal) >= 2:
+        gun['vegetarian'] = gun_icerigi(normal[:1] + vegan + normal[2:])
+    return {tarih: gun}
 
 
 def temiz(h: str) -> str:
@@ -39,12 +70,21 @@ class AnkaraSosyalBilimler(Universite):
     kisa = "ASBÜ"
     sehir = "Ankara"
     kaynak = MENU_URL
+    birikimli = True
 
     def __init__(self, indirici=indir):
         self.indir = indirici
 
     def menuler(self) -> dict:
-        return elle.yukle(self.id)
+        sonuc = elle.yukle(self.id)
+        try:
+            yeni = gunluk_menu(json.loads(self.indir(GUNLUK_URL).decode('utf-8-sig')))
+            # Günlük resmi JSON öğünü yeniler; elle girilmiş diğer öğünler korunur.
+            for t, gun in yeni.items():
+                sonuc.setdefault(t, {}).update(gun)
+        except Exception as e:
+            print('UYARI: ASBÜ günlük menüsü alınamadı:', e)
+        return sonuc
 
     def saatler(self) -> dict:
         try:

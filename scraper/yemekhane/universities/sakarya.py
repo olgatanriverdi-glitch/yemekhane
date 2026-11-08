@@ -10,7 +10,7 @@ import urllib.request
 from datetime import date
 
 from ..model import ay_no, baslik_yap_serbest, bugun_tr, gun_icerigi, kisaltma_ac, yil_sec
-from .base import UA, Universite
+from .base import UA, Universite, indir
 
 AYLIK_URL = "https://menu.sabis.sakarya.edu.tr/Home/GetirAylikMenu"
 
@@ -21,8 +21,7 @@ _KISALTMALAR = [(re.compile(p, re.I), r) for p, r in (
 def sabis_indir(url: str, veri=None, zaman_asimi: int = 30) -> bytes:
     govde = urllib.parse.urlencode(veri).encode() if veri is not None else None
     istek = urllib.request.Request(url, data=govde, headers={"User-Agent": UA})
-    with urllib.request.urlopen(istek, timeout=zaman_asimi) as yanit:
-        return yanit.read()
+    return indir(istek, zaman_asimi)
 
 
 def yemek_adi(ad: str) -> str:

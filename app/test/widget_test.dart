@@ -47,9 +47,22 @@ void main() {
   test(
       'Gazi: tatil günleri not olarak gelir, gün listesi hafta sonlarını içerir',
       () {
-    final menu = Menu.fromJson(
-        jsonDecode(File('assets/data/gazi/menu.json').readAsStringSync())
-            as Map<String, dynamic>);
+    // robot eski günleri sildiği için paket verisine değil, sabit örneğe bakılır
+    final menu = Menu.fromJson({
+      'university': 'gazi',
+      'days': {
+        '2026-10-09': {
+          'lunch': {
+            'items': [
+              {'name': 'Mercimek Çorba'}
+            ]
+          }
+        },
+        '2026-10-28': {
+          'lunch': {'items': [], 'note': 'Tatil'}
+        },
+      },
+    });
     final tatil = menu.gunler['2026-10-28']!['lunch']!;
     expect(tatil.bos, isTrue);
     expect(tatil.not, 'Tatil');

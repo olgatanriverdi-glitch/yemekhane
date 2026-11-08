@@ -1,5 +1,5 @@
-"""Ondokuz Mayıs Üniversitesi (Samsun): günün menüsü her sayfada bulunan 'Günün Yemeği' penceresinde, içinde tüm ayı gösteren bir tablo olarak
-yayınlanıyor: 'TARİH | 1.YEMEK | 2.YEMEK | 3.YEMEK | 4.YEMEK' (hafta sonu ve tatil satırları boş). Tek öğün (öğle) yayınlanır; kalori ve fiyat yok.
+"""OMÜ: Günün Yemeği penceresinin dikey tarih/yemek tablosu, birikimli.
+Eski aylık yatay tablo da okunur. Tek öğün (öğle); kalori/fiyat yok.
 """
 import re
 from datetime import date
@@ -12,17 +12,27 @@ SAYFA_URL = "https://www.omu.edu.tr/tr/omude-yasam/beslenme"
 
 def sayfa_menu(sayfa: str) -> dict:
     """{'2026-10-01': {'lunch': {'items': [{'name': 'Brokoli Çorba'}, ...]}}, ...}; boş (hafta sonu/tatil) satırlar atlanır."""
-    tablo = re.search(r"<table class='gununyemegi'.*?</table>", sayfa, re.S)
+    tablo = re.search(r'''<table\b[^>]*class=["']gununyemegi["'][^>]*>.*?</table>''', sayfa, re.S)
     sonuc = {}
+    dikey_tarih, dikey_ogeler = None, []
     for satir in re.findall(r"<tr>(.*?)</tr>", tablo.group(0) if tablo else "", re.S):
         hucreler = [etiket_temizle(h) for h in re.findall(r"<td[^>]*>(.*?)</td>", satir, re.S)]
         m = re.fullmatch(r"(\d{2})\.(\d{2})\.(\d{4})", hucreler[0]) if hucreler else None
         ogeler = [{"name": baslik_yap_serbest(kisaltma_ac(h))} for h in hucreler[1:] if h]
+        if len(hucreler) == 2 and hucreler[0].strip().lower() == 'tarih':
+            try:
+                dikey_tarih = date.fromisoformat('-'.join(reversed(hucreler[1].split('.')))).isoformat()
+            except ValueError:
+                pass
+        elif len(hucreler) == 2 and re.fullmatch(r'Yemek\s*\d+', hucreler[0], re.I) and hucreler[1]:
+            dikey_ogeler += ogeler
         if m and ogeler:
             try:
                 sonuc[date(int(m.group(3)), int(m.group(2)), int(m.group(1))).isoformat()] = {"lunch": gun_icerigi(ogeler)}
             except ValueError:
                 pass
+    if dikey_tarih and dikey_ogeler:
+        sonuc[dikey_tarih] = {'lunch': gun_icerigi(dikey_ogeler)}
     return sonuc
 
 
@@ -32,6 +42,7 @@ class OndokuzMayis(Universite):
     kisa = "OMÜ"
     sehir = "Samsun"
     kaynak = SAYFA_URL
+    birikimli = True  # Yeni sayfa yalnız günün listesini verir; eski aylık biçim de okunur.
 
     def __init__(self, indirici=indir):
         self.indir = indirici

@@ -1,16 +1,22 @@
 name: yemekhane
 description: Üniversite yemekhane menüleri (öğle / akşam / vejetaryen).
 publish_to: "none"
-version: 0.1.0+1
+version: 1.0.0+2
 
 environment:
-  sdk: ">=3.3.0 <4.0.0"
+  sdk: ">=3.10.0 <4.0.0"
 
 dependencies:
   flutter:
     sdk: flutter
+  flutter_local_notifications: ^22.3.3
+  flutter_localizations:
+    sdk: flutter
+  google_mobile_ads: ^9.2.0
   http: ^1.2.0
+  share_plus: ^13.3.1
   shared_preferences: ^2.2.0
+  timezone: ^0.11.2
 
 dev_dependencies:
   flutter_test:
@@ -55,3 +61,73 @@ flutter:
     - assets/data/uludag/
     - assets/data/pamukkale/
     - assets/data/gaziantep/
+    - assets/data/sdu/
+    - assets/data/adu/
+    - assets/data/inonu/
+    - assets/data/karabuk/
+    - assets/data/mugla/
+    - assets/data/aku/
+    - assets/data/trakya/
+    - assets/data/harran/
+    - assets/data/yyu/
+    - assets/data/duzce/
+    - assets/data/subu/
+    - assets/data/btu/
+    - assets/data/neu/
+    - assets/data/kayseri/
+    - assets/data/nevsehir/
+    - assets/data/ahievran/
+    - assets/data/aksaray/
+    - assets/data/ohu/
+    - assets/data/karatekin/
+    - assets/data/kastamonu/
+    - assets/data/sinop/
+    - assets/data/amasya/
+    - assets/data/gop/
+    - assets/data/odu/
+    - assets/data/giresun/
+    - assets/data/bayburt/
+    - assets/data/kafkas/
+    - assets/data/ardahan/
+    - assets/data/alparslan/
+    - assets/data/bingol/
+    - assets/data/munzur/
+    - assets/data/mku/
+    - assets/data/kilis/
+    - assets/data/siirt/
+    - assets/data/sirnak/
+    - assets/data/adiyaman/
+    - assets/data/osmaniye/
+    - assets/data/ksu/
+    - assets/data/tarsus/
+    - assets/data/atu/
+    - assets/data/maku/
+    - assets/data/isubu/
+    - assets/data/usak/
+    - assets/data/balikesir/
+    - assets/data/bandirma/
+    - assets/data/nku/
+    - assets/data/klu/
+    - assets/data/bilecik/
+    - assets/data/yalova/
+    - assets/data/hitit/
+    - assets/data/bozok/
+    - assets/data/bartin/
+    - assets/data/rte/
+    - assets/data/gumushane/
+    - assets/data/bitlis/
+    - assets/data/batman/
+    - assets/data/erciyes/
+    - assets/data/etu/
+    - assets/data/agri/
+    - assets/data/hakkari/
+    - assets/data/gibtu/
+    - assets/data/kmu/
+    - assets/data/mtu/
+    - assets/data/iste/
+    - assets/data/ksbu/
+    - assets/data/istiklal/
+  fonts:
+    - family: Manrope
+      fonts:
+        - asset: assets/fonts/Manrope-Variable.ttf

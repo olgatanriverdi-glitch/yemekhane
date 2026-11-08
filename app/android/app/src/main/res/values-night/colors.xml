@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- tool/ikon_uret_test.dart üretir; koyu moddaki zeminler Safran koyu yüzeyidir (parlak turuncu parlamasın). -->
+<resources>
+    <color name="acilis_zemini">#1C170F</color>
+    <color name="pencere_zemini">#1C170F</color>
+</resources>

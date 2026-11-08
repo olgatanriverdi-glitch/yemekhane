@@ -1,0 +1,147 @@
+{
+ "days": {
+  "2026-11-04": {
+   "dinner": {
+    "items": [
+     {
+      "img": "dishes/5abbdce7b9.jpg",
+      "kcal": 166,
+      "key": "5abbdce7b9",
+      "name": "Sebze Çorba"
+     },
+     {
+      "kcal": 293,
+      "key": "1e3a81be4a",
+      "name": "Mantarlı Tavuk Sote"
+     },
+     {
+      "kcal": 426,
+      "key": "4e8edd8dc2",
+      "name": "Milföy Börek"
+     },
+     {
+      "kcal": 190,
+      "key": "79ded7ea04",
+      "name": "Havuç Tarator"
+     }
+    ],
+    "kcal": 1075
+   },
+   "lunch": {
+    "items": [
+     {
+      "img": "dishes/5abbdce7b9.jpg",
+      "kcal": 166,
+      "key": "5abbdce7b9",
+      "name": "Sebze Çorba"
+     },
+     {
+      "kcal": 293,
+      "key": "1e3a81be4a",
+      "name": "Mantarlı Tavuk Sote"
+     },
+     {
+      "kcal": 426,
+      "key": "4e8edd8dc2",
+      "name": "Milföy Börek"
+     },
+     {
+      "kcal": 190,
+      "key": "79ded7ea04",
+      "name": "Havuç Tarator"
+     }
+    ],
+    "kcal": 1075
+   }
+  },
+  "2026-11-05": {
+   "dinner": {
+    "items": [
+     {
+      "img": "dishes/2f7edb1f03.jpg",
+      "kcal": 526,
+      "key": "2f7edb1f03",
+      "name": "Terbiyeli Köfte"
+     },
+     {
+      "kcal": 371,
+      "key": "f8782f5e53",
+      "name": "Erişte Pilavı"
+     },
+     {
+      "kcal": 89,
+      "key": "106e7cdfee",
+      "name": "Kır. Lahana-Havuç Salata"
+     },
+     {
+      "img": "dishes/ed17271d58.jpg",
+      "kcal": 96,
+      "key": "ed17271d58",
+      "name": "Meyve"
+     }
+    ],
+    "kcal": 1082
+   },
+   "lunch": {
+    "items": [
+     {
+      "img": "dishes/2f7edb1f03.jpg",
+      "kcal": 526,
+      "key": "2f7edb1f03",
+      "name": "Terbiyeli Köfte"
+     },
+     {
+      "kcal": 371,
+      "key": "f8782f5e53",
+      "name": "Erişte Pilavı"
+     },
+     {
+      "kcal": 89,
+      "key": "106e7cdfee",
+      "name": "Kır. Lahana-Havuç Salata"
+     },
+     {
+      "img": "dishes/ed17271d58.jpg",
+      "kcal": 96,
+      "key": "ed17271d58",
+      "name": "Meyve"
+     }
+    ],
+    "kcal": 1082
+   }
+  },
+  "2026-11-06": {
+   "lunch": {
+    "items": [
+     {
+      "img": "dishes/7599097195.jpg",
+      "kcal": 219,
+      "key": "7599097195",
+      "name": "Domates Çorba"
+     },
+     {
+      "img": "dishes/1d49307d95.jpg",
+      "kcal": 523,
+      "key": "1d49307d95",
+      "name": "Patates Oturtma"
+     },
+     {
+      "img": "dishes/99a67d4042.jpg",
+      "kcal": 105,
+      "key": "99a67d4042",
+      "name": "Mevsim Salata"
+     },
+     {
+      "img": "dishes/e430bca6db.jpg",
+      "kcal": 97,
+      "key": "e430bca6db",
+      "name": "Haydari"
+     }
+    ],
+    "kcal": 944
+   }
+  }
+ },
+ "university": "erciyes",
+ "updated": "2026-11-04T13:44:05+03:00"
+}

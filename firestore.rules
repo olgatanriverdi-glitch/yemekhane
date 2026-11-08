@@ -11,11 +11,14 @@ service cloud.firestore {
         && id == request.resource.data.slot + '_' + request.auth.uid
         && request.resource.data.slot is string && request.resource.data.slot.size() < 80
         && request.resource.data.stars is int
-        && request.resource.data.stars >= 1 && request.resource.data.stars <= 5;
+        && request.resource.data.stars >= 1 && request.resource.data.stars <= 5
+        && request.resource.data.updatedAt == request.time;
       allow delete: if request.auth != null && resource.data.uid == request.auth.uid;
     }
 
     // Yorumlar: herkes okur; giriş yapmış (anonim dahil) herkes yazar; yalnızca sahibi siler.
+    // Oran sınırı: yorum, aynı commit içinde limits/{uid}.lastCommentAt = request.time yazılarak oluşturulur ve
+    // önceki yorumdan en az 20 sn geçmiş olmalıdır (istemci filtresi doğrudan REST yazımıyla aşılabilir).
     match /comments/{id} {
       allow read: if true;
       allow create: if request.auth != null
@@ -24,9 +27,50 @@ service cloud.firestore {
         && request.resource.data.slot is string && request.resource.data.slot.size() < 80
         && request.resource.data.name is string && request.resource.data.name.size() >= 1 && request.resource.data.name.size() <= 24
         && request.resource.data.text is string && request.resource.data.text.size() >= 1 && request.resource.data.text.size() <= 300
-        && request.resource.data.createdAt is timestamp;
+        && request.resource.data.createdAt == request.time
+        && existsAfter(/databases/$(database)/documents/limits/$(request.auth.uid))
+        && getAfter(/databases/$(database)/documents/limits/$(request.auth.uid)).data.lastCommentAt == request.time
+        && (!exists(/databases/$(database)/documents/limits/$(request.auth.uid))
+            || request.time >= get(/databases/$(database)/documents/limits/$(request.auth.uid)).data.lastCommentAt + duration.value(20, 's'));
       allow update: if false;
       allow delete: if request.auth != null && resource.data.uid == request.auth.uid;
+    }
+
+    // Oran sınırı belgesi: kullanıcı başına tek belge, yalnızca son yorum zamanı. Yalnızca sunucu zamanıyla yazılır;
+    // okunamaz. Silme, son yorumdan 20 sn geçmeden yapılamaz (silerek sınırı aşmayı önler).
+    match /limits/{uid} {
+      allow read: if false;
+      allow create, update: if request.auth != null && request.auth.uid == uid
+        && request.resource.data.keys().hasOnly(['lastCommentAt'])
+        && request.resource.data.lastCommentAt == request.time;
+      allow delete: if request.auth != null && request.auth.uid == uid
+        && request.time >= resource.data.lastCommentAt + duration.value(20, 's');
+    }
+
+    // Yorum / kişi bildirimleri (Google Play kullanıcı içeriği politikası). Belge kimliği = <bildirenUid>_<yorumId>:
+    // aynı kişi aynı yorumu bir kez bildirir. Yorum var olmalı; slot, yazarın uid'i ve metin yorumla eşleşmeli
+    // (yorum sonradan silinse de inceleme yapılabilsin diye metin kopyalanır). Kendi yorumunu bildiremez.
+    // Bildiren yalnızca KENDİ bildirimlerini okuyabilir / silebilir ("Yorum ve puanlarımı sil" bunları temizler);
+    // başkasının bildirimlerini yalnızca proje sahibi Firebase konsolundan görür (konsol kuralları atlar).
+    match /reports/{id} {
+      allow create: if request.auth != null
+        && request.resource.data.keys().hasOnly(['uid', 'commentId', 'slot', 'reason', 'targetUid', 'targetText', 'createdAt'])
+        && request.resource.data.keys().hasAll(['uid', 'commentId', 'slot', 'reason', 'targetUid', 'targetText', 'createdAt'])
+        && request.resource.data.uid == request.auth.uid
+        && request.resource.data.commentId is string
+        && request.resource.data.commentId.size() >= 1 && request.resource.data.commentId.size() <= 64
+        && id == request.auth.uid + '_' + request.resource.data.commentId
+        && exists(/databases/$(database)/documents/comments/$(request.resource.data.commentId))
+        && get(/databases/$(database)/documents/comments/$(request.resource.data.commentId)).data.slot == request.resource.data.slot
+        && get(/databases/$(database)/documents/comments/$(request.resource.data.commentId)).data.uid == request.resource.data.targetUid
+        && request.resource.data.targetUid != request.auth.uid
+        && request.resource.data.targetText is string
+        && request.resource.data.targetText == get(/databases/$(database)/documents/comments/$(request.resource.data.commentId)).data.text
+        && request.resource.data.slot is string && request.resource.data.slot.size() <= 80
+        && request.resource.data.reason in ['hakaret', 'spam', 'uygunsuz', 'diger']
+        && request.resource.data.createdAt == request.time;
+      allow read, delete: if request.auth != null && resource.data.uid == request.auth.uid;
+      allow update: if false;
     }
   }
 }

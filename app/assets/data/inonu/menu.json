@@ -1,0 +1,87 @@
+{
+ "days": {
+  "2026-10-26": {
+   "lunch": {
+    "items": [
+     {
+      "kcal": 240,
+      "key": "940f54bf42",
+      "name": "Fırın Türlü"
+     },
+     {
+      "kcal": 325,
+      "key": "8636bfbc0a",
+      "name": "Pirinç Pilavı"
+     },
+     {
+      "kcal": 180,
+      "key": "eee882522c",
+      "name": "Süzme Çorba"
+     },
+     {
+      "kcal": 150,
+      "key": "9c8d655ef5",
+      "name": "Yoğurt"
+     }
+    ],
+    "kcal": 895
+   }
+  },
+  "2026-10-27": {
+   "lunch": {
+    "items": [
+     {
+      "kcal": 250,
+      "key": "a0a40d0f87",
+      "name": "Tavuk İncik"
+     },
+     {
+      "kcal": 335,
+      "key": "0b9e39c61a",
+      "name": "Salçalı Makarna"
+     },
+     {
+      "kcal": 75,
+      "key": "16b5c22561",
+      "name": "Ayran"
+     },
+     {
+      "kcal": 540,
+      "key": "904e9c87e9",
+      "name": "Şekerpare"
+     }
+    ],
+    "kcal": 1200
+   }
+  },
+  "2026-10-30": {
+   "lunch": {
+    "items": [
+     {
+      "kcal": 421,
+      "key": "3add566c55",
+      "name": "Domates Soslu Köfte+Elma Dilim Patates"
+     },
+     {
+      "kcal": 290,
+      "key": "8fbf02cc35",
+      "name": "Bulgur Pilavı (Şehriyeli)"
+     },
+     {
+      "kcal": 150,
+      "key": "bf8474c8b9",
+      "name": "Ezogelin Çorba"
+     },
+     {
+      "kcal": 100,
+      "key": "a3d80c5897",
+      "name": "Armut"
+     }
+    ],
+    "kcal": 961
+   }
+  }
+ },
+ "university": "inonu",
+ "updated": "2026-10-27T17:44:48+03:00"
+}

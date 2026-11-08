@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- tool/ikon_uret_test.dart üretir; renkler lib/tema.dart'taki Safran paletinden türetilir. -->
+<resources>
+    <!-- Uygulama ikonunun (adaptive) ve açılış ekranının marka zemini. -->
+    <color name="ic_launcher_background">#F0780F</color>
+    <!-- Açılış ekranı zemini: açık modda marka rengi (koyu modda values-night). -->
+    <color name="acilis_zemini">#F0780F</color>
+    <!-- Flutter arayüzü çizilene dek pencere zemini: Safran açık yüzey. -->
+    <color name="pencere_zemini">#F6F3EE</color>
+</resources>

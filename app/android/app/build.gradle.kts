@@ -1,8 +1,15 @@
+import java.util.Properties
+import java.io.FileInputStream
+
 plugins {
     id("com.android.application")
     // The Flutter Gradle Plugin must be applied after the Android and Kotlin Gradle plugins.
     id("dev.flutter.flutter-gradle-plugin")
 }
+
+// İmza bilgileri android/key.properties'te (git'e girmez); yoksa debug anahtarıyla imzalanır.
+val anahtarDosyasi = rootProject.file("key.properties")
+val anahtar = Properties().apply { if (anahtarDosyasi.exists()) load(FileInputStream(anahtarDosyasi)) }
 
 android {
     namespace = "com.tolga.yemekhane"
@@ -10,6 +17,8 @@ android {
     ndkVersion = flutter.ndkVersion
 
     compileOptions {
+        // flutter_local_notifications (günlük menü bildirimi) java.time için core library desugaring ister
+        isCoreLibraryDesugaringEnabled = true
         sourceCompatibility = JavaVersion.VERSION_17
         targetCompatibility = JavaVersion.VERSION_17
     }
@@ -27,13 +36,29 @@ android {
         // flag during build.
         versionCode = flutter.versionCode
         versionName = flutter.versionName
+        // AdMob uygulama kimliği: android/key.properties içindeki `admobAppId`; yoksa Google'ın herkese açık TEST
+        // uygulama kimliği (yalnız manifestin zorunlu alanı için; kimliksiz release'te reklam isteği zaten atılmaz).
+        manifestPlaceholders["admobAppId"] =
+            (anahtar["admobAppId"] as String?)?.takeIf { it.isNotBlank() }
+                ?: "ca-app-pub-3940256099942544~3347511713"
+    }
+
+    signingConfigs {
+        if (anahtarDosyasi.exists()) {
+            create("release") {
+                keyAlias = anahtar["keyAlias"] as String
+                keyPassword = anahtar["keyPassword"] as String
+                storeFile = file(anahtar["storeFile"] as String)
+                storePassword = anahtar["storePassword"] as String
+            }
+        }
     }
 
     buildTypes {
         release {
-            // TODO: Add your own signing config for the release build.
-            // Signing with the debug keys for now, so `flutter run --release` works.
-            signingConfig = signingConfigs.getByName("debug")
+            signingConfig = signingConfigs.getByName(if (anahtarDosyasi.exists()) "release" else "debug")
+            // Flutter'ın R8 kurallarına ek: WorkManager/Room yansıma sınıfları (bkz. proguard-rules.pro)
+            proguardFiles(getDefaultProguardFile("proguard-android-optimize.txt"), "proguard-rules.pro")
         }
     }
 }
@@ -46,4 +71,8 @@ kotlin {
 
 flutter {
     source = "../.."
+}
+
+dependencies {
+    coreLibraryDesugaring("com.android.tools:desugar_jdk_libs:2.1.4")
 }
