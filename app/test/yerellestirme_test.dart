@@ -179,6 +179,9 @@ void main() {
               menuyuYenile: () async {}));
       await t.scrollUntilVisible(find.text('Açık kaynak lisansları'), 100,
           scrollable: find.byType(Scrollable).first);
+      // yeni temada satırlar daha ferah: satırı tamamen görünür yapıp ortasına dokun
+      await t.ensureVisible(find.text('Açık kaynak lisansları'));
+      await t.pumpAndSettle();
       await t.tap(find.text('Açık kaynak lisansları'));
       await t.pumpAndSettle();
       expect(find.byType(LicensePage), findsOneWidget);
