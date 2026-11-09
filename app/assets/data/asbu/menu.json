@@ -1477,8 +1477,78 @@
     ],
     "kcal": 1168
    }
+  },
+  "2026-11-10": {
+   "lunch": {
+    "items": [
+     {
+      "img": "dishes/2c0e163a7d.jpg",
+      "kcal": 184,
+      "key": "2c0e163a7d",
+      "name": "Tarhana Çorba"
+     },
+     {
+      "img": "dishes/90d406983e.jpg",
+      "kcal": 287,
+      "key": "90d406983e",
+      "name": "Fırında Tavuk But"
+     },
+     {
+      "img": "dishes/087dc75384.jpg",
+      "kcal": 242,
+      "key": "087dc75384",
+      "name": "Domatesli Bulgur Pilavı"
+     },
+     {
+      "img": "dishes/99a67d4042.jpg",
+      "kcal": 55,
+      "key": "99a67d4042",
+      "name": "Mevsim Salata"
+     },
+     {
+      "img": "dishes/16b5c22561.jpg",
+      "kcal": 152,
+      "key": "16b5c22561",
+      "name": "Ayran"
+     }
+    ],
+    "kcal": 920
+   },
+   "vegetarian": {
+    "items": [
+     {
+      "img": "dishes/2c0e163a7d.jpg",
+      "kcal": 184,
+      "key": "2c0e163a7d",
+      "name": "Tarhana Çorba"
+     },
+     {
+      "img": "dishes/8abd19cbd6.jpg",
+      "key": "8abd19cbd6",
+      "name": "Türlü Yemeği"
+     },
+     {
+      "img": "dishes/087dc75384.jpg",
+      "kcal": 242,
+      "key": "087dc75384",
+      "name": "Domatesli Bulgur Pilavı"
+     },
+     {
+      "img": "dishes/99a67d4042.jpg",
+      "kcal": 55,
+      "key": "99a67d4042",
+      "name": "Mevsim Salata"
+     },
+     {
+      "img": "dishes/16b5c22561.jpg",
+      "kcal": 152,
+      "key": "16b5c22561",
+      "name": "Ayran"
+     }
+    ]
+   }
   }
  },
  "university": "asbu",
- "updated": "2026-11-09T13:33:57+03:00"
+ "updated": "2026-11-10T02:38:32+03:00"
 }

@@ -1253,6 +1253,7 @@
       "name": "Mercimek Çorbası"
      },
      {
+      "img": "dishes/c597ad29e3.jpg",
       "kcal": 407,
       "key": "c597ad29e3",
       "name": "Hamsi Tava"
@@ -1299,5 +1300,5 @@
   }
  },
  "university": "gtu",
- "updated": "2026-11-09T13:33:57+03:00"
+ "updated": "2026-11-10T02:38:32+03:00"
 }

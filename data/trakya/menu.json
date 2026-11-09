@@ -136,29 +136,29 @@
     "kcal": 910
    }
   },
-  "2026-11-10": {
+  "2026-11-09": {
    "lunch": {
     "items": [
      {
-      "img": "dishes/4782e4b30f.jpg",
-      "key": "4782e4b30f",
-      "name": "Şehriye Çorba"
+      "img": "dishes/22dd093862.jpg",
+      "key": "22dd093862",
+      "name": "Mercimek Çorba"
      },
      {
-      "key": "ac5ae99c23",
-      "name": "Kıymalı Türlü"
+      "img": "dishes/e85c211420.jpg",
+      "key": "e85c211420",
+      "name": "Tavuk Döner Patates Kızartması"
      },
      {
-      "img": "dishes/bcafe51e20.jpg",
-      "key": "bcafe51e20",
-      "name": "Peynirli Börek"
+      "key": "8636bfbc0a",
+      "name": "Pirinç Pilavı"
      },
      {
-      "key": "7bf4a7774b",
-      "name": "Üzüm Komposto"
+      "key": "81cf6a19e6",
+      "name": "Kırmızı Lahana Havuç Salata"
      }
     ],
-    "kcal": 852
+    "kcal": 905
    }
   },
   "2026-11-11": {
@@ -527,5 +527,5 @@
   }
  },
  "university": "trakya",
- "updated": "2026-11-09T13:33:57+03:00"
+ "updated": "2026-11-10T02:38:32+03:00"
 }

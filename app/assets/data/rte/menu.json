@@ -60,8 +60,39 @@
     ],
     "kcal": 983
    }
+  },
+  "2026-11-10": {
+   "lunch": {
+    "items": [
+     {
+      "img": "dishes/f717db877b.jpg",
+      "kcal": 175,
+      "key": "f717db877b",
+      "name": "Kaşarlı Domates Çorba"
+     },
+     {
+      "img": "dishes/878b29f656.jpg",
+      "kcal": 320,
+      "key": "878b29f656",
+      "name": "Etli Türlü"
+     },
+     {
+      "img": "dishes/25b07cf14e.jpg",
+      "kcal": 290,
+      "key": "25b07cf14e",
+      "name": "Bulgur Pilavı"
+     },
+     {
+      "img": "dishes/3a38c0aebb.jpg",
+      "kcal": 263,
+      "key": "3a38c0aebb",
+      "name": "Sütlaç"
+     }
+    ],
+    "kcal": 1048
+   }
   }
  },
  "university": "rte",
- "updated": "2026-11-09T13:33:57+03:00"
+ "updated": "2026-11-10T02:38:32+03:00"
 }

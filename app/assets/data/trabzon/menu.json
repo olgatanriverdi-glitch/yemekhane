@@ -674,6 +674,7 @@
       "name": "Mantarlı Tavuk Sote"
      },
      {
+      "img": "dishes/a7bc71bd03.jpg",
       "kcal": 275,
       "key": "a7bc71bd03",
       "name": "Sebzeli Bulgur Pilav"
@@ -710,6 +711,7 @@
       "name": "Kekik Soslu Makarna"
      },
      {
+      "img": "dishes/7cfbcf7e87.jpg",
       "kcal": 120,
       "key": "7cfbcf7e87",
       "name": "Yoğurtlu Brokoli Salatası"
@@ -1229,5 +1231,5 @@
   }
  },
  "university": "trabzon",
- "updated": "2026-11-09T13:33:57+03:00"
+ "updated": "2026-11-10T02:38:32+03:00"
 }

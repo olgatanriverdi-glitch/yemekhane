@@ -1,32 +1,5 @@
 {
  "days": {
-  "2026-11-09": {
-   "lunch": {
-    "items": [
-     {
-      "kcal": 114,
-      "key": "7e85f5098f",
-      "name": "Köylü Çorba"
-     },
-     {
-      "key": "b9c7dc8b35",
-      "name": "Patlıcan Musakka/ Körili Tavuk"
-     },
-     {
-      "img": "dishes/25b07cf14e.jpg",
-      "kcal": 219,
-      "key": "25b07cf14e",
-      "name": "Bulgur Pilavı"
-     },
-     {
-      "img": "dishes/ed47fcacda.jpg",
-      "kcal": 81,
-      "key": "ed47fcacda",
-      "name": "Pembe Sultan"
-     }
-    ]
-   }
-  },
   "2026-11-10": {
    "lunch": {
     "items": [
@@ -454,5 +427,5 @@
   }
  },
  "university": "kastamonu",
- "updated": "2026-11-09T13:33:57+03:00"
+ "updated": "2026-11-10T02:38:32+03:00"
 }

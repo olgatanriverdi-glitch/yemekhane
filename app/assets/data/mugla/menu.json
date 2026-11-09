@@ -1,28 +1,5 @@
 {
  "days": {
-  "2026-11-09": {
-   "lunch": {
-    "items": [
-     {
-      "key": "a00d6f0b91",
-      "name": "Arapbaşı Çorbası"
-     },
-     {
-      "key": "9c0bf89391",
-      "name": "Etli Kurufasülye"
-     },
-     {
-      "key": "8636bfbc0a",
-      "name": "Pirinç Pilavı"
-     },
-     {
-      "img": "dishes/2f58be7b7a.jpg",
-      "key": "2f58be7b7a",
-      "name": "Cacık"
-     }
-    ]
-   }
-  },
   "2026-11-10": {
    "lunch": {
     "items": [
@@ -386,5 +363,5 @@
   }
  },
  "university": "mugla",
- "updated": "2026-11-09T13:33:57+03:00"
+ "updated": "2026-11-10T02:38:32+03:00"
 }

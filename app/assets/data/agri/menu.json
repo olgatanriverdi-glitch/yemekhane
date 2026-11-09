@@ -151,8 +151,33 @@
     ],
     "kcal": 961
    }
+  },
+  "2026-11-12": {
+   "lunch": {
+    "items": [
+     {
+      "key": "2feeec4594",
+      "name": "Köy Usulü Mercimek Çorbası"
+     },
+     {
+      "img": "dishes/05403cc507.jpg",
+      "key": "05403cc507",
+      "name": "Etli Güveç"
+     },
+     {
+      "key": "90bcc80bec",
+      "name": "Tepsi Böreği Kıymalı"
+     },
+     {
+      "img": "dishes/647ce15e33.jpg",
+      "key": "647ce15e33",
+      "name": "Tulumba"
+     }
+    ],
+    "kcal": 975
+   }
   }
  },
  "university": "agri",
- "updated": "2026-11-09T13:33:57+03:00"
+ "updated": "2026-11-10T02:38:32+03:00"
 }

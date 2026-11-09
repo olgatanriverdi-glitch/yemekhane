@@ -507,42 +507,6 @@
     "kcal": 951
    }
   },
-  "2026-11-09": {
-   "lunch": {
-    "items": [
-     {
-      "img": "dishes/e9977e6607.jpg",
-      "kcal": 294,
-      "key": "e9977e6607",
-      "name": "Ekşili Köfte"
-     },
-     {
-      "img": "dishes/31b89c15d9.jpg",
-      "kcal": 277,
-      "key": "31b89c15d9",
-      "name": "Etsiz Nohut Yahnisi"
-     },
-     {
-      "img": "dishes/18ccb4d264.jpg",
-      "kcal": 305,
-      "key": "18ccb4d264",
-      "name": "Soslu Makarna"
-     },
-     {
-      "img": "dishes/9c8d655ef5.jpg",
-      "kcal": 118,
-      "key": "9c8d655ef5",
-      "name": "Yoğurt"
-     },
-     {
-      "kcal": 10,
-      "key": "08964782c1",
-      "name": "Türlü Turşu"
-     }
-    ],
-    "kcal": 1004
-   }
-  },
   "2026-11-10": {
    "lunch": {
     "items": [
@@ -551,6 +515,12 @@
       "kcal": 340,
       "key": "fbb76e65c4",
       "name": "Etli Kuru Fasulye"
+     },
+     {
+      "img": "dishes/efb86b31df.jpg",
+      "kcal": 267,
+      "key": "efb86b31df",
+      "name": "Kuru Fasülye (Etsiz)"
      },
      {
       "img": "dishes/2eb8f7ef87.jpg",
@@ -571,7 +541,7 @@
       "name": "Meyve (Mandalina)"
      }
     ],
-    "kcal": 563
+    "kcal": 830
    }
   },
   "2026-11-11": {
@@ -692,5 +662,5 @@
   }
  },
  "university": "cukurova",
- "updated": "2026-11-09T13:33:57+03:00"
+ "updated": "2026-11-10T02:38:32+03:00"
 }

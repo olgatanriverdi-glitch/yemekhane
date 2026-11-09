@@ -1287,8 +1287,62 @@
      }
     ]
    }
+  },
+  "2026-11-11": {
+   "lunch": {
+    "items": [
+     {
+      "img": "dishes/22dd093862.jpg",
+      "key": "22dd093862",
+      "name": "Mercimek Çorba"
+     },
+     {
+      "img": "dishes/694df91308.jpg",
+      "key": "694df91308",
+      "name": "İzmir Köfte"
+     },
+     {
+      "key": "8f46085762",
+      "name": "Kuskus Pilavı"
+     },
+     {
+      "img": "dishes/972686fca7.jpg",
+      "key": "972686fca7",
+      "name": "Kadayıflı Muhallebi"
+     }
+    ]
+   },
+   "vegetarian": {
+    "items": [
+     {
+      "img": "dishes/22dd093862.jpg",
+      "key": "22dd093862",
+      "name": "Mercimek Çorba"
+     },
+     {
+      "img": "dishes/ca947b0d72.jpg",
+      "key": "ca947b0d72",
+      "name": "Ispanak Yemeği"
+     },
+     {
+      "img": "dishes/831b0f20cf.jpg",
+      "key": "831b0f20cf",
+      "name": "Su Böreği"
+     },
+     {
+      "img": "dishes/972686fca7.jpg",
+      "key": "972686fca7",
+      "name": "Kadayıflı Muhallebi"
+     },
+     {
+      "img": "dishes/9c8d655ef5.jpg",
+      "key": "9c8d655ef5",
+      "name": "Yoğurt"
+     }
+    ]
+   }
   }
  },
  "university": "ikcu",
- "updated": "2026-11-09T13:33:57+03:00"
+ "updated": "2026-11-10T02:38:32+03:00"
 }

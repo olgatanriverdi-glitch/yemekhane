@@ -312,13 +312,13 @@
       "name": "Mercimek Çorba"
      },
      {
-      "img": "dishes/a4afe0f46b.jpg",
-      "key": "a4afe0f46b",
-      "name": "Sebzeli Kebap"
+      "key": "8383bb3fac",
+      "name": "Özbek Pilavı"
      },
      {
-      "key": "8636bfbc0a",
-      "name": "Pirinç Pilavı"
+      "img": "dishes/1fabb7a5f8.jpg",
+      "key": "1fabb7a5f8",
+      "name": "Peynirli Su Böreği"
      },
      {
       "img": "dishes/9c8d655ef5.jpg",
@@ -326,7 +326,7 @@
       "name": "Yoğurt"
      }
     ],
-    "kcal": 946
+    "kcal": 1076
    }
   },
   "2026-11-19": {
@@ -533,5 +533,5 @@
   }
  },
  "university": "giresun",
- "updated": "2026-11-09T13:33:57+03:00"
+ "updated": "2026-11-10T02:38:32+03:00"
 }

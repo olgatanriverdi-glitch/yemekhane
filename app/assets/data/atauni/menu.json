@@ -649,8 +649,31 @@
      }
     ]
    }
+  },
+  "2026-11-11": {
+   "lunch": {
+    "items": [
+     {
+      "key": "9161e29eb6",
+      "name": "Erzurum Kesme Çorba"
+     },
+     {
+      "key": "4d0676c683",
+      "name": "Fırın Köfte"
+     },
+     {
+      "img": "dishes/221278edb6.jpg",
+      "key": "221278edb6",
+      "name": "Spagetti Napoliten"
+     },
+     {
+      "key": "f7b84ad85a",
+      "name": "Meyve Suyu"
+     }
+    ]
+   }
   }
  },
  "university": "atauni",
- "updated": "2026-11-09T13:33:57+03:00"
+ "updated": "2026-11-10T02:38:32+03:00"
 }

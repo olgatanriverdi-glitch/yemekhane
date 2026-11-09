@@ -253,6 +253,7 @@
       "name": "Mercimek Çorba"
      },
      {
+      "img": "dishes/ac5ae99c23.jpg",
       "kcal": 414,
       "key": "ac5ae99c23",
       "name": "Kıymalı Türlü"
@@ -452,6 +453,7 @@
       "name": "Domates Çorba"
      },
      {
+      "img": "dishes/1229022705.jpg",
       "kcal": 299,
       "key": "1229022705",
       "name": "Barbunya"
@@ -518,6 +520,7 @@
       "name": "Karışık Kızartma"
      },
      {
+      "img": "dishes/a52d5fed84.jpg",
       "kcal": 310,
       "key": "a52d5fed84",
       "name": "Sade Makarna"
@@ -737,6 +740,7 @@
       "name": "Erişte Kavurma"
      },
      {
+      "img": "dishes/d39cb220ce.jpg",
       "kcal": 160,
       "key": "d39cb220ce",
       "name": "Yoğurtlu Kereviz Salatası"
@@ -763,6 +767,7 @@
       "name": "Erişte Kavurma"
      },
      {
+      "img": "dishes/943e7b1066.jpg",
       "kcal": 247,
       "key": "943e7b1066",
       "name": "Tahinli Kabak Tatlısı"
@@ -792,6 +797,7 @@
       "name": "Marul Salatası"
      },
      {
+      "img": "dishes/714581af8d.jpg",
       "kcal": 271,
       "key": "714581af8d",
       "name": "Sade Bulgur Pilavı"
@@ -820,6 +826,7 @@
       "name": "Kuru Börülce"
      },
      {
+      "img": "dishes/714581af8d.jpg",
       "kcal": 271,
       "key": "714581af8d",
       "name": "Sade Bulgur Pilavı"
@@ -1001,6 +1008,7 @@
       "name": "Arpa Şehriye Pilavı"
      },
      {
+      "img": "dishes/31c7d1ab49.jpg",
       "kcal": 302,
       "key": "31c7d1ab49",
       "name": "Ayva Tatlısı"
@@ -1184,5 +1192,5 @@
   }
  },
  "university": "comu",
- "updated": "2026-11-09T13:33:57+03:00"
+ "updated": "2026-11-10T02:38:32+03:00"
 }

@@ -657,6 +657,7 @@
       "name": "Ezogelin Çorbası"
      },
      {
+      "img": "dishes/9efcf143b4.jpg",
       "kcal": 374,
       "key": "9efcf143b4",
       "name": "Kremalı Tavuklu Makarna"
@@ -686,6 +687,7 @@
       "name": "Andoloz Çorbası"
      },
      {
+      "img": "dishes/aa2319de5c.jpg",
       "kcal": 462,
       "key": "aa2319de5c",
       "name": "Köfte Ekmek"
@@ -795,5 +797,5 @@
   }
  },
  "university": "alku",
- "updated": "2026-11-09T13:33:57+03:00"
+ "updated": "2026-11-10T02:38:32+03:00"
 }
