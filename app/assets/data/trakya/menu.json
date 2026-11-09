@@ -136,31 +136,6 @@
     "kcal": 910
    }
   },
-  "2026-11-09": {
-   "lunch": {
-    "items": [
-     {
-      "img": "dishes/22dd093862.jpg",
-      "key": "22dd093862",
-      "name": "Mercimek Çorba"
-     },
-     {
-      "img": "dishes/e85c211420.jpg",
-      "key": "e85c211420",
-      "name": "Tavuk Döner Patates Kızartması"
-     },
-     {
-      "key": "8636bfbc0a",
-      "name": "Pirinç Pilavı"
-     },
-     {
-      "key": "81cf6a19e6",
-      "name": "Kırmızı Lahana Havuç Salata"
-     }
-    ],
-    "kcal": 905
-   }
-  },
   "2026-11-10": {
    "lunch": {
     "items": [
@@ -552,5 +527,5 @@
   }
  },
  "university": "trakya",
- "updated": "2026-11-08T22:14:00+03:00"
+ "updated": "2026-11-09T13:33:57+03:00"
 }

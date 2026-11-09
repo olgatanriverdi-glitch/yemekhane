@@ -69,8 +69,124 @@
      }
     ]
    }
+  },
+  "2026-11-09": {
+   "lunch": {
+    "items": [
+     {
+      "img": "dishes/64ee8e0b3b.jpg",
+      "key": "64ee8e0b3b",
+      "name": "Düğün Çorbası"
+     },
+     {
+      "key": "c0d8b21c06",
+      "name": "Hasanpaşa Köfte/Fırın Güveç/Tavuk Kalamar"
+     },
+     {
+      "key": "099965df21",
+      "name": "Pirinç(Garnitürlü)/Şehriyeli Bulgur Pilavı"
+     },
+     {
+      "img": "dishes/ed17271d58.jpg",
+      "key": "ed17271d58",
+      "name": "Meyve"
+     }
+    ]
+   }
+  },
+  "2026-11-10": {
+   "lunch": {
+    "items": [
+     {
+      "key": "684652805c",
+      "name": "Ispanak Çorbası"
+     },
+     {
+      "key": "0923d4ce12",
+      "name": "Fırın Kanat/Mantı/Yufka Kebabı"
+     },
+     {
+      "key": "2c26af8c49",
+      "name": "Pirinç Pilavı/Makarna"
+     },
+     {
+      "key": "b3743cd135",
+      "name": "Kakaolu Puding"
+     }
+    ]
+   }
+  },
+  "2026-11-11": {
+   "lunch": {
+    "items": [
+     {
+      "img": "dishes/bf8474c8b9.jpg",
+      "key": "bf8474c8b9",
+      "name": "Ezogelin Çorba"
+     },
+     {
+      "key": "238d702db5",
+      "name": "Tavuk Döner/Terbiyeli Köfte/Kuru Fasulye"
+     },
+     {
+      "key": "f193762c16",
+      "name": "Şehriyeli Pirinç/Salçalı Bulgur"
+     },
+     {
+      "img": "dishes/16b5c22561.jpg",
+      "key": "16b5c22561",
+      "name": "Ayran"
+     }
+    ]
+   }
+  },
+  "2026-11-12": {
+   "lunch": {
+    "items": [
+     {
+      "img": "dishes/5d3038c41b.jpg",
+      "key": "5d3038c41b",
+      "name": "Yayla Çorbası"
+     },
+     {
+      "key": "bb5dd7c16f",
+      "name": "Tavuk Sarma/Patlıcan Musakka/Yoğurtlu Sebze Kızartma"
+     },
+     {
+      "key": "099965df21",
+      "name": "Pirinç(Garnitürlü)/Şehriyeli Bulgur Pilavı"
+     },
+     {
+      "key": "298e68bde8",
+      "name": "İrmik Tatlısı"
+     }
+    ]
+   }
+  },
+  "2026-11-13": {
+   "lunch": {
+    "items": [
+     {
+      "img": "dishes/0955218757.jpg",
+      "key": "0955218757",
+      "name": "Mercimek Çorbası"
+     },
+     {
+      "key": "73c14b2c44",
+      "name": "Kremalı Tavuk Sote/İzmir Köfte/Kavurma"
+     },
+     {
+      "key": "2c26af8c49",
+      "name": "Pirinç Pilavı/Makarna"
+     },
+     {
+      "key": "508976ab70",
+      "name": "Ayran Aşı"
+     }
+    ]
+   }
   }
  },
  "university": "bitlis",
- "updated": "2026-11-04T13:44:05+03:00"
+ "updated": "2026-11-09T13:33:57+03:00"
 }

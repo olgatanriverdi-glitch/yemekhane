@@ -2776,6 +2776,7 @@
       "name": "Sebze Çorba"
      },
      {
+      "img": "dishes/3c20cd9d48.jpg",
       "kcal": 385,
       "key": "3c20cd9d48",
       "name": "Adana Köfte (Barbunya Yemeği)"
@@ -2833,6 +2834,7 @@
       "name": "Şehriye Çorba"
      },
      {
+      "img": "dishes/a47c59710e.jpg",
       "kcal": 380,
       "key": "a47c59710e",
       "name": "Piliç Orman Kebap (Isp.Fellah K)"
@@ -2889,6 +2891,7 @@
       "name": "Mercimek Çorba"
      },
      {
+      "img": "dishes/65dd563f4d.jpg",
       "kcal": 586,
       "key": "65dd563f4d",
       "name": "İç Pilavlı Dana Tandır (Taze Fasulye)"
@@ -2917,6 +2920,7 @@
       "name": "Mercimek Çorba"
      },
      {
+      "img": "dishes/65dd563f4d.jpg",
       "kcal": 586,
       "key": "65dd563f4d",
       "name": "İç Pilavlı Dana Tandır (Taze Fasulye)"
@@ -3060,6 +3064,7 @@
       "name": "Mantar Çorba"
      },
      {
+      "img": "dishes/3e12ea93fb.jpg",
       "kcal": 405,
       "key": "3e12ea93fb",
       "name": "Sebzeli Köfte (Falafel Köfte)"
@@ -3087,6 +3092,7 @@
       "name": "Mantar Çorba"
      },
      {
+      "img": "dishes/0adbd0cb2c.jpg",
       "kcal": 248,
       "key": "0adbd0cb2c",
       "name": "Sebzeli Köfte (Bezelye Yemeği)"
@@ -3122,6 +3128,7 @@
       "name": "Ispanak Yemeği"
      },
      {
+      "img": "dishes/12bde108a2.jpg",
       "kcal": 318,
       "key": "12bde108a2",
       "name": "Kıymalı Börek (Börek)"
@@ -3173,6 +3180,7 @@
       "name": "Brokoli Çorba"
      },
      {
+      "img": "dishes/3ed63ff8f5.jpg",
       "kcal": 348,
       "key": "3ed63ff8f5",
       "name": "Tavuk Belen Tava (Vegan Köfte)"
@@ -3443,5 +3451,5 @@
   }
  },
  "university": "odtu",
- "updated": "2026-11-08T22:14:00+03:00"
+ "updated": "2026-11-09T13:33:57+03:00"
 }

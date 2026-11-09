@@ -595,8 +595,8 @@
    "dinner": {
     "items": [
      {
-      "key": "c1da620c7b",
-      "name": "Romen Çorba"
+      "key": "7e85f5098f",
+      "name": "Köylü Çorba"
      },
      {
       "key": "2256e41c18",
@@ -1660,6 +1660,7 @@
    "dinner": {
     "items": [
      {
+      "img": "dishes/07822ede88.jpg",
       "key": "07822ede88",
       "name": "Krutonlu Ezogelin Çorba"
      },
@@ -1813,6 +1814,7 @@
       "name": "Salçalı Buğday Çorbası"
      },
      {
+      "img": "dishes/64f0fed3ee.jpg",
       "key": "64f0fed3ee",
       "name": "Etli Sebzeli Güveç"
      },
@@ -2057,6 +2059,7 @@
       "name": "Ayran"
      },
      {
+      "img": "dishes/4cbf7321d6.jpg",
       "key": "4cbf7321d6",
       "name": "Mercimek Köfte"
      },
@@ -2145,5 +2148,5 @@
   }
  },
  "university": "boun",
- "updated": "2026-11-08T22:14:00+03:00"
+ "updated": "2026-11-09T13:33:57+03:00"
 }

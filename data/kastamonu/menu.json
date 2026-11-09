@@ -4,10 +4,9 @@
    "lunch": {
     "items": [
      {
-      "img": "dishes/6b28b8c427.jpg",
-      "kcal": 134,
-      "key": "6b28b8c427",
-      "name": "Yeşil Mercimek Çorba"
+      "kcal": 114,
+      "key": "7e85f5098f",
+      "name": "Köylü Çorba"
      },
      {
       "key": "b9c7dc8b35",
@@ -29,34 +28,6 @@
    }
   },
   "2026-11-10": {
-   "lunch": {
-    "items": [
-     {
-      "kcal": 168,
-      "key": "990377f8ad",
-      "name": "Saray Çorba"
-     },
-     {
-      "img": "dishes/85b7944a41.jpg",
-      "kcal": 137,
-      "key": "85b7944a41",
-      "name": "Tas Kebabı"
-     },
-     {
-      "kcal": 380,
-      "key": "06a78d2465",
-      "name": "Garnitürlü Pirinç P"
-     },
-     {
-      "kcal": 87,
-      "key": "ae37bcc569",
-      "name": "Ayva Komposto"
-     }
-    ],
-    "kcal": 772
-   }
-  },
-  "2026-11-11": {
    "lunch": {
     "items": [
      {
@@ -84,6 +55,34 @@
      }
     ],
     "kcal": 643
+   }
+  },
+  "2026-11-11": {
+   "lunch": {
+    "items": [
+     {
+      "kcal": 168,
+      "key": "990377f8ad",
+      "name": "Saray Çorba"
+     },
+     {
+      "img": "dishes/85b7944a41.jpg",
+      "kcal": 137,
+      "key": "85b7944a41",
+      "name": "Tas Kebabı"
+     },
+     {
+      "kcal": 380,
+      "key": "06a78d2465",
+      "name": "Garnitürlü Pirinç P"
+     },
+     {
+      "kcal": 87,
+      "key": "ae37bcc569",
+      "name": "Ayva Komposto"
+     }
+    ],
+    "kcal": 772
    }
   },
   "2026-11-12": {
@@ -455,5 +454,5 @@
   }
  },
  "university": "kastamonu",
- "updated": "2026-11-08T22:14:00+03:00"
+ "updated": "2026-11-09T13:33:57+03:00"
 }

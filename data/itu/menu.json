@@ -1,65 +1,5 @@
 {
  "days": {
-  "2026-11-07": {
-   "dinner": {
-    "items": [
-     {
-      "key": "45b97d7ca7",
-      "name": "Yoğurtlu Buğday Çorbası"
-     },
-     {
-      "key": "82bddc9f12",
-      "name": "Kıymalı Karnabahar"
-     },
-     {
-      "img": "dishes/af6741872c.jpg",
-      "key": "af6741872c",
-      "name": "Fırın Makarna"
-     },
-     {
-      "key": "4ae54410e9",
-      "name": "Kuru Börülce Salatası"
-     },
-     {
-      "key": "58120a3406",
-      "name": "Portakallı Revani"
-     }
-    ]
-   },
-   "lunch": {
-    "items": [
-     {
-      "img": "dishes/ba380b9a95.jpg",
-      "key": "ba380b9a95",
-      "name": "Sebze Çorbası"
-     },
-     {
-      "img": "dishes/d151de6ce3.jpg",
-      "key": "d151de6ce3",
-      "name": "Çoban Kavurma"
-     },
-     {
-      "key": "8636bfbc0a",
-      "name": "Pirinç Pilavı"
-     },
-     {
-      "img": "dishes/321b4fe3c9.jpg",
-      "key": "321b4fe3c9",
-      "name": "Mevsim Salatası"
-     },
-     {
-      "img": "dishes/16b5c22561.jpg",
-      "key": "16b5c22561",
-      "name": "Ayran"
-     },
-     {
-      "img": "dishes/65dfdea3d4.jpg",
-      "key": "65dfdea3d4",
-      "name": "Garnitür Patates Püresi"
-     }
-    ]
-   }
-  },
   "2026-11-08": {
    "dinner": {
     "items": [
@@ -971,5 +911,5 @@
   }
  },
  "university": "itu",
- "updated": "2026-11-08T22:14:00+03:00"
+ "updated": "2026-11-09T13:33:57+03:00"
 }

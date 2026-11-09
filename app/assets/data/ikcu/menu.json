@@ -1233,8 +1233,62 @@
      }
     ]
    }
+  },
+  "2026-11-10": {
+   "lunch": {
+    "items": [
+     {
+      "key": "373a51e5f2",
+      "name": "Bal Kabağı Çorba"
+     },
+     {
+      "key": "d1006aaca3",
+      "name": "Tavuk Baget + Patates"
+     },
+     {
+      "img": "dishes/18ccb4d264.jpg",
+      "key": "18ccb4d264",
+      "name": "Soslu Makarna"
+     },
+     {
+      "img": "dishes/16b5c22561.jpg",
+      "key": "16b5c22561",
+      "name": "Ayran"
+     }
+    ]
+   },
+   "vegetarian": {
+    "items": [
+     {
+      "key": "373a51e5f2",
+      "name": "Bal Kabağı Çorba"
+     },
+     {
+      "key": "e97b910ec4",
+      "name": "Zeytinyağlı Karnabahar"
+     },
+     {
+      "img": "dishes/5b853e51e0.jpg",
+      "key": "5b853e51e0",
+      "name": "Şehriye Pilavı"
+     },
+     {
+      "img": "dishes/ed47fcacda.jpg",
+      "key": "ed47fcacda",
+      "name": "Pembe Sultan"
+     },
+     {
+      "key": "6c6d84f0bc",
+      "name": "Havuç"
+     },
+     {
+      "key": "b5fe384f34",
+      "name": "Turp Salatası"
+     }
+    ]
+   }
   }
  },
  "university": "ikcu",
- "updated": "2026-11-08T22:14:00+03:00"
+ "updated": "2026-11-09T13:33:57+03:00"
 }

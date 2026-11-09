@@ -517,6 +517,12 @@
       "name": "Ekşili Köfte"
      },
      {
+      "img": "dishes/31b89c15d9.jpg",
+      "kcal": 277,
+      "key": "31b89c15d9",
+      "name": "Etsiz Nohut Yahnisi"
+     },
+     {
       "img": "dishes/18ccb4d264.jpg",
       "kcal": 305,
       "key": "18ccb4d264",
@@ -534,7 +540,7 @@
       "name": "Türlü Turşu"
      }
     ],
-    "kcal": 727
+    "kcal": 1004
    }
   },
   "2026-11-10": {
@@ -686,5 +692,5 @@
   }
  },
  "university": "cukurova",
- "updated": "2026-11-08T22:14:00+03:00"
+ "updated": "2026-11-09T13:33:57+03:00"
 }

@@ -151,35 +151,6 @@
     "kcal": 874
    }
   },
-  "2026-11-09": {
-   "lunch": {
-    "items": [
-     {
-      "kcal": 153,
-      "key": "3c7d3faa1d",
-      "name": "Cennet Çorba"
-     },
-     {
-      "img": "dishes/77798bcfb4.jpg",
-      "kcal": 268,
-      "key": "77798bcfb4",
-      "name": "Nugget"
-     },
-     {
-      "kcal": 303,
-      "key": "8636bfbc0a",
-      "name": "Pirinç Pilavı"
-     },
-     {
-      "img": "dishes/2f58be7b7a.jpg",
-      "kcal": 62,
-      "key": "2f58be7b7a",
-      "name": "Cacık"
-     }
-    ],
-    "kcal": 786
-   }
-  },
   "2026-11-10": {
    "lunch": {
     "items": [
@@ -623,5 +594,5 @@
   }
  },
  "university": "karatekin",
- "updated": "2026-11-08T22:14:00+03:00"
+ "updated": "2026-11-09T13:33:57+03:00"
 }

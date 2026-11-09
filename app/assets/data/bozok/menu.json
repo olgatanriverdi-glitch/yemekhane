@@ -305,8 +305,230 @@
     ],
     "kcal": 685
    }
+  },
+  "2026-11-18": {
+   "lunch": {
+    "items": [
+     {
+      "key": "7e85f5098f",
+      "name": "Köylü Çorba"
+     },
+     {
+      "key": "9be61316e0",
+      "name": "Pilav Üstü Parmak Köfte"
+     },
+     {
+      "key": "f11ba6abc6",
+      "name": "Bardak Yoğurt"
+     },
+     {
+      "img": "dishes/ed17271d58.jpg",
+      "key": "ed17271d58",
+      "name": "Meyve"
+     }
+    ],
+    "kcal": 781
+   }
+  },
+  "2026-11-19": {
+   "lunch": {
+    "items": [
+     {
+      "img": "dishes/609e4d1fa0.jpg",
+      "key": "609e4d1fa0",
+      "name": "Kremalı Sebze Çorba"
+     },
+     {
+      "key": "1adee52c3e",
+      "name": "Fırın Special But"
+     },
+     {
+      "img": "dishes/25b07cf14e.jpg",
+      "key": "25b07cf14e",
+      "name": "Bulgur Pilavı"
+     },
+     {
+      "img": "dishes/16b5c22561.jpg",
+      "key": "16b5c22561",
+      "name": "Ayran"
+     }
+    ],
+    "kcal": 725
+   }
+  },
+  "2026-11-20": {
+   "lunch": {
+    "items": [
+     {
+      "img": "dishes/bf8474c8b9.jpg",
+      "key": "bf8474c8b9",
+      "name": "Ezogelin Çorba"
+     },
+     {
+      "key": "79af2ed76c",
+      "name": "Et Fajita"
+     },
+     {
+      "img": "dishes/7766c86468.jpg",
+      "key": "7766c86468",
+      "name": "Tereyağlı Makarna"
+     },
+     {
+      "key": "b947faf326",
+      "name": "Yeşil Salata"
+     }
+    ],
+    "kcal": 799
+   }
+  },
+  "2026-11-23": {
+   "lunch": {
+    "items": [
+     {
+      "key": "c496102024",
+      "name": "Çeşm-İ Nigar Çorba"
+     },
+     {
+      "img": "dishes/17d2e9100f.jpg",
+      "key": "17d2e9100f",
+      "name": "Tavuk Döner"
+     },
+     {
+      "key": "8636bfbc0a",
+      "name": "Pirinç Pilavı"
+     },
+     {
+      "img": "dishes/16b5c22561.jpg",
+      "key": "16b5c22561",
+      "name": "Ayran"
+     }
+    ],
+    "kcal": 886
+   }
+  },
+  "2026-11-24": {
+   "lunch": {
+    "items": [
+     {
+      "img": "dishes/2c0e163a7d.jpg",
+      "key": "2c0e163a7d",
+      "name": "Tarhana Çorba"
+     },
+     {
+      "key": "a69381cb4c",
+      "name": "Bodrum Köfte"
+     },
+     {
+      "img": "dishes/25b07cf14e.jpg",
+      "key": "25b07cf14e",
+      "name": "Bulgur Pilavı"
+     },
+     {
+      "img": "dishes/ed17271d58.jpg",
+      "key": "ed17271d58",
+      "name": "Meyve"
+     }
+    ],
+    "kcal": 784
+   }
+  },
+  "2026-11-25": {
+   "lunch": {
+    "items": [
+     {
+      "key": "73dd9b0857",
+      "name": "Arabaşı Çorba"
+     },
+     {
+      "key": "a3fe107a73",
+      "name": "Et Tandır"
+     },
+     {
+      "key": "31c7d1ab49",
+      "name": "Ayva Tatlısı"
+     },
+     {
+      "key": "79ded7ea04",
+      "name": "Havuç Tarator"
+     }
+    ],
+    "kcal": 1026
+   }
+  },
+  "2026-11-26": {
+   "lunch": {
+    "items": [
+     {
+      "img": "dishes/22dd093862.jpg",
+      "key": "22dd093862",
+      "name": "Mercimek Çorba"
+     },
+     {
+      "key": "ea679d1965",
+      "name": "Tavuk Wrap"
+     },
+     {
+      "img": "dishes/abad8aab8e.jpg",
+      "key": "abad8aab8e",
+      "name": "Napoliten Soslu Makarna"
+     },
+     {
+      "key": "fcfb5a87b8",
+      "name": "Meyve Nektarı"
+     }
+    ],
+    "kcal": 960
+   }
+  },
+  "2026-11-27": {
+   "lunch": {
+    "items": [
+     {
+      "img": "dishes/87bd497d59.jpg",
+      "key": "87bd497d59",
+      "name": "Tel Şehriye Çorba"
+     },
+     {
+      "key": "4074adb1ba",
+      "name": "Fırında Balık"
+     },
+     {
+      "key": "8537c692e3",
+      "name": "Rokalı Narlı Yeşil Salata"
+     },
+     {
+      "key": "38641ca550",
+      "name": "Fırında Tahin Helvası"
+     }
+    ],
+    "kcal": 775
+   }
+  },
+  "2026-11-30": {
+   "lunch": {
+    "items": [
+     {
+      "key": "602f6b290c",
+      "name": "Kış Çorbası"
+     },
+     {
+      "key": "2bf786faa3",
+      "name": "Kuru Köfte/ Patates"
+     },
+     {
+      "key": "8636bfbc0a",
+      "name": "Pirinç Pilavı"
+     },
+     {
+      "img": "dishes/ba077ec237.jpg",
+      "key": "ba077ec237",
+      "name": "Burma Kadayıf"
+     }
+    ],
+    "kcal": 1013
+   }
   }
  },
  "university": "bozok",
- "updated": "2026-11-08T22:14:00+03:00"
+ "updated": "2026-11-09T13:33:57+03:00"
 }

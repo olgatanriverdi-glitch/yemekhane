@@ -151,36 +151,6 @@
     "kcal": 820
    }
   },
-  "2026-11-09": {
-   "lunch": {
-    "items": [
-     {
-      "kcal": 130,
-      "key": "522a9cbf70",
-      "name": "Havuç Yoğurtlama"
-     },
-     {
-      "img": "dishes/c59b9eaa6e.jpg",
-      "kcal": 330,
-      "key": "c59b9eaa6e",
-      "name": "Etli Bezelye"
-     },
-     {
-      "img": "dishes/246525a1c0.jpg",
-      "kcal": 280,
-      "key": "246525a1c0",
-      "name": "Şehriyeli Bulgur Pilavı"
-     },
-     {
-      "img": "dishes/ec0228f614.jpg",
-      "kcal": 25,
-      "key": "ec0228f614",
-      "name": "Turşu"
-     }
-    ],
-    "kcal": 765
-   }
-  },
   "2026-11-10": {
    "lunch": {
     "items": [
@@ -623,5 +593,5 @@
   }
  },
  "university": "mku",
- "updated": "2026-11-08T22:14:00+03:00"
+ "updated": "2026-11-09T13:33:57+03:00"
 }

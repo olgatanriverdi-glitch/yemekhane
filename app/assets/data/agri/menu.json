@@ -77,6 +77,32 @@
     "kcal": 918
    }
   },
+  "2026-11-09": {
+   "lunch": {
+    "items": [
+     {
+      "img": "dishes/4782e4b30f.jpg",
+      "key": "4782e4b30f",
+      "name": "Şehriye Çorba"
+     },
+     {
+      "key": "aa7693cadb",
+      "name": "Püreli Köfte"
+     },
+     {
+      "img": "dishes/bac7d91091.jpg",
+      "key": "bac7d91091",
+      "name": "Makarna"
+     },
+     {
+      "img": "dishes/16b5c22561.jpg",
+      "key": "16b5c22561",
+      "name": "Ayran"
+     }
+    ],
+    "kcal": 932
+   }
+  },
   "2026-11-10": {
    "lunch": {
     "items": [
@@ -100,8 +126,33 @@
      }
     ]
    }
+  },
+  "2026-11-11": {
+   "lunch": {
+    "items": [
+     {
+      "key": "c1da620c7b",
+      "name": "Romen Çorba"
+     },
+     {
+      "key": "743f549655",
+      "name": "Tavuk Izgara"
+     },
+     {
+      "img": "dishes/25b07cf14e.jpg",
+      "key": "25b07cf14e",
+      "name": "Bulgur Pilavı"
+     },
+     {
+      "img": "dishes/ed47fcacda.jpg",
+      "key": "ed47fcacda",
+      "name": "Pembe Sultan"
+     }
+    ],
+    "kcal": 961
+   }
   }
  },
  "university": "agri",
- "updated": "2026-11-08T22:14:00+03:00"
+ "updated": "2026-11-09T13:33:57+03:00"
 }

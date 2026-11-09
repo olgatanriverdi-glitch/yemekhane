@@ -273,8 +273,9 @@
    "lunch": {
     "items": [
      {
-      "key": "d6ebb786a1",
-      "name": "Karalahana Çorbası"
+      "kcal": 121,
+      "key": "0bf17a9ce0",
+      "name": "Ispanak Çorba"
      },
      {
       "img": "dishes/3543c91e67.jpg",
@@ -794,5 +795,5 @@
   }
  },
  "university": "sakarya",
- "updated": "2026-11-08T22:14:00+03:00"
+ "updated": "2026-11-09T13:33:57+03:00"
 }

@@ -147,8 +147,237 @@
      }
     ]
    }
+  },
+  "2026-11-09": {
+   "lunch": {
+    "items": [
+     {
+      "img": "dishes/7599097195.jpg",
+      "key": "7599097195",
+      "name": "Domates Çorba"
+     },
+     {
+      "key": "e609e8c025",
+      "name": "Usta Usulü Et Döner"
+     },
+     {
+      "key": "0c702e3ee6",
+      "name": "Nohutlu Pilav"
+     },
+     {
+      "key": "034a7d358a",
+      "name": "Karışık İçecek"
+     }
+    ]
+   },
+   "vegetarian": {
+    "items": [
+     {
+      "img": "dishes/7599097195.jpg",
+      "key": "7599097195",
+      "name": "Domates Çorba"
+     },
+     {
+      "img": "dishes/2c4b997c75.jpg",
+      "key": "2c4b997c75",
+      "name": "Taze Fasulye"
+     },
+     {
+      "key": "0c702e3ee6",
+      "name": "Nohutlu Pilav"
+     },
+     {
+      "key": "034a7d358a",
+      "name": "Karışık İçecek"
+     }
+    ]
+   }
+  },
+  "2026-11-10": {
+   "lunch": {
+    "items": [
+     {
+      "key": "ec9cd882ff",
+      "name": "Süleymaniye Çorba"
+     },
+     {
+      "key": "1e3a81be4a",
+      "name": "Mantarlı Tavuk Sote"
+     },
+     {
+      "img": "dishes/25b07cf14e.jpg",
+      "key": "25b07cf14e",
+      "name": "Bulgur Pilavı"
+     },
+     {
+      "img": "dishes/5b7bbc3ecc.jpg",
+      "key": "5b7bbc3ecc",
+      "name": "Portakal"
+     }
+    ]
+   },
+   "vegetarian": {
+    "items": [
+     {
+      "key": "ec9cd882ff",
+      "name": "Süleymaniye Çorba"
+     },
+     {
+      "key": "5efdb862ef",
+      "name": "Kremalı Patates"
+     },
+     {
+      "img": "dishes/25b07cf14e.jpg",
+      "key": "25b07cf14e",
+      "name": "Bulgur Pilavı"
+     },
+     {
+      "img": "dishes/5b7bbc3ecc.jpg",
+      "key": "5b7bbc3ecc",
+      "name": "Portakal"
+     }
+    ]
+   }
+  },
+  "2026-11-11": {
+   "lunch": {
+    "items": [
+     {
+      "key": "d7e347c1b4",
+      "name": "Geleneksel Tarhana Çorba"
+     },
+     {
+      "img": "dishes/890b8e3990.jpg",
+      "key": "890b8e3990",
+      "name": "Etli Nohut"
+     },
+     {
+      "img": "dishes/28b694241b.jpg",
+      "key": "28b694241b",
+      "name": "Şehriyeli Pilav"
+     },
+     {
+      "key": "c5c0404803",
+      "name": "Limonlu İrimik Helvası"
+     }
+    ]
+   },
+   "vegetarian": {
+    "items": [
+     {
+      "key": "d7e347c1b4",
+      "name": "Geleneksel Tarhana Çorba"
+     },
+     {
+      "key": "1b8d128905",
+      "name": "Zeytinyağlı Nohut"
+     },
+     {
+      "img": "dishes/28b694241b.jpg",
+      "key": "28b694241b",
+      "name": "Şehriyeli Pilav"
+     },
+     {
+      "key": "c5c0404803",
+      "name": "Limonlu İrimik Helvası"
+     }
+    ]
+   }
+  },
+  "2026-11-12": {
+   "lunch": {
+    "items": [
+     {
+      "key": "8503f98483",
+      "name": "Geleneksel Yayla Çorba"
+     },
+     {
+      "key": "aea7ea71cd",
+      "name": "Rosto Köfte"
+     },
+     {
+      "img": "dishes/7996503754.jpg",
+      "key": "7996503754",
+      "name": "Peynirli Makarna"
+     },
+     {
+      "img": "dishes/99a67d4042.jpg",
+      "key": "99a67d4042",
+      "name": "Mevsim Salata"
+     }
+    ]
+   },
+   "vegetarian": {
+    "items": [
+     {
+      "key": "8503f98483",
+      "name": "Geleneksel Yayla Çorba"
+     },
+     {
+      "img": "dishes/b933cbd8aa.jpg",
+      "key": "b933cbd8aa",
+      "name": "Zeytinyağlı Bezelye"
+     },
+     {
+      "img": "dishes/7996503754.jpg",
+      "key": "7996503754",
+      "name": "Peynirli Makarna"
+     },
+     {
+      "img": "dishes/99a67d4042.jpg",
+      "key": "99a67d4042",
+      "name": "Mevsim Salata"
+     }
+    ]
+   }
+  },
+  "2026-11-13": {
+   "lunch": {
+    "items": [
+     {
+      "img": "dishes/bf8474c8b9.jpg",
+      "key": "bf8474c8b9",
+      "name": "Ezogelin Çorba"
+     },
+     {
+      "key": "163a93e42e",
+      "name": "Dana Çoban Kavurma"
+     },
+     {
+      "key": "65b330f30e",
+      "name": "Sade Pilav"
+     },
+     {
+      "img": "dishes/16b5c22561.jpg",
+      "key": "16b5c22561",
+      "name": "Ayran"
+     }
+    ]
+   },
+   "vegetarian": {
+    "items": [
+     {
+      "img": "dishes/bf8474c8b9.jpg",
+      "key": "bf8474c8b9",
+      "name": "Ezogelin Çorba"
+     },
+     {
+      "key": "6c2a316e47",
+      "name": "Sebze Haşlama"
+     },
+     {
+      "key": "65b330f30e",
+      "name": "Sade Pilav"
+     },
+     {
+      "img": "dishes/16b5c22561.jpg",
+      "key": "16b5c22561",
+      "name": "Ayran"
+     }
+    ]
+   }
   }
  },
  "university": "nku",
- "updated": "2026-11-04T13:32:11+03:00"
+ "updated": "2026-11-09T13:33:57+03:00"
 }

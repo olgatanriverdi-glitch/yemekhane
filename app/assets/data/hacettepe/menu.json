@@ -1,130 +1,5 @@
 {
  "days": {
-  "2026-11-06": {
-   "breakfast": {
-    "items": [
-     {
-      "img": "dishes/22605468a2.jpg",
-      "key": "22605468a2",
-      "name": "Çay"
-     },
-     {
-      "img": "dishes/5116c28e65.jpg",
-      "key": "5116c28e65",
-      "name": "Kek"
-     },
-     {
-      "img": "dishes/a76e528356.jpg",
-      "key": "a76e528356",
-      "name": "Haşlanmış Yumurta"
-     },
-     {
-      "img": "dishes/8690d4fe86.jpg",
-      "key": "8690d4fe86",
-      "name": "Beyaz Peynir"
-     },
-     {
-      "img": "dishes/4e61a66308.jpg",
-      "key": "4e61a66308",
-      "name": "Domates"
-     },
-     {
-      "key": "f6e1b2f63d",
-      "name": "Salatalık"
-     },
-     {
-      "key": "9e8512d0f7",
-      "name": "Siyah Zeytin"
-     },
-     {
-      "key": "bd44d6f251",
-      "name": "Tereyağ-Bal"
-     },
-     {
-      "key": "a0edd2dd45",
-      "name": "Ekmek"
-     }
-    ]
-   },
-   "dinner": {
-    "items": [
-     {
-      "kcal": 200,
-      "key": "fce91b9059",
-      "name": "Alaca Çorbası"
-     },
-     {
-      "kcal": 614,
-      "key": "c76cc481c4",
-      "name": "Julyen Kebap (p.patates)"
-     },
-     {
-      "kcal": 123,
-      "key": "07d67ed7f0",
-      "name": "Kış Salatası"
-     },
-     {
-      "img": "dishes/ab0edb6146.jpg",
-      "kcal": 420,
-      "key": "ab0edb6146",
-      "name": "Brownie"
-     }
-    ],
-    "kcal": 1357
-   },
-   "lunch": {
-    "items": [
-     {
-      "kcal": 200,
-      "key": "fce91b9059",
-      "name": "Alaca Çorbası"
-     },
-     {
-      "kcal": 614,
-      "key": "c76cc481c4",
-      "name": "Julyen Kebap (p.patates)"
-     },
-     {
-      "kcal": 123,
-      "key": "07d67ed7f0",
-      "name": "Kış Salatası"
-     },
-     {
-      "img": "dishes/ab0edb6146.jpg",
-      "kcal": 420,
-      "key": "ab0edb6146",
-      "name": "Brownie"
-     }
-    ],
-    "kcal": 1357
-   },
-   "vegetarian": {
-    "items": [
-     {
-      "kcal": 200,
-      "key": "fce91b9059",
-      "name": "Alaca Çorbası"
-     },
-     {
-      "kcal": 155,
-      "key": "2f2a945fb8",
-      "name": "Etsiz Mantar Sote"
-     },
-     {
-      "kcal": 123,
-      "key": "07d67ed7f0",
-      "name": "Kış Salatası"
-     },
-     {
-      "img": "dishes/ed17271d58.jpg",
-      "kcal": 130,
-      "key": "ed17271d58",
-      "name": "Meyve"
-     }
-    ],
-    "kcal": 608
-   }
-  },
   "2026-11-07": {
    "breakfast": {
     "items": [
@@ -166,6 +41,7 @@
       "name": "Tereyağ-Reçel"
      },
      {
+      "img": "dishes/a0edd2dd45.jpg",
       "key": "a0edd2dd45",
       "name": "Ekmek"
      }
@@ -298,6 +174,7 @@
       "name": "Tahin Pekmez"
      },
      {
+      "img": "dishes/a0edd2dd45.jpg",
       "key": "a0edd2dd45",
       "name": "Ekmek"
      }
@@ -430,6 +307,7 @@
       "name": "Tahin Pekmez"
      },
      {
+      "img": "dishes/a0edd2dd45.jpg",
       "key": "a0edd2dd45",
       "name": "Ekmek"
      }
@@ -562,6 +440,7 @@
       "name": "Tereyağ-Bal"
      },
      {
+      "img": "dishes/a0edd2dd45.jpg",
       "key": "a0edd2dd45",
       "name": "Ekmek"
      }
@@ -689,6 +568,7 @@
       "name": "Tereyağ-Reçel"
      },
      {
+      "img": "dishes/a0edd2dd45.jpg",
       "key": "a0edd2dd45",
       "name": "Ekmek"
      }
@@ -820,6 +700,7 @@
       "name": "Fındık Ezmesi"
      },
      {
+      "img": "dishes/a0edd2dd45.jpg",
       "key": "a0edd2dd45",
       "name": "Ekmek"
      }
@@ -951,6 +832,7 @@
       "name": "Tereyağ-Bal"
      },
      {
+      "img": "dishes/a0edd2dd45.jpg",
       "key": "a0edd2dd45",
       "name": "Ekmek"
      }
@@ -1083,6 +965,7 @@
       "name": "Tereyağ-Reçel"
      },
      {
+      "img": "dishes/a0edd2dd45.jpg",
       "key": "a0edd2dd45",
       "name": "Ekmek"
      }
@@ -1214,6 +1097,7 @@
       "name": "Tahin Pekmez"
      },
      {
+      "img": "dishes/a0edd2dd45.jpg",
       "key": "a0edd2dd45",
       "name": "Ekmek"
      }
@@ -1349,6 +1233,7 @@
       "name": "Tahin Pekmez"
      },
      {
+      "img": "dishes/a0edd2dd45.jpg",
       "key": "a0edd2dd45",
       "name": "Ekmek"
      }
@@ -1478,6 +1363,7 @@
       "name": "Tereyağ-Bal"
      },
      {
+      "img": "dishes/a0edd2dd45.jpg",
       "key": "a0edd2dd45",
       "name": "Ekmek"
      }
@@ -1608,6 +1494,7 @@
       "name": "Tereyağ-Reçel"
      },
      {
+      "img": "dishes/a0edd2dd45.jpg",
       "key": "a0edd2dd45",
       "name": "Ekmek"
      }
@@ -1741,6 +1628,7 @@
       "name": "Fındık Ezmesi"
      },
      {
+      "img": "dishes/a0edd2dd45.jpg",
       "key": "a0edd2dd45",
       "name": "Ekmek"
      }
@@ -1872,6 +1760,7 @@
       "name": "Tereyağ-Bal"
      },
      {
+      "img": "dishes/a0edd2dd45.jpg",
       "key": "a0edd2dd45",
       "name": "Ekmek"
      }
@@ -2005,6 +1894,7 @@
       "name": "Tereyağ-Reçel"
      },
      {
+      "img": "dishes/a0edd2dd45.jpg",
       "key": "a0edd2dd45",
       "name": "Ekmek"
      }
@@ -2131,6 +2021,7 @@
       "name": "Tahin Pekmez"
      },
      {
+      "img": "dishes/a0edd2dd45.jpg",
       "key": "a0edd2dd45",
       "name": "Ekmek"
      }
@@ -2261,6 +2152,7 @@
       "name": "Tahin Pekmez"
      },
      {
+      "img": "dishes/a0edd2dd45.jpg",
       "key": "a0edd2dd45",
       "name": "Ekmek"
      }
@@ -2392,6 +2284,7 @@
       "name": "Tereyağ-Bal"
      },
      {
+      "img": "dishes/a0edd2dd45.jpg",
       "key": "a0edd2dd45",
       "name": "Ekmek"
      }
@@ -2521,6 +2414,7 @@
       "name": "Tereyağ-Reçel"
      },
      {
+      "img": "dishes/a0edd2dd45.jpg",
       "key": "a0edd2dd45",
       "name": "Ekmek"
      }
@@ -2649,6 +2543,7 @@
       "name": "Fındık Ezmesi"
      },
      {
+      "img": "dishes/a0edd2dd45.jpg",
       "key": "a0edd2dd45",
       "name": "Ekmek"
      }
@@ -2780,6 +2675,7 @@
       "name": "Tereyağ-Bal"
      },
      {
+      "img": "dishes/a0edd2dd45.jpg",
       "key": "a0edd2dd45",
       "name": "Ekmek"
      }
@@ -2911,6 +2807,7 @@
       "name": "Tereyağ-Reçel"
      },
      {
+      "img": "dishes/a0edd2dd45.jpg",
       "key": "a0edd2dd45",
       "name": "Ekmek"
      }
@@ -3042,6 +2939,7 @@
       "name": "Tahin Pekmez"
      },
      {
+      "img": "dishes/a0edd2dd45.jpg",
       "key": "a0edd2dd45",
       "name": "Ekmek"
      }
@@ -3132,5 +3030,5 @@
   }
  },
  "university": "hacettepe",
- "updated": "2026-11-08T22:14:00+03:00"
+ "updated": "2026-11-09T13:33:57+03:00"
 }

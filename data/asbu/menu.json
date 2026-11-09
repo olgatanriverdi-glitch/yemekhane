@@ -1406,8 +1406,79 @@
     ],
     "kcal": 831
    }
+  },
+  "2026-11-09": {
+   "lunch": {
+    "items": [
+     {
+      "img": "dishes/5faf1b0081.jpg",
+      "kcal": 185,
+      "key": "5faf1b0081",
+      "name": "Kırmızı Mercimek Çorba"
+     },
+     {
+      "kcal": 450,
+      "key": "c6d73fa771",
+      "name": "Fettucini Alferoda Mantarlı"
+     },
+     {
+      "img": "dishes/add3592632.jpg",
+      "kcal": 300,
+      "key": "add3592632",
+      "name": "Karışık Kızartma"
+     },
+     {
+      "img": "dishes/9c8d655ef5.jpg",
+      "kcal": 152,
+      "key": "9c8d655ef5",
+      "name": "Yoğurt"
+     },
+     {
+      "img": "dishes/4b3d132c48.jpg",
+      "kcal": 301,
+      "key": "4b3d132c48",
+      "name": "Kadayıf Tatlısı"
+     }
+    ],
+    "kcal": 1388
+   },
+   "vegetarian": {
+    "items": [
+     {
+      "img": "dishes/5faf1b0081.jpg",
+      "kcal": 185,
+      "key": "5faf1b0081",
+      "name": "Kırmızı Mercimek Çorba"
+     },
+     {
+      "img": "dishes/a52d5fed84.jpg",
+      "kcal": 230,
+      "key": "a52d5fed84",
+      "name": "Sade Makarna"
+     },
+     {
+      "img": "dishes/add3592632.jpg",
+      "kcal": 300,
+      "key": "add3592632",
+      "name": "Karışık Kızartma"
+     },
+     {
+      "img": "dishes/9c8d655ef5.jpg",
+      "kcal": 152,
+      "key": "9c8d655ef5",
+      "name": "Yoğurt"
+     },
+     {
+      "img": "dishes/4b3d132c48.jpg",
+      "kcal": 301,
+      "key": "4b3d132c48",
+      "name": "Kadayıf Tatlısı"
+     }
+    ],
+    "kcal": 1168
+   }
   }
  },
  "university": "asbu",
- "updated": "2026-11-08T22:14:00+03:00"
+ "updated": "2026-11-09T13:33:57+03:00"
 }

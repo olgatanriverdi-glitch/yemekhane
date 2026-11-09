@@ -22,7 +22,8 @@
   "2026-11-03": "001da2fb49d8",
   "2026-11-04": "54ed738c6836",
   "2026-11-05": "2d412b1b6c47",
-  "2026-11-06": "7b746a136ea2"
+  "2026-11-06": "7b746a136ea2",
+  "2026-11-09": "a746873f05e3"
  },
  "main": {
   "025eacfe0c": "8f579a24b2f7",
@@ -34,7 +35,7 @@
   "495c83bde2": "c89c294984ba",
   "4b76564c9a": "001da2fb49d8",
   "5acb48cd86": "776246ad8f8e",
-  "5de18824bc": "e2956e24cd10",
+  "5de18824bc": "a746873f05e3",
   "613616e611": "cb1148062900",
   "7bae814a67": "54ed738c6836",
   "890b8e3990": "5bf61878c47f",
@@ -217,6 +218,16 @@
     "İsveç Köfte/Sebze Garnitür",
     "Cevizli Erişte",
     "Meyve"
+   ]
+  },
+  "a746873f05e3": {
+   "added": "2026-11-09",
+   "hash": "0abb71453d252b237bb0d49b88e1914d9cacfd85",
+   "items": [
+    "Kırmızı Mercimek Çorba",
+    "Çökertme Kebap",
+    "Bulgur Pilavı",
+    "Mısırlı Aysberg Salata"
    ]
   },
   "c89c294984ba": {

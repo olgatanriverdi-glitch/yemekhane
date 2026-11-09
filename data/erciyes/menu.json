@@ -140,8 +140,298 @@
     ],
     "kcal": 944
    }
+  },
+  "2026-11-09": {
+   "dinner": {
+    "items": [
+     {
+      "img": "dishes/bf8474c8b9.jpg",
+      "kcal": 218,
+      "key": "bf8474c8b9",
+      "name": "Ezogelin Çorba"
+     },
+     {
+      "kcal": 395,
+      "key": "f06d29bab1",
+      "name": "Piliç Cordon Bleu+Garnt"
+     },
+     {
+      "img": "dishes/9c8d655ef5.jpg",
+      "kcal": 136,
+      "key": "9c8d655ef5",
+      "name": "Yoğurt"
+     },
+     {
+      "img": "dishes/ed17271d58.jpg",
+      "kcal": 96,
+      "key": "ed17271d58",
+      "name": "Meyve"
+     }
+    ],
+    "kcal": 845
+   },
+   "lunch": {
+    "items": [
+     {
+      "img": "dishes/bf8474c8b9.jpg",
+      "kcal": 218,
+      "key": "bf8474c8b9",
+      "name": "Ezogelin Çorba"
+     },
+     {
+      "kcal": 395,
+      "key": "f06d29bab1",
+      "name": "Piliç Cordon Bleu+Garnt"
+     },
+     {
+      "img": "dishes/9c8d655ef5.jpg",
+      "kcal": 136,
+      "key": "9c8d655ef5",
+      "name": "Yoğurt"
+     },
+     {
+      "img": "dishes/ed17271d58.jpg",
+      "kcal": 96,
+      "key": "ed17271d58",
+      "name": "Meyve"
+     }
+    ],
+    "kcal": 845
+   }
+  },
+  "2026-11-10": {
+   "dinner": {
+    "items": [
+     {
+      "img": "dishes/f98b465287.jpg",
+      "kcal": 148,
+      "key": "f98b465287",
+      "name": "Yayla Çorba"
+     },
+     {
+      "img": "dishes/025eacfe0c.jpg",
+      "kcal": 305,
+      "key": "025eacfe0c",
+      "name": "Etli Taze Fasulye"
+     },
+     {
+      "img": "dishes/dc4e6bc8cd.jpg",
+      "kcal": 350,
+      "key": "dc4e6bc8cd",
+      "name": "Tereyağlı Bulgur Pilavı"
+     },
+     {
+      "kcal": 120,
+      "key": "95dcc08afb",
+      "name": "Suphangle"
+     }
+    ],
+    "kcal": 923
+   },
+   "lunch": {
+    "items": [
+     {
+      "img": "dishes/f98b465287.jpg",
+      "kcal": 148,
+      "key": "f98b465287",
+      "name": "Yayla Çorba"
+     },
+     {
+      "img": "dishes/025eacfe0c.jpg",
+      "kcal": 305,
+      "key": "025eacfe0c",
+      "name": "Etli Taze Fasulye"
+     },
+     {
+      "img": "dishes/dc4e6bc8cd.jpg",
+      "kcal": 350,
+      "key": "dc4e6bc8cd",
+      "name": "Tereyağlı Bulgur Pilavı"
+     },
+     {
+      "kcal": 120,
+      "key": "95dcc08afb",
+      "name": "Suphangle"
+     }
+    ],
+    "kcal": 923
+   }
+  },
+  "2026-11-11": {
+   "dinner": {
+    "items": [
+     {
+      "img": "dishes/694df91308.jpg",
+      "kcal": 404,
+      "key": "694df91308",
+      "name": "İzmir Köfte"
+     },
+     {
+      "kcal": 380,
+      "key": "fa4decda6a",
+      "name": "Şehriyeli Pirinç Pilavı"
+     },
+     {
+      "img": "dishes/99a67d4042.jpg",
+      "kcal": 105,
+      "key": "99a67d4042",
+      "name": "Mevsim Salata"
+     },
+     {
+      "img": "dishes/53c2975a6e.jpg",
+      "kcal": 411,
+      "key": "53c2975a6e",
+      "name": "Aşure"
+     }
+    ],
+    "kcal": 1300
+   },
+   "lunch": {
+    "items": [
+     {
+      "img": "dishes/694df91308.jpg",
+      "kcal": 404,
+      "key": "694df91308",
+      "name": "İzmir Köfte"
+     },
+     {
+      "kcal": 380,
+      "key": "fa4decda6a",
+      "name": "Şehriyeli Pirinç Pilavı"
+     },
+     {
+      "img": "dishes/99a67d4042.jpg",
+      "kcal": 105,
+      "key": "99a67d4042",
+      "name": "Mevsim Salata"
+     },
+     {
+      "img": "dishes/53c2975a6e.jpg",
+      "kcal": 411,
+      "key": "53c2975a6e",
+      "name": "Aşure"
+     }
+    ],
+    "kcal": 1300
+   }
+  },
+  "2026-11-12": {
+   "dinner": {
+    "items": [
+     {
+      "kcal": 285,
+      "key": "f7a29fce75",
+      "name": "Sütlü Badem Çorbası"
+     },
+     {
+      "kcal": 229,
+      "key": "e85b9a750b",
+      "name": "Piliç Pirzola"
+     },
+     {
+      "img": "dishes/7996503754.jpg",
+      "kcal": 384,
+      "key": "7996503754",
+      "name": "Peynirli Makarna"
+     },
+     {
+      "img": "dishes/9cc15e97bd.jpg",
+      "kcal": 132,
+      "key": "9cc15e97bd",
+      "name": "Patates Salatası"
+     }
+    ],
+    "kcal": 1030
+   },
+   "lunch": {
+    "items": [
+     {
+      "kcal": 285,
+      "key": "f7a29fce75",
+      "name": "Sütlü Badem Çorbası"
+     },
+     {
+      "kcal": 229,
+      "key": "e85b9a750b",
+      "name": "Piliç Pirzola"
+     },
+     {
+      "img": "dishes/7996503754.jpg",
+      "kcal": 384,
+      "key": "7996503754",
+      "name": "Peynirli Makarna"
+     },
+     {
+      "img": "dishes/9cc15e97bd.jpg",
+      "kcal": 132,
+      "key": "9cc15e97bd",
+      "name": "Patates Salatası"
+     }
+    ],
+    "kcal": 1030
+   }
+  },
+  "2026-11-13": {
+   "dinner": {
+    "items": [
+     {
+      "img": "dishes/a577bbfc25.jpg",
+      "kcal": 546,
+      "key": "a577bbfc25",
+      "name": "Tas Kebap"
+     },
+     {
+      "img": "dishes/2356abfde0.jpg",
+      "kcal": 307,
+      "key": "2356abfde0",
+      "name": "Sebzeli Bulgur Pilavı"
+     },
+     {
+      "img": "dishes/9c8d655ef5.jpg",
+      "kcal": 136,
+      "key": "9c8d655ef5",
+      "name": "Yoğurt"
+     },
+     {
+      "img": "dishes/ed17271d58.jpg",
+      "kcal": 96,
+      "key": "ed17271d58",
+      "name": "Meyve"
+     }
+    ],
+    "kcal": 1085
+   },
+   "lunch": {
+    "items": [
+     {
+      "img": "dishes/a577bbfc25.jpg",
+      "kcal": 546,
+      "key": "a577bbfc25",
+      "name": "Tas Kebap"
+     },
+     {
+      "img": "dishes/2356abfde0.jpg",
+      "kcal": 307,
+      "key": "2356abfde0",
+      "name": "Sebzeli Bulgur Pilavı"
+     },
+     {
+      "img": "dishes/9c8d655ef5.jpg",
+      "kcal": 136,
+      "key": "9c8d655ef5",
+      "name": "Yoğurt"
+     },
+     {
+      "img": "dishes/ed17271d58.jpg",
+      "kcal": 96,
+      "key": "ed17271d58",
+      "name": "Meyve"
+     }
+    ],
+    "kcal": 1085
+   }
   }
  },
  "university": "erciyes",
- "updated": "2026-11-04T13:44:05+03:00"
+ "updated": "2026-11-09T13:33:57+03:00"
 }

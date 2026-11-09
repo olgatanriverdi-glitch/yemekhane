@@ -357,13 +357,13 @@
       "name": "Şehriyeli Pirinç Pilavı"
      },
      {
-      "img": "dishes/25138b8121.jpg",
-      "kcal": 426,
-      "key": "25138b8121",
-      "name": "Krem Şantili Ekmek Kadayıfı"
+      "img": "dishes/dc944fba4f.jpg",
+      "kcal": 220,
+      "key": "dc944fba4f",
+      "name": "Kazandibi"
      }
     ],
-    "kcal": 1224
+    "kcal": 1018
    },
    "vegetarian": {
     "items": [
@@ -990,5 +990,5 @@
   }
  },
  "university": "aybu",
- "updated": "2026-11-08T22:14:00+03:00"
+ "updated": "2026-11-09T13:33:57+03:00"
 }
