@@ -61,6 +61,7 @@
       "name": "Püreli Et Sote"
      },
      {
+      "img": "dishes/fbca13bce9.jpg",
       "key": "fbca13bce9",
       "name": "Karnabahar Kızartması/Yoğurt"
      },
@@ -177,6 +178,7 @@
       "name": "Tel Şehriye Çorbası"
      },
      {
+      "img": "dishes/2d47746c02.jpg",
       "key": "2d47746c02",
       "name": "Tavuk Baget /Pat"
      },
@@ -363,5 +365,5 @@
   }
  },
  "university": "mugla",
- "updated": "2026-11-10T02:38:32+03:00"
+ "updated": "2026-11-10T13:35:47+03:00"
 }

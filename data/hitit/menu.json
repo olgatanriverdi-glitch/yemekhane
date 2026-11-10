@@ -71,8 +71,225 @@
      }
     ]
    }
+  },
+  "2026-11-10": {
+   "lunch": {
+    "items": [
+     {
+      "key": "37b33e28c3",
+      "name": "Abant Çorba"
+     },
+     {
+      "key": "84b19bcfcb",
+      "name": "Tavuk Special But"
+     },
+     {
+      "img": "dishes/abad8aab8e.jpg",
+      "key": "abad8aab8e",
+      "name": "Napoliten Soslu Makarna"
+     },
+     {
+      "img": "dishes/53c2975a6e.jpg",
+      "key": "53c2975a6e",
+      "name": "Aşure"
+     }
+    ]
+   }
+  },
+  "2026-11-11": {
+   "lunch": {
+    "items": [
+     {
+      "img": "dishes/5faf1b0081.jpg",
+      "key": "5faf1b0081",
+      "name": "Kırmızı Mercimek Çorba"
+     },
+     {
+      "img": "dishes/694df91308.jpg",
+      "key": "694df91308",
+      "name": "İzmir Köfte"
+     },
+     {
+      "key": "14e866a86c",
+      "name": "Bulgur Pilavı (Nohutlu)"
+     },
+     {
+      "img": "dishes/99a67d4042.jpg",
+      "key": "99a67d4042",
+      "name": "Mevsim Salata"
+     }
+    ]
+   }
+  },
+  "2026-11-12": {
+   "lunch": {
+    "items": [
+     {
+      "key": "5f0b267259",
+      "name": "Havuç Çorba"
+     },
+     {
+      "img": "dishes/5dfc480937.jpg",
+      "key": "5dfc480937",
+      "name": "Patlıcan Musakka"
+     },
+     {
+      "key": "2918caafab",
+      "name": "Pirinç Pilavı (Arpa Şehriyeli)"
+     },
+     {
+      "img": "dishes/2f58be7b7a.jpg",
+      "key": "2f58be7b7a",
+      "name": "Cacık"
+     }
+    ]
+   }
+  },
+  "2026-11-13": {
+   "lunch": {
+    "items": [
+     {
+      "img": "dishes/79c6c69fa3.jpg",
+      "key": "79c6c69fa3",
+      "name": "Arpa Şehriye Çorba"
+     },
+     {
+      "key": "ccf62d2852",
+      "name": "Fırın Levrek"
+     },
+     {
+      "img": "dishes/6481a77c76.jpg",
+      "key": "6481a77c76",
+      "name": "Barbunya Pilaki"
+     },
+     {
+      "img": "dishes/244e9e2e55.jpg",
+      "key": "244e9e2e55",
+      "name": "Tahin Helva"
+     }
+    ]
+   }
+  },
+  "2026-11-16": {
+   "lunch": {
+    "items": [
+     {
+      "key": "ed7ac32aa0",
+      "name": "Hanımağa Çorba"
+     },
+     {
+      "img": "dishes/d151de6ce3.jpg",
+      "key": "d151de6ce3",
+      "name": "Çoban Kavurma"
+     },
+     {
+      "key": "2918caafab",
+      "name": "Pirinç Pilavı (Arpa Şehriyeli)"
+     },
+     {
+      "img": "dishes/16b5c22561.jpg",
+      "key": "16b5c22561",
+      "name": "Ayran"
+     }
+    ]
+   }
+  },
+  "2026-11-17": {
+   "lunch": {
+    "items": [
+     {
+      "key": "5d46f04297",
+      "name": "Çatalaşı Çorba"
+     },
+     {
+      "key": "3f21e30c1a",
+      "name": "Akdeniz Usulü Ispanak"
+     },
+     {
+      "key": "46bd021b04",
+      "name": "Yoğurtlu Mantı"
+     },
+     {
+      "key": "298e68bde8",
+      "name": "İrmik Tatlısı"
+     }
+    ]
+   }
+  },
+  "2026-11-18": {
+   "lunch": {
+    "items": [
+     {
+      "img": "dishes/79c6c69fa3.jpg",
+      "key": "79c6c69fa3",
+      "name": "Arpa Şehriye Çorba"
+     },
+     {
+      "key": "4c0e6d36bb",
+      "name": "Çiftlik Köfte"
+     },
+     {
+      "img": "dishes/25b07cf14e.jpg",
+      "key": "25b07cf14e",
+      "name": "Bulgur Pilavı"
+     },
+     {
+      "img": "dishes/c47036e360.jpg",
+      "key": "c47036e360",
+      "name": "Elma"
+     }
+    ]
+   }
+  },
+  "2026-11-19": {
+   "lunch": {
+    "items": [
+     {
+      "key": "f9e3094533",
+      "name": "Toyga Çorba"
+     },
+     {
+      "img": "dishes/1e0a78e916.jpg",
+      "key": "1e0a78e916",
+      "name": "Orman Kebabı"
+     },
+     {
+      "key": "3354c9c119",
+      "name": "Domatesli Pirinç Pilavı"
+     },
+     {
+      "key": "5f34f26545",
+      "name": "Profiterol"
+     }
+    ]
+   }
+  },
+  "2026-11-20": {
+   "lunch": {
+    "items": [
+     {
+      "img": "dishes/bf8474c8b9.jpg",
+      "key": "bf8474c8b9",
+      "name": "Ezogelin Çorba"
+     },
+     {
+      "img": "dishes/4493083826.jpg",
+      "key": "4493083826",
+      "name": "Tavuk Pirzola (Elma Dilim Patates)"
+     },
+     {
+      "key": "e67808d067",
+      "name": "Makarna (Mantarlı)"
+     },
+     {
+      "img": "dishes/99a67d4042.jpg",
+      "key": "99a67d4042",
+      "name": "Mevsim Salata"
+     }
+    ]
+   }
   }
  },
  "university": "hitit",
- "updated": "2026-11-04T13:32:11+03:00"
+ "updated": "2026-11-10T13:35:47+03:00"
 }

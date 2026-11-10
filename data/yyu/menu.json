@@ -236,8 +236,65 @@
     ],
     "kcal": 650
    }
+  },
+  "2026-11-12": {
+   "lunch": {
+    "items": [
+     {
+      "kcal": 180,
+      "key": "9ce3b32f40",
+      "name": "Yoğurtlu Erişte Çorba"
+     },
+     {
+      "kcal": 300,
+      "key": "73cbb656ad",
+      "name": "Tavuk Pirzola /Patates"
+     },
+     {
+      "kcal": 270,
+      "key": "b9498c0c6f",
+      "name": "Garnitürlü Pirinç Pilavı"
+     },
+     {
+      "kcal": 76,
+      "key": "bdd38fc456",
+      "name": "Marul Salatası"
+     }
+    ],
+    "kcal": 826
+   }
+  },
+  "2026-11-13": {
+   "lunch": {
+    "items": [
+     {
+      "img": "dishes/2c0e163a7d.jpg",
+      "kcal": 110,
+      "key": "2c0e163a7d",
+      "name": "Tarhana Çorba"
+     },
+     {
+      "kcal": 180,
+      "key": "411338e940",
+      "name": "Etli Mevsim Türlü"
+     },
+     {
+      "img": "dishes/b81f8dd2b7.jpg",
+      "kcal": 270,
+      "key": "b81f8dd2b7",
+      "name": "Nohutlu Bulgur Pilavı"
+     },
+     {
+      "img": "dishes/2f58be7b7a.jpg",
+      "kcal": 82,
+      "key": "2f58be7b7a",
+      "name": "Cacık"
+     }
+    ],
+    "kcal": 642
+   }
   }
  },
  "university": "yyu",
- "updated": "2026-11-10T02:38:32+03:00"
+ "updated": "2026-11-10T13:35:47+03:00"
 }

@@ -272,6 +272,7 @@
       "name": "Mercimek Çorba"
      },
      {
+      "img": "dishes/c597ad29e3.jpg",
       "kcal": 380,
       "key": "c597ad29e3",
       "name": "Hamsi Tava"
@@ -479,6 +480,7 @@
       "name": "Mercimek Çorba"
      },
      {
+      "img": "dishes/c597ad29e3.jpg",
       "kcal": 380,
       "key": "c597ad29e3",
       "name": "Hamsi Tava"
@@ -620,5 +622,5 @@
   }
  },
  "university": "hakkari",
- "updated": "2026-11-10T02:38:32+03:00"
+ "updated": "2026-11-10T13:35:47+03:00"
 }

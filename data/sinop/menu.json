@@ -476,6 +476,7 @@
       "name": "Tarhana Çorba"
      },
      {
+      "img": "dishes/90d406983e.jpg",
       "key": "90d406983e",
       "name": "Fırında Tavuk But"
      },
@@ -584,5 +585,5 @@
   }
  },
  "university": "sinop",
- "updated": "2026-11-10T02:38:32+03:00"
+ "updated": "2026-11-10T13:35:47+03:00"
 }

@@ -108,6 +108,7 @@
       "name": "Mercimek Çorbası"
      },
      {
+      "img": "dishes/281620ed2b.jpg",
       "key": "281620ed2b",
       "name": "Et Döner/Salata"
      },
@@ -219,10 +220,12 @@
       "name": "Köylü Çorbası"
      },
      {
+      "img": "dishes/88bebdd5cd.jpg",
       "key": "88bebdd5cd",
       "name": "Cordon Blue/Patates"
      },
      {
+      "img": "dishes/29d7982973.jpg",
       "kcal": 360,
       "key": "29d7982973",
       "name": "Spagetti (Sos)"
@@ -502,6 +505,7 @@
       "name": "Ezogelin Çorbası"
      },
      {
+      "img": "dishes/fce7a6e36d.jpg",
       "kcal": 380,
       "key": "fce7a6e36d",
       "name": "Biber Dolması&Yoğurt"
@@ -523,5 +527,5 @@
   }
  },
  "university": "adu",
- "updated": "2026-11-10T02:38:32+03:00"
+ "updated": "2026-11-10T13:35:47+03:00"
 }

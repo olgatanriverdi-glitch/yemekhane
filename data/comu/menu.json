@@ -1150,6 +1150,7 @@
       "name": "Sebze Söğüş"
      },
      {
+      "img": "dishes/12d4237ad2.jpg",
       "kcal": 286,
       "key": "12d4237ad2",
       "name": "Körili Bulgur Pilavı"
@@ -1176,6 +1177,7 @@
       "name": "Yeşil Mercimek"
      },
      {
+      "img": "dishes/12d4237ad2.jpg",
       "kcal": 286,
       "key": "12d4237ad2",
       "name": "Körili Bulgur Pilavı"
@@ -1192,5 +1194,5 @@
   }
  },
  "university": "comu",
- "updated": "2026-11-10T02:38:32+03:00"
+ "updated": "2026-11-10T13:35:47+03:00"
 }

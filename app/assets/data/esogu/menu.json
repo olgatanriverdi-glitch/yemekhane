@@ -151,14 +151,15 @@
       "name": "Ezogelin Çorba"
      },
      {
-      "kcal": 255,
-      "key": "c3679051de",
-      "name": "Etsiz Bezelye"
+      "img": "dishes/b6cacec026.jpg",
+      "kcal": 295,
+      "key": "b6cacec026",
+      "name": "Etsiz Nohut"
      },
      {
-      "kcal": 345,
-      "key": "fef6adada3",
-      "name": "Nohutlu Pirinç Pilavı"
+      "kcal": 310,
+      "key": "8636bfbc0a",
+      "name": "Pirinç Pilavı"
      },
      {
       "img": "dishes/16b5c22561.jpg",
@@ -167,7 +168,7 @@
       "name": "Ayran"
      }
     ],
-    "kcal": 837
+    "kcal": 842
    }
   },
   "2026-11-11": {
@@ -1361,5 +1362,5 @@
   }
  },
  "university": "esogu",
- "updated": "2026-11-10T02:38:32+03:00"
+ "updated": "2026-11-10T13:35:47+03:00"
 }

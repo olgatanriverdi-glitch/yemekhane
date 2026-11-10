@@ -212,6 +212,7 @@
       "name": "Patlıcan Musakka/Bahçıvan Kebabı"
      },
      {
+      "img": "dishes/714581af8d.jpg",
       "key": "714581af8d",
       "name": "Sade Bulgur Pilavı"
      },
@@ -530,5 +531,5 @@
   }
  },
  "university": "sirnak",
- "updated": "2026-11-10T02:38:32+03:00"
+ "updated": "2026-11-10T13:35:47+03:00"
 }

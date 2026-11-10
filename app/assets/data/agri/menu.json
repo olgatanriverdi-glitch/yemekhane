@@ -107,9 +107,9 @@
    "lunch": {
     "items": [
      {
-      "img": "dishes/bf8474c8b9.jpg",
-      "key": "bf8474c8b9",
-      "name": "Ezogelin Çorba"
+      "img": "dishes/4fb733faf2.jpg",
+      "key": "4fb733faf2",
+      "name": "Ezogelin Çorbası"
      },
      {
       "img": "dishes/f81a728d3a.jpg",
@@ -117,14 +117,16 @@
       "name": "Kuru Fasulye"
      },
      {
-      "key": "8383bb3fac",
-      "name": "Özbek Pilavı"
+      "key": "fa4decda6a",
+      "name": "Şehriyeli Pirinç Pilavı"
      },
      {
-      "key": "3ef45fb941",
-      "name": "Karışık Turşu"
+      "img": "dishes/ec0228f614.jpg",
+      "key": "ec0228f614",
+      "name": "Turşu"
      }
-    ]
+    ],
+    "kcal": 934
    }
   },
   "2026-11-11": {
@@ -169,15 +171,15 @@
       "name": "Tepsi Böreği Kıymalı"
      },
      {
-      "img": "dishes/647ce15e33.jpg",
-      "key": "647ce15e33",
-      "name": "Tulumba"
+      "img": "dishes/16b5c22561.jpg",
+      "key": "16b5c22561",
+      "name": "Ayran"
      }
     ],
-    "kcal": 975
+    "kcal": 955
    }
   }
  },
  "university": "agri",
- "updated": "2026-11-10T02:38:32+03:00"
+ "updated": "2026-11-10T13:35:47+03:00"
 }

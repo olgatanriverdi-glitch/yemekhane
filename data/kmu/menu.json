@@ -220,9 +220,9 @@
       "name": "Mantı"
      },
      {
-      "img": "dishes/5b7bbc3ecc.jpg",
-      "key": "5b7bbc3ecc",
-      "name": "Portakal"
+      "img": "dishes/c47036e360.jpg",
+      "key": "c47036e360",
+      "name": "Elma"
      }
     ],
     "kcal": 1073
@@ -347,9 +347,9 @@
       "name": "Yoğurtlu Makarna"
      },
      {
-      "img": "dishes/c47036e360.jpg",
-      "key": "c47036e360",
-      "name": "Elma"
+      "img": "dishes/5b7bbc3ecc.jpg",
+      "key": "5b7bbc3ecc",
+      "name": "Portakal"
      }
     ],
     "kcal": 1016
@@ -538,5 +538,5 @@
   }
  },
  "university": "kmu",
- "updated": "2026-11-10T02:38:32+03:00"
+ "updated": "2026-11-10T13:35:47+03:00"
 }

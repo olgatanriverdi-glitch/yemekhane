@@ -549,8 +549,31 @@
      }
     ]
    }
+  },
+  "2026-11-10": {
+   "lunch": {
+    "items": [
+     {
+      "key": "45d738bb6c",
+      "name": "Mahluta Çorba"
+     },
+     {
+      "key": "d0f9325346",
+      "name": "Nohut Buryan"
+     },
+     {
+      "key": "8636bfbc0a",
+      "name": "Pirinç Pilavı"
+     },
+     {
+      "img": "dishes/8bb2930cea.jpg",
+      "key": "8bb2930cea",
+      "name": "Cevizli Burma Kadayıf"
+     }
+    ]
+   }
   }
  },
  "university": "omu",
- "updated": "2026-11-10T02:38:32+03:00"
+ "updated": "2026-11-10T13:35:47+03:00"
 }

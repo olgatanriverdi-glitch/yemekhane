@@ -295,35 +295,6 @@
    "lunch": {
     "items": [
      {
-      "img": "dishes/79c6c69fa3.jpg",
-      "kcal": 180,
-      "key": "79c6c69fa3",
-      "name": "Arpa Şehriye Çorba"
-     },
-     {
-      "img": "dishes/c59b9eaa6e.jpg",
-      "kcal": 300,
-      "key": "c59b9eaa6e",
-      "name": "Etli Bezelye"
-     },
-     {
-      "kcal": 315,
-      "key": "8636bfbc0a",
-      "name": "Pirinç Pilavı"
-     },
-     {
-      "kcal": 200,
-      "key": "90426cfa16",
-      "name": "Meyveli Cup"
-     }
-    ],
-    "kcal": 995
-   }
-  },
-  "2026-11-17": {
-   "lunch": {
-    "items": [
-     {
       "img": "dishes/bf8474c8b9.jpg",
       "kcal": 180,
       "key": "bf8474c8b9",
@@ -348,6 +319,35 @@
      }
     ],
     "kcal": 905
+   }
+  },
+  "2026-11-17": {
+   "lunch": {
+    "items": [
+     {
+      "img": "dishes/79c6c69fa3.jpg",
+      "kcal": 180,
+      "key": "79c6c69fa3",
+      "name": "Arpa Şehriye Çorba"
+     },
+     {
+      "img": "dishes/c59b9eaa6e.jpg",
+      "kcal": 300,
+      "key": "c59b9eaa6e",
+      "name": "Etli Bezelye"
+     },
+     {
+      "kcal": 315,
+      "key": "8636bfbc0a",
+      "name": "Pirinç Pilavı"
+     },
+     {
+      "kcal": 200,
+      "key": "90426cfa16",
+      "name": "Meyveli Cup"
+     }
+    ],
+    "kcal": 995
    }
   },
   "2026-11-18": {
@@ -565,6 +565,7 @@
       "name": "Tandır Çorba"
      },
      {
+      "img": "dishes/1229022705.jpg",
       "kcal": 300,
       "key": "1229022705",
       "name": "Barbunya"
@@ -586,5 +587,5 @@
   }
  },
  "university": "aku",
- "updated": "2026-11-10T02:38:32+03:00"
+ "updated": "2026-11-10T13:35:47+03:00"
 }

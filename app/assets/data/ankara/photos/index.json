@@ -23,7 +23,8 @@
   "2026-11-04": "54ed738c6836",
   "2026-11-05": "2d412b1b6c47",
   "2026-11-06": "7b746a136ea2",
-  "2026-11-09": "a746873f05e3"
+  "2026-11-09": "a746873f05e3",
+  "2026-11-10": "4efd187fede8"
  },
  "main": {
   "025eacfe0c": "8f579a24b2f7",
@@ -43,6 +44,7 @@
   "9bd36390ba": "3d079491ea57",
   "9f0828ef41": "2d412b1b6c47",
   "b7f7a0ca2b": "78be4bc465a4",
+  "c85992c287": "4efd187fede8",
   "de62be9b48": "164fe8b5ccd4",
   "f029cd24e9": "f6784bbc19c2",
   "fbb76e65c4": "7b746a136ea2",
@@ -128,6 +130,16 @@
     "Barbekü Soslu Tavuk",
     "Soslu Makarna",
     "Coleslaw"
+   ]
+  },
+  "4efd187fede8": {
+   "added": "2026-11-10",
+   "hash": "1246cfa9fe807b4086d751ca024b252144aa7a57",
+   "items": [
+    "Şehriye Çorba",
+    "Ispanak Yatağında Tavuk",
+    "Nohutlu Pirinç Pilavı",
+    "Red Velvet"
    ]
   },
   "54ed738c6836": {

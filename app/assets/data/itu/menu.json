@@ -1,65 +1,5 @@
 {
  "days": {
-  "2026-11-08": {
-   "dinner": {
-    "items": [
-     {
-      "key": "ba810116bb",
-      "name": "Andaloz Çorbası"
-     },
-     {
-      "img": "dishes/694df91308.jpg",
-      "key": "694df91308",
-      "name": "İzmir Köfte"
-     },
-     {
-      "img": "dishes/c0403431e1.jpg",
-      "key": "c0403431e1",
-      "name": "Arpa Şehriye Pilavı"
-     },
-     {
-      "img": "dishes/16b5c22561.jpg",
-      "key": "16b5c22561",
-      "name": "Ayran"
-     },
-     {
-      "key": "f1db7bea12",
-      "name": "Havuç-Turp Salatası"
-     },
-     {
-      "key": "fc38f5c889",
-      "name": "Garnitür Elma Dilim Patates Kızartması"
-     }
-    ]
-   },
-   "lunch": {
-    "items": [
-     {
-      "img": "dishes/cf7cacfbec.jpg",
-      "key": "cf7cacfbec",
-      "name": "Osmanlı Çorbası"
-     },
-     {
-      "key": "007b19b638",
-      "name": "Kıymalı Yeşil Mercimek"
-     },
-     {
-      "img": "dishes/25b07cf14e.jpg",
-      "key": "25b07cf14e",
-      "name": "Bulgur Pilavı"
-     },
-     {
-      "key": "de84c155eb",
-      "name": "Rus Salatası"
-     },
-     {
-      "img": "dishes/9814c6dc58.jpg",
-      "key": "9814c6dc58",
-      "name": "Mandalina"
-     }
-    ]
-   }
-  },
   "2026-11-09": {
    "dinner": {
     "items": [
@@ -911,5 +851,5 @@
   }
  },
  "university": "itu",
- "updated": "2026-11-10T02:38:32+03:00"
+ "updated": "2026-11-10T13:35:47+03:00"
 }

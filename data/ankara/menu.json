@@ -466,7 +466,8 @@
       "name": "Red Velvet"
      }
     ],
-    "kcal": 1494
+    "kcal": 1494,
+    "photo": "photos/lib/4efd187fede8.jpg"
    },
    "vegetarian": {
     "items": [
@@ -1457,5 +1458,5 @@
   }
  },
  "university": "ankara",
- "updated": "2026-11-10T02:38:32+03:00"
+ "updated": "2026-11-10T13:35:47+03:00"
 }

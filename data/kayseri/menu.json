@@ -133,6 +133,7 @@
       "name": "Mercimek Çorbası"
      },
      {
+      "img": "dishes/1229022705.jpg",
       "key": "1229022705",
       "name": "Barbunya"
      },
@@ -248,5 +249,5 @@
   }
  },
  "university": "kayseri",
- "updated": "2026-11-10T02:38:32+03:00"
+ "updated": "2026-11-10T13:35:47+03:00"
 }

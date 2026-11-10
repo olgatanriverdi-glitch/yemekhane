@@ -62,6 +62,7 @@
       "name": "Zeytinyağlı Nohut"
      },
      {
+      "img": "dishes/2083478fc4.jpg",
       "key": "2083478fc4",
       "name": "Tavuklu Bulgur Pilavı"
      },
@@ -83,6 +84,7 @@
       "name": "Zeytinyağlı Nohut"
      },
      {
+      "img": "dishes/2083478fc4.jpg",
       "key": "2083478fc4",
       "name": "Tavuklu Bulgur Pilavı"
      },
@@ -203,6 +205,7 @@
       "name": "Zeytinyağlı Pırasa"
      },
      {
+      "img": "dishes/b91cffff1d.jpg",
       "key": "b91cffff1d",
       "name": "Kıymalı Kaşarlı Kol Böreği"
      },
@@ -226,6 +229,7 @@
       "name": "Zeytinyağlı Pırasa"
      },
      {
+      "img": "dishes/b91cffff1d.jpg",
       "key": "b91cffff1d",
       "name": "Kıymalı Kaşarlı Kol Böreği"
      },
@@ -246,6 +250,7 @@
       "name": "Domates Çorbası"
      },
      {
+      "img": "dishes/d06968d090.jpg",
       "key": "d06968d090",
       "name": "Kıymalı Taze Fasülye"
      },
@@ -268,6 +273,7 @@
       "name": "Domates Çorbası"
      },
      {
+      "img": "dishes/d06968d090.jpg",
       "key": "d06968d090",
       "name": "Kıymalı Taze Fasülye"
      },
@@ -336,6 +342,7 @@
    "dinner": {
     "items": [
      {
+      "img": "dishes/e95bafe813.jpg",
       "key": "e95bafe813",
       "name": "Kıymalı Tarhana Çorbası"
      },
@@ -360,6 +367,7 @@
    "lunch": {
     "items": [
      {
+      "img": "dishes/e95bafe813.jpg",
       "key": "e95bafe813",
       "name": "Kıymalı Tarhana Çorbası"
      },
@@ -443,8 +451,8 @@
       "name": "Kremalı Sebze Çorbası"
      },
      {
-      "key": "a1d8982c56",
-      "name": "Izgara Köfte & Patates Cips"
+      "key": "5f14ab38f7",
+      "name": "Rulo Köfte"
      },
      {
       "key": "70ddba17c0",
@@ -465,8 +473,8 @@
       "name": "Kremalı Sebze Çorbası"
      },
      {
-      "key": "a1d8982c56",
-      "name": "Izgara Köfte & Patates Cips"
+      "key": "5f14ab38f7",
+      "name": "Rulo Köfte"
      },
      {
       "key": "70ddba17c0",
@@ -538,6 +546,7 @@
       "name": "Kremalı Havuç Çorbası"
      },
      {
+      "img": "dishes/4753faf927.jpg",
       "key": "4753faf927",
       "name": "Zeytinyağlı Kuru Fasülye"
      },
@@ -560,6 +569,7 @@
       "name": "Kremalı Havuç Çorbası"
      },
      {
+      "img": "dishes/4753faf927.jpg",
       "key": "4753faf927",
       "name": "Zeytinyağlı Kuru Fasülye"
      },
@@ -736,6 +746,7 @@
       "name": "Etli Nohut"
      },
      {
+      "img": "dishes/714581af8d.jpg",
       "key": "714581af8d",
       "name": "Sade Bulgur Pilavı"
      },
@@ -759,6 +770,7 @@
       "name": "Etli Nohut"
      },
      {
+      "img": "dishes/714581af8d.jpg",
       "key": "714581af8d",
       "name": "Sade Bulgur Pilavı"
      },
@@ -1012,5 +1024,5 @@
   }
  },
  "university": "sdu",
- "updated": "2026-11-10T02:38:32+03:00"
+ "updated": "2026-11-10T13:35:47+03:00"
 }

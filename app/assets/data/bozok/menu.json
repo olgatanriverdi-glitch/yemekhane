@@ -169,12 +169,11 @@
       "name": "Pirinç Pilavı"
      },
      {
-      "img": "dishes/16b5c22561.jpg",
-      "key": "16b5c22561",
-      "name": "Ayran"
+      "key": "fcfb5a87b8",
+      "name": "Meyve Nektarı"
      }
     ],
-    "kcal": 1056
+    "kcal": 1092
    }
   },
   "2026-11-11": {
@@ -444,6 +443,7 @@
       "name": "Et Tandır"
      },
      {
+      "img": "dishes/31c7d1ab49.jpg",
       "key": "31c7d1ab49",
       "name": "Ayva Tatlısı"
      },
@@ -530,5 +530,5 @@
   }
  },
  "university": "bozok",
- "updated": "2026-11-10T02:38:32+03:00"
+ "updated": "2026-11-10T13:35:47+03:00"
 }

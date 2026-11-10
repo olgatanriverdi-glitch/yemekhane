@@ -459,6 +459,7 @@
       "name": "Tavuk Burger"
      },
      {
+      "img": "dishes/ac5ae99c23.jpg",
       "kcal": 260,
       "key": "ac5ae99c23",
       "name": "Kıymalı Türlü"
@@ -638,5 +639,5 @@
   }
  },
  "university": "bartin",
- "updated": "2026-11-10T02:38:32+03:00"
+ "updated": "2026-11-10T13:35:47+03:00"
 }

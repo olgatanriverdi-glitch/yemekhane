@@ -1,137 +1,5 @@
 {
  "days": {
-  "2026-11-07": {
-   "breakfast": {
-    "items": [
-     {
-      "img": "dishes/22605468a2.jpg",
-      "key": "22605468a2",
-      "name": "Çay"
-     },
-     {
-      "img": "dishes/ebfeabaf2c.jpg",
-      "key": "ebfeabaf2c",
-      "name": "Poğaça"
-     },
-     {
-      "img": "dishes/a76e528356.jpg",
-      "key": "a76e528356",
-      "name": "Haşlanmış Yumurta"
-     },
-     {
-      "key": "824940a544",
-      "name": "Üçgen Peynir"
-     },
-     {
-      "img": "dishes/4e61a66308.jpg",
-      "key": "4e61a66308",
-      "name": "Domates"
-     },
-     {
-      "key": "f6e1b2f63d",
-      "name": "Salatalık"
-     },
-     {
-      "img": "dishes/a402a42c08.jpg",
-      "key": "a402a42c08",
-      "name": "Yeşil Zeytin"
-     },
-     {
-      "key": "2b1abf323c",
-      "name": "Tereyağ-Reçel"
-     },
-     {
-      "img": "dishes/a0edd2dd45.jpg",
-      "key": "a0edd2dd45",
-      "name": "Ekmek"
-     }
-    ]
-   },
-   "dinner": {
-    "items": [
-     {
-      "img": "dishes/726d1be46a.jpg",
-      "kcal": 138,
-      "key": "726d1be46a",
-      "name": "Mısır Çorbası"
-     },
-     {
-      "img": "dishes/fbb76e65c4.jpg",
-      "kcal": 428,
-      "key": "fbb76e65c4",
-      "name": "Etli Kuru Fasulye"
-     },
-     {
-      "kcal": 345,
-      "key": "4d4c7e8241",
-      "name": "Şeh. Pirinç Pilavı"
-     },
-     {
-      "img": "dishes/2f58be7b7a.jpg",
-      "kcal": 191,
-      "key": "2f58be7b7a",
-      "name": "Cacık"
-     }
-    ],
-    "kcal": 1102
-   },
-   "lunch": {
-    "items": [
-     {
-      "img": "dishes/726d1be46a.jpg",
-      "kcal": 138,
-      "key": "726d1be46a",
-      "name": "Mısır Çorbası"
-     },
-     {
-      "img": "dishes/fbb76e65c4.jpg",
-      "kcal": 428,
-      "key": "fbb76e65c4",
-      "name": "Etli Kuru Fasulye"
-     },
-     {
-      "kcal": 345,
-      "key": "4d4c7e8241",
-      "name": "Şeh. Pirinç Pilavı"
-     },
-     {
-      "img": "dishes/2f58be7b7a.jpg",
-      "kcal": 191,
-      "key": "2f58be7b7a",
-      "name": "Cacık"
-     }
-    ],
-    "kcal": 1102
-   },
-   "vegetarian": {
-    "items": [
-     {
-      "img": "dishes/6a4adcf24e.jpg",
-      "kcal": 260,
-      "key": "6a4adcf24e",
-      "name": "Etsiz Kuru Fasulye"
-     },
-     {
-      "kcal": 345,
-      "key": "4d4c7e8241",
-      "name": "Şeh. Pirinç Pilavı"
-     },
-     {
-      "img": "dishes/ec0228f614.jpg",
-      "kcal": 20,
-      "key": "ec0228f614",
-      "name": "Turşu"
-     },
-     {
-      "img": "dishes/ed17271d58.jpg",
-      "kcal": 130,
-      "key": "ed17271d58",
-      "name": "Meyve"
-     }
-    ],
-    "kcal": 755
-   }
-  },
   "2026-11-08": {
    "breakfast": {
     "items": [
@@ -460,9 +328,9 @@
       "name": "Tavuklu Pirinç Dilimi"
      },
      {
-      "kcal": 198,
-      "key": "988f5db491",
-      "name": "Gavurdağ Salata"
+      "kcal": 123,
+      "key": "07d67ed7f0",
+      "name": "Kış Salatası"
      },
      {
       "img": "dishes/f99fce24d6.jpg",
@@ -471,7 +339,7 @@
       "name": "Sakızlı Muhallebi"
      }
     ],
-    "kcal": 1058
+    "kcal": 983
    },
    "lunch": {
     "items": [
@@ -487,9 +355,9 @@
       "name": "Tavuklu Pirinç Dilimi"
      },
      {
-      "kcal": 198,
-      "key": "988f5db491",
-      "name": "Gavurdağ Salata"
+      "kcal": 123,
+      "key": "07d67ed7f0",
+      "name": "Kış Salatası"
      },
      {
       "img": "dishes/f99fce24d6.jpg",
@@ -498,7 +366,7 @@
       "name": "Sakızlı Muhallebi"
      }
     ],
-    "kcal": 1058
+    "kcal": 983
    },
    "vegetarian": {
     "items": [
@@ -514,9 +382,9 @@
       "name": "Pirinç Pilavı"
      },
      {
-      "kcal": 198,
-      "key": "988f5db491",
-      "name": "Gavurdağ Salata"
+      "kcal": 123,
+      "key": "07d67ed7f0",
+      "name": "Kış Salatası"
      },
      {
       "img": "dishes/f2752c06ec.jpg",
@@ -525,7 +393,7 @@
       "name": "Tahin Helvası"
      }
     ],
-    "kcal": 1226
+    "kcal": 1151
    }
   },
   "2026-11-11": {
@@ -992,12 +860,12 @@
       "name": "Meyve"
      },
      {
-      "kcal": 461,
-      "key": "0d3a83fe46",
-      "name": "Yoğ. Biber Tava"
+      "kcal": 320,
+      "key": "c16f7048b9",
+      "name": "Kuru Fasülye Piyaz"
      }
     ],
-    "kcal": 1359
+    "kcal": 1218
    },
    "lunch": {
     "items": [
@@ -1020,12 +888,12 @@
       "name": "Meyve"
      },
      {
-      "kcal": 461,
-      "key": "0d3a83fe46",
-      "name": "Yoğ. Biber Tava"
+      "kcal": 320,
+      "key": "c16f7048b9",
+      "name": "Kuru Fasülye Piyaz"
      }
     ],
-    "kcal": 1359
+    "kcal": 1218
    },
    "vegetarian": {
     "items": [
@@ -1047,12 +915,12 @@
       "name": "Meyve"
      },
      {
-      "kcal": 376,
-      "key": "d0453a59a6",
-      "name": "Soslu Biber Tava"
+      "kcal": 320,
+      "key": "c16f7048b9",
+      "name": "Kuru Fasülye Piyaz"
      }
     ],
-    "kcal": 884
+    "kcal": 828
    }
   },
   "2026-11-15": {
@@ -1124,13 +992,13 @@
       "name": "Bulgur Pilavı"
      },
      {
-      "img": "dishes/085e645d66.jpg",
-      "kcal": 172,
-      "key": "085e645d66",
-      "name": "Çoban Salatası"
+      "img": "dishes/ed17271d58.jpg",
+      "kcal": 130,
+      "key": "ed17271d58",
+      "name": "Meyve"
      }
     ],
-    "kcal": 939
+    "kcal": 897
    },
    "lunch": {
     "items": [
@@ -1153,13 +1021,13 @@
       "name": "Bulgur Pilavı"
      },
      {
-      "img": "dishes/085e645d66.jpg",
-      "kcal": 172,
-      "key": "085e645d66",
-      "name": "Çoban Salatası"
+      "img": "dishes/ed17271d58.jpg",
+      "kcal": 130,
+      "key": "ed17271d58",
+      "name": "Meyve"
      }
     ],
-    "kcal": 939
+    "kcal": 897
    },
    "vegetarian": {
     "items": [
@@ -1176,10 +1044,10 @@
       "name": "Bulgur Pilavı"
      },
      {
-      "img": "dishes/085e645d66.jpg",
-      "kcal": 172,
-      "key": "085e645d66",
-      "name": "Çoban Salatası"
+      "img": "dishes/ec0228f614.jpg",
+      "kcal": 20,
+      "key": "ec0228f614",
+      "name": "Turşu"
      },
      {
       "img": "dishes/ed17271d58.jpg",
@@ -1188,7 +1056,7 @@
       "name": "Meyve"
      }
     ],
-    "kcal": 761
+    "kcal": 609
    }
   },
   "2026-11-16": {
@@ -3030,5 +2898,5 @@
   }
  },
  "university": "hacettepe",
- "updated": "2026-11-10T02:38:32+03:00"
+ "updated": "2026-11-10T13:35:47+03:00"
 }
