@@ -1429,16 +1429,6 @@
       "name": "Zeytinyağlı Yeşil Mercimek"
      },
      {
-      "kcal": 150,
-      "key": "79ded7ea04",
-      "name": "Havuç Tarator"
-     },
-     {
-      "kcal": 145,
-      "key": "dee414b079",
-      "name": "Ekşili Fasulye"
-     },
-     {
       "img": "dishes/f9026a5320.jpg",
       "key": "f9026a5320",
       "name": "Fırın Sütlaç"
@@ -1460,6 +1450,16 @@
       "kcal": 89,
       "key": "99a67d4042",
       "name": "Mevsim Salata"
+     },
+     {
+      "kcal": 260,
+      "key": "7ddc892907",
+      "name": "Arpa Şehriye Salatası"
+     },
+     {
+      "kcal": 1,
+      "key": "f448627deb",
+      "name": "Pancar Kavurması"
      }
     ]
    }
@@ -1775,5 +1775,5 @@
   }
  },
  "university": "pamukkale",
- "updated": "2026-11-10T02:38:32+03:00"
+ "updated": "2026-11-11T00:05:40+03:00"
 }

@@ -1,37 +1,71 @@
 {
  "days": {
-  "2026-10-01": {
+  "2026-11-02": {
    "lunch": {
     "items": [
      {
-      "key": "4cc0a0aa0c",
-      "name": "Tavuklu Arpa Şehriye Çorba"
+      "img": "dishes/22dd093862.jpg",
+      "key": "22dd093862",
+      "name": "Mercimek Çorba"
      },
      {
-      "img": "dishes/890b8e3990.jpg",
-      "key": "890b8e3990",
-      "name": "Etli Nohut"
+      "img": "dishes/c632c923d8.jpg",
+      "key": "c632c923d8",
+      "name": "Kağıt Kebabı"
      },
      {
-      "key": "f44647b98b",
-      "name": "Tavuk Tandır"
+      "key": "838abe5d11",
+      "name": "Tavuk Yahni"
      },
      {
-      "key": "f21fb1d9f3",
-      "name": "Kaşarlı Mantar Sote"
+      "key": "8f58a53982",
+      "name": "Sebze Graten"
      },
      {
-      "key": "27be6c7b92",
-      "name": "Şehriyeli Pirinç Pilavı/Mercimekli Bulgur Pilavı"
+      "key": "febb4145a3",
+      "name": "Şehriyeli Pirinç Pilavı/Fırın Makarna"
      },
      {
-      "key": "f577f5af94",
-      "name": "Ayran/Rus Salatası/Pembe Üzüm"
+      "key": "dba0e4f5c0",
+      "name": "Yoğurt/Yeşil Salata/Dondurma"
      }
     ]
    }
   },
-  "2026-10-02": {
+  "2026-11-03": {
+   "lunch": {
+    "items": [
+     {
+      "img": "dishes/bf8474c8b9.jpg",
+      "key": "bf8474c8b9",
+      "name": "Ezogelin Çorba"
+     },
+     {
+      "img": "dishes/5dfc480937.jpg",
+      "key": "5dfc480937",
+      "name": "Patlıcan Musakka"
+     },
+     {
+      "key": "ae4e1762bb",
+      "name": "Meksika Tava"
+     },
+     {
+      "img": "dishes/6481a77c76.jpg",
+      "key": "6481a77c76",
+      "name": "Barbunya Pilaki"
+     },
+     {
+      "key": "78d271d06c",
+      "name": "Sade Pirinç Pilavı/Meyhane Pilavı"
+     },
+     {
+      "key": "56ccfaa877",
+      "name": "Cacık/Mevsim Salata/Pembe Sultan"
+     }
+    ]
+   }
+  },
+  "2026-11-04": {
    "lunch": {
     "items": [
      {
@@ -39,17 +73,78 @@
       "name": "Toyga Çorba"
      },
      {
-      "img": "dishes/05b304ca1b.jpg",
-      "key": "05b304ca1b",
-      "name": "Püreli Tas Kebabı"
+      "key": "4cf3506696",
+      "name": "Hamburger Köri Soslu Kremalı Menü (Fırın Elma Dilim Patates)"
      },
      {
-      "key": "aa45a091f3",
-      "name": "Tuzotlu Tavuk Kavurma"
+      "key": "7bae814a67",
+      "name": "Tavuk Sote"
      },
      {
-      "key": "c6116bf277",
-      "name": "Patates Kavurması"
+      "key": "8ac31fd6b6",
+      "name": "Zeytinyağlı Türlü"
+     },
+     {
+      "key": "9268bd03fd",
+      "name": "Şehriyeli Pirinç Pilavı/Patatesli Avcı Böreği"
+     },
+     {
+      "key": "b36c4e2c71",
+      "name": "Ayran/Köz Biberli Yeşil Salata/Fırın Sütlaç"
+     }
+    ]
+   }
+  },
+  "2026-11-05": {
+   "lunch": {
+    "items": [
+     {
+      "key": "4cc0a0aa0c",
+      "name": "Tavuklu Arpa Şehriye Çorba"
+     },
+     {
+      "key": "925fc10a06",
+      "name": "Etli Nohut Tavuk Tandır"
+     },
+     {
+      "key": "57d451ede7",
+      "name": "(Elma Dilim Patates)"
+     },
+     {
+      "key": "f21fb1d9f3",
+      "name": "Kaşarlı Mantar Sote"
+     },
+     {
+      "key": "c9ff792169",
+      "name": "Şehriyeli Pirinç Pilavı/Tel Şehriye Bulgur Pilavı"
+     },
+     {
+      "key": "1b8e07459d",
+      "name": "Ayran/Çoban Salata/Havuç Tarator"
+     }
+    ]
+   }
+  },
+  "2026-11-06": {
+   "lunch": {
+    "items": [
+     {
+      "img": "dishes/79c6c69fa3.jpg",
+      "key": "79c6c69fa3",
+      "name": "Arpa Şehriye Çorba"
+     },
+     {
+      "key": "dd97dda631",
+      "name": "Püreli Tas Tuzotlu Tavuk Kebabı"
+     },
+     {
+      "key": "9ab6923546",
+      "name": "Kavurma"
+     },
+     {
+      "img": "dishes/fed037687f.jpg",
+      "key": "fed037687f",
+      "name": "Zeytinyağlı Taze Fasülye"
      },
      {
       "key": "da623ec026",
@@ -62,7 +157,7 @@
     ]
    }
   },
-  "2026-10-05": {
+  "2026-11-09": {
    "lunch": {
     "items": [
      {
@@ -88,13 +183,13 @@
       "name": "Şehriyeli Pirinç Pilavı/Meyhane Pilavı"
      },
      {
-      "key": "0deb18f778",
-      "name": "Yoğurt/Yeşil Salata/Fırın Sütlaç"
+      "key": "053bbfd299",
+      "name": "Yoğurt/Yeşil Salata/Browni Kek"
      }
     ]
    }
   },
-  "2026-10-06": {
+  "2026-11-10": {
    "lunch": {
     "items": [
      {
@@ -103,16 +198,16 @@
       "name": "Ezogelin Çorba"
      },
      {
-      "key": "243bb9546f",
-      "name": "Kadınbudu Köfte (Püre)"
+      "key": "a36403c83a",
+      "name": "Kadınbudu Tavuklu Sultan Köfte (Püre)"
      },
      {
-      "key": "9b99060724",
-      "name": "Tavuklu Sultan Kebabı"
+      "key": "3943ec5118",
+      "name": "Kebabı"
      },
      {
-      "key": "2fd3fd8564",
-      "name": "Yaprak Sarma (Yoğurt)"
+      "key": "d36530a847",
+      "name": "Lahana Sarma (Yoğurt)"
      },
      {
       "key": "9bfe25e095",
@@ -125,7 +220,7 @@
     ]
    }
   },
-  "2026-10-07": {
+  "2026-11-11": {
    "lunch": {
     "items": [
      {
@@ -133,44 +228,8 @@
       "name": "Köylü Çorba"
      },
      {
-      "img": "dishes/c59b9eaa6e.jpg",
-      "key": "c59b9eaa6e",
-      "name": "Etli Bezelye"
-     },
-     {
-      "key": "651ecd27e7",
-      "name": "Tavuklu Bohça Kebabı"
-     },
-     {
-      "img": "dishes/fed037687f.jpg",
-      "key": "fed037687f",
-      "name": "Zeytinyağlı Taze Fasülye"
-     },
-     {
-      "key": "13da4ffd60",
-      "name": "Şehriyeli Pirinç Pilavı/Garnitürlü Bulgur Pilavı"
-     },
-     {
-      "key": "3499ecf274",
-      "name": "Yoğurt/Yeşil Salata/Fındıklı Şekerpare"
-     }
-    ]
-   }
-  },
-  "2026-10-08": {
-   "lunch": {
-    "items": [
-     {
-      "key": "f82d7c6f9c",
-      "name": "Terbiyeli Yoğurtlu Arpa Şehriye Çorbası"
-     },
-     {
-      "key": "9c0bf89391",
-      "name": "Etli Kurufasülye"
-     },
-     {
-      "key": "f44647b98b",
-      "name": "Tavuk Tandır"
+      "key": "96fdc0a21a",
+      "name": "Etli Sebzeli Tavuk Sote Bezelye"
      },
      {
       "key": "79f7ab8303",
@@ -181,27 +240,58 @@
       "name": "Şehriyeli Pirinç Pilavı/Fırın Makarna"
      },
      {
+      "key": "3499ecf274",
+      "name": "Yoğurt/Yeşil Salata/Fındıklı Şekerpare"
+     }
+    ]
+   }
+  },
+  "2026-11-12": {
+   "lunch": {
+    "items": [
+     {
+      "img": "dishes/22dd093862.jpg",
+      "key": "22dd093862",
+      "name": "Mercimek Çorba"
+     },
+     {
+      "key": "c5af6f84cd",
+      "name": "Etli Tavuk Tandır Kurufasülye Dilim Patates)"
+     },
+     {
+      "img": "dishes/c47036e360.jpg",
+      "key": "c47036e360",
+      "name": "(Elma"
+     },
+     {
+      "key": "8f58a53982",
+      "name": "Sebze Graten"
+     },
+     {
+      "key": "4453a084c1",
+      "name": "Şehriyeli Pirinç Pilavı/Meyhane Pilavı"
+     },
+     {
       "key": "9882afc291",
       "name": "Ayran/Mevsim Salata/Acılı Ezme"
      }
     ]
    }
   },
-  "2026-10-09": {
+  "2026-11-13": {
    "lunch": {
     "items": [
      {
-      "key": "c0ae586e93",
-      "name": "Domates Çorba (Kroton)"
+      "key": "a2baa5c5aa",
+      "name": "Kremalı Tavuk Suyu Çorba"
      },
      {
-      "img": "dishes/a60ac0d42a.jpg",
-      "key": "a60ac0d42a",
-      "name": "Ankara Tava"
+      "key": "0c6ebd34c5",
+      "name": "Ankara Tuzotlu Tavuk Tava"
      },
      {
-      "key": "aa45a091f3",
-      "name": "Tuzotlu Tavuk Kavurma"
+      "key": "9ab6923546",
+      "name": "Kavurma"
      },
      {
       "img": "dishes/6481a77c76.jpg",
@@ -213,13 +303,13 @@
       "name": "Şehriyeli Pirinç Pilavı/Şakşuka (Yoğurt)"
      },
      {
-      "key": "9e1b3a35e3",
-      "name": "Cacık/Çoban Salata/Browni Kurabiye"
+      "key": "b90e0fd8c1",
+      "name": "Ayran/Çoban Salata/Üzümlü Havuçlu Kek"
      }
     ]
    }
   },
-  "2026-10-12": {
+  "2026-11-16": {
    "lunch": {
     "items": [
      {
@@ -236,54 +326,21 @@
       "name": "Tavuk Yahni"
      },
      {
-      "img": "dishes/7b9bea9b00.jpg",
-      "key": "7b9bea9b00",
-      "name": "İmambayıldı"
+      "key": "003099ee9f",
+      "name": "Ispanak Graten"
      },
      {
       "key": "5831d14192",
       "name": "Şehriyeli Pirinç Pilavı/Soslu Spagetti"
      },
      {
-      "key": "f4103fd2a6",
-      "name": "Ayran/Kısır/Krem Şantili Revani"
+      "key": "3938067a97",
+      "name": "Yoğurt/Kısır/Krem Şantili Revani"
      }
     ]
    }
   },
-  "2026-10-13": {
-   "lunch": {
-    "items": [
-     {
-      "key": "c0ae586e93",
-      "name": "Domates Çorba (Kroton)"
-     },
-     {
-      "img": "dishes/712effcf50.jpg",
-      "key": "712effcf50",
-      "name": "Patlıcan Kebabı"
-     },
-     {
-      "img": "dishes/7e2a438be8.jpg",
-      "key": "7e2a438be8",
-      "name": "Tavuk Haşlama"
-     },
-     {
-      "key": "8f58a53982",
-      "name": "Sebze Graten"
-     },
-     {
-      "key": "4453a084c1",
-      "name": "Şehriyeli Pirinç Pilavı/Meyhane Pilavı"
-     },
-     {
-      "key": "3eb0e36d96",
-      "name": "Mercimek Köfte/Cacık/Yeşil Salata"
-     }
-    ]
-   }
-  },
-  "2026-10-14": {
+  "2026-11-17": {
    "lunch": {
     "items": [
      {
@@ -292,45 +349,75 @@
       "name": "Ezogelin Çorba"
      },
      {
-      "img": "dishes/415cd292c5.jpg",
-      "key": "415cd292c5",
-      "name": "Kıymalı Patates Oturtma"
+      "img": "dishes/712effcf50.jpg",
+      "key": "712effcf50",
+      "name": "Patlıcan Kebabı"
      },
      {
-      "key": "bcc3acc81d",
-      "name": "Çıtır Tavuk Baget (Elma Dilim Patates)"
+      "key": "90b7612026",
+      "name": "Lavaş Tavuk Tantuni"
      },
      {
       "key": "ff8487e71e",
       "name": "Kabak Mücver (Yoğurt)"
      },
      {
-      "key": "b02d70595b",
-      "name": "Şehriyeli Pirinç Pilavı/Patatesli Sigara Böreği"
+      "key": "4453a084c1",
+      "name": "Şehriyeli Pirinç Pilavı/Meyhane Pilavı"
      },
      {
-      "key": "abca04dcbd",
-      "name": "Yoğurt/Akdeniz Salatası/Dondurma"
+      "key": "f4fb66060f",
+      "name": "Havuç Tarator/Ayran/Yeşil Salata"
      }
     ]
    }
   },
-  "2026-10-15": {
+  "2026-11-18": {
    "lunch": {
     "items": [
      {
-      "img": "dishes/da64dc8fd8.jpg",
-      "key": "da64dc8fd8",
-      "name": "Mantar Çorbası"
+      "img": "dishes/bf8474c8b9.jpg",
+      "key": "bf8474c8b9",
+      "name": "Ezogelin Çorba"
      },
      {
-      "img": "dishes/0e0e520868.jpg",
-      "key": "0e0e520868",
-      "name": "Hünkar Beğendi"
+      "key": "0eb1d8922c",
+      "name": "Hamburger Menü (Fırın Elma Dilim Patates)"
      },
      {
-      "key": "90146a6e28",
-      "name": "Fırında Kalçalı Tavuk But (Elma Dilim Patates)"
+      "key": "ae4e1762bb",
+      "name": "Meksika Tava"
+     },
+     {
+      "key": "f21fb1d9f3",
+      "name": "Kaşarlı Mantar Sote"
+     },
+     {
+      "key": "b02d70595b",
+      "name": "Şehriyeli Pirinç Pilavı/Patatesli Sigara Böreği"
+     },
+     {
+      "key": "fc15c09f3b",
+      "name": "Ayran/Akdeniz Salatası/Dondurma"
+     }
+    ]
+   }
+  },
+  "2026-11-19": {
+   "lunch": {
+    "items": [
+     {
+      "img": "dishes/4e30e73821.jpg",
+      "key": "4e30e73821",
+      "name": "Kremalı Mantar Çorbası"
+     },
+     {
+      "key": "a479fae946",
+      "name": "Hünkar Tavuk Roti (Elma Beğendi"
+     },
+     {
+      "key": "88610cc098",
+      "name": "Dilim Patates)"
      },
      {
       "key": "79f7ab8303",
@@ -347,13 +434,12 @@
     ]
    }
   },
-  "2026-10-16": {
+  "2026-11-20": {
    "lunch": {
     "items": [
      {
-      "img": "dishes/fd6f1df9c8.jpg",
-      "key": "fd6f1df9c8",
-      "name": "Toyga Çorbası"
+      "key": "1ed74902cd",
+      "name": "Kremalı Tavuk Çorbası"
      },
      {
       "key": "1acefc1933",
@@ -374,13 +460,13 @@
       "name": "Şehriyeli Pirinç Pilavı/Garnitürlü Bulgur Pilavı"
      },
      {
-      "key": "51a905adcc",
-      "name": "Cacık/Yeşil Salata/Kadayıflı Muhallebi"
+      "key": "1c0f985853",
+      "name": "Yoğurt/Yeşil Salata/Sütlaç"
      }
     ]
    }
   },
-  "2026-10-19": {
+  "2026-11-23": {
    "lunch": {
     "items": [
      {
@@ -389,16 +475,16 @@
       "name": "Mercimek Çorba"
      },
      {
-      "key": "0eb1d8922c",
-      "name": "Hamburger Menü (Fırın Elma Dilim Patates)"
+      "key": "adc64be235",
+      "name": "Etli Nohut Tuzotlu"
      },
      {
       "key": "f44c8a2284",
       "name": "Tavuk Kavurma"
      },
      {
-      "key": "8ac31fd6b6",
-      "name": "Zeytinyağlı Türlü"
+      "key": "944d067a90",
+      "name": "Zeytinyağlı Türlü %0"
      },
      {
       "key": "1d3b92cd36",
@@ -411,26 +497,24 @@
     ]
    }
   },
-  "2026-10-20": {
+  "2026-11-24": {
    "lunch": {
     "items": [
      {
-      "img": "dishes/79c6c69fa3.jpg",
-      "key": "79c6c69fa3",
-      "name": "Arpa Şehriye Çorba"
+      "key": "f9e3094533",
+      "name": "Toyga Çorba"
      },
      {
-      "img": "dishes/5f6d2c8223.jpg",
-      "key": "5f6d2c8223",
-      "name": "Püreli Hasanpaşa Köfte"
+      "key": "1e3a037b1a",
+      "name": "Etli Güveç Lavaş Tavuk Döner (Fırın Elma Dilim Domates,Biber)"
      },
      {
-      "key": "67d4cf6b38",
-      "name": "Sebzeli Tavuk Sote"
+      "key": "e189a73e74",
+      "name": "Patates"
      },
      {
-      "key": "c6116bf277",
-      "name": "Patates Kavurması"
+      "key": "ff8487e71e",
+      "name": "Kabak Mücver (Yoğurt)"
      },
      {
       "key": "4453a084c1",
@@ -443,37 +527,7 @@
     ]
    }
   },
-  "2026-10-21": {
-   "lunch": {
-    "items": [
-     {
-      "key": "1ed74902cd",
-      "name": "Kremalı Tavuk Çorbası"
-     },
-     {
-      "key": "f78936a6c7",
-      "name": "Sultan Kebabı"
-     },
-     {
-      "key": "652da4ae3d",
-      "name": "Tavuk Roti (Elma Dilim Patates)"
-     },
-     {
-      "key": "8f58a53982",
-      "name": "Sebze Graten"
-     },
-     {
-      "key": "b15aad9c37",
-      "name": "Şehriyeli Pirinç Pilavı/Patlıcanlı Avcı Böreği"
-     },
-     {
-      "key": "005f3e49d3",
-      "name": "Ayran/Yeşil Salata/Browni Kek"
-     }
-    ]
-   }
-  },
-  "2026-10-22": {
+  "2026-11-25": {
    "lunch": {
     "items": [
      {
@@ -482,52 +536,79 @@
       "name": "Ezogelin Çorba"
      },
      {
-      "img": "dishes/890b8e3990.jpg",
-      "key": "890b8e3990",
-      "name": "Etli Nohut"
+      "key": "f801b9ab2b",
+      "name": "Elbasan Sebzeli Tavuk Sote Tava"
      },
      {
-      "key": "a50b67e94d",
-      "name": "Lavaş Tavuk Döner (Fırın Elma Dilim Patates, Domates,Biber)"
+      "img": "dishes/fed037687f.jpg",
+      "key": "fed037687f",
+      "name": "Zeytinyağlı Taze Fasülye"
      },
      {
-      "key": "ff8487e71e",
-      "name": "Kabak Mücver (Yoğurt)"
+      "key": "09f2356fb9",
+      "name": "Şehriyeli Pirinç Pilavı/Ispanaklı Peynirli Gül Böreği"
      },
      {
-      "key": "f1889586d9",
-      "name": "Garnitürlü Pirinç Pilavı/Soslu Spagetti"
-     },
-     {
-      "key": "5e5f3369e1",
-      "name": "Ayran/Köz Kapya Biberli Salata/Rus Salatası"
+      "key": "245298e81f",
+      "name": "Ayran/Yeşil Salata/Etimek Tatlısı"
      }
     ]
    }
   },
-  "2026-10-23": {
+  "2026-11-26": {
    "lunch": {
     "items": [
      {
-      "key": "c0ae586e93",
-      "name": "Domates Çorba (Kroton)"
+      "img": "dishes/79c6c69fa3.jpg",
+      "key": "79c6c69fa3",
+      "name": "Arpa Şehriye Çorba"
      },
      {
-      "img": "dishes/05403cc507.jpg",
-      "key": "05403cc507",
-      "name": "Etli Güveç"
+      "key": "1b0905e4be",
+      "name": "Patlıcan Lavaş Musakka"
      },
      {
-      "key": "90b7612026",
-      "name": "Lavaş Tavuk Tantuni"
+      "key": "5c2847c7c1",
+      "name": "Tavuk T Antuni"
      },
      {
       "key": "f21fb1d9f3",
       "name": "Kaşarlı Mantar Sote"
      },
      {
-      "key": "dde52688d9",
-      "name": "Şehriyeli Pirinç Pilavı/Sebzeli Bulgur Pilavı"
+      "key": "134534f2d4",
+      "name": "Garnitürlü Pirinç Pilavı/Domatesli Bulgur Pilavı"
+     },
+     {
+      "key": "eed1e3b741",
+      "name": "Yoğurt/Köz Kapya Biberli Salata/Meyve"
+     }
+    ]
+   }
+  },
+  "2026-11-27": {
+   "lunch": {
+    "items": [
+     {
+      "key": "7e85f5098f",
+      "name": "Köylü Çorba"
+     },
+     {
+      "img": "dishes/694df91308.jpg",
+      "key": "694df91308",
+      "name": "İzmir Köfte"
+     },
+     {
+      "key": "75d6adb06b",
+      "name": "Tavuk Tandır (Püre)"
+     },
+     {
+      "key": "d36530a847",
+      "name": "Lahana Sarma (Yoğurt)"
+     },
+     {
+      "key": "febb4145a3",
+      "name": "Şehriyeli Pirinç Pilavı/Fırın Makarna"
      },
      {
       "key": "4995cc7bae",
@@ -536,7 +617,7 @@
     ]
    }
   },
-  "2026-10-26": {
+  "2026-11-30": {
    "lunch": {
     "items": [
      {
@@ -545,18 +626,17 @@
       "name": "Mercimek Çorba"
      },
      {
-      "img": "dishes/5dfc480937.jpg",
-      "key": "5dfc480937",
-      "name": "Patlıcan Musakka"
+      "key": "dca5700aad",
+      "name": "Soslu Misket Köfte"
      },
      {
-      "key": "a3d3a4c501",
-      "name": "Köri Soslu Kremalı Tavuk Sote"
+      "img": "dishes/9bd36390ba.jpg",
+      "key": "9bd36390ba",
+      "name": "Tavuk Fajita"
      },
      {
-      "img": "dishes/fed037687f.jpg",
-      "key": "fed037687f",
-      "name": "Zeytinyağlı Taze Fasülye"
+      "key": "8f58a53982",
+      "name": "Sebze Graten"
      },
      {
       "key": "4453a084c1",
@@ -568,109 +648,8 @@
      }
     ]
    }
-  },
-  "2026-10-27": {
-   "lunch": {
-    "items": [
-     {
-      "key": "77c0334529",
-      "name": "Domates Çorbası (Kroton)"
-     },
-     {
-      "img": "dishes/a4afe0f46b.jpg",
-      "key": "a4afe0f46b",
-      "name": "Sebzeli Kebap"
-     },
-     {
-      "img": "dishes/9bd36390ba.jpg",
-      "key": "9bd36390ba",
-      "name": "Tavuk Fajita"
-     },
-     {
-      "key": "c6116bf277",
-      "name": "Patates Kavurması"
-     },
-     {
-      "key": "b028fe51eb",
-      "name": "Garnitürlü Pirinç Pilavı/Fırın Makarna"
-     },
-     {
-      "key": "d1f192aca8",
-      "name": "Ayran/Mevsim Salata/Havuç Tarator"
-     }
-    ]
-   }
-  },
-  "2026-10-28": {
-   "lunch": {
-    "items": [
-     {
-      "img": "dishes/bf8474c8b9.jpg",
-      "key": "bf8474c8b9",
-      "name": "Ezogelin Çorba"
-     },
-     {
-      "key": "9c0bf89391",
-      "name": "Etli Kurufasülye"
-     },
-     {
-      "key": "6793479cb0",
-      "name": "Tavuk Nugget (Elma Dilim Patates, Domates)"
-     },
-     {
-      "key": "8ac31fd6b6",
-      "name": "Zeytinyağlı Türlü"
-     },
-     {
-      "key": "dde52688d9",
-      "name": "Şehriyeli Pirinç Pilavı/Sebzeli Bulgur Pilavı"
-     },
-     {
-      "key": "948fc2fc35",
-      "name": "Cacık/Köz Biberli Yeşil Salata/Lokma Tatlısı"
-     }
-    ]
-   }
-  },
-  "2026-10-29": {
-   "lunch": {
-    "items": [],
-    "note": "Resmi tatil"
-   }
-  },
-  "2026-10-30": {
-   "lunch": {
-    "items": [
-     {
-      "img": "dishes/79c6c69fa3.jpg",
-      "key": "79c6c69fa3",
-      "name": "Arpa Şehriye Çorba"
-     },
-     {
-      "key": "a0a7330732",
-      "name": "Et Döner (Domates, Biber, Elma Dilim Patates)"
-     },
-     {
-      "key": "aa45a091f3",
-      "name": "Tuzotlu Tavuk Kavurma"
-     },
-     {
-      "img": "dishes/6481a77c76.jpg",
-      "key": "6481a77c76",
-      "name": "Barbunya Pilaki"
-     },
-     {
-      "key": "4453a084c1",
-      "name": "Şehriyeli Pirinç Pilavı/Meyhane Pilavı"
-     },
-     {
-      "key": "a5542344ff",
-      "name": "Ayran/Köz Biberli Yeşil Salata/Supangle"
-     }
-    ]
-   }
   }
  },
  "university": "odu",
- "updated": "2026-11-01T18:36:07+03:00"
+ "updated": "2026-11-11T00:05:40+03:00"
 }

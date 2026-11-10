@@ -247,6 +247,7 @@
       "name": "Pırasa"
      },
      {
+      "img": "dishes/255dbf418d.jpg",
       "kcal": 250,
       "key": "255dbf418d",
       "name": "Kıymalı Tepsi Böreği"
@@ -390,6 +391,7 @@
       "name": "Hedik Çorba"
      },
      {
+      "img": "dishes/6fcab87a08.jpg",
       "kcal": 330,
       "key": "6fcab87a08",
       "name": "Balık"
@@ -548,6 +550,7 @@
       "name": "Erişte"
      },
      {
+      "img": "dishes/4f16d3bd0c.jpg",
       "kcal": 70,
       "key": "4f16d3bd0c",
       "name": "Brokoli Salata"
@@ -587,5 +590,5 @@
   }
  },
  "university": "aku",
- "updated": "2026-11-10T13:35:47+03:00"
+ "updated": "2026-11-11T00:05:40+03:00"
 }

@@ -672,8 +672,32 @@
      }
     ]
    }
+  },
+  "2026-11-12": {
+   "lunch": {
+    "items": [
+     {
+      "img": "dishes/41393d3b18.jpg",
+      "key": "41393d3b18",
+      "name": "Kremalı Mantar Çorba"
+     },
+     {
+      "key": "153994bca2",
+      "name": "Et Sote"
+     },
+     {
+      "img": "dishes/c1cd803af6.jpg",
+      "key": "c1cd803af6",
+      "name": "Acılı Bulgur Pilavı"
+     },
+     {
+      "key": "92d8a6cea4",
+      "name": "Marul Salata"
+     }
+    ]
+   }
   }
  },
  "university": "atauni",
- "updated": "2026-11-10T13:35:47+03:00"
+ "updated": "2026-11-11T00:05:40+03:00"
 }

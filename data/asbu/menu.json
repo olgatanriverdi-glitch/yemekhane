@@ -1547,8 +1547,78 @@
      }
     ]
    }
+  },
+  "2026-11-11": {
+   "lunch": {
+    "items": [
+     {
+      "kcal": 170,
+      "key": "7a3b3546ba",
+      "name": "Alaca Çorba"
+     },
+     {
+      "img": "dishes/a60ac0d42a.jpg",
+      "kcal": 403,
+      "key": "a60ac0d42a",
+      "name": "Ankara Tava"
+     },
+     {
+      "img": "dishes/99a67d4042.jpg",
+      "kcal": 55,
+      "key": "99a67d4042",
+      "name": "Mevsim Salata"
+     },
+     {
+      "img": "dishes/16b5c22561.jpg",
+      "kcal": 152,
+      "key": "16b5c22561",
+      "name": "Ayran"
+     },
+     {
+      "img": "dishes/0452fb6092.jpg",
+      "kcal": 300,
+      "key": "0452fb6092",
+      "name": "Havuç Dilimi Baklava"
+     }
+    ],
+    "kcal": 1080
+   },
+   "vegetarian": {
+    "items": [
+     {
+      "kcal": 170,
+      "key": "7a3b3546ba",
+      "name": "Alaca Çorba"
+     },
+     {
+      "img": "dishes/ca947b0d72.jpg",
+      "kcal": 75,
+      "key": "ca947b0d72",
+      "name": "Ispanak Yemeği"
+     },
+     {
+      "img": "dishes/99a67d4042.jpg",
+      "kcal": 55,
+      "key": "99a67d4042",
+      "name": "Mevsim Salata"
+     },
+     {
+      "img": "dishes/16b5c22561.jpg",
+      "kcal": 152,
+      "key": "16b5c22561",
+      "name": "Ayran"
+     },
+     {
+      "img": "dishes/0452fb6092.jpg",
+      "kcal": 300,
+      "key": "0452fb6092",
+      "name": "Havuç Dilimi Baklava"
+     }
+    ],
+    "kcal": 752
+   }
   }
  },
  "university": "asbu",
- "updated": "2026-11-10T13:35:47+03:00"
+ "updated": "2026-11-11T00:05:40+03:00"
 }

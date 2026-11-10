@@ -300,33 +300,9 @@
    "lunch": {
     "items": [
      {
-      "key": "eb942d3c5d",
-      "name": "Köylüm Çorbası"
-     },
-     {
-      "key": "f7aba87974",
-      "name": "Izgara Tavuk"
-     },
-     {
-      "key": "8636bfbc0a",
-      "name": "Pirinç Pilavı"
-     },
-     {
-      "img": "dishes/16b5c22561.jpg",
-      "key": "16b5c22561",
-      "name": "Ayran"
-     }
-    ],
-    "kcal": 990
-   }
-  },
-  "2026-11-13": {
-   "lunch": {
-    "items": [
-     {
-      "img": "dishes/e73b79f7e6.jpg",
-      "key": "e73b79f7e6",
-      "name": "Tutmaç Çorbası"
+      "img": "dishes/726d1be46a.jpg",
+      "key": "726d1be46a",
+      "name": "Mısır Çorbası"
      },
      {
       "img": "dishes/c7cadac826.jpg",
@@ -339,15 +315,40 @@
       "name": "Bulgur Pilavı"
      },
      {
+      "img": "dishes/2f58be7b7a.jpg",
+      "key": "2f58be7b7a",
+      "name": "Cacık"
+     }
+    ],
+    "kcal": 860
+   }
+  },
+  "2026-11-13": {
+   "lunch": {
+    "items": [
+     {
+      "img": "dishes/0955218757.jpg",
+      "key": "0955218757",
+      "name": "Mercimek Çorbası"
+     },
+     {
+      "key": "f7aba87974",
+      "name": "Izgara Tavuk"
+     },
+     {
+      "key": "8636bfbc0a",
+      "name": "Pirinç Pilavı"
+     },
+     {
       "img": "dishes/92485508df.jpg",
       "key": "92485508df",
       "name": "Tatlı"
      }
     ],
-    "kcal": 1098
+    "kcal": 1187
    }
   }
  },
  "university": "nevsehir",
- "updated": "2026-11-10T13:35:47+03:00"
+ "updated": "2026-11-11T00:05:40+03:00"
 }

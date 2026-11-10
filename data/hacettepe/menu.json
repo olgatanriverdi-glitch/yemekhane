@@ -1121,9 +1121,10 @@
       "name": "İsveç Köfte"
      },
      {
-      "kcal": 123,
-      "key": "3d0aa0d2b1",
-      "name": "Karışık Lahana Salata"
+      "img": "dishes/904e9c87e9.jpg",
+      "kcal": 674,
+      "key": "904e9c87e9",
+      "name": "Şekerpare"
      },
      {
       "img": "dishes/16b5c22561.jpg",
@@ -1132,7 +1133,7 @@
       "name": "Ayran"
      }
     ],
-    "kcal": 1367
+    "kcal": 1918
    },
    "lunch": {
     "items": [
@@ -1148,9 +1149,10 @@
       "name": "İsveç Köfte"
      },
      {
-      "kcal": 123,
-      "key": "3d0aa0d2b1",
-      "name": "Karışık Lahana Salata"
+      "img": "dishes/904e9c87e9.jpg",
+      "kcal": 674,
+      "key": "904e9c87e9",
+      "name": "Şekerpare"
      },
      {
       "img": "dishes/16b5c22561.jpg",
@@ -1159,7 +1161,7 @@
       "name": "Ayran"
      }
     ],
-    "kcal": 1367
+    "kcal": 1918
    },
    "vegetarian": {
     "items": [
@@ -1175,9 +1177,10 @@
       "name": "Etsiz Kavata Dolma"
      },
      {
-      "kcal": 123,
-      "key": "3d0aa0d2b1",
-      "name": "Karışık Lahana Salata"
+      "img": "dishes/f2752c06ec.jpg",
+      "kcal": 425,
+      "key": "f2752c06ec",
+      "name": "Tahin Helvası"
      },
      {
       "img": "dishes/ed17271d58.jpg",
@@ -1186,7 +1189,7 @@
       "name": "Meyve"
      }
     ],
-    "kcal": 773
+    "kcal": 1075
    }
   },
   "2026-11-17": {
@@ -1655,13 +1658,13 @@
       "name": "Zeytinyağlı Brokoli Pilaki"
      },
      {
-      "img": "dishes/904e9c87e9.jpg",
-      "kcal": 674,
-      "key": "904e9c87e9",
-      "name": "Şekerpare"
+      "img": "dishes/1087b76fa2.jpg",
+      "kcal": 527,
+      "key": "1087b76fa2",
+      "name": "Revani"
      }
     ],
-    "kcal": 1249
+    "kcal": 1102
    },
    "lunch": {
     "items": [
@@ -1684,13 +1687,13 @@
       "name": "Zeytinyağlı Brokoli Pilaki"
      },
      {
-      "img": "dishes/904e9c87e9.jpg",
-      "kcal": 674,
-      "key": "904e9c87e9",
-      "name": "Şekerpare"
+      "img": "dishes/1087b76fa2.jpg",
+      "kcal": 527,
+      "key": "1087b76fa2",
+      "name": "Revani"
      }
     ],
-    "kcal": 1249
+    "kcal": 1102
    },
    "vegetarian": {
     "items": [
@@ -2898,5 +2901,5 @@
   }
  },
  "university": "hacettepe",
- "updated": "2026-11-10T13:35:47+03:00"
+ "updated": "2026-11-11T00:05:40+03:00"
 }

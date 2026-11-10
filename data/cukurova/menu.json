@@ -507,43 +507,6 @@
     "kcal": 951
    }
   },
-  "2026-11-10": {
-   "lunch": {
-    "items": [
-     {
-      "img": "dishes/fbb76e65c4.jpg",
-      "kcal": 340,
-      "key": "fbb76e65c4",
-      "name": "Etli Kuru Fasulye"
-     },
-     {
-      "img": "dishes/efb86b31df.jpg",
-      "kcal": 267,
-      "key": "efb86b31df",
-      "name": "Kuru Fasülye (Etsiz)"
-     },
-     {
-      "img": "dishes/2eb8f7ef87.jpg",
-      "kcal": 1,
-      "key": "2eb8f7ef87",
-      "name": "Arpa Şehriyeli Bulgur Pilavı"
-     },
-     {
-      "img": "dishes/2f58be7b7a.jpg",
-      "kcal": 97,
-      "key": "2f58be7b7a",
-      "name": "Cacık"
-     },
-     {
-      "img": "dishes/a24579c282.jpg",
-      "kcal": 125,
-      "key": "a24579c282",
-      "name": "Meyve (Mandalina)"
-     }
-    ],
-    "kcal": 830
-   }
-  },
   "2026-11-11": {
    "lunch": {
     "items": [
@@ -551,6 +514,12 @@
       "kcal": 620,
       "key": "a17bb22a38",
       "name": "Soslu Fırın Baget"
+     },
+     {
+      "img": "dishes/bcafe51e20.jpg",
+      "kcal": 362,
+      "key": "bcafe51e20",
+      "name": "Peynirli Börek"
      },
      {
       "kcal": 377,
@@ -568,7 +537,7 @@
       "name": "Salatalık Turşusu"
      }
     ],
-    "kcal": 1154
+    "kcal": 1516
    }
   },
   "2026-11-12": {
@@ -662,5 +631,5 @@
   }
  },
  "university": "cukurova",
- "updated": "2026-11-10T13:35:47+03:00"
+ "updated": "2026-11-11T00:05:40+03:00"
 }

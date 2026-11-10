@@ -1,30 +1,5 @@
 {
  "days": {
-  "2026-11-10": {
-   "lunch": {
-    "items": [
-     {
-      "img": "dishes/0955218757.jpg",
-      "key": "0955218757",
-      "name": "Mercimek Çorbası"
-     },
-     {
-      "img": "dishes/2f7edb1f03.jpg",
-      "key": "2f7edb1f03",
-      "name": "Terbiyeli Köfte"
-     },
-     {
-      "img": "dishes/18ccb4d264.jpg",
-      "key": "18ccb4d264",
-      "name": "Soslu Makarna"
-     },
-     {
-      "key": "b947faf326",
-      "name": "Yeşil Salata"
-     }
-    ]
-   }
-  },
   "2026-11-11": {
    "lunch": {
     "items": [
@@ -348,6 +323,7 @@
       "name": "Tarhana Çorbası"
      },
      {
+      "img": "dishes/10d0ff108e.jpg",
       "key": "10d0ff108e",
       "name": "Tavuklu Nohut"
      },
@@ -365,5 +341,5 @@
   }
  },
  "university": "mugla",
- "updated": "2026-11-10T13:35:47+03:00"
+ "updated": "2026-11-11T00:05:40+03:00"
 }

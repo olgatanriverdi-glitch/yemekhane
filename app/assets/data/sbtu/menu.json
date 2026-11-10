@@ -260,15 +260,15 @@
     "items": [
      {
       "img": "dishes/0955218757.jpg",
-      "kcal": 85,
+      "kcal": 150,
       "key": "0955218757",
       "name": "Mercimek Çorbası"
      },
      {
-      "img": "dishes/078c778ebe.jpg",
-      "kcal": 414,
-      "key": "078c778ebe",
-      "name": "Et Döner"
+      "img": "dishes/d151de6ce3.jpg",
+      "kcal": 340,
+      "key": "d151de6ce3",
+      "name": "Çoban Kavurma"
      },
      {
       "kcal": 283,
@@ -276,12 +276,8 @@
       "name": "Pirinç Pilavı"
      },
      {
-      "img": "dishes/99a67d4042.jpg",
-      "key": "99a67d4042",
-      "name": "Mevsim Salata"
-     },
-     {
       "img": "dishes/16b5c22561.jpg",
+      "kcal": 80,
       "key": "16b5c22561",
       "name": "Ayran"
      },
@@ -290,7 +286,8 @@
       "key": "df74becef0",
       "name": "Roll Ekmek"
      }
-    ]
+    ],
+    "kcal": 981
    }
   },
   "2026-11-12": {
@@ -513,10 +510,10 @@
       "name": "Tarhana Çorbası"
      },
      {
-      "img": "dishes/d151de6ce3.jpg",
-      "kcal": 340,
-      "key": "d151de6ce3",
-      "name": "Çoban Kavurma"
+      "img": "dishes/078c778ebe.jpg",
+      "kcal": 414,
+      "key": "078c778ebe",
+      "name": "Et Döner"
      },
      {
       "kcal": 283,
@@ -524,8 +521,12 @@
       "name": "Pirinç Pilavı"
      },
      {
+      "img": "dishes/99a67d4042.jpg",
+      "key": "99a67d4042",
+      "name": "Mevsim Salata"
+     },
+     {
       "img": "dishes/16b5c22561.jpg",
-      "kcal": 80,
       "key": "16b5c22561",
       "name": "Ayran"
      },
@@ -534,8 +535,7 @@
       "key": "df74becef0",
       "name": "Roll Ekmek"
      }
-    ],
-    "kcal": 981
+    ]
    }
   },
   "2026-11-23": {
@@ -751,5 +751,5 @@
   }
  },
  "university": "sbtu",
- "updated": "2026-11-10T13:35:47+03:00"
+ "updated": "2026-11-11T00:05:40+03:00"
 }

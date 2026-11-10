@@ -840,6 +840,7 @@
       "name": "Alaromen Çorbası"
      },
      {
+      "img": "dishes/295e9df934.jpg",
       "key": "295e9df934",
       "name": "Piliç Külbastı"
      },
@@ -862,6 +863,7 @@
       "name": "Alaromen Çorbası"
      },
      {
+      "img": "dishes/295e9df934.jpg",
       "key": "295e9df934",
       "name": "Piliç Külbastı"
      },
@@ -894,6 +896,7 @@
       "name": "Arpa Şehriyeli Pirinç Pilavı"
      },
      {
+      "img": "dishes/c6b59efc12.jpg",
       "key": "c6b59efc12",
       "name": "Sütlü İncir Tatlısı"
      }
@@ -915,6 +918,7 @@
       "name": "Arpa Şehriyeli Pirinç Pilavı"
      },
      {
+      "img": "dishes/c6b59efc12.jpg",
       "key": "c6b59efc12",
       "name": "Sütlü İncir Tatlısı"
      }
@@ -1024,5 +1028,5 @@
   }
  },
  "university": "sdu",
- "updated": "2026-11-10T13:35:47+03:00"
+ "updated": "2026-11-11T00:05:40+03:00"
 }

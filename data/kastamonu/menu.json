@@ -1,35 +1,5 @@
 {
  "days": {
-  "2026-11-10": {
-   "lunch": {
-    "items": [
-     {
-      "img": "dishes/154f53ef81.jpg",
-      "kcal": 120,
-      "key": "154f53ef81",
-      "name": "Düğün Çorba"
-     },
-     {
-      "img": "dishes/890b8e3990.jpg",
-      "kcal": 246,
-      "key": "890b8e3990",
-      "name": "Etli Nohut"
-     },
-     {
-      "kcal": 247,
-      "key": "8636bfbc0a",
-      "name": "Pirinç Pilavı"
-     },
-     {
-      "img": "dishes/99a67d4042.jpg",
-      "kcal": 30,
-      "key": "99a67d4042",
-      "name": "Mevsim Salata"
-     }
-    ],
-    "kcal": 643
-   }
-  },
   "2026-11-11": {
    "lunch": {
     "items": [
@@ -427,5 +397,5 @@
   }
  },
  "university": "kastamonu",
- "updated": "2026-11-10T13:35:47+03:00"
+ "updated": "2026-11-11T00:05:40+03:00"
 }

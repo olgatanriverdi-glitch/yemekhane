@@ -93,6 +93,7 @@
    "lunch": {
     "items": [
      {
+      "img": "dishes/0031f3b1cf.jpg",
       "key": "0031f3b1cf",
       "name": "Beyran Çorba"
      },
@@ -244,6 +245,7 @@
       "name": "Yayla Çorba"
      },
      {
+      "img": "dishes/ec4e2bf26d.jpg",
       "key": "ec4e2bf26d",
       "name": "Çökertme Kebabı Tavuklu"
      },
@@ -610,5 +612,5 @@
   }
  },
  "university": "duzce",
- "updated": "2026-11-10T13:35:47+03:00"
+ "updated": "2026-11-11T00:05:40+03:00"
 }

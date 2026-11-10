@@ -94,6 +94,7 @@
    "lunch": {
     "items": [
      {
+      "img": "dishes/b4d3033eb1.jpg",
       "kcal": 218,
       "key": "b4d3033eb1",
       "name": "Ayranaşı Çorba"
@@ -246,6 +247,7 @@
       "name": "Yoğurtlu Erişte Çorba"
      },
      {
+      "img": "dishes/73cbb656ad.jpg",
       "kcal": 300,
       "key": "73cbb656ad",
       "name": "Tavuk Pirzola /Patates"
@@ -296,5 +298,5 @@
   }
  },
  "university": "yyu",
- "updated": "2026-11-10T13:35:47+03:00"
+ "updated": "2026-11-11T00:05:40+03:00"
 }
