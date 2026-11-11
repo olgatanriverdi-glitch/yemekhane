@@ -114,9 +114,10 @@
       "name": "Patates Musakka"
      },
      {
-      "kcal": 280,
-      "key": "34afbbeab3",
-      "name": "Tavuk Rosto - Püre"
+      "img": "dishes/fbb76e65c4.jpg",
+      "kcal": 320,
+      "key": "fbb76e65c4",
+      "name": "Etli Kuru Fasulye"
      },
      {
       "kcal": 290,
@@ -146,10 +147,9 @@
       "name": "Sebzeli Et Sote"
      },
      {
-      "img": "dishes/db1c09888e.jpg",
-      "kcal": 320,
-      "key": "db1c09888e",
-      "name": "Saray Köfte"
+      "kcal": 280,
+      "key": "34afbbeab3",
+      "name": "Tavuk Rosto - Püre"
      },
      {
       "img": "dishes/25b07cf14e.jpg",
@@ -278,6 +278,7 @@
    "lunch": {
     "items": [
      {
+      "img": "dishes/84a1e25e70.jpg",
       "kcal": 320,
       "key": "84a1e25e70",
       "name": "İnegöl Köfte"
@@ -311,6 +312,7 @@
    "lunch": {
     "items": [
      {
+      "img": "dishes/6dfd7640b6.jpg",
       "kcal": 320,
       "key": "6dfd7640b6",
       "name": "Boranı"
@@ -457,6 +459,7 @@
       "name": "Tavuk Haşlama"
      },
      {
+      "img": "dishes/132e022280.jpg",
       "kcal": 290,
       "key": "132e022280",
       "name": "Pey. Makarna"
@@ -548,5 +551,5 @@
   }
  },
  "university": "harran",
- "updated": "2026-11-11T00:05:40+03:00"
+ "updated": "2026-11-11T12:58:45+03:00"
 }

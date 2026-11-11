@@ -1,67 +1,5 @@
 {
  "days": {
-  "2026-11-09": {
-   "dinner": {
-    "items": [
-     {
-      "img": "dishes/78d4dad707.jpg",
-      "key": "78d4dad707",
-      "name": "Tarhana Çorbası"
-     },
-     {
-      "key": "8bef5e2efa",
-      "name": "Hamburger Köfte"
-     },
-     {
-      "img": "dishes/7996503754.jpg",
-      "key": "7996503754",
-      "name": "Peynirli Makarna"
-     },
-     {
-      "img": "dishes/321b4fe3c9.jpg",
-      "key": "321b4fe3c9",
-      "name": "Mevsim Salatası"
-     },
-     {
-      "img": "dishes/9814c6dc58.jpg",
-      "key": "9814c6dc58",
-      "name": "Mandalina"
-     },
-     {
-      "img": "dishes/65dfdea3d4.jpg",
-      "key": "65dfdea3d4",
-      "name": "Garnitür Patates Püresi"
-     }
-    ]
-   },
-   "lunch": {
-    "items": [
-     {
-      "key": "fce91b9059",
-      "name": "Alaca Çorbası"
-     },
-     {
-      "img": "dishes/025eacfe0c.jpg",
-      "key": "025eacfe0c",
-      "name": "Etli Taze Fasulye"
-     },
-     {
-      "key": "f03644afc2",
-      "name": "Melek Pilavı"
-     },
-     {
-      "img": "dishes/7f43705206.jpg",
-      "key": "7f43705206",
-      "name": "Osmanlı Tulumba Tatlısı"
-     },
-     {
-      "img": "dishes/2f58be7b7a.jpg",
-      "key": "2f58be7b7a",
-      "name": "Cacık"
-     }
-    ]
-   }
-  },
   "2026-11-10": {
    "dinner": {
     "items": [
@@ -851,5 +789,5 @@
   }
  },
  "university": "itu",
- "updated": "2026-11-11T00:05:40+03:00"
+ "updated": "2026-11-11T12:58:45+03:00"
 }

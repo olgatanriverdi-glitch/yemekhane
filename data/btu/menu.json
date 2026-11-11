@@ -9,6 +9,7 @@
       "name": "Mercimek Çorba"
      },
      {
+      "img": "dishes/0514e1327b.jpg",
       "key": "0514e1327b",
       "name": "Tavuk Döner/Taze Fasülye"
      },
@@ -37,6 +38,7 @@
       "name": "Domates Çorba (Krotonlu)"
      },
      {
+      "img": "dishes/5908e0b9f0.jpg",
       "key": "5908e0b9f0",
       "name": "Ekşili Köfte/Mantar Sote"
      },
@@ -51,6 +53,7 @@
       "name": "Şekerpare"
      },
      {
+      "img": "dishes/4f16d3bd0c.jpg",
       "key": "4f16d3bd0c",
       "name": "Brokoli Salata"
      }
@@ -67,6 +70,7 @@
       "name": "Tavuk Suyu Çorba"
      },
      {
+      "img": "dishes/93b31e997d.jpg",
       "key": "93b31e997d",
       "name": "Falafel/Yoğurtlu Garnitürlü Sos"
      },
@@ -91,6 +95,7 @@
       "name": "Tarhana Çorba"
      },
      {
+      "img": "dishes/72b33a2b05.jpg",
       "key": "72b33a2b05",
       "name": "Arnavut Ciğeri/Mücver"
      },
@@ -414,6 +419,7 @@
       "name": "Ayran"
      },
      {
+      "img": "dishes/4f16d3bd0c.jpg",
       "key": "4f16d3bd0c",
       "name": "Brokoli Salata"
      }
@@ -592,5 +598,5 @@
   }
  },
  "university": "btu",
- "updated": "2026-11-11T00:05:40+03:00"
+ "updated": "2026-11-11T12:58:45+03:00"
 }

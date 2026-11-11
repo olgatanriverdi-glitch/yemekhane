@@ -24,13 +24,14 @@
   "2026-11-05": "2d412b1b6c47",
   "2026-11-06": "7b746a136ea2",
   "2026-11-09": "a746873f05e3",
-  "2026-11-10": "4efd187fede8"
+  "2026-11-10": "4efd187fede8",
+  "2026-11-11": "fb6cb3d76923"
  },
  "main": {
   "025eacfe0c": "8f579a24b2f7",
   "04aa480c87": "e12d07f13338",
   "0d239a15f0": "41ca78a13cd7",
-  "1da7bd5f6e": "067df1baaa89",
+  "1da7bd5f6e": "fb6cb3d76923",
   "211964d15e": "41a246d21c3d",
   "40082e8861": "cf00a176342e",
   "495c83bde2": "c89c294984ba",
@@ -310,6 +311,16 @@
     "Etli Kuru Fasulye",
     "Şehriyeli Pirinç Pilavı/Turşu",
     "Love Bombıng"
+   ]
+  },
+  "fb6cb3d76923": {
+   "added": "2026-11-11",
+   "hash": "75aa29b15cc48bb906f347163f27767cb4dc504d",
+   "items": [
+    "Köylüm Çorba",
+    "İçli Köfte",
+    "Sebze Graten",
+    "Meyve"
    ]
   }
  }

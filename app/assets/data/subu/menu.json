@@ -82,6 +82,7 @@
       "name": "Patlıcan Musakka"
      },
      {
+      "img": "dishes/bedd0ba0e7.jpg",
       "key": "bedd0ba0e7",
       "name": "İmam Bayıldı (Etsiz)"
      },
@@ -147,6 +148,7 @@
       "name": "Kağıt Kebabı"
      },
      {
+      "img": "dishes/9d3a07cf8a.jpg",
       "key": "9d3a07cf8a",
       "name": "Etsiz Kağıt Kebabı"
      },
@@ -216,6 +218,7 @@
       "name": "Garnitürlü Et Döner"
      },
      {
+      "img": "dishes/0a5f9b33b7.jpg",
       "key": "0a5f9b33b7",
       "name": "Etsiz Bamya Yemeği"
      },
@@ -626,6 +629,7 @@
       "name": "Patates Musakka"
      },
      {
+      "img": "dishes/bedd0ba0e7.jpg",
       "key": "bedd0ba0e7",
       "name": "İmam Bayıldı (Etsiz)"
      },
@@ -658,6 +662,7 @@
       "name": "Beğendili Köfte"
      },
      {
+      "img": "dishes/9d3a07cf8a.jpg",
       "key": "9d3a07cf8a",
       "name": "Etsiz Kağıt Kebabı"
      },
@@ -707,5 +712,5 @@
   }
  },
  "university": "subu",
- "updated": "2026-11-11T00:05:40+03:00"
+ "updated": "2026-11-11T12:58:45+03:00"
 }

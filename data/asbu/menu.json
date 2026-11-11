@@ -1591,10 +1591,10 @@
       "name": "Alaca Çorba"
      },
      {
-      "img": "dishes/ca947b0d72.jpg",
+      "img": "dishes/2cb78fe7b6.jpg",
       "kcal": 75,
-      "key": "ca947b0d72",
-      "name": "Ispanak Yemeği"
+      "key": "2cb78fe7b6",
+      "name": "Patates Yemeği"
      },
      {
       "img": "dishes/99a67d4042.jpg",
@@ -1620,5 +1620,5 @@
   }
  },
  "university": "asbu",
- "updated": "2026-11-11T00:05:40+03:00"
+ "updated": "2026-11-11T12:58:45+03:00"
 }

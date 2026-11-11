@@ -14,6 +14,7 @@
       "name": "Pirinç Pilavı"
      },
      {
+      "img": "dishes/eee882522c.jpg",
       "kcal": 180,
       "key": "eee882522c",
       "name": "Süzme Çorba"
@@ -67,6 +68,7 @@
       "name": "Domates Soslu Köfte+Elma Dilim Patates"
      },
      {
+      "img": "dishes/8fbf02cc35.jpg",
       "kcal": 290,
       "key": "8fbf02cc35",
       "name": "Bulgur Pilavı (Şehriyeli)"
@@ -125,11 +127,13 @@
       "name": "Domatesli Kebap"
      },
      {
+      "img": "dishes/8fbf02cc35.jpg",
       "kcal": 290,
       "key": "8fbf02cc35",
       "name": "Bulgur Pilavı (Şehriyeli)"
      },
      {
+      "img": "dishes/eee882522c.jpg",
       "kcal": 180,
       "key": "eee882522c",
       "name": "Süzme Çorba"
@@ -148,6 +152,7 @@
    "lunch": {
     "items": [
      {
+      "img": "dishes/39935d4a76.jpg",
       "kcal": 180,
       "key": "39935d4a76",
       "name": "Kuru Fasulye (Etli)"
@@ -185,10 +190,10 @@
       "name": "Peynirli Makarna"
      },
      {
-      "img": "dishes/5d3038c41b.jpg",
-      "kcal": 115,
-      "key": "5d3038c41b",
-      "name": "Yayla Çorbası"
+      "img": "dishes/0955218757.jpg",
+      "kcal": 180,
+      "key": "0955218757",
+      "name": "Mercimek Çorbası"
      },
      {
       "img": "dishes/9814c6dc58.jpg",
@@ -197,7 +202,7 @@
       "name": "Mandalina"
      }
     ],
-    "kcal": 716
+    "kcal": 781
    }
   },
   "2026-11-12": {
@@ -215,10 +220,10 @@
       "name": "Bulgur Pilavı"
      },
      {
-      "img": "dishes/0955218757.jpg",
-      "kcal": 180,
-      "key": "0955218757",
-      "name": "Mercimek Çorbası"
+      "img": "dishes/5d3038c41b.jpg",
+      "kcal": 115,
+      "key": "5d3038c41b",
+      "name": "Yayla Çorbası"
      },
      {
       "img": "dishes/faa2e9e4f2.jpg",
@@ -227,7 +232,7 @@
       "name": "Supangle"
      }
     ],
-    "kcal": 864
+    "kcal": 799
    }
   },
   "2026-11-13": {
@@ -240,6 +245,7 @@
       "name": "Sulu Köfte"
      },
      {
+      "img": "dishes/72ed8d7896.jpg",
       "kcal": 210,
       "key": "72ed8d7896",
       "name": "Domatesli Pilav"
@@ -259,5 +265,5 @@
   }
  },
  "university": "inonu",
- "updated": "2026-11-11T00:05:40+03:00"
+ "updated": "2026-11-11T12:58:45+03:00"
 }

@@ -211,9 +211,8 @@
    "lunch": {
     "items": [
      {
-      "img": "dishes/70b0acc4a8.jpg",
-      "key": "70b0acc4a8",
-      "name": "Fırın Tavuk Baget"
+      "key": "e8328d6ff2",
+      "name": "Fırın Tavuk Biftek"
      },
      {
       "key": "8636bfbc0a",
@@ -546,5 +545,5 @@
   }
  },
  "university": "osmaniye",
- "updated": "2026-11-11T00:05:40+03:00"
+ "updated": "2026-11-11T12:58:45+03:00"
 }

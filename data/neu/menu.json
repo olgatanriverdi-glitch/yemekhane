@@ -16,6 +16,7 @@
       "name": "Tereyağlı Bulgur Pilavı"
      },
      {
+      "img": "dishes/61403ce24f.jpg",
       "key": "61403ce24f",
       "name": "Süzme Yoğurt"
      },
@@ -67,6 +68,7 @@
       "name": "Domates Çorba"
      },
      {
+      "img": "dishes/26886ee087.jpg",
       "kcal": 450,
       "key": "26886ee087",
       "name": "Pilavüstü Tavuk Döner"
@@ -149,6 +151,7 @@
       "name": "Sebzeli Bulgur Pilavı"
      },
      {
+      "img": "dishes/61403ce24f.jpg",
       "key": "61403ce24f",
       "name": "Süzme Yoğurt"
      },
@@ -224,10 +227,10 @@
    "lunch": {
     "items": [
      {
-      "img": "dishes/78d4dad707.jpg",
-      "kcal": 87,
-      "key": "78d4dad707",
-      "name": "Tarhana Çorbası"
+      "img": "dishes/da64dc8fd8.jpg",
+      "kcal": 177,
+      "key": "da64dc8fd8",
+      "name": "Mantar Çorbası"
      },
      {
       "img": "dishes/abd94319df.jpg",
@@ -253,12 +256,13 @@
    "lunch": {
     "items": [
      {
-      "img": "dishes/da64dc8fd8.jpg",
-      "kcal": 177,
-      "key": "da64dc8fd8",
-      "name": "Mantar Çorbası"
+      "img": "dishes/78d4dad707.jpg",
+      "kcal": 87,
+      "key": "78d4dad707",
+      "name": "Tarhana Çorbası"
      },
      {
+      "img": "dishes/79aa736c81.jpg",
       "kcal": 487,
       "key": "79aa736c81",
       "name": "Terbiyeli Tavuk Baget"
@@ -275,7 +279,7 @@
       "name": "Kış Salata"
      }
     ],
-    "kcal": 1060
+    "kcal": 970
    }
   },
   "2026-11-16": {
@@ -288,6 +292,7 @@
       "name": "Şehriye Çorbası"
      },
      {
+      "img": "dishes/26886ee087.jpg",
       "kcal": 450,
       "key": "26886ee087",
       "name": "Pilavüstü Tavuk Döner"
@@ -371,6 +376,7 @@
    "lunch": {
     "items": [
      {
+      "img": "dishes/39bfad465f.jpg",
       "kcal": 174,
       "key": "39bfad465f",
       "name": "Bamya Çorbası"
@@ -382,6 +388,7 @@
       "name": "Ankara Tava"
      },
      {
+      "img": "dishes/35fc6d36dc.jpg",
       "kcal": 396,
       "key": "35fc6d36dc",
       "name": "İrmik Helva"
@@ -442,6 +449,7 @@
       "name": "Tereyağlı Bulgur Pilavı"
      },
      {
+      "img": "dishes/61403ce24f.jpg",
       "key": "61403ce24f",
       "name": "Süzme Yoğurt"
      },
@@ -504,6 +512,7 @@
       "name": "Soslu Makarna"
      },
      {
+      "img": "dishes/61403ce24f.jpg",
       "key": "61403ce24f",
       "name": "Süzme Yoğurt"
      }
@@ -554,6 +563,7 @@
       "name": "Sebzeli Bulgur Pilavı"
      },
      {
+      "img": "dishes/61403ce24f.jpg",
       "key": "61403ce24f",
       "name": "Süzme Yoğurt"
      },
@@ -616,6 +626,7 @@
       "name": "Tereyağlı Bulgur Pilavı"
      },
      {
+      "img": "dishes/61403ce24f.jpg",
       "key": "61403ce24f",
       "name": "Süzme Yoğurt"
      }
@@ -681,5 +692,5 @@
   }
  },
  "university": "neu",
- "updated": "2026-11-11T00:05:40+03:00"
+ "updated": "2026-11-11T12:58:45+03:00"
 }

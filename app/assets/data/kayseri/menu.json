@@ -142,6 +142,7 @@
       "name": "Pirinç Pilavı"
      },
      {
+      "img": "dishes/eb24a662e7.jpg",
       "key": "eb24a662e7",
       "name": "Yoğurtlu Semizotu"
      }
@@ -246,8 +247,130 @@
      }
     ]
    }
+  },
+  "2026-11-16": {
+   "lunch": {
+    "items": [
+     {
+      "img": "dishes/726d1be46a.jpg",
+      "key": "726d1be46a",
+      "name": "Mısır Çorbası"
+     },
+     {
+      "key": "a43c0db63b",
+      "name": "Beğendili Köfte"
+     },
+     {
+      "img": "dishes/bac7d91091.jpg",
+      "key": "bac7d91091",
+      "name": "Makarna"
+     },
+     {
+      "img": "dishes/ed17271d58.jpg",
+      "key": "ed17271d58",
+      "name": "Meyve"
+     }
+    ]
+   }
+  },
+  "2026-11-17": {
+   "lunch": {
+    "items": [
+     {
+      "img": "dishes/0955218757.jpg",
+      "key": "0955218757",
+      "name": "Mercimek Çorbası"
+     },
+     {
+      "img": "dishes/f81a728d3a.jpg",
+      "key": "f81a728d3a",
+      "name": "Kuru Fasulye"
+     },
+     {
+      "key": "8636bfbc0a",
+      "name": "Pirinç Pilavı"
+     },
+     {
+      "img": "dishes/92485508df.jpg",
+      "key": "92485508df",
+      "name": "Tatlı"
+     }
+    ]
+   }
+  },
+  "2026-11-18": {
+   "lunch": {
+    "items": [
+     {
+      "img": "dishes/495fb304f2.jpg",
+      "key": "495fb304f2",
+      "name": "Şehriye Çorbası"
+     },
+     {
+      "key": "4bbe63643b",
+      "name": "Kıymalı Pide"
+     },
+     {
+      "key": "0938f4c8ed",
+      "name": "Söğüş"
+     },
+     {
+      "key": "fcbd66e138",
+      "name": "Ayran/Şalgam"
+     }
+    ]
+   }
+  },
+  "2026-11-19": {
+   "lunch": {
+    "items": [
+     {
+      "key": "00c1fbe7ac",
+      "name": "Çeşm-İ Nigar Çorbası"
+     },
+     {
+      "img": "dishes/dcd4b17d0f.jpg",
+      "key": "dcd4b17d0f",
+      "name": "Tavuk Baget"
+     },
+     {
+      "img": "dishes/25b07cf14e.jpg",
+      "key": "25b07cf14e",
+      "name": "Bulgur Pilavı"
+     },
+     {
+      "img": "dishes/92485508df.jpg",
+      "key": "92485508df",
+      "name": "Tatlı"
+     }
+    ]
+   }
+  },
+  "2026-11-20": {
+   "lunch": {
+    "items": [
+     {
+      "img": "dishes/5d3038c41b.jpg",
+      "key": "5d3038c41b",
+      "name": "Yayla Çorbası"
+     },
+     {
+      "img": "dishes/0428d021a9.jpg",
+      "key": "0428d021a9",
+      "name": "Hamburger"
+     },
+     {
+      "key": "8db13541fa",
+      "name": "Patates Kızartma"
+     },
+     {
+      "key": "9047f5b339",
+      "name": "Ayran/Meyve Suyu"
+     }
+    ]
+   }
   }
  },
  "university": "kayseri",
- "updated": "2026-11-11T00:05:40+03:00"
+ "updated": "2026-11-11T12:58:45+03:00"
 }

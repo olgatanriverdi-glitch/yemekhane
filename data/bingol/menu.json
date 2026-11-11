@@ -407,6 +407,7 @@
    "lunch": {
     "items": [
      {
+      "img": "dishes/295e9df934.jpg",
       "kcal": 380,
       "key": "295e9df934",
       "name": "Piliç Külbastı"
@@ -498,5 +499,5 @@
   }
  },
  "university": "bingol",
- "updated": "2026-11-11T00:05:40+03:00"
+ "updated": "2026-11-11T12:58:45+03:00"
 }

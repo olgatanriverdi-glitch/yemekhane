@@ -667,8 +667,9 @@
       "name": "Spagetti Napoliten"
      },
      {
-      "key": "f7b84ad85a",
-      "name": "Meyve Suyu"
+      "img": "dishes/92485508df.jpg",
+      "key": "92485508df",
+      "name": "Tatlı"
      }
     ]
    }
@@ -699,5 +700,5 @@
   }
  },
  "university": "atauni",
- "updated": "2026-11-11T00:05:40+03:00"
+ "updated": "2026-11-11T12:58:45+03:00"
 }

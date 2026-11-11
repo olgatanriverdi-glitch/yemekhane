@@ -473,6 +473,7 @@
       "name": "Köri Soslu Tavuk/Garnitür"
      },
      {
+      "img": "dishes/255dbf418d.jpg",
       "key": "255dbf418d",
       "name": "Kıymalı Tepsi Böreği"
      },
@@ -510,5 +511,5 @@
   }
  },
  "university": "ardahan",
- "updated": "2026-11-11T00:05:40+03:00"
+ "updated": "2026-11-11T12:58:45+03:00"
 }

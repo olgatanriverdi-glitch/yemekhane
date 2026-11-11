@@ -307,6 +307,7 @@
       "name": "Etli Kuru Fasulye"
      },
      {
+      "img": "dishes/158b9e3d2e.jpg",
       "key": "158b9e3d2e",
       "name": "Zeytinyağlı İmam Bayıldı"
      },
@@ -340,6 +341,7 @@
       "name": "Zeytinyağlı Bamya"
      },
      {
+      "img": "dishes/625ade1408.jpg",
       "key": "625ade1408",
       "name": "Makarna Napoliten Soslu"
      },
@@ -400,6 +402,7 @@
       "name": "Şakşuka"
      },
      {
+      "img": "dishes/1a3bef06ed.jpg",
       "key": "1a3bef06ed",
       "name": "Sebzeli Makarna Pesto Soslu"
      },
@@ -420,14 +423,17 @@
       "name": "Düğün Çorba"
      },
      {
+      "img": "dishes/9ecf093c57.jpg",
       "key": "9ecf093c57",
       "name": "Karışık Biber Dolma"
      },
      {
+      "img": "dishes/cb145cb954.jpg",
       "key": "cb145cb954",
       "name": "Zeytinyağlı Yaprak Sarma"
      },
      {
+      "img": "dishes/255dbf418d.jpg",
       "key": "255dbf418d",
       "name": "Kıymalı Tepsi Böreği"
      },
@@ -458,6 +464,7 @@
       "name": "Zeytinyağlı Biber Dolma"
      },
      {
+      "img": "dishes/255dbf418d.jpg",
       "key": "255dbf418d",
       "name": "Kıymalı Tepsi Böreği"
      },
@@ -565,6 +572,7 @@
       "name": "Ekşili Köfte"
      },
      {
+      "img": "dishes/158b9e3d2e.jpg",
       "key": "158b9e3d2e",
       "name": "Zeytinyağlı İmam Bayıldı"
      },
@@ -612,5 +620,5 @@
   }
  },
  "university": "duzce",
- "updated": "2026-11-11T00:05:40+03:00"
+ "updated": "2026-11-11T12:58:45+03:00"
 }
