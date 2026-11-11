@@ -185,6 +185,7 @@
    "lunch": {
     "items": [
      {
+      "img": "dishes/84a1e25e70.jpg",
       "key": "84a1e25e70",
       "name": "İnegöl Köfte"
      },
@@ -545,5 +546,5 @@
   }
  },
  "university": "osmaniye",
- "updated": "2026-11-11T12:58:45+03:00"
+ "updated": "2026-11-12T00:38:51+03:00"
 }

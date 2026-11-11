@@ -1394,8 +1394,58 @@
      }
     ]
    }
+  },
+  "2026-11-13": {
+   "lunch": {
+    "items": [
+     {
+      "img": "dishes/7cb2113a31.jpg",
+      "key": "7cb2113a31",
+      "name": "Terbiyeli Tel Şehriye Çorba"
+     },
+     {
+      "img": "dishes/fbb76e65c4.jpg",
+      "key": "fbb76e65c4",
+      "name": "Etli Kuru Fasulye"
+     },
+     {
+      "key": "8636bfbc0a",
+      "name": "Pirinç Pilavı"
+     },
+     {
+      "key": "79ded7ea04",
+      "name": "Havuç Tarator"
+     }
+    ]
+   },
+   "vegetarian": {
+    "items": [
+     {
+      "img": "dishes/7cb2113a31.jpg",
+      "key": "7cb2113a31",
+      "name": "Terbiyeli Tel Şehriye Çorba"
+     },
+     {
+      "img": "dishes/f81a728d3a.jpg",
+      "key": "f81a728d3a",
+      "name": "Kuru Fasulye"
+     },
+     {
+      "key": "8636bfbc0a",
+      "name": "Pirinç Pilavı"
+     },
+     {
+      "key": "79ded7ea04",
+      "name": "Havuç Tarator"
+     },
+     {
+      "key": "9cae3738c8",
+      "name": "Pancar Turşusu"
+     }
+    ]
+   }
   }
  },
  "university": "ikcu",
- "updated": "2026-11-11T12:58:45+03:00"
+ "updated": "2026-11-12T00:38:51+03:00"
 }

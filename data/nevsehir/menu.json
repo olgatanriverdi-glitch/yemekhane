@@ -253,6 +253,7 @@
       "name": "Düğürcük Çorbası"
      },
      {
+      "img": "dishes/bd4d7a02c4.jpg",
       "key": "bd4d7a02c4",
       "name": "Kıymalı Yumurta"
      },
@@ -586,6 +587,7 @@
    "lunch": {
     "items": [
      {
+      "img": "dishes/85175c0350.jpg",
       "key": "85175c0350",
       "name": "Çatal Aşı Çorbası"
      },
@@ -610,5 +612,5 @@
   }
  },
  "university": "nevsehir",
- "updated": "2026-11-11T12:58:45+03:00"
+ "updated": "2026-11-12T00:38:51+03:00"
 }

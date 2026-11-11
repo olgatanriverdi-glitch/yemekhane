@@ -1617,8 +1617,76 @@
     ],
     "kcal": 752
    }
+  },
+  "2026-11-12": {
+   "lunch": {
+    "items": [
+     {
+      "img": "dishes/bf8474c8b9.jpg",
+      "kcal": 195,
+      "key": "bf8474c8b9",
+      "name": "Ezogelin Çorba"
+     },
+     {
+      "img": "dishes/890b8e3990.jpg",
+      "kcal": 345,
+      "key": "890b8e3990",
+      "name": "Etli Nohut"
+     },
+     {
+      "kcal": 276,
+      "key": "8636bfbc0a",
+      "name": "Pirinç Pilavı"
+     },
+     {
+      "img": "dishes/ec0228f614.jpg",
+      "kcal": 20,
+      "key": "ec0228f614",
+      "name": "Turşu"
+     },
+     {
+      "kcal": 250,
+      "key": "8460f87a5e",
+      "name": "Pembe Sutan"
+     }
+    ],
+    "kcal": 1086
+   },
+   "vegetarian": {
+    "items": [
+     {
+      "img": "dishes/bf8474c8b9.jpg",
+      "kcal": 195,
+      "key": "bf8474c8b9",
+      "name": "Ezogelin Çorba"
+     },
+     {
+      "img": "dishes/b6cacec026.jpg",
+      "kcal": 210,
+      "key": "b6cacec026",
+      "name": "Etsiz Nohut"
+     },
+     {
+      "kcal": 276,
+      "key": "8636bfbc0a",
+      "name": "Pirinç Pilavı"
+     },
+     {
+      "img": "dishes/ec0228f614.jpg",
+      "kcal": 20,
+      "key": "ec0228f614",
+      "name": "Turşu"
+     },
+     {
+      "kcal": 250,
+      "key": "8460f87a5e",
+      "name": "Pembe Sutan"
+     }
+    ],
+    "kcal": 951
+   }
   }
  },
  "university": "asbu",
- "updated": "2026-11-11T12:58:45+03:00"
+ "updated": "2026-11-12T00:38:51+03:00"
 }

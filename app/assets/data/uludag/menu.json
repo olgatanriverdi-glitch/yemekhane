@@ -1134,9 +1134,9 @@
    "lunch": {
     "items": [
      {
-      "img": "dishes/2c4e10d27f.jpg",
-      "key": "2c4e10d27f",
-      "name": "Kıymalı Kuru Fasülye"
+      "img": "dishes/1ebbfbc41b.jpg",
+      "key": "1ebbfbc41b",
+      "name": "Pastırmalı Kuru Fasülye"
      },
      {
       "img": "dishes/7cb2113a31.jpg",
@@ -1668,5 +1668,5 @@
   }
  },
  "university": "uludag",
- "updated": "2026-11-11T12:58:45+03:00"
+ "updated": "2026-11-12T00:38:51+03:00"
 }

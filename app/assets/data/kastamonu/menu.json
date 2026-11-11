@@ -1,33 +1,5 @@
 {
  "days": {
-  "2026-11-11": {
-   "lunch": {
-    "items": [
-     {
-      "kcal": 168,
-      "key": "990377f8ad",
-      "name": "Saray Çorba"
-     },
-     {
-      "img": "dishes/85b7944a41.jpg",
-      "kcal": 137,
-      "key": "85b7944a41",
-      "name": "Tas Kebabı"
-     },
-     {
-      "kcal": 380,
-      "key": "06a78d2465",
-      "name": "Garnitürlü Pirinç P"
-     },
-     {
-      "kcal": 87,
-      "key": "ae37bcc569",
-      "name": "Ayva Komposto"
-     }
-    ],
-    "kcal": 772
-   }
-  },
   "2026-11-12": {
    "lunch": {
     "items": [
@@ -397,5 +369,5 @@
   }
  },
  "university": "kastamonu",
- "updated": "2026-11-11T12:58:45+03:00"
+ "updated": "2026-11-12T00:38:51+03:00"
 }

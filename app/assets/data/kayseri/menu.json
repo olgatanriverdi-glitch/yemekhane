@@ -212,6 +212,7 @@
       "name": "Et Tantuni"
      },
      {
+      "img": "dishes/0938f4c8ed.jpg",
       "key": "0938f4c8ed",
       "name": "Söğüş"
      },
@@ -307,14 +308,17 @@
       "name": "Şehriye Çorbası"
      },
      {
+      "img": "dishes/4bbe63643b.jpg",
       "key": "4bbe63643b",
       "name": "Kıymalı Pide"
      },
      {
+      "img": "dishes/0938f4c8ed.jpg",
       "key": "0938f4c8ed",
       "name": "Söğüş"
      },
      {
+      "img": "dishes/fcbd66e138.jpg",
       "key": "fcbd66e138",
       "name": "Ayran/Şalgam"
      }
@@ -364,6 +368,7 @@
       "name": "Patates Kızartma"
      },
      {
+      "img": "dishes/9047f5b339.jpg",
       "key": "9047f5b339",
       "name": "Ayran/Meyve Suyu"
      }
@@ -372,5 +377,5 @@
   }
  },
  "university": "kayseri",
- "updated": "2026-11-11T12:58:45+03:00"
+ "updated": "2026-11-12T00:38:51+03:00"
 }

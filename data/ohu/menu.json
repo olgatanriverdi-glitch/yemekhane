@@ -160,10 +160,12 @@
       "name": "Ezogelin Çorba"
      },
      {
+      "img": "dishes/dfa8bead4c.jpg",
       "key": "dfa8bead4c",
       "name": "Garnitürlü Soslu Tavuk Baget"
      },
      {
+      "img": "dishes/1e892f0974.jpg",
       "key": "1e892f0974",
       "name": "Sebzeli Arpa Şehriye Pilavı"
      },
@@ -211,6 +213,7 @@
       "name": "Domates Çorba"
      },
      {
+      "img": "dishes/ffdf46359c.jpg",
       "key": "ffdf46359c",
       "name": "Tavuklu Orman Kebabı"
      },
@@ -537,5 +540,5 @@
   }
  },
  "university": "ohu",
- "updated": "2026-11-11T12:58:45+03:00"
+ "updated": "2026-11-12T00:38:51+03:00"
 }

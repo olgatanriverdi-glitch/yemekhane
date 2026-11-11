@@ -1,28 +1,5 @@
 {
  "days": {
-  "2026-11-11": {
-   "lunch": {
-    "items": [
-     {
-      "key": "e47540f7f5",
-      "name": "Domates Çorbası"
-     },
-     {
-      "key": "862a3fe6ee",
-      "name": "Cipsli Tavuk"
-     },
-     {
-      "key": "57d2d2d906",
-      "name": "Mısırlı Pirinç Pilavı"
-     },
-     {
-      "img": "dishes/e516c4a18a.jpg",
-      "key": "e516c4a18a",
-      "name": "Tiramisu"
-     }
-    ]
-   }
-  },
   "2026-11-12": {
    "lunch": {
     "items": [
@@ -341,5 +318,5 @@
   }
  },
  "university": "mugla",
- "updated": "2026-11-11T12:58:45+03:00"
+ "updated": "2026-11-12T00:38:51+03:00"
 }
