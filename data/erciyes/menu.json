@@ -335,13 +335,12 @@
       "name": "Peynirli Makarna"
      },
      {
-      "img": "dishes/9cc15e97bd.jpg",
-      "kcal": 132,
-      "key": "9cc15e97bd",
-      "name": "Patates Salatası"
+      "kcal": 45,
+      "key": "0d48cde11a",
+      "name": "Söğüş Salata"
      }
     ],
-    "kcal": 1030
+    "kcal": 943
    },
    "lunch": {
     "items": [
@@ -362,13 +361,12 @@
       "name": "Peynirli Makarna"
      },
      {
-      "img": "dishes/9cc15e97bd.jpg",
-      "kcal": 132,
-      "key": "9cc15e97bd",
-      "name": "Patates Salatası"
+      "kcal": 45,
+      "key": "0d48cde11a",
+      "name": "Söğüş Salata"
      }
     ],
-    "kcal": 1030
+    "kcal": 943
    }
   },
   "2026-11-13": {
@@ -433,5 +431,5 @@
   }
  },
  "university": "erciyes",
- "updated": "2026-11-12T00:38:51+03:00"
+ "updated": "2026-11-12T13:26:54+03:00"
 }

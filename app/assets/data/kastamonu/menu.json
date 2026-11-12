@@ -52,12 +52,13 @@
       "name": "Napoliten Soslu Makarna"
      },
      {
-      "kcal": 306,
-      "key": "79cce46055",
-      "name": "Bisküvili Pasta"
+      "img": "dishes/a6607cdb9a.jpg",
+      "kcal": 250,
+      "key": "a6607cdb9a",
+      "name": "Keşkül"
      }
     ],
-    "kcal": 1204
+    "kcal": 1148
    }
   },
   "2026-11-16": {
@@ -70,6 +71,7 @@
       "name": "Şehriye Çorba"
      },
      {
+      "img": "dishes/ab1ca8f26c.jpg",
       "kcal": 366,
       "key": "ab1ca8f26c",
       "name": "Tavuk Döner(Pilav Garni)"
@@ -112,6 +114,7 @@
       "name": "Bulgur Pilavı"
      },
      {
+      "img": "dishes/faae73b9a3.jpg",
       "kcal": 194,
       "key": "faae73b9a3",
       "name": "Cevizli Kabak Tatlısı"
@@ -135,6 +138,7 @@
       "name": "Etli Kurufasulye"
      },
      {
+      "img": "dishes/d8245cdddb.jpg",
       "kcal": 247,
       "key": "d8245cdddb",
       "name": "Pirinç P"
@@ -159,6 +163,7 @@
       "name": "Ezogelin Çorba"
      },
      {
+      "img": "dishes/22e311a04a.jpg",
       "kcal": 398,
       "key": "22e311a04a",
       "name": "Püreli İnegöl Köfte"
@@ -190,6 +195,18 @@
      {
       "key": "24ec8d8b11",
       "name": "Kıy Sebze Graten/ Beşamel Soslu Tavuk"
+     },
+     {
+      "img": "dishes/25b07cf14e.jpg",
+      "kcal": 219,
+      "key": "25b07cf14e",
+      "name": "Bulgur Pilavı"
+     },
+     {
+      "img": "dishes/9c8d655ef5.jpg",
+      "kcal": 55,
+      "key": "9c8d655ef5",
+      "name": "Yoğurt"
      }
     ]
    }
@@ -272,13 +289,12 @@
       "name": "Pirinç Pilavı"
      },
      {
-      "img": "dishes/a6607cdb9a.jpg",
-      "kcal": 250,
-      "key": "a6607cdb9a",
-      "name": "Keşkül"
+      "kcal": 306,
+      "key": "79cce46055",
+      "name": "Bisküvili Pasta"
      }
     ],
-    "kcal": 942
+    "kcal": 998
    }
   },
   "2026-11-26": {
@@ -369,5 +385,5 @@
   }
  },
  "university": "kastamonu",
- "updated": "2026-11-12T00:38:51+03:00"
+ "updated": "2026-11-12T13:26:54+03:00"
 }

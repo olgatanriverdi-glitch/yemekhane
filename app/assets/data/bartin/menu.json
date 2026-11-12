@@ -257,10 +257,13 @@
       "name": "Turşu"
      },
      {
-      "key": "5e1062671d",
-      "name": "Haydari / Baklava"
+      "img": "dishes/de8670087d.jpg",
+      "kcal": 360,
+      "key": "de8670087d",
+      "name": "Baklava"
      }
-    ]
+    ],
+    "kcal": 1047
    }
   },
   "2026-11-13": {
@@ -640,5 +643,5 @@
   }
  },
  "university": "bartin",
- "updated": "2026-11-12T00:38:51+03:00"
+ "updated": "2026-11-12T13:26:54+03:00"
 }

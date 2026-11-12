@@ -577,28 +577,29 @@
    "lunch": {
     "items": [
      {
-      "img": "dishes/bf8474c8b9.jpg",
-      "key": "bf8474c8b9",
-      "name": "Ezogelin Çorba"
+      "img": "dishes/22dd093862.jpg",
+      "key": "22dd093862",
+      "name": "Mercimek Çorba"
      },
      {
-      "img": "dishes/2c4b997c75.jpg",
-      "key": "2c4b997c75",
-      "name": "Taze Fasulye"
+      "img": "dishes/26886ee087.jpg",
+      "key": "26886ee087",
+      "name": "Pilavüstü Tavuk Döner"
      },
      {
-      "img": "dishes/25b07cf14e.jpg",
-      "key": "25b07cf14e",
-      "name": "Bulgur Pilavı"
+      "img": "dishes/99a67d4042.jpg",
+      "key": "99a67d4042",
+      "name": "Mevsim Salata"
      },
      {
-      "key": "793a6e1f12",
-      "name": "Yoğurtlu Patlıcan Kızartma"
+      "img": "dishes/16b5c22561.jpg",
+      "key": "16b5c22561",
+      "name": "Ayran"
      }
     ]
    }
   }
  },
  "university": "omu",
- "updated": "2026-11-12T00:38:51+03:00"
+ "updated": "2026-11-12T13:26:54+03:00"
 }

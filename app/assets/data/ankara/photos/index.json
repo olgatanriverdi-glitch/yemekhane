@@ -25,7 +25,8 @@
   "2026-11-06": "7b746a136ea2",
   "2026-11-09": "a746873f05e3",
   "2026-11-10": "4efd187fede8",
-  "2026-11-11": "fb6cb3d76923"
+  "2026-11-11": "fb6cb3d76923",
+  "2026-11-12": "05a967c1c011"
  },
  "main": {
   "025eacfe0c": "8f579a24b2f7",
@@ -33,6 +34,7 @@
   "0d239a15f0": "41ca78a13cd7",
   "1da7bd5f6e": "fb6cb3d76923",
   "211964d15e": "41a246d21c3d",
+  "2b6a0527dc": "05a967c1c011",
   "40082e8861": "cf00a176342e",
   "495c83bde2": "c89c294984ba",
   "4b76564c9a": "001da2fb49d8",
@@ -61,6 +63,16 @@
     "Rosto Köfte/Patates Kızartması",
     "Bulgur Pilavı",
     "Havuç Tarator"
+   ]
+  },
+  "05a967c1c011": {
+   "added": "2026-11-12",
+   "hash": "29e3c9a799629df90990da613666007371fe3d59",
+   "items": [
+    "Mantar Çorba",
+    "Kajun Baharatlı Tavuk/Ketçap-mayonez",
+    "Soslu Spagetti",
+    "Menekşe Salata"
    ]
   },
   "067df1baaa89": {

@@ -1,67 +1,5 @@
 {
  "days": {
-  "2026-11-10": {
-   "dinner": {
-    "items": [
-     {
-      "img": "dishes/cf7cacfbec.jpg",
-      "key": "cf7cacfbec",
-      "name": "Osmanlı Çorbası"
-     },
-     {
-      "img": "dishes/bd01ecb31b.jpg",
-      "key": "bd01ecb31b",
-      "name": "Kıymalı Kapuska"
-     },
-     {
-      "img": "dishes/25b07cf14e.jpg",
-      "key": "25b07cf14e",
-      "name": "Bulgur Pilavı"
-     },
-     {
-      "key": "79cce46055",
-      "name": "Bisküvili Pasta"
-     },
-     {
-      "key": "74b8be1351",
-      "name": "Yeşil Mercimek Salatası"
-     }
-    ]
-   },
-   "lunch": {
-    "items": [
-     {
-      "img": "dishes/4fb733faf2.jpg",
-      "key": "4fb733faf2",
-      "name": "Ezogelin Çorbası"
-     },
-     {
-      "img": "dishes/078c778ebe.jpg",
-      "key": "078c778ebe",
-      "name": "Et Döner"
-     },
-     {
-      "img": "dishes/321b4fe3c9.jpg",
-      "key": "321b4fe3c9",
-      "name": "Mevsim Salatası"
-     },
-     {
-      "img": "dishes/16b5c22561.jpg",
-      "key": "16b5c22561",
-      "name": "Ayran"
-     },
-     {
-      "img": "dishes/c47036e360.jpg",
-      "key": "c47036e360",
-      "name": "Elma"
-     },
-     {
-      "key": "96bf98863d",
-      "name": "Garnitür Pirinç Pilavı"
-     }
-    ]
-   }
-  },
   "2026-11-11": {
    "dinner": {
     "items": [
@@ -789,5 +727,5 @@
   }
  },
  "university": "itu",
- "updated": "2026-11-12T00:38:51+03:00"
+ "updated": "2026-11-12T13:26:54+03:00"
 }

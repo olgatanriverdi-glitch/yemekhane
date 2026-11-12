@@ -280,6 +280,12 @@
       "name": "Et Sote"
      },
      {
+      "img": "dishes/25b07cf14e.jpg",
+      "kcal": 280,
+      "key": "25b07cf14e",
+      "name": "Bulgur Pilavı"
+     },
+     {
       "img": "dishes/c96fd73d5f.jpg",
       "kcal": 90,
       "key": "c96fd73d5f",
@@ -290,14 +296,9 @@
       "kcal": 180,
       "key": "92485508df",
       "name": "Tatlı"
-     },
-     {
-      "kcal": 320,
-      "key": "8636bfbc0a",
-      "name": "Pirinç Pilavı"
      }
     ],
-    "kcal": 940
+    "kcal": 900
    }
   },
   "2026-11-16": {
@@ -453,5 +454,5 @@
   }
  },
  "university": "siirt",
- "updated": "2026-11-12T00:38:51+03:00"
+ "updated": "2026-11-12T13:26:54+03:00"
 }

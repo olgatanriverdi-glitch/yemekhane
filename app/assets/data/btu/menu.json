@@ -389,6 +389,7 @@
       "name": "Ezogelin Çorba"
      },
      {
+      "img": "dishes/319eb6067a.jpg",
       "key": "319eb6067a",
       "name": "Orman Kebabı/Şakşuka"
      },
@@ -449,6 +450,7 @@
       "name": "Kremalı Mantar Çorba"
      },
      {
+      "img": "dishes/443c6faf2c.jpg",
       "key": "443c6faf2c",
       "name": "Adana Köfte (Piliç)/Yeşil Mercimek"
      },
@@ -561,6 +563,7 @@
       "name": "Ezogelin Çorba"
      },
      {
+      "img": "dishes/02769d8416.jpg",
       "key": "02769d8416",
       "name": "Ciğer Tava/Ispanak"
      },
@@ -612,5 +615,5 @@
   }
  },
  "university": "btu",
- "updated": "2026-11-12T00:38:51+03:00"
+ "updated": "2026-11-12T13:26:54+03:00"
 }

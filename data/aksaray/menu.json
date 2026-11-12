@@ -368,6 +368,7 @@
       "name": "Köylü Çorba"
      },
      {
+      "img": "dishes/c97dfefcc1.jpg",
       "kcal": 306,
       "key": "c97dfefcc1",
       "name": "Sebzeli Dana Haşlama"
@@ -451,6 +452,7 @@
    "lunch": {
     "items": [
      {
+      "img": "dishes/7f659fe2d3.jpg",
       "kcal": 192,
       "key": "7f659fe2d3",
       "name": "Tavuklu Tel Şehriye Çorba"
@@ -627,5 +629,5 @@
   }
  },
  "university": "aksaray",
- "updated": "2026-11-12T00:38:51+03:00"
+ "updated": "2026-11-12T13:26:54+03:00"
 }

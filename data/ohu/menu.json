@@ -347,6 +347,7 @@
       "name": "Tavuk Roti"
      },
      {
+      "img": "dishes/a8c3400abe.jpg",
       "key": "a8c3400abe",
       "name": "Baharatlı Makarna"
      },
@@ -540,5 +541,5 @@
   }
  },
  "university": "ohu",
- "updated": "2026-11-12T00:38:51+03:00"
+ "updated": "2026-11-12T13:26:54+03:00"
 }
