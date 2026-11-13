@@ -335,10 +335,10 @@
       "name": "Sebze Çorbası"
      },
      {
-      "img": "dishes/979243b46f.jpg",
+      "img": "dishes/90b120232d.jpg",
       "kcal": 306,
-      "key": "979243b46f",
-      "name": "Fırın Tavuk Kanat- Domates Biber"
+      "key": "90b120232d",
+      "name": "Fırın Tavuk Kanat"
      },
      {
       "kcal": 235,
@@ -751,5 +751,5 @@
   }
  },
  "university": "sbtu",
- "updated": "2026-11-12T13:26:54+03:00"
+ "updated": "2026-11-13T13:16:43+03:00"
 }

@@ -566,6 +566,36 @@
    "lunch": {
     "items": [
      {
+      "img": "dishes/22dd093862.jpg",
+      "kcal": 186,
+      "key": "22dd093862",
+      "name": "Mercimek Çorba"
+     },
+     {
+      "kcal": 250,
+      "key": "2022863e61",
+      "name": "Çiftlik Kebabı"
+     },
+     {
+      "img": "dishes/246525a1c0.jpg",
+      "kcal": 266,
+      "key": "246525a1c0",
+      "name": "Şehriyeli Bulgur Pilavı"
+     },
+     {
+      "img": "dishes/ed17271d58.jpg",
+      "kcal": 80,
+      "key": "ed17271d58",
+      "name": "Meyve"
+     }
+    ],
+    "kcal": 782
+   }
+  },
+  "2026-11-17": {
+   "lunch": {
+    "items": [
+     {
       "kcal": 188,
       "key": "8537cbf8e8",
       "name": "Köylüm Çorba"
@@ -588,35 +618,6 @@
      }
     ],
     "kcal": 936
-   }
-  },
-  "2026-11-17": {
-   "lunch": {
-    "items": [
-     {
-      "kcal": 186,
-      "key": "73dd9b0857",
-      "name": "Arabaşı Çorba"
-     },
-     {
-      "kcal": 281,
-      "key": "ea8e7410a4",
-      "name": "Karnabahar Graten"
-     },
-     {
-      "img": "dishes/943fe1113c.jpg",
-      "kcal": 287,
-      "key": "943fe1113c",
-      "name": "Erişte"
-     },
-     {
-      "img": "dishes/e516c4a18a.jpg",
-      "kcal": 385,
-      "key": "e516c4a18a",
-      "name": "Tiramisu"
-     }
-    ],
-    "kcal": 1139
    }
   },
   "2026-11-18": {
@@ -681,30 +682,29 @@
    "lunch": {
     "items": [
      {
-      "img": "dishes/22dd093862.jpg",
       "kcal": 186,
-      "key": "22dd093862",
-      "name": "Mercimek Çorba"
+      "key": "73dd9b0857",
+      "name": "Arabaşı Çorba"
      },
      {
-      "kcal": 250,
-      "key": "2022863e61",
-      "name": "Çiftlik Kebabı"
+      "kcal": 281,
+      "key": "ea8e7410a4",
+      "name": "Karnabahar Graten"
      },
      {
-      "img": "dishes/246525a1c0.jpg",
-      "kcal": 266,
-      "key": "246525a1c0",
-      "name": "Şehriyeli Bulgur Pilavı"
+      "img": "dishes/943fe1113c.jpg",
+      "kcal": 287,
+      "key": "943fe1113c",
+      "name": "Erişte"
      },
      {
-      "img": "dishes/c27879d4fd.jpg",
-      "kcal": 80,
-      "key": "c27879d4fd",
-      "name": "Meyve (Elma)"
+      "img": "dishes/e516c4a18a.jpg",
+      "kcal": 385,
+      "key": "e516c4a18a",
+      "name": "Tiramisu"
      }
     ],
-    "kcal": 782
+    "kcal": 1139
    }
   },
   "2026-11-23": {
@@ -990,5 +990,5 @@
   }
  },
  "university": "aybu",
- "updated": "2026-11-12T13:26:54+03:00"
+ "updated": "2026-11-13T13:16:43+03:00"
 }

@@ -262,16 +262,16 @@
       "name": "Tarhana Çorbası"
      },
      {
-      "img": "dishes/79aa736c81.jpg",
-      "kcal": 487,
-      "key": "79aa736c81",
-      "name": "Terbiyeli Tavuk Baget"
+      "img": "dishes/a60ac0d42a.jpg",
+      "kcal": 479,
+      "key": "a60ac0d42a",
+      "name": "Ankara Tava"
      },
      {
-      "img": "dishes/18ccb4d264.jpg",
-      "kcal": 320,
-      "key": "18ccb4d264",
-      "name": "Soslu Makarna"
+      "img": "dishes/16b5c22561.jpg",
+      "kcal": 58,
+      "key": "16b5c22561",
+      "name": "Ayran"
      },
      {
       "kcal": 76,
@@ -279,7 +279,7 @@
       "name": "Kış Salata"
      }
     ],
-    "kcal": 970
+    "kcal": 700
    }
   },
   "2026-11-16": {
@@ -692,5 +692,5 @@
   }
  },
  "university": "neu",
- "updated": "2026-11-12T13:26:54+03:00"
+ "updated": "2026-11-13T13:16:43+03:00"
 }

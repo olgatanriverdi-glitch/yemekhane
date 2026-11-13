@@ -240,33 +240,34 @@
     "kcal": 794
    }
   },
-  "2026-11-13": {
+  "2026-11-12": {
    "lunch": {
     "items": [
      {
-      "kcal": 160,
-      "key": "ee75ab01ff",
-      "name": "Köylü Çorbası"
+      "kcal": 180,
+      "key": "5adfeb5006",
+      "name": "Dövme Çorbası"
      },
      {
-      "kcal": 175,
-      "key": "f7aba87974",
-      "name": "Izgara Tavuk"
+      "img": "dishes/af4ebca652.jpg",
+      "kcal": 390,
+      "key": "af4ebca652",
+      "name": "Sebzeli Köfte"
      },
      {
-      "img": "dishes/246525a1c0.jpg",
-      "kcal": 280,
-      "key": "246525a1c0",
-      "name": "Şehriyeli Bulgur Pilavı"
+      "img": "dishes/18ccb4d264.jpg",
+      "kcal": 300,
+      "key": "18ccb4d264",
+      "name": "Soslu Makarna"
      },
      {
-      "img": "dishes/16b5c22561.jpg",
-      "kcal": 80,
-      "key": "16b5c22561",
-      "name": "Ayran"
+      "img": "dishes/9814c6dc58.jpg",
+      "kcal": 70,
+      "key": "9814c6dc58",
+      "name": "Mandalina"
      }
     ],
-    "kcal": 695
+    "kcal": 940
    }
   },
   "2026-11-16": {
@@ -395,6 +396,7 @@
       "name": "Domates Çorbası"
      },
      {
+      "img": "dishes/a8071a33a4.jpg",
       "kcal": 360,
       "key": "a8071a33a4",
       "name": "Tavuk Burger"
@@ -494,6 +496,7 @@
       "name": "Yoğurtlu Mantı"
      },
      {
+      "img": "dishes/130325aac9.jpg",
       "kcal": 70,
       "key": "130325aac9",
       "name": "Ezme"
@@ -593,5 +596,5 @@
   }
  },
  "university": "mku",
- "updated": "2026-11-12T13:26:54+03:00"
+ "updated": "2026-11-13T13:16:43+03:00"
 }

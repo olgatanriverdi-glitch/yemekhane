@@ -394,12 +394,12 @@
       "name": "Bulgur Pilavı"
      },
      {
-      "img": "dishes/92485508df.jpg",
-      "key": "92485508df",
-      "name": "Tatlı"
+      "img": "dishes/c96fd73d5f.jpg",
+      "key": "c96fd73d5f",
+      "name": "Salata"
      }
     ],
-    "kcal": 1069
+    "kcal": 820
    }
   },
   "2026-11-18": {
@@ -411,9 +411,9 @@
       "name": "Tarhana Çorbası"
      },
      {
-      "img": "dishes/712effcf50.jpg",
-      "key": "712effcf50",
-      "name": "Patlıcan Kebabı"
+      "img": "dishes/5dfc480937.jpg",
+      "key": "5dfc480937",
+      "name": "Patlıcan Musakka"
      },
      {
       "key": "8636bfbc0a",
@@ -612,5 +612,5 @@
   }
  },
  "university": "nevsehir",
- "updated": "2026-11-12T13:26:54+03:00"
+ "updated": "2026-11-13T13:16:43+03:00"
 }

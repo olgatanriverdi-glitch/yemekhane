@@ -150,8 +150,38 @@
     ],
     "kcal": 955
    }
+  },
+  "2026-11-13": {
+   "lunch": {
+    "items": [
+     {
+      "img": "dishes/5abbdce7b9.jpg",
+      "kcal": 110,
+      "key": "5abbdce7b9",
+      "name": "Sebze Çorba"
+     },
+     {
+      "kcal": 210,
+      "key": "0e987c96cc",
+      "name": "Arap Tava"
+     },
+     {
+      "img": "dishes/25b07cf14e.jpg",
+      "kcal": 290,
+      "key": "25b07cf14e",
+      "name": "Bulgur Pilavı"
+     },
+     {
+      "img": "dishes/faa2e9e4f2.jpg",
+      "kcal": 300,
+      "key": "faa2e9e4f2",
+      "name": "Supangle"
+     }
+    ],
+    "kcal": 910
+   }
   }
  },
  "university": "rte",
- "updated": "2026-11-12T13:26:54+03:00"
+ "updated": "2026-11-13T13:16:43+03:00"
 }

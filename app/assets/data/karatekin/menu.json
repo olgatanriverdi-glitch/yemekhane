@@ -239,34 +239,34 @@
     "kcal": 664
    }
   },
-  "2026-11-13": {
+  "2026-11-12": {
    "lunch": {
     "items": [
      {
-      "img": "dishes/41393d3b18.jpg",
-      "kcal": 160,
-      "key": "41393d3b18",
-      "name": "Kremalı Mantar Çorba"
+      "img": "dishes/4782e4b30f.jpg",
+      "kcal": 141,
+      "key": "4782e4b30f",
+      "name": "Şehriye Çorba"
      },
      {
-      "img": "dishes/415cd292c5.jpg",
-      "kcal": 470,
-      "key": "415cd292c5",
-      "name": "Kıymalı Patates Oturtma"
+      "kcal": 244,
+      "key": "7bae814a67",
+      "name": "Tavuk Sote"
      },
      {
-      "kcal": 303,
-      "key": "8636bfbc0a",
-      "name": "Pirinç Pilavı"
+      "img": "dishes/bac7d91091.jpg",
+      "kcal": 232,
+      "key": "bac7d91091",
+      "name": "Makarna"
      },
      {
-      "img": "dishes/ed17271d58.jpg",
-      "kcal": 80,
-      "key": "ed17271d58",
-      "name": "Meyve"
+      "img": "dishes/7b93d969b6.jpg",
+      "kcal": 158,
+      "key": "7b93d969b6",
+      "name": "Tarator"
      }
     ],
-    "kcal": 1013
+    "kcal": 775
    }
   },
   "2026-11-16": {
@@ -600,5 +600,5 @@
   }
  },
  "university": "karatekin",
- "updated": "2026-11-12T13:26:54+03:00"
+ "updated": "2026-11-13T13:16:43+03:00"
 }

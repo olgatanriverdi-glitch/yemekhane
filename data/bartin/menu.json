@@ -347,6 +347,7 @@
       "name": "Arpa Şehriye Pilavı"
      },
      {
+      "img": "dishes/130325aac9.jpg",
       "kcal": 90,
       "key": "130325aac9",
       "name": "Ezme"
@@ -458,6 +459,7 @@
       "name": "Domates Çorbası"
      },
      {
+      "img": "dishes/a8071a33a4.jpg",
       "kcal": 484,
       "key": "a8071a33a4",
       "name": "Tavuk Burger"
@@ -528,6 +530,7 @@
       "name": "Ezogelin Çorbası"
      },
      {
+      "img": "dishes/dacb34f820.jpg",
       "kcal": 390,
       "key": "dacb34f820",
       "name": "Izgara Kanat"
@@ -643,5 +646,5 @@
   }
  },
  "university": "bartin",
- "updated": "2026-11-12T13:26:54+03:00"
+ "updated": "2026-11-13T13:16:43+03:00"
 }

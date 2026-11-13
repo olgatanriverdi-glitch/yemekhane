@@ -248,6 +248,35 @@
    "lunch": {
     "items": [
      {
+      "img": "dishes/22dd093862.jpg",
+      "key": "22dd093862",
+      "name": "Mercimek Çorba"
+     },
+     {
+      "key": "ca1c163097",
+      "name": "Napoliten Soslu"
+     },
+     {
+      "key": "2b862396e6",
+      "name": "Patlıcan"
+     },
+     {
+      "img": "dishes/7996503754.jpg",
+      "key": "7996503754",
+      "name": "Peynirli Makarna"
+     },
+     {
+      "img": "dishes/de8670087d.jpg",
+      "key": "de8670087d",
+      "name": "Baklava"
+     }
+    ]
+   }
+  },
+  "2026-11-17": {
+   "lunch": {
+    "items": [
+     {
       "key": "7a3b3546ba",
       "name": "Alaca Çorba"
      },
@@ -265,31 +294,6 @@
       "img": "dishes/99a67d4042.jpg",
       "key": "99a67d4042",
       "name": "Mevsim Salata"
-     }
-    ]
-   }
-  },
-  "2026-11-17": {
-   "lunch": {
-    "items": [
-     {
-      "img": "dishes/22dd093862.jpg",
-      "key": "22dd093862",
-      "name": "Mercimek Çorba"
-     },
-     {
-      "key": "c32acae8ab",
-      "name": "Napoliten Soslu Patlıcan"
-     },
-     {
-      "img": "dishes/7996503754.jpg",
-      "key": "7996503754",
-      "name": "Peynirli Makarna"
-     },
-     {
-      "img": "dishes/de8670087d.jpg",
-      "key": "de8670087d",
-      "name": "Baklava"
      }
     ]
    }
@@ -515,5 +519,5 @@
   }
  },
  "university": "bilecik",
- "updated": "2026-11-12T13:26:54+03:00"
+ "updated": "2026-11-13T13:16:43+03:00"
 }

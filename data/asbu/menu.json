@@ -1685,8 +1685,78 @@
     ],
     "kcal": 951
    }
+  },
+  "2026-11-13": {
+   "lunch": {
+    "items": [
+     {
+      "kcal": 190,
+      "key": "7e85f5098f",
+      "name": "Köylü Çorba"
+     },
+     {
+      "img": "dishes/694df91308.jpg",
+      "kcal": 302,
+      "key": "694df91308",
+      "name": "İzmir Köfte"
+     },
+     {
+      "img": "dishes/bac7d91091.jpg",
+      "kcal": 230,
+      "key": "bac7d91091",
+      "name": "Makarna"
+     },
+     {
+      "img": "dishes/53c2975a6e.jpg",
+      "kcal": 300,
+      "key": "53c2975a6e",
+      "name": "Aşure"
+     },
+     {
+      "img": "dishes/9c8d655ef5.jpg",
+      "kcal": 152,
+      "key": "9c8d655ef5",
+      "name": "Yoğurt"
+     }
+    ],
+    "kcal": 1174
+   },
+   "vegetarian": {
+    "items": [
+     {
+      "kcal": 190,
+      "key": "7e85f5098f",
+      "name": "Köylü Çorba"
+     },
+     {
+      "img": "dishes/2cb78fe7b6.jpg",
+      "kcal": 110,
+      "key": "2cb78fe7b6",
+      "name": "Patates Yemeği"
+     },
+     {
+      "img": "dishes/bac7d91091.jpg",
+      "kcal": 230,
+      "key": "bac7d91091",
+      "name": "Makarna"
+     },
+     {
+      "img": "dishes/53c2975a6e.jpg",
+      "kcal": 300,
+      "key": "53c2975a6e",
+      "name": "Aşure"
+     },
+     {
+      "img": "dishes/9c8d655ef5.jpg",
+      "kcal": 152,
+      "key": "9c8d655ef5",
+      "name": "Yoğurt"
+     }
+    ],
+    "kcal": 982
+   }
   }
  },
  "university": "asbu",
- "updated": "2026-11-12T13:26:54+03:00"
+ "updated": "2026-11-13T13:16:43+03:00"
 }

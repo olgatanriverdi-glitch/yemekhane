@@ -26,7 +26,8 @@
   "2026-11-09": "a746873f05e3",
   "2026-11-10": "4efd187fede8",
   "2026-11-11": "fb6cb3d76923",
-  "2026-11-12": "05a967c1c011"
+  "2026-11-12": "05a967c1c011",
+  "2026-11-13": "8a9afd398373"
  },
  "main": {
   "025eacfe0c": "8f579a24b2f7",
@@ -43,7 +44,7 @@
   "613616e611": "cb1148062900",
   "7bae814a67": "54ed738c6836",
   "890b8e3990": "5bf61878c47f",
-  "91d34270c6": "942c5a76c502",
+  "91d34270c6": "8a9afd398373",
   "9bd36390ba": "3d079491ea57",
   "9f0828ef41": "2d412b1b6c47",
   "b7f7a0ca2b": "78be4bc465a4",
@@ -213,6 +214,16 @@
     "Etli Kuru Fasulye",
     "Şehriyeli Pirinç Pilavı/Turşu",
     "Frambuaz Rüyası"
+   ]
+  },
+  "8a9afd398373": {
+   "added": "2026-11-13",
+   "hash": "4351aff5eac98f58905110ccd120d3d8e701ad5c",
+   "items": [
+    "Mahluta Çorba",
+    "İsveç Köfte/Sebze Garnitür",
+    "Cevizli Erişte",
+    "Tiramisu"
    ]
   },
   "8f579a24b2f7": {

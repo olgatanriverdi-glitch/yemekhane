@@ -653,6 +653,7 @@
    "dinner": {
     "items": [
      {
+      "img": "dishes/a8071a33a4.jpg",
       "key": "a8071a33a4",
       "name": "Tavuk Burger"
      },
@@ -1049,5 +1050,5 @@
   }
  },
  "university": "adiyaman",
- "updated": "2026-11-12T13:26:54+03:00"
+ "updated": "2026-11-13T13:16:43+03:00"
 }

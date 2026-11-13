@@ -303,9 +303,10 @@
       "name": "Kremalı Mantar Çorba"
      },
      {
+      "img": "dishes/d75c5b1ba7.jpg",
       "kcal": 510,
-      "key": "808cc3c639",
-      "name": "Marmaris Köfte"
+      "key": "d75c5b1ba7",
+      "name": "Kıymalı Ali Nazik"
      },
      {
       "kcal": 215,
@@ -479,10 +480,10 @@
       "name": "Brokoli Çorba"
      },
      {
-      "img": "dishes/2dfccf532a.jpg",
+      "img": "dishes/17d2e9100f.jpg",
       "kcal": 350,
-      "key": "2dfccf532a",
-      "name": "Fırında Sebzeli Köfte"
+      "key": "17d2e9100f",
+      "name": "Tavuk Döner"
      },
      {
       "img": "dishes/25b07cf14e.jpg",
@@ -570,10 +571,10 @@
       "name": "Mercimek Çorba"
      },
      {
-      "img": "dishes/0428d021a9.jpg",
+      "img": "dishes/8c7f6440e4.jpg",
       "kcal": 400,
-      "key": "0428d021a9",
-      "name": "Hamburger"
+      "key": "8c7f6440e4",
+      "name": "Hamburger/Fırın Güveç"
      },
      {
       "kcal": 275,
@@ -622,5 +623,5 @@
   }
  },
  "university": "hbv",
- "updated": "2026-11-12T13:26:54+03:00"
+ "updated": "2026-11-13T13:16:43+03:00"
 }

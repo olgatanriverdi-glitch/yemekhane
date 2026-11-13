@@ -1,112 +1,5 @@
 {
  "days": {
-  "2026-11-10": {
-   "breakfast": {
-    "items": [
-     {
-      "img": "dishes/22605468a2.jpg",
-      "key": "22605468a2",
-      "name": "Çay"
-     },
-     {
-      "key": "f7b84ad85a",
-      "name": "Meyve Suyu"
-     },
-     {
-      "img": "dishes/bff26db9ff.jpg",
-      "key": "bff26db9ff",
-      "name": "Süt"
-     },
-     {
-      "key": "b13c329917",
-      "name": "Vişne Reçeli-Tereyağı"
-     },
-     {
-      "key": "d55ffa8efc",
-      "name": "Labne Peynir"
-     },
-     {
-      "img": "dishes/ddc30ae037.jpg",
-      "key": "ddc30ae037",
-      "name": "Simit"
-     },
-     {
-      "key": "d57fd2c8c7",
-      "name": "Patatesli Yumurta"
-     }
-    ]
-   },
-   "dinner": {
-    "items": [
-     {
-      "img": "dishes/78d4dad707.jpg",
-      "key": "78d4dad707",
-      "name": "Tarhana Çorbası"
-     },
-     {
-      "img": "dishes/7dcf3f797f.jpg",
-      "key": "7dcf3f797f",
-      "name": "Ankara Tava (Pirinç)"
-     },
-     {
-      "key": "bcb3b987c1",
-      "name": "Pembe Güzeli Salatası"
-     },
-     {
-      "img": "dishes/997b4ad147.jpg",
-      "key": "997b4ad147",
-      "name": "Muz"
-     }
-    ]
-   },
-   "lunch": {
-    "items": [
-     {
-      "img": "dishes/78d4dad707.jpg",
-      "key": "78d4dad707",
-      "name": "Tarhana Çorbası"
-     },
-     {
-      "img": "dishes/7dcf3f797f.jpg",
-      "key": "7dcf3f797f",
-      "name": "Ankara Tava (Pirinç)"
-     },
-     {
-      "key": "bcb3b987c1",
-      "name": "Pembe Güzeli Salatası"
-     },
-     {
-      "img": "dishes/997b4ad147.jpg",
-      "key": "997b4ad147",
-      "name": "Muz"
-     }
-    ]
-   },
-   "vegetarian": {
-    "items": [
-     {
-      "img": "dishes/e2fac9b8dd.jpg",
-      "key": "e2fac9b8dd",
-      "name": "Tel Şehriye Çorbası"
-     },
-     {
-      "img": "dishes/1d16892cbf.jpg",
-      "key": "1d16892cbf",
-      "name": "Etsiz Taze Fasulye"
-     },
-     {
-      "img": "dishes/25b07cf14e.jpg",
-      "key": "25b07cf14e",
-      "name": "Bulgur Pilavı"
-     },
-     {
-      "img": "dishes/997b4ad147.jpg",
-      "key": "997b4ad147",
-      "name": "Muz"
-     }
-    ]
-   }
-  },
   "2026-11-11": {
    "breakfast": {
     "items": [
@@ -1612,5 +1505,5 @@
   }
  },
  "university": "iu",
- "updated": "2026-11-12T13:26:54+03:00"
+ "updated": "2026-11-13T13:16:43+03:00"
 }
