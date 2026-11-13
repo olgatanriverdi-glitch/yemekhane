@@ -1,55 +1,5 @@
 {
  "days": {
-  "2026-09-29": {
-   "lunch": {
-    "items": [
-     {
-      "img": "dishes/85b7944a41.jpg",
-      "key": "85b7944a41",
-      "name": "Tas Kebabı"
-     },
-     {
-      "key": "fef6adada3",
-      "name": "Nohutlu Pirinç Pilavı"
-     },
-     {
-      "img": "dishes/3ab5b14f23.jpg",
-      "key": "3ab5b14f23",
-      "name": "Kuru Cacık"
-     },
-     {
-      "img": "dishes/ed17271d58.jpg",
-      "key": "ed17271d58",
-      "name": "Meyve"
-     }
-    ],
-    "kcal": 930
-   },
-   "vegetarian": {
-    "items": [
-     {
-      "img": "dishes/2cb78fe7b6.jpg",
-      "key": "2cb78fe7b6",
-      "name": "Patates Yemeği"
-     },
-     {
-      "key": "fef6adada3",
-      "name": "Nohutlu Pirinç Pilavı"
-     },
-     {
-      "img": "dishes/c96fd73d5f.jpg",
-      "key": "c96fd73d5f",
-      "name": "Salata"
-     },
-     {
-      "img": "dishes/ed17271d58.jpg",
-      "key": "ed17271d58",
-      "name": "Meyve"
-     }
-    ],
-    "kcal": 835
-   }
-  },
   "2026-09-30": {
    "lunch": {
     "items": [
@@ -2468,5 +2418,5 @@
   }
  },
  "university": "deu",
- "updated": "2026-11-13T13:16:43+03:00"
+ "updated": "2026-11-14T00:04:31+03:00"
 }

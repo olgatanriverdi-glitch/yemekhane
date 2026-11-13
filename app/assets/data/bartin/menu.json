@@ -300,30 +300,31 @@
    "lunch": {
     "items": [
      {
-      "img": "dishes/78d4dad707.jpg",
-      "kcal": 180,
-      "key": "78d4dad707",
-      "name": "Tarhana Çorbası"
+      "img": "dishes/8a1d66ed2e.jpg",
+      "kcal": 92,
+      "key": "8a1d66ed2e",
+      "name": "Süzme Mercimek Çorbası"
      },
      {
-      "img": "dishes/c94ea723fe.jpg",
-      "kcal": 286,
-      "key": "c94ea723fe",
-      "name": "Etli Nohut Yemeği"
+      "img": "dishes/ae0e2ddc52.jpg",
+      "kcal": 535,
+      "key": "ae0e2ddc52",
+      "name": "Pilavüstü Et Döner"
      },
      {
-      "kcal": 303,
-      "key": "8636bfbc0a",
-      "name": "Pirinç Pilavı"
+      "img": "dishes/99a67d4042.jpg",
+      "kcal": 59,
+      "key": "99a67d4042",
+      "name": "Mevsim Salata"
      },
      {
-      "img": "dishes/2f58be7b7a.jpg",
-      "kcal": 62,
-      "key": "2f58be7b7a",
-      "name": "Cacık"
+      "img": "dishes/16b5c22561.jpg",
+      "kcal": 60,
+      "key": "16b5c22561",
+      "name": "Ayran"
      }
     ],
-    "kcal": 831
+    "kcal": 746
    }
   },
   "2026-11-17": {
@@ -646,5 +647,5 @@
   }
  },
  "university": "bartin",
- "updated": "2026-11-13T13:16:43+03:00"
+ "updated": "2026-11-14T00:04:31+03:00"
 }

@@ -269,6 +269,36 @@
     "kcal": 775
    }
   },
+  "2026-11-13": {
+   "lunch": {
+    "items": [
+     {
+      "img": "dishes/41393d3b18.jpg",
+      "kcal": 160,
+      "key": "41393d3b18",
+      "name": "Kremalı Mantar Çorba"
+     },
+     {
+      "img": "dishes/415cd292c5.jpg",
+      "kcal": 470,
+      "key": "415cd292c5",
+      "name": "Kıymalı Patates Oturtma"
+     },
+     {
+      "kcal": 303,
+      "key": "8636bfbc0a",
+      "name": "Pirinç Pilavı"
+     },
+     {
+      "img": "dishes/ed17271d58.jpg",
+      "kcal": 80,
+      "key": "ed17271d58",
+      "name": "Meyve"
+     }
+    ],
+    "kcal": 1013
+   }
+  },
   "2026-11-16": {
    "lunch": {
     "items": [
@@ -310,10 +340,9 @@
       "name": "Tutmaç Çorba"
      },
      {
-      "img": "dishes/d151de6ce3.jpg",
       "kcal": 370,
-      "key": "d151de6ce3",
-      "name": "Çoban Kavurma"
+      "key": "88b535bf45",
+      "name": "Patatesli Çoban Kavurma"
      },
      {
       "img": "dishes/25b07cf14e.jpg",
@@ -600,5 +629,5 @@
   }
  },
  "university": "karatekin",
- "updated": "2026-11-13T13:16:43+03:00"
+ "updated": "2026-11-14T00:04:31+03:00"
 }

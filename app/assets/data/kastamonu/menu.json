@@ -1,36 +1,5 @@
 {
  "days": {
-  "2026-11-13": {
-   "lunch": {
-    "items": [
-     {
-      "img": "dishes/22dd093862.jpg",
-      "kcal": 134,
-      "key": "22dd093862",
-      "name": "Mercimek Çorba"
-     },
-     {
-      "img": "dishes/2f7edb1f03.jpg",
-      "kcal": 399,
-      "key": "2f7edb1f03",
-      "name": "Terbiyeli Köfte"
-     },
-     {
-      "img": "dishes/abad8aab8e.jpg",
-      "kcal": 365,
-      "key": "abad8aab8e",
-      "name": "Napoliten Soslu Makarna"
-     },
-     {
-      "img": "dishes/a6607cdb9a.jpg",
-      "kcal": 250,
-      "key": "a6607cdb9a",
-      "name": "Keşkül"
-     }
-    ],
-    "kcal": 1148
-   }
-  },
   "2026-11-16": {
    "lunch": {
     "items": [
@@ -355,5 +324,5 @@
   }
  },
  "university": "kastamonu",
- "updated": "2026-11-13T13:16:43+03:00"
+ "updated": "2026-11-14T00:04:31+03:00"
 }

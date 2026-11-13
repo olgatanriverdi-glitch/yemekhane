@@ -1,29 +1,5 @@
 {
  "days": {
-  "2026-11-13": {
-   "lunch": {
-    "items": [
-     {
-      "key": "ee75ab01ff",
-      "name": "Köylü Çorbası"
-     },
-     {
-      "img": "dishes/1d49307d95.jpg",
-      "key": "1d49307d95",
-      "name": "Patates Oturtma"
-     },
-     {
-      "key": "8636bfbc0a",
-      "name": "Pirinç Pilavı"
-     },
-     {
-      "img": "dishes/3b140d6d1c.jpg",
-      "key": "3b140d6d1c",
-      "name": "Tulumba Tatlısı"
-     }
-    ]
-   }
-  },
   "2026-11-16": {
    "lunch": {
     "items": [
@@ -293,5 +269,5 @@
   }
  },
  "university": "mugla",
- "updated": "2026-11-13T13:16:43+03:00"
+ "updated": "2026-11-14T00:04:31+03:00"
 }

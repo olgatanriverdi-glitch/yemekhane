@@ -492,8 +492,8 @@
    "dinner": {
     "items": [
      {
-      "key": "5cd0de3530",
-      "name": "Yüzük Çorbası"
+      "key": "e47540f7f5",
+      "name": "Domates Çorbası"
      },
      {
       "img": "dishes/85b7944a41.jpg",
@@ -516,8 +516,8 @@
    "lunch": {
     "items": [
      {
-      "key": "5cd0de3530",
-      "name": "Yüzük Çorbası"
+      "key": "e47540f7f5",
+      "name": "Domates Çorbası"
      },
      {
       "img": "dishes/85b7944a41.jpg",
@@ -542,22 +542,23 @@
    "dinner": {
     "items": [
      {
-      "key": "e53a43ce6a",
-      "name": "Kremalı Havuç Çorbası"
+      "img": "dishes/78d4dad707.jpg",
+      "key": "78d4dad707",
+      "name": "Tarhana Çorbası"
      },
      {
-      "img": "dishes/4753faf927.jpg",
-      "key": "4753faf927",
-      "name": "Zeytinyağlı Kuru Fasülye"
+      "img": "dishes/2c4e10d27f.jpg",
+      "key": "2c4e10d27f",
+      "name": "Kıymalı Kuru Fasülye"
      },
      {
-      "key": "b705f1e3b8",
-      "name": "Kabune"
+      "key": "70ddba17c0",
+      "name": "Arpa Şehriyeli Pirinç Pilavı"
      },
      {
-      "img": "dishes/44abc36c0c.jpg",
-      "key": "44abc36c0c",
-      "name": "İrmik Helvası"
+      "img": "dishes/a6607cdb9a.jpg",
+      "key": "a6607cdb9a",
+      "name": "Keşkül"
      }
     ],
     "kcal": 1150
@@ -565,22 +566,23 @@
    "lunch": {
     "items": [
      {
-      "key": "e53a43ce6a",
-      "name": "Kremalı Havuç Çorbası"
+      "img": "dishes/78d4dad707.jpg",
+      "key": "78d4dad707",
+      "name": "Tarhana Çorbası"
      },
      {
-      "img": "dishes/4753faf927.jpg",
-      "key": "4753faf927",
-      "name": "Zeytinyağlı Kuru Fasülye"
+      "img": "dishes/2c4e10d27f.jpg",
+      "key": "2c4e10d27f",
+      "name": "Kıymalı Kuru Fasülye"
      },
      {
-      "key": "b705f1e3b8",
-      "name": "Kabune"
+      "key": "70ddba17c0",
+      "name": "Arpa Şehriyeli Pirinç Pilavı"
      },
      {
-      "img": "dishes/44abc36c0c.jpg",
-      "key": "44abc36c0c",
-      "name": "İrmik Helvası"
+      "img": "dishes/a6607cdb9a.jpg",
+      "key": "a6607cdb9a",
+      "name": "Keşkül"
      }
     ],
     "kcal": 1150
@@ -1028,5 +1030,5 @@
   }
  },
  "university": "sdu",
- "updated": "2026-11-13T13:16:43+03:00"
+ "updated": "2026-11-14T00:04:31+03:00"
 }

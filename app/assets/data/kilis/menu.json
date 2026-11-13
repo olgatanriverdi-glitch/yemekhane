@@ -260,9 +260,8 @@
       "name": "Ezogelin Çorba"
      },
      {
-      "img": "dishes/a3d80c5897.jpg",
-      "key": "a3d80c5897",
-      "name": "Armut"
+      "key": "31e785c465",
+      "name": "Fıstıklı Kadayıf"
      }
     ]
    }
@@ -513,5 +512,5 @@
   }
  },
  "university": "kilis",
- "updated": "2026-11-13T13:16:43+03:00"
+ "updated": "2026-11-14T00:04:31+03:00"
 }

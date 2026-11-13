@@ -1,44 +1,5 @@
 {
  "days": {
-  "2026-09-29": {
-   "lunch": {
-    "items": [
-     {
-      "img": "dishes/bf8474c8b9.jpg",
-      "kcal": 154,
-      "key": "bf8474c8b9",
-      "name": "Ezogelin Çorba"
-     },
-     {
-      "kcal": 319,
-      "key": "8f5cab321c",
-      "name": "Çiftlik Kebap"
-     },
-     {
-      "kcal": 347,
-      "key": "888f38956c",
-      "name": "Domates Soslu Fırın Köfte"
-     },
-     {
-      "img": "dishes/246525a1c0.jpg",
-      "kcal": 313,
-      "key": "246525a1c0",
-      "name": "Şehriyeli Bulgur Pilavı"
-     },
-     {
-      "img": "dishes/99a67d4042.jpg",
-      "kcal": 73,
-      "key": "99a67d4042",
-      "name": "Mevsim Salata"
-     },
-     {
-      "img": "dishes/ed17271d58.jpg",
-      "key": "ed17271d58",
-      "name": "Meyve"
-     }
-    ]
-   }
-  },
   "2026-09-30": {
    "lunch": {
     "items": [
@@ -1499,5 +1460,5 @@
   }
  },
  "university": "ktu",
- "updated": "2026-11-13T13:16:43+03:00"
+ "updated": "2026-11-14T00:04:31+03:00"
 }
