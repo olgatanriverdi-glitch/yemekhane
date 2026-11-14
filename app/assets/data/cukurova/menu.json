@@ -536,6 +536,7 @@
    "lunch": {
     "items": [
      {
+      "img": "dishes/85f4d2dee4.jpg",
       "kcal": 1,
       "key": "85f4d2dee4",
       "name": "Etli Pide"
@@ -684,5 +685,5 @@
   }
  },
  "university": "cukurova",
- "updated": "2026-11-14T00:04:31+03:00"
+ "updated": "2026-11-14T12:37:11+03:00"
 }

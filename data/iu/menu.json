@@ -1,112 +1,5 @@
 {
  "days": {
-  "2026-11-11": {
-   "breakfast": {
-    "items": [
-     {
-      "img": "dishes/22605468a2.jpg",
-      "key": "22605468a2",
-      "name": "Çay"
-     },
-     {
-      "key": "f7b84ad85a",
-      "name": "Meyve Suyu"
-     },
-     {
-      "img": "dishes/bff26db9ff.jpg",
-      "key": "bff26db9ff",
-      "name": "Süt"
-     },
-     {
-      "key": "bd44353672",
-      "name": "Bal-Tereyağı"
-     },
-     {
-      "img": "dishes/8690d4fe86.jpg",
-      "key": "8690d4fe86",
-      "name": "Beyaz Peynir"
-     },
-     {
-      "img": "dishes/58cbab5fdc.jpg",
-      "key": "58cbab5fdc",
-      "name": "Açma"
-     },
-     {
-      "img": "dishes/18ae4dd1e3.jpg",
-      "key": "18ae4dd1e3",
-      "name": "Salam"
-     }
-    ]
-   },
-   "dinner": {
-    "items": [
-     {
-      "img": "dishes/4e30e73821.jpg",
-      "key": "4e30e73821",
-      "name": "Kremalı Mantar Çorbası"
-     },
-     {
-      "img": "dishes/890b8e3990.jpg",
-      "key": "890b8e3990",
-      "name": "Etli Nohut"
-     },
-     {
-      "key": "8636bfbc0a",
-      "name": "Pirinç Pilavı"
-     },
-     {
-      "img": "dishes/9c8d655ef5.jpg",
-      "key": "9c8d655ef5",
-      "name": "Yoğurt"
-     }
-    ]
-   },
-   "lunch": {
-    "items": [
-     {
-      "img": "dishes/4e30e73821.jpg",
-      "key": "4e30e73821",
-      "name": "Kremalı Mantar Çorbası"
-     },
-     {
-      "img": "dishes/890b8e3990.jpg",
-      "key": "890b8e3990",
-      "name": "Etli Nohut"
-     },
-     {
-      "key": "8636bfbc0a",
-      "name": "Pirinç Pilavı"
-     },
-     {
-      "img": "dishes/9c8d655ef5.jpg",
-      "key": "9c8d655ef5",
-      "name": "Yoğurt"
-     }
-    ]
-   },
-   "vegetarian": {
-    "items": [
-     {
-      "img": "dishes/da64dc8fd8.jpg",
-      "key": "da64dc8fd8",
-      "name": "Mantar Çorbası"
-     },
-     {
-      "img": "dishes/b6cacec026.jpg",
-      "key": "b6cacec026",
-      "name": "Etsiz Nohut"
-     },
-     {
-      "key": "8636bfbc0a",
-      "name": "Pirinç Pilavı"
-     },
-     {
-      "key": "6fe01d8dcb",
-      "name": "Sütsüz Supangle"
-     }
-    ]
-   }
-  },
   "2026-11-12": {
    "breakfast": {
     "items": [
@@ -1505,5 +1398,5 @@
   }
  },
  "university": "iu",
- "updated": "2026-11-14T00:04:31+03:00"
+ "updated": "2026-11-14T12:37:11+03:00"
 }

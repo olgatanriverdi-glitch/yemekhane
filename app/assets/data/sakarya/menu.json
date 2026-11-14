@@ -1424,6 +1424,7 @@
       "name": "Pür.Rosto Köfte"
      },
      {
+      "img": "dishes/9e8730d083.jpg",
       "key": "9e8730d083",
       "name": "Etsiz Biber Dolma (Merkez Yemekhanede)"
      },
@@ -1520,6 +1521,7 @@
    "lunch": {
     "items": [
      {
+      "img": "dishes/b1a0141e71.jpg",
       "kcal": 122,
       "key": "b1a0141e71",
       "name": "Soğuk Ayran Aşı Çorba"
@@ -1667,5 +1669,5 @@
   }
  },
  "university": "sakarya",
- "updated": "2026-11-14T00:04:31+03:00"
+ "updated": "2026-11-14T12:37:11+03:00"
 }

@@ -1,64 +1,5 @@
 {
  "days": {
-  "2026-11-12": {
-   "dinner": {
-    "items": [
-     {
-      "img": "dishes/1af7fb57ae.jpg",
-      "key": "1af7fb57ae",
-      "name": "Arpa Şehriye Çorbası"
-     },
-     {
-      "img": "dishes/5dfc480937.jpg",
-      "key": "5dfc480937",
-      "name": "Patlıcan Musakka"
-     },
-     {
-      "key": "8636bfbc0a",
-      "name": "Pirinç Pilavı"
-     },
-     {
-      "img": "dishes/2f58be7b7a.jpg",
-      "key": "2f58be7b7a",
-      "name": "Cacık"
-     },
-     {
-      "img": "dishes/972686fca7.jpg",
-      "key": "972686fca7",
-      "name": "Kadayıflı Muhallebi"
-     }
-    ]
-   },
-   "lunch": {
-    "items": [
-     {
-      "key": "b09bac10e9",
-      "name": "Mahluta Çorbası"
-     },
-     {
-      "key": "0df0391a03",
-      "name": "Hindi Külbastı"
-     },
-     {
-      "img": "dishes/f7b4cf4bd7.jpg",
-      "key": "f7b4cf4bd7",
-      "name": "Arrabiata Soslu Makarna"
-     },
-     {
-      "key": "0fddc05415",
-      "name": "Kabak Tarator"
-     },
-     {
-      "key": "f1db7bea12",
-      "name": "Havuç-Turp Salatası"
-     },
-     {
-      "key": "7532e61b1a",
-      "name": "Garnitür Sebzeli Püre"
-     }
-    ]
-   }
-  },
   "2026-11-13": {
    "dinner": {
     "items": [
@@ -1081,5 +1022,5 @@
   }
  },
  "university": "itu",
- "updated": "2026-11-14T00:04:31+03:00"
+ "updated": "2026-11-14T12:37:11+03:00"
 }

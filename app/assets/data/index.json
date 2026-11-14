@@ -81,7 +81,7 @@
   },
   {
    "city": "Ankara",
-   "firstDay": "2026-11-11",
+   "firstDay": "2026-11-12",
    "hours": {
     "breakfast": {
      "approx": false,
@@ -299,7 +299,7 @@
   },
   {
    "city": "İstanbul",
-   "firstDay": "2026-11-11",
+   "firstDay": "2026-11-12",
    "hours": {
     "breakfast": {
      "approx": false,
@@ -329,7 +329,7 @@
   },
   {
    "city": "İstanbul",
-   "firstDay": "2026-11-12",
+   "firstDay": "2026-11-13",
    "hours": {
     "dinner": {
      "approx": false,
@@ -1478,7 +1478,12 @@
     "lunch"
    ],
    "name": "Şırnak Üniversitesi",
-   "prices": [],
+   "prices": [
+    {
+     "label": "Öğrenci",
+     "tl": 30.0
+    }
+   ],
    "short": "ŞÜ",
    "source": "https://sks.sirnak.edu.tr/tr/menu/yemek-listesi/4533"
   },
@@ -2155,6 +2160,6 @@
    "source": "https://www.istiklal.edu.tr/sksdb/beslenme-ve-kafeterya"
   }
  ],
- "updated": "2026-11-14T00:04:31+03:00",
+ "updated": "2026-11-14T12:37:11+03:00",
  "version": 1
 }
