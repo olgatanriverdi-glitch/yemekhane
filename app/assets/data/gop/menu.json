@@ -129,6 +129,7 @@
       "name": "Çeşmi Nigar Çorbası"
      },
      {
+      "img": "dishes/5e8dd80a9d.jpg",
       "kcal": 420,
       "key": "5e8dd80a9d",
       "name": "Patatesli Tas Kebabı"
@@ -372,6 +373,7 @@
       "name": "Çiftlik Köfte"
      },
      {
+      "img": "dishes/cac8eab51a.jpg",
       "kcal": 337,
       "key": "cac8eab51a",
       "name": "Cevizli Peynirli Makarna"
@@ -396,6 +398,7 @@
       "name": "Mercimek Çorba"
      },
      {
+      "img": "dishes/9ab6923546.jpg",
       "kcal": 440,
       "key": "9ab6923546",
       "name": "Kavurma"
@@ -513,6 +516,7 @@
       "name": "Domates Çorba"
      },
      {
+      "img": "dishes/feab81dd7f.jpg",
       "kcal": 365,
       "key": "feab81dd7f",
       "name": "Kıymalı Yumurtalı Ispanak"
@@ -622,5 +626,5 @@
   }
  },
  "university": "gop",
- "updated": "2026-11-14T12:37:11+03:00"
+ "updated": "2026-11-14T22:34:09+03:00"
 }

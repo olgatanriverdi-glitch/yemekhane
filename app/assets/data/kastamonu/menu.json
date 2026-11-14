@@ -245,6 +245,7 @@
       "name": "Saray Çorba"
      },
      {
+      "img": "dishes/b45073bfd1.jpg",
       "key": "b45073bfd1",
       "name": "Etli Taze Fasulye/ Çin Usulü Tavuk"
      },
@@ -324,5 +325,5 @@
   }
  },
  "university": "kastamonu",
- "updated": "2026-11-14T12:37:11+03:00"
+ "updated": "2026-11-14T22:34:09+03:00"
 }

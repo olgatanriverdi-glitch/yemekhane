@@ -33,6 +33,7 @@
       "name": "Domates Çorba (Krotonlu)"
      },
      {
+      "img": "dishes/94369aa022.jpg",
       "key": "94369aa022",
       "name": "Ekşili Köfte/Mantar Soslu Makarna Sote"
      },
@@ -58,10 +59,12 @@
       "name": "Tavuk Suyu Çorba"
      },
      {
+      "img": "dishes/3fb605b76f.jpg",
       "key": "3fb605b76f",
       "name": "Falafel/Yoğurtlu Garnitürlü Sos Şehriye Pilavı"
      },
      {
+      "img": "dishes/05b78e426c.jpg",
       "key": "05b78e426c",
       "name": "Sebzeli Arpa Mozaik Pasta"
      },
@@ -86,6 +89,7 @@
       "name": "Arnavut Ciğeri/Mücver"
      },
      {
+      "img": "dishes/d0b3b1fad2.jpg",
       "key": "d0b3b1fad2",
       "name": "Pirinç Pilavı Ayran"
      },
@@ -129,6 +133,7 @@
       "name": "Mercimek Çorba"
      },
      {
+      "img": "dishes/b7f8b33ce9.jpg",
       "key": "b7f8b33ce9",
       "name": "Piliç Pirzola-Makarna (Ketçap Püre/Mevsim Türlü"
      },
@@ -148,14 +153,17 @@
    "lunch": {
     "items": [
      {
+      "img": "dishes/56f22d28b2.jpg",
       "key": "56f22d28b2",
       "name": "Kremalı Mantar Çorba Tava/Karnabahar Kız"
      },
      {
+      "img": "dishes/bfb04c8afe.jpg",
       "key": "bfb04c8afe",
       "name": "Ankara"
      },
      {
+      "img": "dishes/18b3599599.jpg",
       "key": "18b3599599",
       "name": "Çikolatalı Ayran Islak Kek"
      },
@@ -224,6 +232,7 @@
       "name": "Sebzeli Köylü Çorba"
      },
      {
+      "img": "dishes/c8af4c44fe.jpg",
       "key": "c8af4c44fe",
       "name": "Tavuk/Mantar Spagetti (Sos) Sote"
      },
@@ -499,5 +508,5 @@
   }
  },
  "university": "btu",
- "updated": "2026-11-14T12:37:11+03:00"
+ "updated": "2026-11-14T22:34:09+03:00"
 }

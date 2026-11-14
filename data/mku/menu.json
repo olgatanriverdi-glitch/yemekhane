@@ -314,10 +314,9 @@
       "name": "Tavuk Nugget + Garnitür"
      },
      {
-      "img": "dishes/18ccb4d264.jpg",
-      "kcal": 300,
-      "key": "18ccb4d264",
-      "name": "Soslu Makarna"
+      "kcal": 285,
+      "key": "8db13541fa",
+      "name": "Patates Kızartma"
      },
      {
       "img": "dishes/9c8d655ef5.jpg",
@@ -326,7 +325,7 @@
       "name": "Yoğurt"
      }
     ],
-    "kcal": 850
+    "kcal": 835
    }
   },
   "2026-11-17": {
@@ -623,5 +622,5 @@
   }
  },
  "university": "mku",
- "updated": "2026-11-14T12:37:11+03:00"
+ "updated": "2026-11-14T22:34:09+03:00"
 }

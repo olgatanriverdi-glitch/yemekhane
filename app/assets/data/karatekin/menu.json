@@ -340,6 +340,7 @@
       "name": "Tutmaç Çorba"
      },
      {
+      "img": "dishes/88b535bf45.jpg",
       "kcal": 370,
       "key": "88b535bf45",
       "name": "Patatesli Çoban Kavurma"
@@ -629,5 +630,5 @@
   }
  },
  "university": "karatekin",
- "updated": "2026-11-14T12:37:11+03:00"
+ "updated": "2026-11-14T22:34:09+03:00"
 }

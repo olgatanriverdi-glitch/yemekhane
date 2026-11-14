@@ -545,6 +545,7 @@
       "name": "Ezogelin Çorba"
      },
      {
+      "img": "dishes/53752e2327.jpg",
       "kcal": 280,
       "key": "53752e2327",
       "name": "Etli Keledoş"
@@ -579,6 +580,7 @@
       "name": "Kıymalı Ispanak"
      },
      {
+      "img": "dishes/7c2d4973c2.jpg",
       "kcal": 261,
       "key": "7c2d4973c2",
       "name": "Mecimekli Bulgur Pilavı"
@@ -603,6 +605,7 @@
       "name": "Ezogelin Çorba"
      },
      {
+      "img": "dishes/a62be86852.jpg",
       "kcal": 300,
       "key": "a62be86852",
       "name": "Tavuk Döner/Lavaş"
@@ -624,5 +627,5 @@
   }
  },
  "university": "yyu",
- "updated": "2026-11-14T12:37:11+03:00"
+ "updated": "2026-11-14T22:34:09+03:00"
 }
