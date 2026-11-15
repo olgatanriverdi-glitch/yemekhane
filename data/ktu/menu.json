@@ -1,44 +1,5 @@
 {
  "days": {
-  "2026-09-30": {
-   "lunch": {
-    "items": [
-     {
-      "img": "dishes/22dd093862.jpg",
-      "kcal": 155,
-      "key": "22dd093862",
-      "name": "Mercimek Çorba"
-     },
-     {
-      "kcal": 397,
-      "key": "b2424ec081",
-      "name": "Tavuklu Filiz Kebabı"
-     },
-     {
-      "img": "dishes/1097fc6f54.jpg",
-      "kcal": 330,
-      "key": "1097fc6f54",
-      "name": "Orman Kebap"
-     },
-     {
-      "img": "dishes/7996503754.jpg",
-      "key": "7996503754",
-      "name": "Peynirli Makarna"
-     },
-     {
-      "img": "dishes/16b5c22561.jpg",
-      "kcal": 74,
-      "key": "16b5c22561",
-      "name": "Ayran"
-     },
-     {
-      "kcal": 80,
-      "key": "c3590ffbc9",
-      "name": "Mor Lahana-Havuç Salata"
-     }
-    ]
-   }
-  },
   "2026-10-01": {
    "lunch": {
     "items": [
@@ -1460,5 +1421,5 @@
   }
  },
  "university": "ktu",
- "updated": "2026-11-14T22:34:09+03:00"
+ "updated": "2026-11-15T13:06:37+03:00"
 }

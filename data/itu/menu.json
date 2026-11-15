@@ -1,68 +1,5 @@
 {
  "days": {
-  "2026-11-13": {
-   "dinner": {
-    "items": [
-     {
-      "img": "dishes/0955218757.jpg",
-      "key": "0955218757",
-      "name": "Mercimek Çorbası"
-     },
-     {
-      "img": "dishes/3ed346919a.jpg",
-      "key": "3ed346919a",
-      "name": "Dana Haşlama"
-     },
-     {
-      "img": "dishes/40440fb845.jpg",
-      "key": "40440fb845",
-      "name": "İç Pilav"
-     },
-     {
-      "img": "dishes/3b8121367c.jpg",
-      "key": "3b8121367c",
-      "name": "Brokoli Salatası"
-     },
-     {
-      "img": "dishes/ed47fcacda.jpg",
-      "key": "ed47fcacda",
-      "name": "Pembe Sultan"
-     }
-    ]
-   },
-   "lunch": {
-    "items": [
-     {
-      "img": "dishes/c79dd3c35d.jpg",
-      "key": "c79dd3c35d",
-      "name": "Kremalı Brokoli Çorbası"
-     },
-     {
-      "key": "8f76214279",
-      "name": "Tavuk Tantuni"
-     },
-     {
-      "img": "dishes/321b4fe3c9.jpg",
-      "key": "321b4fe3c9",
-      "name": "Mevsim Salatası"
-     },
-     {
-      "img": "dishes/16b5c22561.jpg",
-      "key": "16b5c22561",
-      "name": "Ayran"
-     },
-     {
-      "img": "dishes/3a38c0aebb.jpg",
-      "key": "3a38c0aebb",
-      "name": "Sütlaç"
-     },
-     {
-      "key": "124297d670",
-      "name": "Garnitür Patates Kızartması"
-     }
-    ]
-   }
-  },
   "2026-11-14": {
    "dinner": {
     "items": [
@@ -1022,5 +959,5 @@
   }
  },
  "university": "itu",
- "updated": "2026-11-14T22:34:09+03:00"
+ "updated": "2026-11-15T13:06:37+03:00"
 }

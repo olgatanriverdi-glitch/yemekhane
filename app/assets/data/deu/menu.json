@@ -1,54 +1,5 @@
 {
  "days": {
-  "2026-09-30": {
-   "lunch": {
-    "items": [
-     {
-      "key": "e47540f7f5",
-      "name": "Domates Çorbası"
-     },
-     {
-      "key": "7cf8795e06",
-      "name": "Fırında Piliç Baget"
-     },
-     {
-      "img": "dishes/c0403431e1.jpg",
-      "key": "c0403431e1",
-      "name": "Arpa Şehriye Pilavı"
-     },
-     {
-      "img": "dishes/16b5c22561.jpg",
-      "key": "16b5c22561",
-      "name": "Ayran"
-     }
-    ],
-    "kcal": 945
-   },
-   "vegetarian": {
-    "items": [
-     {
-      "key": "86552df348",
-      "name": "(Sütsüz) Domates Çorba"
-     },
-     {
-      "img": "dishes/ca947b0d72.jpg",
-      "key": "ca947b0d72",
-      "name": "Ispanak Yemeği"
-     },
-     {
-      "img": "dishes/c0403431e1.jpg",
-      "key": "c0403431e1",
-      "name": "Arpa Şehriye Pilavı"
-     },
-     {
-      "img": "dishes/ed17271d58.jpg",
-      "key": "ed17271d58",
-      "name": "Meyve"
-     }
-    ],
-    "kcal": 729
-   }
-  },
   "2026-10-01": {
    "lunch": {
     "items": [
@@ -2418,5 +2369,5 @@
   }
  },
  "university": "deu",
- "updated": "2026-11-14T22:34:09+03:00"
+ "updated": "2026-11-15T13:06:37+03:00"
 }

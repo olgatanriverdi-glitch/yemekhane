@@ -1444,8 +1444,58 @@
      }
     ]
    }
+  },
+  "2026-11-16": {
+   "lunch": {
+    "items": [
+     {
+      "key": "45d738bb6c",
+      "name": "Mahluta Çorba"
+     },
+     {
+      "key": "411338e940",
+      "name": "Etli Mevsim Türlü"
+     },
+     {
+      "img": "dishes/25b07cf14e.jpg",
+      "key": "25b07cf14e",
+      "name": "Bulgur Pilavı"
+     },
+     {
+      "img": "dishes/ed47fcacda.jpg",
+      "key": "ed47fcacda",
+      "name": "Pembe Sultan"
+     }
+    ]
+   },
+   "vegetarian": {
+    "items": [
+     {
+      "key": "45d738bb6c",
+      "name": "Mahluta Çorba"
+     },
+     {
+      "key": "022d458336",
+      "name": "Mevsim Türlü"
+     },
+     {
+      "img": "dishes/25b07cf14e.jpg",
+      "key": "25b07cf14e",
+      "name": "Bulgur Pilavı"
+     },
+     {
+      "img": "dishes/ed47fcacda.jpg",
+      "key": "ed47fcacda",
+      "name": "Pembe Sultan"
+     },
+     {
+      "key": "aebf5d06f9",
+      "name": "Mısırlı Yeşil Salata"
+     }
+    ]
+   }
   }
  },
  "university": "ikcu",
- "updated": "2026-11-13T13:16:43+03:00"
+ "updated": "2026-11-15T13:06:37+03:00"
 }

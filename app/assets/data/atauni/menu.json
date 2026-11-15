@@ -722,8 +722,32 @@
      }
     ]
    }
+  },
+  "2026-11-16": {
+   "lunch": {
+    "items": [
+     {
+      "key": "b8acd80288",
+      "name": "Tavuklu Düğün Çorba"
+     },
+     {
+      "key": "411338e940",
+      "name": "Etli Mevsim Türlü"
+     },
+     {
+      "img": "dishes/c1cd803af6.jpg",
+      "key": "c1cd803af6",
+      "name": "Acılı Bulgur Pilavı"
+     },
+     {
+      "img": "dishes/92485508df.jpg",
+      "key": "92485508df",
+      "name": "Tatlı"
+     }
+    ]
+   }
   }
  },
  "university": "atauni",
- "updated": "2026-11-13T13:16:43+03:00"
+ "updated": "2026-11-15T13:06:37+03:00"
 }
