@@ -292,8 +292,65 @@
     ],
     "kcal": 895
    }
+  },
+  "2026-11-18": {
+   "lunch": {
+    "items": [
+     {
+      "img": "dishes/78d4dad707.jpg",
+      "kcal": 135,
+      "key": "78d4dad707",
+      "name": "Tarhana Çorbası"
+     },
+     {
+      "kcal": 325,
+      "key": "72cc9ec0be",
+      "name": "Kıymalı Ispanak Yemeği (Yoğurtla)"
+     },
+     {
+      "img": "dishes/a52d5fed84.jpg",
+      "kcal": 335,
+      "key": "a52d5fed84",
+      "name": "Sade Makarna"
+     },
+     {
+      "kcal": 375,
+      "key": "79cce46055",
+      "name": "Bisküvili Pasta"
+     }
+    ],
+    "kcal": 1170
+   }
+  },
+  "2026-11-19": {
+   "lunch": {
+    "items": [
+     {
+      "img": "dishes/8a1d66ed2e.jpg",
+      "kcal": 190,
+      "key": "8a1d66ed2e",
+      "name": "Süzme Mercimek Çorbası"
+     },
+     {
+      "kcal": 300,
+      "key": "552664a671",
+      "name": "Mantarlı Et Sote"
+     },
+     {
+      "kcal": 310,
+      "key": "fa4decda6a",
+      "name": "Şehriyeli Pirinç Pilavı"
+     },
+     {
+      "kcal": 35,
+      "key": "3ef45fb941",
+      "name": "Karışık Turşu"
+     }
+    ],
+    "kcal": 835
+   }
   }
  },
  "university": "etu",
- "updated": "2026-11-15T23:01:52+03:00"
+ "updated": "2026-11-16T13:20:03+03:00"
 }

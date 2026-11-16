@@ -1,34 +1,5 @@
 {
  "days": {
-  "2026-10-01": {
-   "lunch": {
-    "items": [
-     {
-      "img": "dishes/f98b465287.jpg",
-      "kcal": 140,
-      "key": "f98b465287",
-      "name": "Yayla Çorba"
-     },
-     {
-      "img": "dishes/fbb76e65c4.jpg",
-      "kcal": 420,
-      "key": "fbb76e65c4",
-      "name": "Etli Kuru Fasulye"
-     },
-     {
-      "kcal": 340,
-      "key": "e7a136fcd5",
-      "name": "Pirinç Pilav"
-     },
-     {
-      "kcal": 450,
-      "key": "449b6eaa26",
-      "name": "Fındıklı Baklava"
-     }
-    ],
-    "kcal": 1350
-   }
-  },
   "2026-10-02": {
    "lunch": {
     "items": [
@@ -1231,5 +1202,5 @@
   }
  },
  "university": "trabzon",
- "updated": "2026-11-15T23:01:52+03:00"
+ "updated": "2026-11-16T13:20:03+03:00"
 }

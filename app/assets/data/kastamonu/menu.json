@@ -53,13 +53,13 @@
       "name": "Bulgur Pilavı"
      },
      {
-      "img": "dishes/faae73b9a3.jpg",
-      "kcal": 194,
-      "key": "faae73b9a3",
-      "name": "Cevizli Kabak Tatlısı"
+      "img": "dishes/904e9c87e9.jpg",
+      "kcal": 272,
+      "key": "904e9c87e9",
+      "name": "Şekerpare"
      }
     ],
-    "kcal": 894
+    "kcal": 972
    }
   },
   "2026-11-18": {
@@ -114,13 +114,13 @@
       "name": "Sebzeli Makarna"
      },
      {
-      "img": "dishes/904e9c87e9.jpg",
-      "kcal": 272,
-      "key": "904e9c87e9",
-      "name": "Şekerpare"
+      "img": "dishes/faae73b9a3.jpg",
+      "kcal": 194,
+      "key": "faae73b9a3",
+      "name": "Cevizli Kabak Tatlısı"
      }
     ],
-    "kcal": 1203
+    "kcal": 1125
    }
   },
   "2026-11-20": {
@@ -325,5 +325,5 @@
   }
  },
  "university": "kastamonu",
- "updated": "2026-11-15T23:01:52+03:00"
+ "updated": "2026-11-16T13:20:03+03:00"
 }

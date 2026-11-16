@@ -1,63 +1,5 @@
 {
  "days": {
-  "2026-10-01": {
-   "dinner": {
-    "items": [
-     {
-      "img": "dishes/2c0e163a7d.jpg",
-      "kcal": 175,
-      "key": "2c0e163a7d",
-      "name": "Tarhana Çorba"
-     },
-     {
-      "kcal": 309,
-      "key": "6dbbe8d8be",
-      "name": "Hardal Soslu Kremalı Tavuk"
-     },
-     {
-      "img": "dishes/25b07cf14e.jpg",
-      "kcal": 377,
-      "key": "25b07cf14e",
-      "name": "Bulgur Pilavı"
-     },
-     {
-      "img": "dishes/963385cde3.jpg",
-      "kcal": 106,
-      "key": "963385cde3",
-      "name": "Acılı Ezme"
-     }
-    ],
-    "kcal": 967
-   },
-   "lunch": {
-    "items": [
-     {
-      "img": "dishes/2c0e163a7d.jpg",
-      "kcal": 175,
-      "key": "2c0e163a7d",
-      "name": "Tarhana Çorba"
-     },
-     {
-      "kcal": 309,
-      "key": "6dbbe8d8be",
-      "name": "Hardal Soslu Kremalı Tavuk"
-     },
-     {
-      "img": "dishes/25b07cf14e.jpg",
-      "kcal": 377,
-      "key": "25b07cf14e",
-      "name": "Bulgur Pilavı"
-     },
-     {
-      "img": "dishes/963385cde3.jpg",
-      "kcal": 106,
-      "key": "963385cde3",
-      "name": "Acılı Ezme"
-     }
-    ],
-    "kcal": 967
-   }
-  },
   "2026-10-02": {
    "dinner": {
     "items": [
@@ -3452,5 +3394,5 @@
   }
  },
  "university": "odtu",
- "updated": "2026-11-15T23:01:52+03:00"
+ "updated": "2026-11-16T13:20:03+03:00"
 }

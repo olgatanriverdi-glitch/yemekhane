@@ -335,24 +335,23 @@
       "name": "Mercimek Çorba"
      },
      {
-      "kcal": 335,
-      "key": "710d809c7c",
-      "name": "Pilav Üstü Tavuk"
+      "kcal": 310,
+      "key": "9aac46a78c",
+      "name": "Soslu Fırın Tavuk /Patates"
+     },
+     {
+      "kcal": 200,
+      "key": "c9bf7aa111",
+      "name": "Meyhane Pilavı"
      },
      {
       "img": "dishes/91cfb0a127.jpg",
       "kcal": 76,
       "key": "91cfb0a127",
       "name": "Çoban Salata"
-     },
-     {
-      "img": "dishes/16b5c22561.jpg",
-      "kcal": 76,
-      "key": "16b5c22561",
-      "name": "Ayran"
      }
     ],
-    "kcal": 622
+    "kcal": 721
    }
   },
   "2026-11-18": {
@@ -627,5 +626,5 @@
   }
  },
  "university": "yyu",
- "updated": "2026-11-15T23:01:52+03:00"
+ "updated": "2026-11-16T13:20:03+03:00"
 }

@@ -1287,6 +1287,40 @@
       "name": "Meyve"
      }
     ]
+   },
+   "lunch": {
+    "items": [
+     {
+      "img": "dishes/6eb67ae880.jpg",
+      "key": "6eb67ae880",
+      "name": "Tavuk Suyu Çorba"
+     },
+     {
+      "key": "aea7ea71cd",
+      "name": "Rosto Köfte"
+     },
+     {
+      "key": "b6a8224fc4",
+      "name": "Sade Pirinç Pilavı"
+     },
+     {
+      "img": "dishes/81c7521b9b.jpg",
+      "key": "81c7521b9b",
+      "name": "Kekik Soslu Makarna"
+     },
+     {
+      "key": "086337894d",
+      "name": "Havuç Dilim Baklava"
+     },
+     {
+      "key": "b947faf326",
+      "name": "Yeşil Salata"
+     },
+     {
+      "key": "ce072af2f7",
+      "name": "Portakallı Gazoz"
+     }
+    ]
    }
   },
   "2026-11-19": {
@@ -2149,5 +2183,5 @@
   }
  },
  "university": "boun",
- "updated": "2026-11-15T23:01:52+03:00"
+ "updated": "2026-11-16T13:20:03+03:00"
 }

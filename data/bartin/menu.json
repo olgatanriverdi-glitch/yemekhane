@@ -367,9 +367,10 @@
       "name": "Şehriye Çorbası"
      },
      {
+      "img": "dishes/694df91308.jpg",
       "kcal": 308,
-      "key": "aa7693cadb",
-      "name": "Püreli Köfte"
+      "key": "694df91308",
+      "name": "İzmir Köfte"
      },
      {
       "img": "dishes/2356abfde0.jpg",
@@ -425,15 +426,9 @@
       "name": "Kırmızı Mercimek Çorbası"
      },
      {
-      "kcal": 275,
-      "key": "ed89d84390",
-      "name": "Kıymalı Bezelye"
-     },
-     {
-      "img": "dishes/77798bcfb4.jpg",
-      "kcal": 268,
-      "key": "77798bcfb4",
-      "name": "Nugget"
+      "kcal": 320,
+      "key": "aa7693cadb",
+      "name": "Püreli Köfte"
      },
      {
       "img": "dishes/25b07cf14e.jpg",
@@ -442,13 +437,12 @@
       "name": "Bulgur Pilavı"
      },
      {
-      "img": "dishes/a2dceb2520.jpg",
-      "kcal": 167,
-      "key": "a2dceb2520",
-      "name": "Coleslaw"
+      "kcal": 59,
+      "key": "f1db7bea12",
+      "name": "Havuç- Turp Salatası"
      }
     ],
-    "kcal": 1081
+    "kcal": 750
    }
   },
   "2026-11-23": {
@@ -647,5 +641,5 @@
   }
  },
  "university": "bartin",
- "updated": "2026-11-15T23:01:52+03:00"
+ "updated": "2026-11-16T13:20:03+03:00"
 }

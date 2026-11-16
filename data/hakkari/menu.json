@@ -302,9 +302,10 @@
       "name": "Mercimek Çorba"
      },
      {
-      "kcal": 225,
-      "key": "153994bca2",
-      "name": "Et Sote"
+      "img": "dishes/85b7944a41.jpg",
+      "kcal": 303,
+      "key": "85b7944a41",
+      "name": "Tas Kebabı"
      },
      {
       "kcal": 333,
@@ -318,7 +319,7 @@
       "name": "Mandalina"
      }
     ],
-    "kcal": 847
+    "kcal": 925
    }
   },
   "2026-11-17": {
@@ -621,5 +622,5 @@
   }
  },
  "university": "hakkari",
- "updated": "2026-11-15T23:01:52+03:00"
+ "updated": "2026-11-16T13:20:03+03:00"
 }

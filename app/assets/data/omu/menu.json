@@ -1,30 +1,5 @@
 {
  "days": {
-  "2026-10-01": {
-   "lunch": {
-    "items": [
-     {
-      "img": "dishes/11d5798385.jpg",
-      "key": "11d5798385",
-      "name": "Brokoli Çorba"
-     },
-     {
-      "img": "dishes/47f7f4a633.jpg",
-      "key": "47f7f4a633",
-      "name": "Kıymalı Nohut"
-     },
-     {
-      "key": "8636bfbc0a",
-      "name": "Pirinç Pilavı"
-     },
-     {
-      "img": "dishes/ec0228f614.jpg",
-      "key": "ec0228f614",
-      "name": "Turşu"
-     }
-    ]
-   }
-  },
   "2026-10-02": {
    "lunch": {
     "items": [
@@ -623,8 +598,31 @@
      }
     ]
    }
+  },
+  "2026-11-16": {
+   "lunch": {
+    "items": [
+     {
+      "key": "c3014dc010",
+      "name": "Mengen Çorba"
+     },
+     {
+      "img": "dishes/ca947b0d72.jpg",
+      "key": "ca947b0d72",
+      "name": "Ispanak Yemeği"
+     },
+     {
+      "key": "95c20a9481",
+      "name": "Cevizli Erişte Pilavı"
+     },
+     {
+      "key": "79ded7ea04",
+      "name": "Havuç Tarator"
+     }
+    ]
+   }
   }
  },
  "university": "omu",
- "updated": "2026-11-15T23:01:52+03:00"
+ "updated": "2026-11-16T13:20:03+03:00"
 }

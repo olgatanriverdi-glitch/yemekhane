@@ -473,8 +473,173 @@
     ],
     "note": "Ana yemek seçmelidir."
    }
+  },
+  "2026-11-16": {
+   "lunch": {
+    "items": [
+     {
+      "kcal": 330,
+      "key": "1b31a73c5b",
+      "name": "Karışık Oturtma"
+     },
+     {
+      "kcal": 250,
+      "key": "7bae814a67",
+      "name": "Tavuk Sote"
+     },
+     {
+      "img": "dishes/25b07cf14e.jpg",
+      "kcal": 230,
+      "key": "25b07cf14e",
+      "name": "Bulgur Pilavı"
+     },
+     {
+      "img": "dishes/0955218757.jpg",
+      "kcal": 120,
+      "key": "0955218757",
+      "name": "Mercimek Çorbası"
+     },
+     {
+      "img": "dishes/2f58be7b7a.jpg",
+      "kcal": 50,
+      "key": "2f58be7b7a",
+      "name": "Cacık"
+     }
+    ],
+    "note": "Ana yemek seçmelidir."
+   }
+  },
+  "2026-11-17": {
+   "lunch": {
+    "items": [
+     {
+      "kcal": 340,
+      "key": "153994bca2",
+      "name": "Et Sote"
+     },
+     {
+      "kcal": 350,
+      "key": "a0a40d0f87",
+      "name": "Tavuk İncik"
+     },
+     {
+      "kcal": 300,
+      "key": "8636bfbc0a",
+      "name": "Pirinç Pilavı"
+     },
+     {
+      "kcal": 180,
+      "key": "987a9aba42",
+      "name": "Ayran Aşı Çorbası"
+     },
+     {
+      "img": "dishes/99a67d4042.jpg",
+      "key": "99a67d4042",
+      "name": "Mevsim Salata"
+     }
+    ],
+    "note": "Ana yemek seçmelidir."
+   }
+  },
+  "2026-11-18": {
+   "lunch": {
+    "items": [
+     {
+      "kcal": 320,
+      "key": "995b1aa704",
+      "name": "Et Dalyan"
+     },
+     {
+      "kcal": 350,
+      "key": "8c5f737a17",
+      "name": "Tavuk But/Garnitür"
+     },
+     {
+      "img": "dishes/18ccb4d264.jpg",
+      "kcal": 240,
+      "key": "18ccb4d264",
+      "name": "Soslu Makarna"
+     },
+     {
+      "img": "dishes/495fb304f2.jpg",
+      "kcal": 180,
+      "key": "495fb304f2",
+      "name": "Şehriye Çorbası"
+     },
+     {
+      "img": "dishes/b6bfa358ce.jpg",
+      "kcal": 330,
+      "key": "b6bfa358ce",
+      "name": "Trileçe"
+     }
+    ],
+    "note": "Ana yemek seçmelidir."
+   }
+  },
+  "2026-11-19": {
+   "lunch": {
+    "items": [
+     {
+      "img": "dishes/890b8e3990.jpg",
+      "kcal": 330,
+      "key": "890b8e3990",
+      "name": "Etli Nohut"
+     },
+     {
+      "kcal": 260,
+      "key": "b92586ea5a",
+      "name": "Tavuk Çöp Şiş"
+     },
+     {
+      "kcal": 300,
+      "key": "8636bfbc0a",
+      "name": "Pirinç Pilavı"
+     },
+     {
+      "img": "dishes/78d4dad707.jpg",
+      "kcal": 130,
+      "key": "78d4dad707",
+      "name": "Tarhana Çorbası"
+     },
+     {
+      "img": "dishes/ec0228f614.jpg",
+      "key": "ec0228f614",
+      "name": "Turşu"
+     }
+    ],
+    "note": "Ana yemek seçmelidir."
+   }
+  },
+  "2026-11-20": {
+   "lunch": {
+    "items": [
+     {
+      "img": "dishes/c7cadac826.jpg",
+      "kcal": 320,
+      "key": "c7cadac826",
+      "name": "Bahçıvan Kebabı"
+     },
+     {
+      "kcal": 400,
+      "key": "ffaf92e0cd",
+      "name": "Tavada Balık"
+     },
+     {
+      "kcal": 230,
+      "key": "2e811d5d4f",
+      "name": "Bulgur Pilavı (Ezogelin Çorbası"
+     },
+     {
+      "img": "dishes/44abc36c0c.jpg",
+      "kcal": 200,
+      "key": "44abc36c0c",
+      "name": "İrmik Helvası"
+     }
+    ],
+    "note": "Ana yemek seçmelidir."
+   }
   }
  },
  "university": "alparslan",
- "updated": "2026-11-15T23:01:52+03:00"
+ "updated": "2026-11-16T13:20:03+03:00"
 }

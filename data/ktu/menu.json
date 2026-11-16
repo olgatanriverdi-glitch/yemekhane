@@ -1,41 +1,5 @@
 {
  "days": {
-  "2026-10-01": {
-   "lunch": {
-    "items": [
-     {
-      "kcal": 180,
-      "key": "f9e3094533",
-      "name": "Toyga Çorba"
-     },
-     {
-      "kcal": 357,
-      "key": "51314b1266",
-      "name": "Köfteli Avcı Kebabı"
-     },
-     {
-      "key": "40ccdce052",
-      "name": "Sebzeli Körili Tavuk"
-     },
-     {
-      "kcal": 329,
-      "key": "fa4decda6a",
-      "name": "Şehriyeli Pirinç Pilavı"
-     },
-     {
-      "img": "dishes/ed17271d58.jpg",
-      "key": "ed17271d58",
-      "name": "Meyve"
-     },
-     {
-      "img": "dishes/16b5c22561.jpg",
-      "kcal": 74,
-      "key": "16b5c22561",
-      "name": "Ayran"
-     }
-    ]
-   }
-  },
   "2026-10-02": {
    "lunch": {
     "items": [
@@ -1421,5 +1385,5 @@
   }
  },
  "university": "ktu",
- "updated": "2026-11-15T23:01:52+03:00"
+ "updated": "2026-11-16T13:20:03+03:00"
 }

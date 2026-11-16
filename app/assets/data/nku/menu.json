@@ -376,8 +376,240 @@
      }
     ]
    }
+  },
+  "2026-11-16": {
+   "lunch": {
+    "items": [
+     {
+      "key": "d7e347c1b4",
+      "name": "Geleneksel Tarhana Çorba"
+     },
+     {
+      "key": "94dbc8f7aa",
+      "name": "Meşhur Tekirdağ Köfte"
+     },
+     {
+      "img": "dishes/bac7d91091.jpg",
+      "key": "bac7d91091",
+      "name": "Makarna"
+     },
+     {
+      "img": "dishes/16b5c22561.jpg",
+      "key": "16b5c22561",
+      "name": "Ayran"
+     }
+    ]
+   },
+   "vegetarian": {
+    "items": [
+     {
+      "key": "d7e347c1b4",
+      "name": "Geleneksel Tarhana Çorba"
+     },
+     {
+      "img": "dishes/e284be2c52.jpg",
+      "key": "e284be2c52",
+      "name": "Ispanak"
+     },
+     {
+      "img": "dishes/bac7d91091.jpg",
+      "key": "bac7d91091",
+      "name": "Makarna"
+     },
+     {
+      "img": "dishes/16b5c22561.jpg",
+      "key": "16b5c22561",
+      "name": "Ayran"
+     }
+    ]
+   }
+  },
+  "2026-11-17": {
+   "lunch": {
+    "items": [
+     {
+      "key": "7b5c558cf1",
+      "name": "Şefin Özel Çorbası"
+     },
+     {
+      "key": "3d253903d7",
+      "name": "Yeşil Mercimek"
+     },
+     {
+      "img": "dishes/73d1d2f278.jpg",
+      "key": "73d1d2f278",
+      "name": "Kuskus"
+     },
+     {
+      "key": "a65c8a0ce0",
+      "name": "Profiterol Yoğurt"
+     }
+    ]
+   },
+   "vegetarian": {
+    "items": [
+     {
+      "key": "7b5c558cf1",
+      "name": "Şefin Özel Çorbası"
+     },
+     {
+      "key": "3d253903d7",
+      "name": "Yeşil Mercimek"
+     },
+     {
+      "img": "dishes/73d1d2f278.jpg",
+      "key": "73d1d2f278",
+      "name": "Kuskus"
+     },
+     {
+      "key": "a65c8a0ce0",
+      "name": "Profiterol Yoğurt"
+     }
+    ]
+   }
+  },
+  "2026-11-18": {
+   "lunch": {
+    "items": [
+     {
+      "img": "dishes/d61d397136.jpg",
+      "key": "d61d397136",
+      "name": "Süzme Mercimek Çorba"
+     },
+     {
+      "key": "a3b5f90c01",
+      "name": "Fırında Baharatlı Tavuk"
+     },
+     {
+      "img": "dishes/25b07cf14e.jpg",
+      "key": "25b07cf14e",
+      "name": "Bulgur Pilavı"
+     },
+     {
+      "key": "034a7d358a",
+      "name": "Karışık İçecek"
+     }
+    ]
+   },
+   "vegetarian": {
+    "items": [
+     {
+      "img": "dishes/d61d397136.jpg",
+      "key": "d61d397136",
+      "name": "Süzme Mercimek Çorba"
+     },
+     {
+      "img": "dishes/feba5fe940.jpg",
+      "key": "feba5fe940",
+      "name": "Zeytinyağlı Barbunya"
+     },
+     {
+      "img": "dishes/25b07cf14e.jpg",
+      "key": "25b07cf14e",
+      "name": "Bulgur Pilavı"
+     },
+     {
+      "key": "034a7d358a",
+      "name": "Karışık İçecek"
+     }
+    ]
+   }
+  },
+  "2026-11-19": {
+   "lunch": {
+    "items": [
+     {
+      "key": "f9e3094533",
+      "name": "Toyga Çorba"
+     },
+     {
+      "img": "dishes/bd01ecb31b.jpg",
+      "key": "bd01ecb31b",
+      "name": "Kıymalı Kapuska"
+     },
+     {
+      "key": "56ac9a0986",
+      "name": "Talaş Böreği"
+     },
+     {
+      "img": "dishes/997b4ad147.jpg",
+      "key": "997b4ad147",
+      "name": "Muz"
+     }
+    ]
+   },
+   "vegetarian": {
+    "items": [
+     {
+      "key": "f9e3094533",
+      "name": "Toyga Çorba"
+     },
+     {
+      "key": "0feed8de9c",
+      "name": "Zeytinyağlı Kapuska"
+     },
+     {
+      "key": "56ac9a0986",
+      "name": "Talaş Böreği"
+     },
+     {
+      "img": "dishes/997b4ad147.jpg",
+      "key": "997b4ad147",
+      "name": "Muz"
+     }
+    ]
+   }
+  },
+  "2026-11-20": {
+   "lunch": {
+    "items": [
+     {
+      "img": "dishes/bf8474c8b9.jpg",
+      "key": "bf8474c8b9",
+      "name": "Ezogelin Çorba"
+     },
+     {
+      "img": "dishes/c97dfefcc1.jpg",
+      "key": "c97dfefcc1",
+      "name": "Sebzeli Dana Haşlama"
+     },
+     {
+      "img": "dishes/28b694241b.jpg",
+      "key": "28b694241b",
+      "name": "Şehriyeli Pilav"
+     },
+     {
+      "img": "dishes/99a67d4042.jpg",
+      "key": "99a67d4042",
+      "name": "Mevsim Salata"
+     }
+    ]
+   },
+   "vegetarian": {
+    "items": [
+     {
+      "img": "dishes/bf8474c8b9.jpg",
+      "key": "bf8474c8b9",
+      "name": "Ezogelin Çorba"
+     },
+     {
+      "key": "6c2a316e47",
+      "name": "Sebze Haşlama"
+     },
+     {
+      "img": "dishes/28b694241b.jpg",
+      "key": "28b694241b",
+      "name": "Şehriyeli Pilav"
+     },
+     {
+      "img": "dishes/99a67d4042.jpg",
+      "key": "99a67d4042",
+      "name": "Mevsim Salata"
+     }
+    ]
+   }
   }
  },
  "university": "nku",
- "updated": "2026-11-14T22:34:09+03:00"
+ "updated": "2026-11-16T13:20:03+03:00"
 }

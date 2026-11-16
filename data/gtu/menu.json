@@ -1,55 +1,5 @@
 {
  "days": {
-  "2026-10-01": {
-   "lunch": {
-    "items": [
-     {
-      "img": "dishes/5abbdce7b9.jpg",
-      "kcal": 162,
-      "key": "5abbdce7b9",
-      "name": "Sebze Çorba"
-     },
-     {
-      "img": "dishes/890b8e3990.jpg",
-      "kcal": 386,
-      "key": "890b8e3990",
-      "name": "Etli Nohut"
-     },
-     {
-      "kcal": 434,
-      "key": "57d2d2d906",
-      "name": "Mısırlı Pirinç Pilavı"
-     },
-     {
-      "kcal": 348,
-      "key": "cf328ebe10",
-      "name": "Erişte Kavurma"
-     },
-     {
-      "img": "dishes/ed17271d58.jpg",
-      "key": "ed17271d58",
-      "name": "Meyve"
-     },
-     {
-      "kcal": 57,
-      "key": "b947faf326",
-      "name": "Yeşil Salata"
-     },
-     {
-      "img": "dishes/cb4993d46f.jpg",
-      "kcal": 151,
-      "key": "cb4993d46f",
-      "name": "Zeytinyağlı Brokoli"
-     },
-     {
-      "img": "dishes/2f58be7b7a.jpg",
-      "kcal": 105,
-      "key": "2f58be7b7a",
-      "name": "Cacık"
-     }
-    ]
-   }
-  },
   "2026-10-02": {
    "lunch": {
     "items": [
@@ -1300,5 +1250,5 @@
   }
  },
  "university": "gtu",
- "updated": "2026-11-15T23:01:52+03:00"
+ "updated": "2026-11-16T13:20:03+03:00"
 }

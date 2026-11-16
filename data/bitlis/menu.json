@@ -185,8 +185,126 @@
      }
     ]
    }
+  },
+  "2026-11-16": {
+   "lunch": {
+    "items": [
+     {
+      "img": "dishes/8a1d66ed2e.jpg",
+      "key": "8a1d66ed2e",
+      "name": "Süzme Mercimek Çorbası"
+     },
+     {
+      "key": "49e356aea6",
+      "name": "Fırın Tavuk/Mantı/Güveç"
+     },
+     {
+      "key": "c0f70b9b0a",
+      "name": "Şehriyeli Pirinç Pilavı/Bulgur Pilavı"
+     },
+     {
+      "img": "dishes/2f58be7b7a.jpg",
+      "key": "2f58be7b7a",
+      "name": "Cacık"
+     }
+    ]
+   }
+  },
+  "2026-11-17": {
+   "lunch": {
+    "items": [
+     {
+      "key": "646360f3fe",
+      "name": "Tavuk Suyu Çorbası"
+     },
+     {
+      "key": "6b1839ec64",
+      "name": "Sebzeli Tavuk Sote/Sultan Kebabı/Fırın Köfte"
+     },
+     {
+      "key": "cc9c0c4e8a",
+      "name": "Pirinç Pilavı/Salçalı Makarna"
+     },
+     {
+      "img": "dishes/ed17271d58.jpg",
+      "key": "ed17271d58",
+      "name": "Meyve"
+     }
+    ]
+   }
+  },
+  "2026-11-18": {
+   "lunch": {
+    "items": [
+     {
+      "img": "dishes/bf8474c8b9.jpg",
+      "key": "bf8474c8b9",
+      "name": "Ezogelin Çorba"
+     },
+     {
+      "key": "54fcce0ef0",
+      "name": "Tavuk Döner/Tas Kebap/Karnıyarık"
+     },
+     {
+      "key": "c4ff181bef",
+      "name": "Kuş Üzümlü Pirinç Pilavı/Bulgur Pilavı"
+     },
+     {
+      "img": "dishes/16b5c22561.jpg",
+      "key": "16b5c22561",
+      "name": "Ayran"
+     }
+    ]
+   }
+  },
+  "2026-11-19": {
+   "lunch": {
+    "items": [
+     {
+      "img": "dishes/64ee8e0b3b.jpg",
+      "key": "64ee8e0b3b",
+      "name": "Düğün Çorbası"
+     },
+     {
+      "key": "7e7c229aae",
+      "name": "Kremalı Tavuk Sote/İslim Köfte/Orman Kebabı"
+     },
+     {
+      "key": "f2a643b737",
+      "name": "Pirinç Pilavı/Şehriyeli Bulgur Pilavı"
+     },
+     {
+      "img": "dishes/a30e52f98f.jpg",
+      "key": "a30e52f98f",
+      "name": "Kemalpaşa"
+     }
+    ]
+   }
+  },
+  "2026-11-20": {
+   "lunch": {
+    "items": [
+     {
+      "key": "e47540f7f5",
+      "name": "Domates Çorbası"
+     },
+     {
+      "key": "d919a8a457",
+      "name": "Tavuk Haşlama/Beğendili Köfte/Kuru Fasulye"
+     },
+     {
+      "key": "8344048f87",
+      "name": "Şehriyeli Pirinç/Makarna"
+     },
+     {
+      "img": "dishes/ec0228f614.jpg",
+      "key": "ec0228f614",
+      "name": "Turşu"
+     }
+    ]
+   }
   }
  },
  "university": "bitlis",
- "updated": "2026-11-13T13:16:43+03:00"
+ "updated": "2026-11-16T13:20:03+03:00"
 }

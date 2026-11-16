@@ -1,55 +1,5 @@
 {
  "days": {
-  "2026-10-01": {
-   "lunch": {
-    "items": [
-     {
-      "img": "dishes/4fb733faf2.jpg",
-      "key": "4fb733faf2",
-      "name": "Ezogelin Çorbası"
-     },
-     {
-      "key": "7469ed2ba4",
-      "name": "Fırında Sebze Graten"
-     },
-     {
-      "img": "dishes/9c8d655ef5.jpg",
-      "key": "9c8d655ef5",
-      "name": "Yoğurt"
-     },
-     {
-      "img": "dishes/92485508df.jpg",
-      "key": "92485508df",
-      "name": "Tatlı"
-     }
-    ],
-    "kcal": 975
-   },
-   "vegetarian": {
-    "items": [
-     {
-      "img": "dishes/4fb733faf2.jpg",
-      "key": "4fb733faf2",
-      "name": "Ezogelin Çorbası"
-     },
-     {
-      "key": "13185755a3",
-      "name": "Fırında Sebze Yemeği"
-     },
-     {
-      "img": "dishes/c96fd73d5f.jpg",
-      "key": "c96fd73d5f",
-      "name": "Salata"
-     },
-     {
-      "img": "dishes/ed17271d58.jpg",
-      "key": "ed17271d58",
-      "name": "Meyve"
-     }
-    ],
-    "kcal": 710
-   }
-  },
   "2026-10-02": {
    "lunch": {
     "items": [
@@ -2369,5 +2319,5 @@
   }
  },
  "university": "deu",
- "updated": "2026-11-15T23:01:52+03:00"
+ "updated": "2026-11-16T13:20:03+03:00"
 }

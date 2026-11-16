@@ -299,35 +299,6 @@
     "kcal": 695
    }
   },
-  "2026-11-16": {
-   "lunch": {
-    "items": [
-     {
-      "img": "dishes/ba380b9a95.jpg",
-      "kcal": 140,
-      "key": "ba380b9a95",
-      "name": "Sebze Çorbası"
-     },
-     {
-      "kcal": 310,
-      "key": "658a9aec46",
-      "name": "Tavuk Nugget + Garnitür"
-     },
-     {
-      "kcal": 285,
-      "key": "8db13541fa",
-      "name": "Patates Kızartma"
-     },
-     {
-      "img": "dishes/9c8d655ef5.jpg",
-      "kcal": 100,
-      "key": "9c8d655ef5",
-      "name": "Yoğurt"
-     }
-    ],
-    "kcal": 835
-   }
-  },
   "2026-11-17": {
    "lunch": {
     "items": [
@@ -622,5 +593,5 @@
   }
  },
  "university": "mku",
- "updated": "2026-11-15T23:01:52+03:00"
+ "updated": "2026-11-16T13:20:03+03:00"
 }

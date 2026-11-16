@@ -266,32 +266,6 @@
     "kcal": 1077
    }
   },
-  "2026-11-16": {
-   "lunch": {
-    "items": [
-     {
-      "img": "dishes/154f53ef81.jpg",
-      "key": "154f53ef81",
-      "name": "Düğün Çorba"
-     },
-     {
-      "img": "dishes/890b8e3990.jpg",
-      "key": "890b8e3990",
-      "name": "Etli Nohut"
-     },
-     {
-      "key": "8636bfbc0a",
-      "name": "Pirinç Pilavı"
-     },
-     {
-      "img": "dishes/9c8d655ef5.jpg",
-      "key": "9c8d655ef5",
-      "name": "Yoğurt"
-     }
-    ],
-    "kcal": 916
-   }
-  },
   "2026-11-17": {
    "lunch": {
     "items": [
@@ -553,5 +527,5 @@
   }
  },
  "university": "trakya",
- "updated": "2026-11-15T23:01:52+03:00"
+ "updated": "2026-11-16T13:20:03+03:00"
 }

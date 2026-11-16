@@ -391,29 +391,6 @@
     ],
     "kcal": 1516,
     "photo": "photos/lib/a746873f05e3.jpg"
-   },
-   "vegetarian": {
-    "items": [
-     {
-      "img": "dishes/5faf1b0081.jpg",
-      "key": "5faf1b0081",
-      "name": "Kırmızı Mercimek Çorba"
-     },
-     {
-      "key": "f92e9ca431",
-      "name": "Vej. Börülce"
-     },
-     {
-      "img": "dishes/25b07cf14e.jpg",
-      "key": "25b07cf14e",
-      "name": "Bulgur Pilavı"
-     },
-     {
-      "key": "ed53d04fdc",
-      "name": "Mısırlı Aysberg Salata"
-     }
-    ],
-    "kcal": 827
    }
   },
   "2026-11-10": {
@@ -468,29 +445,6 @@
     ],
     "kcal": 1494,
     "photo": "photos/lib/4efd187fede8.jpg"
-   },
-   "vegetarian": {
-    "items": [
-     {
-      "img": "dishes/4782e4b30f.jpg",
-      "key": "4782e4b30f",
-      "name": "Şehriye Çorba"
-     },
-     {
-      "key": "92b1e95c67",
-      "name": "Vej. Ispanak"
-     },
-     {
-      "key": "fef6adada3",
-      "name": "Nohutlu Pirinç Pilavı"
-     },
-     {
-      "img": "dishes/0dad8706c5.jpg",
-      "key": "0dad8706c5",
-      "name": "Red Velvet"
-     }
-    ],
-    "kcal": 1570
    }
   },
   "2026-11-11": {
@@ -543,29 +497,6 @@
     ],
     "kcal": 1087,
     "photo": "photos/lib/fb6cb3d76923.jpg"
-   },
-   "vegetarian": {
-    "items": [
-     {
-      "key": "8537cbf8e8",
-      "name": "Köylüm Çorba"
-     },
-     {
-      "img": "dishes/c526027172.jpg",
-      "key": "c526027172",
-      "name": "Vej. Bulgur Pilavı"
-     },
-     {
-      "key": "8f58a53982",
-      "name": "Sebze Graten"
-     },
-     {
-      "img": "dishes/ed17271d58.jpg",
-      "key": "ed17271d58",
-      "name": "Meyve"
-     }
-    ],
-    "kcal": 1149
    }
   },
   "2026-11-12": {
@@ -620,29 +551,6 @@
     ],
     "kcal": 1089,
     "photo": "photos/lib/05a967c1c011.jpg"
-   },
-   "vegetarian": {
-    "items": [
-     {
-      "img": "dishes/03b9040496.jpg",
-      "key": "03b9040496",
-      "name": "Mantar Çorba"
-     },
-     {
-      "key": "78cdbf2536",
-      "name": "Vej. Karnabahar"
-     },
-     {
-      "img": "dishes/e205e270b9.jpg",
-      "key": "e205e270b9",
-      "name": "Soslu Spagetti"
-     },
-     {
-      "key": "0b8510d8e8",
-      "name": "Menekşe Salata"
-     }
-    ],
-    "kcal": 1570
    }
   },
   "2026-11-13": {
@@ -695,28 +603,6 @@
     ],
     "kcal": 1346,
     "photo": "photos/lib/8a9afd398373.jpg"
-   },
-   "vegetarian": {
-    "items": [
-     {
-      "key": "45d738bb6c",
-      "name": "Mahluta Çorba"
-     },
-     {
-      "key": "03ebc8d40d",
-      "name": "Vej.taze Fasülye"
-     },
-     {
-      "key": "99f4bc2075",
-      "name": "Cevizli Erişte"
-     },
-     {
-      "img": "dishes/e516c4a18a.jpg",
-      "key": "e516c4a18a",
-      "name": "Tiramisu"
-     }
-    ],
-    "kcal": 978
    }
   },
   "2026-11-14": {
@@ -820,8 +706,30 @@
      }
     ],
     "kcal": 1387,
-    "photo": "photos/lib/5bf61878c47f.jpg",
-    "photoApprox": true
+    "photo": "photos/lib/c1397cac871e.jpg"
+   },
+   "vegetarian": {
+    "items": [
+     {
+      "img": "dishes/5abbdce7b9.jpg",
+      "key": "5abbdce7b9",
+      "name": "Sebze Çorba"
+     },
+     {
+      "key": "deb205c80c",
+      "name": "Vej Nohut"
+     },
+     {
+      "key": "f582c87cac",
+      "name": "Şehriyeli Pirinç Pilavı/Turşu"
+     },
+     {
+      "img": "dishes/b6bfa358ce.jpg",
+      "key": "b6bfa358ce",
+      "name": "Trileçe"
+     }
+    ],
+    "kcal": 827
    }
   },
   "2026-11-17": {
@@ -874,6 +782,29 @@
     "kcal": 904,
     "photo": "photos/lib/c89c294984ba.jpg",
     "photoApprox": true
+   },
+   "vegetarian": {
+    "items": [
+     {
+      "key": "241da54731",
+      "name": "Hanım Ağa Çorba"
+     },
+     {
+      "key": "f92e9ca431",
+      "name": "Vej Börülce"
+     },
+     {
+      "img": "dishes/f296c2badf.jpg",
+      "key": "f296c2badf",
+      "name": "Patatesli Gül Böreği"
+     },
+     {
+      "img": "dishes/ed17271d58.jpg",
+      "key": "ed17271d58",
+      "name": "Meyve"
+     }
+    ],
+    "kcal": 1570
    }
   },
   "2026-11-18": {
@@ -927,6 +858,28 @@
     "kcal": 1698,
     "photo": "photos/lib/776246ad8f8e.jpg",
     "photoApprox": true
+   },
+   "vegetarian": {
+    "items": [
+     {
+      "img": "dishes/c89017d3ae.jpg",
+      "key": "c89017d3ae",
+      "name": "Fesleğenli Domates Çorba"
+     },
+     {
+      "key": "813e8aec9d",
+      "name": "Vej Pırasa"
+     },
+     {
+      "key": "99f4bc2075",
+      "name": "Cevizli Erişte"
+     },
+     {
+      "key": "04e9dca3e1",
+      "name": "Pancar Salata"
+     }
+    ],
+    "kcal": 1149
    }
   },
   "2026-11-19": {
@@ -980,6 +933,30 @@
      }
     ],
     "kcal": 1373
+   },
+   "vegetarian": {
+    "items": [
+     {
+      "img": "dishes/5faf1b0081.jpg",
+      "key": "5faf1b0081",
+      "name": "Kırmızı Mercimek Çorba"
+     },
+     {
+      "key": "7ddc892907",
+      "name": "Arpa Şehriye Salatası"
+     },
+     {
+      "img": "dishes/feba5fe940.jpg",
+      "key": "feba5fe940",
+      "name": "Zeytinyağlı Barbunya"
+     },
+     {
+      "img": "dishes/6c3bcaeded.jpg",
+      "key": "6c3bcaeded",
+      "name": "Halka Tatlı"
+     }
+    ],
+    "kcal": 1570
    }
   },
   "2026-11-20": {
@@ -1035,6 +1012,30 @@
      }
     ],
     "kcal": 1534
+   },
+   "vegetarian": {
+    "items": [
+     {
+      "img": "dishes/bf8474c8b9.jpg",
+      "key": "bf8474c8b9",
+      "name": "Ezogelin Çorba"
+     },
+     {
+      "key": "2b04e59531",
+      "name": "Vej Portakallı Kereviz"
+     },
+     {
+      "img": "dishes/18ccb4d264.jpg",
+      "key": "18ccb4d264",
+      "name": "Soslu Makarna"
+     },
+     {
+      "img": "dishes/16b5c22561.jpg",
+      "key": "16b5c22561",
+      "name": "Ayran"
+     }
+    ],
+    "kcal": 978
    }
   },
   "2026-11-21": {
@@ -1457,5 +1458,5 @@
   }
  },
  "university": "ankara",
- "updated": "2026-11-15T23:01:52+03:00"
+ "updated": "2026-11-16T13:20:03+03:00"
 }

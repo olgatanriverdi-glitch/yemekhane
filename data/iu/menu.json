@@ -1,110 +1,5 @@
 {
  "days": {
-  "2026-11-13": {
-   "breakfast": {
-    "items": [
-     {
-      "img": "dishes/22605468a2.jpg",
-      "key": "22605468a2",
-      "name": "Çay"
-     },
-     {
-      "key": "f7b84ad85a",
-      "name": "Meyve Suyu"
-     },
-     {
-      "img": "dishes/bff26db9ff.jpg",
-      "key": "bff26db9ff",
-      "name": "Süt"
-     },
-     {
-      "key": "fdec71eec9",
-      "name": "Çilek Reçeli-Tereyağı"
-     },
-     {
-      "key": "d55ffa8efc",
-      "name": "Labne Peynir"
-     },
-     {
-      "img": "dishes/f2b02cbe7f.jpg",
-      "key": "f2b02cbe7f",
-      "name": "Limonlu Kek"
-     },
-     {
-      "key": "3f12bd2e64",
-      "name": "Peynirli Omlet"
-     }
-    ]
-   },
-   "dinner": {
-    "items": [
-     {
-      "key": "0afb69c78d",
-      "name": "Kaşarlı Domates Çorbası"
-     },
-     {
-      "img": "dishes/2be53d1290.jpg",
-      "key": "2be53d1290",
-      "name": "Kuru Köfte (Turşu Garnili)"
-     },
-     {
-      "img": "dishes/18ccb4d264.jpg",
-      "key": "18ccb4d264",
-      "name": "Soslu Makarna"
-     },
-     {
-      "img": "dishes/b6bfa358ce.jpg",
-      "key": "b6bfa358ce",
-      "name": "Trileçe"
-     }
-    ]
-   },
-   "lunch": {
-    "items": [
-     {
-      "key": "0afb69c78d",
-      "name": "Kaşarlı Domates Çorbası"
-     },
-     {
-      "img": "dishes/2be53d1290.jpg",
-      "key": "2be53d1290",
-      "name": "Kuru Köfte (Turşu Garnili)"
-     },
-     {
-      "img": "dishes/18ccb4d264.jpg",
-      "key": "18ccb4d264",
-      "name": "Soslu Makarna"
-     },
-     {
-      "img": "dishes/b6bfa358ce.jpg",
-      "key": "b6bfa358ce",
-      "name": "Trileçe"
-     }
-    ]
-   },
-   "vegetarian": {
-    "items": [
-     {
-      "key": "e47540f7f5",
-      "name": "Domates Çorbası"
-     },
-     {
-      "key": "3097d10d18",
-      "name": "Pırasa Yemeği"
-     },
-     {
-      "img": "dishes/a1c6654e48.jpg",
-      "key": "a1c6654e48",
-      "name": "Mercimek Köftesi"
-     },
-     {
-      "img": "dishes/a3d80c5897.jpg",
-      "key": "a3d80c5897",
-      "name": "Armut"
-     }
-    ]
-   }
-  },
   "2026-11-16": {
    "breakfast": {
     "items": [
@@ -206,8 +101,8 @@
       "name": "Pirinç Pilavı"
      },
      {
-      "key": "a49fddd6ea",
-      "name": "Kayısı Kompostosu"
+      "key": "fece5a0444",
+      "name": "Vişne Kompostosu"
      }
     ]
    }
@@ -1290,5 +1185,5 @@
   }
  },
  "university": "iu",
- "updated": "2026-11-15T23:01:52+03:00"
+ "updated": "2026-11-16T13:20:03+03:00"
 }

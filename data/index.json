@@ -81,11 +81,11 @@
   },
   {
    "city": "Ankara",
-   "firstDay": "2026-11-13",
+   "firstDay": "2026-11-14",
    "hours": {
     "breakfast": {
      "approx": false,
-     "t": "08:00–09:15"
+     "t": "09:00–10:00"
     },
     "dinner": {
      "approx": false,
@@ -93,11 +93,11 @@
     },
     "lunch": {
      "approx": false,
-     "t": "11:30–14:00"
+     "t": "12:00–13:30"
     },
     "vegetarian": {
      "approx": false,
-     "t": "11:30–14:00"
+     "t": "12:00–13:30"
     }
    },
    "id": "hacettepe",
@@ -144,7 +144,7 @@
   },
   {
    "city": "Ankara",
-   "firstDay": "2026-10-01",
+   "firstDay": "2026-10-02",
    "hours": {
     "dinner": {
      "approx": false,
@@ -201,7 +201,7 @@
   },
   {
    "city": "Ankara",
-   "firstDay": "2026-10-01",
+   "firstDay": "2026-10-02",
    "hours": {
     "lunch": {
      "approx": false,
@@ -213,7 +213,7 @@
     }
    },
    "id": "asbu",
-   "lastDay": "2026-11-13",
+   "lastDay": "2026-11-16",
    "meals": [
     "lunch",
     "vegetarian"
@@ -254,7 +254,7 @@
   },
   {
    "city": "Eskişehir",
-   "firstDay": "2026-11-09",
+   "firstDay": "2026-11-16",
    "hours": {
     "dinner": {
      "approx": true,
@@ -299,7 +299,7 @@
   },
   {
    "city": "İstanbul",
-   "firstDay": "2026-11-13",
+   "firstDay": "2026-11-16",
    "hours": {
     "breakfast": {
      "approx": false,
@@ -329,7 +329,7 @@
   },
   {
    "city": "İstanbul",
-   "firstDay": "2026-11-14",
+   "firstDay": "2026-11-15",
    "hours": {
     "dinner": {
      "approx": false,
@@ -386,7 +386,7 @@
   },
   {
    "city": "İstanbul",
-   "firstDay": "2026-11-09",
+   "firstDay": "2026-11-16",
    "hours": {
     "lunch": {
      "approx": true,
@@ -394,7 +394,7 @@
     }
    },
    "id": "marmara",
-   "lastDay": "2026-11-13",
+   "lastDay": "2026-11-17",
    "meals": [
     "lunch",
     "vegetarian"
@@ -474,7 +474,7 @@
   },
   {
    "city": "İzmir",
-   "firstDay": "2026-10-01",
+   "firstDay": "2026-10-02",
    "hours": {
     "lunch": {
      "approx": true,
@@ -502,7 +502,7 @@
     }
    },
    "id": "ikcu",
-   "lastDay": "2026-11-16",
+   "lastDay": "2026-11-17",
    "meals": [
     "lunch",
     "vegetarian"
@@ -522,7 +522,7 @@
     }
    },
    "id": "alku",
-   "lastDay": "2026-11-13",
+   "lastDay": "2026-11-20",
    "meals": [
     "lunch"
    ],
@@ -599,7 +599,7 @@
     }
    },
    "id": "atauni",
-   "lastDay": "2026-11-16",
+   "lastDay": "2026-11-17",
    "meals": [
     "lunch"
    ],
@@ -610,7 +610,7 @@
   },
   {
    "city": "Trabzon",
-   "firstDay": "2026-10-01",
+   "firstDay": "2026-10-02",
    "hours": {
     "lunch": {
      "approx": true,
@@ -629,7 +629,7 @@
   },
   {
    "city": "Trabzon",
-   "firstDay": "2026-10-01",
+   "firstDay": "2026-10-02",
    "hours": {
     "lunch": {
      "approx": true,
@@ -648,7 +648,7 @@
   },
   {
    "city": "Samsun",
-   "firstDay": "2026-10-01",
+   "firstDay": "2026-10-02",
    "hours": {
     "lunch": {
      "approx": true,
@@ -656,7 +656,7 @@
     }
    },
    "id": "omu",
-   "lastDay": "2026-11-13",
+   "lastDay": "2026-11-16",
    "meals": [
     "lunch"
    ],
@@ -686,7 +686,7 @@
   },
   {
    "city": "Kocaeli",
-   "firstDay": "2026-10-01",
+   "firstDay": "2026-10-02",
    "hours": {
     "lunch": {
      "approx": true,
@@ -839,7 +839,7 @@
     }
    },
    "id": "adu",
-   "lastDay": "2026-11-20",
+   "lastDay": "2026-11-27",
    "meals": [
     "lunch"
    ],
@@ -1251,7 +1251,7 @@
   },
   {
    "city": "Amasya",
-   "firstDay": "2026-10-01",
+   "firstDay": "2026-11-02",
    "hours": {
     "lunch": {
      "approx": true,
@@ -1259,7 +1259,7 @@
     }
    },
    "id": "amasya",
-   "lastDay": "2026-10-30",
+   "lastDay": "2026-11-30",
    "meals": [
     "lunch"
    ],
@@ -1392,7 +1392,7 @@
     }
    },
    "id": "alparslan",
-   "lastDay": "2026-11-13",
+   "lastDay": "2026-11-20",
    "meals": [
     "lunch"
    ],
@@ -1660,7 +1660,7 @@
   },
   {
    "city": "Isparta",
-   "firstDay": "2026-11-09",
+   "firstDay": "2026-11-16",
    "hours": {
     "lunch": {
      "approx": true,
@@ -1707,7 +1707,7 @@
     }
    },
    "id": "balikesir",
-   "lastDay": "2026-11-13",
+   "lastDay": "2026-11-20",
    "meals": [
     "lunch"
    ],
@@ -1750,7 +1750,7 @@
     }
    },
    "id": "nku",
-   "lastDay": "2026-11-13",
+   "lastDay": "2026-11-20",
    "meals": [
     "lunch",
     "vegetarian"
@@ -1898,7 +1898,7 @@
     }
    },
    "id": "rte",
-   "lastDay": "2026-11-13",
+   "lastDay": "2026-11-16",
    "meals": [
     "lunch"
    ],
@@ -1936,7 +1936,7 @@
     }
    },
    "id": "bitlis",
-   "lastDay": "2026-11-13",
+   "lastDay": "2026-11-20",
    "meals": [
     "lunch"
    ],
@@ -1998,7 +1998,7 @@
     }
    },
    "id": "etu",
-   "lastDay": "2026-11-17",
+   "lastDay": "2026-11-19",
    "meals": [
     "lunch"
    ],
@@ -2017,7 +2017,7 @@
     }
    },
    "id": "agri",
-   "lastDay": "2026-11-16",
+   "lastDay": "2026-11-18",
    "meals": [
     "lunch"
    ],
@@ -2160,6 +2160,6 @@
    "source": "https://www.istiklal.edu.tr/sksdb/beslenme-ve-kafeterya"
   }
  ],
- "updated": "2026-11-15T23:01:52+03:00",
+ "updated": "2026-11-16T13:20:03+03:00",
  "version": 1
 }

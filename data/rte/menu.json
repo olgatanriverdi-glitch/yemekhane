@@ -180,8 +180,38 @@
     ],
     "kcal": 910
    }
+  },
+  "2026-11-16": {
+   "lunch": {
+    "items": [
+     {
+      "img": "dishes/e3fefbc26e.jpg",
+      "kcal": 235,
+      "key": "e3fefbc26e",
+      "name": "Tavuksuyu Çorba"
+     },
+     {
+      "img": "dishes/fbb76e65c4.jpg",
+      "kcal": 291,
+      "key": "fbb76e65c4",
+      "name": "Etli Kuru Fasulye"
+     },
+     {
+      "kcal": 326,
+      "key": "8636bfbc0a",
+      "name": "Pirinç Pilavı"
+     },
+     {
+      "img": "dishes/ec0228f614.jpg",
+      "kcal": 100,
+      "key": "ec0228f614",
+      "name": "Turşu"
+     }
+    ],
+    "kcal": 952
+   }
   }
  },
  "university": "rte",
- "updated": "2026-11-14T00:04:31+03:00"
+ "updated": "2026-11-16T13:20:03+03:00"
 }
