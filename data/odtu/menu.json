@@ -1,59 +1,5 @@
 {
  "days": {
-  "2026-10-02": {
-   "dinner": {
-    "items": [
-     {
-      "kcal": 150,
-      "key": "1745c59a73",
-      "name": "Kremalı Soğan Çorba"
-     },
-     {
-      "kcal": 452,
-      "key": "3b304b35fd",
-      "name": "Kıymalı Ali Nazik Kebabı"
-     },
-     {
-      "kcal": 253,
-      "key": "7a9f18e1fe",
-      "name": "Köz Biberli Yeşil Mercimek Salatası"
-     },
-     {
-      "img": "dishes/faa2e9e4f2.jpg",
-      "kcal": 342,
-      "key": "faa2e9e4f2",
-      "name": "Supangle"
-     }
-    ],
-    "kcal": 1197
-   },
-   "lunch": {
-    "items": [
-     {
-      "kcal": 150,
-      "key": "1745c59a73",
-      "name": "Kremalı Soğan Çorba"
-     },
-     {
-      "kcal": 452,
-      "key": "3b304b35fd",
-      "name": "Kıymalı Ali Nazik Kebabı"
-     },
-     {
-      "kcal": 253,
-      "key": "7a9f18e1fe",
-      "name": "Köz Biberli Yeşil Mercimek Salatası"
-     },
-     {
-      "img": "dishes/faa2e9e4f2.jpg",
-      "kcal": 342,
-      "key": "faa2e9e4f2",
-      "name": "Supangle"
-     }
-    ],
-    "kcal": 1197
-   }
-  },
   "2026-10-03": {
    "dinner": {
     "items": [
@@ -3394,5 +3340,5 @@
   }
  },
  "university": "odtu",
- "updated": "2026-11-16T13:20:03+03:00"
+ "updated": "2026-11-17T02:35:37+03:00"
 }

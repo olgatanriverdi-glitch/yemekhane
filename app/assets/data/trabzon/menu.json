@@ -1,36 +1,5 @@
 {
  "days": {
-  "2026-10-02": {
-   "lunch": {
-    "items": [
-     {
-      "img": "dishes/2c0e163a7d.jpg",
-      "kcal": 160,
-      "key": "2c0e163a7d",
-      "name": "Tarhana Çorba"
-     },
-     {
-      "img": "dishes/e237db8733.jpg",
-      "kcal": 575,
-      "key": "e237db8733",
-      "name": "Et Kavurma Pilav"
-     },
-     {
-      "img": "dishes/195faf4170.jpg",
-      "kcal": 180,
-      "key": "195faf4170",
-      "name": "Gavurdağı Salata"
-     },
-     {
-      "img": "dishes/16b5c22561.jpg",
-      "kcal": 90,
-      "key": "16b5c22561",
-      "name": "Ayran"
-     }
-    ],
-    "kcal": 1005
-   }
-  },
   "2026-10-05": {
    "lunch": {
     "items": [
@@ -1202,5 +1171,5 @@
   }
  },
  "university": "trabzon",
- "updated": "2026-11-16T13:20:03+03:00"
+ "updated": "2026-11-17T02:35:37+03:00"
 }

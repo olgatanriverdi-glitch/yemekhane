@@ -1,58 +1,5 @@
 {
  "days": {
-  "2026-10-02": {
-   "lunch": {
-    "items": [
-     {
-      "img": "dishes/2c0e163a7d.jpg",
-      "kcal": 204,
-      "key": "2c0e163a7d",
-      "name": "Tarhana Çorba"
-     },
-     {
-      "kcal": 421,
-      "key": "3edc3d70e5",
-      "name": "Püreli Rosto Köfte"
-     },
-     {
-      "img": "dishes/25b07cf14e.jpg",
-      "kcal": 349,
-      "key": "25b07cf14e",
-      "name": "Bulgur Pilavı"
-     },
-     {
-      "img": "dishes/bac7d91091.jpg",
-      "kcal": 348,
-      "key": "bac7d91091",
-      "name": "Makarna"
-     },
-     {
-      "img": "dishes/16b5c22561.jpg",
-      "kcal": 62,
-      "key": "16b5c22561",
-      "name": "Ayran"
-     },
-     {
-      "img": "dishes/9cc15e97bd.jpg",
-      "kcal": 114,
-      "key": "9cc15e97bd",
-      "name": "Patates Salatası"
-     },
-     {
-      "kcal": 25,
-      "key": "3ef45fb941",
-      "name": "Karışık Turşu"
-     },
-     {
-      "img": "dishes/e430bca6db.jpg",
-      "kcal": 65,
-      "key": "e430bca6db",
-      "name": "Haydari"
-     }
-    ],
-    "kcal": 1588
-   }
-  },
   "2026-10-05": {
    "lunch": {
     "items": [
@@ -1250,5 +1197,5 @@
   }
  },
  "university": "gtu",
- "updated": "2026-11-16T13:20:03+03:00"
+ "updated": "2026-11-17T02:35:37+03:00"
 }

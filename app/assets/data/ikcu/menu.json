@@ -1544,8 +1544,60 @@
      }
     ]
    }
+  },
+  "2026-11-18": {
+   "lunch": {
+    "items": [
+     {
+      "img": "dishes/22dd093862.jpg",
+      "key": "22dd093862",
+      "name": "Mercimek Çorba"
+     },
+     {
+      "key": "87f2ff61c6",
+      "name": "Fırında Sulu Köfte"
+     },
+     {
+      "img": "dishes/943fe1113c.jpg",
+      "key": "943fe1113c",
+      "name": "Erişte"
+     },
+     {
+      "img": "dishes/99a67d4042.jpg",
+      "key": "99a67d4042",
+      "name": "Mevsim Salata"
+     }
+    ]
+   },
+   "vegetarian": {
+    "items": [
+     {
+      "img": "dishes/22dd093862.jpg",
+      "key": "22dd093862",
+      "name": "Mercimek Çorba"
+     },
+     {
+      "key": "5c31eb1c59",
+      "name": "Z.Y Biber Dolma"
+     },
+     {
+      "key": "570e72e762",
+      "name": "Siğara Böreği"
+     },
+     {
+      "img": "dishes/2cadfd988f.jpg",
+      "key": "2cadfd988f",
+      "name": "Hoşaf"
+     },
+     {
+      "img": "dishes/e430bca6db.jpg",
+      "key": "e430bca6db",
+      "name": "Haydari"
+     }
+    ]
+   }
   }
  },
  "university": "ikcu",
- "updated": "2026-11-16T13:20:03+03:00"
+ "updated": "2026-11-17T02:35:37+03:00"
 }

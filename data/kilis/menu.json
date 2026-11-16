@@ -333,9 +333,9 @@
       "name": "Süzme Mercimek"
      },
      {
-      "img": "dishes/1087b76fa2.jpg",
-      "key": "1087b76fa2",
-      "name": "Revani"
+      "img": "dishes/a3d80c5897.jpg",
+      "key": "a3d80c5897",
+      "name": "Armut"
      }
     ]
    }
@@ -407,8 +407,9 @@
       "name": "Yoğurt"
      },
      {
-      "key": "31e785c465",
-      "name": "Fıstıklı Kadayıf"
+      "img": "dishes/1087b76fa2.jpg",
+      "key": "1087b76fa2",
+      "name": "Revani"
      }
     ]
    }
@@ -513,5 +514,5 @@
   }
  },
  "university": "kilis",
- "updated": "2026-11-16T13:20:03+03:00"
+ "updated": "2026-11-17T02:35:37+03:00"
 }

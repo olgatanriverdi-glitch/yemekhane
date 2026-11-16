@@ -1,56 +1,5 @@
 {
  "days": {
-  "2026-10-02": {
-   "lunch": {
-    "items": [
-     {
-      "img": "dishes/e9977e6607.jpg",
-      "key": "e9977e6607",
-      "name": "Ekşili Köfte"
-     },
-     {
-      "img": "dishes/1d9f36bd6a.jpg",
-      "key": "1d9f36bd6a",
-      "name": "Domates Soslu Makarna"
-     },
-     {
-      "img": "dishes/91cfb0a127.jpg",
-      "key": "91cfb0a127",
-      "name": "Çoban Salata"
-     },
-     {
-      "img": "dishes/ed17271d58.jpg",
-      "key": "ed17271d58",
-      "name": "Meyve"
-     }
-    ],
-    "kcal": 915
-   },
-   "vegetarian": {
-    "items": [
-     {
-      "key": "fcb4bcad1a",
-      "name": "Karnabahar Yemeği"
-     },
-     {
-      "img": "dishes/1d9f36bd6a.jpg",
-      "key": "1d9f36bd6a",
-      "name": "Domates Soslu Makarna"
-     },
-     {
-      "img": "dishes/91cfb0a127.jpg",
-      "key": "91cfb0a127",
-      "name": "Çoban Salata"
-     },
-     {
-      "img": "dishes/ed17271d58.jpg",
-      "key": "ed17271d58",
-      "name": "Meyve"
-     }
-    ],
-    "kcal": 685
-   }
-  },
   "2026-10-05": {
    "lunch": {
     "items": [
@@ -2319,5 +2268,5 @@
   }
  },
  "university": "deu",
- "updated": "2026-11-16T13:20:03+03:00"
+ "updated": "2026-11-17T02:35:37+03:00"
 }

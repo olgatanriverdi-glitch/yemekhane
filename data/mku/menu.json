@@ -299,34 +299,33 @@
     "kcal": 695
    }
   },
-  "2026-11-17": {
+  "2026-11-16": {
    "lunch": {
     "items": [
      {
-      "img": "dishes/5d3038c41b.jpg",
-      "kcal": 150,
-      "key": "5d3038c41b",
-      "name": "Yayla Çorbası"
+      "img": "dishes/ba380b9a95.jpg",
+      "kcal": 140,
+      "key": "ba380b9a95",
+      "name": "Sebze Çorbası"
      },
      {
-      "kcal": 350,
-      "key": "8a52e8e65b",
-      "name": "Kaşarlı Köfte + Patates Püresi"
+      "kcal": 310,
+      "key": "658a9aec46",
+      "name": "Tavuk Nugget + Garnitür"
      },
      {
-      "img": "dishes/246525a1c0.jpg",
-      "kcal": 280,
-      "key": "246525a1c0",
-      "name": "Şehriyeli Bulgur Pilavı"
+      "kcal": 285,
+      "key": "8db13541fa",
+      "name": "Patates Kızartma"
      },
      {
-      "img": "dishes/c47036e360.jpg",
-      "kcal": 80,
-      "key": "c47036e360",
-      "name": "Elma"
+      "img": "dishes/9c8d655ef5.jpg",
+      "kcal": 100,
+      "key": "9c8d655ef5",
+      "name": "Yoğurt"
      }
     ],
-    "kcal": 860
+    "kcal": 835
    }
   },
   "2026-11-18": {
@@ -593,5 +592,5 @@
   }
  },
  "university": "mku",
- "updated": "2026-11-16T13:20:03+03:00"
+ "updated": "2026-11-17T02:35:37+03:00"
 }

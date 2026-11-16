@@ -299,20 +299,49 @@
     "kcal": 1013
    }
   },
-  "2026-11-17": {
+  "2026-11-16": {
    "lunch": {
     "items": [
      {
-      "img": "dishes/cf51175f35.jpg",
-      "kcal": 175,
-      "key": "cf51175f35",
-      "name": "Tutmaç Çorba"
+      "img": "dishes/d61d397136.jpg",
+      "kcal": 92,
+      "key": "d61d397136",
+      "name": "Süzme Mercimek Çorba"
      },
      {
-      "img": "dishes/88b535bf45.jpg",
-      "kcal": 370,
-      "key": "88b535bf45",
-      "name": "Patatesli Çoban Kavurma"
+      "img": "dishes/40082e8861.jpg",
+      "kcal": 544,
+      "key": "40082e8861",
+      "name": "Pilav Üstü Tavuk Döner"
+     },
+     {
+      "img": "dishes/c96fd73d5f.jpg",
+      "kcal": 59,
+      "key": "c96fd73d5f",
+      "name": "Salata"
+     },
+     {
+      "img": "dishes/16b5c22561.jpg",
+      "kcal": 60,
+      "key": "16b5c22561",
+      "name": "Ayran"
+     }
+    ],
+    "kcal": 755
+   }
+  },
+  "2026-11-18": {
+   "lunch": {
+    "items": [
+     {
+      "kcal": 150,
+      "key": "a19d6c591e",
+      "name": "Minestore Çorba"
+     },
+     {
+      "kcal": 390,
+      "key": "8f58a53982",
+      "name": "Sebze Graten"
      },
      {
       "img": "dishes/25b07cf14e.jpg",
@@ -321,42 +350,13 @@
       "name": "Bulgur Pilavı"
      },
      {
-      "img": "dishes/ed17271d58.jpg",
-      "kcal": 80,
-      "key": "ed17271d58",
-      "name": "Meyve"
+      "img": "dishes/1f6a358896.jpg",
+      "kcal": 260,
+      "key": "1f6a358896",
+      "name": "Kadayıf"
      }
     ],
-    "kcal": 876
-   }
-  },
-  "2026-11-18": {
-   "lunch": {
-    "items": [
-     {
-      "kcal": 188,
-      "key": "7e85f5098f",
-      "name": "Köylü Çorba"
-     },
-     {
-      "kcal": 380,
-      "key": "1e3a81be4a",
-      "name": "Mantarlı Tavuk Sote"
-     },
-     {
-      "img": "dishes/bac7d91091.jpg",
-      "kcal": 232,
-      "key": "bac7d91091",
-      "name": "Makarna"
-     },
-     {
-      "img": "dishes/130325aac9.jpg",
-      "kcal": 90,
-      "key": "130325aac9",
-      "name": "Ezme"
-     }
-    ],
-    "kcal": 890
+    "kcal": 1051
    }
   },
   "2026-11-19": {
@@ -391,14 +391,16 @@
    "lunch": {
     "items": [
      {
-      "kcal": 150,
-      "key": "5a3a0bfe26",
-      "name": "Minestrone Çorba"
+      "img": "dishes/cf51175f35.jpg",
+      "kcal": 175,
+      "key": "cf51175f35",
+      "name": "Tutmaç Çorba"
      },
      {
-      "kcal": 390,
-      "key": "8f58a53982",
-      "name": "Sebze Graten"
+      "img": "dishes/88b535bf45.jpg",
+      "kcal": 370,
+      "key": "88b535bf45",
+      "name": "Patatesli Çoban Kavurma"
      },
      {
       "img": "dishes/25b07cf14e.jpg",
@@ -407,13 +409,13 @@
       "name": "Bulgur Pilavı"
      },
      {
-      "img": "dishes/1f6a358896.jpg",
-      "kcal": 260,
-      "key": "1f6a358896",
-      "name": "Kadayıf"
+      "img": "dishes/ed17271d58.jpg",
+      "kcal": 80,
+      "key": "ed17271d58",
+      "name": "Meyve"
      }
     ],
-    "kcal": 1051
+    "kcal": 876
    }
   },
   "2026-11-23": {
@@ -599,5 +601,5 @@
   }
  },
  "university": "karatekin",
- "updated": "2026-11-16T13:20:03+03:00"
+ "updated": "2026-11-17T02:35:37+03:00"
 }

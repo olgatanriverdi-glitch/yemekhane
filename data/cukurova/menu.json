@@ -209,43 +209,6 @@
     "kcal": 951
    }
   },
-  "2026-11-16": {
-   "lunch": {
-    "items": [
-     {
-      "img": "dishes/2f7edb1f03.jpg",
-      "kcal": 295,
-      "key": "2f7edb1f03",
-      "name": "Terbiyeli Köfte"
-     },
-     {
-      "img": "dishes/94e7a0bac9.jpg",
-      "kcal": 444,
-      "key": "94e7a0bac9",
-      "name": "Patates Tava (Etsiz)"
-     },
-     {
-      "img": "dishes/18ccb4d264.jpg",
-      "kcal": 305,
-      "key": "18ccb4d264",
-      "name": "Soslu Makarna"
-     },
-     {
-      "img": "dishes/2610f75ca2.jpg",
-      "kcal": 20,
-      "key": "2610f75ca2",
-      "name": "Şalgam"
-     },
-     {
-      "img": "dishes/c27879d4fd.jpg",
-      "kcal": 142,
-      "key": "c27879d4fd",
-      "name": "Meyve (Elma)"
-     }
-    ],
-    "kcal": 1206
-   }
-  },
   "2026-11-17": {
    "lunch": {
     "items": [
@@ -253,6 +216,11 @@
       "kcal": 350,
       "key": "024626c46d",
       "name": "Izgara Fırın Baget"
+     },
+     {
+      "kcal": 100,
+      "key": "b79321e9e3",
+      "name": "Mantar Kavurma"
      },
      {
       "kcal": 380,
@@ -271,7 +239,7 @@
       "name": "Sütlaç"
      }
     ],
-    "kcal": 1046
+    "kcal": 1146
    }
   },
   "2026-11-18": {
@@ -544,5 +512,5 @@
   }
  },
  "university": "cukurova",
- "updated": "2026-11-16T13:20:03+03:00"
+ "updated": "2026-11-17T02:35:37+03:00"
 }

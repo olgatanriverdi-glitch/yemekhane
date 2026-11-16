@@ -1368,6 +1368,7 @@
       "name": "İçli Köfte"
      },
      {
+      "img": "dishes/c5f39eda02.jpg",
       "key": "c5f39eda02",
       "name": "Ispanaklı Kol Böreği"
      },
@@ -1458,5 +1459,5 @@
   }
  },
  "university": "ankara",
- "updated": "2026-11-16T13:20:03+03:00"
+ "updated": "2026-11-17T02:35:37+03:00"
 }

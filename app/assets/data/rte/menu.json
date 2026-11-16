@@ -210,8 +210,38 @@
     ],
     "kcal": 952
    }
+  },
+  "2026-11-17": {
+   "lunch": {
+    "items": [
+     {
+      "img": "dishes/bf8474c8b9.jpg",
+      "kcal": 173,
+      "key": "bf8474c8b9",
+      "name": "Ezogelin Çorba"
+     },
+     {
+      "kcal": 410,
+      "key": "12a66cdf0e",
+      "name": "Tavuk Şnitsel"
+     },
+     {
+      "img": "dishes/18ccb4d264.jpg",
+      "kcal": 227,
+      "key": "18ccb4d264",
+      "name": "Soslu Makarna"
+     },
+     {
+      "img": "dishes/16b5c22561.jpg",
+      "kcal": 72,
+      "key": "16b5c22561",
+      "name": "Ayran"
+     }
+    ],
+    "kcal": 882
+   }
   }
  },
  "university": "rte",
- "updated": "2026-11-16T13:20:03+03:00"
+ "updated": "2026-11-17T02:35:37+03:00"
 }

@@ -1118,8 +1118,9 @@
       "name": "Melek Pilavı"
      },
      {
-      "key": "4b52606601",
-      "name": "Bulgur Çorba"
+      "img": "dishes/25b07cf14e.jpg",
+      "key": "25b07cf14e",
+      "name": "Bulgur Pilavı"
      },
      {
       "img": "dishes/3201b259e1.jpg",
@@ -2183,5 +2184,5 @@
   }
  },
  "university": "boun",
- "updated": "2026-11-16T13:20:03+03:00"
+ "updated": "2026-11-17T02:35:37+03:00"
 }

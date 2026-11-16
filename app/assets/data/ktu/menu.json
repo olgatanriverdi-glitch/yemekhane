@@ -1,45 +1,5 @@
 {
  "days": {
-  "2026-10-02": {
-   "lunch": {
-    "items": [
-     {
-      "img": "dishes/bf8474c8b9.jpg",
-      "kcal": 154,
-      "key": "bf8474c8b9",
-      "name": "Ezogelin Çorba"
-     },
-     {
-      "img": "dishes/878b29f656.jpg",
-      "kcal": 246,
-      "key": "878b29f656",
-      "name": "Etli Türlü"
-     },
-     {
-      "kcal": 322,
-      "key": "4ec520b02b",
-      "name": "Kıymalı Karışık Musakka"
-     },
-     {
-      "img": "dishes/bac7d91091.jpg",
-      "kcal": 300,
-      "key": "bac7d91091",
-      "name": "Makarna"
-     },
-     {
-      "img": "dishes/9c8d655ef5.jpg",
-      "kcal": 138,
-      "key": "9c8d655ef5",
-      "name": "Yoğurt"
-     },
-     {
-      "kcal": 451,
-      "key": "97cb247e3a",
-      "name": "Burma Tatlı"
-     }
-    ]
-   }
-  },
   "2026-10-05": {
    "lunch": {
     "items": [
@@ -1385,5 +1345,5 @@
   }
  },
  "university": "ktu",
- "updated": "2026-11-16T13:20:03+03:00"
+ "updated": "2026-11-17T02:35:37+03:00"
 }

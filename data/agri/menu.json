@@ -283,8 +283,32 @@
     ],
     "kcal": 959
    }
+  },
+  "2026-11-19": {
+   "lunch": {
+    "items": [
+     {
+      "key": "28458340e1",
+      "name": "Tavuklu Şehriye Çorbası"
+     },
+     {
+      "key": "8ceb59372b",
+      "name": "Misket Köfte"
+     },
+     {
+      "img": "dishes/25b07cf14e.jpg",
+      "key": "25b07cf14e",
+      "name": "Bulgur Pilavı"
+     },
+     {
+      "img": "dishes/44abc36c0c.jpg",
+      "key": "44abc36c0c",
+      "name": "İrmik Helvası"
+     }
+    ]
+   }
   }
  },
  "university": "agri",
- "updated": "2026-11-16T13:20:03+03:00"
+ "updated": "2026-11-17T02:35:37+03:00"
 }

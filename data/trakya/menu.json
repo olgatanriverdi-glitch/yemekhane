@@ -266,30 +266,30 @@
     "kcal": 1077
    }
   },
-  "2026-11-17": {
+  "2026-11-16": {
    "lunch": {
     "items": [
      {
-      "img": "dishes/11d5798385.jpg",
-      "key": "11d5798385",
-      "name": "Brokoli Çorba"
+      "img": "dishes/154f53ef81.jpg",
+      "key": "154f53ef81",
+      "name": "Düğün Çorba"
      },
      {
-      "key": "7bae814a67",
-      "name": "Tavuk Sote"
+      "img": "dishes/890b8e3990.jpg",
+      "key": "890b8e3990",
+      "name": "Etli Nohut"
      },
      {
-      "img": "dishes/25b07cf14e.jpg",
-      "key": "25b07cf14e",
-      "name": "Bulgur Pilavı"
+      "key": "8636bfbc0a",
+      "name": "Pirinç Pilavı"
      },
      {
-      "img": "dishes/16b5c22561.jpg",
-      "key": "16b5c22561",
-      "name": "Ayran"
+      "img": "dishes/9c8d655ef5.jpg",
+      "key": "9c8d655ef5",
+      "name": "Yoğurt"
      }
     ],
-    "kcal": 899
+    "kcal": 916
    }
   },
   "2026-11-18": {
@@ -527,5 +527,5 @@
   }
  },
  "university": "trakya",
- "updated": "2026-11-16T13:20:03+03:00"
+ "updated": "2026-11-17T02:35:37+03:00"
 }
