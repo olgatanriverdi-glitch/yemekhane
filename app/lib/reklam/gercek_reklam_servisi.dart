@@ -57,19 +57,34 @@ class GercekReklamServisi
 
   bool _rizaBilgisiGuncellendi = false;
 
-  // Rıza bilgisini oturumda bir kez günceller (reklam yüklemez). Hata/zaman aşımında son bilinen durumla devam edilir.
-  Future<void> _rizaBilgisiniGuncelle() async {
-    if (_rizaBilgisiGuncellendi) return;
+  Future<bool>? _rizaIstegi;
+
+  // Rıza bilgisini oturumda bir kez ister (reklam yüklemez); eşzamanlı çağrılar aynı Future'ı paylaşır.
+  // Hiçbir Timer kurmaz; başarısızsa sonraki çağrı yeniden dener.
+  Future<bool> _rizaBilgisiniIste() {
+    if (_rizaBilgisiGuncellendi) return Future.value(true);
+    final uctaki = _rizaIstegi;
+    if (uctaki != null) return uctaki;
     final bilgi = Completer<bool>();
-    ConsentInformation.instance
-        .requestConsentInfoUpdate(ConsentRequestParameters(), () {
-      if (!bilgi.isCompleted) bilgi.complete(true);
-    }, (_) {
-      if (!bilgi.isCompleted) bilgi.complete(false);
-    });
-    final basarili = await bilgi.future
-        .timeout(const Duration(seconds: 10), onTimeout: () => false);
-    if (basarili) _rizaBilgisiGuncellendi = true;
+    final gelecek = bilgi.future;
+    _rizaIstegi = gelecek;
+    void bitir(bool ok) {
+      if (ok) _rizaBilgisiGuncellendi = true;
+      _rizaIstegi = null;
+      if (!bilgi.isCompleted) bilgi.complete(ok);
+    }
+
+    try {
+      ConsentInformation.instance
+          .requestConsentInfoUpdate(ConsentRequestParameters(), () {
+        bitir(true);
+      }, (_) {
+        bitir(false);
+      });
+    } catch (_) {
+      bitir(false);
+    }
+    return gelecek;
   }
 
   @override
@@ -77,7 +92,8 @@ class GercekReklamServisi
     if (!kullanilabilir) return false;
     try {
       // 1) rıza bilgisini güncelle; gerekliyse (AB / Birleşik Krallık...) Google'ın formu bir kez gösterilir
-      await _rizaBilgisiniGuncelle();
+      await _rizaBilgisiniIste()
+          .timeout(const Duration(seconds: 10), onTimeout: () => false);
       final form = Completer<void>();
       await ConsentForm.loadAndShowConsentFormIfRequired((_) {
         if (!form.isCompleted) form.complete();
@@ -207,9 +223,8 @@ class GercekReklamServisi
   @override
   Future<bool> tercihGerekli() async {
     if (!kullanilabilir) return false;
-    try {
-      await _rizaBilgisiniGuncelle();
-    } catch (_) {}
+    // beklenmez (Ayarlar açılışı sayaçsız); güncelleme bitince sonraki açılışta doğru durum görünür
+    unawaited(_rizaBilgisiniIste());
     try {
       return await ConsentInformation.instance
               .getPrivacyOptionsRequirementStatus() ==
