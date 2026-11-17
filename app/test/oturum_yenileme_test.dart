@@ -145,12 +145,20 @@ void main() {
     });
   });
 
+  test('400 USER_DISABLED: yeni hesap AÇILMAZ, kimlik korunur', () async {
+    final sunucu = _Sunucu()
+      ..yenileme = () async => http.Response(_hata('USER_DISABLED', 400), 400);
+    final depo = FirestoreDepo('p', 'k', sunucu.istemci);
+    await expectLater(depo.kullaniciId(), throwsA(isA<HesapDevreDisiHatasi>()));
+    expect(sunucu.kayitSayisi, 0);
+    await _kayitliKimlik('eskiYenile', 'uidEski');
+  });
+
   group('kalıcı ret: yeni anonim hesap açılır', () {
     final reddedilenler = <String, (int, String)>{
       '400 INVALID_REFRESH_TOKEN': (400, _hata('INVALID_REFRESH_TOKEN', 400)),
       '400 TOKEN_EXPIRED': (400, _hata('TOKEN_EXPIRED', 400)),
       '400 USER_NOT_FOUND': (400, _hata('USER_NOT_FOUND', 400)),
-      '400 USER_DISABLED': (400, _hata('USER_DISABLED', 400)),
       '400 gövdesiz': (400, ''),
       '401': (401, _hata('UNAUTHENTICATED', 401)),
       '403': (403, _hata('PERMISSION_DENIED', 403)),

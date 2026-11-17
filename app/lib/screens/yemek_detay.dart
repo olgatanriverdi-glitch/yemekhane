@@ -600,15 +600,15 @@ class _PuanKartiState extends State<_PuanKarti> {
     });
     try {
       await widget.depo.puanVer(widget.slot, yildiz);
-    } catch (_) {
+    } catch (e) {
       if (!mounted) return;
       setState(() {
         _benim = onceki;
         _kaydediyor = false;
       });
-      ScaffoldMessenger.of(context).showSnackBar(const SnackBar(
-          content:
-              Text('Puan kaydedilemedi. İnternet bağlantını kontrol et.')));
+      ScaffoldMessenger.of(context).showSnackBar(SnackBar(
+          content: Text(hataMesaji(
+              e, 'Puan kaydedilemedi. İnternet bağlantını kontrol et.'))));
       return;
     }
     await _oku(); // puan kaydedildi; özet okunamazsa görünen ortalama eski kalır

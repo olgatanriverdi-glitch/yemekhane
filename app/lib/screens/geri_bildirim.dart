@@ -113,14 +113,15 @@ class _GeriBildirimBolumuState extends State<GeriBildirimBolumu> {
     });
     try {
       await widget.depo.puanVer(widget.slot, y);
-    } catch (_) {
+    } catch (e) {
       if (mounted) {
         setState(() {
           _benim = onceki;
           _kaydediyor = false;
         });
       }
-      _mesaj('Puan kaydedilemedi. İnternet bağlantını kontrol et.');
+      _mesaj(
+          hataMesaji(e, 'Puan kaydedilemedi. İnternet bağlantını kontrol et.'));
       return;
     }
     // Puan kaydedildi: özet okunamazsa (ağ hatası, zaman aşımı) seçilen puan kalır, ortalama eskisi gibi görünür.
@@ -184,8 +185,8 @@ class _GeriBildirimBolumuState extends State<GeriBildirimBolumu> {
         // yorum kaydedildi: "gönderilemedi" denirse kullanıcı aynı yorumu yeniden yazıp çift yorum bırakır
         _mesaj('Yorumun gönderildi, liste şimdilik yenilenemedi.');
       }
-    } catch (_) {
-      _mesaj('Yorum gönderilemedi. Daha sonra tekrar dene.');
+    } catch (e) {
+      _mesaj(hataMesaji(e, 'Yorum gönderilemedi. Daha sonra tekrar dene.'));
     }
     if (mounted) setState(() => _gonderiliyor = false);
   }
@@ -197,8 +198,8 @@ class _GeriBildirimBolumuState extends State<GeriBildirimBolumu> {
         setState(
             () => _yorumlar = _yorumlar.where((e) => e.id != y.id).toList());
       }
-    } catch (_) {
-      _mesaj('Yorum silinemedi.');
+    } catch (e) {
+      _mesaj(hataMesaji(e, 'Yorum silinemedi.'));
     }
   }
 
@@ -217,8 +218,8 @@ class _GeriBildirimBolumuState extends State<GeriBildirimBolumu> {
     if (neden == null || !mounted) return;
     try {
       await widget.depo.yorumBildir(y, neden);
-    } catch (_) {
-      _mesaj('Bildirim gönderilemedi');
+    } catch (e) {
+      _mesaj(hataMesaji(e, 'Bildirim gönderilemedi'));
       return;
     }
     // bildirilen yorum bu cihazda hemen gizlenir

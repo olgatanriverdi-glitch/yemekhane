@@ -190,9 +190,9 @@ class _AyarlarSayfasiState extends State<AyarlarSayfasi> {
       await depo.verilerimiSil();
       mesaj = 'Yorum ve puanların silindi';
       basarili = true;
-    } catch (_) {
-      mesaj =
-          'Veriler silinemedi. İnternet bağlantını kontrol edip tekrar dene.';
+    } catch (e) {
+      mesaj = hataMesaji(e,
+          'Veriler silinemedi. İnternet bağlantını kontrol edip tekrar dene.');
     }
     if (mounted) setState(() => _siliniyor = false);
     messenger
@@ -369,8 +369,9 @@ class _AyarlarSayfasiState extends State<AyarlarSayfasi> {
               ListTile(
                 leading: const Icon(Icons.delete_forever_outlined),
                 title: const Text('Yorum ve puanlarımı sil'),
-                subtitle: const Text(
-                    'Verdiğin puanları ve yazdığın yorumları kalıcı olarak siler'),
+                subtitle: Text(_siliniyor
+                    ? 'Siliniyor…'
+                    : 'Verdiğin puanları ve yazdığın yorumları kalıcı olarak siler'),
                 trailing: _siliniyor
                     ? const SizedBox(
                         width: 24,

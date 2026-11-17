@@ -1,3 +1,4 @@
+import 'dart:async';
 import 'dart:convert';
 import 'dart:math';
 
@@ -48,6 +49,19 @@ enum YorumBildirimNedeni {
   final String kod, etiket;
   const YorumBildirimNedeni(this.kod, this.etiket);
 }
+
+/// Firebase hesabı yönetici tarafından devre dışı bırakıldı (`USER_DISABLED`). Bu durumda yeni anonim kimlik AÇILMAZ
+/// (engel aşılmasın); yazma işlemleri bu hatayla durur, menü okuması etkilenmez.
+class HesapDevreDisiHatasi implements Exception {
+  const HesapDevreDisiHatasi();
+  static const mesaj = 'Hesabın devre dışı bırakıldı';
+  @override
+  String toString() => mesaj;
+}
+
+/// Bir işlem hatası hesabın devre dışı olmasından geliyorsa kullanıcıya gösterilecek metni, değilse [yedek]i verir.
+String hataMesaji(Object hata, String yedek) =>
+    hata is HesapDevreDisiHatasi ? HesapDevreDisiHatasi.mesaj : yedek;
 
 /// Puan ve yorum deposu. Firebase ayarı yoksa cihazda saklayan yerel sürüm kullanılır (önizleme / çevrimdışı deneme).
 abstract class GeriBildirimDeposu {
@@ -201,9 +215,14 @@ class FirestoreDepo implements GeriBildirimDeposu {
 
   /// Her ağ isteğinin en çok bekleyeceği süre; dolunca [TimeoutException] fırlar.
   final Duration _zamanAsimi;
+
+  /// Bekleme işlevi (testlerde gerçek zaman beklemeden sınamak için değiştirilebilir).
+  final Future<void> Function(Duration) _bekle;
   FirestoreDepo(this.proje, this.anahtar, this._c,
-      {Duration zamanAsimi = const Duration(seconds: 15)})
-      : _zamanAsimi = zamanAsimi;
+      {Duration zamanAsimi = const Duration(seconds: 15),
+      Future<void> Function(Duration)? bekle})
+      : _zamanAsimi = zamanAsimi,
+        _bekle = bekle ?? Future.delayed;
 
   String? _token, _yenile, _uid;
   DateTime _bitis = DateTime.fromMillisecondsSinceEpoch(0);
@@ -270,6 +289,11 @@ class FirestoreDepo implements GeriBildirimDeposu {
       if (!_kaliciRet(r.statusCode)) {
         throw Exception('Oturum yenilenemedi (${r.statusCode})');
       }
+      // Yönetici hesabı kapattıysa yeni anonim hesap AÇILMAZ (engel aşılırdı); yenileme jetonu korunur, hesap
+      // yeniden açılırsa aynı kimlikle devam edilir.
+      if (_hataKodu(r.body) == 'USER_DISABLED') {
+        throw const HesapDevreDisiHatasi();
+      }
     }
     final r = await _istek(
         'POST',
@@ -294,6 +318,18 @@ class FirestoreDepo implements GeriBildirimDeposu {
   /// INVALID_REFRESH_TOKEN, TOKEN_EXPIRED, USER_NOT_FOUND, USER_DISABLED yanıtları), 401 ve 403. Başka her durum
   /// (429, 5xx, beklenmedik kodlar) geçici sayılır.
   static bool _kaliciRet(int kod) => kod == 400 || kod == 401 || kod == 403;
+
+  /// Firebase REST hata gövdesindeki `error.message` kodu (örn. `USER_DISABLED`; `USER_DISABLED : ayrıntı` biçiminde
+  /// ek metin olabilir, yalnızca ilk sözcük alınır). Gövde okunamazsa boş döner.
+  static String _hataKodu(String govde) {
+    try {
+      final j = jsonDecode(govde);
+      final m =
+          j is Map ? (j['error'] is Map ? j['error']['message'] : null) : null;
+      if (m is String) return m.trim().split(RegExp(r'[\s:]')).first;
+    } catch (_) {}
+    return '';
+  }
 
   Future<Map<String, String>> _baslik() async {
     await _oturum();
@@ -610,12 +646,12 @@ class FirestoreDepo implements GeriBildirimDeposu {
     final p = await SharedPreferences.getInstance();
     if ((_yenile ?? p.getString('fb_yenile')) != null) {
       final uid = await kullaniciId();
-      await _sahibininBelgeleriniSil('comments', uid);
+      final yorumSayisi = await _sahibininBelgeleriniSil('comments', uid);
       await _sahibininBelgeleriniSil('ratings', uid);
       // kullanıcının KENDİ gönderdiği şikâyetler de silinir; başkalarının onun hakkındaki şikâyetleri moderasyon için
       // saklanır (bkz. site/hesap-silme.html)
       await _sahibininBelgeleriniSil('reports', uid);
-      await _oranSiniriniSil(uid);
+      await _oranSiniriniSil(uid, yorumVardi: yorumSayisi > 0);
       await _hesabiSil();
     }
     _token = _yenile = _uid = null;
@@ -625,17 +661,42 @@ class FirestoreDepo implements GeriBildirimDeposu {
     await p.remove('yorum_adi');
   }
 
-  /// Oran sınırı belgesi (`limits/<uid>`, yalnızca son yorum zamanı). Kurallar, son yorumdan 20 sn geçmeden silmeye
-  /// izin vermez (sınırı silerek aşmayı önlemek için); bu yüzden hata sessizce yutulur: belge kişisel veri
-  /// içermez (anonim kimlik + zaman) ve hesap kapatılınca hiçbir kimliğe bağlı kalmaz.
-  Future<void> _oranSiniriniSil(String uid) async {
-    try {
-      await _istek('DELETE', Uri.parse('$_kok/limits/$uid'),
+  /// Reddedilen oran sınırı silmesinde yeniden deneme bekleme süreleri: kurallar son yorumdan 20 sn geçmeden silmeye
+  /// izin vermez; toplam bekleme en çok 22 sn.
+  static const _oranBeklemeleri = [
+    Duration(seconds: 5),
+    Duration(seconds: 5),
+    Duration(seconds: 5),
+    Duration(seconds: 5),
+    Duration(seconds: 2),
+  ];
+
+  /// Oran sınırı belgesini (`limits/<uid>`, yalnızca son yorum zamanı) siler. Kurallar, son yorumdan 20 sn
+  /// geçmeden silmeye izin vermez (403): bu durumda 20 sn dolana kadar bekleyip yeniden denenir. 404 (kayıt yok)
+  /// başarıdır. Yine reddedilirse hata fırlatılır ve Auth hesabı SİLİNMEZ (kayıt sunucuda yetim kalmasın).
+  /// [yorumVardi] false ise (kullanıcının hiç yorumu yoktu) belge büyük olasılıkla yoktur ve kurallar olmayan belgede
+  /// de 403 verir; bu yüzden beklenmez, ilk ret "kayıt yok" sayılır.
+  Future<void> _oranSiniriniSil(String uid, {required bool yorumVardi}) async {
+    for (var deneme = 0;; deneme++) {
+      final r = await _istek('DELETE', Uri.parse('$_kok/limits/$uid'),
           headers: await _baslik());
-    } catch (_) {}
+      if (r.statusCode == 200 || r.statusCode == 404) return;
+      final reddedildi =
+          r.statusCode == 403 || r.body.contains('PERMISSION_DENIED');
+      if (!reddedildi) {
+        throw Exception('Oran sınırı silinemedi (${r.statusCode})');
+      }
+      if (!yorumVardi) return;
+      if (deneme >= _oranBeklemeleri.length) {
+        throw Exception('Oran sınırı silinemedi (${r.statusCode})');
+      }
+      await _bekle(_oranBeklemeleri[deneme]);
+    }
   }
 
-  Future<void> _sahibininBelgeleriniSil(String koleksiyon, String uid) async {
+  /// Silinen belge sayısını döndürür.
+  Future<int> _sahibininBelgeleriniSil(String koleksiyon, String uid) async {
+    var silinen = 0;
     for (var sayfa = 0; sayfa < _enCokSayfa; sayfa++) {
       final r = await _istek('POST', Uri.parse('$_kok:runQuery'),
           headers: await _baslik(),
@@ -667,7 +728,7 @@ class FirestoreDepo implements GeriBildirimDeposu {
         final ad = (e as Map<String, dynamic>)['document']?['name'];
         if (ad is String) adlar.add(ad);
       }
-      if (adlar.isEmpty) return;
+      if (adlar.isEmpty) return silinen;
       final s = await _istek('POST', Uri.parse('$_kok:commit'),
           headers: await _baslik(),
           body: jsonEncode({
@@ -678,8 +739,10 @@ class FirestoreDepo implements GeriBildirimDeposu {
       if (s.statusCode != 200) {
         throw Exception('Veriler silinemedi (${s.statusCode})');
       }
-      if (adlar.length < _silmeSayfasi) return;
+      silinen += adlar.length;
+      if (adlar.length < _silmeSayfasi) return silinen;
     }
+    return silinen;
   }
 
   /// Anonim hesabı kapatır. Hesap zaten yoksa (USER_NOT_FOUND) iş görülmüş sayılır.
