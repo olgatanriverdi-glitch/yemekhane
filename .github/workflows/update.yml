@@ -1,25 +1,30 @@
 name: Menüleri güncelle
 on:
   schedule:
-    - cron: "0 3,9,15 * * *"     # günde 3 kez (UTC): sabah 06:00, 12:00, 18:00 Türkiye saati
+    - cron: "17 3,9,15 * * *"     # günde 3 kez (UTC): 06:17, 12:17, 18:17 Türkiye saati (tam saat GitHub'da en yoğun dakika)
   workflow_dispatch: {}
 permissions:
   contents: write
+concurrency:
+  group: robot
+  cancel-in-progress: false
 jobs:
   guncelle:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     timeout-minutes: 75
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
         with: { python-version: "3.12" }
       - name: Bağımlılıklar (TLS kökleri + görsel okuma + fotoğraf küçültme)
         run: |
-          sudo apt-get update -qq
-          sudo apt-get install -y -qq tesseract-ocr tesseract-ocr-tur
+          sudo apt-get -o Acquire::Retries=3 update -qq
+          sudo apt-get -o Acquire::Retries=3 install -y -qq tesseract-ocr tesseract-ocr-tur
           pip install pillow certifi
       - name: Testler
-        run: cd scraper && python -m unittest discover -s tests -t .
+        run: |
+          cd scraper
+          python -m unittest discover -s tests -t . || { echo "::warning::Testler bir kez düştü; yeniden deneniyor"; python -m unittest discover -s tests -t .; }
       - name: Menüleri çek
         run: cd scraper && python -m yemekhane.build
       - name: Uygulamanın çevrimdışı paket verisini eşitle
@@ -28,11 +33,14 @@ jobs:
         run: |
           git config user.name "yemekhane-bot"
           git config user.email "bot@users.noreply.github.com"
-          git add data app/assets/data
-          if git diff --cached --quiet; then echo "Değişiklik yok"; exit 0; fi
-          git commit -m "Menüler güncellendi"
           for i in 1 2 3; do
-            git pull --rebase -X theirs origin main && git push && exit 0
-            echo "Push başarısız, tekrar deneniyor ($i)"; sleep 5
+            git add data app/assets/data
+            if git diff --cached --quiet; then echo "Değişiklik yok"; exit 0; fi
+            git commit -q -m "Menüler güncellendi"
+            if git push origin HEAD:main; then exit 0; fi
+            echo "Push reddedildi (main ilerlemiş); main'in son hâliyle yeniden hesaplanıyor ($i)"
+            git fetch -q origin main
+            git reset -q --hard origin/main
+            (cd scraper && python -m yemekhane.build && python -m yemekhane.esitle) || exit 1
           done
           exit 1

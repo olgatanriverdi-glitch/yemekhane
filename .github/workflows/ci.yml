@@ -1,0 +1,21 @@
+name: Testler
+on:
+  pull_request:
+    paths: ["scraper/**", ".github/workflows/**"]
+  push:
+    branches: [main]
+    paths: ["scraper/**"]
+permissions:
+  contents: read
+jobs:
+  robot-testleri:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with: { python-version: "3.12" }
+      - name: Bağımlılıklar
+        run: pip install pillow certifi
+      - name: Testler
+        run: cd scraper && python -m unittest discover -s tests -t .
