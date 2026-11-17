@@ -208,18 +208,8 @@
       "name": "Bursa Günü"
      },
      {
-      "img": "dishes/3051d9b60a.jpg",
-      "key": "3051d9b60a",
-      "name": "Bursa Günü"
-     },
-     {
       "key": "1a5bc20a26",
       "name": "Bursa Günü Busa Günü"
-     },
-     {
-      "img": "dishes/3051d9b60a.jpg",
-      "key": "3051d9b60a",
-      "name": "Bursa Günü"
      }
     ]
    }
@@ -508,5 +498,5 @@
   }
  },
  "university": "btu",
- "updated": "2026-11-17T14:18:49+03:00"
+ "updated": "2026-11-17T22:35:49+03:00"
 }

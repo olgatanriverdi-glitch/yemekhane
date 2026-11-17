@@ -213,7 +213,7 @@
     }
    },
    "id": "asbu",
-   "lastDay": "2026-11-17",
+   "lastDay": "2026-11-30",
    "meals": [
     "lunch",
     "vegetarian"
@@ -694,7 +694,7 @@
     }
    },
    "id": "gtu",
-   "lastDay": "2026-11-06",
+   "lastDay": "2026-11-20",
    "meals": [
     "lunch"
    ],
@@ -2160,6 +2160,6 @@
    "source": "https://www.istiklal.edu.tr/sksdb/beslenme-ve-kafeterya"
   }
  ],
- "updated": "2026-11-17T22:30:42+03:00",
+ "updated": "2026-11-17T22:35:49+03:00",
  "version": 1
 }

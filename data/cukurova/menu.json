@@ -247,7 +247,6 @@
     "items": [
      {
       "img": "dishes/81f70fdb90.jpg",
-      "kcal": 1,
       "key": "81f70fdb90",
       "name": "Antep Lahmacun"
      },
@@ -264,19 +263,16 @@
       "name": "Ayran"
      },
      {
-      "kcal": 1,
       "key": "b947faf326",
       "name": "Yeşil Salata"
      }
-    ],
-    "kcal": 306
+    ]
    }
   },
   "2026-11-19": {
    "lunch": {
     "items": [
      {
-      "kcal": 1,
       "key": "71127d15c0",
       "name": "Sebzeli Misket Köfte"
      },
@@ -298,8 +294,7 @@
       "key": "dbab186633",
       "name": "Şam Tatlı"
      }
-    ],
-    "kcal": 1261
+    ]
    }
   },
   "2026-11-20": {
@@ -375,7 +370,6 @@
      },
      {
       "img": "dishes/f540ceda29.jpg",
-      "kcal": 1,
       "key": "f540ceda29",
       "name": "Karnabahar Salatası"
      },
@@ -385,8 +379,7 @@
       "key": "2610f75ca2",
       "name": "Şalgam"
      }
-    ],
-    "kcal": 865
+    ]
    }
   },
   "2026-11-25": {
@@ -394,7 +387,6 @@
     "items": [
      {
       "img": "dishes/85f4d2dee4.jpg",
-      "kcal": 1,
       "key": "85f4d2dee4",
       "name": "Etli Pide"
      },
@@ -416,8 +408,7 @@
       "key": "1087b76fa2",
       "name": "Revani"
      }
-    ],
-    "kcal": 901
+    ]
    }
   },
   "2026-11-26": {
@@ -512,5 +503,5 @@
   }
  },
  "university": "cukurova",
- "updated": "2026-11-17T14:18:49+03:00"
+ "updated": "2026-11-17T22:35:49+03:00"
 }

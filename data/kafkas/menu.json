@@ -283,6 +283,7 @@
       "name": "Mercimek Çorbası"
      },
      {
+      "img": "dishes/20318b5e69.jpg",
       "kcal": 285,
       "key": "20318b5e69",
       "name": "Kıymalı Nohut Yemeği"
@@ -700,6 +701,7 @@
       "name": "Mercimek Çorbası"
      },
      {
+      "img": "dishes/20318b5e69.jpg",
       "kcal": 285,
       "key": "20318b5e69",
       "name": "Kıymalı Nohut Yemeği"
@@ -1135,5 +1137,5 @@
   }
  },
  "university": "kafkas",
- "updated": "2026-11-17T14:18:49+03:00"
+ "updated": "2026-11-17T22:35:49+03:00"
 }

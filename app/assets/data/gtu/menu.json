@@ -1194,8 +1194,266 @@
     ],
     "note": "Yan yemekler seçeneklidir; kalorileri toplanmaz."
    }
+  },
+  "2026-11-16": {
+   "lunch": {
+    "items": [
+     {
+      "img": "dishes/4fb733faf2.jpg",
+      "kcal": 227,
+      "key": "4fb733faf2",
+      "name": "Ezogelin Çorbası"
+     },
+     {
+      "kcal": 462,
+      "key": "3cf6c5ef39",
+      "name": "Kremalı İsveç Köfte"
+     },
+     {
+      "kcal": 416,
+      "key": "e7a136fcd5",
+      "name": "Pirinç Pilav"
+     },
+     {
+      "kcal": 398,
+      "key": "99f4bc2075",
+      "name": "Cevizli Erişte"
+     },
+     {
+      "img": "dishes/ed17271d58.jpg",
+      "kcal": 60,
+      "key": "ed17271d58",
+      "name": "Meyve"
+     },
+     {
+      "kcal": 57,
+      "key": "b947faf326",
+      "name": "Yeşil Salata"
+     },
+     {
+      "kcal": 25,
+      "key": "3ef45fb941",
+      "name": "Karışık Turşu"
+     },
+     {
+      "img": "dishes/9c8d655ef5.jpg",
+      "kcal": 93,
+      "key": "9c8d655ef5",
+      "name": "Yoğurt"
+     }
+    ],
+    "note": "Yan yemekler seçeneklidir; kalorileri toplanmaz."
+   }
+  },
+  "2026-11-17": {
+   "lunch": {
+    "items": [
+     {
+      "kcal": 192,
+      "key": "e47540f7f5",
+      "name": "Domates Çorbası"
+     },
+     {
+      "img": "dishes/878b29f656.jpg",
+      "kcal": 336,
+      "key": "878b29f656",
+      "name": "Etli Türlü"
+     },
+     {
+      "kcal": 388,
+      "key": "c9bf7aa111",
+      "name": "Meyhane Pilavı"
+     },
+     {
+      "img": "dishes/bac7d91091.jpg",
+      "kcal": 331,
+      "key": "bac7d91091",
+      "name": "Makarna"
+     },
+     {
+      "kcal": 435,
+      "key": "5f2febc79b",
+      "name": "Balbadem"
+     },
+     {
+      "img": "dishes/feba5fe940.jpg",
+      "kcal": 153,
+      "key": "feba5fe940",
+      "name": "Zeytinyağlı Barbunya"
+     },
+     {
+      "kcal": 26,
+      "key": "4296eb7fda",
+      "name": "Roka Salata"
+     },
+     {
+      "img": "dishes/e430bca6db.jpg",
+      "kcal": 65,
+      "key": "e430bca6db",
+      "name": "Haydari"
+     }
+    ],
+    "note": "Yan yemekler seçeneklidir; kalorileri toplanmaz."
+   }
+  },
+  "2026-11-18": {
+   "lunch": {
+    "items": [
+     {
+      "img": "dishes/ba380b9a95.jpg",
+      "kcal": 162,
+      "key": "ba380b9a95",
+      "name": "Sebze Çorbası"
+     },
+     {
+      "img": "dishes/f14f3ecb53.jpg",
+      "kcal": 393,
+      "key": "f14f3ecb53",
+      "name": "Tavuklu Çökertme Kebabı"
+     },
+     {
+      "kcal": 410,
+      "key": "f03644afc2",
+      "name": "Melek Pilavı"
+     },
+     {
+      "img": "dishes/08bbc9e902.jpg",
+      "kcal": 453,
+      "key": "08bbc9e902",
+      "name": "Pesto Soslu Makarna"
+     },
+     {
+      "img": "dishes/16b5c22561.jpg",
+      "kcal": 57,
+      "key": "16b5c22561",
+      "name": "Ayran"
+     },
+     {
+      "img": "dishes/cb4993d46f.jpg",
+      "kcal": 151,
+      "key": "cb4993d46f",
+      "name": "Zeytinyağlı Brokoli"
+     },
+     {
+      "kcal": 57,
+      "key": "b947faf326",
+      "name": "Yeşil Salata"
+     },
+     {
+      "img": "dishes/2f58be7b7a.jpg",
+      "kcal": 105,
+      "key": "2f58be7b7a",
+      "name": "Cacık"
+     }
+    ],
+    "note": "Yan yemekler seçeneklidir; kalorileri toplanmaz."
+   }
+  },
+  "2026-11-19": {
+   "lunch": {
+    "items": [
+     {
+      "kcal": 189,
+      "key": "646360f3fe",
+      "name": "Tavuk Suyu Çorbası"
+     },
+     {
+      "img": "dishes/fbb76e65c4.jpg",
+      "kcal": 391,
+      "key": "fbb76e65c4",
+      "name": "Etli Kuru Fasulye"
+     },
+     {
+      "img": "dishes/22402adbde.jpg",
+      "kcal": 382,
+      "key": "22402adbde",
+      "name": "Tel Şehriyeli Bulgur Pilavı"
+     },
+     {
+      "img": "dishes/73d1d2f278.jpg",
+      "kcal": 329,
+      "key": "73d1d2f278",
+      "name": "Kuskus"
+     },
+     {
+      "img": "dishes/ed17271d58.jpg",
+      "kcal": 60,
+      "key": "ed17271d58",
+      "name": "Meyve"
+     },
+     {
+      "img": "dishes/9cc15e97bd.jpg",
+      "kcal": 114,
+      "key": "9cc15e97bd",
+      "name": "Patates Salatası"
+     },
+     {
+      "img": "dishes/963385cde3.jpg",
+      "kcal": 43,
+      "key": "963385cde3",
+      "name": "Acılı Ezme"
+     },
+     {
+      "img": "dishes/9c8d655ef5.jpg",
+      "kcal": 93,
+      "key": "9c8d655ef5",
+      "name": "Yoğurt"
+     }
+    ],
+    "note": "Yan yemekler seçeneklidir; kalorileri toplanmaz."
+   }
+  },
+  "2026-11-20": {
+   "lunch": {
+    "items": [
+     {
+      "kcal": 173,
+      "key": "d6ebb786a1",
+      "name": "Karalahana Çorbası"
+     },
+     {
+      "img": "dishes/16a6c1d9c5.jpg",
+      "kcal": 459,
+      "key": "16a6c1d9c5",
+      "name": "Uskumru Buğulama"
+     },
+     {
+      "img": "dishes/c0403431e1.jpg",
+      "kcal": 397,
+      "key": "c0403431e1",
+      "name": "Arpa Şehriye Pilavı"
+     },
+     {
+      "kcal": 331,
+      "key": "078413df16",
+      "name": "Ispanaklı Börek"
+     },
+     {
+      "kcal": 449,
+      "key": "54e8613fc5",
+      "name": "Laz Helvası"
+     },
+     {
+      "kcal": 206,
+      "key": "49a6dc2090",
+      "name": "Fasulye Diblesi"
+     },
+     {
+      "img": "dishes/403a584ec3.jpg",
+      "kcal": 136,
+      "key": "403a584ec3",
+      "name": "Turşu Kavurma"
+     },
+     {
+      "kcal": 68,
+      "key": "50df4360b9",
+      "name": "Mısır Unlu Yoğurtlu Kabak Salatası"
+     }
+    ],
+    "note": "Yan yemekler seçeneklidir; kalorileri toplanmaz."
+   }
   }
  },
  "university": "gtu",
- "updated": "2026-11-17T14:18:49+03:00"
+ "updated": "2026-11-17T22:35:49+03:00"
 }

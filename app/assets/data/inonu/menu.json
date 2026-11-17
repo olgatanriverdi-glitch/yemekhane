@@ -197,12 +197,10 @@
      },
      {
       "img": "dishes/9814c6dc58.jpg",
-      "kcal": 1,
       "key": "9814c6dc58",
       "name": "Mandalina"
      }
-    ],
-    "kcal": 781
+    ]
    }
   },
   "2026-11-12": {
@@ -311,12 +309,12 @@
       "name": "Ispanak Borani"
      },
      {
-      "kcal": 1,
+      "kcal": 58,
       "key": "c84cf1351c",
       "name": "Trabzon Hurması"
      }
     ],
-    "kcal": 781
+    "kcal": 838
    }
   },
   "2026-11-18": {
@@ -398,15 +396,15 @@
      },
      {
       "img": "dishes/9814c6dc58.jpg",
-      "kcal": 1,
+      "kcal": 66,
       "key": "9814c6dc58",
       "name": "Mandalina"
      }
     ],
-    "kcal": 691
+    "kcal": 756
    }
   }
  },
  "university": "inonu",
- "updated": "2026-11-17T14:18:49+03:00"
+ "updated": "2026-11-17T22:35:49+03:00"
 }

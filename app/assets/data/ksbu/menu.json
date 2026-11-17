@@ -260,8 +260,8 @@
    "lunch": {
     "items": [
      {
-      "key": "39983e2771",
-      "name": "Tavuksuyuçorba 8"
+      "key": "50e3c38d71",
+      "name": "Tavuksuyuçorba"
      },
      {
       "img": "dishes/1e0a78e916.jpg",
@@ -539,5 +539,5 @@
   }
  },
  "university": "ksbu",
- "updated": "2026-11-17T14:18:49+03:00"
+ "updated": "2026-11-17T22:35:49+03:00"
 }

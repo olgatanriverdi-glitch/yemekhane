@@ -540,6 +540,7 @@
       "name": "Palamut Balığı&Ayva Dilim Patates"
      },
      {
+      "img": "dishes/8fdca6ba9d.jpg",
       "kcal": 110,
       "key": "8fdca6ba9d",
       "name": "Mısırlı Mevsim Salata"
@@ -669,5 +670,5 @@
   }
  },
  "university": "adu",
- "updated": "2026-11-17T14:18:49+03:00"
+ "updated": "2026-11-17T22:35:49+03:00"
 }

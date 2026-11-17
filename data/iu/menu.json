@@ -272,9 +272,9 @@
       "name": "Mevsim Salatası"
      },
      {
-      "img": "dishes/099956f884.jpg",
-      "key": "099956f884",
-      "name": "Cevizli Tel Kadayıf"
+      "img": "dishes/de8670087d.jpg",
+      "key": "de8670087d",
+      "name": "Baklava"
      }
     ]
    },
@@ -295,9 +295,9 @@
       "name": "Mevsim Salatası"
      },
      {
-      "img": "dishes/099956f884.jpg",
-      "key": "099956f884",
-      "name": "Cevizli Tel Kadayıf"
+      "img": "dishes/de8670087d.jpg",
+      "key": "de8670087d",
+      "name": "Baklava"
      }
     ]
    },
@@ -1185,5 +1185,5 @@
   }
  },
  "university": "iu",
- "updated": "2026-11-17T14:18:49+03:00"
+ "updated": "2026-11-17T22:35:49+03:00"
 }

@@ -498,6 +498,7 @@
       "name": "Fırında Sebzeli Tavuk Şiş"
      },
      {
+      "img": "dishes/0c702e3ee6.jpg",
       "key": "0c702e3ee6",
       "name": "Nohutlu Pilav"
      },
@@ -511,5 +512,5 @@
   }
  },
  "university": "ardahan",
- "updated": "2026-11-17T14:18:49+03:00"
+ "updated": "2026-11-17T22:35:49+03:00"
 }
