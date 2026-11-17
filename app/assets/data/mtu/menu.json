@@ -25,8 +25,33 @@
      }
     ]
    }
+  },
+  "2026-11-17": {
+   "lunch": {
+    "items": [
+     {
+      "img": "dishes/9f7df34b5a.jpg",
+      "key": "9f7df34b5a",
+      "name": "Fırın Tavuk But"
+     },
+     {
+      "key": "1f6954870e",
+      "name": "Havuçlu Pirinç Pilavı"
+     },
+     {
+      "img": "dishes/16b5c22561.jpg",
+      "key": "16b5c22561",
+      "name": "Ayran"
+     },
+     {
+      "img": "dishes/c96fd73d5f.jpg",
+      "key": "c96fd73d5f",
+      "name": "Salata"
+     }
+    ]
+   }
   }
  },
  "university": "mtu",
- "updated": "2026-11-04T14:06:12+03:00"
+ "updated": "2026-11-17T22:30:42+03:00"
 }
