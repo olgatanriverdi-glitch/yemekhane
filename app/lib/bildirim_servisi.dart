@@ -15,6 +15,11 @@ abstract class BildirimServisi {
   /// İzin verilmemişse, istek açılamıyorsa ya da platform desteklemiyorsa false.
   Future<bool> izinIste();
 
+  /// Bildirim izni şu an açık mı? İzin PENCERESİ AÇMAZ; yalnız durumu okur (kullanıcı izni sistem
+  /// ayarlarından geri almış olabilir). Okunamıyorsa ya da platform desteklemiyorsa true döner (yanlışlıkla
+  /// ayar kapatılmasın).
+  Future<bool> izinVarMi();
+
   /// [bildirimler]i kurar. Aynı kimlikli (aynı günün) bildirim varsa yerine geçer.
   Future<void> planla(List<PlanliBildirim> bildirimler);
 
@@ -112,6 +117,27 @@ class FlutterBildirimServisi implements BildirimServisi {
       return false;
     } catch (_) {
       return false;
+    }
+  }
+
+  @override
+  Future<bool> izinVarMi() async {
+    try {
+      final eklenti = await _hazirla();
+      final android = eklenti.resolvePlatformSpecificImplementation<
+          AndroidFlutterLocalNotificationsPlugin>();
+      if (android != null) {
+        return await android.areNotificationsEnabled() ?? true;
+      }
+      final ios = eklenti.resolvePlatformSpecificImplementation<
+          IOSFlutterLocalNotificationsPlugin>();
+      if (ios != null) {
+        final durum = await ios.checkPermissions();
+        return durum?.isEnabled ?? true;
+      }
+      return true;
+    } catch (_) {
+      return true;
     }
   }
 

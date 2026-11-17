@@ -83,7 +83,7 @@ class AnaIcerik extends StatelessWidget {
     final aktif = aktifOgun(uni, ogun);
     final anahtar = '$tarih$aktif';
     final bant = menuBandBilgisi(menu, bugun);
-    return Column(children: [
+    final ust = <Widget>[
       if (bant != null) MenuBandi(bilgi: bant),
       GunBasligi(
           tarihler: tarihler, secili: tarih, bugun: bugun, degisti: gunSec),
@@ -105,6 +105,8 @@ class AnaIcerik extends StatelessWidget {
           // menüsü olmayan günde (hafta sonu, yayınlanmamış gün) "yemeğe 25 dk" gibi geri sayım yanıltır
           bugunMu: tarih == bugun && !(gun[aktif]?.bos ?? true),
           simdi: simdi),
+    ];
+    final govde = <Widget>[
       Expanded(
         child: RefreshIndicator(
           onRefresh: yenile,
@@ -137,6 +139,18 @@ class AnaIcerik extends StatelessWidget {
             zaman: menu.guncellendi!,
             cevrimdisi: depo.cevrimdisi,
             eskimis: uni.eskimis),
-    ]);
+    ];
+    if (!OgunSecici.buyukYazi(context)) {
+      return Column(children: [...ust, ...govde]);
+    }
+    // Büyük yazıda üst bölüm (bant, gün çubuğu, öğün sekmeleri, şerit) küçültülmez; yüksekliği ekranın yarısını
+    // aşarsa kendi içinde kaydırılır, menü alanı her zaman kalır.
+    return LayoutBuilder(
+        builder: (context, kisit) => Column(children: [
+              ConstrainedBox(
+                  constraints: BoxConstraints(maxHeight: kisit.maxHeight * 0.5),
+                  child: SingleChildScrollView(child: Column(children: ust))),
+              ...govde,
+            ]));
   }
 }

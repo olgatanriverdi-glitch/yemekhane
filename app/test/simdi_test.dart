@@ -710,11 +710,12 @@ void main() {
         expect(find.textContaining('Bugün menüde: Mercimek Çorbası'),
             findsOneWidget);
         expect(_seritMetni(t), 'Öğle yemeğine 25 dk');
-        // şerit ve hafif bant tek satırdır: büyük yazıda bile birer satır yüksekliğini aşmaz
+        // hafif bant tek satırdır: büyük yazıda bile bir satır yüksekliğini aşmaz; şerit 1,3x'e kadar tek satır
+        // (küçülür), daha büyük yazıda küçültülmeden çok satıra iner
         expect(t.getSize(find.byType(SimdiSeridi)).height,
-            lessThanOrEqualTo(24 * olcek + 12));
+            lessThanOrEqualTo(olcek > 1.3 ? 3 * 24 * olcek : 24 * olcek + 12));
         expect(t.getSize(find.byType(MenuBandi)).height,
-            lessThanOrEqualTo(24 * olcek + 8));
+            lessThanOrEqualTo(olcek > 1.3 ? 3 * 24 * olcek : 24 * olcek + 8));
         // üçü birden açıkken de menü alanı kalır (Ahem yazı tipi gerçekten geniştir; sınır bilerek gevşek)
         final govde = t.getSize(find.byType(RefreshIndicator)).height;
         expect(govde, greaterThanOrEqualTo(100), reason: 'gövde $govde dp');

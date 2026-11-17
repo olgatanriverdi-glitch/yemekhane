@@ -52,8 +52,37 @@ class OgunSecici extends StatelessWidget {
     return enUzun + _simgeliPay <= segmentGenisligi;
   }
 
+  /// Bu ölçekten büyük yazıda etiketler küçültülmez: segmentler içeriğe göre genişler, satır yatay kaydırılır.
+  static const buyukYaziOlcegi = 1.3;
+
+  static bool buyukYazi(BuildContext context) =>
+      MediaQuery.textScalerOf(context).scale(14) > 14 * buyukYaziOlcegi;
+
   @override
   Widget build(BuildContext context) {
+    if (buyukYazi(context)) {
+      return Align(
+        alignment: Alignment.centerLeft,
+        child: SingleChildScrollView(
+          scrollDirection: Axis.horizontal,
+          padding: const EdgeInsets.fromLTRB(16, 8, 16, 4),
+          child: SegmentedButton<String>(
+            segments: [
+              for (final t in turler)
+                ButtonSegment(value: t, label: Text(ogunAdlari[t] ?? t))
+            ],
+            selected: {aktif},
+            showSelectedIcon: false,
+            style: const ButtonStyle(
+                visualDensity: VisualDensity.standard,
+                tapTargetSize: MaterialTapTargetSize.padded,
+                padding: WidgetStatePropertyAll(
+                    EdgeInsets.symmetric(horizontal: 12))),
+            onSelectionChanged: (s) => degisti(s.first),
+          ),
+        ),
+      );
+    }
     return Padding(
       padding: const EdgeInsets.fromLTRB(16, 8, 16, 4),
       child: LayoutBuilder(builder: (context, kisit) {

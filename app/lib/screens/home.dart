@@ -152,6 +152,8 @@ class _AnaSayfaState extends State<AnaSayfa> with WidgetsBindingObserver {
   @override
   void didChangeAppLifecycleState(AppLifecycleState durum) {
     if (durum != AppLifecycleState.resumed) return;
+    // bildirim izni sistem ayarlarından geri alınmış olabilir
+    _bildirim.izinDurumunuDenetle();
     _gunuKontrolEt();
     final simdi = _simdi();
     // uzun süre arka planda kaldıysa menü sessizce yenilenir (hata bildirimi yok)
