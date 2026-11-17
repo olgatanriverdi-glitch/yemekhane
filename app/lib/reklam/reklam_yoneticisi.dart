@@ -102,6 +102,10 @@ class ReklamYoneticisi extends ChangeNotifier {
   /// Rıza bilgisi her güncellendiğinde (istek hazırlığı bitince) bir artar; Ayarlar "Reklam tercihleri" satırını
   /// bununla yeniden değerlendirir (UMP yanıtı Ayarlar açıkken gelebilir).
   final ValueNotifier<int> rizaSurumu = ValueNotifier<int>(0);
+
+  /// Yalnız rıza tercihi GERÇEKTEN değiştiğinde ([tercihDegisti]) artar; ekrandaki reklam kartları buna bakıp eski
+  /// rızayla istenmiş reklamı bırakır. ([rizaSurumu] hazırlıkta da artar, bunun için uygun değildir.)
+  final ValueNotifier<int> tercihSurumu = ValueNotifier<int>(0);
   Future<bool>? _hazir;
   DateTime? _hazirHatasi;
 
@@ -406,7 +410,8 @@ class ReklamYoneticisi extends ChangeNotifier {
 
   /// Ayarlar > Hakkında'da "Reklam tercihleri" gösterilmeli mi?
   Future<bool> tercihGerekli() async {
-    if (!acik) return false;
+    // yalnız UMP durumuna bağlı: uzaktan `aktif:false` iken de rıza bilgisi güncellenebilsin
+    if (_kapandi || !servis.kullanilabilir) return false;
     try {
       return await servis.tercihGerekli();
     } catch (_) {
@@ -443,6 +448,7 @@ class ReklamYoneticisi extends ChangeNotifier {
         _at(k);
       }
     }
+    tercihSurumu.value++;
     rizaSurumu.value++;
     notifyListeners();
   }
@@ -454,6 +460,7 @@ class ReklamYoneticisi extends ChangeNotifier {
     _kapandi = true;
     _reklamsizZamani?.cancel();
     rizaSurumu.dispose();
+    tercihSurumu.dispose();
     for (final k in _onbellek.values) {
       k.nesne.dispose();
     }

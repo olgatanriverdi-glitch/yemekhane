@@ -341,7 +341,9 @@ void main() {
         fiyatlar: const []);
 
     Future<void> ac(WidgetTester t,
-        {GeriBildirimDeposu? gb, Future<void> Function()? yenile}) async {
+        {GeriBildirimDeposu? gb,
+        Future<void> Function()? yenile,
+        Future<bool> Function(Uri)? adresAc}) async {
       final ayar = TemaAyari();
       await t.pumpWidget(MaterialApp(
           theme: ayar.tema(Brightness.light),
@@ -351,6 +353,7 @@ void main() {
               uniler: [uni],
               uni: uni,
               geriBildirim: gb,
+              adresAc: adresAc ?? (_) async => false,
               menuyuYenile: yenile ?? () async {})));
       await t.pumpAndSettle();
     }
@@ -415,7 +418,9 @@ void main() {
       expect(find.text('Yorum ve puanlarımı sil'), findsNothing);
     });
 
-    testWidgets('"Gizlilik politikası" adresi panoya kopyalar', (t) async {
+    testWidgets(
+        '"Gizlilik politikası" açılamazsa (testte eklenti yok) adresi panoya kopyalar',
+        (t) async {
       final pano = <String>[];
       TestDefaultBinaryMessengerBinding.instance.defaultBinaryMessenger
           .setMockMethodCallHandler(SystemChannels.platform, (c) async {
@@ -434,7 +439,8 @@ void main() {
       expect(pano,
           ['https://olgatanriverdi-glitch.github.io/yemekhane/gizlilik.html']);
       expect(gizlilikAdresi, pano.single);
-      expect(find.text('Bağlantı panoya kopyalandı'), findsOneWidget);
+      expect(find.text('Bağlantı açılamadı, adres panoya kopyalandı'),
+          findsOneWidget);
     });
 
     testWidgets('"Engellenen kişiler (N)" satırı sayıyı gösterir ve temizler',

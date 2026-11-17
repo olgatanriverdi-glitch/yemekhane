@@ -166,7 +166,14 @@ class GercekReklamServisi
               },
             );
             gosterimde = true;
-            ad.show(onUserEarnedReward: (_, __) => odulVerildi = true);
+            // show() Future'ı hata verirse pencere sonsuza dek açık kalmasın
+            unawaited(ad
+                .show(onUserEarnedReward: (_, __) => odulVerildi = true)
+                .catchError((Object _) {
+              gosterimde = false;
+              ad.dispose();
+              bitir(OdulluSonuc.yuklenemedi);
+            }));
           },
           onAdFailedToLoad: (_) => bitir(OdulluSonuc.yuklenemedi),
         ),

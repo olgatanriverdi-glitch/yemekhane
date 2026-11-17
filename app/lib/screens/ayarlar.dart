@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart' show Clipboard, ClipboardData;
+import 'package:url_launcher/url_launcher.dart';
 
 import '../bildirim_ayari.dart';
 import '../bildirim_servisi.dart';
@@ -48,6 +49,10 @@ class AyarlarSayfasi extends StatefulWidget {
   /// Reklam yöneticisi; Google'ın rıza kuralı gerektiriyorsa (AB / Birleşik Krallık...) Hakkında'da "Reklam
   /// tercihleri" satırı çıkar. Verilmezse ya da gerekmiyorsa satır gösterilmez.
   final ReklamYoneticisi? reklam;
+
+  /// Dış bağlantıyı tarayıcıda açar (açılırsa true). Verilmezse url_launcher ile harici tarayıcı kullanılır;
+  /// testlerde gerçek tarayıcı açılmasın diye değiştirilebilir.
+  final Future<bool> Function(Uri adres)? adresAc;
   const AyarlarSayfasi(
       {super.key,
       required this.temaAyari,
@@ -59,7 +64,8 @@ class AyarlarSayfasi extends StatefulWidget {
       this.kaloriHedefi,
       this.bildirim,
       this.geriBildirim,
-      this.reklam});
+      this.reklam,
+      this.adresAc});
 
   @override
   State<AyarlarSayfasi> createState() => _AyarlarSayfasiState();
@@ -275,6 +281,30 @@ class _AyarlarSayfasiState extends State<AyarlarSayfasi> {
       ..showSnackBar(SnackBar(content: Text(mesaj)));
   }
 
+  /// Adresi harici tarayıcıda açar; açılamazsa panoya kopyalar ve SnackBar'la söyler.
+  Future<void> _adresiAc(String adres) async {
+    var acildi = false;
+    try {
+      final uri = Uri.parse(adres);
+      acildi = await (widget.adresAc?.call(uri) ??
+          launchUrl(uri, mode: LaunchMode.externalApplication));
+    } catch (_) {
+      acildi = false;
+    }
+    if (acildi || !mounted) return;
+    final messenger = ScaffoldMessenger.of(context);
+    String mesaj;
+    try {
+      await Clipboard.setData(ClipboardData(text: adres));
+      mesaj = 'Bağlantı açılamadı, adres panoya kopyalandı';
+    } catch (_) {
+      mesaj = 'Bağlantı açılamadı';
+    }
+    messenger
+      ..hideCurrentSnackBar()
+      ..showSnackBar(SnackBar(content: Text(mesaj)));
+  }
+
   @override
   Widget build(BuildContext context) {
     final uni = _seciliOkul;
@@ -338,9 +368,9 @@ class _AyarlarSayfasiState extends State<AyarlarSayfasi> {
             ListTile(
               leading: const Icon(Icons.privacy_tip_outlined),
               title: const Text('Gizlilik politikası'),
-              subtitle: const Text('Adresi panoya kopyalar'),
-              trailing: const Icon(Icons.copy),
-              onTap: () => _kaynagiKopyala(gizlilikAdresi),
+              subtitle: const Text('Tarayıcıda açar'),
+              trailing: const Icon(Icons.open_in_new),
+              onTap: () => _adresiAc(gizlilikAdresi),
             ),
             ListTile(
               leading: const Icon(Icons.gavel_outlined),

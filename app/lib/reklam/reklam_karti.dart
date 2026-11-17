@@ -60,6 +60,18 @@ class _ReklamKartiState extends State<ReklamKarti> {
   void initState() {
     super.initState();
     widget.yonetici?.addListener(_sahipDegisti);
+    widget.yonetici?.tercihSurumu.addListener(_rizaDegisti);
+  }
+
+  // Rıza tercihi değişti: ekrandaki reklam eski rızayla istenmiştir. Sahiplik bırakılır (kart hemen gizlenir,
+  // eski reklam serbest bırakılır) ve yeni rızaya göre baştan istenir.
+  void _rizaDegisti() {
+    final y = widget.yonetici;
+    if (!mounted || y == null) return;
+    _zaman?.cancel();
+    _birak(y);
+    _istenen = null;
+    _kontrol();
   }
 
   @override
@@ -73,8 +85,10 @@ class _ReklamKartiState extends State<ReklamKarti> {
     super.didUpdateWidget(eski);
     if (eski.yonetici != widget.yonetici) {
       eski.yonetici?.removeListener(_sahipDegisti);
+      eski.yonetici?.tercihSurumu.removeListener(_rizaDegisti);
       _birak(eski.yonetici);
       widget.yonetici?.addListener(_sahipDegisti);
+      widget.yonetici?.tercihSurumu.addListener(_rizaDegisti);
       _istenen = null;
     } else if (eski.anahtar != widget.anahtar ||
         eski.yerlesim != widget.yerlesim) {
@@ -93,6 +107,7 @@ class _ReklamKartiState extends State<ReklamKarti> {
     _zaman?.cancel();
     final y = widget.yonetici;
     y?.removeListener(_sahipDegisti);
+    y?.tercihSurumu.removeListener(_rizaDegisti);
     _birak(y, yenile: false);
     super.dispose();
   }
