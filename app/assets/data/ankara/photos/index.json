@@ -27,7 +27,8 @@
   "2026-11-11": "fb6cb3d76923",
   "2026-11-12": "05a967c1c011",
   "2026-11-13": "8a9afd398373",
-  "2026-11-16": "c1397cac871e"
+  "2026-11-16": "c1397cac871e",
+  "2026-11-17": "60eab455cb15"
  },
  "main": {
   "025eacfe0c": "8f579a24b2f7",
@@ -37,7 +38,7 @@
   "211964d15e": "41a246d21c3d",
   "2b6a0527dc": "05a967c1c011",
   "40082e8861": "cf00a176342e",
-  "495c83bde2": "c89c294984ba",
+  "495c83bde2": "60eab455cb15",
   "4b76564c9a": "001da2fb49d8",
   "5acb48cd86": "776246ad8f8e",
   "5de18824bc": "a746873f05e3",
@@ -184,6 +185,16 @@
     "Etli Nohut",
     "Şehriyeli Pirinç Pilavı/Turşu",
     "Çikolatalı Brownie"
+   ]
+  },
+  "60eab455cb15": {
+   "added": "2026-11-17",
+   "hash": "945a30bf53ad2f36413854921f0ce16b1963a9a9",
+   "items": [
+    "Hanım Ağa Çorba",
+    "İskender Kebap",
+    "Sebze Buketi",
+    "Meyve"
    ]
   },
   "776246ad8f8e": {

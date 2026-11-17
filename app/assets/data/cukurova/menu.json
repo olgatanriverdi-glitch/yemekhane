@@ -363,6 +363,36 @@
    "lunch": {
     "items": [
      {
+      "kcal": 480,
+      "key": "41ae82d8e6",
+      "name": "Hasan Paşa Köfte (Püreli)"
+     },
+     {
+      "img": "dishes/86493234ae.jpg",
+      "kcal": 364,
+      "key": "86493234ae",
+      "name": "Mercimekli Bulgur Pilavı"
+     },
+     {
+      "img": "dishes/f540ceda29.jpg",
+      "kcal": 1,
+      "key": "f540ceda29",
+      "name": "Karnabahar Salatası"
+     },
+     {
+      "img": "dishes/2610f75ca2.jpg",
+      "kcal": 20,
+      "key": "2610f75ca2",
+      "name": "Şalgam"
+     }
+    ],
+    "kcal": 865
+   }
+  },
+  "2026-11-25": {
+   "lunch": {
+    "items": [
+     {
       "img": "dishes/85f4d2dee4.jpg",
       "kcal": 1,
       "key": "85f4d2dee4",
@@ -388,36 +418,6 @@
      }
     ],
     "kcal": 901
-   }
-  },
-  "2026-11-25": {
-   "lunch": {
-    "items": [
-     {
-      "kcal": 480,
-      "key": "41ae82d8e6",
-      "name": "Hasan Paşa Köfte (Püreli)"
-     },
-     {
-      "img": "dishes/86493234ae.jpg",
-      "kcal": 364,
-      "key": "86493234ae",
-      "name": "Mercimekli Bulgur Pilavı"
-     },
-     {
-      "img": "dishes/f540ceda29.jpg",
-      "kcal": 1,
-      "key": "f540ceda29",
-      "name": "Karnabahar Salatası"
-     },
-     {
-      "img": "dishes/2610f75ca2.jpg",
-      "kcal": 20,
-      "key": "2610f75ca2",
-      "name": "Şalgam"
-     }
-    ],
-    "kcal": 865
    }
   },
   "2026-11-26": {
@@ -512,5 +512,5 @@
   }
  },
  "university": "cukurova",
- "updated": "2026-11-17T02:35:37+03:00"
+ "updated": "2026-11-17T14:18:49+03:00"
 }

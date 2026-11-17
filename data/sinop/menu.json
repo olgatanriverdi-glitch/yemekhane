@@ -370,9 +370,8 @@
       "name": "Etli Yeşil Fasulye"
      },
      {
-      "img": "dishes/25b07cf14e.jpg",
-      "key": "25b07cf14e",
-      "name": "Bulgur Pilavı"
+      "key": "8636bfbc0a",
+      "name": "Pirinç Pilavı"
      },
      {
       "img": "dishes/99a67d4042.jpg",
@@ -591,5 +590,5 @@
   }
  },
  "university": "sinop",
- "updated": "2026-11-17T02:35:37+03:00"
+ "updated": "2026-11-17T14:18:49+03:00"
 }

@@ -288,8 +288,9 @@
       "name": "Mercimek Çorba"
      },
      {
-      "key": "5c7c59b214",
-      "name": "Tavuk Kanat/Küp Patates"
+      "img": "dishes/0c8fb793a8.jpg",
+      "key": "0c8fb793a8",
+      "name": "Tavuk Kanat"
      },
      {
       "img": "dishes/2356abfde0.jpg",
@@ -530,5 +531,5 @@
   }
  },
  "university": "bozok",
- "updated": "2026-11-17T02:35:37+03:00"
+ "updated": "2026-11-17T14:18:49+03:00"
 }

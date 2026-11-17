@@ -552,9 +552,9 @@
    "dinner": {
     "items": [
      {
-      "img": "dishes/da0d93681e.jpg",
-      "key": "da0d93681e",
-      "name": "Ciğer Tava"
+      "img": "dishes/cb0bdfa8a7.jpg",
+      "key": "cb0bdfa8a7",
+      "name": "Arnavut Ciğeri"
      },
      {
       "img": "dishes/a7321050d1.jpg",
@@ -1352,9 +1352,9 @@
    "dinner": {
     "items": [
      {
-      "img": "dishes/da0d93681e.jpg",
-      "key": "da0d93681e",
-      "name": "Ciğer Tava"
+      "img": "dishes/cb0bdfa8a7.jpg",
+      "key": "cb0bdfa8a7",
+      "name": "Arnavut Ciğeri"
      },
      {
       "img": "dishes/bf8474c8b9.jpg",
@@ -1376,9 +1376,9 @@
    "lunch": {
     "items": [
      {
-      "img": "dishes/da0d93681e.jpg",
-      "key": "da0d93681e",
-      "name": "Ciğer Tava"
+      "img": "dishes/cb0bdfa8a7.jpg",
+      "key": "cb0bdfa8a7",
+      "name": "Arnavut Ciğeri"
      },
      {
       "img": "dishes/a7321050d1.jpg",
@@ -1668,5 +1668,5 @@
   }
  },
  "university": "uludag",
- "updated": "2026-11-17T02:35:37+03:00"
+ "updated": "2026-11-17T14:18:49+03:00"
 }

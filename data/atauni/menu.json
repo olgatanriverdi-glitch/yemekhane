@@ -781,6 +781,7 @@
       "name": "Şehriye Çorba"
      },
      {
+      "img": "dishes/4fef168eae.jpg",
       "key": "4fef168eae",
       "name": "Saray Kebap (Mantarlı)"
      },
@@ -798,5 +799,5 @@
   }
  },
  "university": "atauni",
- "updated": "2026-11-17T02:35:37+03:00"
+ "updated": "2026-11-17T14:18:49+03:00"
 }

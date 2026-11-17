@@ -192,8 +192,9 @@
       "name": "Püreli Kebap"
      },
      {
-      "key": "5815a66f87",
-      "name": "Veyamücver"
+      "img": "dishes/af3bfd620b.jpg",
+      "key": "af3bfd620b",
+      "name": "Mücver"
      },
      {
       "img": "dishes/25b07cf14e.jpg",
@@ -519,8 +520,8 @@
       "name": "Patlıcan Musakka"
      },
      {
-      "key": "1d350e6269",
-      "name": "Veyazy. Kuru Börülce"
+      "key": "022c30d154",
+      "name": "Zeytinyağlı Kuru Börülce"
      },
      {
       "key": "b6a8224fc4",
@@ -625,5 +626,5 @@
   }
  },
  "university": "duzce",
- "updated": "2026-11-17T02:35:37+03:00"
+ "updated": "2026-11-17T14:18:49+03:00"
 }

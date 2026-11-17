@@ -180,14 +180,16 @@
       "name": "Mercimek Çorba"
      },
      {
-      "kcal": 280,
-      "key": "3792ce5f06",
-      "name": "Tavuk Dünyası"
+      "img": "dishes/17d2e9100f.jpg",
+      "kcal": 420,
+      "key": "17d2e9100f",
+      "name": "Tavuk Döner"
      },
      {
-      "kcal": 180,
-      "key": "177a453af1",
-      "name": "Penne Arabiata"
+      "img": "dishes/18ccb4d264.jpg",
+      "kcal": 326,
+      "key": "18ccb4d264",
+      "name": "Soslu Makarna"
      },
      {
       "img": "dishes/a6607cdb9a.jpg",
@@ -196,7 +198,7 @@
       "name": "Keşkül"
      }
     ],
-    "kcal": 919
+    "kcal": 1205
    },
    "lunch": {
     "items": [
@@ -207,14 +209,16 @@
       "name": "Mercimek Çorba"
      },
      {
-      "kcal": 280,
-      "key": "3792ce5f06",
-      "name": "Tavuk Dünyası"
+      "img": "dishes/17d2e9100f.jpg",
+      "kcal": 420,
+      "key": "17d2e9100f",
+      "name": "Tavuk Döner"
      },
      {
-      "kcal": 180,
-      "key": "177a453af1",
-      "name": "Penne Arabiata"
+      "img": "dishes/18ccb4d264.jpg",
+      "kcal": 326,
+      "key": "18ccb4d264",
+      "name": "Soslu Makarna"
      },
      {
       "img": "dishes/a6607cdb9a.jpg",
@@ -223,7 +227,7 @@
       "name": "Keşkül"
      }
     ],
-    "kcal": 919
+    "kcal": 1205
    },
    "vegetarian": {
     "items": [
@@ -847,16 +851,14 @@
       "name": "Ezogelin Çorba"
      },
      {
-      "img": "dishes/17d2e9100f.jpg",
-      "kcal": 420,
-      "key": "17d2e9100f",
-      "name": "Tavuk Döner"
+      "kcal": 280,
+      "key": "3792ce5f06",
+      "name": "Tavuk Dünyası"
      },
      {
-      "img": "dishes/25b07cf14e.jpg",
-      "kcal": 245,
-      "key": "25b07cf14e",
-      "name": "Bulgur Pilavı"
+      "kcal": 180,
+      "key": "177a453af1",
+      "name": "Penne Arabiata"
      },
      {
       "img": "dishes/16b5c22561.jpg",
@@ -865,7 +867,7 @@
       "name": "Ayran"
      }
     ],
-    "kcal": 902
+    "kcal": 697
    },
    "lunch": {
     "items": [
@@ -876,16 +878,14 @@
       "name": "Ezogelin Çorba"
      },
      {
-      "img": "dishes/17d2e9100f.jpg",
-      "kcal": 420,
-      "key": "17d2e9100f",
-      "name": "Tavuk Döner"
+      "kcal": 280,
+      "key": "3792ce5f06",
+      "name": "Tavuk Dünyası"
      },
      {
-      "img": "dishes/25b07cf14e.jpg",
-      "kcal": 245,
-      "key": "25b07cf14e",
-      "name": "Bulgur Pilavı"
+      "kcal": 180,
+      "key": "177a453af1",
+      "name": "Penne Arabiata"
      },
      {
       "img": "dishes/16b5c22561.jpg",
@@ -894,7 +894,7 @@
       "name": "Ayran"
      }
     ],
-    "kcal": 902
+    "kcal": 697
    },
    "vegetarian": {
     "items": [
@@ -927,5 +927,5 @@
   }
  },
  "university": "esogu",
- "updated": "2026-11-17T02:35:37+03:00"
+ "updated": "2026-11-17T14:18:49+03:00"
 }

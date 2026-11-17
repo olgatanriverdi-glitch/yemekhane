@@ -567,10 +567,10 @@
       "name": "Şehriye Çorbası"
      },
      {
-      "img": "dishes/b6bfa358ce.jpg",
+      "img": "dishes/1087b76fa2.jpg",
       "kcal": 330,
-      "key": "b6bfa358ce",
-      "name": "Trileçe"
+      "key": "1087b76fa2",
+      "name": "Revani"
      }
     ],
     "note": "Ana yemek seçmelidir."
@@ -621,8 +621,8 @@
      },
      {
       "kcal": 400,
-      "key": "ffaf92e0cd",
-      "name": "Tavada Balık"
+      "key": "1e33a1caa9",
+      "name": "Tavada Balık (Palamut)"
      },
      {
       "kcal": 230,
@@ -641,5 +641,5 @@
   }
  },
  "university": "alparslan",
- "updated": "2026-11-17T02:35:37+03:00"
+ "updated": "2026-11-17T14:18:49+03:00"
 }
