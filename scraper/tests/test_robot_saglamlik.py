@@ -33,8 +33,9 @@ class RobotOkulu(Universite):
     """Modül düzeyinde ve yalnız basit veri taşır; macOS/Linux spawn ile çalışır."""
     ad, kisa, sehir, kaynak = "Deneme Üniversitesi", "DÜ", "Ankara", "https://example.invalid"
 
-    def __init__(self, kimlik="a", asama=None, hata=False, pid_yolu=None):
+    def __init__(self, kimlik="a", asama=None, hata=False, pid_yolu=None, okul_suresi=None, gun="2999-01-02"):
         self.id, self.asama, self.hata, self.pid_yolu = kimlik, asama, hata, pid_yolu
+        self.okul_suresi, self.gun = okul_suresi, gun  # okul_suresi: okula özel bütçe (build.okullari_topla okur)
 
     def _asama(self, ad):
         if self.asama != ad:
@@ -59,7 +60,7 @@ class RobotOkulu(Universite):
         if self.asama == "gorsel":
             dishes.foto_bul = agir_foto  # yalnız bu test okulunun ayrı sürecinde
         self._asama("menu")
-        return {"2999-01-02": {"lunch": {"items": [{"name": "Çorba"}]}}}
+        return {self.gun: {"lunch": {"items": [{"name": "Çorba"}]}}}
 
     def gunluk(self):
         self._asama("gunluk")
@@ -82,9 +83,9 @@ class RobotSurecTesti(unittest.TestCase):
                 self.assertEqual(kopya.id, u.id)
                 self.assertEqual(type(kopya), type(u))
 
-    def calistir(self, klasor, okullar, sure=3, limit=0):
+    def calistir(self, klasor, okullar, sure=30, limit=0, **kw):
         with patch.object(build, "OKUL_SURESI", sure), patch.object(dishes, "RUN_LIMIT", limit):
-            return build.calistir(str(klasor), okullar)
+            return build.calistir(str(klasor), okullar, **kw)
 
     def test_spawn_tam_sonuc_ve_sira(self):
         with tempfile.TemporaryDirectory() as d:
@@ -104,13 +105,48 @@ class RobotSurecTesti(unittest.TestCase):
                 baslangic = time.monotonic()
                 onceki_pidler = {p.pid for p in multiprocessing.active_children()}
                 with patch.object(build, "PARALEL", 1):
-                    kod = self.calistir(d, [RobotOkulu("takilan", asama), RobotOkulu("saglam")],
-                                        sure=0.2, limit=1 if asama == "gorsel" else 0)
+                    kod = self.calistir(d, [RobotOkulu("takilan", asama, okul_suresi=0.3), RobotOkulu("saglam")],
+                                        limit=1 if asama == "gorsel" else 0)
                 self.assertEqual(kod, 0)
-                self.assertLess(time.monotonic() - baslangic, 6)
+                self.assertLess(time.monotonic() - baslangic, 15)
                 self.assertEqual([u["id"] for u in json.loads((Path(d) / "index.json").read_text())["universities"]], ["saglam"])
                 self.assertFalse((Path(d) / "takilan/menu.json").exists())
                 self.assertEqual({p.pid for p in multiprocessing.active_children()}, onceki_pidler)
+
+    def test_alt_kume_diger_okullari_indeksten_dusurmez(self):
+        with tempfile.TemporaryDirectory() as d:
+            self.calistir(d, [RobotOkulu("a"), RobotOkulu("b"), RobotOkulu("c")])
+            ida = Path(d) / "index.json"
+            eski_a = [(Path(d) / x).read_bytes() for x in ("a/menu.json", "c/menu.json")]
+            eski_idx = {u["id"]: u for u in json.loads(ida.read_text())["universities"]}
+            self.assertEqual(self.calistir(d, [RobotOkulu("b", gun="2999-02-03")], koru_digerleri=True), 0)
+            yeni = json.loads(ida.read_text())["universities"]
+            self.assertEqual([u["id"] for u in yeni], ["a", "b", "c"])
+            self.assertEqual(yeni[0], eski_idx["a"])
+            self.assertEqual(yeni[2], eski_idx["c"])
+            self.assertEqual(yeni[1]["lastDay"], "2999-02-03")
+            self.assertEqual([(Path(d) / x).read_bytes() for x in ("a/menu.json", "c/menu.json")], eski_a)
+            self.assertIn("2999-02-03", json.loads((Path(d) / "b/menu.json").read_text())["days"])
+            # önceki indekste olmayan başarılı okul sona eklenir
+            self.assertEqual(self.calistir(d, [RobotOkulu("z")], koru_digerleri=True), 0)
+            self.assertEqual([u["id"] for u in json.loads(ida.read_text())["universities"]], ["a", "b", "c", "z"])
+
+    def test_alt_kume_basarisiz_okulun_eski_kaydi_korunur(self):
+        with tempfile.TemporaryDirectory() as d:
+            self.calistir(d, [RobotOkulu("a"), RobotOkulu("b"), RobotOkulu("c")])
+            ida = Path(d) / "index.json"
+            eski = json.loads(ida.read_text())["universities"]
+            menuler = {x: (Path(d) / x / "menu.json").read_bytes() for x in "abc"}
+            self.assertEqual(self.calistir(d, [RobotOkulu("b", asama="fiyat", hata=True)], koru_digerleri=True), 1)
+            self.assertEqual(json.loads(ida.read_text())["universities"], eski)
+            self.assertEqual({x: (Path(d) / x / "menu.json").read_bytes() for x in "abc"}, menuler)
+            # b hatalı ama a başarılıysa: a yenilenir, b/c eski kayıtla yerinde
+            self.assertEqual(self.calistir(d, [RobotOkulu("a", gun="2999-03-04"),
+                                               RobotOkulu("b", asama="fiyat", hata=True)], koru_digerleri=True), 0)
+            yeni = json.loads(ida.read_text())["universities"]
+            self.assertEqual([u["id"] for u in yeni], ["a", "b", "c"])
+            self.assertEqual(yeni[1:], eski[1:])
+            self.assertEqual(yeni[0]["lastDay"], "2999-03-04")
 
     def test_saat_hatasi_eski_menu_indeks_ve_fotoyu_aynen_korur(self):
         with tempfile.TemporaryDirectory() as d:
@@ -154,7 +190,7 @@ class RobotSurecTesti(unittest.TestCase):
     def test_sigterm_yutan_ocr_alt_sureci_de_oldurulur(self):
         with tempfile.TemporaryDirectory() as d:
             pid_yolu = Path(d) / "ocr.pid"
-            self.assertEqual(self.calistir(d, [RobotOkulu(asama="alt_surec", pid_yolu=str(pid_yolu))], sure=0.5), 1)
+            self.assertEqual(self.calistir(d, [RobotOkulu(asama="alt_surec", pid_yolu=str(pid_yolu), okul_suresi=3)]), 1)
             self.assertTrue(pid_yolu.exists(), "OCR benzeri alt süreç gerçekten başlamalı")
             self.assertGreater(int(pid_yolu.read_text()), 0)
             nabiz = Path(str(pid_yolu) + ".nabiz")

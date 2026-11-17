@@ -200,6 +200,8 @@ class BuildOncekiKayitTesti(unittest.TestCase):
             self.assertTrue(json.load(open(yol))["universities"][0]["stale"])
 
     class Yavas(Sahte):
+        okul_suresi = 0.1    # yalnız bu okulun bütçesi; sağlam okul ortak (180 sn) bütçeyi kullanır
+
         def menuler(self):
             import time
             time.sleep(1)
@@ -209,7 +211,7 @@ class BuildOncekiKayitTesti(unittest.TestCase):
         import io
         from contextlib import redirect_stderr
 
-        with tempfile.TemporaryDirectory() as k, mock.patch.object(build, "OKUL_SURESI", 0.1):
+        with tempfile.TemporaryDirectory() as k:
             err = io.StringIO()
             with redirect_stderr(err):
                 kod = self.calistir(k, [self.Yavas("y"), self.Sahte("b")])
