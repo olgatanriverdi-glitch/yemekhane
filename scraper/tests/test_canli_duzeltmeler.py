@@ -76,21 +76,28 @@ class KasimBicimleriTesti(unittest.TestCase):
         u = asbu.AnkaraSosyalBilimler(lambda url: oku('asbu_gun.json'))
         m = u.menuler()
         self.assertTrue(u.birikimli)
-        self.assertEqual(len(m), 23)
+        self.assertEqual(len(m), 43)  # Günlük JSON'un tarihi elle girilmiş Kasım günleriyle örtüşür.
         self.assertEqual(m['2026-10-05'], elle.yukle('asbu')['2026-10-05'])
+        self.assertEqual(m['2026-11-05'], elle.yukle('asbu')['2026-11-05'])
         self.assertEqual(m['2026-11-04']['lunch']['kcal'], 988)
+        self.assertEqual(m['2026-11-04']['vegetarian']['kcal'], 746)  # Günlük JSON elle girilen 819 kcal'lik öğünü yeniler.
         def hatali(url):
             raise OSError('test kesintisi')
         self.assertEqual(asbu.AnkaraSosyalBilimler(hatali).menuler(), elle.yukle('asbu'))
 
     def test_gtu_kasim_gorselinden_eklenen_gunler(self):
         m = {t: g for t, g in elle.yukle('gtu').items() if t.startswith('2026-11-')}
-        self.assertEqual(sorted(m), ['2026-11-%02d' % d for d in range(2, 7)])
+        self.assertEqual(sorted(m), ['2026-11-%02d' % d for d in (*range(2, 7), *range(16, 21))])
         for g in m.values():
             self.assertEqual(len(g['lunch']['items']), 8)
             self.assertNotIn('kcal', g['lunch'])  # İki yan yemek seçeneği toplanmaz.
+            self.assertEqual(g['lunch']['note'], 'Yan yemekler seçeneklidir; kalorileri toplanmaz.')
         self.assertEqual(m['2026-11-04']['lunch']['items'][3], {'name': 'Pesto Soslu Makarna', 'kcal': 453})
         self.assertEqual(m['2026-11-06']['lunch']['items'][1], {'name': 'Hamsi Tava', 'kcal': 407})
+        self.assertEqual(m['2026-11-16']['lunch']['items'][1], {'name': 'Kremalı İsveç Köfte', 'kcal': 462})
+        self.assertEqual(m['2026-11-18']['lunch']['items'][2], {'name': 'Melek Pilavı', 'kcal': 410})
+        self.assertEqual(m['2026-11-19']['lunch']['items'][2], {'name': 'Tel Şehriyeli Bulgur Pilavı', 'kcal': 382})
+        self.assertEqual(m['2026-11-20']['lunch']['items'][-1], {'name': 'Mısır Unlu Yoğurtlu Kabak Salatası', 'kcal': 68})
 
 
 class YemekTemizligiTesti(unittest.TestCase):
