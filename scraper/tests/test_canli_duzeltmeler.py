@@ -158,5 +158,49 @@ class CalVeNoktaKTemizligi(unittest.TestCase):
             self.assertEqual(oge_temizle({'name': ad})[0], {'name': ad})
 
 
+class DenetimVeriTemizligi(unittest.TestCase):
+    def test_1_4_kcal_atilir_5_ve_ustu_kalir(self):
+        self.assertEqual(oge_temizle({'name': 'Antep Lahmacun', 'kcal': 1})[0], {'name': 'Antep Lahmacun'})
+        self.assertEqual(oge_temizle({'name': 'Yeşil Salata', 'kcal': 4})[0], {'name': 'Yeşil Salata'})
+        self.assertEqual(oge_temizle({'name': 'Şalgam', 'kcal': 5})[0], {'name': 'Şalgam', 'kcal': 5})
+        self.assertEqual(oge_temizle({'name': 'Karışık Turşu', 'kcal': 5})[0], {'name': 'Karışık Turşu', 'kcal': 5})
+
+    def test_kucuk_kcal_atilinca_ogun_toplami_yeniden_hesaplanir(self):
+        ogun = {'items': [{'name': 'Antep Lahmacun', 'kcal': 1}, {'name': 'Mercimek Çorba', 'kcal': 244}], 'kcal': 245}
+        s = menuleri_temizle({'2026-11-18': {'lunch': ogun}})['2026-11-18']['lunch']
+        self.assertEqual(s['items'], [{'name': 'Antep Lahmacun'}, {'name': 'Mercimek Çorba', 'kcal': 244}])
+        self.assertNotIn('kcal', s)   # tüm kalemlerde kcal kalmadığı için eski toplam geçersiz
+        ogun = {'items': [{'name': 'A', 'kcal': 2}], 'kcal': 2}
+        self.assertNotIn('kcal', menuleri_temizle({'g': {'lunch': ogun}})['g']['lunch'])
+
+    def test_ad_sonu_tek_hane_ve_yuzde(self):
+        self.assertEqual(oge_temizle({'name': 'Tavuksuyuçorba 8'})[0], {'name': 'Tavuksuyuçorba'})
+        self.assertEqual(oge_temizle({'name': 'Zeytinyağlı Türlü %0'})[0], {'name': 'Zeytinyağlı Türlü'})
+        for ad in ('7 Tahıllı Ekmek', 'Ayran 200 ml', 'Kuru Fasulye 2.Kap', 'Pilav 12'):
+            self.assertEqual(oge_temizle({'name': ad})[0]['name'], ad.replace(' 200 ml', '').replace('Pilav 12', 'Pilav 12'))
+
+    def test_ayni_ogunde_tekrar_eden_kalem_atilir(self):
+        ogun = {'items': [{'name': 'Kabak Kalye', 'kcal': 100}, {'name': 'Pilav'}, {'name': 'kabak  kalye', 'kcal': 100}]}
+        s = menuleri_temizle({'2026-11-11': {'vegetarian': ogun}})['2026-11-11']['vegetarian']
+        self.assertEqual([o['name'] for o in s['items']], ['Kabak Kalye', 'Pilav'])
+        # farklı öğünlerde aynı ad kalır
+        g = menuleri_temizle({'g': {'lunch': {'items': [{'name': 'Muz'}]}, 'dinner': {'items': [{'name': 'Muz'}]}}})['g']
+        self.assertEqual(len(g['lunch']['items']) + len(g['dinner']['items']), 2)
+
+    def test_eklentiler_kaynaktaki_yer_tutucu_kaloriyi_almaz(self):
+        m = pamukkale.sayfa_menu(oku('pamukkale_kasim.html').decode())
+        kcalar = [o.get('kcal') for g in m.values() for og in g.values() for o in og['items'] if 'kcal' in o]
+        self.assertTrue(kcalar and min(kcalar) >= 5)
+        from yemekhane.universities import cukurova, inonu
+        html = ('<div id="aylik_yemek_liste"><FONT size="6"><a href="x">18.11.2026<br>Çarşamba</a>'
+                '<li><a href="y">Antep Lahmacun<br>1 Kalori</a></li><li><a href="y">Mercimek Çorba<br>244 Kalori</a></li>').encode('cp1254')
+        o = cukurova.sayfa_menu(html)['2026-11-18']['lunch']['items']
+        self.assertEqual(o, [{'name': 'Antep Lahmacun'}, {'name': 'Mercimek Çorba', 'kcal': 244}])
+        kay = [{'food_name': 'Trabzon Hurması', 'food_desc': '1 Adet: 58 kalori ', 'food_type': 'G'},
+               {'food_name': 'Sebzeli Hamburger Köfte', 'food_desc': '230 Kalori', 'food_type': 'G'}]
+        self.assertEqual(inonu.gun_menu(kay)['items'],
+                         [{'name': 'Trabzon Hurması', 'kcal': 58}, {'name': 'Sebzeli Hamburger Köfte', 'kcal': 230}])
+
+
 if __name__ == '__main__':
     unittest.main()

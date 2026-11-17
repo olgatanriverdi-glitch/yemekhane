@@ -6,6 +6,7 @@ _BIRIM = r'(?:k\s*cal|k\s*kal|kalori|kal|cal)'
 _KALORI = re.compile(r'(\d+(?:[.,]\d+)?(?:\s*[/–-]\s*\d+(?:[.,]\d+)?)*)\s*(?:' + _BIRIM + r'|\.k)\b', re.I)   # '180 Cal', '180.K'
 _BOS_BIRIM = re.compile(r'\b' + _BIRIM + r'\b', re.I)
 _GRAMAJ = re.compile(r'\b\d+(?:[.,]\d+)?\s*(?:gr(?:am)?|g|ml)\b', re.I)
+_SON_ARTIK = re.compile(r'(?:\s+%\s*\d+|\s+\d)$')   # 'Tavuksuyuçorba 8', 'Zeytinyağlı Türlü %0'
 _TATIL = re.compile(r'\b(?:tatil(?:dir)?|bayram(?:[ıi](?:m[ıi]z)?)?)\b|^\s*29\s+ekim\s*$', re.I)
 
 
@@ -24,12 +25,23 @@ def oge_temizle(oge):
     ad = re.sub(r'([\(\[])\s+', r'\1', ad)
     ad = re.sub(r'\s+([\)\]])', r'\1', ad)
     ad = re.sub(r'\s+', ' ', ad).strip(' /-–;:,.')
+    ad = _SON_ARTIK.sub('', ad).strip(' /-–;:,.')
     yeni['name'] = ad
     if len(sayilar) > 1 or (sayilar and re.search(r'/|\bveya\b', ad, re.I)):
         yeni.pop('kcal', None)   # iki seçenek/aralık tek kalori veya toplam değildir
     elif len(sayilar) == 1 and not re.search(r'/|\bveya\b', ad, re.I) and sayilar[0] > 0:
         yeni['kcal'] = int(sayilar[0]) if sayilar[0].is_integer() else sayilar[0]
+    if 0 < _sayi(yeni.get('kcal')) < 5:
+        yeni.pop('kcal', None)   # 1-4 kcal gerçek değer değil, kaynaktaki yer tutucu/yanlış alan
     return (yeni if ad else None), None
+
+
+def _sayi(deger):
+    return deger if isinstance(deger, (int, float)) and not isinstance(deger, bool) else 0
+
+
+def _ad_anahtari(ad):
+    return re.sub(r'\s+', ' ', str(ad)).strip().casefold()
 
 
 def menuleri_temizle(menuler):
@@ -38,9 +50,14 @@ def menuleri_temizle(menuler):
         sonuc[tarih] = {}
         for tur, ogun in gun.items():
             yeni, ogeler, notlar = dict(ogun), [], []
+            gorulen = set()
             for oge in ogun.get('items', []):
                 temiz, not_ = oge_temizle(oge)
                 if temiz:
+                    anahtar = _ad_anahtari(temiz['name'])
+                    if anahtar in gorulen:
+                        continue   # aynı öğünde aynı ad ikinci kez: ilki kalır
+                    gorulen.add(anahtar)
                     ogeler.append(temiz)
                 if not_ and not_ not in notlar:
                     notlar.append(not_)

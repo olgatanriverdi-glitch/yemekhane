@@ -18,7 +18,7 @@ def yemek_ogesi(ad: str, kcal: str):
     if not ad:
         return None
     oge = {"name": baslik_yap_serbest(kisaltma_ac(ad))}
-    if kcal.isdigit() and int(kcal) > 0:
+    if kcal.isdigit() and int(kcal) >= 5:   # kaynak yer tutucu olarak '1 cal' yazıyor
         oge["kcal"] = int(kcal)
     return oge
 
