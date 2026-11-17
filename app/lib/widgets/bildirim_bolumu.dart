@@ -21,6 +21,13 @@ class _BildirimAyariBolumuState extends State<BildirimAyariBolumu> {
   // izin penceresi / planlama sürerken ikinci dokunuş yok sayılır
   bool _mesgul = false;
 
+  @override
+  void initState() {
+    super.initState();
+    // Ayarlar açılırken sistem izni geri alınmış mı bak (anahtar gerçeği göstersin)
+    widget.ayar.izinDurumunuDenetle();
+  }
+
   Future<void> _anahtar(bool aciliyor) async {
     if (_mesgul) return;
     _mesgul = true;
@@ -74,6 +81,19 @@ class _BildirimAyariBolumuState extends State<BildirimAyariBolumu> {
             subtitle: Text(bildirimSaatMetni(widget.ayar.saatDk)),
             trailing: const Icon(Icons.chevron_right),
             onTap: _saatSec,
+          ),
+        if (widget.ayar.izinGeriAlindi)
+          Padding(
+            padding: const EdgeInsets.fromLTRB(16, 0, 16, 8),
+            child: Semantics(
+              liveRegion: true,
+              child: Text(
+                  'Bildirim izni telefonun ayarlarından kapatılmış, bu yüzden '
+                  'günlük bildirim durduruldu. Yeniden almak için telefonun '
+                  "ayarlarından Üni Yemek'e bildirim izni verip anahtarı aç.",
+                  style: tema.textTheme.bodySmall
+                      ?.copyWith(color: tema.colorScheme.error)),
+            ),
           ),
         if (_izinVerilmedi)
           Padding(

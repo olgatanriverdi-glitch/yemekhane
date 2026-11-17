@@ -29,7 +29,10 @@ def sayfa_menu(veri: bytes) -> dict:
         for ad, kcal in re.findall(r"<li>\s*<a[^>]*>(.*?)<br>\s*(\d+)\s*Kalori\s*</a>", sutun, re.S | re.I):
             ad = etiket_temizle(ad)
             if ad:
-                ogeler.append({"name": baslik_yap_serbest(kisaltma_ac(ad)), "kcal": int(kcal)})
+                oge = {"name": baslik_yap_serbest(kisaltma_ac(ad))}
+                if int(kcal) >= 5:      # kaynak bilinmeyen kalori için '1 Kalori' yazıyor
+                    oge["kcal"] = int(kcal)
+                ogeler.append(oge)
         if ogeler:
             sonuc[tarih.isoformat()] = {"lunch": gun_icerigi(ogeler)}
     return sonuc

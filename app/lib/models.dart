@@ -91,14 +91,21 @@ class Universite {
   /// ad metin değilse (kayıt kullanılamaz) hata fırlatır; listeyi okuyan [Depo.universiteler] o kaydı atlar.
   factory Universite.fromJson(Map<String, dynamic> j) {
     final fiyatlar = j['prices'], saatler = j['hours'];
+    final ogunler = [
+      for (final e in (j['meals'] ?? const []) as List)
+        if (e is String) e
+    ];
+    // desteklenen en az bir öğün yoksa kayıt kullanılamaz (öğün sekmesi / seçimi çöker)
+    if (!ogunler.any(ogunSirasi.contains)) {
+      throw const FormatException('okulda desteklenen öğün yok');
+    }
     return Universite(
       id: j['id'] as String,
       ad: j['name'] as String,
       kisa: (j['short'] ?? '') as String,
       sehir: (j['city'] ?? '') as String,
       kaynak: (j['source'] ?? '') as String,
-      ogunler:
-          ((j['meals'] ?? const []) as List).map((e) => e as String).toList(),
+      ogunler: ogunler,
       fiyatlar: [
         if (fiyatlar is List)
           for (final e in fiyatlar)

@@ -55,18 +55,45 @@ class GercekReklamServisi
   @override
   bool get odulluKullanilabilir => kullanilabilir && _odulluBirim != null;
 
+  bool _rizaBilgisiGuncellendi = false;
+
+  Future<bool>? _rizaIstegi;
+
+  // Rıza bilgisini oturumda bir kez ister (reklam yüklemez); eşzamanlı çağrılar aynı Future'ı paylaşır.
+  // Hiçbir Timer kurmaz; başarısızsa sonraki çağrı yeniden dener.
+  Future<bool> _rizaBilgisiniIste() {
+    if (_rizaBilgisiGuncellendi) return Future.value(true);
+    final uctaki = _rizaIstegi;
+    if (uctaki != null) return uctaki;
+    final bilgi = Completer<bool>();
+    final gelecek = bilgi.future;
+    _rizaIstegi = gelecek;
+    void bitir(bool ok) {
+      if (ok) _rizaBilgisiGuncellendi = true;
+      _rizaIstegi = null;
+      if (!bilgi.isCompleted) bilgi.complete(ok);
+    }
+
+    try {
+      ConsentInformation.instance
+          .requestConsentInfoUpdate(ConsentRequestParameters(), () {
+        bitir(true);
+      }, (_) {
+        bitir(false);
+      });
+    } catch (_) {
+      bitir(false);
+    }
+    return gelecek;
+  }
+
   @override
   Future<bool> hazirla() async {
     if (!kullanilabilir) return false;
     try {
       // 1) rıza bilgisini güncelle; gerekliyse (AB / Birleşik Krallık...) Google'ın formu bir kez gösterilir
-      final bilgi = Completer<void>();
-      ConsentInformation.instance.requestConsentInfoUpdate(
-          ConsentRequestParameters(),
-          () => bilgi.complete(),
-          // güncelleme başarısızsa son bilinen rıza durumuyla devam edilir (canRequestAds karar verir)
-          (_) => bilgi.complete());
-      await bilgi.future;
+      await _rizaBilgisiniIste()
+          .timeout(const Duration(seconds: 10), onTimeout: () => false);
       final form = Completer<void>();
       await ConsentForm.loadAndShowConsentFormIfRequired((_) {
         if (!form.isCompleted) form.complete();
@@ -166,7 +193,14 @@ class GercekReklamServisi
               },
             );
             gosterimde = true;
-            ad.show(onUserEarnedReward: (_, __) => odulVerildi = true);
+            // show() Future'ı hata verirse pencere sonsuza dek açık kalmasın
+            unawaited(ad
+                .show(onUserEarnedReward: (_, __) => odulVerildi = true)
+                .catchError((Object _) {
+              gosterimde = false;
+              ad.dispose();
+              bitir(OdulluSonuc.yuklenemedi);
+            }));
           },
           onAdFailedToLoad: (_) => bitir(OdulluSonuc.yuklenemedi),
         ),
@@ -189,6 +223,8 @@ class GercekReklamServisi
   @override
   Future<bool> tercihGerekli() async {
     if (!kullanilabilir) return false;
+    // beklenmez (Ayarlar açılışı sayaçsız); güncelleme bitince sonraki açılışta doğru durum görünür
+    unawaited(_rizaBilgisiniIste());
     try {
       return await ConsentInformation.instance
               .getPrivacyOptionsRequirementStatus() ==

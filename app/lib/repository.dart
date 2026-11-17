@@ -58,7 +58,18 @@ class Depo {
   /// önbelleğe / uygulamayla gelen kopyaya düşülür. Başka her başarısızlık (200 dışı yanıt, istisna, zaman aşımı) true yapar.
   /// Cihaz depolaması (SharedPreferences) açılamaz ya da yazılamazsa hata yutulur: önbellek yok sayılır, ağdan
   /// indirilen veri yine döner ve depolama hatası ağ hatası sayılmaz ([cevrimdisi] değişmez).
-  Future<String> _oku(String yol, {bool durumuBildir = true}) async {
+  Future<String> _oku(String yol,
+      {bool durumuBildir = true, bool Function(Object?)? gecerli}) async {
+    // ayrıştırılabilir ve beklenen yapıda mı ([gecerli] verilmişse); değilse kaynak atlanır
+    bool uygun(String metin) {
+      try {
+        final j = jsonDecode(metin);
+        return gecerli == null || gecerli(j);
+      } catch (_) {
+        return false;
+      }
+    }
+
     SharedPreferences? prefs;
     try {
       prefs = await SharedPreferences.getInstance();
@@ -72,8 +83,8 @@ class Depo {
             await _al(Uri.parse('$veriTabanUrl/$yol')).timeout(_agZamanAsimi);
         if (r.statusCode == 200) {
           final metin = utf8.decode(r.bodyBytes);
-          jsonDecode(metin); // bozuk veriyi önbelleğe yazma
-          govde = metin;
+          // bozuk ya da şeması tutmayan veriyi önbelleğe yazma
+          if (uygun(metin)) govde = metin;
         } else {
           sunucuYanitladi = r.statusCode == 404;
         }
@@ -91,10 +102,12 @@ class Depo {
     try {
       onbellek = prefs?.getString('$_onbellekOneki$yol');
     } catch (_) {}
+    if (onbellek != null && !uygun(onbellek)) onbellek = null;
     String? paket;
     try {
       paket = await rootBundle.loadString('assets/data/$yol');
     } catch (_) {}
+    if (paket != null && !uygun(paket)) paket = null;
     if (onbellek == null) {
       return paket ?? await rootBundle.loadString('assets/data/$yol');
     }
@@ -129,7 +142,8 @@ class Depo {
     StackTrace? hataIzi;
     var liste = <Universite>[];
     try {
-      liste = _okullariAyikla(jsonDecode(await _oku('index.json')));
+      liste = _okullariAyikla(jsonDecode(await _oku('index.json',
+          gecerli: (j) => _okullariAyikla(j).isNotEmpty)));
     } catch (e, iz) {
       hata = e;
       hataIzi = iz;
@@ -152,8 +166,19 @@ class Depo {
   }
 
   Future<Menu> menu(String universiteId) async {
-    final j = jsonDecode(await _oku('$universiteId/menu.json'))
-        as Map<String, dynamic>;
+    bool menuGecerli(Object? j) {
+      try {
+        if (j is! Map<String, dynamic> || j['days'] is! Map) return false;
+        Menu.fromJson(j);
+        return true;
+      } catch (_) {
+        return false;
+      }
+    }
+
+    final j =
+        jsonDecode(await _oku('$universiteId/menu.json', gecerli: menuGecerli))
+            as Map<String, dynamic>;
     return Menu.fromJson(j);
   }
 
@@ -230,7 +255,9 @@ class Depo {
 
   Future<Map<String, dynamic>?> _yemekTablosunuOku() async {
     try {
-      final j = jsonDecode(await _oku(_yemekIndeksiYolu, durumuBildir: false));
+      final j = jsonDecode(await _oku(_yemekIndeksiYolu,
+          durumuBildir: false,
+          gecerli: (j) => j is Map && j['dishes'] is Map<String, dynamic>));
       final tablo = j is Map ? j['dishes'] : null;
       return tablo is Map<String, dynamic> ? tablo : null;
     } catch (_) {
@@ -252,8 +279,8 @@ class Depo {
   /// Dosya yoksa, bozuksa ya da okunamazsa güvenli varsayılan döner; hata fırlatmaz ve [cevrimdisi] değişmez.
   Future<UzakReklamAyari> reklamAyari() async {
     try {
-      return UzakReklamAyari.fromJson(
-          jsonDecode(await _oku('ayarlar.json', durumuBildir: false)));
+      return UzakReklamAyari.fromJson(jsonDecode(await _oku('ayarlar.json',
+          durumuBildir: false, gecerli: (j) => j is Map)));
     } catch (_) {
       return UzakReklamAyari.varsayilan;
     }

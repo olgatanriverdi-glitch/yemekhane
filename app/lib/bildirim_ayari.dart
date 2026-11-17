@@ -25,18 +25,25 @@ class BildirimAyari extends ChangeNotifier {
   BildirimAyari(
       {BildirimServisi? servis,
       bool acik = false,
-      int saatDk = varsayilanBildirimSaatDk})
+      int saatDk = varsayilanBildirimSaatDk,
+      Future<bool> Function()? izinOku})
       : servis = servis ?? FlutterBildirimServisi(),
+        _izinOkuDis = izinOku,
         _acik = acik,
         _saatDk = _saatiDuzelt(saatDk);
 
   final BildirimServisi servis;
+  final Future<bool> Function()? _izinOkuDis;
+
+  /// Sistem izni okuyucusu: testte [izinOku] ile enjekte edilir, yoksa [servis.izinVarMi].
+  Future<bool> _izinOku() => (_izinOkuDis ?? servis.izinVarMi)();
 
   bool _acik;
   int _saatDk;
   Future<void>? _yukleme;
   bool _yuklendi = false;
   bool _kapandi = false;
+  bool _izinGeriAlindi = false;
 
   // Ana sayfanın bildirdiği son durum: planlama bunlardan kurulur (ayar sonradan açılsa da).
   ({
@@ -51,6 +58,11 @@ class BildirimAyari extends ChangeNotifier {
   int _istekNo = 0;
 
   bool get acik => _acik;
+
+  /// Ayar açıkken kullanıcı bildirim iznini sistem ayarlarından geri aldı ve [izinDurumunuDenetle] bunu
+  /// fark ederek ayarı kapattı. Ayarlar ekranı bununla kısa bir açıklama gösterir; kullanıcı anahtarı yeniden
+  /// açınca ya da kapatınca temizlenir.
+  bool get izinGeriAlindi => _izinGeriAlindi;
 
   /// Bildirim saati (gün başından itibaren dakika).
   int get saatDk => _saatDk;
@@ -83,13 +95,17 @@ class BildirimAyari extends ChangeNotifier {
   Future<bool> ac() async {
     if (!_yuklendi) await yukle();
     if (_acik) return true;
+    _izinGeriAlindi = false;
     bool izin;
     try {
       izin = await servis.izinIste();
     } catch (_) {
       izin = false;
     }
-    if (!izin) return false;
+    if (!izin) {
+      _haber();
+      return false;
+    }
     _acik = true;
     _haber();
     await _kaydet(acikAnahtari, true);
@@ -97,11 +113,31 @@ class BildirimAyari extends ChangeNotifier {
     return true;
   }
 
-  /// Bildirimi kapatır ve kurulmuş bütün bildirimleri iptal eder.
-  Future<void> kapat() async {
+  /// Sistem bildirim iznini okur (izin penceresi açmaz). Ayar AÇIKken izin kapalıysa: anahtar kapatılır ve
+  /// kaydedilir, kurulu bildirimler iptal edilir, [izinGeriAlindi] true olur. Böylece anahtar gerçeği
+  /// gösterir ve izin yokken boş yere plan tutulmaz. Kullanıcı izni sistemden geri verirse ayar KENDİLİĞİNDEN
+  /// açılmaz (bildirim isteği kullanıcıdan gelmeli); anahtarı açınca [ac] izni zaten verilmiş bulur ve plan
+  /// hemen kurulur. Uygulama öne gelince ve Ayarlar açılırken çağrılır. Hata fırlatmaz.
+  Future<void> izinDurumunuDenetle() async {
+    if (!_yuklendi) await yukle();
+    if (!_acik) return;
+    bool izinli;
+    try {
+      izinli = await _izinOku();
+    } catch (_) {
+      return;
+    }
+    if (izinli || !_acik) return;
+    await kapat(izinYuzunden: true);
+  }
+
+  /// Bildirimi kapatır ve kurulmuş bütün bildirimleri iptal eder. [izinYuzunden]: sistem izni geri alındığı
+  /// için otomatik kapatma ([izinGeriAlindi]).
+  Future<void> kapat({bool izinYuzunden = false}) async {
     if (!_yuklendi) await yukle();
     if (!_acik) return;
     _acik = false;
+    _izinGeriAlindi = izinYuzunden;
     _haber();
     await _kaydet(acikAnahtari, false);
     // kuyruktaki planlar atlansın; iptal sıradaki işlerden sonra çalışsın

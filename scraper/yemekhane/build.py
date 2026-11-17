@@ -1,7 +1,7 @@
 """Tüm üniversiteleri çalıştırır ve statik JSON dosyalarını yazar:
    data/index.json                 -> üniversite listesi (uygulama ilk bunu okur)
    data/<id>/menu.json             -> o üniversitenin tarih bazlı menüleri
-Kullanım:  python -m yemekhane.build [--cikti ../data]
+Kullanım:  python -m yemekhane.build [--cikti ../data] [--okul samsun,karabuk]
 """
 import argparse
 import copy
@@ -202,7 +202,8 @@ def okullari_topla(uniler, cikti, gecici, simdi, sinir):
                     p.close()
                     sonuclar[no] = {"hata": "okul süreci başlatılamadı: %s" % e}
                 else:
-                    calisan[no] = {"p": p, "oku": oku, "basladi": False,
+                    butce = getattr(u, "okul_suresi", None) or OKUL_SURESI
+                    calisan[no] = {"p": p, "oku": oku, "basladi": False, "butce": butce,
                                    "vade": time.monotonic() + BASLATMA_SURESI, "klasor": klasor}
                 finally:
                     gonder.close()
@@ -212,7 +213,7 @@ def okullari_topla(uniler, cikti, gecici, simdi, sinir):
                     try:
                         oku.recv()
                         # macOS/Python 3.9 monotonic başlangıcı süreçler arasında aynı değildir.
-                        is_["vade"] = time.monotonic() + OKUL_SURESI
+                        is_["vade"] = time.monotonic() + is_["butce"]
                         is_["basladi"] = True
                     except EOFError:
                         pass
@@ -223,8 +224,8 @@ def okullari_topla(uniler, cikti, gecici, simdi, sinir):
                             sonuc = json.load(f)
                         if p.exitcode != 0:
                             raise RuntimeError("çıkış kodu %s" % p.exitcode)
-                        if sonuc["sure"] > OKUL_SURESI:
-                            sonuc = {"hata": "zaman aşımı (%g sn)" % OKUL_SURESI}
+                        if sonuc["sure"] > is_["butce"]:
+                            sonuc = {"hata": "zaman aşımı (%g sn)" % is_["butce"]}
                     except (OSError, ValueError, KeyError, RuntimeError) as e:
                         sonuc = {"hata": "okul süreci sonuç vermeden kapandı (%s): %s" % (p.exitcode, e)}
                     if "hata" in sonuc:
@@ -232,7 +233,7 @@ def okullari_topla(uniler, cikti, gecici, simdi, sinir):
                 elif time.monotonic() >= is_["vade"]:
                     _sureci_durdur(p, is_["basladi"])
                     sonuc = {"hata": "zaman aşımı (%g sn%s)" %
-                             (OKUL_SURESI if is_["basladi"] else BASLATMA_SURESI,
+                             (is_["butce"] if is_["basladi"] else BASLATMA_SURESI,
                               "" if is_["basladi"] else ", süreç başlatma")}
                 else:
                     continue
@@ -304,7 +305,16 @@ def raporla(uniler, liste, hatalilar, basarili, simdi, sure):
             print("UYARI: Actions özeti yazılamadı: %s" % e, file=sys.stderr)
 
 
-def calistir(cikti: str, uniler=None) -> int:
+def indeks_listesi(eski, liste):
+    """--okul alt kümesi çalışmasında index.json: önceki sıra korunur; işlenen okulun kaydı (başarısızsa eskisi)
+    yerine konur, önceki indekste olmayan yeni kayıtlar sona eklenir."""
+    yeni = {k["id"]: k for k in liste}
+    sonuc = [yeni.get(kimlik, kayit) for kimlik, kayit in eski.items()]
+    sonuc += [k for kimlik, k in yeni.items() if kimlik not in eski]
+    return sonuc
+
+
+def calistir(cikti: str, uniler=None, koru_digerleri=False) -> int:
     baslangic = time.monotonic()
     simdi = datetime.now(TURKIYE)
     sinir = (simdi - timedelta(days=GUN_SAKLA)).date().isoformat()
@@ -344,7 +354,8 @@ def calistir(cikti: str, uniler=None) -> int:
             dosyalar[yf.yol] = json_verisi(yf.idx)
             # Menü/indeks ve görsel dosyaları önce tamamen hazırlanır; indeks en son değiştirilir.
             dosyalar[os.path.join(cikti, "index.json")] = json_verisi(
-                {"version": 1, "updated": simdi.isoformat(timespec="seconds"), "universities": liste})
+                {"version": 1, "updated": simdi.isoformat(timespec="seconds"),
+                 "universities": indeks_listesi(eski, liste) if koru_digerleri else liste})
             birlikte_yayinla(dosyalar.items())
     raporla(uniler, liste, hatalilar, basarili, simdi, time.monotonic() - baslangic)
     return 1 if hatalilar and not basarili else 0
@@ -353,5 +364,15 @@ def calistir(cikti: str, uniler=None) -> int:
 if __name__ == "__main__":
     p = argparse.ArgumentParser()
     p.add_argument("--cikti", default=os.path.join(os.path.dirname(__file__), "..", "..", "data"))
+    p.add_argument("--okul", help="yalnız bu okullar (virgüllü id listesi, ör. samsun,karabuk); diğerleri indekste korunur")
     a = p.parse_args()
+    if a.okul:
+        istenen = [k.strip() for k in a.okul.split(",") if k.strip()]
+        bilinen = {u.id: u for u in KAYITLI}
+        bilinmeyen = [k for k in istenen if k not in bilinen]
+        if not istenen or bilinmeyen:
+            print("HATA: bilinmeyen okul id: %s" % (", ".join(bilinmeyen) or "(boş)"), file=sys.stderr)
+            sys.exit(2)
+        secili = [u for u in KAYITLI if u.id in set(istenen)]
+        sys.exit(calistir(os.path.abspath(a.cikti), secili, koru_digerleri=True))
     sys.exit(calistir(os.path.abspath(a.cikti)))

@@ -1,3 +1,5 @@
+import 'dart:async';
+
 import 'package:flutter/material.dart';
 
 import '../arama.dart';
@@ -112,6 +114,8 @@ class _AnaSayfaState extends State<AnaSayfa> with WidgetsBindingObserver {
   // Son gün değişiminin yönü: 1 sonraki gün, -1 önceki gün, 0 yön yok (öğün değişimi, yükleme).
   int _yon = 0;
 
+  Timer? _geceZamanlayici;
+
   DateTime _simdi() => (widget.simdi ?? turkiyeSimdi)();
 
   @override
@@ -128,11 +132,13 @@ class _AnaSayfaState extends State<AnaSayfa> with WidgetsBindingObserver {
     // kaydı okunur; reklam kapalı olsa da kayıt yazılır
     _reklam.baslat();
     _favoriler.addListener(_favorileriBildir);
+    _geceZamanlayicisiniKur();
     _yukle();
   }
 
   @override
   void dispose() {
+    _geceZamanlayici?.cancel();
     WidgetsBinding.instance.removeObserver(this);
     _favoriler.removeListener(_favorileriBildir);
     if (widget.favoriler == null) _favoriler.dispose();
@@ -142,31 +148,54 @@ class _AnaSayfaState extends State<AnaSayfa> with WidgetsBindingObserver {
     super.dispose();
   }
 
-  // Uygulama gece açık kalıp sabah öne gelirse gün değişmiştir: bugüne dön.
+  // Uygulama gece açık kalıp sabah öne gelirse (ya da ön plandayken gün dönerse) gün değişmiştir: bugüne dön.
   @override
   void didChangeAppLifecycleState(AppLifecycleState durum) {
     if (durum != AppLifecycleState.resumed) return;
+    // bildirim izni sistem ayarlarından geri alınmış olabilir
+    _bildirim.izinDurumunuDenetle();
+    _gunuKontrolEt();
     final simdi = _simdi();
-    final bugun = isoTarih(simdi);
-    if (bugun != _bugun) {
-      setState(() {
-        _yon = 0;
-        _bugun = bugun;
-        _tarih = bugun;
-        if (_uni != null) {
-          _ogun = akilliOgun(_uni!, simdi);
-        } else {
-          _ogunBelirle = true;
-        }
-        _tarih = tarihiSinirla(_menu, _tarih);
-        _uygunOgunSec();
-      });
-    }
     // uzun süre arka planda kaldıysa menü sessizce yenilenir (hata bildirimi yok)
     final son = _sonBasarili;
     if (son == null || simdi.difference(son) >= const Duration(hours: 3)) {
       _yukle(sessiz: true, otomatik: true);
     }
+  }
+
+  // Türkiye günü değiştiyse "bugün"ü yeniler; seçili gün eski bugünse yeni bugüne geçer. Değişiklik olduysa
+  // true döner. Önce yeni gece yarısı zamanlayıcısı kurulur (ön plandayken gün dönüşünü yakalar).
+  bool _gunuKontrolEt() {
+    _geceZamanlayicisiniKur();
+    final simdi = _simdi();
+    final bugun = isoTarih(simdi);
+    if (bugun == _bugun) return false;
+    final eskiBugun = _bugun;
+    setState(() {
+      _yon = 0;
+      _bugun = bugun;
+      if (_tarih == eskiBugun || _uni == null) _tarih = bugun;
+      if (_uni != null) {
+        if (_tarih == bugun) _ogun = akilliOgun(_uni!, simdi);
+      } else {
+        _ogunBelirle = true;
+      }
+      _tarih = tarihiSinirla(_menu, _tarih);
+      _uygunOgunSec();
+    });
+    return true;
+  }
+
+  // Bir sonraki Türkiye gece yarısına tek seferlik zamanlayıcı kurar; çalışınca gün kontrol edilir ve yeniden kurulur.
+  void _geceZamanlayicisiniKur() {
+    _geceZamanlayici?.cancel();
+    final simdi = _simdi();
+    final yarin = DateTime(simdi.year, simdi.month, simdi.day + 1);
+    final kalan = yarin.difference(DateTime(simdi.year, simdi.month, simdi.day,
+        simdi.hour, simdi.minute, simdi.second, simdi.millisecond));
+    _geceZamanlayici = Timer(kalan + const Duration(seconds: 1), () {
+      if (mounted) _gunuKontrolEt();
+    });
   }
 
   /// Okulu ve menüyü yükler. [sessiz] true ise (aşağı çekip yenileme) iskelet gösterilmez, mevcut menü ekranda
@@ -192,6 +221,8 @@ class _AnaSayfaState extends State<AnaSayfa> with WidgetsBindingObserver {
         _hata = null;
       });
     }
+    // elle yenileme de "bugün"ü günceller (gün dönmüş ama zamanlayıcı henüz çalışmamış olabilir)
+    if (!otomatik) _gunuKontrolEt();
     if (!otomatik && universiteId == null) _geriBildirim.onbellekTemizle();
     final no = _yuklemeNo;
     bool eski() => no != _yuklemeNo;

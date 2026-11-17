@@ -91,7 +91,7 @@ class AsbuTesti(unittest.TestCase):
 
     def test_elle_girilen_menu(self):
         m = asbu.AnkaraSosyalBilimler(lambda url: b'null').menuler()
-        self.assertEqual(len(m), 22)
+        self.assertEqual((min(m), max(m), len(m)), ("2026-10-01", "2026-11-30", 43))
         g = m["2026-10-05"]
         self.assertEqual([o["name"] for o in g["lunch"]["items"]],
                          ["Tarhana Çorba", "Fırında Köfte-Püreli", "Peynirli Makarna", "Mevsim Salata", "Tulumba"])
@@ -99,6 +99,27 @@ class AsbuTesti(unittest.TestCase):
         self.assertEqual([o["name"] for o in g["vegetarian"]["items"]][1], "Zeytinyağlı Taze Fasulye")     # ana yemek yerine etsiz karşılığı
         self.assertEqual(m["2026-10-29"]["lunch"], {"items": [], "note": "Resmi tatil"})
         self.assertNotIn("kcal", m["2026-10-07"]["vegetarian"])                # etsiz yemeğin kalorisi resimde boş
+
+    def test_kasim_menusu(self):
+        m = {t: g for t, g in elle.yukle("asbu").items() if t.startswith("2026-11-")}
+        self.assertEqual(sorted(m), [f"2026-11-{d:02d}" for d in range(1, 31) if date(2026, 11, d).weekday() < 5])
+        self.assertEqual((min(m), max(m), len(m)), ("2026-11-02", "2026-11-30", 21))
+        for tarih, gun in m.items():
+            with self.subTest(tarih=tarih):
+                self.assertEqual(set(gun), {"lunch", "vegetarian"})
+                normal, vejetaryen = gun["lunch"]["items"], gun["vegetarian"]["items"]
+                if tarih == "2026-11-18":                                     # istisna: vejetaryen 4 kalem, ana yemek satırı yok
+                    self.assertEqual([i["name"] for i in vejetaryen],
+                                     ["Tarhana Çorba", "Nohut Yemeği", "Mevsim Salata", "Ayran"])
+                    continue
+                self.assertEqual((len(normal), len(vejetaryen)), (5, 5))
+                self.assertEqual(normal[:1] + normal[2:], vejetaryen[:1] + vejetaryen[2:])
+                self.assertNotEqual(normal[1], vejetaryen[1])                 # yalnızca ikinci kalem değişir
+        self.assertEqual(m["2026-11-18"]["lunch"]["items"][1:3],
+                         [{"name": "İçli Köfte", "kcal": 360}, {"name": "Tavuklu Pilav", "kcal": 320}])  # filigran altındaki kalemler
+        self.assertEqual(m["2026-11-18"]["vegetarian"]["items"][1], {"name": "Nohut Yemeği", "kcal": 200})
+        self.assertEqual((m["2026-11-18"]["lunch"]["kcal"], m["2026-11-18"]["vegetarian"]["kcal"]), (1071, 591))
+        self.assertNotIn("Tavuklu Pilav", [i["name"] for i in m["2026-11-18"]["vegetarian"]["items"]])
 
     def test_kalori_toplamlari_tutarli(self):
         for tarih, gun in elle.yukle("asbu").items():

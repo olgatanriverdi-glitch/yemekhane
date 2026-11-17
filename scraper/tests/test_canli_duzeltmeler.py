@@ -76,21 +76,28 @@ class KasimBicimleriTesti(unittest.TestCase):
         u = asbu.AnkaraSosyalBilimler(lambda url: oku('asbu_gun.json'))
         m = u.menuler()
         self.assertTrue(u.birikimli)
-        self.assertEqual(len(m), 23)
+        self.assertEqual(len(m), 43)  # Günlük JSON'un tarihi elle girilmiş Kasım günleriyle örtüşür.
         self.assertEqual(m['2026-10-05'], elle.yukle('asbu')['2026-10-05'])
+        self.assertEqual(m['2026-11-05'], elle.yukle('asbu')['2026-11-05'])
         self.assertEqual(m['2026-11-04']['lunch']['kcal'], 988)
+        self.assertEqual(m['2026-11-04']['vegetarian']['kcal'], 746)  # Günlük JSON elle girilen 819 kcal'lik öğünü yeniler.
         def hatali(url):
             raise OSError('test kesintisi')
         self.assertEqual(asbu.AnkaraSosyalBilimler(hatali).menuler(), elle.yukle('asbu'))
 
     def test_gtu_kasim_gorselinden_eklenen_gunler(self):
         m = {t: g for t, g in elle.yukle('gtu').items() if t.startswith('2026-11-')}
-        self.assertEqual(sorted(m), ['2026-11-%02d' % d for d in range(2, 7)])
+        self.assertEqual(sorted(m), ['2026-11-%02d' % d for d in (*range(2, 7), *range(16, 21))])
         for g in m.values():
             self.assertEqual(len(g['lunch']['items']), 8)
             self.assertNotIn('kcal', g['lunch'])  # İki yan yemek seçeneği toplanmaz.
+            self.assertEqual(g['lunch']['note'], 'Yan yemekler seçeneklidir; kalorileri toplanmaz.')
         self.assertEqual(m['2026-11-04']['lunch']['items'][3], {'name': 'Pesto Soslu Makarna', 'kcal': 453})
         self.assertEqual(m['2026-11-06']['lunch']['items'][1], {'name': 'Hamsi Tava', 'kcal': 407})
+        self.assertEqual(m['2026-11-16']['lunch']['items'][1], {'name': 'Kremalı İsveç Köfte', 'kcal': 462})
+        self.assertEqual(m['2026-11-18']['lunch']['items'][2], {'name': 'Melek Pilavı', 'kcal': 410})
+        self.assertEqual(m['2026-11-19']['lunch']['items'][2], {'name': 'Tel Şehriyeli Bulgur Pilavı', 'kcal': 382})
+        self.assertEqual(m['2026-11-20']['lunch']['items'][-1], {'name': 'Mısır Unlu Yoğurtlu Kabak Salatası', 'kcal': 68})
 
 
 class YemekTemizligiTesti(unittest.TestCase):
@@ -156,6 +163,57 @@ class CalVeNoktaKTemizligi(unittest.TestCase):
     def test_benzer_adlar_bozulmaz(self):
         for ad in ('Çalı Fasulye', 'Patates Kalıbı', 'Kuru Fasulye 2.Kap'):
             self.assertEqual(oge_temizle({'name': ad})[0], {'name': ad})
+
+
+class DenetimVeriTemizligi(unittest.TestCase):
+    def test_inonu_adet_aciklamasi_kalori_sayilmaz(self):
+        from yemekhane.universities.inonu import gun_menu
+        o = gun_menu([{'food_type': 'G', 'food_name': 'Baklava', 'food_desc': '10 Adet'},
+                      {'food_type': 'G', 'food_name': 'Pilav', 'food_desc': '230'}])
+        self.assertNotIn('kcal', o['items'][0])
+        self.assertEqual(o['items'][1]['kcal'], 230)
+
+    def test_1_4_kcal_atilir_5_ve_ustu_kalir(self):
+        self.assertEqual(oge_temizle({'name': 'Antep Lahmacun', 'kcal': 1})[0], {'name': 'Antep Lahmacun'})
+        self.assertEqual(oge_temizle({'name': 'Yeşil Salata', 'kcal': 4})[0], {'name': 'Yeşil Salata'})
+        self.assertEqual(oge_temizle({'name': 'Şalgam', 'kcal': 5})[0], {'name': 'Şalgam', 'kcal': 5})
+        self.assertEqual(oge_temizle({'name': 'Karışık Turşu', 'kcal': 5})[0], {'name': 'Karışık Turşu', 'kcal': 5})
+
+    def test_kucuk_kcal_atilinca_ogun_toplami_yeniden_hesaplanir(self):
+        ogun = {'items': [{'name': 'Antep Lahmacun', 'kcal': 1}, {'name': 'Mercimek Çorba', 'kcal': 244}], 'kcal': 245}
+        s = menuleri_temizle({'2026-11-18': {'lunch': ogun}})['2026-11-18']['lunch']
+        self.assertEqual(s['items'], [{'name': 'Antep Lahmacun'}, {'name': 'Mercimek Çorba', 'kcal': 244}])
+        self.assertNotIn('kcal', s)   # tüm kalemlerde kcal kalmadığı için eski toplam geçersiz
+        ogun = {'items': [{'name': 'A', 'kcal': 2}], 'kcal': 2}
+        self.assertNotIn('kcal', menuleri_temizle({'g': {'lunch': ogun}})['g']['lunch'])
+
+    def test_ad_sonu_tek_hane_ve_yuzde(self):
+        self.assertEqual(oge_temizle({'name': 'Tavuksuyuçorba 8'})[0], {'name': 'Tavuksuyuçorba'})
+        self.assertEqual(oge_temizle({'name': 'Zeytinyağlı Türlü %0'})[0], {'name': 'Zeytinyağlı Türlü'})
+        for ad in ('7 Tahıllı Ekmek', 'Ayran 200 ml', 'Kuru Fasulye 2.Kap', 'Pilav 12'):
+            self.assertEqual(oge_temizle({'name': ad})[0]['name'], ad.replace(' 200 ml', '').replace('Pilav 12', 'Pilav 12'))
+
+    def test_ayni_ogunde_tekrar_eden_kalem_atilir(self):
+        ogun = {'items': [{'name': 'Kabak Kalye', 'kcal': 100}, {'name': 'Pilav'}, {'name': 'kabak  kalye', 'kcal': 100}]}
+        s = menuleri_temizle({'2026-11-11': {'vegetarian': ogun}})['2026-11-11']['vegetarian']
+        self.assertEqual([o['name'] for o in s['items']], ['Kabak Kalye', 'Pilav'])
+        # farklı öğünlerde aynı ad kalır
+        g = menuleri_temizle({'g': {'lunch': {'items': [{'name': 'Muz'}]}, 'dinner': {'items': [{'name': 'Muz'}]}}})['g']
+        self.assertEqual(len(g['lunch']['items']) + len(g['dinner']['items']), 2)
+
+    def test_eklentiler_kaynaktaki_yer_tutucu_kaloriyi_almaz(self):
+        m = pamukkale.sayfa_menu(oku('pamukkale_kasim.html').decode())
+        kcalar = [o.get('kcal') for g in m.values() for og in g.values() for o in og['items'] if 'kcal' in o]
+        self.assertTrue(kcalar and min(kcalar) >= 5)
+        from yemekhane.universities import cukurova, inonu
+        html = ('<div id="aylik_yemek_liste"><FONT size="6"><a href="x">18.11.2026<br>Çarşamba</a>'
+                '<li><a href="y">Antep Lahmacun<br>1 Kalori</a></li><li><a href="y">Mercimek Çorba<br>244 Kalori</a></li>').encode('cp1254')
+        o = cukurova.sayfa_menu(html)['2026-11-18']['lunch']['items']
+        self.assertEqual(o, [{'name': 'Antep Lahmacun'}, {'name': 'Mercimek Çorba', 'kcal': 244}])
+        kay = [{'food_name': 'Trabzon Hurması', 'food_desc': '1 Adet: 58 kalori ', 'food_type': 'G'},
+               {'food_name': 'Sebzeli Hamburger Köfte', 'food_desc': '230 Kalori', 'food_type': 'G'}]
+        self.assertEqual(inonu.gun_menu(kay)['items'],
+                         [{'name': 'Trabzon Hurması', 'kcal': 58}, {'name': 'Sebzeli Hamburger Köfte', 'kcal': 230}])
 
 
 if __name__ == '__main__':

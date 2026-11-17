@@ -70,17 +70,24 @@ String? simdiSeridiMetni(String ogun, ServisSaati saat, DateTime simdi) {
   }
 }
 
-/// Tek satır: sığmazsa yazı küçülür ama alt satıra inmez; büyük yazı ölçeğinde şerit dikey alanı yemesin.
+/// Normal yazıda tek satır: sığmazsa yazı küçülür ama alt satıra inmez. Büyük yazı ölçeğinde (> 1,3) küçültme
+/// yok, metin çok satıra iner.
 class _TekSatir extends StatelessWidget {
   final String metin;
   final TextStyle? stil;
   const _TekSatir({required this.metin, this.stil});
 
   @override
-  Widget build(BuildContext context) => FittedBox(
-      fit: BoxFit.scaleDown,
-      alignment: Alignment.centerLeft,
-      child: Text(metin, maxLines: 1, softWrap: false, style: stil));
+  Widget build(BuildContext context) {
+    // büyük yazıda metin küçültülmez: çok satıra iner (şerit yüksekliği yazıyla birlikte büyür)
+    if (MediaQuery.textScalerOf(context).scale(14) > 14 * 1.3) {
+      return Text(metin, style: stil);
+    }
+    return FittedBox(
+        fit: BoxFit.scaleDown,
+        alignment: Alignment.centerLeft,
+        child: Text(metin, maxLines: 1, softWrap: false, style: stil));
+  }
 }
 
 Duration _sure(BuildContext context) => MediaQuery.disableAnimationsOf(context)

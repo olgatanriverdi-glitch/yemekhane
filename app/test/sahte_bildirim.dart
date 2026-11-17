@@ -9,6 +9,12 @@ class SahteBildirimServisi implements BildirimServisi {
   /// [izinIste]nin döndüreceği değer.
   bool izin;
 
+  /// [izinVarMi]nin döndüreceği değer (sistem ayarlarından izin geri alınmış mı).
+  bool izinDurumu = true;
+
+  /// [izinVarMi] kaç kez çağrıldı ('cagrilar' günlüğüne yazılmaz: mevcut sıralama denetimleri bozulmasın).
+  int izinOkumaSayisi = 0;
+
   /// true ise [izinIste] istisna fırlatır.
   bool izinHata = false;
 
@@ -36,6 +42,12 @@ class SahteBildirimServisi implements BildirimServisi {
     cagrilar.add('izin');
     if (izinHata) throw Exception('izin penceresi açılamadı');
     return izin;
+  }
+
+  @override
+  Future<bool> izinVarMi() async {
+    izinOkumaSayisi++;
+    return izinDurumu;
   }
 
   @override
