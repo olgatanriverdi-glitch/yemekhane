@@ -166,6 +166,13 @@ class CalVeNoktaKTemizligi(unittest.TestCase):
 
 
 class DenetimVeriTemizligi(unittest.TestCase):
+    def test_inonu_adet_aciklamasi_kalori_sayilmaz(self):
+        from yemekhane.universities.inonu import gun_menu
+        o = gun_menu([{'food_type': 'G', 'food_name': 'Baklava', 'food_desc': '10 Adet'},
+                      {'food_type': 'G', 'food_name': 'Pilav', 'food_desc': '230'}])
+        self.assertNotIn('kcal', o['items'][0])
+        self.assertEqual(o['items'][1]['kcal'], 230)
+
     def test_1_4_kcal_atilir_5_ve_ustu_kalir(self):
         self.assertEqual(oge_temizle({'name': 'Antep Lahmacun', 'kcal': 1})[0], {'name': 'Antep Lahmacun'})
         self.assertEqual(oge_temizle({'name': 'Yeşil Salata', 'kcal': 4})[0], {'name': 'Yeşil Salata'})

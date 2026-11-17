@@ -25,7 +25,7 @@ def gun_menu(kayitlar: list):
             continue
         oge = {"name": baslik_yap_serbest(kisaltma_ac(ad))}
         # '230 Kalori' ya da '1 Adet: 58 kalori' (baştaki sayı adet; kalori 'kalori' sözcüğünden önceki sayıdır)
-        m = re.search(r"(\d+)\s*kal", str(k.get("food_desc") or ""), re.I) or re.search(r"(\d+)", str(k.get("food_desc") or ""))
+        m = re.search(r"(\d+)\s*kal", str(k.get("food_desc") or ""), re.I) or re.search(r"^\s*(\d+)\s*$", str(k.get("food_desc") or ""))
         if m and int(m.group(1)) >= 5:
             oge["kcal"] = int(m.group(1))
         ogeler.append(oge)

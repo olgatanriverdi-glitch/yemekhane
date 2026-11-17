@@ -55,18 +55,29 @@ class GercekReklamServisi
   @override
   bool get odulluKullanilabilir => kullanilabilir && _odulluBirim != null;
 
+  bool _rizaBilgisiGuncellendi = false;
+
+  // Rıza bilgisini oturumda bir kez günceller (reklam yüklemez). Hata/zaman aşımında son bilinen durumla devam edilir.
+  Future<void> _rizaBilgisiniGuncelle() async {
+    if (_rizaBilgisiGuncellendi) return;
+    final bilgi = Completer<bool>();
+    ConsentInformation.instance
+        .requestConsentInfoUpdate(ConsentRequestParameters(), () {
+      if (!bilgi.isCompleted) bilgi.complete(true);
+    }, (_) {
+      if (!bilgi.isCompleted) bilgi.complete(false);
+    });
+    final basarili = await bilgi.future
+        .timeout(const Duration(seconds: 10), onTimeout: () => false);
+    if (basarili) _rizaBilgisiGuncellendi = true;
+  }
+
   @override
   Future<bool> hazirla() async {
     if (!kullanilabilir) return false;
     try {
       // 1) rıza bilgisini güncelle; gerekliyse (AB / Birleşik Krallık...) Google'ın formu bir kez gösterilir
-      final bilgi = Completer<void>();
-      ConsentInformation.instance.requestConsentInfoUpdate(
-          ConsentRequestParameters(),
-          () => bilgi.complete(),
-          // güncelleme başarısızsa son bilinen rıza durumuyla devam edilir (canRequestAds karar verir)
-          (_) => bilgi.complete());
-      await bilgi.future;
+      await _rizaBilgisiniGuncelle();
       final form = Completer<void>();
       await ConsentForm.loadAndShowConsentFormIfRequired((_) {
         if (!form.isCompleted) form.complete();
@@ -196,6 +207,9 @@ class GercekReklamServisi
   @override
   Future<bool> tercihGerekli() async {
     if (!kullanilabilir) return false;
+    try {
+      await _rizaBilgisiniGuncelle();
+    } catch (_) {}
     try {
       return await ConsentInformation.instance
               .getPrivacyOptionsRequirementStatus() ==
