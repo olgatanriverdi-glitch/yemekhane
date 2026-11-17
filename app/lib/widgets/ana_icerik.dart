@@ -72,6 +72,14 @@ class AnaIcerik extends StatelessWidget {
     final tarihler = gunCubugu(menu, bugun, tarih);
     final gun = menu.gunler[tarih] ?? {};
     final turler = okulOgunleri(uni);
+    if (turler.isEmpty) {
+      // kayıt desteklenen öğün içermiyor (Universite.fromJson normalde eler): çökmek yerine açıklama
+      return const Center(
+          child: Padding(
+              padding: EdgeInsets.all(24),
+              child: Text('Bu okulun menüsü şu an okunamıyor.',
+                  textAlign: TextAlign.center)));
+    }
     final aktif = aktifOgun(uni, ogun);
     final anahtar = '$tarih$aktif';
     final bant = menuBandBilgisi(menu, bugun);

@@ -35,6 +35,7 @@ List<String> okulOgunleri(Universite uni) => [
 /// Ekranda gösterilen öğün: [ogun] okulda yoksa okulun ilk öğünü.
 String aktifOgun(Universite uni, String ogun) {
   final turler = okulOgunleri(uni);
+  if (turler.isEmpty) return ogun;
   return turler.contains(ogun) ? ogun : turler.first;
 }
 
