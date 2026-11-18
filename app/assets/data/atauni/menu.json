@@ -796,8 +796,33 @@
      }
     ]
    }
+  },
+  "2026-11-19": {
+   "lunch": {
+    "items": [
+     {
+      "img": "dishes/bf8474c8b9.jpg",
+      "key": "bf8474c8b9",
+      "name": "Ezogelin Çorba"
+     },
+     {
+      "img": "dishes/8ab26ad603.jpg",
+      "key": "8ab26ad603",
+      "name": "Etli Ev Mantısı"
+     },
+     {
+      "key": "a8da50a9ee",
+      "name": "Mısır Salatası"
+     },
+     {
+      "img": "dishes/92485508df.jpg",
+      "key": "92485508df",
+      "name": "Tatlı"
+     }
+    ]
+   }
   }
  },
  "university": "atauni",
- "updated": "2026-11-17T22:35:49+03:00"
+ "updated": "2026-11-18T14:44:51+03:00"
 }

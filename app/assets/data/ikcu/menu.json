@@ -1600,8 +1600,61 @@
      }
     ]
    }
+  },
+  "2026-11-19": {
+   "lunch": {
+    "items": [
+     {
+      "img": "dishes/7599097195.jpg",
+      "key": "7599097195",
+      "name": "Domates Çorba"
+     },
+     {
+      "key": "8be3cd8c65",
+      "name": "Tavuk Pirzola + Garnitür"
+     },
+     {
+      "img": "dishes/e205e270b9.jpg",
+      "key": "e205e270b9",
+      "name": "Soslu Spagetti"
+     },
+     {
+      "img": "dishes/16b5c22561.jpg",
+      "key": "16b5c22561",
+      "name": "Ayran"
+     }
+    ]
+   },
+   "vegetarian": {
+    "items": [
+     {
+      "img": "dishes/7599097195.jpg",
+      "key": "7599097195",
+      "name": "Domates Çorba"
+     },
+     {
+      "key": "339b4cbb88",
+      "name": "Z.Y Barbunya Yemeği"
+     },
+     {
+      "img": "dishes/943fe1113c.jpg",
+      "key": "943fe1113c",
+      "name": "Erişte"
+     },
+     {
+      "img": "dishes/afebc72602.jpg",
+      "key": "afebc72602",
+      "name": "Çiğ Köfte"
+     },
+     {
+      "img": "dishes/ed17271d58.jpg",
+      "key": "ed17271d58",
+      "name": "Meyve"
+     }
+    ]
+   }
   }
  },
  "university": "ikcu",
- "updated": "2026-11-17T22:35:49+03:00"
+ "updated": "2026-11-18T14:44:51+03:00"
 }

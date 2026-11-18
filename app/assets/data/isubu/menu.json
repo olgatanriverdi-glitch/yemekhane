@@ -137,8 +137,9 @@
       "name": "Tarhana Çorbası"
      },
      {
-      "key": "4f97f0b9c6",
-      "name": "Rosto Köfte-Patates Püresi"
+      "img": "dishes/694df91308.jpg",
+      "key": "694df91308",
+      "name": "İzmir Köfte"
      },
      {
       "img": "dishes/18ccb4d264.jpg",
@@ -256,5 +257,5 @@
   }
  },
  "university": "isubu",
- "updated": "2026-11-17T22:35:49+03:00"
+ "updated": "2026-11-18T14:44:51+03:00"
 }

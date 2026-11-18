@@ -487,9 +487,10 @@
       "name": "Meyhane Pilavı"
      },
      {
-      "kcal": 120,
-      "key": "00b727115e",
-      "name": "Triliçe"
+      "img": "dishes/2f58be7b7a.jpg",
+      "kcal": 62,
+      "key": "2f58be7b7a",
+      "name": "Cacık"
      },
      {
       "kcal": 128,
@@ -497,7 +498,7 @@
       "name": "Roll Ekmek"
      }
     ],
-    "kcal": 836
+    "kcal": 778
    }
   },
   "2026-11-20": {
@@ -751,5 +752,5 @@
   }
  },
  "university": "sbtu",
- "updated": "2026-11-17T22:35:49+03:00"
+ "updated": "2026-11-18T14:44:51+03:00"
 }

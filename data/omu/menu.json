@@ -620,8 +620,32 @@
      }
     ]
    }
+  },
+  "2026-11-18": {
+   "lunch": {
+    "items": [
+     {
+      "key": "7480a44193",
+      "name": "Çeşminigar Çorba"
+     },
+     {
+      "img": "dishes/7e2a438be8.jpg",
+      "key": "7e2a438be8",
+      "name": "Tavuk Haşlama"
+     },
+     {
+      "key": "fef6adada3",
+      "name": "Nohutlu Pirinç Pilavı"
+     },
+     {
+      "img": "dishes/9814c6dc58.jpg",
+      "key": "9814c6dc58",
+      "name": "Mandalina"
+     }
+    ]
+   }
   }
  },
  "university": "omu",
- "updated": "2026-11-17T22:35:49+03:00"
+ "updated": "2026-11-18T14:44:51+03:00"
 }

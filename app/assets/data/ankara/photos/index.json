@@ -28,7 +28,8 @@
   "2026-11-12": "05a967c1c011",
   "2026-11-13": "8a9afd398373",
   "2026-11-16": "c1397cac871e",
-  "2026-11-17": "60eab455cb15"
+  "2026-11-17": "60eab455cb15",
+  "2026-11-18": "6c2b5a59d5a6"
  },
  "main": {
   "025eacfe0c": "8f579a24b2f7",
@@ -40,7 +41,7 @@
   "40082e8861": "cf00a176342e",
   "495c83bde2": "60eab455cb15",
   "4b76564c9a": "001da2fb49d8",
-  "5acb48cd86": "776246ad8f8e",
+  "5acb48cd86": "6c2b5a59d5a6",
   "5de18824bc": "a746873f05e3",
   "613616e611": "cb1148062900",
   "7bae814a67": "54ed738c6836",
@@ -195,6 +196,16 @@
     "İskender Kebap",
     "Sebze Buketi",
     "Meyve"
+   ]
+  },
+  "6c2b5a59d5a6": {
+   "added": "2026-11-18",
+   "hash": "ecc85ab3d164db1684342f41ebc6fbd902327c03",
+   "items": [
+    "Fesleğenli Domates Çorba",
+    "Tavuklu Çökertme",
+    "Cevizli Erişte",
+    "Pancar Salata"
    ]
   },
   "776246ad8f8e": {

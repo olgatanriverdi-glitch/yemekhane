@@ -330,18 +330,49 @@
     "kcal": 755
    }
   },
-  "2026-11-18": {
+  "2026-11-17": {
    "lunch": {
     "items": [
      {
-      "kcal": 150,
-      "key": "a19d6c591e",
-      "name": "Minestore Çorba"
+      "kcal": 188,
+      "key": "7e85f5098f",
+      "name": "Köylü Çorba"
      },
      {
-      "kcal": 390,
-      "key": "8f58a53982",
-      "name": "Sebze Graten"
+      "kcal": 380,
+      "key": "1e3a81be4a",
+      "name": "Mantarlı Tavuk Sote"
+     },
+     {
+      "img": "dishes/bac7d91091.jpg",
+      "kcal": 232,
+      "key": "bac7d91091",
+      "name": "Makarna"
+     },
+     {
+      "img": "dishes/130325aac9.jpg",
+      "kcal": 90,
+      "key": "130325aac9",
+      "name": "Ezme"
+     }
+    ],
+    "kcal": 890
+   }
+  },
+  "2026-11-19": {
+   "lunch": {
+    "items": [
+     {
+      "img": "dishes/e73b79f7e6.jpg",
+      "kcal": 175,
+      "key": "e73b79f7e6",
+      "name": "Tutmaç Çorbası"
+     },
+     {
+      "img": "dishes/88b535bf45.jpg",
+      "kcal": 370,
+      "key": "88b535bf45",
+      "name": "Patatesli Çoban Kavurma"
      },
      {
       "img": "dishes/25b07cf14e.jpg",
@@ -350,16 +381,16 @@
       "name": "Bulgur Pilavı"
      },
      {
-      "img": "dishes/1f6a358896.jpg",
-      "kcal": 260,
-      "key": "1f6a358896",
-      "name": "Kadayıf"
+      "img": "dishes/ed17271d58.jpg",
+      "kcal": 59,
+      "key": "ed17271d58",
+      "name": "Meyve"
      }
     ],
-    "kcal": 1051
+    "kcal": 855
    }
   },
-  "2026-11-19": {
+  "2026-11-20": {
    "lunch": {
     "items": [
      {
@@ -385,37 +416,6 @@
      }
     ],
     "kcal": 811
-   }
-  },
-  "2026-11-20": {
-   "lunch": {
-    "items": [
-     {
-      "img": "dishes/cf51175f35.jpg",
-      "kcal": 175,
-      "key": "cf51175f35",
-      "name": "Tutmaç Çorba"
-     },
-     {
-      "img": "dishes/88b535bf45.jpg",
-      "kcal": 370,
-      "key": "88b535bf45",
-      "name": "Patatesli Çoban Kavurma"
-     },
-     {
-      "img": "dishes/25b07cf14e.jpg",
-      "kcal": 251,
-      "key": "25b07cf14e",
-      "name": "Bulgur Pilavı"
-     },
-     {
-      "img": "dishes/ed17271d58.jpg",
-      "kcal": 80,
-      "key": "ed17271d58",
-      "name": "Meyve"
-     }
-    ],
-    "kcal": 876
    }
   },
   "2026-11-23": {
@@ -601,5 +601,5 @@
   }
  },
  "university": "karatekin",
- "updated": "2026-11-17T22:35:49+03:00"
+ "updated": "2026-11-18T14:44:51+03:00"
 }

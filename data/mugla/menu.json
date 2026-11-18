@@ -1,29 +1,5 @@
 {
  "days": {
-  "2026-11-17": {
-   "lunch": {
-    "items": [
-     {
-      "img": "dishes/fd6f1df9c8.jpg",
-      "key": "fd6f1df9c8",
-      "name": "Toyga Çorbası"
-     },
-     {
-      "key": "aa7693cadb",
-      "name": "Püreli Köfte"
-     },
-     {
-      "img": "dishes/2356abfde0.jpg",
-      "key": "2356abfde0",
-      "name": "Sebzeli Bulgur Pilavı"
-     },
-     {
-      "key": "d82c70d02e",
-      "name": "Krem Şokala"
-     }
-    ]
-   }
-  },
   "2026-11-18": {
    "lunch": {
     "items": [
@@ -245,5 +221,5 @@
   }
  },
  "university": "mugla",
- "updated": "2026-11-17T22:35:49+03:00"
+ "updated": "2026-11-18T14:44:51+03:00"
 }

@@ -372,9 +372,8 @@
       "name": "Zeytinyağlı Brokoli"
      },
      {
-      "img": "dishes/174840f01c.jpg",
-      "key": "174840f01c",
-      "name": "Ispanaklı Tepsi Böreği"
+      "key": "078413df16",
+      "name": "Ispanaklı Börek"
      },
      {
       "img": "dishes/5b7bbc3ecc.jpg",
@@ -424,24 +423,22 @@
       "name": "Düğün Çorba"
      },
      {
-      "img": "dishes/9ecf093c57.jpg",
-      "key": "9ecf093c57",
-      "name": "Karışık Biber Dolma"
+      "img": "dishes/5dfc480937.jpg",
+      "key": "5dfc480937",
+      "name": "Patlıcan Musakka"
      },
      {
-      "img": "dishes/cb145cb954.jpg",
-      "key": "cb145cb954",
-      "name": "Zeytinyağlı Yaprak Sarma"
+      "key": "7859cc421c",
+      "name": "Zeytinyağlı Börülce"
      },
      {
-      "img": "dishes/255dbf418d.jpg",
-      "key": "255dbf418d",
-      "name": "Kıymalı Tepsi Böreği"
+      "key": "b6a8224fc4",
+      "name": "Sade Pirinç Pilavı"
      },
      {
-      "img": "dishes/1087b76fa2.jpg",
-      "key": "1087b76fa2",
-      "name": "Revani"
+      "img": "dishes/91cfb0a127.jpg",
+      "key": "91cfb0a127",
+      "name": "Çoban Salata"
      }
     ]
    }
@@ -465,9 +462,9 @@
       "name": "Zeytinyağlı Biber Dolma"
      },
      {
-      "img": "dishes/255dbf418d.jpg",
-      "key": "255dbf418d",
-      "name": "Kıymalı Tepsi Böreği"
+      "img": "dishes/7e50408774.jpg",
+      "key": "7e50408774",
+      "name": "Kıymalı Makarna"
      },
      {
       "img": "dishes/c47036e360.jpg",
@@ -511,26 +508,27 @@
    "lunch": {
     "items": [
      {
-      "key": "9211a780fd",
-      "name": "Lebeniye Çorba"
+      "img": "dishes/154f53ef81.jpg",
+      "key": "154f53ef81",
+      "name": "Düğün Çorba"
      },
      {
-      "img": "dishes/5dfc480937.jpg",
-      "key": "5dfc480937",
-      "name": "Patlıcan Musakka"
+      "key": "0875633a9d",
+      "name": "Kıymalı Patates"
      },
      {
-      "key": "022c30d154",
-      "name": "Zeytinyağlı Kuru Börülce"
+      "key": "8ac31fd6b6",
+      "name": "Zeytinyağlı Türlü"
      },
      {
-      "key": "b6a8224fc4",
-      "name": "Sade Pirinç Pilavı"
+      "img": "dishes/45c9e633d9.jpg",
+      "key": "45c9e633d9",
+      "name": "Arabiata Soslu Makarna"
      },
      {
-      "img": "dishes/91cfb0a127.jpg",
-      "key": "91cfb0a127",
-      "name": "Çoban Salata"
+      "img": "dishes/904e9c87e9.jpg",
+      "key": "904e9c87e9",
+      "name": "Şekerpare"
      }
     ]
    }
@@ -583,9 +581,8 @@
       "name": "Zeytinyağlı İmam Bayıldı"
      },
      {
-      "img": "dishes/3375659158.jpg",
-      "key": "3375659158",
-      "name": "Patatesli Tepsi Böreği"
+      "key": "b6a8224fc4",
+      "name": "Sade Pirinç Pilavı"
      },
      {
       "img": "dishes/647ce15e33.jpg",
@@ -626,5 +623,5 @@
   }
  },
  "university": "duzce",
- "updated": "2026-11-17T22:35:49+03:00"
+ "updated": "2026-11-18T14:44:51+03:00"
 }

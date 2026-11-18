@@ -209,39 +209,6 @@
     "kcal": 951
    }
   },
-  "2026-11-17": {
-   "lunch": {
-    "items": [
-     {
-      "kcal": 350,
-      "key": "024626c46d",
-      "name": "Izgara Fırın Baget"
-     },
-     {
-      "kcal": 100,
-      "key": "b79321e9e3",
-      "name": "Mantar Kavurma"
-     },
-     {
-      "kcal": 380,
-      "key": "7428924476",
-      "name": "Nohutlu Döğme Pilavı"
-     },
-     {
-      "kcal": 7,
-      "key": "d7528dbe47",
-      "name": "Salatalık Turşusu"
-     },
-     {
-      "img": "dishes/3a38c0aebb.jpg",
-      "kcal": 309,
-      "key": "3a38c0aebb",
-      "name": "Sütlaç"
-     }
-    ],
-    "kcal": 1146
-   }
-  },
   "2026-11-18": {
    "lunch": {
     "items": [
@@ -249,6 +216,12 @@
       "img": "dishes/81f70fdb90.jpg",
       "key": "81f70fdb90",
       "name": "Antep Lahmacun"
+     },
+     {
+      "img": "dishes/bcafe51e20.jpg",
+      "kcal": 362,
+      "key": "bcafe51e20",
+      "name": "Peynirli Börek"
      },
      {
       "img": "dishes/22dd093862.jpg",
@@ -503,5 +476,5 @@
   }
  },
  "university": "cukurova",
- "updated": "2026-11-17T22:35:49+03:00"
+ "updated": "2026-11-18T14:44:51+03:00"
 }

@@ -307,8 +307,30 @@
      }
     ]
    }
+  },
+  "2026-11-20": {
+   "lunch": {
+    "items": [
+     {
+      "key": "4b1e91a517",
+      "name": "Sarı Mercimek Çorba"
+     },
+     {
+      "key": "f25ddaee61",
+      "name": "Köri Soslutavuk"
+     },
+     {
+      "key": "fc234c58bc",
+      "name": "Tel Şehriyeli Pirinç Pilavı"
+     },
+     {
+      "key": "1f158694c1",
+      "name": "Saray Burma"
+     }
+    ]
+   }
   }
  },
  "university": "agri",
- "updated": "2026-11-17T22:35:49+03:00"
+ "updated": "2026-11-18T14:44:51+03:00"
 }

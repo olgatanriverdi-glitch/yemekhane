@@ -1,63 +1,5 @@
 {
  "days": {
-  "2026-11-16": {
-   "dinner": {
-    "items": [
-     {
-      "img": "dishes/c79dd3c35d.jpg",
-      "key": "c79dd3c35d",
-      "name": "Kremalı Brokoli Çorbası"
-     },
-     {
-      "img": "dishes/078c778ebe.jpg",
-      "key": "078c778ebe",
-      "name": "Et Döner"
-     },
-     {
-      "key": "8636bfbc0a",
-      "name": "Pirinç Pilavı"
-     },
-     {
-      "img": "dishes/321b4fe3c9.jpg",
-      "key": "321b4fe3c9",
-      "name": "Mevsim Salatası"
-     },
-     {
-      "img": "dishes/16b5c22561.jpg",
-      "key": "16b5c22561",
-      "name": "Ayran"
-     },
-     {
-      "key": "124297d670",
-      "name": "Garnitür Patates Kızartması"
-     }
-    ]
-   },
-   "lunch": {
-    "items": [
-     {
-      "key": "fce91b9059",
-      "name": "Alaca Çorbası"
-     },
-     {
-      "key": "52a050b2a9",
-      "name": "Yoğurtlu Etli Mantı"
-     },
-     {
-      "key": "543929f646",
-      "name": "Zeytinyağlı Ispanak"
-     },
-     {
-      "key": "f3474ec030",
-      "name": "Fındıklı Krem Şokola"
-     },
-     {
-      "key": "74b8be1351",
-      "name": "Yeşil Mercimek Salatası"
-     }
-    ]
-   }
-  },
   "2026-11-17": {
    "dinner": {
     "items": [
@@ -837,5 +779,5 @@
   }
  },
  "university": "itu",
- "updated": "2026-11-17T22:35:49+03:00"
+ "updated": "2026-11-18T14:44:51+03:00"
 }

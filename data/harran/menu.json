@@ -1,107 +1,5 @@
 {
  "days": {
-  "2026-11-13": {
-   "lunch": {
-    "items": [
-     {
-      "kcal": 320,
-      "key": "f26620acd5",
-      "name": "Sebzeli Et Sote"
-     },
-     {
-      "kcal": 280,
-      "key": "34afbbeab3",
-      "name": "Tavuk Rosto - Püre"
-     },
-     {
-      "img": "dishes/25b07cf14e.jpg",
-      "kcal": 290,
-      "key": "25b07cf14e",
-      "name": "Bulgur Pilavı"
-     },
-     {
-      "img": "dishes/22dd093862.jpg",
-      "kcal": 200,
-      "key": "22dd093862",
-      "name": "Mercimek Çorba"
-     },
-     {
-      "img": "dishes/3a38c0aebb.jpg",
-      "kcal": 300,
-      "key": "3a38c0aebb",
-      "name": "Sütlaç"
-     }
-    ]
-   }
-  },
-  "2026-11-16": {
-   "lunch": {
-    "items": [
-     {
-      "kcal": 320,
-      "key": "8ceb59372b",
-      "name": "Misket Köfte"
-     },
-     {
-      "kcal": 300,
-      "key": "1a26fcb943",
-      "name": "Kasap Köfte - Cips"
-     },
-     {
-      "img": "dishes/25b07cf14e.jpg",
-      "kcal": 290,
-      "key": "25b07cf14e",
-      "name": "Bulgur Pilavı"
-     },
-     {
-      "img": "dishes/22dd093862.jpg",
-      "kcal": 200,
-      "key": "22dd093862",
-      "name": "Mercimek Çorba"
-     },
-     {
-      "img": "dishes/ed17271d58.jpg",
-      "kcal": 100,
-      "key": "ed17271d58",
-      "name": "Meyve"
-     }
-    ]
-   }
-  },
-  "2026-11-17": {
-   "lunch": {
-    "items": [
-     {
-      "img": "dishes/fbb76e65c4.jpg",
-      "kcal": 320,
-      "key": "fbb76e65c4",
-      "name": "Etli Kuru Fasulye"
-     },
-     {
-      "kcal": 320,
-      "key": "0b81bad7ae",
-      "name": "Maraş Tava"
-     },
-     {
-      "kcal": 290,
-      "key": "8636bfbc0a",
-      "name": "Pirinç Pilavı"
-     },
-     {
-      "img": "dishes/bf8474c8b9.jpg",
-      "kcal": 200,
-      "key": "bf8474c8b9",
-      "name": "Ezogelin Çorba"
-     },
-     {
-      "img": "dishes/9c8d655ef5.jpg",
-      "kcal": 150,
-      "key": "9c8d655ef5",
-      "name": "Yoğurt"
-     }
-    ]
-   }
-  },
   "2026-11-18": {
    "lunch": {
     "items": [
@@ -408,5 +306,5 @@
   }
  },
  "university": "harran",
- "updated": "2026-11-17T22:35:49+03:00"
+ "updated": "2026-11-18T14:44:51+03:00"
 }

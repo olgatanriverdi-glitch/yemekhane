@@ -240,8 +240,38 @@
     ],
     "kcal": 882
    }
+  },
+  "2026-11-18": {
+   "lunch": {
+    "items": [
+     {
+      "img": "dishes/22dd093862.jpg",
+      "kcal": 180,
+      "key": "22dd093862",
+      "name": "Mercimek Çorba"
+     },
+     {
+      "img": "dishes/05403cc507.jpg",
+      "kcal": 380,
+      "key": "05403cc507",
+      "name": "Etli Güveç"
+     },
+     {
+      "kcal": 336,
+      "key": "fa4decda6a",
+      "name": "Şehriyeli Pirinç Pilavı"
+     },
+     {
+      "img": "dishes/2e9a9837b2.jpg",
+      "kcal": 342,
+      "key": "2e9a9837b2",
+      "name": "Cevizli Baklava"
+     }
+    ],
+    "kcal": 1238
+   }
   }
  },
  "university": "rte",
- "updated": "2026-11-17T22:35:49+03:00"
+ "updated": "2026-11-18T14:44:51+03:00"
 }

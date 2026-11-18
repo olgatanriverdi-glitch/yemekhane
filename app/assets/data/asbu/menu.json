@@ -2057,10 +2057,10 @@
       "name": "Kırmızı Mercimek Çorba"
      },
      {
-      "img": "dishes/c533e7b147.jpg",
+      "img": "dishes/4ee2a08ccf.jpg",
       "kcal": 220,
-      "key": "c533e7b147",
-      "name": "Adana Kebab"
+      "key": "4ee2a08ccf",
+      "name": "Adana"
      },
      {
       "img": "dishes/b81f8dd2b7.jpg",
@@ -2075,10 +2075,10 @@
       "name": "Mevsim Salata"
      },
      {
-      "img": "dishes/c7a7221cac.jpg",
+      "img": "dishes/bf4d624964.jpg",
       "kcal": 95,
-      "key": "c7a7221cac",
-      "name": "Niğde Gazozu"
+      "key": "bf4d624964",
+      "name": "Niğde Gazoz"
      }
     ],
     "kcal": 797
@@ -2110,10 +2110,10 @@
       "name": "Mevsim Salata"
      },
      {
-      "img": "dishes/c7a7221cac.jpg",
+      "img": "dishes/bf4d624964.jpg",
       "kcal": 95,
-      "key": "c7a7221cac",
-      "name": "Niğde Gazozu"
+      "key": "bf4d624964",
+      "name": "Niğde Gazoz"
      }
     ],
     "kcal": 685
@@ -2124,7 +2124,7 @@
     "items": [
      {
       "img": "dishes/2c0e163a7d.jpg",
-      "kcal": 184,
+      "kcal": 195,
       "key": "2c0e163a7d",
       "name": "Tarhana Çorba"
      },
@@ -2141,10 +2141,9 @@
       "name": "Tavuklu Pilav"
      },
      {
-      "img": "dishes/99a67d4042.jpg",
       "kcal": 55,
-      "key": "99a67d4042",
-      "name": "Mevsim Salata"
+      "key": "6763f8c230",
+      "name": "Mevsim Slata"
      },
      {
       "img": "dishes/16b5c22561.jpg",
@@ -2153,13 +2152,13 @@
       "name": "Ayran"
      }
     ],
-    "kcal": 1071
+    "kcal": 1082
    },
    "vegetarian": {
     "items": [
      {
       "img": "dishes/2c0e163a7d.jpg",
-      "kcal": 184,
+      "kcal": 195,
       "key": "2c0e163a7d",
       "name": "Tarhana Çorba"
      },
@@ -2170,10 +2169,15 @@
       "name": "Nohut Yemeği"
      },
      {
-      "img": "dishes/99a67d4042.jpg",
+      "img": "dishes/2642b5b84c.jpg",
+      "kcal": 320,
+      "key": "2642b5b84c",
+      "name": "Tavuklu Pilav"
+     },
+     {
       "kcal": 55,
-      "key": "99a67d4042",
-      "name": "Mevsim Salata"
+      "key": "6763f8c230",
+      "name": "Mevsim Slata"
      },
      {
       "img": "dishes/16b5c22561.jpg",
@@ -2182,7 +2186,7 @@
       "name": "Ayran"
      }
     ],
-    "kcal": 591
+    "kcal": 922
    }
   },
   "2026-11-19": {
@@ -2742,5 +2746,5 @@
   }
  },
  "university": "asbu",
- "updated": "2026-11-17T22:35:49+03:00"
+ "updated": "2026-11-18T14:44:51+03:00"
 }

@@ -1,65 +1,5 @@
 {
  "days": {
-  "2026-10-03": {
-   "dinner": {
-    "items": [
-     {
-      "img": "dishes/f98b465287.jpg",
-      "kcal": 141,
-      "key": "f98b465287",
-      "name": "Yayla Çorba"
-     },
-     {
-      "img": "dishes/08c9017686.jpg",
-      "kcal": 385,
-      "key": "08c9017686",
-      "name": "Adana Köfte"
-     },
-     {
-      "img": "dishes/246525a1c0.jpg",
-      "kcal": 367,
-      "key": "246525a1c0",
-      "name": "Şehriyeli Bulgur Pilavı"
-     },
-     {
-      "img": "dishes/ed17271d58.jpg",
-      "kcal": 116,
-      "key": "ed17271d58",
-      "name": "Meyve"
-     }
-    ],
-    "kcal": 1009
-   },
-   "lunch": {
-    "items": [
-     {
-      "img": "dishes/f98b465287.jpg",
-      "kcal": 141,
-      "key": "f98b465287",
-      "name": "Yayla Çorba"
-     },
-     {
-      "img": "dishes/08c9017686.jpg",
-      "kcal": 385,
-      "key": "08c9017686",
-      "name": "Adana Köfte"
-     },
-     {
-      "img": "dishes/246525a1c0.jpg",
-      "kcal": 367,
-      "key": "246525a1c0",
-      "name": "Şehriyeli Bulgur Pilavı"
-     },
-     {
-      "img": "dishes/ed17271d58.jpg",
-      "kcal": 116,
-      "key": "ed17271d58",
-      "name": "Meyve"
-     }
-    ],
-    "kcal": 1009
-   }
-  },
   "2026-10-04": {
    "dinner": {
     "items": [
@@ -3340,5 +3280,5 @@
   }
  },
  "university": "odtu",
- "updated": "2026-11-17T22:35:49+03:00"
+ "updated": "2026-11-18T14:44:51+03:00"
 }

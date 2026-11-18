@@ -1,34 +1,5 @@
 {
  "days": {
-  "2026-11-17": {
-   "lunch": {
-    "items": [
-     {
-      "img": "dishes/154f53ef81.jpg",
-      "kcal": 117,
-      "key": "154f53ef81",
-      "name": "Düğün Çorba"
-     },
-     {
-      "kcal": 276,
-      "key": "2eb969fa8d",
-      "name": "Etli Kurufasulye"
-     },
-     {
-      "kcal": 263,
-      "key": "f8f083a95b",
-      "name": "Şehriyeli Pirinç P"
-     },
-     {
-      "img": "dishes/2f58be7b7a.jpg",
-      "kcal": 91,
-      "key": "2f58be7b7a",
-      "name": "Cacık"
-     }
-    ],
-    "kcal": 747
-   }
-  },
   "2026-11-18": {
    "lunch": {
     "items": [
@@ -293,5 +264,5 @@
   }
  },
  "university": "kastamonu",
- "updated": "2026-11-17T22:35:49+03:00"
+ "updated": "2026-11-18T14:44:51+03:00"
 }
