@@ -359,20 +359,18 @@
     "kcal": 890
    }
   },
-  "2026-11-19": {
+  "2026-11-18": {
    "lunch": {
     "items": [
      {
-      "img": "dishes/e73b79f7e6.jpg",
-      "kcal": 175,
-      "key": "e73b79f7e6",
-      "name": "Tutmaç Çorbası"
+      "kcal": 150,
+      "key": "a19d6c591e",
+      "name": "Minestore Çorba"
      },
      {
-      "img": "dishes/88b535bf45.jpg",
-      "kcal": 370,
-      "key": "88b535bf45",
-      "name": "Patatesli Çoban Kavurma"
+      "kcal": 390,
+      "key": "8f58a53982",
+      "name": "Sebze Graten"
      },
      {
       "img": "dishes/25b07cf14e.jpg",
@@ -381,13 +379,13 @@
       "name": "Bulgur Pilavı"
      },
      {
-      "img": "dishes/ed17271d58.jpg",
-      "kcal": 59,
-      "key": "ed17271d58",
-      "name": "Meyve"
+      "img": "dishes/1f6a358896.jpg",
+      "kcal": 260,
+      "key": "1f6a358896",
+      "name": "Kadayıf"
      }
     ],
-    "kcal": 855
+    "kcal": 1051
    }
   },
   "2026-11-20": {
@@ -601,5 +599,5 @@
   }
  },
  "university": "karatekin",
- "updated": "2026-11-18T14:44:51+03:00"
+ "updated": "2026-11-19T01:37:54+03:00"
 }

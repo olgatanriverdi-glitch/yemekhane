@@ -209,45 +209,18 @@
     "kcal": 951
    }
   },
-  "2026-11-18": {
-   "lunch": {
-    "items": [
-     {
-      "img": "dishes/81f70fdb90.jpg",
-      "key": "81f70fdb90",
-      "name": "Antep Lahmacun"
-     },
-     {
-      "img": "dishes/bcafe51e20.jpg",
-      "kcal": 362,
-      "key": "bcafe51e20",
-      "name": "Peynirli Börek"
-     },
-     {
-      "img": "dishes/22dd093862.jpg",
-      "kcal": 244,
-      "key": "22dd093862",
-      "name": "Mercimek Çorba"
-     },
-     {
-      "img": "dishes/16b5c22561.jpg",
-      "kcal": 60,
-      "key": "16b5c22561",
-      "name": "Ayran"
-     },
-     {
-      "key": "b947faf326",
-      "name": "Yeşil Salata"
-     }
-    ]
-   }
-  },
   "2026-11-19": {
    "lunch": {
     "items": [
      {
       "key": "71127d15c0",
       "name": "Sebzeli Misket Köfte"
+     },
+     {
+      "img": "dishes/ee8e1db5de.jpg",
+      "kcal": 114,
+      "key": "ee8e1db5de",
+      "name": "Zeytinyağlı Pırasa"
      },
      {
       "img": "dishes/af6741872c.jpg",
@@ -476,5 +449,5 @@
   }
  },
  "university": "cukurova",
- "updated": "2026-11-18T14:44:51+03:00"
+ "updated": "2026-11-19T01:37:54+03:00"
 }

@@ -1,28 +1,5 @@
 {
  "days": {
-  "2026-11-18": {
-   "lunch": {
-    "items": [
-     {
-      "key": "45483a17b3",
-      "name": "Tavuk Çorbası"
-     },
-     {
-      "key": "1f272385d6",
-      "name": "Şehriye Güveci"
-     },
-     {
-      "key": "7e342f900f",
-      "name": "Ispanak Borani"
-     },
-     {
-      "img": "dishes/9814c6dc58.jpg",
-      "key": "9814c6dc58",
-      "name": "Mandalina"
-     }
-    ]
-   }
-  },
   "2026-11-19": {
    "lunch": {
     "items": [
@@ -221,5 +198,5 @@
   }
  },
  "university": "mugla",
- "updated": "2026-11-18T14:44:51+03:00"
+ "updated": "2026-11-19T01:37:54+03:00"
 }

@@ -2124,7 +2124,7 @@
     "items": [
      {
       "img": "dishes/2c0e163a7d.jpg",
-      "kcal": 195,
+      "kcal": 184,
       "key": "2c0e163a7d",
       "name": "Tarhana Çorba"
      },
@@ -2141,9 +2141,10 @@
       "name": "Tavuklu Pilav"
      },
      {
+      "img": "dishes/99a67d4042.jpg",
       "kcal": 55,
-      "key": "6763f8c230",
-      "name": "Mevsim Slata"
+      "key": "99a67d4042",
+      "name": "Mevsim Salata"
      },
      {
       "img": "dishes/16b5c22561.jpg",
@@ -2152,13 +2153,13 @@
       "name": "Ayran"
      }
     ],
-    "kcal": 1082
+    "kcal": 1071
    },
    "vegetarian": {
     "items": [
      {
       "img": "dishes/2c0e163a7d.jpg",
-      "kcal": 195,
+      "kcal": 184,
       "key": "2c0e163a7d",
       "name": "Tarhana Çorba"
      },
@@ -2169,15 +2170,10 @@
       "name": "Nohut Yemeği"
      },
      {
-      "img": "dishes/2642b5b84c.jpg",
-      "kcal": 320,
-      "key": "2642b5b84c",
-      "name": "Tavuklu Pilav"
-     },
-     {
+      "img": "dishes/99a67d4042.jpg",
       "kcal": 55,
-      "key": "6763f8c230",
-      "name": "Mevsim Slata"
+      "key": "99a67d4042",
+      "name": "Mevsim Salata"
      },
      {
       "img": "dishes/16b5c22561.jpg",
@@ -2186,7 +2182,7 @@
       "name": "Ayran"
      }
     ],
-    "kcal": 922
+    "kcal": 591
    }
   },
   "2026-11-19": {
@@ -2746,5 +2742,5 @@
   }
  },
  "university": "asbu",
- "updated": "2026-11-18T14:44:51+03:00"
+ "updated": "2026-11-19T01:37:54+03:00"
 }

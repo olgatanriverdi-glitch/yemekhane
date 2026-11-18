@@ -821,8 +821,32 @@
      }
     ]
    }
+  },
+  "2026-11-20": {
+   "lunch": {
+    "items": [
+     {
+      "key": "cb86e49aef",
+      "name": "Etli Düğün Çorba"
+     },
+     {
+      "key": "a72a7569c9",
+      "name": "Püreli Dövme Kebap"
+     },
+     {
+      "img": "dishes/221278edb6.jpg",
+      "key": "221278edb6",
+      "name": "Spagetti Napoliten"
+     },
+     {
+      "img": "dishes/ed17271d58.jpg",
+      "key": "ed17271d58",
+      "name": "Meyve"
+     }
+    ]
+   }
   }
  },
  "university": "atauni",
- "updated": "2026-11-18T14:44:51+03:00"
+ "updated": "2026-11-19T01:37:54+03:00"
 }

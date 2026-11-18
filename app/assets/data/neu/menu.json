@@ -76,9 +76,15 @@
       "kcal": 76,
       "key": "156094a7eb",
       "name": "Kış Salata"
+     },
+     {
+      "img": "dishes/16b5c22561.jpg",
+      "kcal": 58,
+      "key": "16b5c22561",
+      "name": "Ayran"
      }
     ],
-    "kcal": 707
+    "kcal": 765
    }
   },
   "2026-11-05": {
@@ -130,6 +136,11 @@
       "kcal": 177,
       "key": "cc9b620496",
       "name": "Ekmek Kadayıfı"
+     },
+     {
+      "kcal": 40,
+      "key": "3fce1a6432",
+      "name": "Roka Marul Salata"
      }
     ]
    }
@@ -615,8 +626,9 @@
       "name": "Mercimek Çorbası"
      },
      {
-      "key": "022d458336",
-      "name": "Mevsim Türlü"
+      "kcal": 558,
+      "key": "27417caf98",
+      "name": "Mevsim Türlü Etli"
      },
      {
       "img": "dishes/dc4e6bc8cd.jpg",
@@ -906,9 +918,10 @@
       "name": "Arap Kebabı"
      },
      {
-      "kcal": 317,
-      "key": "fa4decda6a",
-      "name": "Şehriyeli Pirinç Pilavı"
+      "img": "dishes/2356abfde0.jpg",
+      "kcal": 241,
+      "key": "2356abfde0",
+      "name": "Sebzeli Bulgur Pilavı"
      },
      {
       "img": "dishes/16b5c22561.jpg",
@@ -935,10 +948,9 @@
       "name": "Patlıcan Kebabı"
      },
      {
-      "img": "dishes/2356abfde0.jpg",
-      "kcal": 241,
-      "key": "2356abfde0",
-      "name": "Sebzeli Bulgur Pilavı"
+      "kcal": 317,
+      "key": "fa4decda6a",
+      "name": "Şehriyeli Pirinç Pilavı"
      },
      {
       "img": "dishes/61403ce24f.jpg",
@@ -1023,12 +1035,13 @@
       "name": "Sebzeli Bulgur Pilavı"
      },
      {
-      "kcal": 76,
-      "key": "156094a7eb",
-      "name": "Kış Salata"
+      "img": "dishes/16b5c22561.jpg",
+      "kcal": 58,
+      "key": "16b5c22561",
+      "name": "Ayran"
      }
     ],
-    "kcal": 760
+    "kcal": 742
    }
   },
   "2026-12-23": {
@@ -1207,5 +1220,5 @@
   }
  },
  "university": "neu",
- "updated": "2026-11-18T14:44:51+03:00"
+ "updated": "2026-11-19T01:37:54+03:00"
 }

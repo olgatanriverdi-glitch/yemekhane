@@ -1,63 +1,5 @@
 {
  "days": {
-  "2026-10-04": {
-   "dinner": {
-    "items": [
-     {
-      "img": "dishes/03b9040496.jpg",
-      "kcal": 155,
-      "key": "03b9040496",
-      "name": "Mantar Çorba"
-     },
-     {
-      "img": "dishes/f81a728d3a.jpg",
-      "kcal": 329,
-      "key": "f81a728d3a",
-      "name": "Kuru Fasulye"
-     },
-     {
-      "kcal": 462,
-      "key": "e05ede8c7b",
-      "name": "Etli Buhara Pilavı"
-     },
-     {
-      "img": "dishes/36715dbae7.jpg",
-      "kcal": 124,
-      "key": "36715dbae7",
-      "name": "Kase Yoğurt"
-     }
-    ],
-    "kcal": 1070
-   },
-   "lunch": {
-    "items": [
-     {
-      "img": "dishes/03b9040496.jpg",
-      "kcal": 155,
-      "key": "03b9040496",
-      "name": "Mantar Çorba"
-     },
-     {
-      "img": "dishes/f81a728d3a.jpg",
-      "kcal": 329,
-      "key": "f81a728d3a",
-      "name": "Kuru Fasulye"
-     },
-     {
-      "kcal": 462,
-      "key": "e05ede8c7b",
-      "name": "Etli Buhara Pilavı"
-     },
-     {
-      "img": "dishes/36715dbae7.jpg",
-      "kcal": 124,
-      "key": "36715dbae7",
-      "name": "Kase Yoğurt"
-     }
-    ],
-    "kcal": 1070
-   }
-  },
   "2026-10-05": {
    "dinner": {
     "items": [
@@ -3280,5 +3222,5 @@
   }
  },
  "university": "odtu",
- "updated": "2026-11-18T14:44:51+03:00"
+ "updated": "2026-11-19T01:37:54+03:00"
 }

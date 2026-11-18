@@ -408,9 +408,9 @@
       "name": "Mercimek Çorbası"
      },
      {
-      "img": "dishes/664bfec39c.jpg",
-      "key": "664bfec39c",
-      "name": "Nohut Yemeği"
+      "img": "dishes/c94ea723fe.jpg",
+      "key": "c94ea723fe",
+      "name": "Etli Nohut Yemeği"
      },
      {
       "img": "dishes/3c6ebdbdf8.jpg",
@@ -501,5 +501,5 @@
   }
  },
  "university": "kayseri",
- "updated": "2026-11-18T14:44:51+03:00"
+ "updated": "2026-11-19T01:37:54+03:00"
 }

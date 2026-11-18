@@ -1653,8 +1653,59 @@
      }
     ]
    }
+  },
+  "2026-11-20": {
+   "lunch": {
+    "items": [
+     {
+      "img": "dishes/11d5798385.jpg",
+      "key": "11d5798385",
+      "name": "Brokoli Çorba"
+     },
+     {
+      "img": "dishes/415cd292c5.jpg",
+      "key": "415cd292c5",
+      "name": "Kıymalı Patates Oturtma"
+     },
+     {
+      "key": "3c5f731048",
+      "name": "Bahar Pilavı"
+     },
+     {
+      "img": "dishes/dc944fba4f.jpg",
+      "key": "dc944fba4f",
+      "name": "Kazandibi"
+     }
+    ]
+   },
+   "vegetarian": {
+    "items": [
+     {
+      "img": "dishes/11d5798385.jpg",
+      "key": "11d5798385",
+      "name": "Brokoli Çorba"
+     },
+     {
+      "key": "6807de2794",
+      "name": "Soslu Patates Yemeği"
+     },
+     {
+      "key": "3c5f731048",
+      "name": "Bahar Pilavı"
+     },
+     {
+      "img": "dishes/dc944fba4f.jpg",
+      "key": "dc944fba4f",
+      "name": "Kazandibi"
+     },
+     {
+      "key": "b947faf326",
+      "name": "Yeşil Salata"
+     }
+    ]
+   }
   }
  },
  "university": "ikcu",
- "updated": "2026-11-18T14:44:51+03:00"
+ "updated": "2026-11-19T01:37:54+03:00"
 }
