@@ -386,34 +386,33 @@
     "kcal": 890
    }
   },
-  "2026-11-20": {
+  "2026-11-19": {
    "lunch": {
     "items": [
      {
-      "img": "dishes/4fb733faf2.jpg",
-      "kcal": 160,
-      "key": "4fb733faf2",
-      "name": "Ezogelin Çorbası"
+      "kcal": 150,
+      "key": "b2a4f59852",
+      "name": "Şefin Çorbası"
      },
      {
-      "img": "dishes/a8071a33a4.jpg",
-      "kcal": 360,
-      "key": "a8071a33a4",
-      "name": "Tavuk Burger"
+      "kcal": 150,
+      "key": "fac2949f35",
+      "name": "Yoğurtlu Ispanak"
      },
      {
-      "kcal": 285,
-      "key": "8db13541fa",
-      "name": "Patates Kızartma"
+      "img": "dishes/18ccb4d264.jpg",
+      "kcal": 300,
+      "key": "18ccb4d264",
+      "name": "Soslu Makarna"
      },
      {
-      "img": "dishes/16b5c22561.jpg",
-      "kcal": 80,
-      "key": "16b5c22561",
-      "name": "Ayran"
+      "img": "dishes/ea90a960e8.jpg",
+      "kcal": 570,
+      "key": "ea90a960e8",
+      "name": "Islak Kek"
      }
     ],
-    "kcal": 885
+    "kcal": 1170
    }
   },
   "2026-11-23": {
@@ -593,5 +592,5 @@
   }
  },
  "university": "mku",
- "updated": "2026-11-19T14:42:34+03:00"
+ "updated": "2026-11-20T01:41:55+03:00"
 }

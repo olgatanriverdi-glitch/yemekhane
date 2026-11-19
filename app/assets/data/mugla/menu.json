@@ -1,30 +1,5 @@
 {
  "days": {
-  "2026-11-19": {
-   "lunch": {
-    "items": [
-     {
-      "img": "dishes/e2fac9b8dd.jpg",
-      "key": "e2fac9b8dd",
-      "name": "Tel Şehriye Çorbası"
-     },
-     {
-      "img": "dishes/2d47746c02.jpg",
-      "key": "2d47746c02",
-      "name": "Tavuk Baget /Pat"
-     },
-     {
-      "key": "8636bfbc0a",
-      "name": "Pirinç Pilavı"
-     },
-     {
-      "img": "dishes/ca846fdc8d.jpg",
-      "key": "ca846fdc8d",
-      "name": "Karışık Salata"
-     }
-    ]
-   }
-  },
   "2026-11-20": {
    "lunch": {
     "items": [
@@ -198,5 +173,5 @@
   }
  },
  "university": "mugla",
- "updated": "2026-11-19T14:42:34+03:00"
+ "updated": "2026-11-20T01:41:55+03:00"
 }

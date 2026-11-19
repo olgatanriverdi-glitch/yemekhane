@@ -1,54 +1,5 @@
 {
  "days": {
-  "2026-10-05": {
-   "lunch": {
-    "items": [
-     {
-      "img": "dishes/22dd093862.jpg",
-      "kcal": 209,
-      "key": "22dd093862",
-      "name": "Mercimek Çorba"
-     },
-     {
-      "kcal": 470,
-      "key": "c4e7bc4088",
-      "name": "Çıtır Tavuk - Fırın Patates"
-     },
-     {
-      "kcal": 416,
-      "key": "8636bfbc0a",
-      "name": "Pirinç Pilavı"
-     },
-     {
-      "img": "dishes/0509e40109.jpg",
-      "kcal": 322,
-      "key": "0509e40109",
-      "name": "Acı Soslu Makarna"
-     },
-     {
-      "key": "f8275a5831",
-      "name": "İçecek"
-     },
-     {
-      "img": "dishes/99a67d4042.jpg",
-      "kcal": 45,
-      "key": "99a67d4042",
-      "name": "Mevsim Salata"
-     },
-     {
-      "kcal": 24,
-      "key": "e8f80bf580",
-      "name": "Biber Turşu"
-     },
-     {
-      "img": "dishes/ed47fcacda.jpg",
-      "kcal": 67,
-      "key": "ed47fcacda",
-      "name": "Pembe Sultan"
-     }
-    ]
-   }
-  },
   "2026-10-06": {
    "lunch": {
     "items": [
@@ -1455,5 +1406,5 @@
   }
  },
  "university": "gtu",
- "updated": "2026-11-19T14:42:34+03:00"
+ "updated": "2026-11-20T01:41:55+03:00"
 }

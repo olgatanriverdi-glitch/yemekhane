@@ -1,30 +1,5 @@
 {
  "days": {
-  "2026-10-05": {
-   "lunch": {
-    "items": [
-     {
-      "img": "dishes/bf8474c8b9.jpg",
-      "key": "bf8474c8b9",
-      "name": "Ezogelin Çorba"
-     },
-     {
-      "key": "ed89d84390",
-      "name": "Kıymalı Bezelye"
-     },
-     {
-      "img": "dishes/af6741872c.jpg",
-      "key": "af6741872c",
-      "name": "Fırın Makarna"
-     },
-     {
-      "img": "dishes/8bb2930cea.jpg",
-      "key": "8bb2930cea",
-      "name": "Cevizli Burma Kadayıf"
-     }
-    ]
-   }
-  },
   "2026-10-06": {
    "lunch": {
     "items": [
@@ -672,5 +647,5 @@
   }
  },
  "university": "omu",
- "updated": "2026-11-19T14:42:34+03:00"
+ "updated": "2026-11-20T01:41:55+03:00"
 }

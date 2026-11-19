@@ -1,45 +1,5 @@
 {
  "days": {
-  "2026-10-05": {
-   "lunch": {
-    "items": [
-     {
-      "img": "dishes/22dd093862.jpg",
-      "kcal": 155,
-      "key": "22dd093862",
-      "name": "Mercimek Çorba"
-     },
-     {
-      "img": "dishes/a60ac0d42a.jpg",
-      "kcal": 449,
-      "key": "a60ac0d42a",
-      "name": "Ankara Tava"
-     },
-     {
-      "img": "dishes/88a7fe4a74.jpg",
-      "kcal": 492,
-      "key": "88a7fe4a74",
-      "name": "Kıymalı Mantı"
-     },
-     {
-      "img": "dishes/2f47d03cf0.jpg",
-      "kcal": 180,
-      "key": "2f47d03cf0",
-      "name": "Zeytinyağlı Taze Fasulye"
-     },
-     {
-      "img": "dishes/ed17271d58.jpg",
-      "key": "ed17271d58",
-      "name": "Meyve"
-     },
-     {
-      "kcal": 78,
-      "key": "2f48dae569",
-      "name": "Meşrubat"
-     }
-    ]
-   }
-  },
   "2026-10-06": {
    "lunch": {
     "items": [
@@ -1743,5 +1703,5 @@
   }
  },
  "university": "ktu",
- "updated": "2026-11-19T14:42:34+03:00"
+ "updated": "2026-11-20T01:41:55+03:00"
 }

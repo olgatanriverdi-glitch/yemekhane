@@ -1,76 +1,5 @@
 {
  "days": {
-  "2026-10-05": {
-   "lunch": {
-    "items": [
-     {
-      "img": "dishes/2c0e163a7d.jpg",
-      "kcal": 184,
-      "key": "2c0e163a7d",
-      "name": "Tarhana Çorba"
-     },
-     {
-      "kcal": 290,
-      "key": "7610139f53",
-      "name": "Fırında Köfte-Püreli"
-     },
-     {
-      "img": "dishes/7996503754.jpg",
-      "kcal": 360,
-      "key": "7996503754",
-      "name": "Peynirli Makarna"
-     },
-     {
-      "img": "dishes/99a67d4042.jpg",
-      "kcal": 55,
-      "key": "99a67d4042",
-      "name": "Mevsim Salata"
-     },
-     {
-      "img": "dishes/647ce15e33.jpg",
-      "kcal": 270,
-      "key": "647ce15e33",
-      "name": "Tulumba"
-     }
-    ],
-    "kcal": 1159
-   },
-   "vegetarian": {
-    "items": [
-     {
-      "img": "dishes/2c0e163a7d.jpg",
-      "kcal": 184,
-      "key": "2c0e163a7d",
-      "name": "Tarhana Çorba"
-     },
-     {
-      "img": "dishes/2f47d03cf0.jpg",
-      "kcal": 73,
-      "key": "2f47d03cf0",
-      "name": "Zeytinyağlı Taze Fasulye"
-     },
-     {
-      "img": "dishes/7996503754.jpg",
-      "kcal": 360,
-      "key": "7996503754",
-      "name": "Peynirli Makarna"
-     },
-     {
-      "img": "dishes/99a67d4042.jpg",
-      "kcal": 55,
-      "key": "99a67d4042",
-      "name": "Mevsim Salata"
-     },
-     {
-      "img": "dishes/647ce15e33.jpg",
-      "kcal": 270,
-      "key": "647ce15e33",
-      "name": "Tulumba"
-     }
-    ],
-    "kcal": 942
-   }
-  },
   "2026-10-06": {
    "lunch": {
     "items": [
@@ -2269,10 +2198,10 @@
       "name": "Fırında Balık"
      },
      {
-      "img": "dishes/464382c567.jpg",
+      "img": "dishes/d3d0c7a5cd.jpg",
       "kcal": 300,
-      "key": "464382c567",
-      "name": "Patetesli Kol Börek"
+      "key": "d3d0c7a5cd",
+      "name": "Patatesli Kol Böreği"
      },
      {
       "kcal": 55,
@@ -2302,10 +2231,10 @@
       "name": "Sebze Yemeği"
      },
      {
-      "img": "dishes/464382c567.jpg",
+      "img": "dishes/d3d0c7a5cd.jpg",
       "kcal": 300,
-      "key": "464382c567",
-      "name": "Patetesli Kol Börek"
+      "key": "d3d0c7a5cd",
+      "name": "Patatesli Kol Böreği"
      },
      {
       "kcal": 55,
@@ -2742,5 +2671,5 @@
   }
  },
  "university": "asbu",
- "updated": "2026-11-19T14:42:34+03:00"
+ "updated": "2026-11-20T01:41:55+03:00"
 }

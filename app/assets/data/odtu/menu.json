@@ -1,61 +1,5 @@
 {
  "days": {
-  "2026-10-05": {
-   "dinner": {
-    "items": [
-     {
-      "img": "dishes/22dd093862.jpg",
-      "kcal": 156,
-      "key": "22dd093862",
-      "name": "Mercimek Çorba"
-     },
-     {
-      "kcal": 346,
-      "key": "940ebdc4c1",
-      "name": "Piliç Baget Haşlama"
-     },
-     {
-      "img": "dishes/abad8aab8e.jpg",
-      "kcal": 326,
-      "key": "abad8aab8e",
-      "name": "Napoliten Soslu Makarna"
-     },
-     {
-      "kcal": 135,
-      "key": "4553d36205",
-      "name": "Meksika Fasulye Salatası"
-     }
-    ],
-    "kcal": 963
-   },
-   "lunch": {
-    "items": [
-     {
-      "img": "dishes/22dd093862.jpg",
-      "kcal": 156,
-      "key": "22dd093862",
-      "name": "Mercimek Çorba"
-     },
-     {
-      "kcal": 476,
-      "key": "d59efb4d98",
-      "name": "Etli Elbistan Tava"
-     },
-     {
-      "kcal": 466,
-      "key": "cf50d977f7",
-      "name": "Dereotlu Pirinç Pilavı"
-     },
-     {
-      "img": "dishes/ed17271d58.jpg",
-      "kcal": 116,
-      "key": "ed17271d58",
-      "name": "Meyve"
-     }
-    ],
-    "kcal": 1214
-   }
-  },
   "2026-10-06": {
    "dinner": {
     "items": [
@@ -3222,5 +3166,5 @@
   }
  },
  "university": "odtu",
- "updated": "2026-11-19T14:42:34+03:00"
+ "updated": "2026-11-20T01:41:55+03:00"
 }

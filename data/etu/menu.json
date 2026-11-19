@@ -349,8 +349,153 @@
     ],
     "kcal": 835
    }
+  },
+  "2026-11-20": {
+   "lunch": {
+    "items": [
+     {
+      "img": "dishes/64ee8e0b3b.jpg",
+      "kcal": 195,
+      "key": "64ee8e0b3b",
+      "name": "Düğün Çorbası"
+     },
+     {
+      "kcal": 350,
+      "key": "5d6edb0261",
+      "name": "Piliç Roti"
+     },
+     {
+      "img": "dishes/18ccb4d264.jpg",
+      "kcal": 310,
+      "key": "18ccb4d264",
+      "name": "Soslu Makarna"
+     },
+     {
+      "img": "dishes/ba50d196d7.jpg",
+      "kcal": 250,
+      "key": "ba50d196d7",
+      "name": "Kemalpaşa Tatlısı"
+     }
+    ],
+    "kcal": 1105
+   }
+  },
+  "2026-11-23": {
+   "lunch": {
+    "items": [
+     {
+      "img": "dishes/e3fefbc26e.jpg",
+      "kcal": 175,
+      "key": "e3fefbc26e",
+      "name": "Tavuksuyu Çorba"
+     },
+     {
+      "img": "dishes/5e6031dfca.jpg",
+      "kcal": 270,
+      "key": "5e6031dfca",
+      "name": "Etli Bezelye Yemeği"
+     },
+     {
+      "kcal": 310,
+      "key": "b6a8224fc4",
+      "name": "Sade Pirinç Pilavı"
+     },
+     {
+      "img": "dishes/9c8d655ef5.jpg",
+      "kcal": 115,
+      "key": "9c8d655ef5",
+      "name": "Yoğurt"
+     }
+    ],
+    "kcal": 870
+   }
+  },
+  "2026-11-24": {
+   "lunch": {
+    "items": [
+     {
+      "kcal": 150,
+      "key": "e11701d63f",
+      "name": "Un Çorbası"
+     },
+     {
+      "kcal": 500,
+      "key": "3d1e6c0b39",
+      "name": "Sebzeli Fırın Köfte"
+     },
+     {
+      "img": "dishes/7996503754.jpg",
+      "kcal": 310,
+      "key": "7996503754",
+      "name": "Peynirli Makarna"
+     },
+     {
+      "img": "dishes/904e9c87e9.jpg",
+      "kcal": 275,
+      "key": "904e9c87e9",
+      "name": "Şekerpare"
+     }
+    ],
+    "kcal": 1235
+   }
+  },
+  "2026-11-25": {
+   "lunch": {
+    "items": [
+     {
+      "kcal": 195,
+      "key": "b09bac10e9",
+      "name": "Mahluta Çorbası"
+     },
+     {
+      "img": "dishes/17d2e9100f.jpg",
+      "kcal": 275,
+      "key": "17d2e9100f",
+      "name": "Tavuk Döner"
+     },
+     {
+      "kcal": 310,
+      "key": "fa4decda6a",
+      "name": "Şehriyeli Pirinç Pilavı"
+     },
+     {
+      "kcal": 65,
+      "key": "ed2b9d5010",
+      "name": "Mısırlı Yeşillik Salatası"
+     }
+    ],
+    "kcal": 845
+   }
+  },
+  "2026-11-26": {
+   "lunch": {
+    "items": [
+     {
+      "kcal": 258,
+      "key": "e47540f7f5",
+      "name": "Domates Çorbası"
+     },
+     {
+      "kcal": 225,
+      "key": "654847dde6",
+      "name": "Kıymalı Pırasa Yemeği"
+     },
+     {
+      "img": "dishes/af6741872c.jpg",
+      "kcal": 465,
+      "key": "af6741872c",
+      "name": "Fırın Makarna"
+     },
+     {
+      "kcal": 230,
+      "key": "b3743cd135",
+      "name": "Kakaolu Puding"
+     }
+    ],
+    "kcal": 1178
+   }
   }
  },
  "university": "etu",
- "updated": "2026-11-19T14:42:34+03:00"
+ "updated": "2026-11-20T01:41:55+03:00"
 }
