@@ -10,9 +10,10 @@
       "name": "Ezogelin Çorba"
      },
      {
+      "img": "dishes/22e311a04a.jpg",
       "kcal": 370,
-      "key": "3edc3d70e5",
-      "name": "Püreli Rosto Köfte"
+      "key": "22e311a04a",
+      "name": "Püreli İnegöl Köfte"
      },
      {
       "img": "dishes/f79b284db7.jpg",
@@ -236,5 +237,5 @@
   }
  },
  "university": "kastamonu",
- "updated": "2026-11-19T01:37:54+03:00"
+ "updated": "2026-11-19T14:42:34+03:00"
 }

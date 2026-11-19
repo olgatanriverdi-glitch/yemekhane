@@ -1,68 +1,5 @@
 {
  "days": {
-  "2026-11-17": {
-   "dinner": {
-    "items": [
-     {
-      "img": "dishes/1af7fb57ae.jpg",
-      "key": "1af7fb57ae",
-      "name": "Arpa Şehriye Çorbası"
-     },
-     {
-      "img": "dishes/878b29f656.jpg",
-      "key": "878b29f656",
-      "name": "Etli Türlü"
-     },
-     {
-      "key": "57d2d2d906",
-      "name": "Mısırlı Pirinç Pilavı"
-     },
-     {
-      "img": "dishes/b6bfa358ce.jpg",
-      "key": "b6bfa358ce",
-      "name": "Trileçe"
-     },
-     {
-      "img": "dishes/2f58be7b7a.jpg",
-      "key": "2f58be7b7a",
-      "name": "Cacık"
-     }
-    ]
-   },
-   "lunch": {
-    "items": [
-     {
-      "img": "dishes/0955218757.jpg",
-      "key": "0955218757",
-      "name": "Mercimek Çorbası"
-     },
-     {
-      "img": "dishes/d151de6ce3.jpg",
-      "key": "d151de6ce3",
-      "name": "Çoban Kavurma"
-     },
-     {
-      "img": "dishes/25b07cf14e.jpg",
-      "key": "25b07cf14e",
-      "name": "Bulgur Pilavı"
-     },
-     {
-      "img": "dishes/5b7bbc3ecc.jpg",
-      "key": "5b7bbc3ecc",
-      "name": "Portakal"
-     },
-     {
-      "key": "de84c155eb",
-      "name": "Rus Salatası"
-     },
-     {
-      "img": "dishes/65dfdea3d4.jpg",
-      "key": "65dfdea3d4",
-      "name": "Garnitür Patates Püresi"
-     }
-    ]
-   }
-  },
   "2026-11-18": {
    "dinner": {
     "items": [
@@ -372,6 +309,7 @@
       "name": "Yayla Çorbası"
      },
      {
+      "img": "dishes/80143c897a.jpg",
       "key": "80143c897a",
       "name": "Sebzeli Kaşarlı Izgara Köfte"
      },
@@ -779,5 +717,5 @@
   }
  },
  "university": "itu",
- "updated": "2026-11-19T01:37:54+03:00"
+ "updated": "2026-11-19T14:42:34+03:00"
 }

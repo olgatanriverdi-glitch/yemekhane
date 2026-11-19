@@ -1,112 +1,5 @@
 {
  "days": {
-  "2026-11-16": {
-   "breakfast": {
-    "items": [
-     {
-      "img": "dishes/22605468a2.jpg",
-      "key": "22605468a2",
-      "name": "Çay"
-     },
-     {
-      "key": "f7b84ad85a",
-      "name": "Meyve Suyu"
-     },
-     {
-      "img": "dishes/bff26db9ff.jpg",
-      "key": "bff26db9ff",
-      "name": "Süt"
-     },
-     {
-      "img": "dishes/dbab93961a.jpg",
-      "key": "dbab93961a",
-      "name": "Tahin Pekmez"
-     },
-     {
-      "img": "dishes/8690d4fe86.jpg",
-      "key": "8690d4fe86",
-      "name": "Beyaz Peynir"
-     },
-     {
-      "key": "eacd514ee0",
-      "name": "Kaşarlı Gözleme"
-     },
-     {
-      "img": "dishes/61eeda5228.jpg",
-      "key": "61eeda5228",
-      "name": "Domates-Salatalık"
-     }
-    ]
-   },
-   "dinner": {
-    "items": [
-     {
-      "img": "dishes/4fb733faf2.jpg",
-      "key": "4fb733faf2",
-      "name": "Ezogelin Çorbası"
-     },
-     {
-      "img": "dishes/6bdddb27f8.jpg",
-      "key": "6bdddb27f8",
-      "name": "Etsiz Türlü"
-     },
-     {
-      "key": "8636bfbc0a",
-      "name": "Pirinç Pilavı"
-     },
-     {
-      "img": "dishes/16b5c22561.jpg",
-      "key": "16b5c22561",
-      "name": "Ayran"
-     }
-    ]
-   },
-   "lunch": {
-    "items": [
-     {
-      "img": "dishes/4fb733faf2.jpg",
-      "key": "4fb733faf2",
-      "name": "Ezogelin Çorbası"
-     },
-     {
-      "img": "dishes/6bdddb27f8.jpg",
-      "key": "6bdddb27f8",
-      "name": "Etsiz Türlü"
-     },
-     {
-      "key": "8636bfbc0a",
-      "name": "Pirinç Pilavı"
-     },
-     {
-      "img": "dishes/16b5c22561.jpg",
-      "key": "16b5c22561",
-      "name": "Ayran"
-     }
-    ]
-   },
-   "vegetarian": {
-    "items": [
-     {
-      "img": "dishes/4fb733faf2.jpg",
-      "key": "4fb733faf2",
-      "name": "Ezogelin Çorbası"
-     },
-     {
-      "img": "dishes/6bdddb27f8.jpg",
-      "key": "6bdddb27f8",
-      "name": "Etsiz Türlü"
-     },
-     {
-      "key": "8636bfbc0a",
-      "name": "Pirinç Pilavı"
-     },
-     {
-      "key": "fece5a0444",
-      "name": "Vişne Kompostosu"
-     }
-    ]
-   }
-  },
   "2026-11-17": {
    "breakfast": {
     "items": [
@@ -1185,5 +1078,5 @@
   }
  },
  "university": "iu",
- "updated": "2026-11-19T01:37:54+03:00"
+ "updated": "2026-11-19T14:42:34+03:00"
 }

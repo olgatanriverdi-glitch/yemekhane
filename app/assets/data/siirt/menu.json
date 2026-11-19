@@ -430,6 +430,12 @@
       "name": "Tavuk Sote"
      },
      {
+      "img": "dishes/ed17271d58.jpg",
+      "kcal": 90,
+      "key": "ed17271d58",
+      "name": "Meyve"
+     },
+     {
       "img": "dishes/2f58be7b7a.jpg",
       "kcal": 100,
       "key": "2f58be7b7a",
@@ -440,18 +446,12 @@
       "kcal": 280,
       "key": "25b07cf14e",
       "name": "Bulgur Pilavı"
-     },
-     {
-      "img": "dishes/92485508df.jpg",
-      "kcal": 180,
-      "key": "92485508df",
-      "name": "Tatlı"
      }
     ],
-    "kcal": 840
+    "kcal": 750
    }
   }
  },
  "university": "siirt",
- "updated": "2026-11-19T01:37:54+03:00"
+ "updated": "2026-11-19T14:42:34+03:00"
 }

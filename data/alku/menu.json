@@ -896,7 +896,7 @@
      {
       "kcal": 340,
       "key": "52a050b2a9",
-      "name": "Yoğurtlu Etli Mantı ("
+      "name": "Yoğurtlu Etli Mantı"
      },
      {
       "img": "dishes/2750c6f6c0.jpg",
@@ -910,7 +910,8 @@
       "key": "44abc36c0c",
       "name": "İrmik Helvası"
      }
-    ]
+    ],
+    "kcal": 1053
    }
   },
   "2026-11-20": {
@@ -944,5 +945,5 @@
   }
  },
  "university": "alku",
- "updated": "2026-11-19T01:37:54+03:00"
+ "updated": "2026-11-19T14:42:34+03:00"
 }

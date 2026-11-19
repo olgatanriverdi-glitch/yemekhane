@@ -930,7 +930,8 @@
       "name": "Halka Tatlı"
      }
     ],
-    "kcal": 1373
+    "kcal": 1373,
+    "photo": "photos/lib/afb67ff41e7b.jpg"
    },
    "vegetarian": {
     "items": [
@@ -1457,5 +1458,5 @@
   }
  },
  "university": "ankara",
- "updated": "2026-11-19T01:37:54+03:00"
+ "updated": "2026-11-19T14:42:34+03:00"
 }

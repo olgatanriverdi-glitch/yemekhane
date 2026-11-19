@@ -29,7 +29,8 @@
   "2026-11-13": "8a9afd398373",
   "2026-11-16": "c1397cac871e",
   "2026-11-17": "60eab455cb15",
-  "2026-11-18": "6c2b5a59d5a6"
+  "2026-11-18": "6c2b5a59d5a6",
+  "2026-11-19": "afb67ff41e7b"
  },
  "main": {
   "025eacfe0c": "8f579a24b2f7",
@@ -39,6 +40,7 @@
   "211964d15e": "41a246d21c3d",
   "2b6a0527dc": "05a967c1c011",
   "40082e8861": "cf00a176342e",
+  "4008da5374": "afb67ff41e7b",
   "495c83bde2": "60eab455cb15",
   "4b76564c9a": "001da2fb49d8",
   "5acb48cd86": "6c2b5a59d5a6",
@@ -286,6 +288,16 @@
     "Çökertme Kebap",
     "Bulgur Pilavı",
     "Mısırlı Aysberg Salata"
+   ]
+  },
+  "afb67ff41e7b": {
+   "added": "2026-11-19",
+   "hash": "2aae0ca0b5095d08c2996f249dd85c910892f1fc",
+   "items": [
+    "Kırmızı Mercimek Çorba",
+    "Pideli Köfte",
+    "Zeytinyağlı Barbunya",
+    "Halka Tatlı"
    ]
   },
   "c1397cac871e": {

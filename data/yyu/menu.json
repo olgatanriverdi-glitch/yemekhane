@@ -335,6 +335,7 @@
       "name": "Mercimek Çorba"
      },
      {
+      "img": "dishes/9aac46a78c.jpg",
       "kcal": 310,
       "key": "9aac46a78c",
       "name": "Soslu Fırın Tavuk /Patates"
@@ -626,5 +627,5 @@
   }
  },
  "university": "yyu",
- "updated": "2026-11-19T01:37:54+03:00"
+ "updated": "2026-11-19T14:42:34+03:00"
 }

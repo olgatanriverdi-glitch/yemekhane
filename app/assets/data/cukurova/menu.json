@@ -213,6 +213,7 @@
    "lunch": {
     "items": [
      {
+      "kcal": 380,
       "key": "71127d15c0",
       "name": "Sebzeli Misket Köfte"
      },
@@ -240,7 +241,8 @@
       "key": "dbab186633",
       "name": "Şam Tatlı"
      }
-    ]
+    ],
+    "kcal": 1754
    }
   },
   "2026-11-20": {
@@ -304,9 +306,41 @@
    "lunch": {
     "items": [
      {
-      "kcal": 480,
-      "key": "41ae82d8e6",
-      "name": "Hasan Paşa Köfte (Püreli)"
+      "img": "dishes/c40197a6ec.jpg",
+      "kcal": 400,
+      "key": "c40197a6ec",
+      "name": "Peynirli Pide"
+     },
+     {
+      "img": "dishes/eec19fe365.jpg",
+      "kcal": 250,
+      "key": "eec19fe365",
+      "name": "Terbiyeli Tavuk Çorba"
+     },
+     {
+      "img": "dishes/2610f75ca2.jpg",
+      "kcal": 20,
+      "key": "2610f75ca2",
+      "name": "Şalgam"
+     },
+     {
+      "img": "dishes/1087b76fa2.jpg",
+      "kcal": 595,
+      "key": "1087b76fa2",
+      "name": "Revani"
+     }
+    ],
+    "kcal": 1265
+   }
+  },
+  "2026-11-25": {
+   "lunch": {
+    "items": [
+     {
+      "img": "dishes/2f7edb1f03.jpg",
+      "kcal": 295,
+      "key": "2f7edb1f03",
+      "name": "Terbiyeli Köfte"
      },
      {
       "img": "dishes/86493234ae.jpg",
@@ -316,45 +350,18 @@
      },
      {
       "img": "dishes/f540ceda29.jpg",
+      "kcal": 150,
       "key": "f540ceda29",
       "name": "Karnabahar Salatası"
-     },
-     {
-      "img": "dishes/2610f75ca2.jpg",
-      "kcal": 20,
-      "key": "2610f75ca2",
-      "name": "Şalgam"
-     }
-    ]
-   }
-  },
-  "2026-11-25": {
-   "lunch": {
-    "items": [
-     {
-      "img": "dishes/85f4d2dee4.jpg",
-      "key": "85f4d2dee4",
-      "name": "Etli Pide"
-     },
-     {
-      "img": "dishes/7599097195.jpg",
-      "kcal": 245,
-      "key": "7599097195",
-      "name": "Domates Çorba"
      },
      {
       "img": "dishes/16b5c22561.jpg",
       "kcal": 60,
       "key": "16b5c22561",
       "name": "Ayran"
-     },
-     {
-      "img": "dishes/1087b76fa2.jpg",
-      "kcal": 595,
-      "key": "1087b76fa2",
-      "name": "Revani"
      }
-    ]
+    ],
+    "kcal": 869
    }
   },
   "2026-11-26": {
@@ -449,5 +456,5 @@
   }
  },
  "university": "cukurova",
- "updated": "2026-11-19T01:37:54+03:00"
+ "updated": "2026-11-19T14:42:34+03:00"
 }

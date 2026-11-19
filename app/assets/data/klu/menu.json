@@ -336,9 +336,8 @@
       "name": "Pirinç Pilavı"
      },
      {
-      "img": "dishes/972686fca7.jpg",
-      "key": "972686fca7",
-      "name": "Kadayıflı Muhallebi"
+      "key": "a65801bdad",
+      "name": "Sütlü Tatlı"
      }
     ]
    }
@@ -520,5 +519,5 @@
   }
  },
  "university": "klu",
- "updated": "2026-11-19T01:37:54+03:00"
+ "updated": "2026-11-19T14:42:34+03:00"
 }

@@ -247,6 +247,7 @@
       "name": "Mercimek Çorba"
      },
      {
+      "img": "dishes/d150ffa8b9.jpg",
       "key": "d150ffa8b9",
       "name": "Konya Toparlak Makarna (Peynirli) Köfte/Bezelye"
      },
@@ -319,6 +320,7 @@
       "name": "Ezogelin Çorba"
      },
      {
+      "img": "dishes/930e87d221.jpg",
       "key": "930e87d221",
       "name": "Orman Tel Şehriyeli Bulgur Kebabı/Şakşuka"
      },
@@ -360,6 +362,7 @@
    "lunch": {
     "items": [
      {
+      "img": "dishes/0292998a16.jpg",
       "key": "0292998a16",
       "name": "Kremalı Mantar Çorba (Piliç)/Yeşil Mercimek"
      },
@@ -369,6 +372,7 @@
       "name": "Adana Köfte"
      },
      {
+      "img": "dishes/923ecafeed.jpg",
       "key": "923ecafeed",
       "name": "Bulgur Pilavı Ayran"
      },
@@ -388,6 +392,7 @@
       "name": "Tavuk Suyu Çorba"
      },
      {
+      "img": "dishes/a5a823651b.jpg",
       "key": "a5a823651b",
       "name": "Tel Şehriyeli Pirinç Kuru Fasülye"
      },
@@ -498,5 +503,5 @@
   }
  },
  "university": "btu",
- "updated": "2026-11-19T01:37:54+03:00"
+ "updated": "2026-11-19T14:42:34+03:00"
 }

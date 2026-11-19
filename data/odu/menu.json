@@ -60,6 +60,7 @@
       "name": "Sade Pirinç Pilavı/Meyhane Pilavı"
      },
      {
+      "img": "dishes/56ccfaa877.jpg",
       "key": "56ccfaa877",
       "name": "Cacık/Mevsim Salata/Pembe Sultan"
      }
@@ -654,5 +655,5 @@
   }
  },
  "university": "odu",
- "updated": "2026-11-19T01:37:54+03:00"
+ "updated": "2026-11-19T14:42:34+03:00"
 }
