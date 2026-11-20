@@ -289,8 +289,8 @@
       "name": "Domates Çorbası"
      },
      {
-      "key": "d919a8a457",
-      "name": "Tavuk Haşlama/Beğendili Köfte/Kuru Fasulye"
+      "key": "be9eb7d2cd",
+      "name": "Tavuk Döner/Beğendili Köfte/Kuru Fasulye"
      },
      {
       "key": "8344048f87",
@@ -303,8 +303,78 @@
      }
     ]
    }
+  },
+  "2026-11-23": {
+   "lunch": {
+    "items": [
+     {
+      "img": "dishes/da64dc8fd8.jpg",
+      "key": "da64dc8fd8",
+      "name": "Mantar Çorbası"
+     },
+     {
+      "key": "e1f2c141a6",
+      "name": "Tavuk Haşlama/Patlıcan Musakka/Mantı"
+     },
+     {
+      "key": "2c779986dd",
+      "name": "Pirinç Pilavı (Sade)/Spagetti"
+     },
+     {
+      "img": "dishes/ed17271d58.jpg",
+      "key": "ed17271d58",
+      "name": "Meyve"
+     }
+    ]
+   }
+  },
+  "2026-11-24": {
+   "lunch": {
+    "items": [
+     {
+      "key": "8903c3124b",
+      "name": "Şehriyeli Çorba"
+     },
+     {
+      "key": "b51020f0c8",
+      "name": "Mantarlı Tavuk Sote/Püreli Rosto Köfte/Yoğurtlu Dolma"
+     },
+     {
+      "key": "f80c24844a",
+      "name": "Makarna/Şehriyeli Bulgur Pilavı"
+     },
+     {
+      "key": "dd66f98e27",
+      "name": "Kakaolu İrmik"
+     }
+    ]
+   }
+  },
+  "2026-11-25": {
+   "lunch": {
+    "items": [
+     {
+      "img": "dishes/8a1d66ed2e.jpg",
+      "key": "8a1d66ed2e",
+      "name": "Süzme Mercimek Çorbası"
+     },
+     {
+      "key": "8fc6499313",
+      "name": "Tavuk Döner/Etli Nuhut/Karnıyarık"
+     },
+     {
+      "key": "af478b7cc1",
+      "name": "Pirinç Pilavı/Salçalı Bulgur Pilavı"
+     },
+     {
+      "img": "dishes/16b5c22561.jpg",
+      "key": "16b5c22561",
+      "name": "Ayran"
+     }
+    ]
+   }
   }
  },
  "university": "bitlis",
- "updated": "2026-11-19T14:42:34+03:00"
+ "updated": "2026-11-20T14:42:55+03:00"
 }

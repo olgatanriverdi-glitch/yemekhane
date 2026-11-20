@@ -437,12 +437,13 @@
       "name": "Bulgur Pilavı"
      },
      {
-      "kcal": 59,
-      "key": "f1db7bea12",
-      "name": "Havuç- Turp Salatası"
+      "img": "dishes/3acf2087fe.jpg",
+      "kcal": 294,
+      "key": "3acf2087fe",
+      "name": "Kabak Tatlısı"
      }
     ],
-    "kcal": 750
+    "kcal": 985
    }
   },
   "2026-11-23": {
@@ -641,5 +642,5 @@
   }
  },
  "university": "bartin",
- "updated": "2026-11-20T01:41:55+03:00"
+ "updated": "2026-11-20T14:42:55+03:00"
 }

@@ -644,8 +644,33 @@
      }
     ]
    }
+  },
+  "2026-11-20": {
+   "lunch": {
+    "items": [
+     {
+      "key": "45f0391d45",
+      "name": "Tandır Çorba"
+     },
+     {
+      "img": "dishes/0e0e520868.jpg",
+      "key": "0e0e520868",
+      "name": "Hünkar Beğendi"
+     },
+     {
+      "img": "dishes/25b07cf14e.jpg",
+      "key": "25b07cf14e",
+      "name": "Bulgur Pilavı"
+     },
+     {
+      "img": "dishes/a765c7c985.jpg",
+      "key": "a765c7c985",
+      "name": "Komposto"
+     }
+    ]
+   }
   }
  },
  "university": "omu",
- "updated": "2026-11-20T01:41:55+03:00"
+ "updated": "2026-11-20T14:42:55+03:00"
 }

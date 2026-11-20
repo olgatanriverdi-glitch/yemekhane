@@ -128,6 +128,7 @@
       "name": "Domates Çorbası"
      },
      {
+      "img": "dishes/e5a2c1c3b5.jpg",
       "key": "e5a2c1c3b5",
       "name": "Kadınbudu Köfte/E.Nohut"
      },
@@ -254,6 +255,7 @@
       "name": "Ezogelin Çorba"
      },
      {
+      "img": "dishes/c0debfaa61.jpg",
       "key": "c0debfaa61",
       "name": "Nugget/Etli Kuru Fasulye"
      },
@@ -378,6 +380,7 @@
       "name": "Ezogelin Çorba"
      },
      {
+      "img": "dishes/4c56b9281e.jpg",
       "key": "4c56b9281e",
       "name": "Tavuk Döner-Pilav"
      },
@@ -520,5 +523,5 @@
   }
  },
  "university": "bayburt",
- "updated": "2026-11-20T01:41:55+03:00"
+ "updated": "2026-11-20T14:42:55+03:00"
 }

@@ -419,9 +419,9 @@
       "name": "Bodrum Köfte"
      },
      {
-      "img": "dishes/25b07cf14e.jpg",
-      "key": "25b07cf14e",
-      "name": "Bulgur Pilavı"
+      "img": "dishes/0b9e39c61a.jpg",
+      "key": "0b9e39c61a",
+      "name": "Salçalı Makarna"
      },
      {
       "img": "dishes/ed17271d58.jpg",
@@ -429,7 +429,7 @@
       "name": "Meyve"
      }
     ],
-    "kcal": 784
+    "kcal": 880
    }
   },
   "2026-11-25": {
@@ -444,16 +444,17 @@
       "name": "Et Tandır"
      },
      {
+      "img": "dishes/6bfa0ca014.jpg",
+      "key": "6bfa0ca014",
+      "name": "Salçalı Bulgur Pilavı"
+     },
+     {
       "img": "dishes/31c7d1ab49.jpg",
       "key": "31c7d1ab49",
       "name": "Ayva Tatlısı"
-     },
-     {
-      "key": "79ded7ea04",
-      "name": "Havuç Tarator"
      }
     ],
-    "kcal": 1026
+    "kcal": 1056
    }
   },
   "2026-11-26": {
@@ -469,16 +470,15 @@
       "name": "Tavuk Wrap"
      },
      {
-      "img": "dishes/abad8aab8e.jpg",
-      "key": "abad8aab8e",
-      "name": "Napoliten Soslu Makarna"
+      "key": "57d451ede7",
+      "name": "Elma Dilim Patates"
      },
      {
       "key": "fcfb5a87b8",
       "name": "Meyve Nektarı"
      }
     ],
-    "kcal": 960
+    "kcal": 812
    }
   },
   "2026-11-27": {
@@ -531,5 +531,5 @@
   }
  },
  "university": "bozok",
- "updated": "2026-11-20T01:41:55+03:00"
+ "updated": "2026-11-20T14:42:55+03:00"
 }

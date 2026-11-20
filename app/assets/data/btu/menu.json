@@ -439,6 +439,7 @@
       "name": "Domates Çorba Patates Kızartması/Mevsim"
      },
      {
+      "img": "dishes/286123ff16.jpg",
       "key": "286123ff16",
       "name": "Kova Tavuk-Makarna (Sos) Türlü"
      },
@@ -503,5 +504,5 @@
   }
  },
  "university": "btu",
- "updated": "2026-11-20T01:41:55+03:00"
+ "updated": "2026-11-20T14:42:55+03:00"
 }

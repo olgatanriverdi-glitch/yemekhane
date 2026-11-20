@@ -174,6 +174,7 @@
    "lunch": {
     "items": [
      {
+      "img": "dishes/afe09e3c98.jpg",
       "key": "afe09e3c98",
       "name": "Yüksük Çorbası"
      },
@@ -490,10 +491,12 @@
    "lunch": {
     "items": [
      {
+      "img": "dishes/afe09e3c98.jpg",
       "key": "afe09e3c98",
       "name": "Yüksük Çorbası"
      },
      {
+      "img": "dishes/f3c2e21d24.jpg",
       "key": "f3c2e21d24",
       "name": "Fırında Sebzeli Tavuk Şiş"
      },
@@ -503,6 +506,7 @@
       "name": "Nohutlu Pilav"
      },
      {
+      "img": "dishes/7647819f4f.jpg",
       "key": "7647819f4f",
       "name": "Yoğurtlu Közbiberli Karışık Salata"
      }
@@ -512,5 +516,5 @@
   }
  },
  "university": "ardahan",
- "updated": "2026-11-20T01:41:55+03:00"
+ "updated": "2026-11-20T14:42:55+03:00"
 }

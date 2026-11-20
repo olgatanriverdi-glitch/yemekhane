@@ -91,6 +91,7 @@
       "name": "Şehriyeli Pirinç Pilavı/Patatesli Avcı Böreği"
      },
      {
+      "img": "dishes/b36c4e2c71.jpg",
       "key": "b36c4e2c71",
       "name": "Ayran/Köz Biberli Yeşil Salata/Fırın Sütlaç"
      }
@@ -101,6 +102,7 @@
    "lunch": {
     "items": [
      {
+      "img": "dishes/4cc0a0aa0c.jpg",
       "key": "4cc0a0aa0c",
       "name": "Tavuklu Arpa Şehriye Çorba"
      },
@@ -121,6 +123,7 @@
       "name": "Şehriyeli Pirinç Pilavı/Tel Şehriye Bulgur Pilavı"
      },
      {
+      "img": "dishes/1b8e07459d.jpg",
       "key": "1b8e07459d",
       "name": "Ayran/Çoban Salata/Havuç Tarator"
      }
@@ -655,5 +658,5 @@
   }
  },
  "university": "odu",
- "updated": "2026-11-20T01:41:55+03:00"
+ "updated": "2026-11-20T14:42:55+03:00"
 }

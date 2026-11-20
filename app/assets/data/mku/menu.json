@@ -448,35 +448,6 @@
    "lunch": {
     "items": [
      {
-      "img": "dishes/78d4dad707.jpg",
-      "kcal": 150,
-      "key": "78d4dad707",
-      "name": "Tarhana Çorbası"
-     },
-     {
-      "img": "dishes/add3592632.jpg",
-      "kcal": 340,
-      "key": "add3592632",
-      "name": "Karışık Kızartma"
-     },
-     {
-      "kcal": 320,
-      "key": "46bd021b04",
-      "name": "Yoğurtlu Mantı"
-     },
-     {
-      "kcal": 100,
-      "key": "509482b84c",
-      "name": "Mısırlı Mor Lahana Salatası"
-     }
-    ],
-    "kcal": 910
-   }
-  },
-  "2026-11-25": {
-   "lunch": {
-    "items": [
-     {
       "img": "dishes/4e30e73821.jpg",
       "kcal": 220,
       "key": "4e30e73821",
@@ -500,6 +471,35 @@
      }
     ],
     "kcal": 1090
+   }
+  },
+  "2026-11-25": {
+   "lunch": {
+    "items": [
+     {
+      "img": "dishes/78d4dad707.jpg",
+      "kcal": 150,
+      "key": "78d4dad707",
+      "name": "Tarhana Çorbası"
+     },
+     {
+      "img": "dishes/add3592632.jpg",
+      "kcal": 340,
+      "key": "add3592632",
+      "name": "Karışık Kızartma"
+     },
+     {
+      "kcal": 320,
+      "key": "46bd021b04",
+      "name": "Yoğurtlu Mantı"
+     },
+     {
+      "kcal": 100,
+      "key": "509482b84c",
+      "name": "Mısırlı Mor Lahana Salatası"
+     }
+    ],
+    "kcal": 910
    }
   },
   "2026-11-26": {
@@ -592,5 +592,5 @@
   }
  },
  "university": "mku",
- "updated": "2026-11-20T01:41:55+03:00"
+ "updated": "2026-11-20T14:42:55+03:00"
 }

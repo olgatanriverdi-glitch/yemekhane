@@ -1010,7 +1010,8 @@
       "name": "Ayran"
      }
     ],
-    "kcal": 1534
+    "kcal": 1534,
+    "photo": "photos/lib/1bef3c58250a.jpg"
    },
    "vegetarian": {
     "items": [
@@ -1458,5 +1459,5 @@
   }
  },
  "university": "ankara",
- "updated": "2026-11-20T01:41:55+03:00"
+ "updated": "2026-11-20T14:42:55+03:00"
 }

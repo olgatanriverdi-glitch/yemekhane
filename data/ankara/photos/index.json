@@ -29,7 +29,8 @@
   "2026-11-16": "c1397cac871e",
   "2026-11-17": "60eab455cb15",
   "2026-11-18": "6c2b5a59d5a6",
-  "2026-11-19": "afb67ff41e7b"
+  "2026-11-19": "afb67ff41e7b",
+  "2026-11-20": "1bef3c58250a"
  },
  "main": {
   "025eacfe0c": "8f579a24b2f7",
@@ -53,6 +54,7 @@
   "b7f7a0ca2b": "78be4bc465a4",
   "c85992c287": "4efd187fede8",
   "de62be9b48": "164fe8b5ccd4",
+  "ebc25b3f12": "1bef3c58250a",
   "f029cd24e9": "f6784bbc19c2",
   "fbb76e65c4": "7b746a136ea2",
   "fc648efe4b": "1b48a108505e",
@@ -106,6 +108,16 @@
     "Kırmızı Mercimek Çorba",
     "Lahmacun",
     "Menekşe Salata",
+    "Ayran"
+   ]
+  },
+  "1bef3c58250a": {
+   "added": "2026-11-20",
+   "hash": "1d6393e19c9a3b35487893f3430de7d0bf33f443",
+   "items": [
+    "Ezogelin Çorba",
+    "Izgara Tavuk Kanat/Patates Garnitür",
+    "Soslu Makarna",
     "Ayran"
    ]
   },

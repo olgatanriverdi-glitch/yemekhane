@@ -236,6 +236,7 @@
       "name": "Mercimek Çorba"
      },
      {
+      "img": "dishes/8ea7d50ecd.jpg",
       "key": "8ea7d50ecd",
       "name": "Etli Ankara Tava"
      },
@@ -262,6 +263,7 @@
       "name": "Süzme Mercimek Çorba"
      },
      {
+      "img": "dishes/729e1dc359.jpg",
       "key": "729e1dc359",
       "name": "Et Döner + Pilav"
      },
@@ -534,5 +536,5 @@
   }
  },
  "university": "giresun",
- "updated": "2026-11-20T01:41:55+03:00"
+ "updated": "2026-11-20T14:42:55+03:00"
 }

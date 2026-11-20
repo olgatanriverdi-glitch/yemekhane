@@ -70,8 +70,8 @@
      },
      {
       "kcal": 310,
-      "key": "fc234c58bc",
-      "name": "Tel Şehriyeli Pirinç Pilavı"
+      "key": "70ddba17c0",
+      "name": "Arpa Şehriyeli Pirinç Pilavı"
      },
      {
       "img": "dishes/2610f75ca2.jpg",
@@ -131,8 +131,8 @@
      },
      {
       "kcal": 310,
-      "key": "fc234c58bc",
-      "name": "Tel Şehriyeli Pirinç Pilavı"
+      "key": "70ddba17c0",
+      "name": "Arpa Şehriyeli Pirinç Pilavı"
      },
      {
       "kcal": 120,
@@ -252,8 +252,8 @@
      },
      {
       "kcal": 310,
-      "key": "fc234c58bc",
-      "name": "Tel Şehriyeli Pirinç Pilavı"
+      "key": "70ddba17c0",
+      "name": "Arpa Şehriyeli Pirinç Pilavı"
      },
      {
       "img": "dishes/9c8d655ef5.jpg",
@@ -425,5 +425,5 @@
   }
  },
  "university": "cukurova",
- "updated": "2026-11-20T01:41:55+03:00"
+ "updated": "2026-11-20T14:42:55+03:00"
 }

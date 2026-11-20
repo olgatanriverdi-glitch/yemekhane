@@ -573,10 +573,8 @@
       "name": "Balık Kızartma"
      },
      {
-      "img": "dishes/97a7f04327.jpg",
-      "kcal": 331,
-      "key": "97a7f04327",
-      "name": "Piyaz"
+      "key": "971031d51c",
+      "name": "Roka Marul Turp Salatası"
      },
      {
       "img": "dishes/1087b76fa2.jpg",
@@ -1250,5 +1248,5 @@
   }
  },
  "university": "neu",
- "updated": "2026-11-20T01:41:55+03:00"
+ "updated": "2026-11-20T14:42:55+03:00"
 }

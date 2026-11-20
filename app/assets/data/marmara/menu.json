@@ -263,10 +263,10 @@
       "name": "Sebze çorbası"
      },
      {
-      "img": "dishes/f39ca85dc7.jpg",
-      "kcal": 330,
-      "key": "f39ca85dc7",
-      "name": "İçli Köfte (püre ile)"
+      "img": "dishes/4cea6f0177.jpg",
+      "kcal": 260,
+      "key": "4cea6f0177",
+      "name": "İçli Köfte (Domates Biber)"
      },
      {
       "kcal": 365,
@@ -286,7 +286,7 @@
       "name": "Mevsim Salatası"
      }
     ],
-    "kcal": 870
+    "kcal": 800
    },
    "vegetarian": {
     "items": [
@@ -320,5 +320,5 @@
   }
  },
  "university": "marmara",
- "updated": "2026-11-20T01:41:55+03:00"
+ "updated": "2026-11-20T14:42:55+03:00"
 }

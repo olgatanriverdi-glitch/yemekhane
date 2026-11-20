@@ -1,66 +1,5 @@
 {
  "days": {
-  "2026-11-18": {
-   "dinner": {
-    "items": [
-     {
-      "img": "dishes/5d3038c41b.jpg",
-      "key": "5d3038c41b",
-      "name": "Yayla Çorbası"
-     },
-     {
-      "key": "007b19b638",
-      "name": "Kıymalı Yeşil Mercimek"
-     },
-     {
-      "img": "dishes/25b07cf14e.jpg",
-      "key": "25b07cf14e",
-      "name": "Bulgur Pilavı"
-     },
-     {
-      "key": "79ded7ea04",
-      "name": "Havuç Tarator"
-     },
-     {
-      "img": "dishes/16f3b1855e.jpg",
-      "key": "16f3b1855e",
-      "name": "Lokma Tatlısı"
-     }
-    ]
-   },
-   "lunch": {
-    "items": [
-     {
-      "img": "dishes/4fb733faf2.jpg",
-      "key": "4fb733faf2",
-      "name": "Ezogelin Çorbası"
-     },
-     {
-      "key": "c9f339e92e",
-      "name": "Balık Kızartma (Uskumru)"
-     },
-     {
-      "img": "dishes/0b9e39c61a.jpg",
-      "key": "0b9e39c61a",
-      "name": "Salçalı Makarna"
-     },
-     {
-      "img": "dishes/dd66771e28.jpg",
-      "key": "dd66771e28",
-      "name": "Yer Fıstıklı İrmik Helvası"
-     },
-     {
-      "img": "dishes/3d7b828baf.jpg",
-      "key": "3d7b828baf",
-      "name": "Şalgam Suyu"
-     },
-     {
-      "key": "7deef2ea4e",
-      "name": "Garnitür Roka Salatası"
-     }
-    ]
-   }
-  },
   "2026-11-19": {
    "dinner": {
     "items": [
@@ -717,5 +656,5 @@
   }
  },
  "university": "itu",
- "updated": "2026-11-20T01:41:55+03:00"
+ "updated": "2026-11-20T14:42:55+03:00"
 }

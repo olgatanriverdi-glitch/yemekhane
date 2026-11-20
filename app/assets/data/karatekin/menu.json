@@ -429,10 +429,10 @@
       "name": "Domates Çorba"
      },
      {
-      "img": "dishes/a8071a33a4.jpg",
+      "img": "dishes/b3efb31ca2.jpg",
       "kcal": 484,
-      "key": "a8071a33a4",
-      "name": "Tavuk Burger"
+      "key": "b3efb31ca2",
+      "name": "Et Burger"
      },
      {
       "kcal": 107,
@@ -602,5 +602,5 @@
   }
  },
  "university": "karatekin",
- "updated": "2026-11-20T01:41:55+03:00"
+ "updated": "2026-11-20T14:42:55+03:00"
 }
