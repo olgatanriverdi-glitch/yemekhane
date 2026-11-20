@@ -146,6 +146,7 @@
    "lunch": {
     "items": [
      {
+      "img": "dishes/d77570ae35.jpg",
       "key": "d77570ae35",
       "name": "Fırında Tavuk Baget"
      },
@@ -499,5 +500,5 @@
   }
  },
  "university": "bingol",
- "updated": "2026-11-20T14:42:55+03:00"
+ "updated": "2026-11-21T01:16:04+03:00"
 }

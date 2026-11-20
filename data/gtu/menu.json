@@ -1,58 +1,5 @@
 {
  "days": {
-  "2026-10-06": {
-   "lunch": {
-    "items": [
-     {
-      "img": "dishes/f98b465287.jpg",
-      "kcal": 192,
-      "key": "f98b465287",
-      "name": "Yayla Çorba"
-     },
-     {
-      "img": "dishes/415cd292c5.jpg",
-      "kcal": 383,
-      "key": "415cd292c5",
-      "name": "Kıymalı Patates Oturtma"
-     },
-     {
-      "img": "dishes/246525a1c0.jpg",
-      "kcal": 382,
-      "key": "246525a1c0",
-      "name": "Şehriyeli Bulgur Pilavı"
-     },
-     {
-      "img": "dishes/abad8aab8e.jpg",
-      "kcal": 346,
-      "key": "abad8aab8e",
-      "name": "Napoliten Soslu Makarna"
-     },
-     {
-      "img": "dishes/75fbb01a4f.jpg",
-      "kcal": 280,
-      "key": "75fbb01a4f",
-      "name": "Damla Sakızlı Muhallebi"
-     },
-     {
-      "img": "dishes/ea0310f0eb.jpg",
-      "kcal": 163,
-      "key": "ea0310f0eb",
-      "name": "Zeytinyağlı Bamya"
-     },
-     {
-      "kcal": 26,
-      "key": "4296eb7fda",
-      "name": "Roka Salata"
-     },
-     {
-      "kcal": 121,
-      "key": "0fddc05415",
-      "name": "Kabak Tarator"
-     }
-    ],
-    "kcal": 1893
-   }
-  },
   "2026-10-07": {
    "lunch": {
     "items": [
@@ -1406,5 +1353,5 @@
   }
  },
  "university": "gtu",
- "updated": "2026-11-20T14:42:55+03:00"
+ "updated": "2026-11-21T01:16:04+03:00"
 }

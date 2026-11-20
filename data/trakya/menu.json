@@ -370,6 +370,32 @@
     "kcal": 1001
    }
   },
+  "2026-11-20": {
+   "lunch": {
+    "items": [
+     {
+      "img": "dishes/d61d397136.jpg",
+      "key": "d61d397136",
+      "name": "Süzme Mercimek Çorba"
+     },
+     {
+      "key": "8f58a53982",
+      "name": "Sebze Graten"
+     },
+     {
+      "img": "dishes/221278edb6.jpg",
+      "key": "221278edb6",
+      "name": "Spagetti Napoliten"
+     },
+     {
+      "img": "dishes/ed17271d58.jpg",
+      "key": "ed17271d58",
+      "name": "Meyve"
+     }
+    ],
+    "kcal": 985
+   }
+  },
   "2026-11-23": {
    "lunch": {
     "items": [
@@ -527,5 +553,5 @@
   }
  },
  "university": "trakya",
- "updated": "2026-11-20T14:42:55+03:00"
+ "updated": "2026-11-21T01:16:04+03:00"
 }

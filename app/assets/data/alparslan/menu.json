@@ -56,6 +56,7 @@
       "name": "Pirinç Pilavı"
      },
      {
+      "img": "dishes/bd5a2fd1c7.jpg",
       "kcal": 180,
       "key": "bd5a2fd1c7",
       "name": "Analı Kızlı Çorbası"
@@ -74,6 +75,7 @@
    "lunch": {
     "items": [
      {
+      "img": "dishes/394c686977.jpg",
       "kcal": 340,
       "key": "394c686977",
       "name": "Kasap Köfte/Püre"
@@ -641,5 +643,5 @@
   }
  },
  "university": "alparslan",
- "updated": "2026-11-20T14:42:55+03:00"
+ "updated": "2026-11-21T01:16:04+03:00"
 }

@@ -157,6 +157,7 @@
       "name": "Şehriyeli Pirinç Pilavı/Şakşuka (Yoğurt)"
      },
      {
+      "img": "dishes/d6ce540e99.jpg",
       "key": "d6ce540e99",
       "name": "Ayran/Mevsim Salata/Etimek Tatlısı"
      }
@@ -181,6 +182,7 @@
       "name": "Meksika Tava"
      },
      {
+      "img": "dishes/ff8487e71e.jpg",
       "key": "ff8487e71e",
       "name": "Kabak Mücver (Yoğurt)"
      },
@@ -189,6 +191,7 @@
       "name": "Şehriyeli Pirinç Pilavı/Meyhane Pilavı"
      },
      {
+      "img": "dishes/053bbfd299.jpg",
       "key": "053bbfd299",
       "name": "Yoğurt/Yeşil Salata/Browni Kek"
      }
@@ -208,10 +211,12 @@
       "name": "Kadınbudu Tavuklu Sultan Köfte (Püre)"
      },
      {
+      "img": "dishes/3943ec5118.jpg",
       "key": "3943ec5118",
       "name": "Kebabı"
      },
      {
+      "img": "dishes/d36530a847.jpg",
       "key": "d36530a847",
       "name": "Lahana Sarma (Yoğurt)"
      },
@@ -220,6 +225,7 @@
       "name": "Şehriyeli Pirinç Pilavı/Ispanaklı Peynirli Tepsi Böreği"
      },
      {
+      "img": "dishes/46e0f37418.jpg",
       "key": "46e0f37418",
       "name": "Ayran/Mevsim Salata/Mercimek Köftesi"
      }
@@ -246,6 +252,7 @@
       "name": "Şehriyeli Pirinç Pilavı/Fırın Makarna"
      },
      {
+      "img": "dishes/3499ecf274.jpg",
       "key": "3499ecf274",
       "name": "Yoğurt/Yeşil Salata/Fındıklı Şekerpare"
      }
@@ -278,6 +285,7 @@
       "name": "Şehriyeli Pirinç Pilavı/Meyhane Pilavı"
      },
      {
+      "img": "dishes/9882afc291.jpg",
       "key": "9882afc291",
       "name": "Ayran/Mevsim Salata/Acılı Ezme"
      }
@@ -288,6 +296,7 @@
    "lunch": {
     "items": [
      {
+      "img": "dishes/a2baa5c5aa.jpg",
       "key": "a2baa5c5aa",
       "name": "Kremalı Tavuk Suyu Çorba"
      },
@@ -365,6 +374,7 @@
       "name": "Lavaş Tavuk Tantuni"
      },
      {
+      "img": "dishes/ff8487e71e.jpg",
       "key": "ff8487e71e",
       "name": "Kabak Mücver (Yoğurt)"
      },
@@ -520,6 +530,7 @@
       "name": "Patates"
      },
      {
+      "img": "dishes/ff8487e71e.jpg",
       "key": "ff8487e71e",
       "name": "Kabak Mücver (Yoğurt)"
      },
@@ -610,6 +621,7 @@
       "name": "Tavuk Tandır (Püre)"
      },
      {
+      "img": "dishes/d36530a847.jpg",
       "key": "d36530a847",
       "name": "Lahana Sarma (Yoğurt)"
      },
@@ -658,5 +670,5 @@
   }
  },
  "university": "odu",
- "updated": "2026-11-20T14:42:55+03:00"
+ "updated": "2026-11-21T01:16:04+03:00"
 }

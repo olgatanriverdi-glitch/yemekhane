@@ -226,6 +226,7 @@
       "name": "Ezogelin Çorbası"
      },
      {
+      "img": "dishes/0757ae33fc.jpg",
       "kcal": 251,
       "key": "0757ae33fc",
       "name": "Püreli Tas Kebap"
@@ -249,11 +250,13 @@
    "lunch": {
     "items": [
      {
+      "img": "dishes/158deb1010.jpg",
       "kcal": 188,
       "key": "158deb1010",
       "name": "Kesme Aşı Çorbası"
      },
      {
+      "img": "dishes/edbc433fe1.jpg",
       "kcal": 226,
       "key": "edbc433fe1",
       "name": "Soslu Tavuk"
@@ -307,6 +310,7 @@
    "lunch": {
     "items": [
      {
+      "img": "dishes/d6eb157ca3.jpg",
       "kcal": 60,
       "key": "d6eb157ca3",
       "name": "Analı Kızlı Çorba"
@@ -341,6 +345,7 @@
       "name": "Sütlü Ispanak Çorbası"
      },
      {
+      "img": "dishes/0757ae33fc.jpg",
       "kcal": 251,
       "key": "0757ae33fc",
       "name": "Püreli Tas Kebap"
@@ -491,6 +496,7 @@
       "name": "Düğün Çorbası"
      },
      {
+      "img": "dishes/edbc433fe1.jpg",
       "kcal": 226,
       "key": "edbc433fe1",
       "name": "Soslu Tavuk"
@@ -725,6 +731,7 @@
    "lunch": {
     "items": [
      {
+      "img": "dishes/158deb1010.jpg",
       "kcal": 144,
       "key": "158deb1010",
       "name": "Kesme Aşı Çorbası"
@@ -789,6 +796,7 @@
       "name": "Ezogelin Çorbası"
      },
      {
+      "img": "dishes/edbc433fe1.jpg",
       "kcal": 169,
       "key": "edbc433fe1",
       "name": "Soslu Tavuk"
@@ -1022,6 +1030,7 @@
    "lunch": {
     "items": [
      {
+      "img": "dishes/158deb1010.jpg",
       "kcal": 144,
       "key": "158deb1010",
       "name": "Kesme Aşı Çorbası"
@@ -1092,6 +1101,7 @@
       "name": "Tavuk Izgara"
      },
      {
+      "img": "dishes/1c0ee9b6b5.jpg",
       "kcal": 350,
       "key": "1c0ee9b6b5",
       "name": "Kıymalı Börek"
@@ -1137,5 +1147,5 @@
   }
  },
  "university": "kafkas",
- "updated": "2026-11-20T14:42:55+03:00"
+ "updated": "2026-11-21T01:16:04+03:00"
 }

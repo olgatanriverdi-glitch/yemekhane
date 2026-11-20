@@ -1,77 +1,5 @@
 {
  "days": {
-  "2026-10-06": {
-   "lunch": {
-    "items": [
-     {
-      "img": "dishes/bf8474c8b9.jpg",
-      "kcal": 195,
-      "key": "bf8474c8b9",
-      "name": "Ezogelin Çorba"
-     },
-     {
-      "img": "dishes/6b106383ab.jpg",
-      "kcal": 298,
-      "key": "6b106383ab",
-      "name": "Etli Biber Dolması"
-     },
-     {
-      "img": "dishes/831b0f20cf.jpg",
-      "kcal": 250,
-      "key": "831b0f20cf",
-      "name": "Su Böreği"
-     },
-     {
-      "img": "dishes/9c8d655ef5.jpg",
-      "kcal": 152,
-      "key": "9c8d655ef5",
-      "name": "Yoğurt"
-     },
-     {
-      "img": "dishes/9c2a89017d.jpg",
-      "kcal": 285,
-      "key": "9c2a89017d",
-      "name": "Soğuk Baklava"
-     }
-    ],
-    "kcal": 1180
-   },
-   "vegetarian": {
-    "items": [
-     {
-      "img": "dishes/bf8474c8b9.jpg",
-      "kcal": 195,
-      "key": "bf8474c8b9",
-      "name": "Ezogelin Çorba"
-     },
-     {
-      "img": "dishes/e005889ac8.jpg",
-      "kcal": 200,
-      "key": "e005889ac8",
-      "name": "Etsiz Biber Dolma"
-     },
-     {
-      "img": "dishes/831b0f20cf.jpg",
-      "kcal": 250,
-      "key": "831b0f20cf",
-      "name": "Su Böreği"
-     },
-     {
-      "img": "dishes/9c8d655ef5.jpg",
-      "kcal": 152,
-      "key": "9c8d655ef5",
-      "name": "Yoğurt"
-     },
-     {
-      "img": "dishes/9c2a89017d.jpg",
-      "kcal": 285,
-      "key": "9c2a89017d",
-      "name": "Soğuk Baklava"
-     }
-    ],
-    "kcal": 1082
-   }
-  },
   "2026-10-07": {
    "lunch": {
     "items": [
@@ -2198,10 +2126,10 @@
       "name": "Fırında Balık"
      },
      {
-      "img": "dishes/d3d0c7a5cd.jpg",
+      "img": "dishes/464382c567.jpg",
       "kcal": 300,
-      "key": "d3d0c7a5cd",
-      "name": "Patatesli Kol Böreği"
+      "key": "464382c567",
+      "name": "Patetesli Kol Börek"
      },
      {
       "kcal": 55,
@@ -2231,10 +2159,10 @@
       "name": "Sebze Yemeği"
      },
      {
-      "img": "dishes/d3d0c7a5cd.jpg",
+      "img": "dishes/464382c567.jpg",
       "kcal": 300,
-      "key": "d3d0c7a5cd",
-      "name": "Patatesli Kol Böreği"
+      "key": "464382c567",
+      "name": "Patetesli Kol Börek"
      },
      {
       "kcal": 55,
@@ -2671,5 +2599,5 @@
   }
  },
  "university": "asbu",
- "updated": "2026-11-20T14:42:55+03:00"
+ "updated": "2026-11-21T01:16:04+03:00"
 }

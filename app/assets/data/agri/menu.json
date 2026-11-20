@@ -331,8 +331,33 @@
     ],
     "kcal": 985
    }
+  },
+  "2026-11-23": {
+   "lunch": {
+    "items": [
+     {
+      "key": "191500c40b",
+      "name": "Etli Düğün Çorbası"
+     },
+     {
+      "img": "dishes/17d2e9100f.jpg",
+      "key": "17d2e9100f",
+      "name": "Tavuk Döner"
+     },
+     {
+      "img": "dishes/25b07cf14e.jpg",
+      "key": "25b07cf14e",
+      "name": "Bulgur Pilavı"
+     },
+     {
+      "img": "dishes/16b5c22561.jpg",
+      "key": "16b5c22561",
+      "name": "Ayran"
+     }
+    ]
+   }
   }
  },
  "university": "agri",
- "updated": "2026-11-20T14:42:55+03:00"
+ "updated": "2026-11-21T01:16:04+03:00"
 }

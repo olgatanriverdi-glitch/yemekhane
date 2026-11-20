@@ -419,6 +419,34 @@
     "kcal": 820
    }
   },
+  "2026-11-20": {
+   "lunch": {
+    "items": [
+     {
+      "img": "dishes/4782e4b30f.jpg",
+      "kcal": 141,
+      "key": "4782e4b30f",
+      "name": "Şehriye Çorba"
+     },
+     {
+      "kcal": 308,
+      "key": "aa7693cadb",
+      "name": "Püreli Köfte"
+     },
+     {
+      "kcal": 303,
+      "key": "8636bfbc0a",
+      "name": "Pirinç Pilavı"
+     },
+     {
+      "kcal": 59,
+      "key": "f1db7bea12",
+      "name": "Havuç-Turp Salatası"
+     }
+    ],
+    "kcal": 811
+   }
+  },
   "2026-11-23": {
    "lunch": {
     "items": [
@@ -602,5 +630,5 @@
   }
  },
  "university": "karatekin",
- "updated": "2026-11-20T14:42:55+03:00"
+ "updated": "2026-11-21T01:16:04+03:00"
 }

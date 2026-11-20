@@ -1,29 +1,5 @@
 {
  "days": {
-  "2026-10-06": {
-   "lunch": {
-    "items": [
-     {
-      "img": "dishes/cc7782af18.jpg",
-      "key": "cc7782af18",
-      "name": "Yarma Çorba"
-     },
-     {
-      "key": "fd44657e50",
-      "name": "Tavuk Pane"
-     },
-     {
-      "key": "003099ee9f",
-      "name": "Ispanak Graten"
-     },
-     {
-      "img": "dishes/a765c7c985.jpg",
-      "key": "a765c7c985",
-      "name": "Komposto"
-     }
-    ]
-   }
-  },
   "2026-10-07": {
    "lunch": {
     "items": [
@@ -672,5 +648,5 @@
   }
  },
  "university": "omu",
- "updated": "2026-11-20T14:42:55+03:00"
+ "updated": "2026-11-21T01:16:04+03:00"
 }

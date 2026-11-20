@@ -1,45 +1,5 @@
 {
  "days": {
-  "2026-10-06": {
-   "lunch": {
-    "items": [
-     {
-      "kcal": 118,
-      "key": "8bff211075",
-      "name": "Şehriyeli Tavuksuyu Çorba"
-     },
-     {
-      "img": "dishes/890b8e3990.jpg",
-      "kcal": 307,
-      "key": "890b8e3990",
-      "name": "Etli Nohut"
-     },
-     {
-      "img": "dishes/7b9bea9b00.jpg",
-      "kcal": 300,
-      "key": "7b9bea9b00",
-      "name": "İmambayıldı"
-     },
-     {
-      "img": "dishes/246525a1c0.jpg",
-      "kcal": 313,
-      "key": "246525a1c0",
-      "name": "Şehriyeli Bulgur Pilavı"
-     },
-     {
-      "img": "dishes/e430bca6db.jpg",
-      "kcal": 126,
-      "key": "e430bca6db",
-      "name": "Haydari"
-     },
-     {
-      "img": "dishes/904e9c87e9.jpg",
-      "key": "904e9c87e9",
-      "name": "Şekerpare"
-     }
-    ]
-   }
-  },
   "2026-10-07": {
    "lunch": {
     "items": [
@@ -1703,5 +1663,5 @@
   }
  },
  "university": "ktu",
- "updated": "2026-11-20T14:42:55+03:00"
+ "updated": "2026-11-21T01:16:04+03:00"
 }

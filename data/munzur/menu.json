@@ -159,6 +159,7 @@
       "name": "Domates Çorbası"
      },
      {
+      "img": "dishes/2ef7adb566.jpg",
       "key": "2ef7adb566",
       "name": "Sebzeli Baget Tavuk"
      },
@@ -179,6 +180,7 @@
    "lunch": {
     "items": [
      {
+      "img": "dishes/987a9aba42.jpg",
       "key": "987a9aba42",
       "name": "Ayran Aşı Çorbası"
      },
@@ -523,5 +525,5 @@
   }
  },
  "university": "munzur",
- "updated": "2026-11-20T14:42:55+03:00"
+ "updated": "2026-11-21T01:16:04+03:00"
 }

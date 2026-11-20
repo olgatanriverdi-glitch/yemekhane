@@ -1,34 +1,5 @@
 {
  "days": {
-  "2026-10-06": {
-   "lunch": {
-    "items": [
-     {
-      "kcal": 180,
-      "key": "8537cbf8e8",
-      "name": "Köylüm Çorba"
-     },
-     {
-      "kcal": 430,
-      "key": "72ee32990d",
-      "name": "Tavuk Külbastı + Patates Kızartma"
-     },
-     {
-      "img": "dishes/18ccb4d264.jpg",
-      "kcal": 210,
-      "key": "18ccb4d264",
-      "name": "Soslu Makarna"
-     },
-     {
-      "img": "dishes/16b5c22561.jpg",
-      "kcal": 90,
-      "key": "16b5c22561",
-      "name": "Ayran"
-     }
-    ],
-    "kcal": 910
-   }
-  },
   "2026-10-07": {
    "lunch": {
     "items": [
@@ -1143,5 +1114,5 @@
   }
  },
  "university": "trabzon",
- "updated": "2026-11-20T14:42:55+03:00"
+ "updated": "2026-11-21T01:16:04+03:00"
 }

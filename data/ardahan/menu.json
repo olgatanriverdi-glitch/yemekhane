@@ -349,6 +349,7 @@
       "name": "Köylü Çorbası"
      },
      {
+      "img": "dishes/0e1fb63251.jpg",
       "key": "0e1fb63251",
       "name": "Biber Dolma/Yoğurt"
      },
@@ -357,6 +358,7 @@
       "name": "Talaş Böreği"
      },
      {
+      "img": "dishes/f63631a999.jpg",
       "key": "f63631a999",
       "name": "Meyveli Mozaik Pasta"
      }
@@ -407,6 +409,7 @@
       "name": "Zeytinyağlı Kış Türlüsü"
      },
      {
+      "img": "dishes/1a99535b27.jpg",
       "key": "1a99535b27",
       "name": "Ayva Pelteli Muhallebili Kup"
      }
@@ -516,5 +519,5 @@
   }
  },
  "university": "ardahan",
- "updated": "2026-11-20T14:42:55+03:00"
+ "updated": "2026-11-21T01:16:04+03:00"
 }

@@ -422,9 +422,10 @@
       "name": "Ezogelin Çorba"
      },
      {
+      "img": "dishes/e6a398f38f.jpg",
       "kcal": 250,
-      "key": "70857d3c7b",
-      "name": "Kıymalı Sebze"
+      "key": "e6a398f38f",
+      "name": "Bezelye Yemeği"
      },
      {
       "img": "dishes/246525a1c0.jpg",
@@ -623,5 +624,5 @@
   }
  },
  "university": "hbv",
- "updated": "2026-11-20T01:41:55+03:00"
+ "updated": "2026-11-21T01:16:04+03:00"
 }

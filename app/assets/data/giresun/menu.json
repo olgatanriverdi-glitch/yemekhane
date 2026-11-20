@@ -439,10 +439,12 @@
    "lunch": {
     "items": [
      {
+      "img": "dishes/b12dfa4c7f.jpg",
       "key": "b12dfa4c7f",
       "name": "Şehriyeli Tarhana Çorba"
      },
      {
+      "img": "dishes/10fe82ffe9.jpg",
       "key": "10fe82ffe9",
       "name": "Ekmek Arası Tavuk Döner"
      },
@@ -536,5 +538,5 @@
   }
  },
  "university": "giresun",
- "updated": "2026-11-20T14:42:55+03:00"
+ "updated": "2026-11-21T01:16:04+03:00"
 }

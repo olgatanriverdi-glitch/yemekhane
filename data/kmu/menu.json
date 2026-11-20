@@ -463,6 +463,7 @@
    "lunch": {
     "items": [
      {
+      "img": "dishes/afe09e3c98.jpg",
       "key": "afe09e3c98",
       "name": "Yüksük Çorbası"
      },
@@ -538,5 +539,5 @@
   }
  },
  "university": "kmu",
- "updated": "2026-11-20T14:42:55+03:00"
+ "updated": "2026-11-21T01:16:04+03:00"
 }
