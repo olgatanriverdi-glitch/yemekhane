@@ -212,6 +212,7 @@
       "name": "Tavuk Suyu Çorbası"
      },
      {
+      "img": "dishes/e3fe7a378a.jpg",
       "key": "e3fe7a378a",
       "name": "Patlıcan Musakka/Bahçıvan Kebabı"
      },
@@ -264,6 +265,7 @@
       "name": "Süzme Mercimek Çorbası"
      },
      {
+      "img": "dishes/dec71925ed.jpg",
       "key": "dec71925ed",
       "name": "Tavuk Haşlama/Orman Kebabı"
      },
@@ -288,6 +290,7 @@
       "name": "Tavuk Suyu Çorbası"
      },
      {
+      "img": "dishes/1c367ddfce.jpg",
       "key": "1c367ddfce",
       "name": "İzmir Köfte/Kabak Kalye"
      },
@@ -313,6 +316,7 @@
       "name": "Ezogelin Çorbası"
      },
      {
+      "img": "dishes/e4c9ca848c.jpg",
       "key": "e4c9ca848c",
       "name": "Et Tantuni/Tavuk Tantuni+Patates Kızartması"
      },
@@ -339,6 +343,7 @@
       "name": "Mercimek Çorbası"
      },
      {
+      "img": "dishes/0eed10102b.jpg",
       "key": "0eed10102b",
       "name": "Sebzeli Kebap/Etli Bezelye"
      },
@@ -365,6 +370,7 @@
       "name": "Şehriye Çorbası"
      },
      {
+      "img": "dishes/7f9db4b029.jpg",
       "key": "7f9db4b029",
       "name": "Mantı/Çıtır Baget+Patates Kızartması"
      },
@@ -535,5 +541,5 @@
   }
  },
  "university": "sirnak",
- "updated": "2026-11-21T14:04:36+03:00"
+ "updated": "2026-11-21T23:55:03+03:00"
 }

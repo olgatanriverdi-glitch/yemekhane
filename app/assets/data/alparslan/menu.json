@@ -364,6 +364,7 @@
       "name": "Tavuk Şinitzel (Pirinç Pilavı"
      },
      {
+      "img": "dishes/fa9240cd34.jpg",
       "kcal": 180,
       "key": "fa9240cd34",
       "name": "Arap Aşı Çorbası"
@@ -595,6 +596,7 @@
       "name": "Etli Nohut"
      },
      {
+      "img": "dishes/b92586ea5a.jpg",
       "kcal": 260,
       "key": "b92586ea5a",
       "name": "Tavuk Çöp Şiş"
@@ -634,6 +636,7 @@
       "name": "Tavada Balık (Palamut)"
      },
      {
+      "img": "dishes/2e811d5d4f.jpg",
       "kcal": 230,
       "key": "2e811d5d4f",
       "name": "Bulgur Pilavı (Ezogelin Çorbası"
@@ -650,5 +653,5 @@
   }
  },
  "university": "alparslan",
- "updated": "2026-11-21T14:04:36+03:00"
+ "updated": "2026-11-21T23:55:03+03:00"
 }

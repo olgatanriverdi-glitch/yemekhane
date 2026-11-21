@@ -514,6 +514,7 @@
       "name": "Şehriyeli Pirinç Pilavı/Fesleğen Soslu Penne Makarna"
      },
      {
+      "img": "dishes/80101de8db.jpg",
       "key": "80101de8db",
       "name": "Yoğurt/Akdeniz Salatası/Tulumba Tatlısı"
      }
@@ -528,6 +529,7 @@
       "name": "Toyga Çorba"
      },
      {
+      "img": "dishes/1e3a037b1a.jpg",
       "key": "1e3a037b1a",
       "name": "Etli Güveç Lavaş Tavuk Döner (Fırın Elma Dilim Domates,Biber)"
      },
@@ -545,6 +547,7 @@
       "name": "Şehriyeli Pirinç Pilavı/Meyhane Pilavı"
      },
      {
+      "img": "dishes/03b569d597.jpg",
       "key": "03b569d597",
       "name": "Ayran/Mercimek Köfte/Mevsim Salata"
      }
@@ -573,6 +576,7 @@
       "name": "Şehriyeli Pirinç Pilavı/Ispanaklı Peynirli Gül Böreği"
      },
      {
+      "img": "dishes/245298e81f.jpg",
       "key": "245298e81f",
       "name": "Ayran/Yeşil Salata/Etimek Tatlısı"
      }
@@ -604,6 +608,7 @@
       "name": "Garnitürlü Pirinç Pilavı/Domatesli Bulgur Pilavı"
      },
      {
+      "img": "dishes/eed1e3b741.jpg",
       "key": "eed1e3b741",
       "name": "Yoğurt/Köz Kapya Biberli Salata/Meyve"
      }
@@ -636,6 +641,7 @@
       "name": "Şehriyeli Pirinç Pilavı/Fırın Makarna"
      },
      {
+      "img": "dishes/4995cc7bae.jpg",
       "key": "4995cc7bae",
       "name": "Cacık/Mevsim Salata/Fırın Sütlaç"
      }
@@ -668,6 +674,7 @@
       "name": "Şehriyeli Pirinç Pilavı/Meyhane Pilavı"
      },
      {
+      "img": "dishes/144c92fdff.jpg",
       "key": "144c92fdff",
       "name": "Yoğurt/Yeşil Salata/Şerbetli İrmik Tatlısı"
      }
@@ -676,5 +683,5 @@
   }
  },
  "university": "odu",
- "updated": "2026-11-21T14:04:36+03:00"
+ "updated": "2026-11-21T23:55:03+03:00"
 }

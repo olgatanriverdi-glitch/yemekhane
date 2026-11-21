@@ -67,6 +67,7 @@
       "name": "Mercimek Çorbası"
      },
      {
+      "img": "dishes/b1e96f2a1b.jpg",
       "key": "b1e96f2a1b",
       "name": "Sac Kavurma"
      },
@@ -598,5 +599,5 @@
   }
  },
  "university": "tarsus",
- "updated": "2026-11-21T14:04:36+03:00"
+ "updated": "2026-11-21T23:55:03+03:00"
 }

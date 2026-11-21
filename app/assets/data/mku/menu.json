@@ -95,6 +95,7 @@
    "lunch": {
     "items": [
      {
+      "img": "dishes/a4da32c68e.jpg",
       "kcal": 180,
       "key": "a4da32c68e",
       "name": "Kıymalı Yeşil Mercimek Çorbası"
@@ -622,5 +623,5 @@
   }
  },
  "university": "mku",
- "updated": "2026-11-21T14:04:36+03:00"
+ "updated": "2026-11-21T23:55:03+03:00"
 }

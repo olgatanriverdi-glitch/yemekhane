@@ -854,6 +854,7 @@
    "dinner": {
     "items": [
      {
+      "img": "dishes/0eeab5ca9e.jpg",
       "key": "0eeab5ca9e",
       "name": "Sebzeli Kağıt Kebabı"
      },
@@ -1053,5 +1054,5 @@
   }
  },
  "university": "adiyaman",
- "updated": "2026-11-21T14:04:36+03:00"
+ "updated": "2026-11-21T23:55:03+03:00"
 }

@@ -78,6 +78,7 @@
    "lunch": {
     "items": [
      {
+      "img": "dishes/6d35298cb6.jpg",
       "key": "6d35298cb6",
       "name": "Pilav Üst. Dana Tandır"
      },
@@ -514,5 +515,5 @@
   }
  },
  "university": "kilis",
- "updated": "2026-11-21T14:04:36+03:00"
+ "updated": "2026-11-21T23:55:03+03:00"
 }

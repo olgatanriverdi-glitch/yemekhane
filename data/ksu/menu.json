@@ -338,6 +338,7 @@
       "name": "Ekşili Köfte"
      },
      {
+      "img": "dishes/a71bacd75a.jpg",
       "kcal": 285,
       "key": "a71bacd75a",
       "name": "Dövme Pilavı"
@@ -626,5 +627,5 @@
   }
  },
  "university": "ksu",
- "updated": "2026-11-21T14:04:36+03:00"
+ "updated": "2026-11-21T23:55:03+03:00"
 }
