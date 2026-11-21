@@ -319,6 +319,7 @@
       "name": "Şehriyeli Pirinç Pilavı/Şakşuka (Yoğurt)"
      },
      {
+      "img": "dishes/b90e0fd8c1.jpg",
       "key": "b90e0fd8c1",
       "name": "Ayran/Çoban Salata/Üzümlü Havuçlu Kek"
      }
@@ -350,6 +351,7 @@
       "name": "Şehriyeli Pirinç Pilavı/Soslu Spagetti"
      },
      {
+      "img": "dishes/3938067a97.jpg",
       "key": "3938067a97",
       "name": "Yoğurt/Kısır/Krem Şantili Revani"
      }
@@ -398,6 +400,7 @@
       "name": "Ezogelin Çorba"
      },
      {
+      "img": "dishes/0eb1d8922c.jpg",
       "key": "0eb1d8922c",
       "name": "Hamburger Menü (Fırın Elma Dilim Patates)"
      },
@@ -414,6 +417,7 @@
       "name": "Şehriyeli Pirinç Pilavı/Patatesli Sigara Böreği"
      },
      {
+      "img": "dishes/fc15c09f3b.jpg",
       "key": "fc15c09f3b",
       "name": "Ayran/Akdeniz Salatası/Dondurma"
      }
@@ -445,6 +449,7 @@
       "name": "Şehriyeli Pirinç Pilavı/Fırın Makarna"
      },
      {
+      "img": "dishes/25ec873d66.jpg",
       "key": "25ec873d66",
       "name": "Ayran/Çoban Salata/Rus Salatası"
      }
@@ -477,6 +482,7 @@
       "name": "Şehriyeli Pirinç Pilavı/Garnitürlü Bulgur Pilavı"
      },
      {
+      "img": "dishes/1c0f985853.jpg",
       "key": "1c0f985853",
       "name": "Yoğurt/Yeşil Salata/Sütlaç"
      }
@@ -670,5 +676,5 @@
   }
  },
  "university": "odu",
- "updated": "2026-11-21T01:16:04+03:00"
+ "updated": "2026-11-21T14:04:36+03:00"
 }

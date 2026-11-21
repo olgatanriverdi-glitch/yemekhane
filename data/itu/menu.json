@@ -1,59 +1,5 @@
 {
  "days": {
-  "2026-11-19": {
-   "dinner": {
-    "items": [
-     {
-      "img": "dishes/78d4dad707.jpg",
-      "key": "78d4dad707",
-      "name": "Tarhana Çorbası"
-     },
-     {
-      "img": "dishes/9d174a5157.jpg",
-      "key": "9d174a5157",
-      "name": "Sulu Köfte"
-     },
-     {
-      "key": "fa4decda6a",
-      "name": "Şehriyeli Pirinç Pilavı"
-     },
-     {
-      "key": "347d0474b1",
-      "name": "Havuçlu Kereviz"
-     },
-     {
-      "img": "dishes/a3d80c5897.jpg",
-      "key": "a3d80c5897",
-      "name": "Armut"
-     }
-    ]
-   },
-   "lunch": {
-    "items": [
-     {
-      "key": "fce91b9059",
-      "name": "Alaca Çorbası"
-     },
-     {
-      "key": "ed740539b7",
-      "name": "Kıymalı Pırasa"
-     },
-     {
-      "key": "cfc8d5c66c",
-      "name": "Peynirli Milföy Böreği"
-     },
-     {
-      "img": "dishes/8f15138720.jpg",
-      "key": "8f15138720",
-      "name": "Bademli Muhallebi"
-     },
-     {
-      "key": "3ddbc111d2",
-      "name": "Limonata"
-     }
-    ]
-   }
-  },
   "2026-11-20": {
    "dinner": {
     "items": [
@@ -656,5 +602,5 @@
   }
  },
  "university": "itu",
- "updated": "2026-11-21T01:16:04+03:00"
+ "updated": "2026-11-21T14:04:36+03:00"
 }

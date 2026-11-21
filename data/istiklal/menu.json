@@ -107,6 +107,7 @@
    "lunch": {
     "items": [
      {
+      "img": "dishes/1c0ee9b6b5.jpg",
       "key": "1c0ee9b6b5",
       "name": "Kıymalı Börek"
      },
@@ -539,5 +540,5 @@
   }
  },
  "university": "istiklal",
- "updated": "2026-11-21T01:16:04+03:00"
+ "updated": "2026-11-21T14:04:36+03:00"
 }

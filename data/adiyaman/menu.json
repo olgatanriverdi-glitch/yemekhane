@@ -27,6 +27,7 @@
    "lunch": {
     "items": [
      {
+      "img": "dishes/71fa1d932e.jpg",
       "key": "71fa1d932e",
       "name": "Pilav Üzeri Tavuk Döner"
      },
@@ -404,6 +405,7 @@
    "dinner": {
     "items": [
      {
+      "img": "dishes/a4e1e32f07.jpg",
       "key": "a4e1e32f07",
       "name": "Kıymalı Dolma"
      },
@@ -1003,6 +1005,7 @@
    "dinner": {
     "items": [
      {
+      "img": "dishes/71fa1d932e.jpg",
       "key": "71fa1d932e",
       "name": "Pilav Üzeri Tavuk Döner"
      },
@@ -1050,5 +1053,5 @@
   }
  },
  "university": "adiyaman",
- "updated": "2026-11-21T01:16:04+03:00"
+ "updated": "2026-11-21T14:04:36+03:00"
 }

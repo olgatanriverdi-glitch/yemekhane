@@ -34,6 +34,7 @@
       "name": "Mercimek Çorbası"
      },
      {
+      "img": "dishes/dd170ac784.jpg",
       "key": "dd170ac784",
       "name": "Çoban Kavurma/Fırında Tavuk"
      },
@@ -58,6 +59,7 @@
       "name": "Tavuk Suyu Çorbası"
      },
      {
+      "img": "dishes/423d9d349e.jpg",
       "key": "423d9d349e",
       "name": "İzmir Köfte/Sebzeli Kebap"
      },
@@ -84,6 +86,7 @@
       "name": "Şehriye Çorbası"
      },
      {
+      "img": "dishes/0277fb6d24.jpg",
       "key": "0277fb6d24",
       "name": "Tavuk Haşlama/Patates Oturtma"
      },
@@ -134,6 +137,7 @@
       "name": "Mercimek Çorbası"
      },
      {
+      "img": "dishes/e0a6e0defd.jpg",
       "key": "e0a6e0defd",
       "name": "Etli Kuru Fasulye/Fırında Tavuk"
      },
@@ -531,5 +535,5 @@
   }
  },
  "university": "sirnak",
- "updated": "2026-11-21T01:16:04+03:00"
+ "updated": "2026-11-21T14:04:36+03:00"
 }

@@ -204,6 +204,7 @@
       "name": "Soslu Makarna"
      },
      {
+      "img": "dishes/987a9aba42.jpg",
       "kcal": 180,
       "key": "987a9aba42",
       "name": "Ayran Aşı Çorbası"
@@ -238,6 +239,7 @@
       "name": "Pirinç Pilavı"
      },
      {
+      "img": "dishes/9219b44db2.jpg",
       "kcal": 130,
       "key": "9219b44db2",
       "name": "Ezogelin Çorbası (Turşu"
@@ -261,6 +263,7 @@
       "name": "Tavuk But/Garnitür"
      },
      {
+      "img": "dishes/b33f8fa23d.jpg",
       "kcal": 230,
       "key": "b33f8fa23d",
       "name": "Bulgur Pilavı (Arap Aşı Çorbası"
@@ -278,6 +281,7 @@
    "lunch": {
     "items": [
      {
+      "img": "dishes/f0e89065f7.jpg",
       "kcal": 400,
       "key": "f0e89065f7",
       "name": "Et İskender"
@@ -312,11 +316,13 @@
    "lunch": {
     "items": [
      {
+      "img": "dishes/fb301b2d0e.jpg",
       "kcal": 350,
       "key": "fb301b2d0e",
       "name": "Yoğurtlu Kayseri Mantısı"
      },
      {
+      "img": "dishes/6630be6878.jpg",
       "kcal": 350,
       "key": "6630be6878",
       "name": "Fırında Tavuk Pirzola"
@@ -530,6 +536,7 @@
       "name": "Pirinç Pilavı"
      },
      {
+      "img": "dishes/987a9aba42.jpg",
       "kcal": 180,
       "key": "987a9aba42",
       "name": "Ayran Aşı Çorbası"
@@ -643,5 +650,5 @@
   }
  },
  "university": "alparslan",
- "updated": "2026-11-21T01:16:04+03:00"
+ "updated": "2026-11-21T14:04:36+03:00"
 }

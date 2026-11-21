@@ -202,6 +202,7 @@
       "name": "Domates Çorbası/Kaşar"
      },
      {
+      "img": "dishes/2c6d9cc895.jpg",
       "key": "2c6d9cc895",
       "name": "Fırında İzmir Köfte"
      },
@@ -232,6 +233,7 @@
       "name": "Fırın Tavuk Büryan"
      },
      {
+      "img": "dishes/f247c423c7.jpg",
       "key": "f247c423c7",
       "name": "Domates Soslu Patates"
      },
@@ -251,6 +253,7 @@
       "name": "Domates Çorbası/Çıtır Ekmek"
      },
      {
+      "img": "dishes/d02bb51be5.jpg",
       "key": "d02bb51be5",
       "name": "Etli Özbek Yemeği"
      },
@@ -276,6 +279,7 @@
       "name": "Yoğurt Çorbası"
      },
      {
+      "img": "dishes/7df9034bd9.jpg",
       "key": "7df9034bd9",
       "name": "Fırında Soslu Tavuk Kanat"
      },
@@ -302,10 +306,12 @@
       "name": "Tarhana Çorbası"
      },
      {
+      "img": "dishes/70f9c803ee.jpg",
       "key": "70f9c803ee",
       "name": "Sebzeli Şiş Köfte"
      },
      {
+      "img": "dishes/69a10d9fbf.jpg",
       "key": "69a10d9fbf",
       "name": "Soslu Yoğurtlu Makarna"
      },
@@ -322,6 +328,7 @@
    "lunch": {
     "items": [
      {
+      "img": "dishes/f4280007b3.jpg",
       "key": "f4280007b3",
       "name": "Kıymalı Arpa Şehriye Çorbası"
      },
@@ -519,5 +526,5 @@
   }
  },
  "university": "ardahan",
- "updated": "2026-11-21T01:16:04+03:00"
+ "updated": "2026-11-21T14:04:36+03:00"
 }

@@ -287,6 +287,7 @@
       "name": "Yeşil Mercimekli Erişte Çorbası"
      },
      {
+      "img": "dishes/d77570ae35.jpg",
       "key": "d77570ae35",
       "name": "Fırında Tavuk Baget"
      },
@@ -539,5 +540,5 @@
   }
  },
  "university": "kmu",
- "updated": "2026-11-21T01:16:04+03:00"
+ "updated": "2026-11-21T14:04:36+03:00"
 }

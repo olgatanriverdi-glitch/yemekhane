@@ -1,112 +1,5 @@
 {
  "days": {
-  "2026-11-18": {
-   "breakfast": {
-    "items": [
-     {
-      "img": "dishes/22605468a2.jpg",
-      "key": "22605468a2",
-      "name": "Çay"
-     },
-     {
-      "key": "f7b84ad85a",
-      "name": "Meyve Suyu"
-     },
-     {
-      "img": "dishes/bff26db9ff.jpg",
-      "key": "bff26db9ff",
-      "name": "Süt"
-     },
-     {
-      "key": "a1bafdb9d5",
-      "name": "Kayısı Reçeli-Tereyağı"
-     },
-     {
-      "key": "d55ffa8efc",
-      "name": "Labne Peynir"
-     },
-     {
-      "img": "dishes/ddc30ae037.jpg",
-      "key": "ddc30ae037",
-      "name": "Simit"
-     },
-     {
-      "img": "dishes/cd4fbb0aa2.jpg",
-      "key": "cd4fbb0aa2",
-      "name": "Menemen"
-     }
-    ]
-   },
-   "dinner": {
-    "items": [
-     {
-      "img": "dishes/fd6f1df9c8.jpg",
-      "key": "fd6f1df9c8",
-      "name": "Toyga Çorbası"
-     },
-     {
-      "key": "ba479ae449",
-      "name": "Piliç Kroket"
-     },
-     {
-      "img": "dishes/321b4fe3c9.jpg",
-      "key": "321b4fe3c9",
-      "name": "Mevsim Salatası"
-     },
-     {
-      "img": "dishes/de8670087d.jpg",
-      "key": "de8670087d",
-      "name": "Baklava"
-     }
-    ]
-   },
-   "lunch": {
-    "items": [
-     {
-      "img": "dishes/fd6f1df9c8.jpg",
-      "key": "fd6f1df9c8",
-      "name": "Toyga Çorbası"
-     },
-     {
-      "key": "ba479ae449",
-      "name": "Piliç Kroket"
-     },
-     {
-      "img": "dishes/321b4fe3c9.jpg",
-      "key": "321b4fe3c9",
-      "name": "Mevsim Salatası"
-     },
-     {
-      "img": "dishes/de8670087d.jpg",
-      "key": "de8670087d",
-      "name": "Baklava"
-     }
-    ]
-   },
-   "vegetarian": {
-    "items": [
-     {
-      "img": "dishes/0955218757.jpg",
-      "key": "0955218757",
-      "name": "Mercimek Çorbası"
-     },
-     {
-      "key": "1a817ec3d4",
-      "name": "Mantar Sote"
-     },
-     {
-      "img": "dishes/321b4fe3c9.jpg",
-      "key": "321b4fe3c9",
-      "name": "Mevsim Salatası"
-     },
-     {
-      "img": "dishes/c47036e360.jpg",
-      "key": "c47036e360",
-      "name": "Elma"
-     }
-    ]
-   }
-  },
   "2026-11-19": {
    "breakfast": {
     "items": [
@@ -967,5 +860,5 @@
   }
  },
  "university": "iu",
- "updated": "2026-11-21T01:16:04+03:00"
+ "updated": "2026-11-21T14:04:36+03:00"
 }
