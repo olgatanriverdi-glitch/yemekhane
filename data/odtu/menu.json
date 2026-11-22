@@ -1,62 +1,5 @@
 {
  "days": {
-  "2026-10-07": {
-   "dinner": {
-    "items": [
-     {
-      "img": "dishes/a7321050d1.jpg",
-      "kcal": 199,
-      "key": "a7321050d1",
-      "name": "Domatesli Şehriye Çorba"
-     },
-     {
-      "kcal": 436,
-      "key": "20a36296ca",
-      "name": "Dana Kızartma"
-     },
-     {
-      "img": "dishes/25b07cf14e.jpg",
-      "kcal": 377,
-      "key": "25b07cf14e",
-      "name": "Bulgur Pilavı"
-     },
-     {
-      "img": "dishes/36715dbae7.jpg",
-      "kcal": 124,
-      "key": "36715dbae7",
-      "name": "Kase Yoğurt"
-     }
-    ],
-    "kcal": 1136
-   },
-   "lunch": {
-    "items": [
-     {
-      "img": "dishes/a7321050d1.jpg",
-      "kcal": 199,
-      "key": "a7321050d1",
-      "name": "Domatesli Şehriye Çorba"
-     },
-     {
-      "kcal": 529,
-      "key": "a365b79e23",
-      "name": "Tavuk Kapama"
-     },
-     {
-      "kcal": 297,
-      "key": "1778526b5c",
-      "name": "Pancarlı Humus"
-     },
-     {
-      "img": "dishes/16b5c22561.jpg",
-      "kcal": 65,
-      "key": "16b5c22561",
-      "name": "Ayran"
-     }
-    ],
-    "kcal": 1090
-   }
-  },
   "2026-10-08": {
    "dinner": {
     "items": [
@@ -3110,5 +3053,5 @@
   }
  },
  "university": "odtu",
- "updated": "2026-11-21T23:55:03+03:00"
+ "updated": "2026-11-22T14:27:10+03:00"
 }

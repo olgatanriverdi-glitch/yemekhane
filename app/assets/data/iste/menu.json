@@ -39,6 +39,7 @@
       "name": "Çeşmi Nigar Çorba"
      },
      {
+      "img": "dishes/b92586ea5a.jpg",
       "kcal": 295,
       "key": "b92586ea5a",
       "name": "Tavuk Çöp Şiş"
@@ -621,5 +622,5 @@
   }
  },
  "university": "iste",
- "updated": "2026-11-21T23:55:03+03:00"
+ "updated": "2026-11-22T14:27:10+03:00"
 }

@@ -1,58 +1,5 @@
 {
  "days": {
-  "2026-10-07": {
-   "lunch": {
-    "items": [
-     {
-      "img": "dishes/bf8474c8b9.jpg",
-      "kcal": 227,
-      "key": "bf8474c8b9",
-      "name": "Ezogelin Çorba"
-     },
-     {
-      "img": "dishes/f8fa4340a2.jpg",
-      "kcal": 486,
-      "key": "f8fa4340a2",
-      "name": "Soslu İzmir Köfte"
-     },
-     {
-      "kcal": 437,
-      "key": "57d2d2d906",
-      "name": "Mısırlı Pirinç Pilavı"
-     },
-     {
-      "img": "dishes/e205e270b9.jpg",
-      "kcal": 320,
-      "key": "e205e270b9",
-      "name": "Soslu Spagetti"
-     },
-     {
-      "img": "dishes/a765c7c985.jpg",
-      "kcal": 17,
-      "key": "a765c7c985",
-      "name": "Komposto"
-     },
-     {
-      "img": "dishes/feba5fe940.jpg",
-      "kcal": 153,
-      "key": "feba5fe940",
-      "name": "Zeytinyağlı Barbunya"
-     },
-     {
-      "kcal": 49,
-      "key": "25989b6867",
-      "name": "Marul"
-     },
-     {
-      "img": "dishes/9c8d655ef5.jpg",
-      "kcal": 93,
-      "key": "9c8d655ef5",
-      "name": "Yoğurt"
-     }
-    ],
-    "kcal": 1782
-   }
-  },
   "2026-10-08": {
    "lunch": {
     "items": [
@@ -1353,5 +1300,5 @@
   }
  },
  "university": "gtu",
- "updated": "2026-11-21T23:55:03+03:00"
+ "updated": "2026-11-22T14:27:10+03:00"
 }

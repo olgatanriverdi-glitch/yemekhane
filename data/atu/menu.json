@@ -542,6 +542,7 @@
       "name": "Orman Kebabı"
      },
      {
+      "img": "dishes/a71bacd75a.jpg",
       "kcal": 178,
       "key": "a71bacd75a",
       "name": "Dövme Pilavı"
@@ -624,5 +625,5 @@
   }
  },
  "university": "atu",
- "updated": "2026-11-21T23:55:03+03:00"
+ "updated": "2026-11-22T14:27:10+03:00"
 }

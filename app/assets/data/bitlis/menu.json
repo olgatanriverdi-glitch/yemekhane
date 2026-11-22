@@ -397,8 +397,32 @@
      }
     ]
    }
+  },
+  "2026-11-27": {
+   "lunch": {
+    "items": [
+     {
+      "img": "dishes/bf8474c8b9.jpg",
+      "key": "bf8474c8b9",
+      "name": "Ezogelin Çorba"
+     },
+     {
+      "key": "7353c0ed05",
+      "name": "Fırın Tavuk/Fırın Köfte/Et Sote"
+     },
+     {
+      "key": "dd770fdd6c",
+      "name": "Pirinç Pilavı(Üzümlü)/Bulgur Pilavı(Nohutlu)"
+     },
+     {
+      "img": "dishes/3a38c0aebb.jpg",
+      "key": "3a38c0aebb",
+      "name": "Sütlaç"
+     }
+    ]
+   }
   }
  },
  "university": "bitlis",
- "updated": "2026-11-21T23:55:03+03:00"
+ "updated": "2026-11-22T14:27:10+03:00"
 }

@@ -1,64 +1,5 @@
 {
  "days": {
-  "2026-11-20": {
-   "dinner": {
-    "items": [
-     {
-      "key": "b09bac10e9",
-      "name": "Mahluta Çorbası"
-     },
-     {
-      "key": "5b155550f9",
-      "name": "Kıymalı Biber Dolması"
-     },
-     {
-      "img": "dishes/6481a77c76.jpg",
-      "key": "6481a77c76",
-      "name": "Barbunya Pilaki"
-     },
-     {
-      "img": "dishes/9c8d655ef5.jpg",
-      "key": "9c8d655ef5",
-      "name": "Yoğurt"
-     },
-     {
-      "img": "dishes/aa2426d85c.jpg",
-      "key": "aa2426d85c",
-      "name": "Mozaik Pasta"
-     }
-    ]
-   },
-   "lunch": {
-    "items": [
-     {
-      "key": "ba810116bb",
-      "name": "Andaloz Çorbası"
-     },
-     {
-      "key": "2ba4042d62",
-      "name": "Fırın Piliç Baget"
-     },
-     {
-      "img": "dishes/f79b284db7.jpg",
-      "key": "f79b284db7",
-      "name": "Sebzeli Makarna"
-     },
-     {
-      "key": "2a57ab16da",
-      "name": "Havuç Lahana Salatası"
-     },
-     {
-      "img": "dishes/16b5c22561.jpg",
-      "key": "16b5c22561",
-      "name": "Ayran"
-     },
-     {
-      "key": "fc38f5c889",
-      "name": "Garnitür Elma Dilim Patates Kızartması"
-     }
-    ]
-   }
-  },
   "2026-11-21": {
    "dinner": {
     "items": [
@@ -602,5 +543,5 @@
   }
  },
  "university": "itu",
- "updated": "2026-11-21T23:55:03+03:00"
+ "updated": "2026-11-22T14:27:10+03:00"
 }

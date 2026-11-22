@@ -1,75 +1,5 @@
 {
  "days": {
-  "2026-10-07": {
-   "lunch": {
-    "items": [
-     {
-      "img": "dishes/f98b465287.jpg",
-      "kcal": 175,
-      "key": "f98b465287",
-      "name": "Yayla Çorba"
-     },
-     {
-      "img": "dishes/9f7df34b5a.jpg",
-      "kcal": 287,
-      "key": "9f7df34b5a",
-      "name": "Fırın Tavuk But"
-     },
-     {
-      "img": "dishes/087dc75384.jpg",
-      "kcal": 242,
-      "key": "087dc75384",
-      "name": "Domatesli Bulgur Pilavı"
-     },
-     {
-      "img": "dishes/c7a7221cac.jpg",
-      "kcal": 95,
-      "key": "c7a7221cac",
-      "name": "Niğde Gazozu"
-     },
-     {
-      "img": "dishes/ed17271d58.jpg",
-      "kcal": 60,
-      "key": "ed17271d58",
-      "name": "Meyve"
-     }
-    ],
-    "kcal": 859
-   },
-   "vegetarian": {
-    "items": [
-     {
-      "img": "dishes/f98b465287.jpg",
-      "kcal": 175,
-      "key": "f98b465287",
-      "name": "Yayla Çorba"
-     },
-     {
-      "img": "dishes/e6a398f38f.jpg",
-      "key": "e6a398f38f",
-      "name": "Bezelye Yemeği"
-     },
-     {
-      "img": "dishes/087dc75384.jpg",
-      "kcal": 242,
-      "key": "087dc75384",
-      "name": "Domatesli Bulgur Pilavı"
-     },
-     {
-      "img": "dishes/c7a7221cac.jpg",
-      "kcal": 95,
-      "key": "c7a7221cac",
-      "name": "Niğde Gazozu"
-     },
-     {
-      "img": "dishes/ed17271d58.jpg",
-      "kcal": 60,
-      "key": "ed17271d58",
-      "name": "Meyve"
-     }
-    ]
-   }
-  },
   "2026-10-08": {
    "lunch": {
     "items": [
@@ -2599,5 +2529,5 @@
   }
  },
  "university": "asbu",
- "updated": "2026-11-21T23:55:03+03:00"
+ "updated": "2026-11-22T14:27:10+03:00"
 }

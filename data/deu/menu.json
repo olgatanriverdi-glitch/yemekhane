@@ -1,55 +1,5 @@
 {
  "days": {
-  "2026-10-07": {
-   "lunch": {
-    "items": [
-     {
-      "key": "7e342f900f",
-      "name": "Ispanak Borani"
-     },
-     {
-      "img": "dishes/af6741872c.jpg",
-      "key": "af6741872c",
-      "name": "Fırın Makarna"
-     },
-     {
-      "img": "dishes/9c8d655ef5.jpg",
-      "key": "9c8d655ef5",
-      "name": "Yoğurt"
-     },
-     {
-      "img": "dishes/92485508df.jpg",
-      "key": "92485508df",
-      "name": "Tatlı"
-     }
-    ],
-    "kcal": 829
-   },
-   "vegetarian": {
-    "items": [
-     {
-      "key": "7e342f900f",
-      "name": "Ispanak Borani"
-     },
-     {
-      "img": "dishes/18ccb4d264.jpg",
-      "key": "18ccb4d264",
-      "name": "Soslu Makarna"
-     },
-     {
-      "img": "dishes/c96fd73d5f.jpg",
-      "key": "c96fd73d5f",
-      "name": "Salata"
-     },
-     {
-      "img": "dishes/ed17271d58.jpg",
-      "key": "ed17271d58",
-      "name": "Meyve"
-     }
-    ],
-    "kcal": 829
-   }
-  },
   "2026-10-08": {
    "lunch": {
     "items": [
@@ -2158,5 +2108,5 @@
   }
  },
  "university": "deu",
- "updated": "2026-11-21T23:55:03+03:00"
+ "updated": "2026-11-22T14:27:10+03:00"
 }

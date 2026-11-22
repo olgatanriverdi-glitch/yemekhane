@@ -1,112 +1,5 @@
 {
  "days": {
-  "2026-11-19": {
-   "breakfast": {
-    "items": [
-     {
-      "img": "dishes/22605468a2.jpg",
-      "key": "22605468a2",
-      "name": "Çay"
-     },
-     {
-      "key": "f7b84ad85a",
-      "name": "Meyve Suyu"
-     },
-     {
-      "img": "dishes/bff26db9ff.jpg",
-      "key": "bff26db9ff",
-      "name": "Süt"
-     },
-     {
-      "key": "a5700115ba",
-      "name": "Kakaolu Fındık Kreması"
-     },
-     {
-      "img": "dishes/8690d4fe86.jpg",
-      "key": "8690d4fe86",
-      "name": "Beyaz Peynir"
-     },
-     {
-      "img": "dishes/59dfd56bab.jpg",
-      "key": "59dfd56bab",
-      "name": "Kıymalı Poğaça"
-     },
-     {
-      "key": "9e8512d0f7",
-      "name": "Siyah Zeytin"
-     }
-    ]
-   },
-   "dinner": {
-    "items": [
-     {
-      "img": "dishes/5cd3b952d3.jpg",
-      "key": "5cd3b952d3",
-      "name": "Tavuk Suyu Şehriye Çorbası"
-     },
-     {
-      "key": "7beef3c4ec",
-      "name": "Kayseri Köfte"
-     },
-     {
-      "img": "dishes/c0403431e1.jpg",
-      "key": "c0403431e1",
-      "name": "Arpa Şehriye Pilavı"
-     },
-     {
-      "img": "dishes/faa2e9e4f2.jpg",
-      "key": "faa2e9e4f2",
-      "name": "Supangle"
-     }
-    ]
-   },
-   "lunch": {
-    "items": [
-     {
-      "img": "dishes/5cd3b952d3.jpg",
-      "key": "5cd3b952d3",
-      "name": "Tavuk Suyu Şehriye Çorbası"
-     },
-     {
-      "key": "7beef3c4ec",
-      "name": "Kayseri Köfte"
-     },
-     {
-      "img": "dishes/c0403431e1.jpg",
-      "key": "c0403431e1",
-      "name": "Arpa Şehriye Pilavı"
-     },
-     {
-      "img": "dishes/faa2e9e4f2.jpg",
-      "key": "faa2e9e4f2",
-      "name": "Supangle"
-     }
-    ]
-   },
-   "vegetarian": {
-    "items": [
-     {
-      "img": "dishes/e2fac9b8dd.jpg",
-      "key": "e2fac9b8dd",
-      "name": "Tel Şehriye Çorbası"
-     },
-     {
-      "img": "dishes/f5706ea22b.jpg",
-      "key": "f5706ea22b",
-      "name": "Kereviz Yemeği"
-     },
-     {
-      "key": "30a3126a63",
-      "name": "Gökkuşağı Pilavı"
-     },
-     {
-      "img": "dishes/44abc36c0c.jpg",
-      "key": "44abc36c0c",
-      "name": "İrmik Helvası"
-     }
-    ]
-   }
-  },
   "2026-11-20": {
    "breakfast": {
     "items": [
@@ -860,5 +753,5 @@
   }
  },
  "university": "iu",
- "updated": "2026-11-21T23:55:03+03:00"
+ "updated": "2026-11-22T14:27:10+03:00"
 }

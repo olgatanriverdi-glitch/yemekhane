@@ -356,8 +356,33 @@
      }
     ]
    }
+  },
+  "2026-11-24": {
+   "lunch": {
+    "items": [
+     {
+      "img": "dishes/fd6f1df9c8.jpg",
+      "key": "fd6f1df9c8",
+      "name": "Toyga Çorbası"
+     },
+     {
+      "key": "fd1a7475ad",
+      "name": "Et Haşlama"
+     },
+     {
+      "img": "dishes/bcafe51e20.jpg",
+      "key": "bcafe51e20",
+      "name": "Peynirli Börek"
+     },
+     {
+      "img": "dishes/647ce15e33.jpg",
+      "key": "647ce15e33",
+      "name": "Tulumba"
+     }
+    ]
+   }
   }
  },
  "university": "agri",
- "updated": "2026-11-21T23:55:03+03:00"
+ "updated": "2026-11-22T14:27:10+03:00"
 }

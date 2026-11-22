@@ -1,55 +1,5 @@
 {
  "days": {
-  "2026-10-06": {
-   "lunch": {
-    "items": [
-     {
-      "img": "dishes/aa33e149cf.jpg",
-      "key": "aa33e149cf",
-      "name": "Yoğurt Çorba"
-     },
-     {
-      "key": "57382f4271",
-      "name": "Tavuk Roti"
-     },
-     {
-      "img": "dishes/221278edb6.jpg",
-      "key": "221278edb6",
-      "name": "Spagetti Napoliten"
-     },
-     {
-      "img": "dishes/99a67d4042.jpg",
-      "key": "99a67d4042",
-      "name": "Mevsim Salata"
-     }
-    ]
-   }
-  },
-  "2026-10-07": {
-   "lunch": {
-    "items": [
-     {
-      "img": "dishes/e8b8cd2e28.jpg",
-      "key": "e8b8cd2e28",
-      "name": "Yoğurtlu Şehriye Çorba"
-     },
-     {
-      "img": "dishes/e9977e6607.jpg",
-      "key": "e9977e6607",
-      "name": "Ekşili Köfte"
-     },
-     {
-      "img": "dishes/831b0f20cf.jpg",
-      "key": "831b0f20cf",
-      "name": "Su Böreği"
-     },
-     {
-      "key": "f7b84ad85a",
-      "name": "Meyve Suyu"
-     }
-    ]
-   }
-  },
   "2026-10-08": {
    "lunch": {
     "items": [
@@ -821,8 +771,34 @@
      }
     ]
    }
+  },
+  "2026-11-23": {
+   "lunch": {
+    "items": [
+     {
+      "img": "dishes/aa33e149cf.jpg",
+      "key": "aa33e149cf",
+      "name": "Yoğurt Çorba"
+     },
+     {
+      "img": "dishes/890b8e3990.jpg",
+      "key": "890b8e3990",
+      "name": "Etli Nohut"
+     },
+     {
+      "img": "dishes/c1cd803af6.jpg",
+      "key": "c1cd803af6",
+      "name": "Acılı Bulgur Pilavı"
+     },
+     {
+      "img": "dishes/ec0228f614.jpg",
+      "key": "ec0228f614",
+      "name": "Turşu"
+     }
+    ]
+   }
   }
  },
  "university": "atauni",
- "updated": "2026-11-20T14:42:55+03:00"
+ "updated": "2026-11-22T14:27:10+03:00"
 }

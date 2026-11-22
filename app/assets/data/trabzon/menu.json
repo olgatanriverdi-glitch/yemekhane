@@ -1,36 +1,5 @@
 {
  "days": {
-  "2026-10-07": {
-   "lunch": {
-    "items": [
-     {
-      "img": "dishes/22dd093862.jpg",
-      "kcal": 150,
-      "key": "22dd093862",
-      "name": "Mercimek Çorba"
-     },
-     {
-      "img": "dishes/c632c923d8.jpg",
-      "kcal": 330,
-      "key": "c632c923d8",
-      "name": "Kağıt Kebabı"
-     },
-     {
-      "img": "dishes/289123a5e1.jpg",
-      "kcal": 297,
-      "key": "289123a5e1",
-      "name": "Bulgur Pilav"
-     },
-     {
-      "img": "dishes/a765c7c985.jpg",
-      "kcal": 220,
-      "key": "a765c7c985",
-      "name": "Komposto"
-     }
-    ],
-    "kcal": 997
-   }
-  },
   "2026-10-08": {
    "lunch": {
     "items": [
@@ -1114,5 +1083,5 @@
   }
  },
  "university": "trabzon",
- "updated": "2026-11-21T23:55:03+03:00"
+ "updated": "2026-11-22T14:27:10+03:00"
 }
