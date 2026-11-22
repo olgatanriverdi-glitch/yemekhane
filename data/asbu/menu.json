@@ -1,73 +1,5 @@
 {
  "days": {
-  "2026-10-08": {
-   "lunch": {
-    "items": [
-     {
-      "img": "dishes/7599097195.jpg",
-      "kcal": 184,
-      "key": "7599097195",
-      "name": "Domates Çorba"
-     },
-     {
-      "img": "dishes/a60ac0d42a.jpg",
-      "kcal": 403,
-      "key": "a60ac0d42a",
-      "name": "Ankara Tava"
-     },
-     {
-      "img": "dishes/9cfb2c37b2.jpg",
-      "kcal": 240,
-      "key": "9cfb2c37b2",
-      "name": "Şakşuka"
-     },
-     {
-      "img": "dishes/99a67d4042.jpg",
-      "kcal": 55,
-      "key": "99a67d4042",
-      "name": "Mevsim Salata"
-     },
-     {
-      "kcal": 140,
-      "key": "f7b84ad85a",
-      "name": "Meyve Suyu"
-     }
-    ],
-    "kcal": 1022
-   },
-   "vegetarian": {
-    "items": [
-     {
-      "img": "dishes/7599097195.jpg",
-      "kcal": 184,
-      "key": "7599097195",
-      "name": "Domates Çorba"
-     },
-     {
-      "img": "dishes/0b9e39c61a.jpg",
-      "key": "0b9e39c61a",
-      "name": "Salçalı Makarna"
-     },
-     {
-      "img": "dishes/9cfb2c37b2.jpg",
-      "kcal": 240,
-      "key": "9cfb2c37b2",
-      "name": "Şakşuka"
-     },
-     {
-      "img": "dishes/99a67d4042.jpg",
-      "kcal": 55,
-      "key": "99a67d4042",
-      "name": "Mevsim Salata"
-     },
-     {
-      "kcal": 140,
-      "key": "f7b84ad85a",
-      "name": "Meyve Suyu"
-     }
-    ]
-   }
-  },
   "2026-10-09": {
    "lunch": {
     "items": [
@@ -2120,8 +2052,8 @@
      },
      {
       "kcal": 385,
-      "key": "e080b39b61",
-      "name": "Rosto Köfte Püreli"
+      "key": "486bac3a25",
+      "name": "Rosta Köfte Püreli"
      },
      {
       "img": "dishes/7996503754.jpg",
@@ -2529,5 +2461,5 @@
   }
  },
  "university": "asbu",
- "updated": "2026-11-22T14:27:10+03:00"
+ "updated": "2026-11-23T00:05:11+03:00"
 }

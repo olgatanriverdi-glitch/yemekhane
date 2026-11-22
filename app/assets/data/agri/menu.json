@@ -381,8 +381,33 @@
      }
     ]
    }
+  },
+  "2026-11-25": {
+   "lunch": {
+    "items": [
+     {
+      "img": "dishes/bf8474c8b9.jpg",
+      "key": "bf8474c8b9",
+      "name": "Ezogelin Çorba"
+     },
+     {
+      "img": "dishes/fbb76e65c4.jpg",
+      "key": "fbb76e65c4",
+      "name": "Etli Kuru Fasulye"
+     },
+     {
+      "key": "fc234c58bc",
+      "name": "Tel Şehriyeli Pirinç Pilavı"
+     },
+     {
+      "img": "dishes/ec0228f614.jpg",
+      "key": "ec0228f614",
+      "name": "Turşu"
+     }
+    ]
+   }
   }
  },
  "university": "agri",
- "updated": "2026-11-22T14:27:10+03:00"
+ "updated": "2026-11-23T00:05:11+03:00"
 }

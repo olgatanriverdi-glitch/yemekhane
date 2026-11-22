@@ -446,35 +446,6 @@
     "kcal": 885
    }
   },
-  "2026-11-23": {
-   "lunch": {
-    "items": [
-     {
-      "img": "dishes/0955218757.jpg",
-      "kcal": 180,
-      "key": "0955218757",
-      "name": "Mercimek Çorbası"
-     },
-     {
-      "kcal": 250,
-      "key": "696475ceb0",
-      "name": "Çin Tavuğu"
-     },
-     {
-      "kcal": 280,
-      "key": "fa4decda6a",
-      "name": "Şehriyeli Pirinç Pilavı"
-     },
-     {
-      "img": "dishes/16f3b1855e.jpg",
-      "kcal": 280,
-      "key": "16f3b1855e",
-      "name": "Lokma Tatlısı"
-     }
-    ],
-    "kcal": 990
-   }
-  },
   "2026-11-24": {
    "lunch": {
     "items": [
@@ -623,5 +594,5 @@
   }
  },
  "university": "mku",
- "updated": "2026-11-22T14:27:10+03:00"
+ "updated": "2026-11-23T00:05:11+03:00"
 }

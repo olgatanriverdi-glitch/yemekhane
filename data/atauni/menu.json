@@ -1,30 +1,5 @@
 {
  "days": {
-  "2026-10-08": {
-   "lunch": {
-    "items": [
-     {
-      "key": "9161e29eb6",
-      "name": "Erzurum Kesme Çorba"
-     },
-     {
-      "img": "dishes/a4afe0f46b.jpg",
-      "key": "a4afe0f46b",
-      "name": "Sebzeli Kebap"
-     },
-     {
-      "img": "dishes/86493234ae.jpg",
-      "key": "86493234ae",
-      "name": "Mercimekli Bulgur Pilavı"
-     },
-     {
-      "img": "dishes/92485508df.jpg",
-      "key": "92485508df",
-      "name": "Tatlı"
-     }
-    ]
-   }
-  },
   "2026-10-09": {
    "lunch": {
     "items": [
@@ -797,8 +772,34 @@
      }
     ]
    }
+  },
+  "2026-11-24": {
+   "lunch": {
+    "items": [
+     {
+      "img": "dishes/5abbdce7b9.jpg",
+      "key": "5abbdce7b9",
+      "name": "Sebze Çorba"
+     },
+     {
+      "img": "dishes/6bf903ef85.jpg",
+      "key": "6bf903ef85",
+      "name": "Fırında Patates Oturtma"
+     },
+     {
+      "img": "dishes/a52d5fed84.jpg",
+      "key": "a52d5fed84",
+      "name": "Sade Makarna"
+     },
+     {
+      "img": "dishes/92485508df.jpg",
+      "key": "92485508df",
+      "name": "Tatlı"
+     }
+    ]
+   }
   }
  },
  "university": "atauni",
- "updated": "2026-11-22T14:27:10+03:00"
+ "updated": "2026-11-23T00:05:11+03:00"
 }

@@ -1,62 +1,5 @@
 {
  "days": {
-  "2026-10-08": {
-   "dinner": {
-    "items": [
-     {
-      "kcal": 146,
-      "key": "9c953e57cf",
-      "name": "Hünkar Çorba"
-     },
-     {
-      "img": "dishes/608427f410.jpg",
-      "kcal": 403,
-      "key": "608427f410",
-      "name": "Yoğurtlu Kıymalı Mantı Makarna"
-     },
-     {
-      "img": "dishes/feba5fe940.jpg",
-      "kcal": 332,
-      "key": "feba5fe940",
-      "name": "Zeytinyağlı Barbunya"
-     },
-     {
-      "img": "dishes/e516c4a18a.jpg",
-      "kcal": 223,
-      "key": "e516c4a18a",
-      "name": "Tiramisu"
-     }
-    ],
-    "kcal": 1104
-   },
-   "lunch": {
-    "items": [
-     {
-      "kcal": 146,
-      "key": "9c953e57cf",
-      "name": "Hünkar Çorba"
-     },
-     {
-      "kcal": 443,
-      "key": "e83a5ac16a",
-      "name": "Sebzeli Yahni"
-     },
-     {
-      "img": "dishes/5b853e51e0.jpg",
-      "kcal": 333,
-      "key": "5b853e51e0",
-      "name": "Şehriye Pilavı"
-     },
-     {
-      "img": "dishes/e516c4a18a.jpg",
-      "kcal": 223,
-      "key": "e516c4a18a",
-      "name": "Tiramisu"
-     }
-    ],
-    "kcal": 1145
-   }
-  },
   "2026-10-09": {
    "dinner": {
     "items": [
@@ -3053,5 +2996,5 @@
   }
  },
  "university": "odtu",
- "updated": "2026-11-22T14:27:10+03:00"
+ "updated": "2026-11-23T00:05:11+03:00"
 }

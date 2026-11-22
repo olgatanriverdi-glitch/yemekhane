@@ -101,8 +101,34 @@
      }
     ]
    }
+  },
+  "2026-11-23": {
+   "lunch": {
+    "items": [
+     {
+      "img": "dishes/a60ac0d42a.jpg",
+      "key": "a60ac0d42a",
+      "name": "Ankara Tava"
+     },
+     {
+      "img": "dishes/d61d397136.jpg",
+      "key": "d61d397136",
+      "name": "Süzme Mercimek Çorba"
+     },
+     {
+      "img": "dishes/9c8d655ef5.jpg",
+      "key": "9c8d655ef5",
+      "name": "Yoğurt"
+     },
+     {
+      "img": "dishes/ed17271d58.jpg",
+      "key": "ed17271d58",
+      "name": "Meyve"
+     }
+    ]
+   }
   }
  },
  "university": "mtu",
- "updated": "2026-11-20T14:42:55+03:00"
+ "updated": "2026-11-23T00:05:11+03:00"
 }

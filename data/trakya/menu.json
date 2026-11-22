@@ -396,32 +396,6 @@
     "kcal": 985
    }
   },
-  "2026-11-23": {
-   "lunch": {
-    "items": [
-     {
-      "img": "dishes/22dd093862.jpg",
-      "key": "22dd093862",
-      "name": "Mercimek Çorba"
-     },
-     {
-      "key": "b6efc0cf41",
-      "name": "Bazlamalı Yoğurtlu Kebap"
-     },
-     {
-      "img": "dishes/b933cbd8aa.jpg",
-      "key": "b933cbd8aa",
-      "name": "Zeytinyağlı Bezelye"
-     },
-     {
-      "img": "dishes/ed17271d58.jpg",
-      "key": "ed17271d58",
-      "name": "Meyve"
-     }
-    ],
-    "kcal": 960
-   }
-  },
   "2026-11-24": {
    "lunch": {
     "items": [
@@ -553,5 +527,5 @@
   }
  },
  "university": "trakya",
- "updated": "2026-11-22T14:27:10+03:00"
+ "updated": "2026-11-23T00:05:11+03:00"
 }

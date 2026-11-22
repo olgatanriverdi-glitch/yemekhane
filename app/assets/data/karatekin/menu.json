@@ -447,36 +447,6 @@
     "kcal": 811
    }
   },
-  "2026-11-23": {
-   "lunch": {
-    "items": [
-     {
-      "img": "dishes/7599097195.jpg",
-      "kcal": 195,
-      "key": "7599097195",
-      "name": "Domates Çorba"
-     },
-     {
-      "img": "dishes/b3efb31ca2.jpg",
-      "kcal": 484,
-      "key": "b3efb31ca2",
-      "name": "Et Burger"
-     },
-     {
-      "kcal": 107,
-      "key": "57d451ede7",
-      "name": "Elma Dilim Patates"
-     },
-     {
-      "img": "dishes/16b5c22561.jpg",
-      "kcal": 60,
-      "key": "16b5c22561",
-      "name": "Ayran"
-     }
-    ],
-    "kcal": 846
-   }
-  },
   "2026-11-24": {
    "lunch": {
     "items": [
@@ -630,5 +600,5 @@
   }
  },
  "university": "karatekin",
- "updated": "2026-11-22T14:27:10+03:00"
+ "updated": "2026-11-23T00:05:11+03:00"
 }
