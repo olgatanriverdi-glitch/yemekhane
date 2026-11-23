@@ -450,10 +450,8 @@
       "name": "Yayla Çorbası"
      },
      {
-      "img": "dishes/fbb76e65c4.jpg",
-      "kcal": 363,
-      "key": "fbb76e65c4",
-      "name": "Etli Kuru Fasulye"
+      "key": "437f839779",
+      "name": "Etli Kuru Fasulye / Fırında Tavuk Baget"
      },
      {
       "kcal": 330,
@@ -467,7 +465,7 @@
       "name": "Turşu"
      }
     ],
-    "kcal": 923
+    "note": "Etli Kuru Fasulye / Fırında Tavuk Baget: 363 / 211 kcal; Seçeneklere göre toplam: 923 / 771 kcal"
    }
   },
   "2026-11-24": {
@@ -621,5 +619,5 @@
   }
  },
  "university": "hakkari",
- "updated": "2026-11-23T00:05:11+03:00"
+ "updated": "2026-11-23T15:45:16+03:00"
 }

@@ -27,7 +27,8 @@
   "2026-11-17": "60eab455cb15",
   "2026-11-18": "6c2b5a59d5a6",
   "2026-11-19": "afb67ff41e7b",
-  "2026-11-20": "1bef3c58250a"
+  "2026-11-20": "1bef3c58250a",
+  "2026-11-23": "c4038de991ad"
  },
  "main": {
   "025eacfe0c": "8f579a24b2f7",
@@ -40,6 +41,7 @@
   "4008da5374": "afb67ff41e7b",
   "495c83bde2": "60eab455cb15",
   "4b76564c9a": "001da2fb49d8",
+  "50ca989a54": "c4038de991ad",
   "5acb48cd86": "6c2b5a59d5a6",
   "5de18824bc": "a746873f05e3",
   "613616e611": "cb1148062900",
@@ -316,6 +318,16 @@
     "Etli Nohut",
     "Şehriyeli Pirinç Pilavı/Turşu",
     "Trileçe"
+   ]
+  },
+  "c4038de991ad": {
+   "added": "2026-11-23",
+   "hash": "cf0fd5617f471af1bb0c1082e17abdb9c8b55afd",
+   "items": [
+    "Alaca Çorba",
+    "Tavuk Döner/Lavaş/Turşu",
+    "Şehriyeli Pirinç Pilavı",
+    "Ayran"
    ]
   },
   "c89c294984ba": {

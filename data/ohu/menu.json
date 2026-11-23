@@ -389,9 +389,8 @@
    "lunch": {
     "items": [
      {
-      "img": "dishes/f98b465287.jpg",
-      "key": "f98b465287",
-      "name": "Yayla Çorba"
+      "key": "7e85f5098f",
+      "name": "Köylü Çorba"
      },
      {
       "img": "dishes/890b8e3990.jpg",
@@ -541,5 +540,5 @@
   }
  },
  "university": "ohu",
- "updated": "2026-11-23T00:05:11+03:00"
+ "updated": "2026-11-23T15:45:16+03:00"
 }

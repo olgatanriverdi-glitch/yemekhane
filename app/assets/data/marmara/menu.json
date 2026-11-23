@@ -57,8 +57,259 @@
     ],
     "kcal": 615
    }
+  },
+  "2026-11-24": {
+   "lunch": {
+    "items": [
+     {
+      "img": "dishes/0955218757.jpg",
+      "kcal": 110,
+      "key": "0955218757",
+      "name": "Mercimek Çorbası"
+     },
+     {
+      "kcal": 425,
+      "key": "8f9a5a51e3",
+      "name": "Kadınbudu Köfte Püreli"
+     },
+     {
+      "kcal": 312,
+      "key": "ef02a39f7f",
+      "name": "Fileto Alabalık Tava Roka Limon (Alternatif)"
+     },
+     {
+      "img": "dishes/5d2a6ff366.jpg",
+      "kcal": 320,
+      "key": "5d2a6ff366",
+      "name": "Domates Biberli Bulgur Pilavı"
+     },
+     {
+      "kcal": 15,
+      "key": "3ef45fb941",
+      "name": "Karışık Turşu"
+     }
+    ],
+    "kcal": 870
+   },
+   "vegetarian": {
+    "items": [
+     {
+      "img": "dishes/0955218757.jpg",
+      "kcal": 110,
+      "key": "0955218757",
+      "name": "Mercimek Çorbası"
+     },
+     {
+      "kcal": 285,
+      "key": "3097d10d18",
+      "name": "Pırasa Yemeği"
+     },
+     {
+      "img": "dishes/5d2a6ff366.jpg",
+      "kcal": 320,
+      "key": "5d2a6ff366",
+      "name": "Domates Biberli Bulgur Pilavı"
+     },
+     {
+      "kcal": 15,
+      "key": "3ef45fb941",
+      "name": "Karışık Turşu"
+     }
+    ],
+    "kcal": 730
+   }
+  },
+  "2026-11-25": {
+   "lunch": {
+    "items": [
+     {
+      "img": "dishes/78d4dad707.jpg",
+      "kcal": 110,
+      "key": "78d4dad707",
+      "name": "Tarhana Çorbası"
+     },
+     {
+      "kcal": 390,
+      "key": "cc87f1a40c",
+      "name": "Köfte Bowl"
+     },
+     {
+      "img": "dishes/443cdc7438.jpg",
+      "kcal": 370,
+      "key": "443cdc7438",
+      "name": "Arnavut Ciğeri (Alternatif)"
+     },
+     {
+      "img": "dishes/c0403431e1.jpg",
+      "kcal": 270,
+      "key": "c0403431e1",
+      "name": "Arpa Şehriye Pilavı"
+     },
+     {
+      "img": "dishes/5dbc3a9bae.jpg",
+      "kcal": 430,
+      "key": "5dbc3a9bae",
+      "name": "Cevizli İrmik Helva"
+     }
+    ],
+    "kcal": 1200
+   },
+   "vegetarian": {
+    "items": [
+     {
+      "img": "dishes/78d4dad707.jpg",
+      "kcal": 110,
+      "key": "78d4dad707",
+      "name": "Tarhana Çorbası"
+     },
+     {
+      "kcal": 277,
+      "key": "4e43df1053",
+      "name": "Fellah Köfte"
+     },
+     {
+      "img": "dishes/c0403431e1.jpg",
+      "kcal": 270,
+      "key": "c0403431e1",
+      "name": "Arpa Şehriye Pilavı"
+     },
+     {
+      "img": "dishes/cc4ac55a9e.jpg",
+      "kcal": 430,
+      "key": "cc4ac55a9e",
+      "name": "Cevizli İrmik Helvası"
+     }
+    ],
+    "kcal": 1087
+   }
+  },
+  "2026-11-26": {
+   "lunch": {
+    "items": [
+     {
+      "img": "dishes/4fb733faf2.jpg",
+      "kcal": 115,
+      "key": "4fb733faf2",
+      "name": "Ezogelin Çorbası"
+     },
+     {
+      "kcal": 245,
+      "key": "cee08f7d1d",
+      "name": "Tavuklu Mevsim Türlü"
+     },
+     {
+      "img": "dishes/983a482c3e.jpg",
+      "kcal": 275,
+      "key": "983a482c3e",
+      "name": "Etli Karışık Dolma Ve Yoğurt (Alternatif)"
+     },
+     {
+      "img": "dishes/1fabb7a5f8.jpg",
+      "kcal": 390,
+      "key": "1fabb7a5f8",
+      "name": "Peynirli Su Böreği"
+     },
+     {
+      "img": "dishes/997b4ad147.jpg",
+      "kcal": 130,
+      "key": "997b4ad147",
+      "name": "Muz"
+     }
+    ],
+    "kcal": 880
+   },
+   "vegetarian": {
+    "items": [
+     {
+      "img": "dishes/4fb733faf2.jpg",
+      "kcal": 115,
+      "key": "4fb733faf2",
+      "name": "Ezogelin Çorbası"
+     },
+     {
+      "kcal": 270,
+      "key": "66466f5adf",
+      "name": "Mevsim Turlü"
+     },
+     {
+      "img": "dishes/1fabb7a5f8.jpg",
+      "kcal": 390,
+      "key": "1fabb7a5f8",
+      "name": "Peynirli Su Böreği"
+     },
+     {
+      "img": "dishes/997b4ad147.jpg",
+      "kcal": 130,
+      "key": "997b4ad147",
+      "name": "Muz"
+     }
+    ],
+    "kcal": 905
+   }
+  },
+  "2026-11-27": {
+   "lunch": {
+    "items": [
+     {
+      "img": "dishes/17fe9d2c1e.jpg",
+      "kcal": 250,
+      "key": "17fe9d2c1e",
+      "name": "Yeşil Mercimek Çorbası"
+     },
+     {
+      "img": "dishes/890b8e3990.jpg",
+      "kcal": 285,
+      "key": "890b8e3990",
+      "name": "Etli Nohut"
+     },
+     {
+      "img": "dishes/352f128e7a.jpg",
+      "kcal": 335,
+      "key": "352f128e7a",
+      "name": "Etli Patates (Alternatif)"
+     },
+     {
+      "kcal": 320,
+      "key": "57d2d2d906",
+      "name": "Mısırlı Pirinç Pilavı"
+     },
+     {
+      "kcal": 245,
+      "key": "7c7be53996",
+      "name": "Tavukgöğsü Tatlısı"
+     }
+    ],
+    "kcal": 1100
+   },
+   "vegetarian": {
+    "items": [
+     {
+      "img": "dishes/17fe9d2c1e.jpg",
+      "kcal": 250,
+      "key": "17fe9d2c1e",
+      "name": "Yeşil Mercimek Çorbası"
+     },
+     {
+      "img": "dishes/664bfec39c.jpg",
+      "kcal": 250,
+      "key": "664bfec39c",
+      "name": "Nohut Yemeği"
+     },
+     {
+      "kcal": 320,
+      "key": "57d2d2d906",
+      "name": "Mısırlı Pirinç Pilavı"
+     },
+     {
+      "kcal": 245,
+      "key": "7c7be53996",
+      "name": "Tavukgöğsü Tatlısı"
+     }
+    ],
+    "kcal": 1065
+   }
   }
  },
  "university": "marmara",
- "updated": "2026-11-23T00:05:11+03:00"
+ "updated": "2026-11-23T15:45:16+03:00"
 }

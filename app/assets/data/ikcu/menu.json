@@ -1537,6 +1537,7 @@
       "name": "Domates Çorba"
      },
      {
+      "img": "dishes/37f6660001.jpg",
       "key": "37f6660001",
       "name": "Manisa Usulü Nohut Yemeği"
      },
@@ -1546,8 +1547,9 @@
       "name": "Salçalı Bulgur Pilavı"
      },
      {
-      "key": "68411fc852",
-      "name": "Patlıcan Ezme"
+      "img": "dishes/3b8121367c.jpg",
+      "key": "3b8121367c",
+      "name": "Brokoli Salatası"
      },
      {
       "key": "74b8be1351",
@@ -1609,5 +1611,5 @@
   }
  },
  "university": "ikcu",
- "updated": "2026-11-23T00:05:11+03:00"
+ "updated": "2026-11-23T15:45:16+03:00"
 }

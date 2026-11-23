@@ -482,9 +482,10 @@
    "lunch": {
     "items": [
      {
+      "img": "dishes/bd571c7d2a.jpg",
       "kcal": 370,
-      "key": "47f30776fa",
-      "name": "Sebzeli Tavuk"
+      "key": "bd571c7d2a",
+      "name": "Fırın Tavuk"
      },
      {
       "img": "dishes/18ccb4d264.jpg",
@@ -627,5 +628,5 @@
   }
  },
  "university": "ksu",
- "updated": "2026-11-23T00:05:11+03:00"
+ "updated": "2026-11-23T15:45:16+03:00"
 }

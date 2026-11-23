@@ -495,10 +495,9 @@
       "name": "Minestrone Çorba"
      },
      {
-      "img": "dishes/694df91308.jpg",
-      "kcal": 308,
-      "key": "694df91308",
-      "name": "İzmir Köfte"
+      "kcal": 380,
+      "key": "7beef3c4ec",
+      "name": "Kayseri Köfte"
      },
      {
       "img": "dishes/25b07cf14e.jpg",
@@ -513,7 +512,7 @@
       "name": "Meyve"
      }
     ],
-    "kcal": 789
+    "kcal": 861
    }
   },
   "2026-11-25": {
@@ -642,5 +641,5 @@
   }
  },
  "university": "bartin",
- "updated": "2026-11-23T00:05:11+03:00"
+ "updated": "2026-11-23T15:45:16+03:00"
 }

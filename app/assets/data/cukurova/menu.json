@@ -255,16 +255,15 @@
       "name": "Peynirli Pide"
      },
      {
-      "img": "dishes/eec19fe365.jpg",
+      "img": "dishes/dea75981a4.jpg",
       "kcal": 250,
-      "key": "eec19fe365",
-      "name": "Terbiyeli Tavuk Çorba"
+      "key": "dea75981a4",
+      "name": "Şehriyeli Tavuk Çorba"
      },
      {
-      "img": "dishes/2610f75ca2.jpg",
-      "kcal": 20,
-      "key": "2610f75ca2",
-      "name": "Şalgam"
+      "kcal": 105,
+      "key": "1268937c0d",
+      "name": "Havuç Salata"
      },
      {
       "img": "dishes/1087b76fa2.jpg",
@@ -273,7 +272,7 @@
       "name": "Revani"
      }
     ],
-    "kcal": 1265
+    "kcal": 1350
    }
   },
   "2026-11-25": {
@@ -399,5 +398,5 @@
   }
  },
  "university": "cukurova",
- "updated": "2026-11-23T00:05:11+03:00"
+ "updated": "2026-11-23T15:45:16+03:00"
 }
