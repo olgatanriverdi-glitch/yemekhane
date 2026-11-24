@@ -1,59 +1,5 @@
 {
  "days": {
-  "2026-10-09": {
-   "dinner": {
-    "items": [
-     {
-      "kcal": 157,
-      "key": "07baf01b04",
-      "name": "Közbiber Çorba"
-     },
-     {
-      "img": "dishes/8ae9a648f3.jpg",
-      "kcal": 267,
-      "key": "8ae9a648f3",
-      "name": "Kıymalı Karnıyarık"
-     },
-     {
-      "kcal": 466,
-      "key": "8636bfbc0a",
-      "name": "Pirinç Pilavı"
-     },
-     {
-      "img": "dishes/2f58be7b7a.jpg",
-      "kcal": 117,
-      "key": "2f58be7b7a",
-      "name": "Cacık"
-     }
-    ],
-    "kcal": 1007
-   },
-   "lunch": {
-    "items": [
-     {
-      "kcal": 157,
-      "key": "07baf01b04",
-      "name": "Közbiber Çorba"
-     },
-     {
-      "kcal": 373,
-      "key": "9c455617de",
-      "name": "Sömelek Köfte"
-     },
-     {
-      "kcal": 173,
-      "key": "fa93566486",
-      "name": "Zeytinyağlı Orbit Fasulye"
-     },
-     {
-      "kcal": 91,
-      "key": "ca6b9edafa",
-      "name": "Havuçlu Kırmızı Lahana Salatası"
-     }
-    ],
-    "kcal": 794
-   }
-  },
   "2026-10-10": {
    "dinner": {
     "items": [
@@ -2996,5 +2942,5 @@
   }
  },
  "university": "odtu",
- "updated": "2026-11-23T15:45:16+03:00"
+ "updated": "2026-11-24T05:14:13+03:00"
 }

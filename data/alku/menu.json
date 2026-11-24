@@ -1,35 +1,5 @@
 {
  "days": {
-  "2026-10-09": {
-   "lunch": {
-    "items": [
-     {
-      "img": "dishes/495fb304f2.jpg",
-      "kcal": 227,
-      "key": "495fb304f2",
-      "name": "Şehriye Çorbası"
-     },
-     {
-      "img": "dishes/85b7944a41.jpg",
-      "kcal": 191,
-      "key": "85b7944a41",
-      "name": "Tas Kebabı"
-     },
-     {
-      "img": "dishes/e5c8d49cb8.jpg",
-      "kcal": 391,
-      "key": "e5c8d49cb8",
-      "name": "Börek"
-     },
-     {
-      "kcal": 108,
-      "key": "f2d24ae146",
-      "name": "Üzüm Kompostosu"
-     }
-    ],
-    "kcal": 917
-   }
-  },
   "2026-10-12": {
    "lunch": {
     "items": [
@@ -974,5 +944,5 @@
   }
  },
  "university": "alku",
- "updated": "2026-11-23T15:45:16+03:00"
+ "updated": "2026-11-24T05:14:13+03:00"
 }

@@ -127,8 +127,33 @@
      }
     ]
    }
+  },
+  "2026-11-24": {
+   "lunch": {
+    "items": [
+     {
+      "key": "fa093d6a50",
+      "name": "Fırın Balık"
+     },
+     {
+      "img": "dishes/4fb733faf2.jpg",
+      "key": "4fb733faf2",
+      "name": "Ezogelin Çorbası"
+     },
+     {
+      "img": "dishes/c96fd73d5f.jpg",
+      "key": "c96fd73d5f",
+      "name": "Salata"
+     },
+     {
+      "img": "dishes/44abc36c0c.jpg",
+      "key": "44abc36c0c",
+      "name": "İrmik Helvası"
+     }
+    ]
+   }
   }
  },
  "university": "mtu",
- "updated": "2026-11-23T15:45:16+03:00"
+ "updated": "2026-11-24T05:14:13+03:00"
 }

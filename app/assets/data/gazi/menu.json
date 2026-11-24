@@ -885,8 +885,8 @@
       "name": "Şehriye Çorbası"
      },
      {
-      "key": "b847fd37ad",
-      "name": "Tavuk Şinitzel- Sebze Garnili"
+      "key": "598717f56c",
+      "name": "Tavuk Külbastı - Sebze Garn"
      },
      {
       "key": "8636bfbc0a",
@@ -1122,8 +1122,8 @@
       "name": "Mantar Çorbası"
      },
      {
-      "key": "fee566d555",
-      "name": "Pilav Üstü Et Kavurması"
+      "key": "fa3eb52922",
+      "name": "Pilavüstü Et Kavurması"
      },
      {
       "img": "dishes/ee8e1db5de.jpg",
@@ -1214,5 +1214,5 @@
   }
  },
  "university": "gazi",
- "updated": "2026-11-23T15:45:16+03:00"
+ "updated": "2026-11-24T05:14:13+03:00"
 }

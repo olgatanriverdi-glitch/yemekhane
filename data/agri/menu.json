@@ -406,8 +406,32 @@
      }
     ]
    }
+  },
+  "2026-11-26": {
+   "lunch": {
+    "items": [
+     {
+      "key": "7e85f5098f",
+      "name": "Köylü Çorba"
+     },
+     {
+      "img": "dishes/0c8fb793a8.jpg",
+      "key": "0c8fb793a8",
+      "name": "Tavuk Kanat"
+     },
+     {
+      "img": "dishes/25b07cf14e.jpg",
+      "key": "25b07cf14e",
+      "name": "Bulgur Pilavı"
+     },
+     {
+      "key": "25c81cc1f7",
+      "name": "Domates-Soğan Söğüş"
+     }
+    ]
+   }
   }
  },
  "university": "agri",
- "updated": "2026-11-23T15:45:16+03:00"
+ "updated": "2026-11-24T05:14:13+03:00"
 }

@@ -1,31 +1,5 @@
 {
  "days": {
-  "2026-10-09": {
-   "lunch": {
-    "items": [
-     {
-      "img": "dishes/22dd093862.jpg",
-      "key": "22dd093862",
-      "name": "Mercimek Çorba"
-     },
-     {
-      "img": "dishes/27f8bf5206.jpg",
-      "key": "27f8bf5206",
-      "name": "Elbasan Tava"
-     },
-     {
-      "img": "dishes/25b07cf14e.jpg",
-      "key": "25b07cf14e",
-      "name": "Bulgur Pilavı"
-     },
-     {
-      "img": "dishes/2f58be7b7a.jpg",
-      "key": "2f58be7b7a",
-      "name": "Cacık"
-     }
-    ]
-   }
-  },
   "2026-10-12": {
    "lunch": {
     "items": [
@@ -624,5 +598,5 @@
   }
  },
  "university": "omu",
- "updated": "2026-11-23T15:45:16+03:00"
+ "updated": "2026-11-24T05:14:13+03:00"
 }

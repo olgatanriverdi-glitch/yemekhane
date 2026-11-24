@@ -1,34 +1,5 @@
 {
  "days": {
-  "2026-10-09": {
-   "lunch": {
-    "items": [
-     {
-      "kcal": 430,
-      "key": "fd1a7475ad",
-      "name": "Et Haşlama"
-     },
-     {
-      "kcal": 340,
-      "key": "8636bfbc0a",
-      "name": "Pirinç Pilavı"
-     },
-     {
-      "img": "dishes/99a67d4042.jpg",
-      "kcal": 70,
-      "key": "99a67d4042",
-      "name": "Mevsim Salata"
-     },
-     {
-      "img": "dishes/904e9c87e9.jpg",
-      "kcal": 325,
-      "key": "904e9c87e9",
-      "name": "Şekerpare"
-     }
-    ],
-    "kcal": 1165
-   }
-  },
   "2026-10-12": {
    "lunch": {
     "items": [
@@ -1052,5 +1023,5 @@
   }
  },
  "university": "trabzon",
- "updated": "2026-11-23T15:45:16+03:00"
+ "updated": "2026-11-24T05:14:13+03:00"
 }

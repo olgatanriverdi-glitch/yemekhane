@@ -1,43 +1,5 @@
 {
  "days": {
-  "2026-10-09": {
-   "lunch": {
-    "items": [
-     {
-      "img": "dishes/bf8474c8b9.jpg",
-      "kcal": 154,
-      "key": "bf8474c8b9",
-      "name": "Ezogelin Çorba"
-     },
-     {
-      "kcal": 352,
-      "key": "4c0e6d36bb",
-      "name": "Çiftlik Köfte"
-     },
-     {
-      "kcal": 320,
-      "key": "7bae814a67",
-      "name": "Tavuk Sote"
-     },
-     {
-      "img": "dishes/18ccb4d264.jpg",
-      "kcal": 309,
-      "key": "18ccb4d264",
-      "name": "Soslu Makarna"
-     },
-     {
-      "img": "dishes/9c8d655ef5.jpg",
-      "kcal": 138,
-      "key": "9c8d655ef5",
-      "name": "Yoğurt"
-     },
-     {
-      "key": "77c317eb2a",
-      "name": "Kayısı-Üzüm Hoşafı"
-     }
-    ]
-   }
-  },
   "2026-10-12": {
    "lunch": {
     "items": [
@@ -1583,5 +1545,5 @@
   }
  },
  "university": "ktu",
- "updated": "2026-11-23T15:45:16+03:00"
+ "updated": "2026-11-24T05:14:13+03:00"
 }

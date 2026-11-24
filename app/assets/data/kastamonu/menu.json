@@ -1,34 +1,5 @@
 {
  "days": {
-  "2026-11-23": {
-   "lunch": {
-    "items": [
-     {
-      "kcal": 189,
-      "key": "a19dbc03de",
-      "name": "Kaş. Domates Çorba"
-     },
-     {
-      "img": "dishes/890b8e3990.jpg",
-      "kcal": 246,
-      "key": "890b8e3990",
-      "name": "Etli Nohut"
-     },
-     {
-      "kcal": 263,
-      "key": "f8f083a95b",
-      "name": "Şehriyeli Pirinç P"
-     },
-     {
-      "img": "dishes/2f58be7b7a.jpg",
-      "kcal": 91,
-      "key": "2f58be7b7a",
-      "name": "Cacık"
-     }
-    ],
-    "kcal": 789
-   }
-  },
   "2026-11-24": {
    "lunch": {
     "items": [
@@ -175,5 +146,5 @@
   }
  },
  "university": "kastamonu",
- "updated": "2026-11-23T15:45:16+03:00"
+ "updated": "2026-11-24T05:14:13+03:00"
 }

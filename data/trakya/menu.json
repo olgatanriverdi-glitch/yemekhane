@@ -396,30 +396,30 @@
     "kcal": 985
    }
   },
-  "2026-11-24": {
+  "2026-11-23": {
    "lunch": {
     "items": [
      {
-      "img": "dishes/bf8474c8b9.jpg",
-      "key": "bf8474c8b9",
-      "name": "Ezogelin Çorba"
+      "img": "dishes/22dd093862.jpg",
+      "key": "22dd093862",
+      "name": "Mercimek Çorba"
      },
      {
-      "key": "4c0e6d36bb",
-      "name": "Çiftlik Köfte"
+      "key": "b6efc0cf41",
+      "name": "Bazlamalı Yoğurtlu Kebap"
      },
      {
-      "img": "dishes/18ccb4d264.jpg",
-      "key": "18ccb4d264",
-      "name": "Soslu Makarna"
+      "img": "dishes/b933cbd8aa.jpg",
+      "key": "b933cbd8aa",
+      "name": "Zeytinyağlı Bezelye"
      },
      {
-      "img": "dishes/16b5c22561.jpg",
-      "key": "16b5c22561",
-      "name": "Ayran"
+      "img": "dishes/ed17271d58.jpg",
+      "key": "ed17271d58",
+      "name": "Meyve"
      }
     ],
-    "kcal": 888
+    "kcal": 960
    }
   },
   "2026-11-25": {
@@ -527,5 +527,5 @@
   }
  },
  "university": "trakya",
- "updated": "2026-11-23T15:45:16+03:00"
+ "updated": "2026-11-24T05:14:13+03:00"
 }

@@ -209,42 +209,6 @@
     "kcal": 951
    }
   },
-  "2026-11-23": {
-   "lunch": {
-    "items": [
-     {
-      "img": "dishes/6e704b8a1b.jpg",
-      "kcal": 460,
-      "key": "6e704b8a1b",
-      "name": "Sini Köfte"
-     },
-     {
-      "img": "dishes/d35dd703ba.jpg",
-      "kcal": 150,
-      "key": "d35dd703ba",
-      "name": "Etsiz Kapuska"
-     },
-     {
-      "kcal": 310,
-      "key": "70ddba17c0",
-      "name": "Arpa Şehriyeli Pirinç Pilavı"
-     },
-     {
-      "img": "dishes/9c8d655ef5.jpg",
-      "kcal": 118,
-      "key": "9c8d655ef5",
-      "name": "Yoğurt"
-     },
-     {
-      "img": "dishes/9f85e8b7f9.jpg",
-      "kcal": 90,
-      "key": "9f85e8b7f9",
-      "name": "Meyve (Muz)"
-     }
-    ],
-    "kcal": 1128
-   }
-  },
   "2026-11-24": {
    "lunch": {
     "items": [
@@ -253,6 +217,11 @@
       "kcal": 400,
       "key": "c40197a6ec",
       "name": "Peynirli Pide"
+     },
+     {
+      "kcal": 544,
+      "key": "dc17559ef7",
+      "name": "Patatesli Börek"
      },
      {
       "img": "dishes/dea75981a4.jpg",
@@ -272,7 +241,7 @@
       "name": "Revani"
      }
     ],
-    "kcal": 1350
+    "kcal": 1894
    }
   },
   "2026-11-25": {
@@ -398,5 +367,5 @@
   }
  },
  "university": "cukurova",
- "updated": "2026-11-23T15:45:16+03:00"
+ "updated": "2026-11-24T05:14:13+03:00"
 }

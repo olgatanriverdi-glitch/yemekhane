@@ -1,56 +1,5 @@
 {
  "days": {
-  "2026-10-09": {
-   "lunch": {
-    "items": [
-     {
-      "key": "3edc3d70e5",
-      "name": "Püreli Rosto Köfte"
-     },
-     {
-      "img": "dishes/1d9f36bd6a.jpg",
-      "key": "1d9f36bd6a",
-      "name": "Domates Soslu Makarna"
-     },
-     {
-      "img": "dishes/99a67d4042.jpg",
-      "key": "99a67d4042",
-      "name": "Mevsim Salata"
-     },
-     {
-      "img": "dishes/92485508df.jpg",
-      "key": "92485508df",
-      "name": "Tatlı"
-     }
-    ],
-    "kcal": 840
-   },
-   "vegetarian": {
-    "items": [
-     {
-      "img": "dishes/add3592632.jpg",
-      "key": "add3592632",
-      "name": "Karışık Kızartma"
-     },
-     {
-      "img": "dishes/1d9f36bd6a.jpg",
-      "key": "1d9f36bd6a",
-      "name": "Domates Soslu Makarna"
-     },
-     {
-      "img": "dishes/99a67d4042.jpg",
-      "key": "99a67d4042",
-      "name": "Mevsim Salata"
-     },
-     {
-      "img": "dishes/ed17271d58.jpg",
-      "key": "ed17271d58",
-      "name": "Meyve"
-     }
-    ],
-    "kcal": 840
-   }
-  },
   "2026-10-12": {
    "lunch": {
     "items": [
@@ -2059,5 +2008,5 @@
   }
  },
  "university": "deu",
- "updated": "2026-11-23T15:45:16+03:00"
+ "updated": "2026-11-24T05:14:13+03:00"
 }

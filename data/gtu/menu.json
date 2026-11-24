@@ -1,57 +1,5 @@
 {
  "days": {
-  "2026-10-09": {
-   "lunch": {
-    "items": [
-     {
-      "kcal": 223,
-      "key": "0afb69c78d",
-      "name": "Kaşarlı Domates Çorbası"
-     },
-     {
-      "img": "dishes/73140ef6b5.jpg",
-      "kcal": 396,
-      "key": "73140ef6b5",
-      "name": "Tavuk Sarma"
-     },
-     {
-      "kcal": 388,
-      "key": "c9bf7aa111",
-      "name": "Meyhane Pilavı"
-     },
-     {
-      "img": "dishes/2911af800f.jpg",
-      "kcal": 345,
-      "key": "2911af800f",
-      "name": "Kremalı Makarna"
-     },
-     {
-      "kcal": 435,
-      "key": "5f2febc79b",
-      "name": "Balbadem"
-     },
-     {
-      "img": "dishes/cb4993d46f.jpg",
-      "kcal": 151,
-      "key": "cb4993d46f",
-      "name": "Zeytinyağlı Brokoli"
-     },
-     {
-      "img": "dishes/99a67d4042.jpg",
-      "kcal": 45,
-      "key": "99a67d4042",
-      "name": "Mevsim Salata"
-     },
-     {
-      "img": "dishes/9c8d655ef5.jpg",
-      "kcal": 93,
-      "key": "9c8d655ef5",
-      "name": "Yoğurt"
-     }
-    ],
-    "kcal": 2076
-   }
-  },
   "2026-10-12": {
    "lunch": {
     "items": [
@@ -1250,5 +1198,5 @@
   }
  },
  "university": "gtu",
- "updated": "2026-11-23T15:45:16+03:00"
+ "updated": "2026-11-24T05:14:13+03:00"
 }

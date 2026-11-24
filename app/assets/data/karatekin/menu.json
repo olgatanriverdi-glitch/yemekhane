@@ -447,35 +447,34 @@
     "kcal": 811
    }
   },
-  "2026-11-24": {
+  "2026-11-23": {
    "lunch": {
     "items": [
      {
-      "img": "dishes/f98b465287.jpg",
-      "kcal": 140,
-      "key": "f98b465287",
-      "name": "Yayla Çorba"
+      "img": "dishes/7599097195.jpg",
+      "kcal": 195,
+      "key": "7599097195",
+      "name": "Domates Çorba"
      },
      {
-      "img": "dishes/1e0a78e916.jpg",
-      "kcal": 256,
-      "key": "1e0a78e916",
-      "name": "Orman Kebabı"
+      "img": "dishes/b3efb31ca2.jpg",
+      "kcal": 484,
+      "key": "b3efb31ca2",
+      "name": "Et Burger"
      },
      {
-      "img": "dishes/25b07cf14e.jpg",
-      "kcal": 251,
-      "key": "25b07cf14e",
-      "name": "Bulgur Pilavı"
+      "kcal": 107,
+      "key": "57d451ede7",
+      "name": "Elma Dilim Patates"
      },
      {
-      "img": "dishes/ed17271d58.jpg",
-      "kcal": 80,
-      "key": "ed17271d58",
-      "name": "Meyve"
+      "img": "dishes/16b5c22561.jpg",
+      "kcal": 60,
+      "key": "16b5c22561",
+      "name": "Ayran"
      }
     ],
-    "kcal": 727
+    "kcal": 846
    }
   },
   "2026-11-25": {
@@ -600,5 +599,5 @@
   }
  },
  "university": "karatekin",
- "updated": "2026-11-23T15:45:16+03:00"
+ "updated": "2026-11-24T05:14:13+03:00"
 }

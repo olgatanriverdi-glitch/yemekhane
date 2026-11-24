@@ -1730,6 +1730,7 @@
    "vegetarian": {
     "items": [
      {
+      "img": "dishes/ccddc81b59.jpg",
       "key": "ccddc81b59",
       "name": "Zeytinyağlı Yeşil Mercimek"
      },
@@ -4447,5 +4448,5 @@
   }
  },
  "university": "ege",
- "updated": "2026-11-23T15:45:16+03:00"
+ "updated": "2026-11-24T05:14:13+03:00"
 }

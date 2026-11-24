@@ -1,76 +1,5 @@
 {
  "days": {
-  "2026-10-09": {
-   "lunch": {
-    "items": [
-     {
-      "img": "dishes/5faf1b0081.jpg",
-      "kcal": 185,
-      "key": "5faf1b0081",
-      "name": "Kırmızı Mercimek Çorba"
-     },
-     {
-      "kcal": 400,
-      "key": "b951b62963",
-      "name": "Piliç Topkapı"
-     },
-     {
-      "img": "dishes/9cc15e97bd.jpg",
-      "kcal": 180,
-      "key": "9cc15e97bd",
-      "name": "Patates Salatası"
-     },
-     {
-      "img": "dishes/16b5c22561.jpg",
-      "kcal": 152,
-      "key": "16b5c22561",
-      "name": "Ayran"
-     },
-     {
-      "img": "dishes/1f6a358896.jpg",
-      "kcal": 301,
-      "key": "1f6a358896",
-      "name": "Kadayıf"
-     }
-    ],
-    "kcal": 1218
-   },
-   "vegetarian": {
-    "items": [
-     {
-      "img": "dishes/5faf1b0081.jpg",
-      "kcal": 185,
-      "key": "5faf1b0081",
-      "name": "Kırmızı Mercimek Çorba"
-     },
-     {
-      "img": "dishes/40440fb845.jpg",
-      "kcal": 250,
-      "key": "40440fb845",
-      "name": "İç Pilav"
-     },
-     {
-      "img": "dishes/9cc15e97bd.jpg",
-      "kcal": 180,
-      "key": "9cc15e97bd",
-      "name": "Patates Salatası"
-     },
-     {
-      "img": "dishes/16b5c22561.jpg",
-      "kcal": 152,
-      "key": "16b5c22561",
-      "name": "Ayran"
-     },
-     {
-      "img": "dishes/1f6a358896.jpg",
-      "kcal": 301,
-      "key": "1f6a358896",
-      "name": "Kadayıf"
-     }
-    ],
-    "kcal": 1068
-   }
-  },
   "2026-10-12": {
    "lunch": {
     "items": [
@@ -2052,8 +1981,8 @@
      },
      {
       "kcal": 385,
-      "key": "486bac3a25",
-      "name": "Rosta Köfte Püreli"
+      "key": "e080b39b61",
+      "name": "Rosto Köfte Püreli"
      },
      {
       "img": "dishes/7996503754.jpg",
@@ -2139,10 +2068,10 @@
       "name": "Ayran"
      },
      {
-      "img": "dishes/1f6a358896.jpg",
+      "img": "dishes/4b3d132c48.jpg",
       "kcal": 301,
-      "key": "1f6a358896",
-      "name": "Kadayıf"
+      "key": "4b3d132c48",
+      "name": "Kadayıf Tatlısı"
      }
     ],
     "kcal": 1218
@@ -2156,10 +2085,10 @@
       "name": "Kırmızı Mercimek Çorba"
      },
      {
-      "img": "dishes/d020f94fc7.jpg",
+      "img": "dishes/2c4b997c75.jpg",
       "kcal": 73,
-      "key": "d020f94fc7",
-      "name": "Taze Fasülye"
+      "key": "2c4b997c75",
+      "name": "Taze Fasulye"
      },
      {
       "img": "dishes/9cc15e97bd.jpg",
@@ -2174,10 +2103,10 @@
       "name": "Ayran"
      },
      {
-      "img": "dishes/1f6a358896.jpg",
+      "img": "dishes/4b3d132c48.jpg",
       "kcal": 301,
-      "key": "1f6a358896",
-      "name": "Kadayıf"
+      "key": "4b3d132c48",
+      "name": "Kadayıf Tatlısı"
      }
     ],
     "kcal": 891
@@ -2461,5 +2390,5 @@
   }
  },
  "university": "asbu",
- "updated": "2026-11-23T15:45:16+03:00"
+ "updated": "2026-11-24T05:14:13+03:00"
 }

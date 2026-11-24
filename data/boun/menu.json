@@ -2702,8 +2702,230 @@
      }
     ]
    }
+  },
+  "2026-12-08": {
+   "dinner": {
+    "items": [
+     {
+      "img": "dishes/4782e4b30f.jpg",
+      "key": "4782e4b30f",
+      "name": "Şehriye Çorba"
+     },
+     {
+      "img": "dishes/aaa0c14e8c.jpg",
+      "key": "aaa0c14e8c",
+      "name": "Tavuk Tikka"
+     },
+     {
+      "img": "dishes/f110121a07.jpg",
+      "key": "f110121a07",
+      "name": "Bolonez Soslu Makarna"
+     },
+     {
+      "key": "70ddba17c0",
+      "name": "Arpa Şehriyeli Pirinç Pilavı"
+     },
+     {
+      "img": "dishes/50eab3d432.jpg",
+      "key": "50eab3d432",
+      "name": "Soda"
+     },
+     {
+      "key": "79ded7ea04",
+      "name": "Havuç Tarator"
+     },
+     {
+      "img": "dishes/ed17271d58.jpg",
+      "key": "ed17271d58",
+      "name": "Meyve"
+     }
+    ]
+   },
+   "lunch": {
+    "items": [
+     {
+      "key": "45d738bb6c",
+      "name": "Mahluta Çorba"
+     },
+     {
+      "key": "ad4ff39ef6",
+      "name": "Etli Karışık Dolma"
+     },
+     {
+      "img": "dishes/bb1917ea91.jpg",
+      "key": "bb1917ea91",
+      "name": "Kol Böreği"
+     },
+     {
+      "key": "cc8707746c",
+      "name": "Zy.Barbunya"
+     },
+     {
+      "img": "dishes/4cbf7321d6.jpg",
+      "key": "4cbf7321d6",
+      "name": "Mercimek Köfte"
+     },
+     {
+      "key": "3ddbc111d2",
+      "name": "Limonata"
+     },
+     {
+      "key": "585449291c",
+      "name": "Şefin Pasta"
+     }
+    ]
+   }
+  },
+  "2026-12-09": {
+   "dinner": {
+    "items": [
+     {
+      "key": "990377f8ad",
+      "name": "Saray Çorba"
+     },
+     {
+      "img": "dishes/025eacfe0c.jpg",
+      "key": "025eacfe0c",
+      "name": "Etli Taze Fasulye"
+     },
+     {
+      "key": "b6a8224fc4",
+      "name": "Sade Pirinç Pilavı"
+     },
+     {
+      "img": "dishes/2356abfde0.jpg",
+      "key": "2356abfde0",
+      "name": "Sebzeli Bulgur Pilavı"
+     },
+     {
+      "img": "dishes/9c8d655ef5.jpg",
+      "key": "9c8d655ef5",
+      "name": "Yoğurt"
+     },
+     {
+      "img": "dishes/910cd3327e.jpg",
+      "key": "910cd3327e",
+      "name": "Magnolia"
+     },
+     {
+      "img": "dishes/3201b259e1.jpg",
+      "key": "3201b259e1",
+      "name": "Gazoz"
+     }
+    ]
+   },
+   "lunch": {
+    "items": [
+     {
+      "img": "dishes/11d5798385.jpg",
+      "key": "11d5798385",
+      "name": "Brokoli Çorba"
+     },
+     {
+      "img": "dishes/0d239a15f0.jpg",
+      "key": "0d239a15f0",
+      "name": "Barbekü Soslu Tavuk"
+     },
+     {
+      "key": "1f6954870e",
+      "name": "Havuçlu Pirinç Pilavı"
+     },
+     {
+      "img": "dishes/86493234ae.jpg",
+      "key": "86493234ae",
+      "name": "Mercimekli Bulgur Pilavı"
+     },
+     {
+      "img": "dishes/2e70342554.jpg",
+      "key": "2e70342554",
+      "name": "Ice Tea"
+     },
+     {
+      "key": "aebf5d06f9",
+      "name": "Mısırlı Yeşil Salata"
+     },
+     {
+      "img": "dishes/ed17271d58.jpg",
+      "key": "ed17271d58",
+      "name": "Meyve"
+     }
+    ]
+   }
+  },
+  "2026-12-10": {
+   "dinner": {
+    "items": [
+     {
+      "img": "dishes/d61d397136.jpg",
+      "key": "d61d397136",
+      "name": "Süzme Mercimek Çorba"
+     },
+     {
+      "key": "fd80b22303",
+      "name": "Kabak Beğendili Köfte"
+     },
+     {
+      "img": "dishes/2932ff5041.jpg",
+      "key": "2932ff5041",
+      "name": "Napoliten Soslu Spagetti"
+     },
+     {
+      "key": "b6a8224fc4",
+      "name": "Sade Pirinç Pilavı"
+     },
+     {
+      "img": "dishes/c3352ed568.jpg",
+      "key": "c3352ed568",
+      "name": "Kısır"
+     },
+     {
+      "img": "dishes/ed17271d58.jpg",
+      "key": "ed17271d58",
+      "name": "Meyve"
+     },
+     {
+      "img": "dishes/50eab3d432.jpg",
+      "key": "50eab3d432",
+      "name": "Soda"
+     }
+    ]
+   },
+   "lunch": {
+    "items": [
+     {
+      "key": "808150eca6",
+      "name": "Antep Çorba"
+     },
+     {
+      "key": "56cc2f8062",
+      "name": "Çıtır Balık"
+     },
+     {
+      "img": "dishes/e205e270b9.jpg",
+      "key": "e205e270b9",
+      "name": "Soslu Spagetti"
+     },
+     {
+      "key": "cc8707746c",
+      "name": "Zy.Barbunya"
+     },
+     {
+      "img": "dishes/a6607cdb9a.jpg",
+      "key": "a6607cdb9a",
+      "name": "Keşkül"
+     },
+     {
+      "key": "ce072af2f7",
+      "name": "Portakallı Gazoz"
+     },
+     {
+      "key": "001b067d6a",
+      "name": "Havuçlu Turp Salatası"
+     }
+    ]
+   }
   }
  },
  "university": "boun",
- "updated": "2026-11-23T15:45:16+03:00"
+ "updated": "2026-11-24T05:14:13+03:00"
 }
