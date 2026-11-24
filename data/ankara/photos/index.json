@@ -27,7 +27,8 @@
   "2026-11-18": "6c2b5a59d5a6",
   "2026-11-19": "afb67ff41e7b",
   "2026-11-20": "1bef3c58250a",
-  "2026-11-23": "c4038de991ad"
+  "2026-11-23": "c4038de991ad",
+  "2026-11-24": "4b85bf1554c0"
  },
  "main": {
   "025eacfe0c": "8f579a24b2f7",
@@ -50,6 +51,7 @@
   "9bd36390ba": "3d079491ea57",
   "9f0828ef41": "2d412b1b6c47",
   "b7f7a0ca2b": "78be4bc465a4",
+  "bc0e4bf707": "4b85bf1554c0",
   "c85992c287": "4efd187fede8",
   "de62be9b48": "164fe8b5ccd4",
   "ebc25b3f12": "1bef3c58250a",
@@ -157,6 +159,16 @@
     "Barbekü Soslu Tavuk",
     "Soslu Makarna",
     "Coleslaw"
+   ]
+  },
+  "4b85bf1554c0": {
+   "added": "2026-11-24",
+   "hash": "2a9dafe5950176596423f6d88afa6457705a57e7",
+   "items": [
+    "Ezogelin Çorba",
+    "Mitit Köfteli Bezelye",
+    "Mısırlı Pirinç Pilavı",
+    "Soğuk Baklava"
    ]
   },
   "4efd187fede8": {

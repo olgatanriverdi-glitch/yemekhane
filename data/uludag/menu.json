@@ -525,6 +525,7 @@
       "name": "Yayla Çorba"
      },
      {
+      "img": "dishes/d42a2dd65c.jpg",
       "key": "d42a2dd65c",
       "name": "Sebzeli Yeşil Mercimek"
      },
@@ -1352,9 +1353,8 @@
    "dinner": {
     "items": [
      {
-      "img": "dishes/cb0bdfa8a7.jpg",
-      "key": "cb0bdfa8a7",
-      "name": "Arnavut Ciğeri"
+      "key": "77ea3b7637",
+      "name": "Piliç Graten"
      },
      {
       "img": "dishes/bf8474c8b9.jpg",
@@ -1668,5 +1668,5 @@
   }
  },
  "university": "uludag",
- "updated": "2026-11-24T05:14:13+03:00"
+ "updated": "2026-11-24T16:45:47+03:00"
 }

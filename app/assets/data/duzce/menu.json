@@ -483,9 +483,8 @@
       "name": "Mercimek Çorba"
      },
      {
-      "img": "dishes/17d2e9100f.jpg",
-      "key": "17d2e9100f",
-      "name": "Tavuk Döner"
+      "key": "7bae814a67",
+      "name": "Tavuk Sote"
      },
      {
       "img": "dishes/38d8401ff1.jpg",
@@ -542,9 +541,8 @@
       "name": "Ezogelin Çorba"
      },
      {
-      "img": "dishes/d0ee7d01d0.jpg",
-      "key": "d0ee7d01d0",
-      "name": "Sebzeli Fırın Tavuk"
+      "key": "9dccd33095",
+      "name": "Körü Soslu Tavuk"
      },
      {
       "key": "a7ab22b05b",
@@ -623,5 +621,5 @@
   }
  },
  "university": "duzce",
- "updated": "2026-11-24T05:14:13+03:00"
+ "updated": "2026-11-24T16:45:47+03:00"
 }

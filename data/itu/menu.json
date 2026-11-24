@@ -165,8 +165,9 @@
       "name": "Orman Kebabı"
      },
      {
-      "key": "8636bfbc0a",
-      "name": "Pirinç Pilavı"
+      "img": "dishes/25b07cf14e.jpg",
+      "key": "25b07cf14e",
+      "name": "Bulgur Pilavı"
      },
      {
       "img": "dishes/ed47fcacda.jpg",
@@ -417,5 +418,5 @@
   }
  },
  "university": "itu",
- "updated": "2026-11-24T05:14:13+03:00"
+ "updated": "2026-11-24T16:45:47+03:00"
 }

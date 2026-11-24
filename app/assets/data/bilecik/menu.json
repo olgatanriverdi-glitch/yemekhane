@@ -410,13 +410,13 @@
       "name": "Sebzeli Kavurma"
      },
      {
-      "img": "dishes/25b07cf14e.jpg",
-      "key": "25b07cf14e",
-      "name": "Bulgur Pilavı"
+      "key": "8636bfbc0a",
+      "name": "Pirinç Pilavı"
      },
      {
-      "key": "2f48dae569",
-      "name": "Meşrubat"
+      "img": "dishes/a765c7c985.jpg",
+      "key": "a765c7c985",
+      "name": "Komposto"
      }
     ]
    }
@@ -482,13 +482,13 @@
       "name": "Püreli Köfte"
      },
      {
-      "img": "dishes/bac7d91091.jpg",
-      "key": "bac7d91091",
-      "name": "Makarna"
+      "key": "a7367ad137",
+      "name": "Su Börek"
      },
      {
-      "key": "034a7d358a",
-      "name": "Karışık İçecek"
+      "img": "dishes/ed17271d58.jpg",
+      "key": "ed17271d58",
+      "name": "Meyve"
      }
     ]
    }
@@ -520,5 +520,5 @@
   }
  },
  "university": "bilecik",
- "updated": "2026-11-24T05:14:13+03:00"
+ "updated": "2026-11-24T16:45:47+03:00"
 }

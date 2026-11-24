@@ -121,8 +121,103 @@
      }
     ]
    }
+  },
+  "2026-12-01": {
+   "lunch": {
+    "items": [
+     {
+      "img": "dishes/0955218757.jpg",
+      "key": "0955218757",
+      "name": "Mercimek Çorbası"
+     },
+     {
+      "key": "11f91988ce",
+      "name": "Dalyan Köf./Püre"
+     },
+     {
+      "img": "dishes/bebb3f5417.jpg",
+      "key": "bebb3f5417",
+      "name": "Spagetti"
+     },
+     {
+      "key": "b3743cd135",
+      "name": "Kakaolu Puding"
+     }
+    ]
+   }
+  },
+  "2026-12-02": {
+   "lunch": {
+    "items": [
+     {
+      "key": "e47540f7f5",
+      "name": "Domates Çorbası"
+     },
+     {
+      "key": "1cdec75d4e",
+      "name": "Şinitzel/Garn"
+     },
+     {
+      "key": "8636bfbc0a",
+      "name": "Pirinç Pilavı"
+     },
+     {
+      "key": "0290e273ff",
+      "name": "Lahana Salatası"
+     }
+    ]
+   }
+  },
+  "2026-12-03": {
+   "lunch": {
+    "items": [
+     {
+      "img": "dishes/4fb733faf2.jpg",
+      "key": "4fb733faf2",
+      "name": "Ezogelin Çorbası"
+     },
+     {
+      "key": "fe626bb9b7",
+      "name": "Fırında Etli Türlü"
+     },
+     {
+      "key": "5c2301df43",
+      "name": "Pey.Tepsi Böreği"
+     },
+     {
+      "img": "dishes/16b5c22561.jpg",
+      "key": "16b5c22561",
+      "name": "Ayran"
+     }
+    ]
+   }
+  },
+  "2026-12-04": {
+   "lunch": {
+    "items": [
+     {
+      "img": "dishes/e2fac9b8dd.jpg",
+      "key": "e2fac9b8dd",
+      "name": "Tel.Şehriye Çorbası"
+     },
+     {
+      "key": "eb695606e6",
+      "name": "Macar Gulaş"
+     },
+     {
+      "img": "dishes/2356abfde0.jpg",
+      "key": "2356abfde0",
+      "name": "Sebzeli Bulgur Pilavı"
+     },
+     {
+      "img": "dishes/1087b76fa2.jpg",
+      "key": "1087b76fa2",
+      "name": "Revani"
+     }
+    ]
+   }
   }
  },
  "university": "mugla",
- "updated": "2026-11-24T05:14:13+03:00"
+ "updated": "2026-11-24T16:45:47+03:00"
 }

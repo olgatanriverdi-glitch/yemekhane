@@ -878,26 +878,27 @@
    "lunch": {
     "items": [
      {
-      "key": "c5a826503e",
-      "name": "Dizi Köfte"
+      "img": "dishes/19732f01d3.jpg",
+      "key": "19732f01d3",
+      "name": "Tavuk Şiş"
      },
      {
-      "img": "dishes/18ccb4d264.jpg",
-      "key": "18ccb4d264",
-      "name": "Soslu Makarna"
+      "img": "dishes/6bfa0ca014.jpg",
+      "key": "6bfa0ca014",
+      "name": "Salçalı Bulgur Pilavı"
      },
      {
-      "img": "dishes/f98b465287.jpg",
-      "key": "f98b465287",
-      "name": "Yayla Çorba"
+      "img": "dishes/d61d397136.jpg",
+      "key": "d61d397136",
+      "name": "Süzme Mercimek Çorba"
      },
      {
-      "img": "dishes/ed17271d58.jpg",
-      "key": "ed17271d58",
-      "name": "Meyve"
+      "img": "dishes/c96fd73d5f.jpg",
+      "key": "c96fd73d5f",
+      "name": "Salata"
      }
     ],
-    "kcal": 1006
+    "kcal": 1080
    }
   },
   "2026-11-26": {
@@ -928,27 +929,26 @@
    "lunch": {
     "items": [
      {
-      "img": "dishes/19732f01d3.jpg",
-      "key": "19732f01d3",
-      "name": "Tavuk Şiş"
+      "key": "c5a826503e",
+      "name": "Dizi Köfte"
      },
      {
-      "img": "dishes/6bfa0ca014.jpg",
-      "key": "6bfa0ca014",
-      "name": "Salçalı Bulgur Pilavı"
+      "img": "dishes/18ccb4d264.jpg",
+      "key": "18ccb4d264",
+      "name": "Soslu Makarna"
      },
      {
-      "img": "dishes/d61d397136.jpg",
-      "key": "d61d397136",
-      "name": "Süzme Mercimek Çorba"
+      "img": "dishes/f98b465287.jpg",
+      "key": "f98b465287",
+      "name": "Yayla Çorba"
      },
      {
-      "img": "dishes/c96fd73d5f.jpg",
-      "key": "c96fd73d5f",
-      "name": "Salata"
+      "img": "dishes/ed17271d58.jpg",
+      "key": "ed17271d58",
+      "name": "Meyve"
      }
     ],
-    "kcal": 1080
+    "kcal": 1006
    }
   },
   "2026-11-27": {
@@ -1054,5 +1054,5 @@
   }
  },
  "university": "adiyaman",
- "updated": "2026-11-24T05:14:13+03:00"
+ "updated": "2026-11-24T16:45:47+03:00"
 }

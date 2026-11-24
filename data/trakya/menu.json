@@ -426,9 +426,9 @@
    "lunch": {
     "items": [
      {
-      "img": "dishes/f98b465287.jpg",
-      "key": "f98b465287",
-      "name": "Yayla Çorba"
+      "img": "dishes/a78f83ec68.jpg",
+      "key": "a78f83ec68",
+      "name": "Mısır Çorba"
      },
      {
       "img": "dishes/fbb76e65c4.jpg",
@@ -446,7 +446,7 @@
       "name": "Mevsim Salata"
      }
     ],
-    "kcal": 813
+    "kcal": 862
    }
   },
   "2026-11-26": {
@@ -527,5 +527,5 @@
   }
  },
  "university": "trakya",
- "updated": "2026-11-24T05:14:13+03:00"
+ "updated": "2026-11-24T16:45:47+03:00"
 }

@@ -1240,10 +1240,10 @@
       "name": "Etli Taze Fasulye"
      },
      {
-      "img": "dishes/c12508390a.jpg",
-      "kcal": 273,
-      "key": "c12508390a",
-      "name": "Peynirli Gül Böreği"
+      "img": "dishes/18ccb4d264.jpg",
+      "kcal": 375,
+      "key": "18ccb4d264",
+      "name": "Soslu Makarna"
      },
      {
       "img": "dishes/2cadfd988f.jpg",
@@ -1252,7 +1252,7 @@
       "name": "Hoşaf"
      }
     ],
-    "kcal": 990
+    "kcal": 1092
    },
    "lunch": {
     "items": [
@@ -1269,10 +1269,10 @@
       "name": "Etli Taze Fasulye"
      },
      {
-      "img": "dishes/c12508390a.jpg",
-      "kcal": 273,
-      "key": "c12508390a",
-      "name": "Peynirli Gül Böreği"
+      "img": "dishes/18ccb4d264.jpg",
+      "kcal": 375,
+      "key": "18ccb4d264",
+      "name": "Soslu Makarna"
      },
      {
       "img": "dishes/2cadfd988f.jpg",
@@ -1281,7 +1281,7 @@
       "name": "Hoşaf"
      }
     ],
-    "kcal": 990
+    "kcal": 1092
    },
    "vegetarian": {
     "items": [
@@ -4735,5 +4735,5 @@
   }
  },
  "university": "hacettepe",
- "updated": "2026-11-24T05:14:13+03:00"
+ "updated": "2026-11-24T16:45:47+03:00"
 }

@@ -430,13 +430,13 @@
       "name": "Peynirli Makarna"
      },
      {
-      "img": "dishes/904e9c87e9.jpg",
-      "kcal": 275,
-      "key": "904e9c87e9",
-      "name": "Şekerpare"
+      "img": "dishes/5ee638df0e.jpg",
+      "kcal": 225,
+      "key": "5ee638df0e",
+      "name": "Kalburabastı"
      }
     ],
-    "kcal": 1235
+    "kcal": 1185
    }
   },
   "2026-11-25": {
@@ -497,5 +497,5 @@
   }
  },
  "university": "etu",
- "updated": "2026-11-24T05:14:13+03:00"
+ "updated": "2026-11-24T16:45:47+03:00"
 }

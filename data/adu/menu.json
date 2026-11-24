@@ -667,8 +667,35 @@
      }
     ]
    }
+  },
+  "2026-11-30": {
+   "lunch": {
+    "items": [
+     {
+      "kcal": 170,
+      "key": "7e85f5098f",
+      "name": "Köylü Çorba"
+     },
+     {
+      "kcal": 480,
+      "key": "9051f07cfc",
+      "name": "Tavuk Döner&Patates"
+     },
+     {
+      "kcal": 380,
+      "key": "fef6adada3",
+      "name": "Nohutlu Pirinç Pilavı"
+     },
+     {
+      "img": "dishes/16b5c22561.jpg",
+      "kcal": 90,
+      "key": "16b5c22561",
+      "name": "Ayran"
+     }
+    ]
+   }
   }
  },
  "university": "adu",
- "updated": "2026-11-24T05:14:13+03:00"
+ "updated": "2026-11-24T16:45:47+03:00"
 }

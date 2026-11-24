@@ -493,10 +493,9 @@
       "name": "Bulgur Pilavı"
      },
      {
-      "img": "dishes/3844b17b36.jpg",
       "kcal": 225,
-      "key": "3844b17b36",
-      "name": "Sup"
+      "key": "b29fafe574",
+      "name": "Supangle + Ayran"
      }
     ],
     "kcal": 930
@@ -624,5 +623,5 @@
   }
  },
  "university": "hbv",
- "updated": "2026-11-24T05:14:13+03:00"
+ "updated": "2026-11-24T16:45:47+03:00"
 }

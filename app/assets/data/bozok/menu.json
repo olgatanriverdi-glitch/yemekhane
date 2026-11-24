@@ -424,12 +424,12 @@
       "name": "Salçalı Makarna"
      },
      {
-      "img": "dishes/ed17271d58.jpg",
-      "key": "ed17271d58",
-      "name": "Meyve"
+      "img": "dishes/9814c6dc58.jpg",
+      "key": "9814c6dc58",
+      "name": "Mandalina"
      }
     ],
-    "kcal": 880
+    "kcal": 865
    }
   },
   "2026-11-25": {
@@ -531,5 +531,5 @@
   }
  },
  "university": "bozok",
- "updated": "2026-11-24T05:14:13+03:00"
+ "updated": "2026-11-24T16:45:47+03:00"
 }

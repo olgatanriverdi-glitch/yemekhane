@@ -483,10 +483,10 @@
       "name": "Soslu Makarna"
      },
      {
-      "img": "dishes/25b07cf14e.jpg",
-      "kcal": 273,
-      "key": "25b07cf14e",
-      "name": "Bulgur Pilavı"
+      "img": "dishes/ba50d196d7.jpg",
+      "kcal": 400,
+      "key": "ba50d196d7",
+      "name": "Kemalpaşa Tatlısı"
      },
      {
       "img": "dishes/321b4fe3c9.jpg",
@@ -495,7 +495,7 @@
       "name": "Mevsim Salatası"
      }
     ],
-    "kcal": 1096
+    "kcal": 1223
    }
   },
   "2026-11-25": {
@@ -619,5 +619,5 @@
   }
  },
  "university": "hakkari",
- "updated": "2026-11-24T05:14:13+03:00"
+ "updated": "2026-11-24T16:45:47+03:00"
 }

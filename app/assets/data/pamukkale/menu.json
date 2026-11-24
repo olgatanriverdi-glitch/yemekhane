@@ -150,6 +150,7 @@
       "name": "Zeytinyağlı Patlıcan Dolma"
      },
      {
+      "img": "dishes/ccddc81b59.jpg",
       "kcal": 267,
       "key": "ccddc81b59",
       "name": "Zeytinyağlı Yeşil Mercimek"
@@ -747,6 +748,7 @@
       "name": "Pirinç Pilavı"
      },
      {
+      "img": "dishes/ccddc81b59.jpg",
       "kcal": 267,
       "key": "ccddc81b59",
       "name": "Zeytinyağlı Yeşil Mercimek"
@@ -948,6 +950,7 @@
       "name": "Pazı Kavurması"
      },
      {
+      "img": "dishes/ccddc81b59.jpg",
       "kcal": 267,
       "key": "ccddc81b59",
       "name": "Zeytinyağlı Yeşil Mercimek"
@@ -1415,6 +1418,7 @@
       "name": "Pazı Kavurması"
      },
      {
+      "img": "dishes/ccddc81b59.jpg",
       "kcal": 267,
       "key": "ccddc81b59",
       "name": "Zeytinyağlı Yeşil Mercimek"
@@ -1911,6 +1915,7 @@
       "name": "Havuç Tarator"
      },
      {
+      "img": "dishes/39240f8f5a.jpg",
       "key": "39240f8f5a",
       "name": "Ksır"
      },
@@ -1933,6 +1938,7 @@
       "name": "Cacık"
      },
      {
+      "img": "dishes/4af6a87a4e.jpg",
       "key": "4af6a87a4e",
       "name": "İrmik Helva (Ekstra)"
      },
@@ -2220,6 +2226,7 @@
       "name": "Mevsim Salata"
      },
      {
+      "img": "dishes/ddfdf796c2.jpg",
       "key": "ddfdf796c2",
       "name": "Frambuazlı Red Velvet"
      }
@@ -2228,5 +2235,5 @@
   }
  },
  "university": "pamukkale",
- "updated": "2026-11-24T05:14:13+03:00"
+ "updated": "2026-11-24T16:45:47+03:00"
 }

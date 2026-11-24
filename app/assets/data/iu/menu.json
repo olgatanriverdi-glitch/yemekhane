@@ -196,13 +196,14 @@
       "name": "Brokoli Çorbası"
      },
      {
-      "img": "dishes/dbae728869.jpg",
-      "key": "dbae728869",
-      "name": "Etsiz Patates Yemeği"
+      "img": "dishes/ca947b0d72.jpg",
+      "key": "ca947b0d72",
+      "name": "Ispanak Yemeği"
      },
      {
-      "key": "543929f646",
-      "name": "Zeytinyağlı Ispanak"
+      "img": "dishes/bac7d91091.jpg",
+      "key": "bac7d91091",
+      "name": "Makarna"
      },
      {
       "img": "dishes/5b7bbc3ecc.jpg",
@@ -644,5 +645,5 @@
   }
  },
  "university": "iu",
- "updated": "2026-11-24T05:14:13+03:00"
+ "updated": "2026-11-24T16:45:47+03:00"
 }

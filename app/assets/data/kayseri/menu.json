@@ -479,8 +479,9 @@
    "lunch": {
     "items": [
      {
-      "key": "4357695dc3",
-      "name": "Patlıcan Çorbası"
+      "img": "dishes/495fb304f2.jpg",
+      "key": "495fb304f2",
+      "name": "Şehriye Çorbası"
      },
      {
       "key": "8ceb59372b",
@@ -501,5 +502,5 @@
   }
  },
  "university": "kayseri",
- "updated": "2026-11-24T05:14:13+03:00"
+ "updated": "2026-11-24T16:45:47+03:00"
 }

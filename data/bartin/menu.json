@@ -537,19 +537,13 @@
       "name": "Makarna"
      },
      {
-      "img": "dishes/963385cde3.jpg",
-      "kcal": 85,
-      "key": "963385cde3",
-      "name": "Acılı Ezme"
-     },
-     {
-      "img": "dishes/e430bca6db.jpg",
-      "kcal": 64,
-      "key": "e430bca6db",
-      "name": "Haydari"
+      "img": "dishes/9c8d655ef5.jpg",
+      "kcal": 60,
+      "key": "9c8d655ef5",
+      "name": "Yoğurt"
      }
     ],
-    "kcal": 956
+    "kcal": 867
    }
   },
   "2026-11-26": {
@@ -597,6 +591,11 @@
       "name": "Etli Nohut Yemeği"
      },
      {
+      "kcal": 420,
+      "key": "63eb4c61a8",
+      "name": "Çıtır Tavuk"
+     },
+     {
       "kcal": 303,
       "key": "8636bfbc0a",
       "name": "Pirinç Pilavı"
@@ -607,7 +606,7 @@
       "name": "Çilekli Puding"
      }
     ],
-    "kcal": 889
+    "kcal": 1309
    }
   },
   "2026-11-30": {
@@ -641,5 +640,5 @@
   }
  },
  "university": "bartin",
- "updated": "2026-11-24T05:14:13+03:00"
+ "updated": "2026-11-24T16:45:47+03:00"
 }
