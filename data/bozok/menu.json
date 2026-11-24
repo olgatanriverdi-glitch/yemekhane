@@ -365,6 +365,7 @@
       "name": "Ezogelin Çorba"
      },
      {
+      "img": "dishes/79af2ed76c.jpg",
       "key": "79af2ed76c",
       "name": "Et Fajita"
      },
@@ -531,5 +532,5 @@
   }
  },
  "university": "bozok",
- "updated": "2026-11-24T16:45:47+03:00"
+ "updated": "2026-11-25T02:54:53+03:00"
 }

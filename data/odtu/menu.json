@@ -1,59 +1,5 @@
 {
  "days": {
-  "2026-10-10": {
-   "dinner": {
-    "items": [
-     {
-      "kcal": 157,
-      "key": "f9e3094533",
-      "name": "Toyga Çorba"
-     },
-     {
-      "kcal": 367,
-      "key": "3c04a172c8",
-      "name": "Kekikli Fırın Piliç"
-     },
-     {
-      "kcal": 375,
-      "key": "f8782f5e53",
-      "name": "Erişte Pilavı"
-     },
-     {
-      "img": "dishes/cfca59afeb.jpg",
-      "kcal": 246,
-      "key": "cfca59afeb",
-      "name": "Puding"
-     }
-    ],
-    "kcal": 1145
-   },
-   "lunch": {
-    "items": [
-     {
-      "kcal": 157,
-      "key": "f9e3094533",
-      "name": "Toyga Çorba"
-     },
-     {
-      "kcal": 367,
-      "key": "3c04a172c8",
-      "name": "Kekikli Fırın Piliç"
-     },
-     {
-      "kcal": 375,
-      "key": "f8782f5e53",
-      "name": "Erişte Pilavı"
-     },
-     {
-      "img": "dishes/cfca59afeb.jpg",
-      "kcal": 246,
-      "key": "cfca59afeb",
-      "name": "Puding"
-     }
-    ],
-    "kcal": 1145
-   }
-  },
   "2026-10-11": {
    "dinner": {
     "items": [
@@ -2942,5 +2888,5 @@
   }
  },
  "university": "odtu",
- "updated": "2026-11-24T16:45:47+03:00"
+ "updated": "2026-11-25T02:54:53+03:00"
 }

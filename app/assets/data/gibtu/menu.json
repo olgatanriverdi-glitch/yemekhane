@@ -93,6 +93,7 @@
       "name": "Yoğurt"
      },
      {
+      "img": "dishes/6c33273f58.jpg",
       "key": "6c33273f58",
       "name": "Ekler"
      }
@@ -464,5 +465,5 @@
   }
  },
  "university": "gibtu",
- "updated": "2026-11-24T16:45:47+03:00"
+ "updated": "2026-11-25T02:54:53+03:00"
 }

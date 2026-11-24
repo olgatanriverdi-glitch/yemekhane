@@ -2068,10 +2068,10 @@
       "name": "Ayran"
      },
      {
-      "img": "dishes/4b3d132c48.jpg",
+      "img": "dishes/1f6a358896.jpg",
       "kcal": 301,
-      "key": "4b3d132c48",
-      "name": "Kadayıf Tatlısı"
+      "key": "1f6a358896",
+      "name": "Kadayıf"
      }
     ],
     "kcal": 1218
@@ -2085,10 +2085,10 @@
       "name": "Kırmızı Mercimek Çorba"
      },
      {
-      "img": "dishes/2c4b997c75.jpg",
+      "img": "dishes/d020f94fc7.jpg",
       "kcal": 73,
-      "key": "2c4b997c75",
-      "name": "Taze Fasulye"
+      "key": "d020f94fc7",
+      "name": "Taze Fasülye"
      },
      {
       "img": "dishes/9cc15e97bd.jpg",
@@ -2103,10 +2103,10 @@
       "name": "Ayran"
      },
      {
-      "img": "dishes/4b3d132c48.jpg",
+      "img": "dishes/1f6a358896.jpg",
       "kcal": 301,
-      "key": "4b3d132c48",
-      "name": "Kadayıf Tatlısı"
+      "key": "1f6a358896",
+      "name": "Kadayıf"
      }
     ],
     "kcal": 891
@@ -2122,10 +2122,10 @@
       "name": "Fesleğenli Domates Çorba"
      },
      {
-      "img": "dishes/a577bbfc25.jpg",
+      "img": "dishes/8b1acc4d42.jpg",
       "kcal": 320,
-      "key": "a577bbfc25",
-      "name": "Tas Kebap"
+      "key": "8b1acc4d42",
+      "name": "Tas Kebab"
      },
      {
       "img": "dishes/517b386621.jpg",
@@ -2390,5 +2390,5 @@
   }
  },
  "university": "asbu",
- "updated": "2026-11-24T16:45:47+03:00"
+ "updated": "2026-11-25T02:54:53+03:00"
 }

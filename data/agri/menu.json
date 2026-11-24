@@ -433,8 +433,34 @@
     ],
     "kcal": 937
    }
+  },
+  "2026-11-27": {
+   "lunch": {
+    "items": [
+     {
+      "key": "c76744b9fd",
+      "name": "Soslu Tavuk Çorbası"
+     },
+     {
+      "img": "dishes/1e0a78e916.jpg",
+      "key": "1e0a78e916",
+      "name": "Orman Kebabı"
+     },
+     {
+      "img": "dishes/0b9e39c61a.jpg",
+      "key": "0b9e39c61a",
+      "name": "Salçalı Makarna"
+     },
+     {
+      "img": "dishes/647ce15e33.jpg",
+      "key": "647ce15e33",
+      "name": "Tulumba"
+     }
+    ],
+    "kcal": 964
+   }
   }
  },
  "university": "agri",
- "updated": "2026-11-24T16:45:47+03:00"
+ "updated": "2026-11-25T02:54:53+03:00"
 }

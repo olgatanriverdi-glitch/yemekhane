@@ -1,34 +1,5 @@
 {
  "days": {
-  "2026-11-24": {
-   "lunch": {
-    "items": [
-     {
-      "img": "dishes/f98b465287.jpg",
-      "kcal": 147,
-      "key": "f98b465287",
-      "name": "Yayla Çorba"
-     },
-     {
-      "kcal": 338,
-      "key": "7bae814a67",
-      "name": "Tavuk Sote"
-     },
-     {
-      "img": "dishes/f9ea0a5f57.jpg",
-      "kcal": 219,
-      "key": "f9ea0a5f57",
-      "name": "Domates Bulgur Pilavı"
-     },
-     {
-      "kcal": 158,
-      "key": "79ded7ea04",
-      "name": "Havuç Tarator"
-     }
-    ],
-    "kcal": 862
-   }
-  },
   "2026-11-25": {
    "lunch": {
     "items": [
@@ -146,5 +117,5 @@
   }
  },
  "university": "kastamonu",
- "updated": "2026-11-24T16:45:47+03:00"
+ "updated": "2026-11-25T02:54:53+03:00"
 }

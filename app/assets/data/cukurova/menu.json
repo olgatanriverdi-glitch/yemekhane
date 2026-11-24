@@ -209,41 +209,6 @@
     "kcal": 951
    }
   },
-  "2026-11-24": {
-   "lunch": {
-    "items": [
-     {
-      "img": "dishes/c40197a6ec.jpg",
-      "kcal": 400,
-      "key": "c40197a6ec",
-      "name": "Peynirli Pide"
-     },
-     {
-      "kcal": 544,
-      "key": "dc17559ef7",
-      "name": "Patatesli Börek"
-     },
-     {
-      "img": "dishes/dea75981a4.jpg",
-      "kcal": 250,
-      "key": "dea75981a4",
-      "name": "Şehriyeli Tavuk Çorba"
-     },
-     {
-      "kcal": 105,
-      "key": "1268937c0d",
-      "name": "Havuç Salata"
-     },
-     {
-      "img": "dishes/1087b76fa2.jpg",
-      "kcal": 595,
-      "key": "1087b76fa2",
-      "name": "Revani"
-     }
-    ],
-    "kcal": 1894
-   }
-  },
   "2026-11-25": {
    "lunch": {
     "items": [
@@ -252,6 +217,12 @@
       "kcal": 295,
       "key": "2f7edb1f03",
       "name": "Terbiyeli Köfte"
+     },
+     {
+      "img": "dishes/31b89c15d9.jpg",
+      "kcal": 277,
+      "key": "31b89c15d9",
+      "name": "Etsiz Nohut Yahnisi"
      },
      {
       "img": "dishes/86493234ae.jpg",
@@ -272,7 +243,7 @@
       "name": "Ayran"
      }
     ],
-    "kcal": 869
+    "kcal": 1146
    }
   },
   "2026-11-26": {
@@ -367,5 +338,5 @@
   }
  },
  "university": "cukurova",
- "updated": "2026-11-24T16:45:47+03:00"
+ "updated": "2026-11-25T02:54:53+03:00"
 }

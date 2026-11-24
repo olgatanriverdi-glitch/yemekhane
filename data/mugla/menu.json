@@ -1,28 +1,5 @@
 {
  "days": {
-  "2026-11-24": {
-   "lunch": {
-    "items": [
-     {
-      "img": "dishes/d058b5c5ec.jpg",
-      "key": "d058b5c5ec",
-      "name": "Erişteli Yeşil Mercimek Çorbası"
-     },
-     {
-      "key": "71127d15c0",
-      "name": "Sebzeli Misket Köfte"
-     },
-     {
-      "key": "8636bfbc0a",
-      "name": "Pirinç Pilavı"
-     },
-     {
-      "key": "00b727115e",
-      "name": "Triliçe"
-     }
-    ]
-   }
-  },
   "2026-11-25": {
    "lunch": {
     "items": [
@@ -219,5 +196,5 @@
   }
  },
  "university": "mugla",
- "updated": "2026-11-24T16:45:47+03:00"
+ "updated": "2026-11-25T02:54:53+03:00"
 }

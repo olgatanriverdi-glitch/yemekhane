@@ -541,6 +541,7 @@
       "name": "Ezogelin Çorba"
      },
      {
+      "img": "dishes/9dccd33095.jpg",
       "key": "9dccd33095",
       "name": "Körü Soslu Tavuk"
      },
@@ -621,5 +622,5 @@
   }
  },
  "university": "duzce",
- "updated": "2026-11-24T16:45:47+03:00"
+ "updated": "2026-11-25T02:54:53+03:00"
 }

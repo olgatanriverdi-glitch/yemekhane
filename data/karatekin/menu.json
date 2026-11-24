@@ -477,35 +477,35 @@
     "kcal": 846
    }
   },
-  "2026-11-25": {
+  "2026-11-24": {
    "lunch": {
     "items": [
      {
-      "img": "dishes/bf8474c8b9.jpg",
-      "kcal": 185,
-      "key": "bf8474c8b9",
-      "name": "Ezogelin Çorba"
+      "img": "dishes/f98b465287.jpg",
+      "kcal": 140,
+      "key": "f98b465287",
+      "name": "Yayla Çorba"
      },
      {
-      "img": "dishes/dacb34f820.jpg",
-      "kcal": 390,
-      "key": "dacb34f820",
-      "name": "Izgara Kanat"
+      "img": "dishes/1e0a78e916.jpg",
+      "kcal": 256,
+      "key": "1e0a78e916",
+      "name": "Orman Kebabı"
      },
      {
-      "img": "dishes/bac7d91091.jpg",
-      "kcal": 232,
-      "key": "bac7d91091",
-      "name": "Makarna"
+      "img": "dishes/25b07cf14e.jpg",
+      "kcal": 251,
+      "key": "25b07cf14e",
+      "name": "Bulgur Pilavı"
      },
      {
-      "img": "dishes/83233b9842.jpg",
-      "kcal": 85,
-      "key": "83233b9842",
-      "name": "Ezme/Haydari"
+      "img": "dishes/ed17271d58.jpg",
+      "kcal": 80,
+      "key": "ed17271d58",
+      "name": "Meyve"
      }
     ],
-    "kcal": 892
+    "kcal": 727
    }
   },
   "2026-11-26": {
@@ -599,5 +599,5 @@
   }
  },
  "university": "karatekin",
- "updated": "2026-11-24T16:45:47+03:00"
+ "updated": "2026-11-25T02:54:53+03:00"
 }
