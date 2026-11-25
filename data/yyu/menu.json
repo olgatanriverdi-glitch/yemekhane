@@ -545,23 +545,23 @@
       "name": "Ezogelin Çorba"
      },
      {
-      "img": "dishes/53752e2327.jpg",
-      "kcal": 280,
-      "key": "53752e2327",
-      "name": "Etli Keledoş"
+      "kcal": 300,
+      "key": "6dc095a8c2",
+      "name": "Karışık Kıymalı Musakka"
      },
      {
-      "kcal": 240,
-      "key": "def29d5074",
-      "name": "Sebzeli Erişte"
+      "kcal": 247,
+      "key": "fa4decda6a",
+      "name": "Şehriyeli Pirinç Pilavı"
      },
      {
-      "kcal": 70,
-      "key": "d130afe806",
-      "name": "Mevsim Meyvesi"
+      "img": "dishes/2f58be7b7a.jpg",
+      "kcal": 82,
+      "key": "2f58be7b7a",
+      "name": "Cacık"
      }
     ],
-    "kcal": 685
+    "kcal": 724
    }
   },
   "2026-11-27": {
@@ -627,5 +627,5 @@
   }
  },
  "university": "yyu",
- "updated": "2026-11-25T02:54:53+03:00"
+ "updated": "2026-11-25T15:58:28+03:00"
 }

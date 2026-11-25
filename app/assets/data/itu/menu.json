@@ -1,67 +1,5 @@
 {
  "days": {
-  "2026-11-23": {
-   "dinner": {
-    "items": [
-     {
-      "img": "dishes/5d3038c41b.jpg",
-      "key": "5d3038c41b",
-      "name": "Yayla Çorbası"
-     },
-     {
-      "img": "dishes/80143c897a.jpg",
-      "key": "80143c897a",
-      "name": "Sebzeli Kaşarlı Izgara Köfte"
-     },
-     {
-      "img": "dishes/f7b4cf4bd7.jpg",
-      "key": "f7b4cf4bd7",
-      "name": "Arrabiata Soslu Makarna"
-     },
-     {
-      "img": "dishes/2be1b1ba72.jpg",
-      "key": "2be1b1ba72",
-      "name": "Kola"
-     },
-     {
-      "img": "dishes/5b7bbc3ecc.jpg",
-      "key": "5b7bbc3ecc",
-      "name": "Portakal"
-     },
-     {
-      "img": "dishes/65dfdea3d4.jpg",
-      "key": "65dfdea3d4",
-      "name": "Garnitür Patates Püresi"
-     }
-    ]
-   },
-   "lunch": {
-    "items": [
-     {
-      "img": "dishes/4fb733faf2.jpg",
-      "key": "4fb733faf2",
-      "name": "Ezogelin Çorbası"
-     },
-     {
-      "img": "dishes/878b29f656.jpg",
-      "key": "878b29f656",
-      "name": "Etli Türlü"
-     },
-     {
-      "key": "fa4decda6a",
-      "name": "Şehriyeli Pirinç Pilavı"
-     },
-     {
-      "key": "79cce46055",
-      "name": "Bisküvili Pasta"
-     },
-     {
-      "key": "74b8be1351",
-      "name": "Yeşil Mercimek Salatası"
-     }
-    ]
-   }
-  },
   "2026-11-24": {
    "dinner": {
     "items": [
@@ -195,9 +133,8 @@
       "name": "Etli Nohut"
      },
      {
-      "img": "dishes/25b07cf14e.jpg",
-      "key": "25b07cf14e",
-      "name": "Bulgur Pilavı"
+      "key": "8636bfbc0a",
+      "name": "Pirinç Pilavı"
      },
      {
       "img": "dishes/099956f884.jpg",
@@ -418,5 +355,5 @@
   }
  },
  "university": "itu",
- "updated": "2026-11-25T02:54:53+03:00"
+ "updated": "2026-11-25T15:58:28+03:00"
 }

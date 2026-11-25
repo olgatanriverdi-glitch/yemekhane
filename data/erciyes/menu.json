@@ -851,9 +851,15 @@
       "name": "Mantar Çorba"
      },
      {
-      "kcal": 575,
-      "key": "ea21290d8b",
-      "name": "Rosto Köfte+Püre"
+      "img": "dishes/1d61a72d2c.jpg",
+      "kcal": 257,
+      "key": "1d61a72d2c",
+      "name": "Kadınbudu Köfte"
+     },
+     {
+      "kcal": 65,
+      "key": "57d451ede7",
+      "name": "Elma Dilim Patates"
      },
      {
       "img": "dishes/99a67d4042.jpg",
@@ -862,12 +868,13 @@
       "name": "Mevsim Salata"
      },
      {
-      "kcal": 236,
-      "key": "e35703ddb7",
-      "name": "Ekler Pasta"
+      "img": "dishes/244e9e2e55.jpg",
+      "kcal": 226,
+      "key": "244e9e2e55",
+      "name": "Tahin Helva"
      }
     ],
-    "kcal": 1093
+    "kcal": 830
    },
    "lunch": {
     "items": [
@@ -1065,5 +1072,5 @@
   }
  },
  "university": "erciyes",
- "updated": "2026-11-25T02:54:53+03:00"
+ "updated": "2026-11-25T15:58:28+03:00"
 }

@@ -292,8 +292,8 @@
       "name": "Arpa Şehriye Çorbası"
      },
      {
-      "key": "513cbb5ac4",
-      "name": "Harput Köfte"
+      "key": "3d1e6c0b39",
+      "name": "Sebzeli Fırın Köfte"
      },
      {
       "img": "dishes/714581af8d.jpg",
@@ -368,21 +368,21 @@
       "name": "Mercimek Çorbası"
      },
      {
-      "key": "8235c8f737",
-      "name": "Alabalık Tava (Patates Garnitür)"
+      "key": "b0487be404",
+      "name": "Mantı Yoğurtlu"
      },
      {
-      "img": "dishes/99a67d4042.jpg",
-      "key": "99a67d4042",
-      "name": "Mevsim Salata"
+      "img": "dishes/feba5fe940.jpg",
+      "key": "feba5fe940",
+      "name": "Zeytinyağlı Barbunya"
      },
      {
-      "img": "dishes/244e9e2e55.jpg",
-      "key": "244e9e2e55",
-      "name": "Tahin Helva"
+      "img": "dishes/3b140d6d1c.jpg",
+      "key": "3b140d6d1c",
+      "name": "Tulumba Tatlısı"
      }
     ],
-    "kcal": 1050
+    "kcal": 1200
    }
   },
   "2026-12-14": {
@@ -417,9 +417,9 @@
       "name": "Terbiyeli Tavuk Çorbası"
      },
      {
-      "img": "dishes/ee8e1db5de.jpg",
-      "key": "ee8e1db5de",
-      "name": "Zeytinyağlı Pırasa"
+      "img": "dishes/b933cbd8aa.jpg",
+      "key": "b933cbd8aa",
+      "name": "Zeytinyağlı Bezelye"
      },
      {
       "img": "dishes/f110121a07.jpg",
@@ -514,5 +514,5 @@
   }
  },
  "university": "isubu",
- "updated": "2026-11-25T02:54:53+03:00"
+ "updated": "2026-11-25T15:58:28+03:00"
 }

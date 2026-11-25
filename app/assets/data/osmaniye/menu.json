@@ -288,6 +288,7 @@
    "lunch": {
     "items": [
      {
+      "img": "dishes/12ce208703.jpg",
       "key": "12ce208703",
       "name": "Tekirdağ Köftesi"
      },
@@ -390,6 +391,7 @@
    "lunch": {
     "items": [
      {
+      "img": "dishes/ea805df9b4.jpg",
       "key": "ea805df9b4",
       "name": "Tavuk Nugget"
      },
@@ -598,5 +600,5 @@
   }
  },
  "university": "osmaniye",
- "updated": "2026-11-25T02:54:53+03:00"
+ "updated": "2026-11-25T15:58:28+03:00"
 }

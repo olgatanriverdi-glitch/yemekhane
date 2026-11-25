@@ -499,8 +499,134 @@
      }
     ]
    }
+  },
+  "2026-11-30": {
+   "lunch": {
+    "items": [
+     {
+      "img": "dishes/64ee8e0b3b.jpg",
+      "key": "64ee8e0b3b",
+      "name": "Düğün Çorbası"
+     },
+     {
+      "img": "dishes/1229022705.jpg",
+      "key": "1229022705",
+      "name": "Barbunya"
+     },
+     {
+      "key": "8636bfbc0a",
+      "name": "Pirinç Pilavı"
+     },
+     {
+      "img": "dishes/92485508df.jpg",
+      "key": "92485508df",
+      "name": "Tatlı"
+     }
+    ]
+   }
+  },
+  "2026-12-01": {
+   "lunch": {
+    "items": [
+     {
+      "img": "dishes/4fb733faf2.jpg",
+      "key": "4fb733faf2",
+      "name": "Ezogelin Çorbası"
+     },
+     {
+      "key": "3edc3d70e5",
+      "name": "Püreli Rosto Köfte"
+     },
+     {
+      "img": "dishes/bac7d91091.jpg",
+      "key": "bac7d91091",
+      "name": "Makarna"
+     },
+     {
+      "img": "dishes/ed17271d58.jpg",
+      "key": "ed17271d58",
+      "name": "Meyve"
+     }
+    ]
+   }
+  },
+  "2026-12-02": {
+   "lunch": {
+    "items": [
+     {
+      "img": "dishes/0955218757.jpg",
+      "key": "0955218757",
+      "name": "Mercimek Çorbası"
+     },
+     {
+      "key": "8f76214279",
+      "name": "Tavuk Tantuni"
+     },
+     {
+      "img": "dishes/0938f4c8ed.jpg",
+      "key": "0938f4c8ed",
+      "name": "Söğüş"
+     },
+     {
+      "img": "dishes/16b5c22561.jpg",
+      "key": "16b5c22561",
+      "name": "Ayran"
+     }
+    ]
+   }
+  },
+  "2026-12-03": {
+   "lunch": {
+    "items": [
+     {
+      "img": "dishes/495fb304f2.jpg",
+      "key": "495fb304f2",
+      "name": "Şehriye Çorbası"
+     },
+     {
+      "key": "f69bafe20f",
+      "name": "Antep Tava"
+     },
+     {
+      "img": "dishes/25b07cf14e.jpg",
+      "key": "25b07cf14e",
+      "name": "Bulgur Pilavı"
+     },
+     {
+      "img": "dishes/eb24a662e7.jpg",
+      "key": "eb24a662e7",
+      "name": "Yoğurtlu Semizotu"
+     }
+    ]
+   }
+  },
+  "2026-12-04": {
+   "lunch": {
+    "items": [
+     {
+      "img": "dishes/5d3038c41b.jpg",
+      "key": "5d3038c41b",
+      "name": "Yayla Çorbası"
+     },
+     {
+      "img": "dishes/dcd4b17d0f.jpg",
+      "key": "dcd4b17d0f",
+      "name": "Tavuk Baget"
+     },
+     {
+      "img": "dishes/af6741872c.jpg",
+      "key": "af6741872c",
+      "name": "Fırın Makarna"
+     },
+     {
+      "img": "dishes/92485508df.jpg",
+      "key": "92485508df",
+      "name": "Tatlı"
+     }
+    ]
+   }
   }
  },
  "university": "kayseri",
- "updated": "2026-11-25T02:54:53+03:00"
+ "updated": "2026-11-25T15:58:28+03:00"
 }

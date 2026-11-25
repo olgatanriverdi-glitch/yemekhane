@@ -339,6 +339,7 @@
       "name": "Yayla Çorbası"
      },
      {
+      "img": "dishes/8a52e8e65b.jpg",
       "kcal": 350,
       "key": "8a52e8e65b",
       "name": "Kaşarlı Köfte + Patates Püresi"
@@ -594,5 +595,5 @@
   }
  },
  "university": "mku",
- "updated": "2026-11-25T02:54:53+03:00"
+ "updated": "2026-11-25T15:58:28+03:00"
 }

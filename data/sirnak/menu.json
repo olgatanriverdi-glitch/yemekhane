@@ -404,6 +404,7 @@
       "name": "Mısırlı Pirinç Pilavı"
      },
      {
+      "img": "dishes/7bb0a212fe.jpg",
       "key": "7bb0a212fe",
       "name": "Tahin Soslu İrmik Tatlısı"
      }
@@ -420,6 +421,7 @@
       "name": "Ezogelin Çorbası"
      },
      {
+      "img": "dishes/1da1058622.jpg",
       "key": "1da1058622",
       "name": "Et Fajita/Köri Soslu Tavuk"
      },
@@ -446,6 +448,7 @@
       "name": "Mercimek Çorbası"
      },
      {
+      "img": "dishes/49427334fe.jpg",
       "key": "49427334fe",
       "name": "Etli Nohut/Fırında Tavuk"
      },
@@ -523,6 +526,7 @@
       "name": "Mercimek Çorbası"
      },
      {
+      "img": "dishes/b9480d40ee.jpg",
       "key": "b9480d40ee",
       "name": "Patlıcan Kebabı/Tavuk Kavurma"
      },
@@ -541,5 +545,5 @@
   }
  },
  "university": "sirnak",
- "updated": "2026-11-25T02:54:53+03:00"
+ "updated": "2026-11-25T15:58:28+03:00"
 }

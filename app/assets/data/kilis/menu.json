@@ -83,6 +83,7 @@
       "name": "Pilav Üst. Dana Tandır"
      },
      {
+      "img": "dishes/518ed35a1e.jpg",
       "key": "518ed35a1e",
       "name": "Patesli Kır Pidesi"
      },
@@ -156,6 +157,7 @@
       "name": "Ali Paşa Köfte"
      },
      {
+      "img": "dishes/1d125035d8.jpg",
       "key": "1d125035d8",
       "name": "Karışık Tepsi Böreği"
      },
@@ -261,6 +263,7 @@
       "name": "Ezogelin Çorba"
      },
      {
+      "img": "dishes/31e785c465.jpg",
       "key": "31e785c465",
       "name": "Fıstıklı Kadayıf"
      }
@@ -453,8 +456,9 @@
       "name": "Tepsi Böreği"
      },
      {
-      "key": "0b46268c50",
-      "name": "Valide Sultan Çorba"
+      "img": "dishes/154f53ef81.jpg",
+      "key": "154f53ef81",
+      "name": "Düğün Çorba"
      },
      {
       "key": "3155fe839e",
@@ -515,5 +519,5 @@
   }
  },
  "university": "kilis",
- "updated": "2026-11-25T02:54:53+03:00"
+ "updated": "2026-11-25T15:58:28+03:00"
 }

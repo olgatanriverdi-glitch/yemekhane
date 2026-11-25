@@ -445,9 +445,9 @@
       "name": "Et Tandır"
      },
      {
-      "img": "dishes/6bfa0ca014.jpg",
-      "key": "6bfa0ca014",
-      "name": "Salçalı Bulgur Pilavı"
+      "img": "dishes/25b07cf14e.jpg",
+      "key": "25b07cf14e",
+      "name": "Bulgur Pilavı"
      },
      {
       "img": "dishes/31c7d1ab49.jpg",
@@ -455,7 +455,7 @@
       "name": "Ayva Tatlısı"
      }
     ],
-    "kcal": 1056
+    "kcal": 1055
    }
   },
   "2026-11-26": {
@@ -532,5 +532,5 @@
   }
  },
  "university": "bozok",
- "updated": "2026-11-25T02:54:53+03:00"
+ "updated": "2026-11-25T15:58:28+03:00"
 }

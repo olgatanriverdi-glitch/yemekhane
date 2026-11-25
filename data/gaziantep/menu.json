@@ -281,16 +281,16 @@
       "name": "Mercimek Çorba"
      },
      {
-      "img": "dishes/0428d021a9.jpg",
-      "kcal": 685,
-      "key": "0428d021a9",
-      "name": "Hamburger"
-     },
-     {
       "img": "dishes/add3592632.jpg",
       "kcal": 376,
       "key": "add3592632",
       "name": "Karışık Kızartma"
+     },
+     {
+      "img": "dishes/0428d021a9.jpg",
+      "kcal": 685,
+      "key": "0428d021a9",
+      "name": "Hamburger"
      },
      {
       "img": "dishes/16b5c22561.jpg",
@@ -535,12 +535,13 @@
       "name": "Peynirli Tepsi Böreği"
      },
      {
-      "kcal": 637,
-      "key": "57841f3a58",
-      "name": "Haşhaşlı Şekerpare"
+      "img": "dishes/16f3b1855e.jpg",
+      "kcal": 625,
+      "key": "16f3b1855e",
+      "name": "Lokma Tatlısı"
      }
     ],
-    "kcal": 1584
+    "kcal": 1572
    }
   },
   "2026-11-26": {
@@ -632,5 +633,5 @@
   }
  },
  "university": "gaziantep",
- "updated": "2026-11-25T02:54:53+03:00"
+ "updated": "2026-11-25T15:58:28+03:00"
 }

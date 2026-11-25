@@ -1353,8 +1353,8 @@
    "dinner": {
     "items": [
      {
-      "key": "77ea3b7637",
-      "name": "Piliç Graten"
+      "key": "38005c3e4c",
+      "name": "Tavuk Şinitzel / Patates Kızartması"
      },
      {
       "img": "dishes/bf8474c8b9.jpg",
@@ -1668,5 +1668,5 @@
   }
  },
  "university": "uludag",
- "updated": "2026-11-25T02:54:53+03:00"
+ "updated": "2026-11-25T15:58:28+03:00"
 }
