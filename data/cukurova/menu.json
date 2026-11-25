@@ -209,43 +209,6 @@
     "kcal": 951
    }
   },
-  "2026-11-25": {
-   "lunch": {
-    "items": [
-     {
-      "img": "dishes/2f7edb1f03.jpg",
-      "kcal": 295,
-      "key": "2f7edb1f03",
-      "name": "Terbiyeli Köfte"
-     },
-     {
-      "img": "dishes/31b89c15d9.jpg",
-      "kcal": 277,
-      "key": "31b89c15d9",
-      "name": "Etsiz Nohut Yahnisi"
-     },
-     {
-      "img": "dishes/86493234ae.jpg",
-      "kcal": 364,
-      "key": "86493234ae",
-      "name": "Mercimekli Bulgur Pilavı"
-     },
-     {
-      "img": "dishes/f540ceda29.jpg",
-      "kcal": 150,
-      "key": "f540ceda29",
-      "name": "Karnabahar Salatası"
-     },
-     {
-      "img": "dishes/16b5c22561.jpg",
-      "kcal": 60,
-      "key": "16b5c22561",
-      "name": "Ayran"
-     }
-    ],
-    "kcal": 1146
-   }
-  },
   "2026-11-26": {
    "lunch": {
     "items": [
@@ -254,6 +217,12 @@
       "kcal": 535,
       "key": "5dcd1aedbd",
       "name": "Soslu Fırın Tavuk"
+     },
+     {
+      "img": "dishes/ee8e1db5de.jpg",
+      "kcal": 114,
+      "key": "ee8e1db5de",
+      "name": "Zeytinyağlı Pırasa"
      },
      {
       "kcal": 377,
@@ -272,7 +241,7 @@
       "name": "Browni"
      }
     ],
-    "kcal": 1551
+    "kcal": 1665
    }
   },
   "2026-11-27": {
@@ -338,5 +307,5 @@
   }
  },
  "university": "cukurova",
- "updated": "2026-11-25T15:58:28+03:00"
+ "updated": "2026-11-26T02:38:47+03:00"
 }

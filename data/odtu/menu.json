@@ -1,61 +1,5 @@
 {
  "days": {
-  "2026-10-11": {
-   "dinner": {
-    "items": [
-     {
-      "kcal": 175,
-      "key": "ac621a8f1e",
-      "name": "Şafak Çorba"
-     },
-     {
-      "img": "dishes/fbb76e65c4.jpg",
-      "kcal": 342,
-      "key": "fbb76e65c4",
-      "name": "Etli Kuru Fasulye"
-     },
-     {
-      "kcal": 466,
-      "key": "8636bfbc0a",
-      "name": "Pirinç Pilavı"
-     },
-     {
-      "img": "dishes/ed17271d58.jpg",
-      "kcal": 116,
-      "key": "ed17271d58",
-      "name": "Meyve"
-     }
-    ],
-    "kcal": 1099
-   },
-   "lunch": {
-    "items": [
-     {
-      "kcal": 175,
-      "key": "ac621a8f1e",
-      "name": "Şafak Çorba"
-     },
-     {
-      "img": "dishes/fbb76e65c4.jpg",
-      "kcal": 342,
-      "key": "fbb76e65c4",
-      "name": "Etli Kuru Fasulye"
-     },
-     {
-      "kcal": 466,
-      "key": "8636bfbc0a",
-      "name": "Pirinç Pilavı"
-     },
-     {
-      "img": "dishes/ed17271d58.jpg",
-      "kcal": 116,
-      "key": "ed17271d58",
-      "name": "Meyve"
-     }
-    ],
-    "kcal": 1099
-   }
-  },
   "2026-10-12": {
    "dinner": {
     "items": [
@@ -2888,5 +2832,5 @@
   }
  },
  "university": "odtu",
- "updated": "2026-11-25T15:58:28+03:00"
+ "updated": "2026-11-26T02:38:47+03:00"
 }

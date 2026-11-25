@@ -505,33 +505,33 @@
     "kcal": 1090
    }
   },
-  "2026-11-26": {
+  "2026-11-25": {
    "lunch": {
     "items": [
      {
-      "img": "dishes/4fb733faf2.jpg",
-      "kcal": 160,
-      "key": "4fb733faf2",
-      "name": "Ezogelin Çorbası"
+      "img": "dishes/78d4dad707.jpg",
+      "kcal": 150,
+      "key": "78d4dad707",
+      "name": "Tarhana Çorbası"
+     },
+     {
+      "img": "dishes/add3592632.jpg",
+      "kcal": 340,
+      "key": "add3592632",
+      "name": "Karışık Kızartma"
      },
      {
       "kcal": 320,
-      "key": "32207262ee",
-      "name": "Kıymalı Fırın Makarna"
+      "key": "46bd021b04",
+      "name": "Yoğurtlu Mantı"
      },
      {
-      "kcal": 180,
-      "key": "19c37e3f0f",
-      "name": "Ekşili Patates"
-     },
-     {
-      "img": "dishes/9814c6dc58.jpg",
-      "kcal": 70,
-      "key": "9814c6dc58",
-      "name": "Mandalina"
+      "kcal": 100,
+      "key": "509482b84c",
+      "name": "Mısırlı Mor Lahana Salatası"
      }
     ],
-    "kcal": 730
+    "kcal": 910
    }
   },
   "2026-11-27": {
@@ -595,5 +595,5 @@
   }
  },
  "university": "mku",
- "updated": "2026-11-25T15:58:28+03:00"
+ "updated": "2026-11-26T02:38:47+03:00"
 }

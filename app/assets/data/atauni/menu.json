@@ -823,8 +823,34 @@
      }
     ]
    }
+  },
+  "2026-11-27": {
+   "lunch": {
+    "items": [
+     {
+      "img": "dishes/5faf1b0081.jpg",
+      "key": "5faf1b0081",
+      "name": "Kırmızı Mercimek Çorba"
+     },
+     {
+      "img": "dishes/fe966f7485.jpg",
+      "key": "fe966f7485",
+      "name": "Kıymalı Ispanak"
+     },
+     {
+      "img": "dishes/a52d5fed84.jpg",
+      "key": "a52d5fed84",
+      "name": "Sade Makarna"
+     },
+     {
+      "img": "dishes/36715dbae7.jpg",
+      "key": "36715dbae7",
+      "name": "Kase Yoğurt"
+     }
+    ]
+   }
   }
  },
  "university": "atauni",
- "updated": "2026-11-25T15:58:28+03:00"
+ "updated": "2026-11-26T02:38:47+03:00"
 }

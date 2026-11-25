@@ -421,8 +421,38 @@
     ],
     "kcal": 1176
    }
+  },
+  "2026-11-26": {
+   "lunch": {
+    "items": [
+     {
+      "kcal": 188,
+      "key": "7e85f5098f",
+      "name": "Köylü Çorba"
+     },
+     {
+      "img": "dishes/025eacfe0c.jpg",
+      "kcal": 221,
+      "key": "025eacfe0c",
+      "name": "Etli Taze Fasulye"
+     },
+     {
+      "img": "dishes/25b07cf14e.jpg",
+      "kcal": 290,
+      "key": "25b07cf14e",
+      "name": "Bulgur Pilavı"
+     },
+     {
+      "img": "dishes/9c8d655ef5.jpg",
+      "kcal": 124,
+      "key": "9c8d655ef5",
+      "name": "Yoğurt"
+     }
+    ],
+    "kcal": 823
+   }
   }
  },
  "university": "rte",
- "updated": "2026-11-25T15:58:28+03:00"
+ "updated": "2026-11-26T02:38:47+03:00"
 }

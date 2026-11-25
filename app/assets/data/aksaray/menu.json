@@ -158,6 +158,7 @@
       "name": "Arabaşı Çorba"
      },
      {
+      "img": "dishes/d64b6f868b.jpg",
       "kcal": 257,
       "key": "d64b6f868b",
       "name": "Kıymalı Yeşil Mercimek Yemeği"
@@ -629,5 +630,5 @@
   }
  },
  "university": "aksaray",
- "updated": "2026-11-25T15:58:28+03:00"
+ "updated": "2026-11-26T02:38:47+03:00"
 }

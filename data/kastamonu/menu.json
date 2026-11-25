@@ -1,33 +1,5 @@
 {
  "days": {
-  "2026-11-25": {
-   "lunch": {
-    "items": [
-     {
-      "img": "dishes/22dd093862.jpg",
-      "kcal": 120,
-      "key": "22dd093862",
-      "name": "Mercimek Çorba"
-     },
-     {
-      "kcal": 325,
-      "key": "eb695606e6",
-      "name": "Macar Gulaş"
-     },
-     {
-      "kcal": 247,
-      "key": "8636bfbc0a",
-      "name": "Pirinç Pilavı"
-     },
-     {
-      "kcal": 306,
-      "key": "79cce46055",
-      "name": "Bisküvili Pasta"
-     }
-    ],
-    "kcal": 998
-   }
-  },
   "2026-11-26": {
    "lunch": {
     "items": [
@@ -117,5 +89,5 @@
   }
  },
  "university": "kastamonu",
- "updated": "2026-11-25T15:58:28+03:00"
+ "updated": "2026-11-26T02:38:47+03:00"
 }

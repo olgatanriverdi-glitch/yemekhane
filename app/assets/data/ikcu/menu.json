@@ -1669,8 +1669,62 @@
      }
     ]
    }
+  },
+  "2026-11-27": {
+   "lunch": {
+    "items": [
+     {
+      "img": "dishes/7d5322c037.jpg",
+      "key": "7d5322c037",
+      "name": "Kremalı Brokoli Çorba"
+     },
+     {
+      "key": "f78936a6c7",
+      "name": "Sultan Kebabı"
+     },
+     {
+      "img": "dishes/18ccb4d264.jpg",
+      "key": "18ccb4d264",
+      "name": "Soslu Makarna"
+     },
+     {
+      "img": "dishes/99a67d4042.jpg",
+      "key": "99a67d4042",
+      "name": "Mevsim Salata"
+     }
+    ]
+   },
+   "vegetarian": {
+    "items": [
+     {
+      "img": "dishes/7d5322c037.jpg",
+      "key": "7d5322c037",
+      "name": "Kremalı Brokoli Çorba"
+     },
+     {
+      "img": "dishes/5c31eb1c59.jpg",
+      "key": "5c31eb1c59",
+      "name": "Z.Y Biber Dolma"
+     },
+     {
+      "img": "dishes/6481a77c76.jpg",
+      "key": "6481a77c76",
+      "name": "Barbunya Pilaki"
+     },
+     {
+      "img": "dishes/a765c7c985.jpg",
+      "key": "a765c7c985",
+      "name": "Komposto"
+     },
+     {
+      "img": "dishes/9c8d655ef5.jpg",
+      "key": "9c8d655ef5",
+      "name": "Yoğurt"
+     }
+    ]
+   }
   }
  },
  "university": "ikcu",
- "updated": "2026-11-25T15:58:28+03:00"
+ "updated": "2026-11-26T02:38:47+03:00"
 }

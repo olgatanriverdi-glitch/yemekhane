@@ -532,35 +532,6 @@
    "lunch": {
     "items": [
      {
-      "img": "dishes/22dd093862.jpg",
-      "kcal": 183,
-      "key": "22dd093862",
-      "name": "Mercimek Çorba"
-     },
-     {
-      "kcal": 330,
-      "key": "c82c273a18",
-      "name": "Tepsi Kebabı"
-     },
-     {
-      "kcal": 333,
-      "key": "fa4decda6a",
-      "name": "Şehriyeli Pirinç Pilavı"
-     },
-     {
-      "img": "dishes/321b4fe3c9.jpg",
-      "kcal": 123,
-      "key": "321b4fe3c9",
-      "name": "Mevsim Salatası"
-     }
-    ],
-    "kcal": 969
-   }
-  },
-  "2026-11-27": {
-   "lunch": {
-    "items": [
-     {
       "kcal": 132,
       "key": "45483a17b3",
       "name": "Tavuk Çorbası"
@@ -584,6 +555,35 @@
      }
     ],
     "kcal": 901
+   }
+  },
+  "2026-11-27": {
+   "lunch": {
+    "items": [
+     {
+      "img": "dishes/22dd093862.jpg",
+      "kcal": 183,
+      "key": "22dd093862",
+      "name": "Mercimek Çorba"
+     },
+     {
+      "kcal": 330,
+      "key": "c82c273a18",
+      "name": "Tepsi Kebabı"
+     },
+     {
+      "kcal": 333,
+      "key": "fa4decda6a",
+      "name": "Şehriyeli Pirinç Pilavı"
+     },
+     {
+      "img": "dishes/321b4fe3c9.jpg",
+      "kcal": 123,
+      "key": "321b4fe3c9",
+      "name": "Mevsim Salatası"
+     }
+    ],
+    "kcal": 969
    }
   },
   "2026-11-30": {
@@ -619,5 +619,5 @@
   }
  },
  "university": "hakkari",
- "updated": "2026-11-25T15:58:28+03:00"
+ "updated": "2026-11-26T02:38:47+03:00"
 }

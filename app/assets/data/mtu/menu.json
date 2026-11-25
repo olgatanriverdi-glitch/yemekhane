@@ -177,8 +177,33 @@
      }
     ]
    }
+  },
+  "2026-11-26": {
+   "lunch": {
+    "items": [
+     {
+      "key": "064ca28314",
+      "name": "Beşamel Soslu Tavuk"
+     },
+     {
+      "img": "dishes/bac7d91091.jpg",
+      "key": "bac7d91091",
+      "name": "Makarna"
+     },
+     {
+      "img": "dishes/bf8474c8b9.jpg",
+      "key": "bf8474c8b9",
+      "name": "Ezogelin Çorba"
+     },
+     {
+      "img": "dishes/16b5c22561.jpg",
+      "key": "16b5c22561",
+      "name": "Ayran"
+     }
+    ]
+   }
   }
  },
  "university": "mtu",
- "updated": "2026-11-25T15:58:28+03:00"
+ "updated": "2026-11-26T02:38:47+03:00"
 }

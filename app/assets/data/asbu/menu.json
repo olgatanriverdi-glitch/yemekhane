@@ -2122,10 +2122,10 @@
       "name": "Fesleğenli Domates Çorba"
      },
      {
-      "img": "dishes/8b1acc4d42.jpg",
+      "img": "dishes/a577bbfc25.jpg",
       "kcal": 320,
-      "key": "8b1acc4d42",
-      "name": "Tas Kebab"
+      "key": "a577bbfc25",
+      "name": "Tas Kebap"
      },
      {
       "img": "dishes/517b386621.jpg",
@@ -2390,5 +2390,5 @@
   }
  },
  "university": "asbu",
- "updated": "2026-11-25T15:58:28+03:00"
+ "updated": "2026-11-26T02:38:47+03:00"
 }
