@@ -1,61 +1,5 @@
 {
  "days": {
-  "2026-10-12": {
-   "dinner": {
-    "items": [
-     {
-      "img": "dishes/bf8474c8b9.jpg",
-      "kcal": 164,
-      "key": "bf8474c8b9",
-      "name": "Ezogelin Çorba"
-     },
-     {
-      "kcal": 544,
-      "key": "98e5915640",
-      "name": "İç Pilavlı Hindi Tandır"
-     },
-     {
-      "kcal": 130,
-      "key": "d9ff5c4358",
-      "name": "Zeytinyağlı Mantar Pilaki"
-     },
-     {
-      "img": "dishes/ed17271d58.jpg",
-      "kcal": 116,
-      "key": "ed17271d58",
-      "name": "Meyve"
-     }
-    ],
-    "kcal": 954
-   },
-   "lunch": {
-    "items": [
-     {
-      "img": "dishes/bf8474c8b9.jpg",
-      "kcal": 164,
-      "key": "bf8474c8b9",
-      "name": "Ezogelin Çorba"
-     },
-     {
-      "kcal": 544,
-      "key": "98e5915640",
-      "name": "İç Pilavlı Hindi Tandır"
-     },
-     {
-      "kcal": 130,
-      "key": "d9ff5c4358",
-      "name": "Zeytinyağlı Mantar Pilaki"
-     },
-     {
-      "img": "dishes/ed17271d58.jpg",
-      "kcal": 116,
-      "key": "ed17271d58",
-      "name": "Meyve"
-     }
-    ],
-    "kcal": 954
-   }
-  },
   "2026-10-13": {
    "dinner": {
     "items": [
@@ -2832,5 +2776,5 @@
   }
  },
  "university": "odtu",
- "updated": "2026-11-26T15:36:43+03:00"
+ "updated": "2026-11-27T02:52:30+03:00"
 }

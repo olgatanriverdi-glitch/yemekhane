@@ -1,34 +1,5 @@
 {
  "days": {
-  "2026-10-12": {
-   "lunch": {
-    "items": [
-     {
-      "img": "dishes/22dd093862.jpg",
-      "kcal": 150,
-      "key": "22dd093862",
-      "name": "Mercimek Çorba"
-     },
-     {
-      "img": "dishes/fbb76e65c4.jpg",
-      "kcal": 420,
-      "key": "fbb76e65c4",
-      "name": "Etli Kuru Fasulye"
-     },
-     {
-      "kcal": 340,
-      "key": "8636bfbc0a",
-      "name": "Pirinç Pilavı"
-     },
-     {
-      "kcal": 30,
-      "key": "3ef45fb941",
-      "name": "Karışık Turşu"
-     }
-    ],
-    "kcal": 940
-   }
-  },
   "2026-10-13": {
    "lunch": {
     "items": [
@@ -1023,5 +994,5 @@
   }
  },
  "university": "trabzon",
- "updated": "2026-11-26T15:36:43+03:00"
+ "updated": "2026-11-27T02:52:30+03:00"
 }

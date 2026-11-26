@@ -1,40 +1,5 @@
 {
  "days": {
-  "2026-11-26": {
-   "lunch": {
-    "items": [
-     {
-      "img": "dishes/5dcd1aedbd.jpg",
-      "kcal": 535,
-      "key": "5dcd1aedbd",
-      "name": "Soslu Fırın Tavuk"
-     },
-     {
-      "img": "dishes/ee8e1db5de.jpg",
-      "kcal": 114,
-      "key": "ee8e1db5de",
-      "name": "Zeytinyağlı Pırasa"
-     },
-     {
-      "kcal": 377,
-      "key": "fef6adada3",
-      "name": "Nohutlu Pirinç Pilavı"
-     },
-     {
-      "kcal": 165,
-      "key": "f872ca0b07",
-      "name": "Beşamel Soslu Havuç Çorbası"
-     },
-     {
-      "img": "dishes/f3f84c9554.jpg",
-      "kcal": 474,
-      "key": "f3f84c9554",
-      "name": "Browni"
-     }
-    ],
-    "kcal": 1665
-   }
-  },
   "2026-11-27": {
    "lunch": {
     "items": [
@@ -43,6 +8,12 @@
       "kcal": 340,
       "key": "fbb76e65c4",
       "name": "Etli Kuru Fasulye"
+     },
+     {
+      "img": "dishes/efb86b31df.jpg",
+      "kcal": 267,
+      "key": "efb86b31df",
+      "name": "Kuru Fasülye (Etsiz)"
      },
      {
       "img": "dishes/22402adbde.jpg",
@@ -62,7 +33,7 @@
       "name": "Salatalık Turşusu"
      }
     ],
-    "kcal": 817
+    "kcal": 1084
    }
   },
   "2026-12-21": {
@@ -336,5 +307,5 @@
   }
  },
  "university": "cukurova",
- "updated": "2026-11-26T15:36:43+03:00"
+ "updated": "2026-11-27T02:52:30+03:00"
 }

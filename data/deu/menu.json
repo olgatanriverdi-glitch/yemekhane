@@ -1,65 +1,5 @@
 {
  "days": {
-  "2026-10-12": {
-   "lunch": {
-    "items": [
-     {
-      "img": "dishes/f81a728d3a.jpg",
-      "key": "f81a728d3a",
-      "name": "Kuru Fasulye"
-     },
-     {
-      "key": "30a3126a63",
-      "name": "Gökkuşağı Pilavı"
-     },
-     {
-      "img": "dishes/ec0228f614.jpg",
-      "key": "ec0228f614",
-      "name": "Turşu"
-     },
-     {
-      "img": "dishes/9c8d655ef5.jpg",
-      "key": "9c8d655ef5",
-      "name": "Yoğurt"
-     },
-     {
-      "img": "dishes/92485508df.jpg",
-      "key": "92485508df",
-      "name": "Tatlı"
-     }
-    ],
-    "kcal": 961
-   },
-   "vegetarian": {
-    "items": [
-     {
-      "img": "dishes/f81a728d3a.jpg",
-      "key": "f81a728d3a",
-      "name": "Kuru Fasulye"
-     },
-     {
-      "key": "30a3126a63",
-      "name": "Gökkuşağı Pilavı"
-     },
-     {
-      "img": "dishes/ec0228f614.jpg",
-      "key": "ec0228f614",
-      "name": "Turşu"
-     },
-     {
-      "img": "dishes/c96fd73d5f.jpg",
-      "key": "c96fd73d5f",
-      "name": "Salata"
-     },
-     {
-      "img": "dishes/ed17271d58.jpg",
-      "key": "ed17271d58",
-      "name": "Meyve"
-     }
-    ],
-    "kcal": 961
-   }
-  },
   "2026-10-13": {
    "lunch": {
     "items": [
@@ -2008,5 +1948,5 @@
   }
  },
  "university": "deu",
- "updated": "2026-11-26T15:36:43+03:00"
+ "updated": "2026-11-27T02:52:30+03:00"
 }

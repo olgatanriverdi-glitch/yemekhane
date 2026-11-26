@@ -1,30 +1,5 @@
 {
  "days": {
-  "2026-11-26": {
-   "lunch": {
-    "items": [
-     {
-      "img": "dishes/0955218757.jpg",
-      "key": "0955218757",
-      "name": "Mercimek Çorbası"
-     },
-     {
-      "img": "dishes/27f8bf5206.jpg",
-      "key": "27f8bf5206",
-      "name": "Elbasan Tava"
-     },
-     {
-      "key": "99f4bc2075",
-      "name": "Cevizli Erişte"
-     },
-     {
-      "img": "dishes/ea90a960e8.jpg",
-      "key": "ea90a960e8",
-      "name": "Islak Kek"
-     }
-    ]
-   }
-  },
   "2026-11-27": {
    "lunch": {
     "items": [
@@ -171,5 +146,5 @@
   }
  },
  "university": "mugla",
- "updated": "2026-11-26T15:36:43+03:00"
+ "updated": "2026-11-27T02:52:30+03:00"
 }

@@ -600,17 +600,17 @@
       "name": "Yayla Çorba"
      },
      {
-      "key": "7bae814a67",
-      "name": "Tavuk Sote"
+      "img": "dishes/17d2e9100f.jpg",
+      "key": "17d2e9100f",
+      "name": "Tavuk Döner"
      },
      {
       "key": "8ac31fd6b6",
       "name": "Zeytinyağlı Türlü"
      },
      {
-      "img": "dishes/ac109bce12.jpg",
-      "key": "ac109bce12",
-      "name": "Erişte Makarna"
+      "key": "32a8e10908",
+      "name": "Sade Piriç Pilavı"
      },
      {
       "img": "dishes/9814c6dc58.jpg",
@@ -622,5 +622,5 @@
   }
  },
  "university": "duzce",
- "updated": "2026-11-26T15:36:43+03:00"
+ "updated": "2026-11-27T02:52:30+03:00"
 }

@@ -538,32 +538,34 @@
     "kcal": 892
    }
   },
-  "2026-11-27": {
+  "2026-11-26": {
    "lunch": {
     "items": [
      {
-      "kcal": 93,
-      "key": "c3014dc010",
-      "name": "Mengen Çorba"
+      "img": "dishes/a78f83ec68.jpg",
+      "kcal": 117,
+      "key": "a78f83ec68",
+      "name": "Mısır Çorba"
      },
      {
-      "img": "dishes/9bd36390ba.jpg",
-      "kcal": 213,
-      "key": "9bd36390ba",
-      "name": "Tavuk Fajita"
+      "img": "dishes/a60ac0d42a.jpg",
+      "kcal": 450,
+      "key": "a60ac0d42a",
+      "name": "Ankara Tava"
      },
      {
-      "kcal": 303,
-      "key": "8636bfbc0a",
-      "name": "Pirinç Pilavı"
+      "img": "dishes/6481a77c76.jpg",
+      "kcal": 332,
+      "key": "6481a77c76",
+      "name": "Barbunya Pilaki"
      },
      {
-      "kcal": 163,
-      "key": "c836feafa3",
-      "name": "Çilekli Puding"
+      "kcal": 145,
+      "key": "b1d7da3f75",
+      "name": "Havuç-Kabak Tarator"
      }
     ],
-    "kcal": 772
+    "kcal": 1044
    }
   },
   "2026-11-30": {
@@ -599,5 +601,5 @@
   }
  },
  "university": "karatekin",
- "updated": "2026-11-26T15:36:43+03:00"
+ "updated": "2026-11-27T02:52:30+03:00"
 }

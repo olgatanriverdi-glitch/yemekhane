@@ -451,8 +451,39 @@
     ],
     "kcal": 823
    }
+  },
+  "2026-11-27": {
+   "lunch": {
+    "items": [
+     {
+      "img": "dishes/bf8474c8b9.jpg",
+      "kcal": 173,
+      "key": "bf8474c8b9",
+      "name": "Ezogelin Çorba"
+     },
+     {
+      "img": "dishes/1d61a72d2c.jpg",
+      "kcal": 417,
+      "key": "1d61a72d2c",
+      "name": "Kadınbudu Köfte"
+     },
+     {
+      "img": "dishes/97a7f04327.jpg",
+      "kcal": 160,
+      "key": "97a7f04327",
+      "name": "Piyaz"
+     },
+     {
+      "img": "dishes/1087b76fa2.jpg",
+      "kcal": 350,
+      "key": "1087b76fa2",
+      "name": "Revani"
+     }
+    ],
+    "kcal": 1100
+   }
   }
  },
  "university": "rte",
- "updated": "2026-11-26T15:36:43+03:00"
+ "updated": "2026-11-27T02:52:30+03:00"
 }

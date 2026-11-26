@@ -1,35 +1,5 @@
 {
  "days": {
-  "2026-10-12": {
-   "lunch": {
-    "items": [
-     {
-      "img": "dishes/4fb733faf2.jpg",
-      "kcal": 269,
-      "key": "4fb733faf2",
-      "name": "Ezogelin Çorbası"
-     },
-     {
-      "kcal": 336,
-      "key": "7073db34d9",
-      "name": "Tavuk Dönerli Pilav"
-     },
-     {
-      "img": "dishes/2750c6f6c0.jpg",
-      "kcal": 224,
-      "key": "2750c6f6c0",
-      "name": "Soslu Karışık Kızartma"
-     },
-     {
-      "img": "dishes/16b5c22561.jpg",
-      "kcal": 74,
-      "key": "16b5c22561",
-      "name": "Ayran"
-     }
-    ],
-    "kcal": 903
-   }
-  },
   "2026-10-13": {
    "lunch": {
     "items": [
@@ -944,5 +914,5 @@
   }
  },
  "university": "alku",
- "updated": "2026-11-26T15:36:43+03:00"
+ "updated": "2026-11-27T02:52:30+03:00"
 }

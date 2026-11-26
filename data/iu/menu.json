@@ -364,9 +364,9 @@
       "name": "Mercimek Çorbası"
      },
      {
-      "img": "dishes/6dd15f3601.jpg",
-      "key": "6dd15f3601",
-      "name": "Balık (Palamut)"
+      "img": "dishes/9c915f5e57.jpg",
+      "key": "9c915f5e57",
+      "name": "Palamut Tava"
      },
      {
       "img": "dishes/321b4fe3c9.jpg",
@@ -374,9 +374,9 @@
       "name": "Mevsim Salatası"
      },
      {
-      "img": "dishes/f2752c06ec.jpg",
-      "key": "f2752c06ec",
-      "name": "Tahin Helvası"
+      "img": "dishes/9295c4e37f.jpg",
+      "key": "9295c4e37f",
+      "name": "Helva"
      }
     ]
    },
@@ -388,9 +388,9 @@
       "name": "Mercimek Çorbası"
      },
      {
-      "img": "dishes/6dd15f3601.jpg",
-      "key": "6dd15f3601",
-      "name": "Balık (Palamut)"
+      "img": "dishes/9c915f5e57.jpg",
+      "key": "9c915f5e57",
+      "name": "Palamut Tava"
      },
      {
       "img": "dishes/321b4fe3c9.jpg",
@@ -398,9 +398,9 @@
       "name": "Mevsim Salatası"
      },
      {
-      "img": "dishes/f2752c06ec.jpg",
-      "key": "f2752c06ec",
-      "name": "Tahin Helvası"
+      "img": "dishes/9295c4e37f.jpg",
+      "key": "9295c4e37f",
+      "name": "Helva"
      }
     ]
    },
@@ -544,5 +544,5 @@
   }
  },
  "university": "iu",
- "updated": "2026-11-26T15:36:43+03:00"
+ "updated": "2026-11-27T02:52:30+03:00"
 }

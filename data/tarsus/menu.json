@@ -483,6 +483,7 @@
       "name": "Nohutlu Bulgur Pilavı"
      },
      {
+      "img": "dishes/16f3dacbd8.jpg",
       "key": "16f3dacbd8",
       "name": "Kazan Dibi"
      }
@@ -498,6 +499,7 @@
       "name": "Mercimek Çorbası"
      },
      {
+      "img": "dishes/719da771ce.jpg",
       "key": "719da771ce",
       "name": "Fındık Lahmacun"
      },
@@ -606,5 +608,5 @@
   }
  },
  "university": "tarsus",
- "updated": "2026-11-26T15:36:43+03:00"
+ "updated": "2026-11-27T02:52:30+03:00"
 }

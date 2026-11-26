@@ -1,31 +1,5 @@
 {
  "days": {
-  "2026-10-12": {
-   "lunch": {
-    "items": [
-     {
-      "img": "dishes/4782e4b30f.jpg",
-      "key": "4782e4b30f",
-      "name": "Şehriye Çorba"
-     },
-     {
-      "img": "dishes/0e0e520868.jpg",
-      "key": "0e0e520868",
-      "name": "Hünkar Beğendi"
-     },
-     {
-      "img": "dishes/808629f982.jpg",
-      "key": "808629f982",
-      "name": "Mantı"
-     },
-     {
-      "img": "dishes/a765c7c985.jpg",
-      "key": "a765c7c985",
-      "name": "Komposto"
-     }
-    ]
-   }
-  },
   "2026-10-13": {
    "lunch": {
     "items": [
@@ -674,5 +648,5 @@
   }
  },
  "university": "omu",
- "updated": "2026-11-26T15:36:43+03:00"
+ "updated": "2026-11-27T02:52:30+03:00"
 }

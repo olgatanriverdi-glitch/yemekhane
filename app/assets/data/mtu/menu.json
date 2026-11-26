@@ -202,8 +202,33 @@
      }
     ]
    }
+  },
+  "2026-11-27": {
+   "lunch": {
+    "items": [
+     {
+      "key": "ed740539b7",
+      "name": "Kıymalı Pırasa"
+     },
+     {
+      "img": "dishes/bcafe51e20.jpg",
+      "key": "bcafe51e20",
+      "name": "Peynirli Börek"
+     },
+     {
+      "img": "dishes/e430bca6db.jpg",
+      "key": "e430bca6db",
+      "name": "Haydari"
+     },
+     {
+      "img": "dishes/c914dabbd7.jpg",
+      "key": "c914dabbd7",
+      "name": "Tel Kadayıf"
+     }
+    ]
+   }
   }
  },
  "university": "mtu",
- "updated": "2026-11-26T02:38:47+03:00"
+ "updated": "2026-11-27T02:52:30+03:00"
 }

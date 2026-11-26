@@ -2598,6 +2598,7 @@
    "vegetarian": {
     "items": [
      {
+      "img": "dishes/90e8ccb482.jpg",
       "kcal": 373,
       "key": "90e8ccb482",
       "name": "Etsiz Yeşil Mercimek"
@@ -4472,5 +4473,5 @@
   }
  },
  "university": "hacettepe",
- "updated": "2026-11-26T15:36:43+03:00"
+ "updated": "2026-11-27T02:52:30+03:00"
 }
