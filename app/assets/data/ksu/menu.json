@@ -92,6 +92,7 @@
    "lunch": {
     "items": [
      {
+      "img": "dishes/d1f9ccd5ea.jpg",
       "kcal": 271,
       "key": "d1f9ccd5ea",
       "name": "Yoğurtlu Orman Kebabı"
@@ -555,9 +556,10 @@
       "name": "Zeytinyağlı Barbunya"
      },
      {
+      "img": "dishes/321b4fe3c9.jpg",
       "kcal": 50,
-      "key": "dea73a3f81",
-      "name": "Roka Salatası"
+      "key": "321b4fe3c9",
+      "name": "Mevsim Salatası"
      },
      {
       "img": "dishes/9295c4e37f.jpg",
@@ -603,8 +605,8 @@
     "items": [
      {
       "kcal": 372,
-      "key": "33bd8762ba",
-      "name": "Etli Patates Sulusu"
+      "key": "1440db8d3c",
+      "name": "Etli Kurufasulye+Turşu"
      },
      {
       "img": "dishes/25b07cf14e.jpg",
@@ -613,9 +615,10 @@
       "name": "Bulgur Pilavı"
      },
      {
-      "kcal": 177,
-      "key": "1fe0ace611",
-      "name": "Ekşili Çorba"
+      "img": "dishes/5d3038c41b.jpg",
+      "kcal": 197,
+      "key": "5d3038c41b",
+      "name": "Yayla Çorbası"
      },
      {
       "img": "dishes/ed17271d58.jpg",
@@ -624,10 +627,10 @@
       "name": "Meyve"
      }
     ],
-    "kcal": 906
+    "kcal": 926
    }
   }
  },
  "university": "ksu",
- "updated": "2026-11-26T02:38:47+03:00"
+ "updated": "2026-11-26T15:36:43+03:00"
 }

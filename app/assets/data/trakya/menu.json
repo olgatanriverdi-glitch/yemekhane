@@ -484,9 +484,8 @@
       "name": "Domates Çorba"
      },
      {
-      "img": "dishes/1d49307d95.jpg",
-      "key": "1d49307d95",
-      "name": "Patates Oturtma"
+      "key": "f44c8a2284",
+      "name": "Tavuk Kavurma"
      },
      {
       "key": "99f4bc2075",
@@ -498,7 +497,7 @@
       "name": "Yoğurt"
      }
     ],
-    "kcal": 987
+    "kcal": 993
    }
   },
   "2026-11-30": {
@@ -529,5 +528,5 @@
   }
  },
  "university": "trakya",
- "updated": "2026-11-26T02:38:47+03:00"
+ "updated": "2026-11-26T15:36:43+03:00"
 }

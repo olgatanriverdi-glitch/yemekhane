@@ -333,6 +333,7 @@
       "name": "Mısırlı Pirinç Pilavı"
      },
      {
+      "img": "dishes/f8b13e6d4c.jpg",
       "key": "f8b13e6d4c",
       "name": "Süzme Mercimek"
      },
@@ -348,6 +349,7 @@
    "lunch": {
     "items": [
      {
+      "img": "dishes/f84eeb6a65.jpg",
       "key": "f84eeb6a65",
       "name": "Etli Dolma"
      },
@@ -387,6 +389,7 @@
       "name": "Mercimek Çorba"
      },
      {
+      "img": "dishes/c610f97681.jpg",
       "key": "c610f97681",
       "name": "Aşüre"
      }
@@ -422,6 +425,7 @@
    "lunch": {
     "items": [
      {
+      "img": "dishes/d66473154b.jpg",
       "key": "d66473154b",
       "name": "Et Tava"
      },
@@ -486,6 +490,7 @@
       "name": "Mercimek Çorba"
      },
      {
+      "img": "dishes/0930172f6b.jpg",
       "key": "0930172f6b",
       "name": "Cevizli Helva"
      }
@@ -519,5 +524,5 @@
   }
  },
  "university": "kilis",
- "updated": "2026-11-26T02:38:47+03:00"
+ "updated": "2026-11-26T15:36:43+03:00"
 }

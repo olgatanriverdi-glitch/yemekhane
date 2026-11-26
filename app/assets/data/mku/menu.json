@@ -369,6 +369,7 @@
       "name": "Dövme Çorbası"
      },
      {
+      "img": "dishes/cf01b7d522.jpg",
       "kcal": 360,
       "key": "cf01b7d522",
       "name": "Tavuk Sini Kebabı"
@@ -573,6 +574,7 @@
       "name": "Mercimek Çorbası"
      },
      {
+      "img": "dishes/9e035ac37c.jpg",
       "kcal": 420,
       "key": "9e035ac37c",
       "name": "Çıtır Tavuk + Patates"
@@ -595,5 +597,5 @@
   }
  },
  "university": "mku",
- "updated": "2026-11-26T02:38:47+03:00"
+ "updated": "2026-11-26T15:36:43+03:00"
 }

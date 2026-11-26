@@ -1463,13 +1463,12 @@
       "name": "Etli Nohut"
      },
      {
-      "key": "eb4050bdbf",
-      "name": "Vitamin Çorba (Kış)"
+      "key": "5a3a0bfe26",
+      "name": "Minestrone Çorba"
      },
      {
-      "img": "dishes/c0403431e1.jpg",
-      "key": "c0403431e1",
-      "name": "Arpa Şehriye Pilavı"
+      "key": "70ddba17c0",
+      "name": "Arpa Şehriyeli Pirinç Pilavı"
      },
      {
       "img": "dishes/3ab5b14f23.jpg",
@@ -1668,5 +1667,5 @@
   }
  },
  "university": "uludag",
- "updated": "2026-11-26T02:38:47+03:00"
+ "updated": "2026-11-26T15:36:43+03:00"
 }

@@ -124,6 +124,7 @@
       "name": "Tavuk Çorbası"
      },
      {
+      "img": "dishes/75d9b3d853.jpg",
       "key": "75d9b3d853",
       "name": "Patlıcan Güveç"
      },
@@ -191,10 +192,12 @@
       "name": "Humus"
      },
      {
+      "img": "dishes/d702deabf6.jpg",
       "key": "d702deabf6",
       "name": "Ayran/Kola/Şalgam"
      },
      {
+      "img": "dishes/47aac9a094.jpg",
       "key": "47aac9a094",
       "name": "Coco Star"
      }
@@ -389,6 +392,7 @@
       "name": "Fırın Böreği"
      },
      {
+      "img": "dishes/d702deabf6.jpg",
       "key": "d702deabf6",
       "name": "Ayran/Kola/Şalgam"
      },
@@ -450,6 +454,7 @@
       "name": "Mevsim Salata"
      },
      {
+      "img": "dishes/d702deabf6.jpg",
       "key": "d702deabf6",
       "name": "Ayran/Kola/Şalgam"
      }
@@ -501,6 +506,7 @@
       "name": "Patatesli Börek"
      },
      {
+      "img": "dishes/d702deabf6.jpg",
       "key": "d702deabf6",
       "name": "Ayran/Kola/Şalgam"
      },
@@ -533,6 +539,7 @@
       "name": "Meyhane Pilavı"
      },
      {
+      "img": "dishes/d702deabf6.jpg",
       "key": "d702deabf6",
       "name": "Ayran/Kola/Şalgam"
      }
@@ -599,5 +606,5 @@
   }
  },
  "university": "tarsus",
- "updated": "2026-11-26T02:38:47+03:00"
+ "updated": "2026-11-26T15:36:43+03:00"
 }

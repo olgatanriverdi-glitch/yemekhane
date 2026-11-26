@@ -79,6 +79,7 @@
    "lunch": {
     "items": [
      {
+      "img": "dishes/7e9b1956f4.jpg",
       "key": "7e9b1956f4",
       "name": "Burdur Tarhana Çorba"
      },
@@ -133,6 +134,7 @@
       "name": "Mahluta Çorba"
      },
      {
+      "img": "dishes/b2a1748323.jpg",
       "key": "b2a1748323",
       "name": "Dana Yaprak Döner"
      },
@@ -158,6 +160,7 @@
       "name": "Sebze Çorba"
      },
      {
+      "img": "dishes/f15fe5a9e2.jpg",
       "key": "f15fe5a9e2",
       "name": "Etli Nohut Bulgur Pilavı"
      },
@@ -254,6 +257,7 @@
    "lunch": {
     "items": [
      {
+      "img": "dishes/7e9b1956f4.jpg",
       "key": "7e9b1956f4",
       "name": "Burdur Tarhana Çorba"
      },
@@ -457,6 +461,7 @@
    "lunch": {
     "items": [
      {
+      "img": "dishes/7e9b1956f4.jpg",
       "key": "7e9b1956f4",
       "name": "Burdur Tarhana Çorba"
      },
@@ -471,9 +476,9 @@
       "name": "Napoliten Soslu Makarna"
      },
      {
-      "img": "dishes/5a41fac25a.jpg",
-      "key": "5a41fac25a",
-      "name": "Sütlü İrmik Tatlısı"
+      "img": "dishes/44abc36c0c.jpg",
+      "key": "44abc36c0c",
+      "name": "İrmik Helvası"
      }
     ],
     "kcal": 1074
@@ -506,5 +511,5 @@
   }
  },
  "university": "maku",
- "updated": "2026-11-26T02:38:47+03:00"
+ "updated": "2026-11-26T15:36:43+03:00"
 }

@@ -646,8 +646,33 @@
      }
     ]
    }
+  },
+  "2026-11-26": {
+   "lunch": {
+    "items": [
+     {
+      "img": "dishes/d722d1f827.jpg",
+      "key": "d722d1f827",
+      "name": "Kremalı Domates Çorba"
+     },
+     {
+      "img": "dishes/694df91308.jpg",
+      "key": "694df91308",
+      "name": "İzmir Köfte"
+     },
+     {
+      "key": "95c20a9481",
+      "name": "Cevizli Erişte Pilavı"
+     },
+     {
+      "img": "dishes/9c8d655ef5.jpg",
+      "key": "9c8d655ef5",
+      "name": "Yoğurt"
+     }
+    ]
+   }
   }
  },
  "university": "omu",
- "updated": "2026-11-26T02:38:47+03:00"
+ "updated": "2026-11-26T15:36:43+03:00"
 }

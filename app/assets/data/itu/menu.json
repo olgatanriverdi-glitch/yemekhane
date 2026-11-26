@@ -1,62 +1,5 @@
 {
  "days": {
-  "2026-11-24": {
-   "dinner": {
-    "items": [
-     {
-      "img": "dishes/78d4dad707.jpg",
-      "key": "78d4dad707",
-      "name": "Tarhana Çorbası"
-     },
-     {
-      "img": "dishes/fe966f7485.jpg",
-      "key": "fe966f7485",
-      "name": "Kıymalı Ispanak"
-     },
-     {
-      "img": "dishes/f296c2badf.jpg",
-      "key": "f296c2badf",
-      "name": "Patatesli Gül Böreği"
-     },
-     {
-      "img": "dishes/9c8d655ef5.jpg",
-      "key": "9c8d655ef5",
-      "name": "Yoğurt"
-     },
-     {
-      "key": "f7b84ad85a",
-      "name": "Meyve Suyu"
-     }
-    ]
-   },
-   "lunch": {
-    "items": [
-     {
-      "key": "574f0487e7",
-      "name": "Tel Şehriyeli Havuç Çorbası"
-     },
-     {
-      "key": "37d5fa698f",
-      "name": "Adana Dürüm"
-     },
-     {
-      "img": "dishes/321b4fe3c9.jpg",
-      "key": "321b4fe3c9",
-      "name": "Mevsim Salatası"
-     },
-     {
-      "img": "dishes/16b5c22561.jpg",
-      "key": "16b5c22561",
-      "name": "Ayran"
-     },
-     {
-      "img": "dishes/c47036e360.jpg",
-      "key": "c47036e360",
-      "name": "Elma"
-     }
-    ]
-   }
-  },
   "2026-11-25": {
    "dinner": {
     "items": [
@@ -355,5 +298,5 @@
   }
  },
  "university": "itu",
- "updated": "2026-11-26T02:38:47+03:00"
+ "updated": "2026-11-26T15:36:43+03:00"
 }

@@ -574,41 +574,10 @@
       "name": "Şehriye Çorbası"
      },
      {
-      "img": "dishes/fe966f7485.jpg",
-      "kcal": 162,
-      "key": "fe966f7485",
-      "name": "Kıymalı Ispanak"
-     },
-     {
-      "img": "dishes/7c2d4973c2.jpg",
-      "kcal": 261,
-      "key": "7c2d4973c2",
-      "name": "Mecimekli Bulgur Pilavı"
-     },
-     {
-      "img": "dishes/9c8d655ef5.jpg",
-      "kcal": 114,
-      "key": "9c8d655ef5",
-      "name": "Yoğurt"
-     }
-    ],
-    "kcal": 711
-   }
-  },
-  "2026-11-30": {
-   "lunch": {
-    "items": [
-     {
-      "img": "dishes/bf8474c8b9.jpg",
-      "kcal": 95,
-      "key": "bf8474c8b9",
-      "name": "Ezogelin Çorba"
-     },
-     {
-      "img": "dishes/a62be86852.jpg",
+      "img": "dishes/2aa34eaccb.jpg",
       "kcal": 300,
-      "key": "a62be86852",
-      "name": "Tavuk Döner/Lavaş"
+      "key": "2aa34eaccb",
+      "name": "Tavuk Döner/Savaş"
      },
      {
       "img": "dishes/18ccb4d264.jpg",
@@ -622,10 +591,41 @@
       "name": "Havuç Tarator"
      }
     ],
-    "kcal": 779
+    "kcal": 858
+   }
+  },
+  "2026-11-30": {
+   "lunch": {
+    "items": [
+     {
+      "img": "dishes/4fb733faf2.jpg",
+      "kcal": 95,
+      "key": "4fb733faf2",
+      "name": "Ezogelin Çorbası"
+     },
+     {
+      "img": "dishes/fe966f7485.jpg",
+      "kcal": 162,
+      "key": "fe966f7485",
+      "name": "Kıymalı Ispanak"
+     },
+     {
+      "img": "dishes/86493234ae.jpg",
+      "kcal": 261,
+      "key": "86493234ae",
+      "name": "Mercimekli Bulgur Pilavı"
+     },
+     {
+      "img": "dishes/9c8d655ef5.jpg",
+      "kcal": 114,
+      "key": "9c8d655ef5",
+      "name": "Yoğurt"
+     }
+    ],
+    "kcal": 632
    }
   }
  },
  "university": "yyu",
- "updated": "2026-11-26T02:38:47+03:00"
+ "updated": "2026-11-26T15:36:43+03:00"
 }

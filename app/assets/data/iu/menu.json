@@ -1,110 +1,5 @@
 {
  "days": {
-  "2026-11-23": {
-   "breakfast": {
-    "items": [
-     {
-      "img": "dishes/22605468a2.jpg",
-      "key": "22605468a2",
-      "name": "Çay"
-     },
-     {
-      "key": "f7b84ad85a",
-      "name": "Meyve Suyu"
-     },
-     {
-      "img": "dishes/bff26db9ff.jpg",
-      "key": "bff26db9ff",
-      "name": "Süt"
-     },
-     {
-      "key": "a5700115ba",
-      "name": "Kakaolu Fındık Kreması"
-     },
-     {
-      "img": "dishes/b20332bcf6.jpg",
-      "key": "b20332bcf6",
-      "name": "Kaşar Peynir"
-     },
-     {
-      "key": "cfc8d5c66c",
-      "name": "Peynirli Milföy Böreği"
-     },
-     {
-      "img": "dishes/61eeda5228.jpg",
-      "key": "61eeda5228",
-      "name": "Domates-Salatalık"
-     }
-    ]
-   },
-   "dinner": {
-    "items": [
-     {
-      "img": "dishes/78d4dad707.jpg",
-      "key": "78d4dad707",
-      "name": "Tarhana Çorbası"
-     },
-     {
-      "key": "007b19b638",
-      "name": "Kıymalı Yeşil Mercimek"
-     },
-     {
-      "key": "99f4bc2075",
-      "name": "Cevizli Erişte"
-     },
-     {
-      "img": "dishes/c47036e360.jpg",
-      "key": "c47036e360",
-      "name": "Elma"
-     }
-    ]
-   },
-   "lunch": {
-    "items": [
-     {
-      "img": "dishes/78d4dad707.jpg",
-      "key": "78d4dad707",
-      "name": "Tarhana Çorbası"
-     },
-     {
-      "key": "007b19b638",
-      "name": "Kıymalı Yeşil Mercimek"
-     },
-     {
-      "key": "99f4bc2075",
-      "name": "Cevizli Erişte"
-     },
-     {
-      "img": "dishes/c47036e360.jpg",
-      "key": "c47036e360",
-      "name": "Elma"
-     }
-    ]
-   },
-   "vegetarian": {
-    "items": [
-     {
-      "img": "dishes/0955218757.jpg",
-      "key": "0955218757",
-      "name": "Mercimek Çorbası"
-     },
-     {
-      "key": "9256d173ae",
-      "name": "Yeşil Mercimek Yemeği"
-     },
-     {
-      "img": "dishes/321b4fe3c9.jpg",
-      "key": "321b4fe3c9",
-      "name": "Mevsim Salatası"
-     },
-     {
-      "img": "dishes/c47036e360.jpg",
-      "key": "c47036e360",
-      "name": "Elma"
-     }
-    ]
-   }
-  },
   "2026-11-24": {
    "breakfast": {
     "items": [
@@ -372,9 +267,9 @@
       "name": "Soslu Makarna"
      },
      {
-      "img": "dishes/9814c6dc58.jpg",
-      "key": "9814c6dc58",
-      "name": "Mandalina"
+      "img": "dishes/c47036e360.jpg",
+      "key": "c47036e360",
+      "name": "Elma"
      }
     ]
    },
@@ -395,9 +290,9 @@
       "name": "Soslu Makarna"
      },
      {
-      "img": "dishes/9814c6dc58.jpg",
-      "key": "9814c6dc58",
-      "name": "Mandalina"
+      "img": "dishes/c47036e360.jpg",
+      "key": "c47036e360",
+      "name": "Elma"
      }
     ]
    },
@@ -464,44 +359,48 @@
    "dinner": {
     "items": [
      {
-      "img": "dishes/5d3038c41b.jpg",
-      "key": "5d3038c41b",
-      "name": "Yayla Çorbası"
+      "img": "dishes/0955218757.jpg",
+      "key": "0955218757",
+      "name": "Mercimek Çorbası"
      },
      {
-      "key": "ba7f211246",
-      "name": "Piliç Şinitzel (Sebze Garnili)"
+      "img": "dishes/6dd15f3601.jpg",
+      "key": "6dd15f3601",
+      "name": "Balık (Palamut)"
      },
      {
-      "key": "8780f22af6",
-      "name": "Yoğurtlu Havuç Tarator"
+      "img": "dishes/321b4fe3c9.jpg",
+      "key": "321b4fe3c9",
+      "name": "Mevsim Salatası"
      },
      {
-      "img": "dishes/647ce15e33.jpg",
-      "key": "647ce15e33",
-      "name": "Tulumba"
+      "img": "dishes/f2752c06ec.jpg",
+      "key": "f2752c06ec",
+      "name": "Tahin Helvası"
      }
     ]
    },
    "lunch": {
     "items": [
      {
-      "img": "dishes/5d3038c41b.jpg",
-      "key": "5d3038c41b",
-      "name": "Yayla Çorbası"
+      "img": "dishes/0955218757.jpg",
+      "key": "0955218757",
+      "name": "Mercimek Çorbası"
      },
      {
-      "key": "ba7f211246",
-      "name": "Piliç Şinitzel (Sebze Garnili)"
+      "img": "dishes/6dd15f3601.jpg",
+      "key": "6dd15f3601",
+      "name": "Balık (Palamut)"
      },
      {
-      "key": "8780f22af6",
-      "name": "Yoğurtlu Havuç Tarator"
+      "img": "dishes/321b4fe3c9.jpg",
+      "key": "321b4fe3c9",
+      "name": "Mevsim Salatası"
      },
      {
-      "img": "dishes/647ce15e33.jpg",
-      "key": "647ce15e33",
-      "name": "Tulumba"
+      "img": "dishes/f2752c06ec.jpg",
+      "key": "f2752c06ec",
+      "name": "Tahin Helvası"
      }
     ]
    },
@@ -645,5 +544,5 @@
   }
  },
  "university": "iu",
- "updated": "2026-11-26T02:38:47+03:00"
+ "updated": "2026-11-26T15:36:43+03:00"
 }

@@ -275,6 +275,7 @@
       "name": "Mercimek Çorbası"
      },
      {
+      "img": "dishes/d49d331ae3.jpg",
       "kcal": 345,
       "key": "d49d331ae3",
       "name": "Ispanaklı Gül Böreği"
@@ -297,6 +298,7 @@
    "lunch": {
     "items": [
      {
+      "img": "dishes/758b9dc948.jpg",
       "kcal": 163,
       "key": "758b9dc948",
       "name": "Kremalı Mısır Çorba"
@@ -625,5 +627,5 @@
   }
  },
  "university": "atu",
- "updated": "2026-11-26T02:38:47+03:00"
+ "updated": "2026-11-26T15:36:43+03:00"
 }

@@ -539,24 +539,21 @@
       "name": "Mercimek Çorbası"
      },
      {
-      "img": "dishes/575b59d6b6.jpg",
-      "kcal": 483,
-      "key": "575b59d6b6",
-      "name": "Şehriyeli Güveç"
+      "key": "e390d245fb",
+      "name": "Hindi Antrikot-Püreli"
+     },
+     {
+      "kcal": 314,
+      "key": "5ba52e9f13",
+      "name": "Kuş Üzümlü Nohutlu Pirinç Pilavı"
      },
      {
       "img": "dishes/16b5c22561.jpg",
       "kcal": 58,
       "key": "16b5c22561",
       "name": "Ayran"
-     },
-     {
-      "kcal": 76,
-      "key": "156094a7eb",
-      "name": "Kış Salata"
      }
-    ],
-    "kcal": 776
+    ]
    }
   },
   "2026-11-27": {
@@ -1248,5 +1245,5 @@
   }
  },
  "university": "neu",
- "updated": "2026-11-26T02:38:47+03:00"
+ "updated": "2026-11-26T15:36:43+03:00"
 }

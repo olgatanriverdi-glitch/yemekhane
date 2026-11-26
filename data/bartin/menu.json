@@ -562,10 +562,10 @@
       "name": "Ankara Tava"
      },
      {
-      "img": "dishes/6481a77c76.jpg",
-      "kcal": 332,
-      "key": "6481a77c76",
-      "name": "Barbunya Pilaki"
+      "img": "dishes/664bfec39c.jpg",
+      "kcal": 305,
+      "key": "664bfec39c",
+      "name": "Nohut Yemeği"
      },
      {
       "kcal": 145,
@@ -573,7 +573,7 @@
       "name": "Havuç- Kabak Tarator"
      }
     ],
-    "kcal": 1044
+    "kcal": 1017
    }
   },
   "2026-11-27": {
@@ -585,10 +585,10 @@
       "name": "Mengen Çorbası"
      },
      {
-      "img": "dishes/c94ea723fe.jpg",
-      "kcal": 330,
-      "key": "c94ea723fe",
-      "name": "Etli Nohut Yemeği"
+      "img": "dishes/0d8c09beed.jpg",
+      "kcal": 170,
+      "key": "0d8c09beed",
+      "name": "Etli Taze Fasülye"
      },
      {
       "kcal": 420,
@@ -606,7 +606,7 @@
       "name": "Çilekli Puding"
      }
     ],
-    "kcal": 1309
+    "kcal": 1149
    }
   },
   "2026-11-30": {
@@ -640,5 +640,5 @@
   }
  },
  "university": "bartin",
- "updated": "2026-11-26T02:38:47+03:00"
+ "updated": "2026-11-26T15:36:43+03:00"
 }

@@ -554,9 +554,9 @@
    "lunch": {
     "items": [
      {
-      "img": "dishes/0955218757.jpg",
-      "key": "0955218757",
-      "name": "Mercimek Çorbası"
+      "img": "dishes/495fb304f2.jpg",
+      "key": "495fb304f2",
+      "name": "Şehriye Çorbası"
      },
      {
       "key": "8f76214279",
@@ -579,18 +579,18 @@
    "lunch": {
     "items": [
      {
-      "img": "dishes/495fb304f2.jpg",
-      "key": "495fb304f2",
-      "name": "Şehriye Çorbası"
+      "img": "dishes/0955218757.jpg",
+      "key": "0955218757",
+      "name": "Mercimek Çorbası"
      },
      {
       "key": "f69bafe20f",
       "name": "Antep Tava"
      },
      {
-      "img": "dishes/25b07cf14e.jpg",
-      "key": "25b07cf14e",
-      "name": "Bulgur Pilavı"
+      "img": "dishes/40440fb845.jpg",
+      "key": "40440fb845",
+      "name": "İç Pilav"
      },
      {
       "img": "dishes/eb24a662e7.jpg",
@@ -628,5 +628,5 @@
   }
  },
  "university": "kayseri",
- "updated": "2026-11-26T02:38:47+03:00"
+ "updated": "2026-11-26T15:36:43+03:00"
 }

@@ -29,11 +29,12 @@
   "2026-11-20": "1bef3c58250a",
   "2026-11-23": "c4038de991ad",
   "2026-11-24": "4b85bf1554c0",
-  "2026-11-25": "cc3fe2b10c31"
+  "2026-11-25": "cc3fe2b10c31",
+  "2026-11-26": "ae8faa9af025"
  },
  "main": {
   "025eacfe0c": "8f579a24b2f7",
-  "04aa480c87": "e12d07f13338",
+  "04aa480c87": "ae8faa9af025",
   "0d239a15f0": "41ca78a13cd7",
   "1da7bd5f6e": "fb6cb3d76923",
   "211964d15e": "41a246d21c3d",
@@ -310,6 +311,16 @@
     "Çökertme Kebap",
     "Bulgur Pilavı",
     "Mısırlı Aysberg Salata"
+   ]
+  },
+  "ae8faa9af025": {
+   "added": "2026-11-26",
+   "hash": "b06994a3bf90d37d0f814ac76fded6ccb1aeb1e9",
+   "items": [
+    "Sebze Çorba",
+    "Kadınbudu Köfte/Patates Salata",
+    "Yoğurtlu Makarna",
+    "Çikolatalı Brownie"
    ]
   },
   "afb67ff41e7b": {
