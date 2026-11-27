@@ -108,6 +108,7 @@
       "name": "Süzme Mercimek Çorba"
      },
      {
+      "img": "dishes/ab65328d1d.jpg",
       "key": "ab65328d1d",
       "name": "Köfteli Patlıcan Kebabı"
      },
@@ -157,6 +158,7 @@
       "name": "Domates Çorba"
      },
      {
+      "img": "dishes/e609e8c025.jpg",
       "key": "e609e8c025",
       "name": "Usta Usulü Et Döner"
      },
@@ -915,5 +917,5 @@
   }
  },
  "university": "nku",
- "updated": "2026-11-27T02:52:30+03:00"
+ "updated": "2026-11-27T15:23:48+03:00"
 }

@@ -447,20 +447,19 @@
       "name": "Orman Kebabı"
      },
      {
-      "img": "dishes/0b9e39c61a.jpg",
-      "key": "0b9e39c61a",
-      "name": "Salçalı Makarna"
+      "img": "dishes/bcafe51e20.jpg",
+      "key": "bcafe51e20",
+      "name": "Peynirli Börek"
      },
      {
-      "img": "dishes/647ce15e33.jpg",
-      "key": "647ce15e33",
-      "name": "Tulumba"
+      "key": "1f158694c1",
+      "name": "Saray Burma"
      }
     ],
-    "kcal": 964
+    "kcal": 974
    }
   }
  },
  "university": "agri",
- "updated": "2026-11-27T02:52:30+03:00"
+ "updated": "2026-11-27T15:23:48+03:00"
 }

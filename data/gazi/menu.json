@@ -158,8 +158,8 @@
       "name": "Kafkas Çorbası"
      },
      {
-      "key": "af6221a5d9",
-      "name": "Tavuk Baget -sebze Garn"
+      "key": "7f0baf1c11",
+      "name": "Tavuk Baget -sebze Garnili"
      },
      {
       "key": "fef6adada3",
@@ -406,8 +406,8 @@
       "name": "Pirinç Pilavı"
      },
      {
-      "key": "082a3d645d",
-      "name": "Yoğurtlu Pancar Salatası"
+      "key": "dc27d198c0",
+      "name": "Yoğ.lu Pancar Salatası"
      }
     ],
     "kcal": 1150
@@ -429,8 +429,8 @@
       "name": "Pirinç Pilavı"
      },
      {
-      "key": "082a3d645d",
-      "name": "Yoğurtlu Pancar Salatası"
+      "key": "dc27d198c0",
+      "name": "Yoğ.lu Pancar Salatası"
      }
     ]
    }
@@ -689,9 +689,8 @@
       "name": "Brokoli Çorbası"
      },
      {
-      "img": "dishes/3ba6a3a823.jpg",
-      "key": "3ba6a3a823",
-      "name": "Püreli Dalyan Köfte"
+      "key": "0aeece6805",
+      "name": "Hasan Paşa Köfte"
      },
      {
       "key": "8636bfbc0a",
@@ -886,7 +885,7 @@
      },
      {
       "key": "598717f56c",
-      "name": "Tavuk Külbastı - Sebze Garn"
+      "name": "Tavuk Külbastı- Sebze Garn"
      },
      {
       "key": "8636bfbc0a",
@@ -1122,8 +1121,9 @@
       "name": "Mantar Çorbası"
      },
      {
-      "key": "fa3eb52922",
-      "name": "Pilavüstü Et Kavurması"
+      "img": "dishes/2fef1559b2.jpg",
+      "key": "2fef1559b2",
+      "name": "Pirinç Üstü Et Döner"
      },
      {
       "img": "dishes/ee8e1db5de.jpg",
@@ -1214,5 +1214,5 @@
   }
  },
  "university": "gazi",
- "updated": "2026-11-27T02:52:30+03:00"
+ "updated": "2026-11-27T15:23:48+03:00"
 }

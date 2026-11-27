@@ -645,8 +645,34 @@
      }
     ]
    }
+  },
+  "2026-11-27": {
+   "lunch": {
+    "items": [
+     {
+      "img": "dishes/154f53ef81.jpg",
+      "key": "154f53ef81",
+      "name": "Düğün Çorba"
+     },
+     {
+      "img": "dishes/27f8bf5206.jpg",
+      "key": "27f8bf5206",
+      "name": "Elbasan Tava"
+     },
+     {
+      "img": "dishes/25b07cf14e.jpg",
+      "key": "25b07cf14e",
+      "name": "Bulgur Pilavı"
+     },
+     {
+      "img": "dishes/1d44a2ec2c.jpg",
+      "key": "1d44a2ec2c",
+      "name": "Muhallebi"
+     }
+    ]
+   }
   }
  },
  "university": "omu",
- "updated": "2026-11-27T02:52:30+03:00"
+ "updated": "2026-11-27T15:23:48+03:00"
 }

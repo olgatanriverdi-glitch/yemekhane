@@ -233,9 +233,10 @@
       "name": "Şehriye Çorba"
      },
      {
-      "kcal": 105,
-      "key": "1268937c0d",
-      "name": "Havuç Salata"
+      "img": "dishes/99a67d4042.jpg",
+      "kcal": 168,
+      "key": "99a67d4042",
+      "name": "Mevsim Salata"
      },
      {
       "img": "dishes/16b5c22561.jpg",
@@ -244,7 +245,7 @@
       "name": "Ayran"
      }
     ],
-    "kcal": 591
+    "kcal": 654
    }
   },
   "2026-12-30": {
@@ -307,5 +308,5 @@
   }
  },
  "university": "cukurova",
- "updated": "2026-11-27T02:52:30+03:00"
+ "updated": "2026-11-27T15:23:48+03:00"
 }

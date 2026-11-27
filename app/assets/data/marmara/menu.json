@@ -263,10 +263,9 @@
       "name": "Etli Nohut"
      },
      {
-      "img": "dishes/352f128e7a.jpg",
-      "kcal": 335,
-      "key": "352f128e7a",
-      "name": "Etli Patates (Alternatif)"
+      "kcal": 425,
+      "key": "5c3b156c2d",
+      "name": "Etli Patates Graten (Alternatif)"
      },
      {
       "kcal": 320,
@@ -311,5 +310,5 @@
   }
  },
  "university": "marmara",
- "updated": "2026-11-27T02:52:30+03:00"
+ "updated": "2026-11-27T15:23:48+03:00"
 }

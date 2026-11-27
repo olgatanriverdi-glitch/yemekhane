@@ -29,7 +29,8 @@
   "2026-11-23": "c4038de991ad",
   "2026-11-24": "4b85bf1554c0",
   "2026-11-25": "cc3fe2b10c31",
-  "2026-11-26": "ae8faa9af025"
+  "2026-11-26": "ae8faa9af025",
+  "2026-11-27": "7feee140a9d3"
  },
  "main": {
   "025eacfe0c": "8f579a24b2f7",
@@ -43,6 +44,7 @@
   "495c83bde2": "60eab455cb15",
   "4b76564c9a": "001da2fb49d8",
   "50ca989a54": "c4038de991ad",
+  "5474cfdcf7": "7feee140a9d3",
   "5acb48cd86": "6c2b5a59d5a6",
   "5de18824bc": "a746873f05e3",
   "613616e611": "cb1148062900",
@@ -260,6 +262,16 @@
     "Etli Kuru Fasulye",
     "Şehriyeli Pirinç Pilavı/Turşu",
     "Frambuaz Rüyası"
+   ]
+  },
+  "7feee140a9d3": {
+   "added": "2026-11-27",
+   "hash": "aa90a93d3422f1895cb6cbad738f88c4041e1299",
+   "items": [
+    "Şehriye Çorba",
+    "Adana Kebap/Bulgur Pilavı",
+    "Menekşe Salata",
+    "Haydari"
    ]
   },
   "8a9afd398373": {

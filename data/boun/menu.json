@@ -1987,8 +1987,9 @@
       "name": "Ayran"
      },
      {
-      "key": "f7b84ad85a",
-      "name": "Meyve Suyu"
+      "img": "dishes/ed17271d58.jpg",
+      "key": "ed17271d58",
+      "name": "Meyve"
      }
     ]
    }
@@ -2477,6 +2478,42 @@
       "img": "dishes/50eab3d432.jpg",
       "key": "50eab3d432",
       "name": "Soda"
+     }
+    ]
+   },
+   "lunch": {
+    "items": [
+     {
+      "img": "dishes/bf8474c8b9.jpg",
+      "key": "bf8474c8b9",
+      "name": "Ezogelin Çorba"
+     },
+     {
+      "key": "ab62065abb",
+      "name": "Patlıcan Beğendili Kebap"
+     },
+     {
+      "key": "b6a8224fc4",
+      "name": "Sade Pirinç Pilavı"
+     },
+     {
+      "img": "dishes/44e0318435.jpg",
+      "key": "44e0318435",
+      "name": "Mac And Cheese"
+     },
+     {
+      "img": "dishes/2e70342554.jpg",
+      "key": "2e70342554",
+      "name": "Ice Tea"
+     },
+     {
+      "img": "dishes/647ce15e33.jpg",
+      "key": "647ce15e33",
+      "name": "Tulumba"
+     },
+     {
+      "key": "a08708a2dc",
+      "name": "Akdeniz Salata"
      }
     ]
    }
@@ -4387,5 +4424,5 @@
   }
  },
  "university": "boun",
- "updated": "2026-11-27T02:52:30+03:00"
+ "updated": "2026-11-27T15:23:48+03:00"
 }

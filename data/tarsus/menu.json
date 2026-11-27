@@ -528,6 +528,7 @@
       "name": "Domates Çorbası"
      },
      {
+      "img": "dishes/cd6e122f0f.jpg",
       "key": "cd6e122f0f",
       "name": "Tavuk Kebap"
      },
@@ -608,5 +609,5 @@
   }
  },
  "university": "tarsus",
- "updated": "2026-11-27T02:52:30+03:00"
+ "updated": "2026-11-27T15:23:48+03:00"
 }

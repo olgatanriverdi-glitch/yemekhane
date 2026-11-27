@@ -499,6 +499,7 @@
       "name": "Tavuk Döner"
      },
      {
+      "img": "dishes/95e1d890bb.jpg",
       "key": "95e1d890bb",
       "name": "Dereotlu Bulgur Pilavı"
      },
@@ -512,5 +513,5 @@
   }
  },
  "university": "maku",
- "updated": "2026-11-27T02:52:30+03:00"
+ "updated": "2026-11-27T15:23:48+03:00"
 }

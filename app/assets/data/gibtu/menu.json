@@ -463,8 +463,158 @@
      }
     ]
    }
+  },
+  "2026-12-01": {
+   "lunch": {
+    "items": [
+     {
+      "key": "1e3a81be4a",
+      "name": "Mantarlı Tavuk Sote"
+     },
+     {
+      "img": "dishes/c12508390a.jpg",
+      "key": "c12508390a",
+      "name": "Peynirli Gül Böreği"
+     },
+     {
+      "img": "dishes/bf8474c8b9.jpg",
+      "key": "bf8474c8b9",
+      "name": "Ezogelin Çorba"
+     },
+     {
+      "img": "dishes/a3d80c5897.jpg",
+      "key": "a3d80c5897",
+      "name": "Armut"
+     }
+    ]
+   }
+  },
+  "2026-12-02": {
+   "lunch": {
+    "items": [
+     {
+      "key": "835d55f9ee",
+      "name": "Etli Kış Kabağı Yemeği"
+     },
+     {
+      "img": "dishes/25b07cf14e.jpg",
+      "key": "25b07cf14e",
+      "name": "Bulgur Pilavı"
+     },
+     {
+      "img": "dishes/cf51175f35.jpg",
+      "key": "cf51175f35",
+      "name": "Tutmaç Çorba"
+     },
+     {
+      "img": "dishes/d85eae33cf.jpg",
+      "key": "d85eae33cf",
+      "name": "Spoonful"
+     }
+    ]
+   }
+  },
+  "2026-12-03": {
+   "lunch": {
+    "items": [
+     {
+      "img": "dishes/4280b45688.jpg",
+      "key": "4280b45688",
+      "name": "Tavuk Pirzola"
+     },
+     {
+      "img": "dishes/18ccb4d264.jpg",
+      "key": "18ccb4d264",
+      "name": "Soslu Makarna"
+     },
+     {
+      "key": "ec9cd882ff",
+      "name": "Süleymaniye Çorba"
+     },
+     {
+      "img": "dishes/16b5c22561.jpg",
+      "key": "16b5c22561",
+      "name": "Ayran"
+     }
+    ]
+   }
+  },
+  "2026-12-04": {
+   "lunch": {
+    "items": [
+     {
+      "key": "c15e6f1596",
+      "name": "Etli Kış Dolması"
+     },
+     {
+      "img": "dishes/22dd093862.jpg",
+      "key": "22dd093862",
+      "name": "Mercimek Çorba"
+     },
+     {
+      "img": "dishes/9c8d655ef5.jpg",
+      "key": "9c8d655ef5",
+      "name": "Yoğurt"
+     },
+     {
+      "img": "dishes/ea90a960e8.jpg",
+      "key": "ea90a960e8",
+      "name": "Islak Kek"
+     }
+    ]
+   }
+  },
+  "2026-12-07": {
+   "lunch": {
+    "items": [
+     {
+      "img": "dishes/7e2a438be8.jpg",
+      "key": "7e2a438be8",
+      "name": "Tavuk Haşlama"
+     },
+     {
+      "img": "dishes/c5f39eda02.jpg",
+      "key": "c5f39eda02",
+      "name": "Ispanaklı Kol Böreği"
+     },
+     {
+      "img": "dishes/5abbdce7b9.jpg",
+      "key": "5abbdce7b9",
+      "name": "Sebze Çorba"
+     },
+     {
+      "img": "dishes/9814c6dc58.jpg",
+      "key": "9814c6dc58",
+      "name": "Mandalina"
+     }
+    ]
+   }
+  },
+  "2026-12-08": {
+   "lunch": {
+    "items": [
+     {
+      "key": "21f587ae09",
+      "name": "Pilav Üstü Et Kavurma"
+     },
+     {
+      "img": "dishes/22dd093862.jpg",
+      "key": "22dd093862",
+      "name": "Mercimek Çorba"
+     },
+     {
+      "img": "dishes/dbab186633.jpg",
+      "key": "dbab186633",
+      "name": "Şam Tatlı"
+     },
+     {
+      "key": "6fa1536ad7",
+      "name": "Mor Lahana Salatası(Yağsız)"
+     }
+    ]
+   }
   }
  },
  "university": "gibtu",
- "updated": "2026-11-27T02:52:30+03:00"
+ "updated": "2026-11-27T15:23:48+03:00"
 }

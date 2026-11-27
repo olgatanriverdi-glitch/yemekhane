@@ -283,6 +283,7 @@
       "name": "Piliç Sote"
      },
      {
+      "img": "dishes/e3210544bb.jpg",
       "kcal": 365,
       "key": "e3210544bb",
       "name": "Mısırlı Şehriye Pilavı"
@@ -549,6 +550,7 @@
       "name": "Tarhana Çorbası"
      },
      {
+      "img": "dishes/9e30ee939a.jpg",
       "kcal": 375,
       "key": "9e30ee939a",
       "name": "Sucuk Köfte"
@@ -600,5 +602,5 @@
   }
  },
  "university": "balikesir",
- "updated": "2026-11-27T02:52:30+03:00"
+ "updated": "2026-11-27T15:23:48+03:00"
 }

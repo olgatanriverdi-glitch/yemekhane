@@ -494,8 +494,37 @@
     ],
     "kcal": 1178
    }
+  },
+  "2026-11-27": {
+   "lunch": {
+    "items": [
+     {
+      "kcal": 195,
+      "key": "00c1fbe7ac",
+      "name": "Çeşm-İ Nigar Çorbası"
+     },
+     {
+      "img": "dishes/79af2ed76c.jpg",
+      "kcal": 300,
+      "key": "79af2ed76c",
+      "name": "Et Fajita"
+     },
+     {
+      "kcal": 300,
+      "key": "fef6adada3",
+      "name": "Nohutlu Pirinç Pilavı"
+     },
+     {
+      "img": "dishes/2f58be7b7a.jpg",
+      "kcal": 105,
+      "key": "2f58be7b7a",
+      "name": "Cacık"
+     }
+    ],
+    "kcal": 900
+   }
   }
  },
  "university": "etu",
- "updated": "2026-11-27T02:52:30+03:00"
+ "updated": "2026-11-27T15:23:48+03:00"
 }

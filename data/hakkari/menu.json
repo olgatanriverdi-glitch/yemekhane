@@ -272,6 +272,7 @@
       "name": "Mercimek Çorba"
      },
      {
+      "img": "dishes/9c915f5e57.jpg",
       "kcal": 243,
       "key": "9c915f5e57",
       "name": "Palamut Tava"
@@ -619,5 +620,5 @@
   }
  },
  "university": "hakkari",
- "updated": "2026-11-27T02:52:30+03:00"
+ "updated": "2026-11-27T15:23:48+03:00"
 }

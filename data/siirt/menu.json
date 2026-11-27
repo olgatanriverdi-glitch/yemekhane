@@ -590,13 +590,12 @@
       "name": "Tatlı"
      },
      {
-      "img": "dishes/bac7d91091.jpg",
-      "kcal": 250,
-      "key": "bac7d91091",
-      "name": "Makarna"
+      "kcal": 320,
+      "key": "8636bfbc0a",
+      "name": "Pirinç Pilavı"
      }
     ],
-    "kcal": 990
+    "kcal": 1060
    }
   },
   "2026-11-30": {
@@ -632,5 +631,5 @@
   }
  },
  "university": "siirt",
- "updated": "2026-11-27T02:52:30+03:00"
+ "updated": "2026-11-27T15:23:48+03:00"
 }

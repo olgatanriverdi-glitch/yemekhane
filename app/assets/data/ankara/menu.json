@@ -1330,7 +1330,8 @@
       "name": "Haydari"
      }
     ],
-    "kcal": 936
+    "kcal": 936,
+    "photo": "photos/lib/7feee140a9d3.jpg"
    },
    "vegetarian": {
     "items": [
@@ -1461,5 +1462,5 @@
   }
  },
  "university": "ankara",
- "updated": "2026-11-27T02:52:30+03:00"
+ "updated": "2026-11-27T15:23:48+03:00"
 }

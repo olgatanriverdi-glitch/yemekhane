@@ -694,8 +694,125 @@
      }
     ]
    }
+  },
+  "2026-12-01": {
+   "lunch": {
+    "items": [
+     {
+      "img": "dishes/0955218757.jpg",
+      "kcal": 180,
+      "key": "0955218757",
+      "name": "Mercimek Çorbası"
+     },
+     {
+      "kcal": 430,
+      "key": "ea21290d8b",
+      "name": "Rosto Köfte-Püre"
+     },
+     {
+      "img": "dishes/22402adbde.jpg",
+      "kcal": 340,
+      "key": "22402adbde",
+      "name": "Tel Şehriyeli Bulgur Pilavı"
+     },
+     {
+      "img": "dishes/faa2e9e4f2.jpg",
+      "kcal": 300,
+      "key": "faa2e9e4f2",
+      "name": "Supangle"
+     }
+    ]
+   }
+  },
+  "2026-12-02": {
+   "lunch": {
+    "items": [
+     {
+      "img": "dishes/64ee8e0b3b.jpg",
+      "kcal": 150,
+      "key": "64ee8e0b3b",
+      "name": "Düğün Çorbası"
+     },
+     {
+      "img": "dishes/890b8e3990.jpg",
+      "kcal": 420,
+      "key": "890b8e3990",
+      "name": "Etli Nohut"
+     },
+     {
+      "kcal": 370,
+      "key": "70ddba17c0",
+      "name": "Arpa Şehriyeli Pirinç Pilavı"
+     },
+     {
+      "img": "dishes/2f58be7b7a.jpg",
+      "kcal": 110,
+      "key": "2f58be7b7a",
+      "name": "Cacık"
+     }
+    ]
+   }
+  },
+  "2026-12-03": {
+   "lunch": {
+    "items": [
+     {
+      "img": "dishes/4fb733faf2.jpg",
+      "kcal": 190,
+      "key": "4fb733faf2",
+      "name": "Ezogelin Çorbası"
+     },
+     {
+      "kcal": 480,
+      "key": "e95d82ee32",
+      "name": "Arnavut Usulü Tavuk Ciğeri"
+     },
+     {
+      "img": "dishes/6bfa0ca014.jpg",
+      "kcal": 350,
+      "key": "6bfa0ca014",
+      "name": "Salçalı Bulgur Pilavı"
+     },
+     {
+      "img": "dishes/e516c4a18a.jpg",
+      "kcal": 400,
+      "key": "e516c4a18a",
+      "name": "Tiramisu"
+     }
+    ]
+   }
+  },
+  "2026-12-04": {
+   "lunch": {
+    "items": [
+     {
+      "img": "dishes/5d3038c41b.jpg",
+      "kcal": 160,
+      "key": "5d3038c41b",
+      "name": "Yayla Çorbası"
+     },
+     {
+      "img": "dishes/5b3a0cf58e.jpg",
+      "kcal": 300,
+      "key": "5b3a0cf58e",
+      "name": "Tavuk Güveç"
+     },
+     {
+      "img": "dishes/bac7d91091.jpg",
+      "kcal": 340,
+      "key": "bac7d91091",
+      "name": "Makarna"
+     },
+     {
+      "img": "dishes/ed17271d58.jpg",
+      "kcal": 60,
+      "key": "ed17271d58",
+      "name": "Meyve"
+     }
+    ]
+   }
   }
  },
  "university": "adu",
- "updated": "2026-11-27T02:52:30+03:00"
+ "updated": "2026-11-27T15:23:48+03:00"
 }
