@@ -1,35 +1,5 @@
 {
  "days": {
-  "2026-10-13": {
-   "lunch": {
-    "items": [
-     {
-      "img": "dishes/4782e4b30f.jpg",
-      "kcal": 140,
-      "key": "4782e4b30f",
-      "name": "Şehriye Çorba"
-     },
-     {
-      "kcal": 400,
-      "key": "1e3a81be4a",
-      "name": "Mantarlı Tavuk Sote"
-     },
-     {
-      "img": "dishes/2356abfde0.jpg",
-      "kcal": 275,
-      "key": "2356abfde0",
-      "name": "Sebzeli Bulgur Pilavı"
-     },
-     {
-      "img": "dishes/16b5c22561.jpg",
-      "kcal": 90,
-      "key": "16b5c22561",
-      "name": "Ayran"
-     }
-    ],
-    "kcal": 905
-   }
-  },
   "2026-10-14": {
    "lunch": {
     "items": [
@@ -994,5 +964,5 @@
   }
  },
  "university": "trabzon",
- "updated": "2026-11-27T15:23:48+03:00"
+ "updated": "2026-11-28T02:28:39+03:00"
 }

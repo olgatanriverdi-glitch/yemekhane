@@ -458,8 +458,33 @@
     ],
     "kcal": 974
    }
+  },
+  "2026-11-30": {
+   "lunch": {
+    "items": [
+     {
+      "img": "dishes/bf8474c8b9.jpg",
+      "key": "bf8474c8b9",
+      "name": "Ezogelin Çorba"
+     },
+     {
+      "img": "dishes/078c778ebe.jpg",
+      "key": "078c778ebe",
+      "name": "Et Döner"
+     },
+     {
+      "key": "1e38c02e03",
+      "name": "Tel.Şehiriyeli Pirinç Pilavı"
+     },
+     {
+      "img": "dishes/16b5c22561.jpg",
+      "key": "16b5c22561",
+      "name": "Ayran"
+     }
+    ]
+   }
   }
  },
  "university": "agri",
- "updated": "2026-11-27T15:23:48+03:00"
+ "updated": "2026-11-28T02:28:39+03:00"
 }

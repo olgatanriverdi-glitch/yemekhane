@@ -1,60 +1,5 @@
 {
  "days": {
-  "2026-10-13": {
-   "dinner": {
-    "items": [
-     {
-      "kcal": 167,
-      "key": "bc0244e55a",
-      "name": "Balkan Çorba"
-     },
-     {
-      "kcal": 460,
-      "key": "30e2ac32ea",
-      "name": "Macar Köfte"
-     },
-     {
-      "kcal": 156,
-      "key": "79223e63f4",
-      "name": "Pancarlı Şehriye Salatası"
-     },
-     {
-      "img": "dishes/16b5c22561.jpg",
-      "kcal": 65,
-      "key": "16b5c22561",
-      "name": "Ayran"
-     }
-    ],
-    "kcal": 848
-   },
-   "lunch": {
-    "items": [
-     {
-      "kcal": 167,
-      "key": "bc0244e55a",
-      "name": "Balkan Çorba"
-     },
-     {
-      "kcal": 201,
-      "key": "94d630323c",
-      "name": "Etli Sebze Sote"
-     },
-     {
-      "img": "dishes/7f63837141.jpg",
-      "kcal": 367,
-      "key": "7f63837141",
-      "name": "Naneli Bulgur Pilavı"
-     },
-     {
-      "img": "dishes/16b5c22561.jpg",
-      "kcal": 65,
-      "key": "16b5c22561",
-      "name": "Ayran"
-     }
-    ],
-    "kcal": 800
-   }
-  },
   "2026-10-14": {
    "dinner": {
     "items": [
@@ -1540,6 +1485,7 @@
       "name": "Domates Çorba"
      },
      {
+      "img": "dishes/9256d173ae.jpg",
       "kcal": 124,
       "key": "9256d173ae",
       "name": "Yeşil Mercimek Yemeği"
@@ -2776,5 +2722,5 @@
   }
  },
  "university": "odtu",
- "updated": "2026-11-27T15:23:48+03:00"
+ "updated": "2026-11-28T02:28:39+03:00"
 }

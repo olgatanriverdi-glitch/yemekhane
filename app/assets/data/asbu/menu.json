@@ -1,72 +1,5 @@
 {
  "days": {
-  "2026-10-13": {
-   "lunch": {
-    "items": [
-     {
-      "kcal": 190,
-      "key": "7e85f5098f",
-      "name": "Köylü Çorba"
-     },
-     {
-      "kcal": 325,
-      "key": "fa093d6a50",
-      "name": "Fırın Balık"
-     },
-     {
-      "img": "dishes/b9acf9d277.jpg",
-      "kcal": 250,
-      "key": "b9acf9d277",
-      "name": "Kalem Börek"
-     },
-     {
-      "kcal": 55,
-      "key": "4296eb7fda",
-      "name": "Roka Salata"
-     },
-     {
-      "img": "dishes/244e9e2e55.jpg",
-      "kcal": 197,
-      "key": "244e9e2e55",
-      "name": "Tahin Helva"
-     }
-    ],
-    "kcal": 1017
-   },
-   "vegetarian": {
-    "items": [
-     {
-      "kcal": 190,
-      "key": "7e85f5098f",
-      "name": "Köylü Çorba"
-     },
-     {
-      "img": "dishes/6bdddb27f8.jpg",
-      "kcal": 108,
-      "key": "6bdddb27f8",
-      "name": "Etsiz Türlü"
-     },
-     {
-      "img": "dishes/b9acf9d277.jpg",
-      "kcal": 250,
-      "key": "b9acf9d277",
-      "name": "Kalem Börek"
-     },
-     {
-      "kcal": 55,
-      "key": "4296eb7fda",
-      "name": "Roka Salata"
-     },
-     {
-      "img": "dishes/244e9e2e55.jpg",
-      "kcal": 197,
-      "key": "244e9e2e55",
-      "name": "Tahin Helva"
-     }
-    ],
-    "kcal": 800
-   }
-  },
   "2026-10-14": {
    "lunch": {
     "items": [
@@ -2185,10 +2118,9 @@
    "lunch": {
     "items": [
      {
-      "img": "dishes/4782e4b30f.jpg",
       "kcal": 110,
-      "key": "4782e4b30f",
-      "name": "Şehriye Çorba"
+      "key": "4b3d5c6e58",
+      "name": "Şeriye Çorba"
      },
      {
       "img": "dishes/42118e717c.jpg",
@@ -2213,35 +2145,9 @@
       "kcal": 20,
       "key": "ec0228f614",
       "name": "Turşu"
-     },
-     {
-      "kcal": 75,
-      "key": "d99a296b22",
-      "name": "Vf-Şehriye Çorba"
-     },
-     {
-      "kcal": 157,
-      "key": "231fb64d84",
-      "name": "Vf-Bezelye Yemeği"
-     },
-     {
-      "img": "dishes/7ca2c4f534.jpg",
-      "kcal": 242,
-      "key": "7ca2c4f534",
-      "name": "Vf-Domatesli Bulgur Pilavı"
-     },
-     {
-      "kcal": 152,
-      "key": "31485c8db7",
-      "name": "Vf-Ayran"
-     },
-     {
-      "kcal": 20,
-      "key": "57b3e1fa54",
-      "name": "Vf-Turşu"
      }
     ],
-    "kcal": 1470
+    "kcal": 824
    },
    "vegetarian": {
     "items": [
@@ -2347,5 +2253,5 @@
   }
  },
  "university": "asbu",
- "updated": "2026-11-27T15:23:48+03:00"
+ "updated": "2026-11-28T02:28:39+03:00"
 }

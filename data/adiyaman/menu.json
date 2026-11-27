@@ -1006,9 +1006,8 @@
    "dinner": {
     "items": [
      {
-      "img": "dishes/71fa1d932e.jpg",
-      "key": "71fa1d932e",
-      "name": "Pilav Üzeri Tavuk Döner"
+      "key": "8283db59c9",
+      "name": "Kavurmalı Ispanaklı Hıtap"
      },
      {
       "img": "dishes/d61d397136.jpg",
@@ -1026,33 +1025,35 @@
       "name": "Ayran"
      }
     ],
-    "kcal": 676
+    "kcal": 900
    },
    "lunch": {
     "items": [
      {
-      "img": "dishes/025eacfe0c.jpg",
-      "key": "025eacfe0c",
-      "name": "Etli Taze Fasulye"
+      "img": "dishes/71fa1d932e.jpg",
+      "key": "71fa1d932e",
+      "name": "Pilav Üzeri Tavuk Döner"
      },
      {
-      "key": "8636bfbc0a",
-      "name": "Pirinç Pilavı"
+      "img": "dishes/22dd093862.jpg",
+      "key": "22dd093862",
+      "name": "Mercimek Çorba"
      },
      {
-      "key": "ec9cd882ff",
-      "name": "Süleymaniye Çorba"
+      "img": "dishes/c96fd73d5f.jpg",
+      "key": "c96fd73d5f",
+      "name": "Salata"
      },
      {
-      "img": "dishes/de8670087d.jpg",
-      "key": "de8670087d",
-      "name": "Baklava"
+      "img": "dishes/16b5c22561.jpg",
+      "key": "16b5c22561",
+      "name": "Ayran"
      }
     ],
-    "kcal": 1534
+    "kcal": 676
    }
   }
  },
  "university": "adiyaman",
- "updated": "2026-11-27T15:23:48+03:00"
+ "updated": "2026-11-28T02:28:39+03:00"
 }

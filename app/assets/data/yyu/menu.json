@@ -574,10 +574,10 @@
       "name": "Şehriye Çorbası"
      },
      {
-      "img": "dishes/2aa34eaccb.jpg",
+      "img": "dishes/a62be86852.jpg",
       "kcal": 300,
-      "key": "2aa34eaccb",
-      "name": "Tavuk Döner/Savaş"
+      "key": "a62be86852",
+      "name": "Tavuk Döner/Lavaş"
      },
      {
       "img": "dishes/18ccb4d264.jpg",
@@ -627,5 +627,5 @@
   }
  },
  "university": "yyu",
- "updated": "2026-11-27T15:23:48+03:00"
+ "updated": "2026-11-28T02:28:39+03:00"
 }

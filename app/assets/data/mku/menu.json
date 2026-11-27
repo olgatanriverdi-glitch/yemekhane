@@ -565,6 +565,35 @@
     "kcal": 730
    }
   },
+  "2026-11-27": {
+   "lunch": {
+    "items": [
+     {
+      "img": "dishes/0955218757.jpg",
+      "kcal": 180,
+      "key": "0955218757",
+      "name": "Mercimek Çorbası"
+     },
+     {
+      "kcal": 400,
+      "key": "8f76214279",
+      "name": "Tavuk Tantuni"
+     },
+     {
+      "kcal": 285,
+      "key": "8db13541fa",
+      "name": "Patates Kızartma"
+     },
+     {
+      "img": "dishes/16b5c22561.jpg",
+      "kcal": 80,
+      "key": "16b5c22561",
+      "name": "Ayran"
+     }
+    ],
+    "kcal": 945
+   }
+  },
   "2026-11-30": {
    "lunch": {
     "items": [
@@ -598,5 +627,5 @@
   }
  },
  "university": "mku",
- "updated": "2026-11-27T15:23:48+03:00"
+ "updated": "2026-11-28T02:28:39+03:00"
 }

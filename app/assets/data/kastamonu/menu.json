@@ -1,35 +1,5 @@
 {
  "days": {
-  "2026-11-27": {
-   "lunch": {
-    "items": [
-     {
-      "kcal": 114,
-      "key": "7e85f5098f",
-      "name": "Köylü Çorba"
-     },
-     {
-      "img": "dishes/694df91308.jpg",
-      "kcal": 246,
-      "key": "694df91308",
-      "name": "İzmir Köfte"
-     },
-     {
-      "img": "dishes/2356abfde0.jpg",
-      "kcal": 219,
-      "key": "2356abfde0",
-      "name": "Sebzeli Bulgur Pilavı"
-     },
-     {
-      "img": "dishes/44abc36c0c.jpg",
-      "kcal": 532,
-      "key": "44abc36c0c",
-      "name": "İrmik Helvası"
-     }
-    ],
-    "kcal": 1111
-   }
-  },
   "2026-11-30": {
    "lunch": {
     "items": [
@@ -61,5 +31,5 @@
   }
  },
  "university": "kastamonu",
- "updated": "2026-11-27T15:23:48+03:00"
+ "updated": "2026-11-28T02:28:39+03:00"
 }

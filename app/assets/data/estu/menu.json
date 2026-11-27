@@ -674,6 +674,7 @@
       "name": "Yayla Çorba"
      },
      {
+      "img": "dishes/9256d173ae.jpg",
       "kcal": 250,
       "key": "9256d173ae",
       "name": "Yeşil Mercimek Yemeği"
@@ -1313,5 +1314,5 @@
   }
  },
  "university": "estu",
- "updated": "2026-11-27T15:23:48+03:00"
+ "updated": "2026-11-28T02:28:39+03:00"
 }

@@ -472,9 +472,9 @@
       "name": "Mantarlı Tavuk Sote"
      },
      {
-      "img": "dishes/c12508390a.jpg",
-      "key": "c12508390a",
-      "name": "Peynirli Gül Böreği"
+      "img": "dishes/53e350c35e.jpg",
+      "key": "53e350c35e",
+      "name": "Peynirli Kol Böreği"
      },
      {
       "img": "dishes/bf8474c8b9.jpg",
@@ -616,5 +616,5 @@
   }
  },
  "university": "gibtu",
- "updated": "2026-11-27T15:23:48+03:00"
+ "updated": "2026-11-28T02:28:39+03:00"
 }

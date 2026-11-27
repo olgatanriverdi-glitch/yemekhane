@@ -1,29 +1,5 @@
 {
  "days": {
-  "2026-11-27": {
-   "lunch": {
-    "items": [
-     {
-      "key": "e47540f7f5",
-      "name": "Domates Çorbası"
-     },
-     {
-      "key": "21f587ae09",
-      "name": "Pilav Üstü Et Kavurma"
-     },
-     {
-      "img": "dishes/6481a77c76.jpg",
-      "key": "6481a77c76",
-      "name": "Barbunya Pilaki"
-     },
-     {
-      "img": "dishes/16b5c22561.jpg",
-      "key": "16b5c22561",
-      "name": "Ayran"
-     }
-    ]
-   }
-  },
   "2026-11-30": {
    "lunch": {
     "items": [
@@ -146,5 +122,5 @@
   }
  },
  "university": "mugla",
- "updated": "2026-11-27T15:23:48+03:00"
+ "updated": "2026-11-28T02:28:39+03:00"
 }

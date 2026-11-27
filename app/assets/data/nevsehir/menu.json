@@ -722,9 +722,8 @@
       "name": "Düğün Çorbası"
      },
      {
-      "img": "dishes/bd571c7d2a.jpg",
-      "key": "bd571c7d2a",
-      "name": "Fırın Tavuk"
+      "key": "63eb4c61a8",
+      "name": "Çıtır Tavuk"
      },
      {
       "key": "8636bfbc0a",
@@ -871,5 +870,5 @@
   }
  },
  "university": "nevsehir",
- "updated": "2026-11-27T15:23:48+03:00"
+ "updated": "2026-11-28T02:28:39+03:00"
 }

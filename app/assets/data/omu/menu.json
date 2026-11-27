@@ -1,31 +1,5 @@
 {
  "days": {
-  "2026-10-13": {
-   "lunch": {
-    "items": [
-     {
-      "img": "dishes/154f53ef81.jpg",
-      "key": "154f53ef81",
-      "name": "Düğün Çorba"
-     },
-     {
-      "img": "dishes/aa2ae41dc4.jpg",
-      "key": "aa2ae41dc4",
-      "name": "Pilavüstü Fırın Tavuk"
-     },
-     {
-      "img": "dishes/23ce7fb038.jpg",
-      "key": "23ce7fb038",
-      "name": "Zeytinyağlı Yoğurtlu Brokoli"
-     },
-     {
-      "img": "dishes/53c2975a6e.jpg",
-      "key": "53c2975a6e",
-      "name": "Aşure"
-     }
-    ]
-   }
-  },
   "2026-10-14": {
    "lunch": {
     "items": [
@@ -674,5 +648,5 @@
   }
  },
  "university": "omu",
- "updated": "2026-11-27T15:23:48+03:00"
+ "updated": "2026-11-28T02:28:39+03:00"
 }

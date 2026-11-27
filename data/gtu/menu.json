@@ -1,58 +1,5 @@
 {
  "days": {
-  "2026-10-13": {
-   "lunch": {
-    "items": [
-     {
-      "img": "dishes/bf8474c8b9.jpg",
-      "kcal": 227,
-      "key": "bf8474c8b9",
-      "name": "Ezogelin Çorba"
-     },
-     {
-      "img": "dishes/0d8c09beed.jpg",
-      "kcal": 256,
-      "key": "0d8c09beed",
-      "name": "Etli Taze Fasülye"
-     },
-     {
-      "img": "dishes/9f371b0753.jpg",
-      "kcal": 397,
-      "key": "9f371b0753",
-      "name": "Arpa Şehriye Pilav"
-     },
-     {
-      "img": "dishes/08bbc9e902.jpg",
-      "kcal": 453,
-      "key": "08bbc9e902",
-      "name": "Pesto Soslu Makarna"
-     },
-     {
-      "kcal": 476,
-      "key": "6e3beecb0e",
-      "name": "Bisküvi Pastası"
-     },
-     {
-      "img": "dishes/feba5fe940.jpg",
-      "kcal": 153,
-      "key": "feba5fe940",
-      "name": "Zeytinyağlı Barbunya"
-     },
-     {
-      "kcal": 81,
-      "key": "d54f07080c",
-      "name": "Ege Salata"
-     },
-     {
-      "img": "dishes/2f58be7b7a.jpg",
-      "kcal": 105,
-      "key": "2f58be7b7a",
-      "name": "Cacık"
-     }
-    ],
-    "kcal": 2148
-   }
-  },
   "2026-10-14": {
    "lunch": {
     "items": [
@@ -1149,5 +1096,5 @@
   }
  },
  "university": "gtu",
- "updated": "2026-11-27T15:23:48+03:00"
+ "updated": "2026-11-28T02:28:39+03:00"
 }
