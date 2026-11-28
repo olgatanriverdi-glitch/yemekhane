@@ -1,110 +1,5 @@
 {
  "days": {
-  "2026-11-25": {
-   "breakfast": {
-    "items": [
-     {
-      "img": "dishes/22605468a2.jpg",
-      "key": "22605468a2",
-      "name": "Çay"
-     },
-     {
-      "key": "f7b84ad85a",
-      "name": "Meyve Suyu"
-     },
-     {
-      "img": "dishes/bff26db9ff.jpg",
-      "key": "bff26db9ff",
-      "name": "Süt"
-     },
-     {
-      "key": "bd44353672",
-      "name": "Bal-Tereyağı"
-     },
-     {
-      "img": "dishes/8690d4fe86.jpg",
-      "key": "8690d4fe86",
-      "name": "Beyaz Peynir"
-     },
-     {
-      "key": "8c8e8ca62a",
-      "name": "Kaşarlı Poğaça"
-     },
-     {
-      "img": "dishes/a402a42c08.jpg",
-      "key": "a402a42c08",
-      "name": "Yeşil Zeytin"
-     }
-    ]
-   },
-   "dinner": {
-    "items": [
-     {
-      "img": "dishes/4fb733faf2.jpg",
-      "key": "4fb733faf2",
-      "name": "Ezogelin Çorbası"
-     },
-     {
-      "key": "8ee79d3739",
-      "name": "Piliç Roti (Elma Dilim Patates Garnili)"
-     },
-     {
-      "key": "fa4decda6a",
-      "name": "Şehriyeli Pirinç Pilavı"
-     },
-     {
-      "img": "dishes/9c8d655ef5.jpg",
-      "key": "9c8d655ef5",
-      "name": "Yoğurt"
-     }
-    ]
-   },
-   "lunch": {
-    "items": [
-     {
-      "img": "dishes/4fb733faf2.jpg",
-      "key": "4fb733faf2",
-      "name": "Ezogelin Çorbası"
-     },
-     {
-      "key": "8ee79d3739",
-      "name": "Piliç Roti (Elma Dilim Patates Garnili)"
-     },
-     {
-      "key": "fa4decda6a",
-      "name": "Şehriyeli Pirinç Pilavı"
-     },
-     {
-      "img": "dishes/9c8d655ef5.jpg",
-      "key": "9c8d655ef5",
-      "name": "Yoğurt"
-     }
-    ]
-   },
-   "vegetarian": {
-    "items": [
-     {
-      "img": "dishes/4fb733faf2.jpg",
-      "key": "4fb733faf2",
-      "name": "Ezogelin Çorbası"
-     },
-     {
-      "img": "dishes/07539d3f17.jpg",
-      "key": "07539d3f17",
-      "name": "İmam Bayıldı"
-     },
-     {
-      "key": "8636bfbc0a",
-      "name": "Pirinç Pilavı"
-     },
-     {
-      "img": "dishes/cc9b620496.jpg",
-      "key": "cc9b620496",
-      "name": "Ekmek Kadayıfı"
-     }
-    ]
-   }
-  },
   "2026-11-26": {
    "breakfast": {
     "items": [
@@ -191,6 +86,7 @@
    "vegetarian": {
     "items": [
      {
+      "img": "dishes/e47540f7f5.jpg",
       "key": "e47540f7f5",
       "name": "Domates Çorbası"
      },
@@ -1063,6 +959,7 @@
    "vegetarian": {
     "items": [
      {
+      "img": "dishes/e47540f7f5.jpg",
       "key": "e47540f7f5",
       "name": "Domates Çorbası"
      },
@@ -1485,6 +1382,7 @@
    "vegetarian": {
     "items": [
      {
+      "img": "dishes/e47540f7f5.jpg",
       "key": "e47540f7f5",
       "name": "Domates Çorbası"
      },
@@ -2134,6 +2032,7 @@
       "name": "Tel Şehriye Çorbası"
      },
      {
+      "img": "dishes/9256d173ae.jpg",
       "key": "9256d173ae",
       "name": "Yeşil Mercimek Yemeği"
      },
@@ -2448,6 +2347,7 @@
    "vegetarian": {
     "items": [
      {
+      "img": "dishes/e47540f7f5.jpg",
       "key": "e47540f7f5",
       "name": "Domates Çorbası"
      },
@@ -2897,5 +2797,5 @@
   }
  },
  "university": "iu",
- "updated": "2026-11-28T02:28:39+03:00"
+ "updated": "2026-11-28T14:47:45+03:00"
 }

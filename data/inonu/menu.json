@@ -104,6 +104,7 @@
       "name": "Pirinç Pilavı (Zerdeçallı)"
      },
      {
+      "img": "dishes/e47540f7f5.jpg",
       "kcal": 160,
       "key": "e47540f7f5",
       "name": "Domates Çorbası"
@@ -536,6 +537,7 @@
       "name": "Pirinç Pilavı (Erişteli)"
      },
      {
+      "img": "dishes/e47540f7f5.jpg",
       "kcal": 160,
       "key": "e47540f7f5",
       "name": "Domates Çorbası"
@@ -697,5 +699,5 @@
   }
  },
  "university": "inonu",
- "updated": "2026-11-28T02:28:39+03:00"
+ "updated": "2026-11-28T14:47:45+03:00"
 }

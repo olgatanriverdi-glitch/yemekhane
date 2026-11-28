@@ -1,65 +1,5 @@
 {
  "days": {
-  "2026-11-26": {
-   "dinner": {
-    "items": [
-     {
-      "img": "dishes/23d0bb7dd1.jpg",
-      "key": "23d0bb7dd1",
-      "name": "Sebzeli Mantar Çorbası"
-     },
-     {
-      "img": "dishes/890b8e3990.jpg",
-      "key": "890b8e3990",
-      "name": "Etli Nohut"
-     },
-     {
-      "key": "8636bfbc0a",
-      "name": "Pirinç Pilavı"
-     },
-     {
-      "img": "dishes/099956f884.jpg",
-      "key": "099956f884",
-      "name": "Cevizli Tel Kadayıf"
-     },
-     {
-      "img": "dishes/e430bca6db.jpg",
-      "key": "e430bca6db",
-      "name": "Haydari"
-     }
-    ]
-   },
-   "lunch": {
-    "items": [
-     {
-      "key": "ba810116bb",
-      "name": "Andaloz Çorbası"
-     },
-     {
-      "key": "63eb4c61a8",
-      "name": "Çıtır Tavuk"
-     },
-     {
-      "img": "dishes/1e892f0974.jpg",
-      "key": "1e892f0974",
-      "name": "Sebzeli Arpa Şehriye Pilavı"
-     },
-     {
-      "img": "dishes/3201b259e1.jpg",
-      "key": "3201b259e1",
-      "name": "Gazoz"
-     },
-     {
-      "key": "de84c155eb",
-      "name": "Rus Salatası"
-     },
-     {
-      "key": "124297d670",
-      "name": "Garnitür Patates Kızartması"
-     }
-    ]
-   }
-  },
   "2026-11-27": {
    "dinner": {
     "items": [
@@ -1071,5 +1011,5 @@
   }
  },
  "university": "itu",
- "updated": "2026-11-28T02:28:39+03:00"
+ "updated": "2026-11-28T14:47:45+03:00"
 }

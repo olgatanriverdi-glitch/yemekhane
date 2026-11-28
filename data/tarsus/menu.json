@@ -4,6 +4,7 @@
    "lunch": {
     "items": [
      {
+      "img": "dishes/e47540f7f5.jpg",
       "key": "e47540f7f5",
       "name": "Domates Çorbası"
      },
@@ -149,6 +150,7 @@
    "lunch": {
     "items": [
      {
+      "img": "dishes/e47540f7f5.jpg",
       "key": "e47540f7f5",
       "name": "Domates Çorbası"
      },
@@ -465,6 +467,7 @@
    "lunch": {
     "items": [
      {
+      "img": "dishes/e47540f7f5.jpg",
       "key": "e47540f7f5",
       "name": "Domates Çorbası"
      },
@@ -524,6 +527,7 @@
    "lunch": {
     "items": [
      {
+      "img": "dishes/e47540f7f5.jpg",
       "key": "e47540f7f5",
       "name": "Domates Çorbası"
      },
@@ -609,5 +613,5 @@
   }
  },
  "university": "tarsus",
- "updated": "2026-11-28T02:28:39+03:00"
+ "updated": "2026-11-28T14:47:45+03:00"
 }

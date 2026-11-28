@@ -1,131 +1,5 @@
 {
  "days": {
-  "2026-11-25": {
-   "breakfast": {
-    "items": [
-     {
-      "img": "dishes/22605468a2.jpg",
-      "key": "22605468a2",
-      "name": "Çay"
-     },
-     {
-      "img": "dishes/ebfeabaf2c.jpg",
-      "key": "ebfeabaf2c",
-      "name": "Poğaça"
-     },
-     {
-      "img": "dishes/a76e528356.jpg",
-      "key": "a76e528356",
-      "name": "Haşlanmış Yumurta"
-     },
-     {
-      "key": "824940a544",
-      "name": "Üçgen Peynir"
-     },
-     {
-      "img": "dishes/4e61a66308.jpg",
-      "key": "4e61a66308",
-      "name": "Domates"
-     },
-     {
-      "key": "f6e1b2f63d",
-      "name": "Salatalık"
-     },
-     {
-      "key": "9e8512d0f7",
-      "name": "Siyah Zeytin"
-     },
-     {
-      "key": "2b1abf323c",
-      "name": "Tereyağ-Reçel"
-     },
-     {
-      "img": "dishes/a0edd2dd45.jpg",
-      "key": "a0edd2dd45",
-      "name": "Ekmek"
-     }
-    ]
-   },
-   "dinner": {
-    "items": [
-     {
-      "kcal": 200,
-      "key": "fce91b9059",
-      "name": "Alaca Çorbası"
-     },
-     {
-      "kcal": 408,
-      "key": "83bbf54b22",
-      "name": "Yoğ. Kıymalı Ispanak"
-     },
-     {
-      "kcal": 343,
-      "key": "dc17559ef7",
-      "name": "Patatesli Börek"
-     },
-     {
-      "img": "dishes/2cadfd988f.jpg",
-      "kcal": 211,
-      "key": "2cadfd988f",
-      "name": "Hoşaf"
-     }
-    ],
-    "kcal": 1162
-   },
-   "lunch": {
-    "items": [
-     {
-      "kcal": 200,
-      "key": "fce91b9059",
-      "name": "Alaca Çorbası"
-     },
-     {
-      "kcal": 408,
-      "key": "83bbf54b22",
-      "name": "Yoğ. Kıymalı Ispanak"
-     },
-     {
-      "kcal": 343,
-      "key": "dc17559ef7",
-      "name": "Patatesli Börek"
-     },
-     {
-      "img": "dishes/2cadfd988f.jpg",
-      "kcal": 211,
-      "key": "2cadfd988f",
-      "name": "Hoşaf"
-     }
-    ],
-    "kcal": 1162
-   },
-   "vegetarian": {
-    "items": [
-     {
-      "kcal": 200,
-      "key": "fce91b9059",
-      "name": "Alaca Çorbası"
-     },
-     {
-      "img": "dishes/848c4f7aba.jpg",
-      "kcal": 308,
-      "key": "848c4f7aba",
-      "name": "Etsiz Ispanak"
-     },
-     {
-      "kcal": 452,
-      "key": "99f4bc2075",
-      "name": "Cevizli Erişte"
-     },
-     {
-      "img": "dishes/2cadfd988f.jpg",
-      "kcal": 211,
-      "key": "2cadfd988f",
-      "name": "Hoşaf"
-     }
-    ],
-    "kcal": 1171
-   }
-  },
   "2026-11-26": {
    "breakfast": {
     "items": [
@@ -574,6 +448,7 @@
    "dinner": {
     "items": [
      {
+      "img": "dishes/e47540f7f5.jpg",
       "kcal": 245,
       "key": "e47540f7f5",
       "name": "Domates Çorbası"
@@ -601,6 +476,7 @@
    "lunch": {
     "items": [
      {
+      "img": "dishes/e47540f7f5.jpg",
       "kcal": 245,
       "key": "e47540f7f5",
       "name": "Domates Çorbası"
@@ -1104,6 +980,7 @@
    "dinner": {
     "items": [
      {
+      "img": "dishes/e47540f7f5.jpg",
       "kcal": 245,
       "key": "e47540f7f5",
       "name": "Domates Çorbası"
@@ -1130,6 +1007,7 @@
    "lunch": {
     "items": [
      {
+      "img": "dishes/e47540f7f5.jpg",
       "kcal": 245,
       "key": "e47540f7f5",
       "name": "Domates Çorbası"
@@ -2152,6 +2030,7 @@
    "dinner": {
     "items": [
      {
+      "img": "dishes/e47540f7f5.jpg",
       "kcal": 245,
       "key": "e47540f7f5",
       "name": "Domates Çorbası"
@@ -2180,6 +2059,7 @@
    "lunch": {
     "items": [
      {
+      "img": "dishes/e47540f7f5.jpg",
       "kcal": 245,
       "key": "e47540f7f5",
       "name": "Domates Çorbası"
@@ -4343,5 +4223,5 @@
   }
  },
  "university": "hacettepe",
- "updated": "2026-11-28T02:28:39+03:00"
+ "updated": "2026-11-28T14:47:45+03:00"
 }

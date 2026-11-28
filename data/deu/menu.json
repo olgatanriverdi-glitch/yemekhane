@@ -80,6 +80,7 @@
    "vegetarian": {
     "items": [
      {
+      "img": "dishes/e47540f7f5.jpg",
       "key": "e47540f7f5",
       "name": "Domates Çorbası"
      },
@@ -105,6 +106,7 @@
    "lunch": {
     "items": [
      {
+      "img": "dishes/e47540f7f5.jpg",
       "key": "e47540f7f5",
       "name": "Domates Çorbası"
      },
@@ -154,6 +156,7 @@
    "lunch": {
     "items": [
      {
+      "img": "dishes/9256d173ae.jpg",
       "key": "9256d173ae",
       "name": "Yeşil Mercimek Yemeği"
      },
@@ -182,6 +185,7 @@
    "vegetarian": {
     "items": [
      {
+      "img": "dishes/9256d173ae.jpg",
       "key": "9256d173ae",
       "name": "Yeşil Mercimek Yemeği"
      },
@@ -653,6 +657,7 @@
    "lunch": {
     "items": [
      {
+      "img": "dishes/e47540f7f5.jpg",
       "key": "e47540f7f5",
       "name": "Domates Çorbası"
      },
@@ -677,6 +682,7 @@
    "vegetarian": {
     "items": [
      {
+      "img": "dishes/e47540f7f5.jpg",
       "key": "e47540f7f5",
       "name": "Domates Çorbası"
      },
@@ -1896,5 +1902,5 @@
   }
  },
  "university": "deu",
- "updated": "2026-11-28T02:28:39+03:00"
+ "updated": "2026-11-28T14:47:45+03:00"
 }

@@ -279,6 +279,7 @@
       "name": "Sebzeli Erişte Pilavı"
      },
      {
+      "img": "dishes/fb7c787a22.jpg",
       "kcal": 165,
       "key": "fb7c787a22",
       "name": "Beşamel Soslu Mısır Çorbası"
@@ -297,6 +298,7 @@
    "lunch": {
     "items": [
      {
+      "img": "dishes/d91e36366a.jpg",
       "kcal": 278,
       "key": "d91e36366a",
       "name": "Mantarlı Çoban Kavurma"
@@ -713,5 +715,5 @@
   }
  },
  "university": "cukurova",
- "updated": "2026-11-28T02:28:39+03:00"
+ "updated": "2026-11-28T14:47:45+03:00"
 }
